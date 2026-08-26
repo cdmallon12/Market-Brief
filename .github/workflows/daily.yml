@@ -1,13 +1,14 @@
 name: Build daily brief
 
 on:
-  # Weekday mornings. Cron is UTC: 11:30 UTC ≈ 6:30 AM Central (CDT) / 5:30 AM (CST).
-  # Adjust the hour if you want it earlier/later; note UTC does not shift with US DST.
+  # Every ~3 hours across the U.S. trading day, weekdays only.
+  # Cron is UTC: 8-23/3 = 8,11,14,17,20,23 UTC ≈ 3 AM–6 PM Central.
+  # (UTC does not shift with daylight saving, so the local times drift an hour
+  # between summer and winter — still fine for market coverage.)
   schedule:
-    - cron: "30 11 * * 1-5"
-  workflow_dispatch: {}      # lets you run it on demand from the Actions tab
+    - cron: "0 8-23/3 * * 1-5"
+  workflow_dispatch: {}
 
-# Allow the workflow to commit the regenerated page back to the repo.
 permissions:
   contents: write
 
@@ -20,10 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -33,9 +34,9 @@ jobs:
 
       - name: Build the brief
         env:
-          # Optional: add a free FRED key as a repo secret to auto-update the
-          # macro tiles (Fed funds, CPI, core PCE, GDP). Without it the build
-          # still works and those tiles use their snapshot values.
+          # Add a free FRED key as a repo secret (FRED_API_KEY) to auto-update
+          # the macro tiles. Without it, the build still works and those tiles
+          # use their snapshot values.
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python build.py
 
