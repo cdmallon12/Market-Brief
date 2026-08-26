@@ -3,7 +3,7 @@
     "date_line": "Wednesday · Aug 26, 2026",
     "as_of": "Auto-compiled from public sources · Aug 26, 2026",
     "compiled": "Compiled Aug 26, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-08-26T16:55:33Z"
+    "generated_utc": "2026-08-26T18:40:24Z"
   },
   "ticker": [
     {
@@ -313,6 +313,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Nonprofit Biohub, Software Firm Fundraise Up Lease 20K SF at 100-104 Fifth Avenue",
+      "when": "Aug 26",
+      "link": "https://commercialobserver.com/2026/08/biohub-fundraise-up-leases-100-104-fifth-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Queens’ Apartment Pipeline Shallowest in a Decade — But New Supply On the Way",
+      "when": "Aug 26",
+      "link": "https://commercialobserver.com/2026/08/queens-apartment-pipeline-supply/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Citadel Care Centers Lands $51M to Build Nursing Facility Near Aventura",
+      "when": "Aug 26",
+      "link": "https://commercialobserver.com/2026/08/citadel-care-centers-aventura-plaza-rehabilitation-nursing-center-pnc/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "BHI Lends $50M on SoCal Inland Empire Master-Planned Project",
       "when": "Aug 26",
       "link": "https://commercialobserver.com/2026/08/bhi-southern-california-inland-empire-master-planned-project/"
@@ -328,24 +346,6 @@
       "title": "Law Firm Nutter Expands to 11K SF at Durst’s 5 Grand Central East",
       "when": "Aug 26",
       "link": "https://commercialobserver.com/2026/08/nutter-lease-expansion-durst-5-grand-central-east/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Sheppard Takes 107K SF at In-Rel’s D.C. Redevelopment",
-      "when": "Aug 25",
-      "link": "https://commercialobserver.com/2026/08/sheppard-in-rel-dc-office/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Eliot Spitzer Gains State Approval to Redevelop 985 Fifth Avenue After Legal Bout",
-      "when": "Aug 25",
-      "link": "https://commercialobserver.com/2026/08/eliot-spitzer-demolition-approval-985-fifth-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "OCVibe Adds Five Dining Concepts to $5B SoCal District",
-      "when": "Aug 25",
-      "link": "https://commercialobserver.com/2026/08/ocvibe-dining-anaheim/"
     }
   ],
   "curve": [
