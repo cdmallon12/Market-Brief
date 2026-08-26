@@ -18,6 +18,7 @@ FRED key and implement fetch_fred() — see README "Upgrading to FRED".
 from __future__ import annotations
 import csv
 import io
+import os
 import datetime as dt
 import xml.etree.ElementTree as ET
 
@@ -265,3 +266,114 @@ def fetch_market_headlines(limit=6):
 
 def fetch_cre_headlines(limit=6):
     return _rss_items(CRE_FEEDS, limit)
+
+
+# --------------------------------------------------------------------------- #
+# FRED — authoritative macro data (needs a free API key in FRED_API_KEY)       #
+# --------------------------------------------------------------------------- #
+# Get a key at https://fredaccount.stlouisfed.org/apikeys and add it as the
+# repo secret FRED_API_KEY. Without a key, fetch_fred() returns None and the
+# macro tiles fall back to their snapshot values.
+FRED_BASE = "https://api.stlouisfed.org/fred/series/observations"
+
+
+def _fred_obs(series_id, key, limit=14):
+    """Return [(date, value_float), ...] newest-first, skipping missing points."""
+    params = {
+        "series_id": series_id, "api_key": key, "file_type": "json",
+        "sort_order": "desc", "limit": limit,
+    }
+    data = _get(FRED_BASE, params=params).json()
+    out = []
+    for o in data.get("observations", []):
+        v = o.get("value")
+        if v in (None, "", "."):
+            continue
+        try:
+            out.append((o["date"], float(v)))
+        except ValueError:
+            continue
+    return out
+
+
+def _yoy_from_index(obs):
+    """YoY % for a monthly index series: latest vs the reading 12 months back."""
+    if len(obs) >= 13:
+        return (obs[0][1] - obs[12][1]) / obs[12][1] * 100
+    return None
+
+
+def _month_label(date_str):
+    try:
+        return dt.date.fromisoformat(date_str).strftime("%b")
+    except Exception:
+        return ""
+
+
+def _quarter_label(date_str):
+    try:
+        d = dt.date.fromisoformat(date_str)
+        return f"Q{(d.month - 1) // 3 + 1}"
+    except Exception:
+        return ""
+
+
+def fetch_fred():
+    """
+    Authoritative macro values from FRED. Returns a dict (missing keys omitted)
+    or None if no API key is configured. Series:
+      DFEDTARL/U      fed funds target range (lower/upper)
+      CPIAUCSL        headline CPI index  -> YoY
+      CPILFESL        core CPI index      -> YoY
+      PCEPILFE        core PCE index      -> YoY
+      A191RL1Q225SBEA real GDP, % change SAAR (already a rate)
+    """
+    key = os.environ.get("FRED_API_KEY", "").strip()
+    if not key:
+        return None
+
+    out = {}
+    try:
+        lo = _fred_obs("DFEDTARL", key, limit=1)
+        up = _fred_obs("DFEDTARU", key, limit=1)
+        if lo and up:
+            out["fed_lower"], out["fed_upper"] = lo[0][1], up[0][1]
+    except Exception as e:
+        print(f"[warn] fred fed funds: {e}")
+
+    try:
+        cpi = _fred_obs("CPIAUCSL", key)
+        cur, prev = _yoy_from_index(cpi), _yoy_from_index(cpi[1:]) if len(cpi) > 13 else None
+        if cur is not None:
+            out["cpi"] = {"yoy": cur, "prev_yoy": prev, "month": _month_label(cpi[0][0])}
+    except Exception as e:
+        print(f"[warn] fred cpi: {e}")
+
+    try:
+        core = _fred_obs("CPILFESL", key)
+        cyoy = _yoy_from_index(core)
+        if cyoy is not None:
+            out["core_cpi"] = {"yoy": cyoy}
+    except Exception as e:
+        print(f"[warn] fred core cpi: {e}")
+
+    try:
+        pce = _fred_obs("PCEPILFE", key)
+        pyoy = _yoy_from_index(pce)
+        if pyoy is not None:
+            out["core_pce"] = {"yoy": pyoy, "month": _month_label(pce[0][0])}
+    except Exception as e:
+        print(f"[warn] fred core pce: {e}")
+
+    try:
+        gdp = _fred_obs("A191RL1Q225SBEA", key, limit=2)
+        if gdp:
+            out["gdp"] = {
+                "rate": gdp[0][1],
+                "prev": gdp[1][1] if len(gdp) > 1 else None,
+                "quarter": _quarter_label(gdp[0][0]),
+            }
+    except Exception as e:
+        print(f"[warn] fred gdp: {e}")
+
+    return out or None
