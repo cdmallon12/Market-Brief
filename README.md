@@ -45,15 +45,16 @@ static page. That's what keeps the whole thing free and serverless.
 ```
 market-brief/
 ├── build.py                     # assembles data + renders the page
+├── email_digest.py              # optional morning email (off until secrets added)
 ├── requirements.txt
 ├── data/
-│   ├── fetch.py                 # keyless data fetchers (each fails safe)
+│   ├── fetch.py                 # data fetchers (each fails safe): Stooq, Treasury, NY Fed, RSS, FRED
 │   └── fallback.json            # last-known-good snapshot (also the seed content)
 ├── templates/
 │   └── brief.html.j2            # the page (Jinja2 template of the design)
 ├── docs/
 │   └── index.html               # GENERATED output — what Pages serves
-└── .github/workflows/daily.yml  # the daily cron build
+└── .github/workflows/daily.yml  # the ~3-hourly build + optional email step
 ```
 
 ---
@@ -120,6 +121,8 @@ summer (CDT), 5:30 AM in winter (CST).
 | SOFR | [NY Fed markets API](https://markets.newyorkfed.org/api/rates/secured/sofr/last/1.json) | official overnight rate |
 | Market headlines | CNBC RSS | newest, de-duplicated |
 | CRE headlines | Commercial Observer, CRE Daily, The Real Deal, GlobeSt RSS | newest, de-duplicated |
+| Watchlist (banks + REITs) | [Stooq](https://stooq.com) daily CSV | KRE, VNQ, BXP, PLD, AVB, SPG — public-market CRE proxies |
+| Credit spreads · CRE fundamentals | FRED (needs key, below) | ICE BofA IG/HY OAS; CRE delinquency, loan volume, SLOOS lending standards |
 
 The **global GDP** figure (IMF) is a manually maintained value in
 `data/fallback.json` — the IMF publishes it only a few times a year, so update it
@@ -128,7 +131,9 @@ automated once you add a FRED key (below).
 
 ### FRED macro data — already wired in, just add a key
 
-The Fed funds target, CPI, core CPI, core PCE, and GDP tiles pull authoritative
+The macro tiles (Fed funds, CPI, core CPI, core PCE, GDP), the **Credit &
+Spreads** tab (IG/HY OAS), and the **CRE credit fundamentals** section (CRE
+delinquency, bank CRE loan volume, SLOOS lending standards) all pull authoritative
 numbers from **FRED** (the Federal Reserve's own data service) whenever a key is
 present. The fetcher (`fetch_fred()` in `data/fetch.py`) and the tile wiring are
 already built — you only supply the key:
@@ -150,7 +155,40 @@ FRED_API_KEY=your_key_here python build.py
 
 Series used (for reference): `DFEDTARL`/`DFEDTARU` (fed funds range),
 `CPIAUCSL` (CPI → YoY), `CPILFESL` (core CPI → YoY), `PCEPILFE` (core PCE → YoY),
-`A191RL1Q225SBEA` (real GDP, % SAAR).
+`A191RL1Q225SBEA` (real GDP, % SAAR), `BAMLC0A4CBBB` (IG/BBB OAS),
+`BAMLH0A0HYM2` (HY OAS), `DRCRELEXFACBS` (CRE delinquency), `CREACBM027NBOG`
+(bank CRE loans → YoY), `SUBLPDRCSN` (SLOOS CRE lending standards).
+
+---
+
+## Email digest (optional)
+
+`email_digest.py` sends a morning summary — key rates & spreads, CRE credit
+signals, and the top CRE + market headlines — after each build. It's off until
+you add the credentials, and it never breaks the page build if email fails.
+
+**Gating:** the digest sends only on the ~11:00 UTC run (≈6 AM Central), so you
+get **one email per morning**, not one per 3-hour build. A manual **Run
+workflow** always sends (handy for testing).
+
+**Turn it on** with repo secrets (**Settings → Secrets and variables → Actions**):
+
+| Secret | Required? | What it is |
+|---|---|---|
+| `DIGEST_TO` | yes | recipient address(es), comma-separated |
+| `SMTP_USER` | yes | sending address / SMTP username |
+| `SMTP_PASS` | yes | SMTP password or app password |
+| `DIGEST_FROM` | no | From address (defaults to `SMTP_USER`) |
+| `SMTP_HOST` | no | default `smtp.gmail.com` |
+| `SMTP_PORT` | no | default `465` (SSL); use `587` for STARTTLS |
+
+**Gmail setup:** turn on 2-Step Verification, then create an **App Password**
+(myaccount.google.com → Security → App passwords). Use your Gmail address as
+`SMTP_USER` and the 16-character app password as `SMTP_PASS`. (A normal Gmail
+password won't work over SMTP.)
+
+Test it: add the secrets, then **Actions → Build daily brief → Run workflow** —
+a manual run always emails. The log line reads `[ok] digest emailed to …`.
 
 ---
 

@@ -183,6 +183,81 @@ def apply_fred(ctx, f):
                 t["vl"] = f"{g['rate']:.1f}%"
                 break
 
+    # --- Credit & Spreads tab tiles (spreads never carry misleading up/down
+    #     color — a widening spread is bad, so we label "wider/tighter" instead) ---
+    ct = ctx.get("credit_tiles")
+    if ct:
+        if "bbb_oas" in f:
+            b = f["bbb_oas"]
+            ct[0]["val"], ct[0]["unit"] = f"{b['value']:.2f}", "%"
+            if b.get("prev") is not None:
+                d = b["value"] - b["prev"]
+                word = "wider" if d > 0 else ("tighter" if d < 0 else "flat")
+                ct[0]["delta"] = {"dir": 0, "txt": f"{d:+.2f}pp", "note": word}
+            if "IG OAS" in tick:
+                tick["IG OAS"]["vl"] = f"{b['value']:.2f}%"
+        if "hy_oas" in f:
+            h = f["hy_oas"]
+            ct[1]["val"], ct[1]["unit"] = f"{h['value']:.2f}", "%"
+            if h.get("prev") is not None:
+                d = h["value"] - h["prev"]
+                word = "wider" if d > 0 else ("tighter" if d < 0 else "flat")
+                ct[1]["delta"] = {"dir": 0, "txt": f"{d:+.2f}pp", "note": word}
+            if "HY OAS" in tick:
+                tick["HY OAS"]["vl"] = f"{h['value']:.2f}%"
+        if "bbb_oas" in f and "hy_oas" in f:
+            gap = f["hy_oas"]["value"] - f["bbb_oas"]["value"]
+            ct[2]["val"], ct[2]["unit"] = f"{gap:.2f}", "pp"
+            ctx["credit_chart"] = {"ig": f["bbb_oas"]["value"], "hy": f["hy_oas"]["value"]}
+
+    # --- CRE credit-fundamentals tiles (in the CRE tab) ---
+    cf = ctx.get("cre_fund_tiles")
+    if cf:
+        if "cre_delinq" in f:
+            dq = f["cre_delinq"]
+            cf[0]["val"], cf[0]["unit"] = f"{dq['value']:.2f}", "%"
+            q = dq.get("quarter") or ""
+            cf[0]["lbl"] = f"CRE Loan Delinquency · {q}" if q else "CRE Loan Delinquency"
+            if dq.get("prev") is not None:
+                d = dq["value"] - dq["prev"]
+                cf[0]["delta"] = {"dir": 0, "txt": f"{d:+.2f}pp", "note": "vs prior Q"}
+                cf[0]["tone"] = "neg" if d > 0 else ("pos" if d < 0 else "")
+        if "cre_loans" in f:
+            cl = f["cre_loans"]
+            cf[1]["val"], cf[1]["unit"] = f"${cl['value']:,.0f}", "B"
+            m = cl.get("month") or ""
+            cf[1]["lbl"] = f"Bank CRE Loans · {m}" if m else "Bank CRE Loans"
+            if cl.get("yoy") is not None:
+                cf[1]["note"] = f'<span class="mono">{cl["yoy"]:+.1f}%</span> outstanding vs. one year ago'
+        if "sloos_cre" in f:
+            s = f["sloos_cre"]
+            v = s["value"]
+            cf[2]["val"], cf[2]["unit"] = f"{v:+.1f}", ""
+            q = s.get("quarter") or ""
+            cf[2]["lbl"] = f"Bank Lending Standards · {q}" if q else "Bank Lending Standards"
+            if v > 0:
+                cf[2]["note"] = "Net share of banks <strong>tightening</strong> CRE standards"
+                cf[2]["tone"] = "neg"
+            elif v < 0:
+                cf[2]["note"] = "Net share of banks <strong>easing</strong> CRE standards"
+                cf[2]["tone"] = "pos"
+            else:
+                cf[2]["note"] = "Standards unchanged on net"
+
+
+def apply_watchlist(ctx, wl):
+    """Update the CRE watchlist rows from live Stooq quotes."""
+    if not wl:
+        return
+    for row in ctx.get("watchlist", []):
+        d = wl.get(row["code"])
+        if not d:
+            continue
+        row["price"] = f"{d['value']:,.2f}"
+        chg = d["change_pct"]
+        row["chg"] = f"{chg:+.2f}%"
+        row["dir"] = dir_of(chg)
+
 
 def apply_market_headlines(ctx, items):
     """Replace the weekly timeline with live market headlines when available."""
@@ -262,9 +337,17 @@ def gather_live(ctx, offline):
             apply_fred(ctx, fred)
             print(f"[ok] fred macro: {', '.join(fred)}")
         else:
-            print("[info] fred: no FRED_API_KEY set — macro tiles use snapshot values")
+            print("[info] fred: no FRED_API_KEY set — macro/credit tiles use snapshot values")
     except Exception as e:
         print(f"[warn] fred step: {e}")
+
+    try:
+        wl = fetch.fetch_watchlist()
+        if wl:
+            apply_watchlist(ctx, wl)
+            print(f"[ok] watchlist: {', '.join(wl)}")
+    except Exception as e:
+        print(f"[warn] watchlist step: {e}")
 
 
 def render(ctx):
@@ -279,6 +362,7 @@ def render(ctx):
         "curve": ctx["curve"],
         "gap": ctx["gap"],
         "orig": ctx["orig"],
+        "credit": ctx.get("credit_chart", {}),
     }
     html = tmpl.render(chart_data_json=json.dumps(chart_data), **ctx)
     OUT.parent.mkdir(parents=True, exist_ok=True)

@@ -154,6 +154,17 @@
   .news .src{font-family:"IBM Plex Mono",monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);white-space:nowrap;padding-top:2px;}
   .news .blurb{grid-column:1/-1;margin:3px 0 0;font-size:13px;color:var(--ink-2);}
 
+  /* Watchlist table */
+  .wl-wrap{overflow-x:auto;}
+  table.wl{width:100%;border-collapse:collapse;font-size:14px;}
+  table.wl th{text-align:left;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500;padding:0 14px 10px 0;border-bottom:1px solid var(--hair);}
+  table.wl td{padding:12px 14px 12px 0;border-bottom:1px solid var(--hair);vertical-align:baseline;}
+  table.wl tr:last-child td{border-bottom:0;}
+  table.wl th.num,table.wl td.num{text-align:right;padding-right:0;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  .wl-code{font-family:"IBM Plex Mono",monospace;font-weight:600;color:var(--ink);white-space:nowrap;}
+  .wl-desc{color:var(--ink-2);font-size:13px;}
+  .wl-foot{font-size:11px;color:var(--muted);margin:12px 0 0;}
+
   footer{border-top:1px solid var(--hair);margin-top:40px;padding:26px 0 44px;}
   footer .disc{font-size:12px;color:var(--muted);max-width:70ch;margin:0 0 16px;line-height:1.5;}
   footer .srcs{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:6px 14px;}
@@ -225,6 +236,7 @@
       <button class="tab" role="tab" id="tab-economy" aria-controls="p-economy" aria-selected="false"><span class="idx">02</span> Global Economy</button>
       <button class="tab" role="tab" id="tab-news" aria-controls="p-news" aria-selected="false"><span class="idx">03</span> Daily Headlines</button>
       <button class="tab" role="tab" id="tab-cre" aria-controls="p-cre" aria-selected="false"><span class="idx">04</span> Commercial Real Estate</button>
+      <button class="tab" role="tab" id="tab-credit" aria-controls="p-credit" aria-selected="false"><span class="idx">05</span> Credit &amp; Spreads</button>
     </div>
   </div>
 </div>
@@ -343,6 +355,35 @@
         </div>
       </div>
 
+      {%- if cre_fund_tiles %}
+      <div class="section-rule"><h3>CRE credit fundamentals</h3></div>
+      <div class="tiles">
+        {%- for t in cre_fund_tiles %}{{ tile(t) }}{% endfor %}
+      </div>
+      {%- endif %}
+
+      {%- if watchlist %}
+      <div class="section-rule"><h3>Watchlist · public-market signals</h3></div>
+      <div class="card">
+        <div class="wl-wrap">
+          <table class="wl">
+            <thead><tr><th>Ticker</th><th>Tracks</th><th class="num">Last</th><th class="num">Day</th></tr></thead>
+            <tbody>
+              {%- for w in watchlist %}
+              <tr>
+                <td class="wl-code">{{ w.code }}</td>
+                <td class="wl-desc">{{ w.desc }}</td>
+                <td class="num mono">{{ w.price }}</td>
+                <td class="num mono {% if w.dir>0 %}up{% elif w.dir<0 %}down{% endif %}">{{ w.chg }}</td>
+              </tr>
+              {%- endfor %}
+            </tbody>
+          </table>
+        </div>
+        {%- if watchlist_note %}<p class="wl-foot">{{ watchlist_note }}</p>{% endif %}
+      </div>
+      {%- endif %}
+
       {%- if cre_headlines %}
       <div class="section-rule"><h3>CRE headlines</h3></div>
       <div class="card">
@@ -355,6 +396,31 @@
       {%- if cre.callout %}
       <div class="callout" style="margin-top:22px"><p>{{ cre.callout|safe }}</p></div>
       {%- endif %}
+    </section>
+
+    <!-- CREDIT & SPREADS -->
+    <section class="panel" id="p-credit" role="tabpanel" aria-labelledby="tab-credit" hidden>
+      <div class="lede">
+        <p class="eyebrow">Credit &amp; Spreads · Cost of Debt</p>
+        <h2>{{ credit.headline }}</h2>
+        <p>{{ credit.standfirst|safe }}</p>
+      </div>
+      <div class="tiles">
+        {%- for t in credit_tiles %}{{ tile(t) }}{% endfor %}
+      </div>
+      <div class="section-rule"><h3>Spread comparison</h3></div>
+      <div class="grid-2">
+        <div class="card">
+          <h4>Option-adjusted spreads</h4>
+          <p class="csub">Investment-grade vs. high-yield, over Treasuries</p>
+          <svg class="chart" id="chart-credit" viewBox="0 0 520 260" role="img" aria-label="Investment-grade versus high-yield option-adjusted spreads"></svg>
+        </div>
+        <div class="card prose" style="max-width:none">
+          <h4>{{ credit.card_title }}</h4>
+          <p class="csub">{{ credit.card_sub }}</p>
+          {%- for para in credit.card_body %}<p>{{ para|safe }}</p>{% endfor %}
+        </div>
+      </div>
     </section>
 
   </div>
@@ -391,7 +457,7 @@
 
   /* Tabs */
   var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
-  var panels = {'tab-markets':'p-markets','tab-economy':'p-economy','tab-news':'p-news','tab-cre':'p-cre'};
+  var panels = {'tab-markets':'p-markets','tab-economy':'p-economy','tab-news':'p-news','tab-cre':'p-cre','tab-credit':'p-credit'};
   var drawn = {};
   function activate(id){
     tabs.forEach(function(t){
@@ -402,6 +468,7 @@
       if(on){ p.removeAttribute('hidden'); } else { p.setAttribute('hidden',''); }
     });
     if(id==='tab-cre' && !drawn.cre){ drawCRE(); drawn.cre = true; }
+    if(id==='tab-credit' && !drawn.credit){ drawCredit(); drawn.credit = true; }
     try{ localStorage.setItem('sb-tab', id); }catch(e){}
   }
   tabs.forEach(function(t){
@@ -513,10 +580,19 @@
       {name:'2026',sub:'forecast',v:o.y2026,label:'$'+o.y2026.toFixed(1)+'B',color:cssv('--s1'),hatch:true}
     ],{max:Math.ceil(Math.max(o.y2025,o.y2026)/100)*100+100,ticks:3,gap:0.5,mt:28,ml:52,fmtY:function(v){return '$'+Math.round(v)+'B';}});
   }
+  function drawCredit(){
+    var c=BD.credit||{ig:0,hy:0};
+    var mx=Math.max(1,Math.ceil(Math.max(c.ig,c.hy)))+1;
+    drawBars('chart-credit',[
+      {name:'Investment-grade',sub:'BBB',v:c.ig,label:c.ig.toFixed(2)+'%',color:cssv('--s1-soft')},
+      {name:'High-yield',sub:'BB & below',v:c.hy,label:c.hy.toFixed(2)+'%',color:cssv('--s1')}
+    ],{max:mx,ticks:mx,gap:0.5,mt:28,fmtY:function(v){return v.toFixed(0)+'%';}});
+  }
   function drawCRE(){ drawCurve(); drawGap(); drawOrig(); }
-  function redraw(){ if(drawn.cre){ drawCRE(); } }
+  function redraw(){ if(drawn.cre){ drawCRE(); } if(drawn.credit){ drawCredit(); } }
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', redraw);
   if(document.getElementById('p-cre').classList.contains('active')){ drawCRE(); drawn.cre=true; }
+  if(document.getElementById('p-credit').classList.contains('active')){ drawCredit(); drawn.credit=true; }
 })();
 </script>
 </body>

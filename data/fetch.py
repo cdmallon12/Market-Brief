@@ -376,4 +376,74 @@ def fetch_fred():
     except Exception as e:
         print(f"[warn] fred gdp: {e}")
 
+    # --- Credit spreads (ICE BofA option-adjusted spreads, via FRED; daily) --- #
+    try:
+        bbb = _fred_obs("BAMLC0A4CBBB", key, limit=2)   # investment-grade (BBB) OAS
+        if bbb:
+            out["bbb_oas"] = {"value": bbb[0][1], "prev": bbb[1][1] if len(bbb) > 1 else None}
+    except Exception as e:
+        print(f"[warn] fred bbb oas: {e}")
+    try:
+        hy = _fred_obs("BAMLH0A0HYM2", key, limit=2)    # high-yield OAS
+        if hy:
+            out["hy_oas"] = {"value": hy[0][1], "prev": hy[1][1] if len(hy) > 1 else None}
+    except Exception as e:
+        print(f"[warn] fred hy oas: {e}")
+
+    # --- CRE credit fundamentals (all FRED) --- #
+    try:
+        dq = _fred_obs("DRCRELEXFACBS", key, limit=2)   # CRE delinquency rate, banks (quarterly)
+        if dq:
+            out["cre_delinq"] = {"value": dq[0][1],
+                                 "prev": dq[1][1] if len(dq) > 1 else None,
+                                 "quarter": _quarter_label(dq[0][0])}
+    except Exception as e:
+        print(f"[warn] fred cre delinquency: {e}")
+    try:
+        loans = _fred_obs("CREACBM027NBOG", key)        # CRE loans outstanding, banks ($B, monthly)
+        if loans:
+            out["cre_loans"] = {"value": loans[0][1],
+                                "yoy": _yoy_from_index(loans),
+                                "month": _month_label(loans[0][0])}
+    except Exception as e:
+        print(f"[warn] fred cre loans: {e}")
+    try:
+        sloos = _fred_obs("SUBLPDRCSN", key, limit=1)   # SLOOS CRE (nonfarm nonres) net % tightening
+        if sloos:
+            out["sloos_cre"] = {"value": sloos[0][1], "quarter": _quarter_label(sloos[0][0])}
+    except Exception as e:
+        print(f"[warn] fred sloos cre: {e}")
+
     return out or None
+
+
+# --------------------------------------------------------------------------- #
+# Watchlist — public-market CRE proxies (Stooq, keyless)                        #
+# --------------------------------------------------------------------------- #
+# Public equities price CRE stress in real time and often lead the private
+# market. KRE (regional banks) gauges lender stress; the REITs cover the major
+# property types.
+WATCHLIST = [
+    ("kre.us", "KRE", "Regional banks — hold most CRE debt"),
+    ("vnq.us", "VNQ", "Broad U.S. REITs"),
+    ("bxp.us", "BXP", "Office (Boston Properties)"),
+    ("pld.us", "PLD", "Industrial / logistics (Prologis)"),
+    ("avb.us", "AVB", "Apartments (AvalonBay)"),
+    ("spg.us", "SPG", "Retail malls (Simon)"),
+]
+
+
+def fetch_watchlist():
+    """{'KRE': {'value','change_pct','yoy_pct','date'}, ...} — missing omitted."""
+    out = {}
+    for sym, code, _desc in WATCHLIST:
+        try:
+            s = _stooq_series(sym)
+            if len(s) < 2:
+                continue
+            last, prev = s[-1][1], s[-2][1]
+            chg = (last - prev) / prev * 100 if prev else 0.0
+            out[code] = {"value": last, "change_pct": chg, "yoy_pct": _yoy(s), "date": s[-1][0]}
+        except Exception as e:
+            print(f"[warn] watchlist {sym}: {e}")
+    return out

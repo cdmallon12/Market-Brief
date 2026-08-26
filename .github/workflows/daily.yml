@@ -3,12 +3,13 @@ name: Build daily brief
 on:
   # Every ~3 hours across the U.S. trading day, weekdays only.
   # Cron is UTC: 8-23/3 = 8,11,14,17,20,23 UTC ≈ 3 AM–6 PM Central.
-  # (UTC does not shift with daylight saving, so the local times drift an hour
+  # (UTC does not shift with daylight saving, so local times drift an hour
   # between summer and winter — still fine for market coverage.)
   schedule:
     - cron: "0 8-23/3 * * 1-5"
-  workflow_dispatch: {}
+  workflow_dispatch: {}      # run on demand from the Actions tab (also always emails the digest)
 
+# Allow the workflow to commit the regenerated page back to the repo.
 permissions:
   contents: write
 
@@ -34,11 +35,26 @@ jobs:
 
       - name: Build the brief
         env:
-          # Add a free FRED key as a repo secret (FRED_API_KEY) to auto-update
-          # the macro tiles. Without it, the build still works and those tiles
-          # use their snapshot values.
+          # FRED key (repo secret) auto-updates the macro + spread + CRE tiles.
+          # Without it the build still works and those tiles use snapshot values.
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python build.py
+
+      - name: Send email digest (optional)
+        env:
+          # All optional. Set DIGEST_TO + SMTP_USER + SMTP_PASS as repo secrets
+          # to turn the morning email on; leave unset to skip it silently.
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          DIGEST_FROM: ${{ secrets.DIGEST_FROM }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          # Send the digest only on the ~11:00 UTC run (≈6 AM Central) so you get
+          # one email per morning, not one every 3-hour build. Manual runs always send.
+          DIGEST_HOUR_UTC: "11"
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: python email_digest.py
 
       - name: Commit updated page
         run: |
