@@ -121,33 +121,36 @@ summer (CDT), 5:30 AM in winter (CST).
 | Market headlines | CNBC RSS | newest, de-duplicated |
 | CRE headlines | Commercial Observer, CRE Daily, The Real Deal, GlobeSt RSS | newest, de-duplicated |
 
-Some macro tiles (**Fed funds target, CPI, core PCE, GDP, global GDP**) are not
-cleanly available keyless, so they ship as **manually maintained** values in
-`data/fallback.json`. Update them when the data prints, or wire up FRED below to
-automate them.
+The **global GDP** figure (IMF) is a manually maintained value in
+`data/fallback.json` — the IMF publishes it only a few times a year, so update it
+when a new World Economic Outlook lands. Everything else on the macro tab is
+automated once you add a FRED key (below).
 
-### Upgrading to FRED (free API key, automates the macro tiles)
+### FRED macro data — already wired in, just add a key
 
-1. Get a free key: <https://fredaccount.stlouisfed.org/apikeys>.
+The Fed funds target, CPI, core CPI, core PCE, and GDP tiles pull authoritative
+numbers from **FRED** (the Federal Reserve's own data service) whenever a key is
+present. The fetcher (`fetch_fred()` in `data/fetch.py`) and the tile wiring are
+already built — you only supply the key:
+
+1. Get a free key (instant): <https://fredaccount.stlouisfed.org/apikeys>.
 2. Add it as a repo secret: **Settings → Secrets and variables → Actions → New
-   repository secret**, name `FRED_API_KEY`.
-3. In `.github/workflows/daily.yml`, expose it to the build step:
-   ```yaml
-   - name: Build the brief
-     env:
-       FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
-     run: python build.py
-   ```
-4. Implement `fetch_fred()` in `data/fetch.py` using these series and map them
-   onto the economy tiles in `build.py`:
-   | Tile | FRED series |
-   |---|---|
-   | Fed funds target (upper) | `DFEDTARU` |
-   | CPI (YoY) | `CPIAUCSL` (compute 12-month % change) |
-   | Core PCE (YoY) | `PCEPILFE` |
-   | Real GDP (QoQ SAAR) | `A191RL1Q225SBEA` |
+   repository secret**, name it exactly `FRED_API_KEY`, paste the key, save.
+3. That's it. The workflow already passes the secret to the build. On the next
+   run those tiles switch from snapshot values to live FRED data — the month/
+   quarter labels update automatically too (e.g. "CPI Inflation · Aug").
 
-   The endpoint is `https://api.stlouisfed.org/fred/series/observations?series_id=<ID>&api_key=<KEY>&file_type=json&sort_order=desc&limit=13`.
+**No key?** The build still works; the macro tiles just show their snapshot
+values and the log prints `fred: no FRED_API_KEY set`.
+
+**Run it locally with a key:**
+```bash
+FRED_API_KEY=your_key_here python build.py
+```
+
+Series used (for reference): `DFEDTARL`/`DFEDTARU` (fed funds range),
+`CPIAUCSL` (CPI → YoY), `CPILFESL` (core CPI → YoY), `PCEPILFE` (core PCE → YoY),
+`A191RL1Q225SBEA` (real GDP, % SAAR).
 
 ---
 

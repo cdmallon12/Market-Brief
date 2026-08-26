@@ -122,6 +122,68 @@ def apply_rates(ctx, curve, sofr):
             tick_by_name["SOFR"]["vl"] = f"{sofr:.2f}%"
 
 
+def apply_fred(ctx, f):
+    """Map authoritative FRED macro values onto the economy tiles + ticker."""
+    if not f:
+        return
+    tick = {t["nm"]: t for t in ctx["ticker"]}
+    tiles = ctx["economy_tiles"]
+
+    # Fed funds target range (tile 0) — keep the FedWatch odds note as-is.
+    if "fed_lower" in f and "fed_upper" in f:
+        lo, up = f["fed_lower"], f["fed_upper"]
+        tiles[0]["val"] = f"{lo:.2f}"
+        tiles[0]["unit"] = f"-{up:.2f}%"
+        if "Fed Funds" in tick:
+            tick["Fed Funds"]["vl"] = f"{lo:.2f}-{up:.2f}%"
+
+    # CPI (tile 1) — headline YoY, month label, neutral MoM delta, core CPI note.
+    if "cpi" in f:
+        c = f["cpi"]
+        tiles[1]["val"] = f"{c['yoy']:.1f}"
+        tiles[1]["unit"] = "%"
+        if c.get("month"):
+            tiles[1]["lbl"] = f"CPI Inflation · {c['month']}"
+        if c.get("prev_yoy") is not None:
+            chg = c["yoy"] - c["prev_yoy"]
+            tiles[1]["delta"] = {"dir": 0, "txt": f"{chg:+.1f}pp", "note": "vs prior mo"}
+        else:
+            tiles[1].pop("delta", None)
+        if "core_cpi" in f:
+            tiles[1]["note"] = f'Core CPI: <span class="mono">{f["core_cpi"]["yoy"]:.1f}%</span>'
+        if "CPI" in tick:
+            tick["CPI"]["vl"] = f"{c['yoy']:.1f}%"
+
+    # Core PCE (tile 2) — the Fed's preferred gauge, now an actual print.
+    if "core_pce" in f:
+        p = f["core_pce"]
+        tiles[2]["val"] = f"{p['yoy']:.1f}"
+        tiles[2]["unit"] = "%"
+        tiles[2]["lbl"] = f"Core PCE · {p['month']}" if p.get("month") else "Core PCE"
+        tiles[2]["note"] = "Fed's preferred gauge — still above the 2% goal"
+        if "Core PCE" in tick:
+            tick["Core PCE"]["vl"] = f"{p['yoy']:.1f}%"
+
+    # Real GDP (tile 3) — SAAR, with a signed delta vs the prior quarter.
+    if "gdp" in f:
+        g = f["gdp"]
+        tiles[3]["val"] = f"{g['rate']:.1f}"
+        tiles[3]["unit"] = "%"
+        q = g.get("quarter") or ""
+        tiles[3]["lbl"] = f"U.S. GDP · {q} adv." if q else "U.S. GDP"
+        tiles[3]["note"] = "Annualized real growth (SAAR)"
+        if g.get("prev") is not None:
+            chg = g["rate"] - g["prev"]
+            tiles[3]["tone"] = "pos" if chg > 0 else ("neg" if chg < 0 else "")
+            tiles[3]["delta"] = {"dir": dir_of(chg), "txt": f"{chg:+.1f}pp", "note": "vs prior qtr"}
+        # keep the S&P-style ticker entry current
+        for key, t in tick.items():
+            if key.startswith("US GDP"):
+                t["nm"] = f"US GDP {q}".strip()
+                t["vl"] = f"{g['rate']:.1f}%"
+                break
+
+
 def apply_market_headlines(ctx, items):
     """Replace the weekly timeline with live market headlines when available."""
     if not items:
@@ -193,6 +255,16 @@ def gather_live(ctx, offline):
         print(f"[ok] cre headlines: {len(ch)}")
     except Exception as e:
         print(f"[warn] cre headlines: {e}")
+
+    try:
+        fred = fetch.fetch_fred()
+        if fred:
+            apply_fred(ctx, fred)
+            print(f"[ok] fred macro: {', '.join(fred)}")
+        else:
+            print("[info] fred: no FRED_API_KEY set — macro tiles use snapshot values")
+    except Exception as e:
+        print(f"[warn] fred step: {e}")
 
 
 def render(ctx):
