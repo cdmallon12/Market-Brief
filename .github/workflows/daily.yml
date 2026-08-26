@@ -32,6 +32,11 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Build the brief
+        env:
+          # Optional: add a free FRED key as a repo secret to auto-update the
+          # macro tiles (Fed funds, CPI, core PCE, GDP). Without it the build
+          # still works and those tiles use their snapshot values.
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python build.py
 
       - name: Commit updated page
