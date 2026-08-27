@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date_line": "Wednesday · Aug 26, 2026",
-    "as_of": "Auto-compiled from public sources · Aug 26, 2026",
-    "compiled": "Compiled Aug 26, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-08-26T23:59:40Z"
+    "date_line": "Thursday · Aug 27, 2026",
+    "as_of": "Auto-compiled from public sources · Aug 27, 2026",
+    "compiled": "Compiled Aug 27, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-08-27T04:26:18Z"
   },
   "ticker": [
     {
@@ -269,6 +269,22 @@
   },
   "headlines": [
     {
+      "when": "Aug 27",
+      "title": "HP inks deal with U.S.-blacklisted Huawei for licensing the Chinese company's WiFi tech",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/08/25/hp-partners-huawei-wifi-tech-us-entity-list.html"
+    },
+    {
+      "when": "Aug 27",
+      "title": "Z.ai shares surge 8% after releasing new AI model running only on Chinese chips",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/08/27/zai-shares-surge-new-ai-model-using-chinese-chips.html"
+    },
+    {
       "when": "Aug 26",
       "title": "Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July",
       "blurb": "",
@@ -285,14 +301,6 @@
       "link": "https://www.cnbc.com/2026/08/26/short-drama-china-production-ai-entertainment-economics.html"
     },
     {
-      "when": "Aug 26",
-      "title": "HP partners with U.S.-blacklisted Huawei for licensing the Chinese company's WiFi tech",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/08/25/hp-partners-huawei-wifi-tech-us-entity-list.html"
-    },
-    {
       "when": "Aug 25",
       "title": "Stanley Druckenmiller leads doubters who think Bessent's bond ploys will fail",
       "blurb": "",
@@ -307,14 +315,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
-    },
-    {
-      "when": "Aug 25",
-      "title": "Crypto extends gains after biggest 3-day rally since 2023",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/08/24/crypto-extends-gains-after-biggest-3-day-rally-since-2023.html"
     }
   ],
   "cre": {
