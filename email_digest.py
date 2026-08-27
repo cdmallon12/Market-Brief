@@ -57,10 +57,62 @@ def _tile(ctx, key, i):
         return None, None
 
 
+def _tval(ctx, key, i):
+    """Raw 'val'+'unit' string for a tile, or '' if missing."""
+    try:
+        t = ctx[key][i]
+        return f"{t.get('val','')}{t.get('unit','')}"
+    except Exception:
+        return ""
+
+
+def build_summary(ctx):
+    """A short, factual 'what to watch' blurb spanning the broad market and CRE."""
+    try:
+        spx = ctx["markets_tiles"][0]
+        d = spx.get("delta", {})
+        move = "up" if d.get("dir", 0) > 0 else ("down" if d.get("dir", 0) < 0 else "flat")
+        spx_val, spx_chg = spx.get("val", ""), d.get("txt", "")
+        vix = ctx["markets_tiles"][3].get("val", "")
+        y10 = _tval(ctx, "cre_tiles", 0)
+        ig, hy = _tval(ctx, "credit_tiles", 0), _tval(ctx, "credit_tiles", 1)
+        delq = _tval(ctx, "cre_fund_tiles", 0)
+        sloos = ctx["cre_fund_tiles"][2].get("val", "")
+        try:
+            stance = "easing" if float(sloos) < 0 else ("tightening" if float(sloos) > 0 else "holding")
+        except Exception:
+            stance = "adjusting"
+        cats = (ctx.get("markets", {}) or {}).get("catalysts", [])
+        watch = f"{cats[0]['title']} ({cats[0]['when']})" if cats else ""
+
+        s1 = (f"Broad market: the S&P 500 is {move} at {spx_val} "
+              f"({spx_chg} vs. the prior close), the 10-year Treasury is {y10}, "
+              f"and the VIX is {vix}.")
+        s2 = (f"CRE: credit spreads are {ig} investment-grade / {hy} high-yield, "
+              f"bank CRE delinquency is {delq}, and banks are {stance} lending standards.")
+        s3 = f"Watch today: {watch}." if watch else ""
+        return " ".join(x for x in (s1, s2, s3) if x)
+    except Exception:
+        return ""
+
+
 def build_email(ctx):
     date_line = ctx.get("meta", {}).get("date_line", "")
+    quote_note = (ctx.get("markets", {}) or {}).get("quote_note", "")
+    summary = build_summary(ctx)
 
-    # Key numbers, pulled straight from the built tiles (already sourced).
+    # Equity index snapshot (open / current vs prior close) from the market tiles.
+    idx = []
+    for i in range(4):
+        try:
+            t = ctx["markets_tiles"][i]
+            d = t.get("delta", {})
+            arrow = "▲" if d.get("dir", 0) > 0 else ("▼" if d.get("dir", 0) < 0 else "•")
+            idx.append((t.get("lbl", ""), t.get("val", ""), arrow, d.get("txt", ""), d.get("dir", 0)))
+        except Exception:
+            pass
+
+    # Key rates & signals.
     rows = []
     for key, i in [("cre_tiles", 0), ("cre_tiles", 2), ("credit_tiles", 0),
                    ("credit_tiles", 1), ("cre_fund_tiles", 0), ("cre_fund_tiles", 2),
@@ -69,29 +121,44 @@ def build_email(ctx):
         if lbl and val:
             rows.append((lbl, val))
 
+    # Catalysts (calendar-driven).
+    cats = []
+    for c in (ctx.get("markets", {}) or {}).get("catalysts", [])[:3]:
+        cats.append((c.get("when", ""), c.get("title", ""), c.get("body", "")))
+
     def headlines(key, n=4):
         out = []
         for h in ctx.get(key, [])[:n]:
-            title = h.get("title", "")
-            link = h.get("link", "")
+            title, link = h.get("title", ""), h.get("link", "")
             src = h.get("source", "") or h.get("tag", "")
             if title:
                 out.append((title, link, src))
         return out
 
-    cre_h = headlines("cre_headlines")
-    mkt_h = headlines("headlines")
+    cre_h, mkt_h = headlines("cre_headlines"), headlines("headlines")
+
+    import re
+    def strip_tags(s):
+        return re.sub("<[^>]+>", "", s or "")
 
     # ---- plain text ----
-    lines = [f"The Standpoint Brief — {date_line}", "=" * 44, "", "KEY RATES & SIGNALS"]
-    for lbl, val in rows:
-        lines.append(f"  {lbl}: {val}")
+    lines = [f"The Standpoint Brief — {date_line}", "=" * 44]
+    if summary:
+        lines += ["", strip_tags(summary)]
+    if idx:
+        lines += ["", "MARKETS AT THE OPEN"]
+        lines += [f"  {l}: {v}  {a} {c} vs prior close" for l, v, a, c, _ in idx]
+    if quote_note:
+        lines.append(f"  ({quote_note})")
+    lines += ["", "KEY RATES & SIGNALS"]
+    lines += [f"  {l}: {v}" for l, v in rows]
+    if cats:
+        lines += ["", "ON THE CALENDAR"]
+        lines += [f"  {w} — {t}: {strip_tags(b)}" for w, t, b in cats]
     if cre_h:
-        lines += ["", "CRE HEADLINES"]
-        lines += [f"  - {t}" + (f"  {l}" if l else "") for t, l, _ in cre_h]
+        lines += ["", "CRE HEADLINES"] + [f"  - {t}" + (f"  {l}" if l else "") for t, l, _ in cre_h]
     if mkt_h:
-        lines += ["", "MARKET HEADLINES"]
-        lines += [f"  - {t}" for t, _, _ in mkt_h]
+        lines += ["", "MARKET HEADLINES"] + [f"  - {t}" for t, _, _ in mkt_h]
     lines += ["", "Informational only — not investment advice.",
               "Full brief: https://cdmallon12.github.io/Market-Brief/"]
     text = "\n".join(lines)
@@ -100,11 +167,36 @@ def build_email(ctx):
     def esc(s):
         return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
+    def h3(t):
+        return f"<h3 style='font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#445;margin:20px 0 6px;'>{t}</h3>"
+
+    idx_html = ""
+    if idx:
+        cells = []
+        for l, v, a, c, dr in idx:
+            col = "#0a7d34" if dr > 0 else ("#bb392f" if dr < 0 else "#556")
+            cells.append(
+                f'<td style="padding:8px 14px 8px 0;">'
+                f'<div style="font-size:11px;color:#889;text-transform:uppercase;letter-spacing:.04em;">{esc(l)}</div>'
+                f'<div style="font-size:17px;font-weight:700;font-family:monospace;">{esc(v)}</div>'
+                f'<div style="font-size:12px;font-weight:600;color:{col};font-family:monospace;">{a} {esc(c)}</div>'
+                f'</td>')
+        idx_html = (h3("Markets at the open")
+                    + f'<table style="border-collapse:collapse;"><tr>{"".join(cells)}</tr></table>'
+                    + (f'<div style="font-size:11px;color:#889;margin-top:4px;">{esc(quote_note)}</div>' if quote_note else ""))
+
     rate_html = "".join(
         f'<tr><td style="padding:4px 16px 4px 0;color:#556;">{esc(l)}</td>'
         f'<td style="padding:4px 0;font-weight:600;font-family:monospace;">{esc(v)}</td></tr>'
-        for l, v in rows
-    )
+        for l, v in rows)
+
+    cat_html = ""
+    if cats:
+        items = "".join(
+            f'<div style="margin:8px 0;"><span style="display:inline-block;font-family:monospace;font-size:11px;color:#a9741f;border:1px solid #e3d6bd;border-radius:10px;padding:1px 8px;margin-right:8px;">{esc(w)}</span>'
+            f'<strong>{esc(t)}</strong><div style="font-size:13px;color:#556;margin-top:2px;">{esc(strip_tags(b))}</div></div>'
+            for w, t, b in cats)
+        cat_html = h3("On the calendar") + items
 
     def hl_html(items):
         out = []
@@ -116,17 +208,23 @@ def build_email(ctx):
                 out.append(f'<li style="margin:6px 0;color:#223;">{esc(t)}{src}</li>')
         return "<ul style='padding-left:18px;margin:6px 0;'>" + "".join(out) + "</ul>" if out else ""
 
+    summary_html = (f'<p style="font-size:14px;color:#223;margin:0 0 4px;background:#f2f5f8;border-left:3px solid #0e4f6e;padding:11px 14px;border-radius:0 6px 6px 0;">{summary}</p>'
+                    if summary else "")
+
     html = f"""\
 <div style="font-family:-apple-system,Segoe UI,Arial,sans-serif;max-width:600px;color:#223;line-height:1.5;">
-  <div style="border-bottom:3px solid #0e4f6e;padding-bottom:8px;margin-bottom:16px;">
+  <div style="border-bottom:3px solid #0e4f6e;padding-bottom:8px;margin-bottom:14px;">
     <div style="font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:#a9741f;">Daily Markets &amp; Rates Brief</div>
     <div style="font-size:22px;font-weight:700;">The Standpoint Brief</div>
     <div style="font-size:13px;color:#667;font-family:monospace;">{esc(date_line)}</div>
   </div>
-  <h3 style="font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#445;">Key rates &amp; signals</h3>
+  {summary_html}
+  {idx_html}
+  {h3("Key rates &amp; signals")}
   <table style="font-size:14px;border-collapse:collapse;">{rate_html}</table>
-  {"<h3 style='font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#445;'>CRE headlines</h3>" + hl_html(cre_h) if cre_h else ""}
-  {"<h3 style='font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#445;'>Market headlines</h3>" + hl_html(mkt_h) if mkt_h else ""}
+  {cat_html}
+  {h3("CRE headlines") + hl_html(cre_h) if cre_h else ""}
+  {h3("Market headlines") + hl_html(mkt_h) if mkt_h else ""}
   <p style="margin-top:20px;">
     <a href="https://cdmallon12.github.io/Market-Brief/" style="background:#0e4f6e;color:#fff;padding:9px 16px;border-radius:6px;text-decoration:none;font-size:14px;">Open the full brief →</a>
   </p>
