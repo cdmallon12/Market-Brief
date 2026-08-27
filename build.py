@@ -32,6 +32,13 @@ def load_snapshot():
     return json.loads((DATA / "fallback.json").read_text(encoding="utf-8"))
 
 
+def load_calendar():
+    try:
+        return json.loads((DATA / "calendar.json").read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
 def save_snapshot(ctx):
     """Persist the merged context so a future outage falls back to today's data."""
     (DATA / "fallback.json").write_text(
@@ -246,7 +253,7 @@ def apply_fred(ctx, f):
 
 
 def apply_watchlist(ctx, wl):
-    """Update the CRE watchlist rows from live Stooq quotes."""
+    """Update the CRE watchlist rows from live Stooq end-of-day closes."""
     if not wl:
         return
     for row in ctx.get("watchlist", []):
@@ -257,6 +264,106 @@ def apply_watchlist(ctx, wl):
         chg = d["change_pct"]
         row["chg"] = f"{chg:+.2f}%"
         row["dir"] = dir_of(chg)
+
+
+def _et_stamp(ts):
+    """Format an epoch as '1:23 PM ET, Aug 26' in US/Eastern; '' on failure."""
+    try:
+        from zoneinfo import ZoneInfo
+        d = dt.datetime.fromtimestamp(ts, ZoneInfo("America/New_York"))
+        hr = d.strftime("%I").lstrip("0") or "12"
+        return f"{hr}:{d.strftime('%M %p')} ET, {d.strftime('%b')} {d.day}"
+    except Exception:
+        return ""
+
+
+def apply_index_quotes(ctx, q):
+    """Intraday/open quotes (Yahoo): current delayed price + change vs prior close."""
+    tick = {t["nm"]: t for t in ctx["ticker"]}
+    for key, d in q.items():
+        meta = INDEX_META.get(key)
+        if not meta:
+            continue
+        price, chg = d["price"], d["change_pct"]
+        val = fmt_num(price, meta["dec"])
+        tile = ctx["markets_tiles"][meta["tile"]]
+        tile["val"] = val
+        tile["tone"] = "pos" if chg > 0 else ("neg" if chg < 0 else "")
+        tile["delta"] = {"dir": dir_of(chg), "txt": f"{abs(chg):.2f}%", "note": "vs prior close"}
+        parts = []
+        if d.get("open") is not None and d.get("open_is_today"):
+            parts.append(f'Open <span class="mono">{fmt_num(d["open"], meta["dec"])}</span>')
+        else:
+            parts.append(f'Prior close <span class="mono">{fmt_num(d["prev_close"], meta["dec"])}</span>')
+        if key == "spx" and d.get("yoy_pct") is not None:
+            yoy = d["yoy_pct"]
+            cls = "up" if yoy >= 0 else "down"
+            parts.append(f'<span class="{cls} mono">{signed_pct(yoy, 1)}</span> YoY')
+        tile["note"] = " · ".join(parts)
+        t = tick.get(meta["nm"])
+        if t:
+            t["vl"], t["ch"], t["dir"] = val, signed_pct(chg), dir_of(chg)
+    # data-freshness stamp for the markets tab
+    stamps = [d.get("ts") for d in q.values() if d.get("ts")]
+    if stamps:
+        et = _et_stamp(max(stamps))
+        if et:
+            ctx["markets"]["quote_note"] = f"Quotes ~15-min delayed · as of {et}"
+
+
+def apply_watchlist_quotes(ctx, q):
+    """Intraday quotes (Yahoo) for the CRE watchlist: price + change vs prior close."""
+    if not q:
+        return
+    for row in ctx.get("watchlist", []):
+        d = q.get(row["code"])
+        if not d:
+            continue
+        row["price"] = f"{d['price']:,.2f}"
+        row["chg"] = f"{d['change_pct']:+.2f}%"
+        row["dir"] = dir_of(d["change_pct"])
+    ctx["watchlist_note"] = "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close."
+
+
+def _rel_day(target, today):
+    delta = (target - today).days
+    if delta == 0:
+        return "Today"
+    if delta == 1:
+        return "Tomorrow"
+    return f"{target.strftime('%a')} · {target.strftime('%b')} {target.day}"
+
+
+def apply_calendar(ctx, cal, today):
+    """Populate the 'catalysts' card from the economic-release calendar by date."""
+    if not cal:
+        return
+    events = cal.get("events", [])
+
+    def dof(e):
+        try:
+            return dt.date.fromisoformat(e["date"])
+        except Exception:
+            return None
+
+    dated = [(dof(e), e) for e in events if dof(e)]
+    todays = [e for d, e in dated if d == today]
+    upcoming = sorted([(d, e) for d, e in dated if d > today], key=lambda x: x[0])
+
+    items = []
+    for e in todays:
+        items.append({"when": f"{e['time']} · Today", "title": e["title"], "body": e["detail"] + "."})
+    for d, e in upcoming[: (2 if todays else 3)]:
+        items.append({"when": _rel_day(d, today), "title": e["title"], "body": e["detail"]})
+
+    if items:
+        ctx["markets"]["catalysts"] = items
+        if todays:
+            ctx["markets"]["card2_title"] = "On the calendar today"
+            ctx["markets"]["card2_sub"] = "Scheduled economic releases (ET)"
+        else:
+            ctx["markets"]["card2_title"] = "Coming up"
+            ctx["markets"]["card2_sub"] = "Next scheduled economic releases (ET)"
 
 
 def apply_market_headlines(ctx, items):
@@ -297,13 +404,22 @@ def gather_live(ctx, offline):
         return
     from data import fetch  # imported here so --offline needs no network libs at import
 
+    # Indices: Yahoo intraday (open + delayed price) primary; Stooq EOD fallback.
     try:
-        idx = fetch.fetch_indices()
-        if idx:
-            apply_indices(ctx, idx)
-            print(f"[ok] indices: {', '.join(idx)}")
+        iq = fetch.fetch_index_quotes()
+        if not iq:
+            raise RuntimeError("no Yahoo index data")
+        apply_index_quotes(ctx, iq)
+        print(f"[ok] index quotes · Yahoo intraday: {', '.join(iq)}")
     except Exception as e:
-        print(f"[warn] indices step: {e}")
+        print(f"[warn] yahoo indices ({e}) — falling back to Stooq EOD")
+        try:
+            idx = fetch.fetch_indices()
+            if idx:
+                apply_indices(ctx, idx)
+                print(f"[ok] indices · Stooq EOD: {', '.join(idx)}")
+        except Exception as e2:
+            print(f"[warn] indices step: {e2}")
 
     curve = sofr = None
     try:
@@ -341,13 +457,22 @@ def gather_live(ctx, offline):
     except Exception as e:
         print(f"[warn] fred step: {e}")
 
+    # Watchlist: Yahoo intraday primary; Stooq EOD fallback.
     try:
-        wl = fetch.fetch_watchlist()
-        if wl:
-            apply_watchlist(ctx, wl)
-            print(f"[ok] watchlist: {', '.join(wl)}")
+        wq = fetch.fetch_watchlist_quotes()
+        if not wq:
+            raise RuntimeError("no Yahoo watchlist data")
+        apply_watchlist_quotes(ctx, wq)
+        print(f"[ok] watchlist quotes · Yahoo intraday: {', '.join(wq)}")
     except Exception as e:
-        print(f"[warn] watchlist step: {e}")
+        print(f"[warn] yahoo watchlist ({e}) — falling back to Stooq EOD")
+        try:
+            wl = fetch.fetch_watchlist()
+            if wl:
+                apply_watchlist(ctx, wl)
+                print(f"[ok] watchlist · Stooq EOD: {', '.join(wl)}")
+        except Exception as e2:
+            print(f"[warn] watchlist step: {e2}")
 
 
 def render(ctx):
@@ -380,6 +505,7 @@ def main():
     live = copy.deepcopy(ctx)
     gather_live(live, args.offline)
     refresh_dates(live)
+    apply_calendar(live, load_calendar(), dt.date.today())  # dynamic catalysts (date-based, no network)
     render(live)
 
     # Persist merged live data as the new snapshot so future outages degrade gracefully.

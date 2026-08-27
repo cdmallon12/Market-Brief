@@ -48,8 +48,9 @@ market-brief/
 ├── email_digest.py              # optional morning email (off until secrets added)
 ├── requirements.txt
 ├── data/
-│   ├── fetch.py                 # data fetchers (each fails safe): Stooq, Treasury, NY Fed, RSS, FRED
-│   └── fallback.json            # last-known-good snapshot (also the seed content)
+│   ├── fetch.py                 # data fetchers (each fails safe): Yahoo, Stooq, Treasury, NY Fed, RSS, FRED
+│   ├── fallback.json            # last-known-good snapshot (also the seed content)
+│   └── calendar.json            # economic-release schedule that drives the catalysts card
 ├── templates/
 │   └── brief.html.j2            # the page (Jinja2 template of the design)
 ├── docs/
@@ -94,9 +95,24 @@ You can also trigger a build any time from the **Actions** tab → *Build daily
 brief* → **Run workflow**.
 
 ### Changing the schedule
-Edit the `cron` line in `.github/workflows/daily.yml`. Cron is in **UTC** and does
-not shift with US daylight saving. `30 11 * * 1-5` ≈ 6:30 AM Central during
-summer (CDT), 5:30 AM in winter (CST).
+Edit the `cron` lines in `.github/workflows/daily.yml`. There are two: the
+every-3-hours build (`0 8-23/3 * * 1-5`) and an extra **market-open** build
+(`35 13 * * 1-5`, ~9:35 AM ET during EDT) so the morning reflects the open. Cron
+is **UTC** and does not shift with US daylight saving.
+
+### Intraday quotes & the catalysts calendar
+Index and watchlist tiles now show today's **open**, the current price, and the
+change vs. the prior close from **Yahoo Finance** — a **~15-minute delayed**
+snapshot (labeled on the page), not a live tick. If Yahoo is ever unreachable,
+the build automatically falls back to Stooq end-of-day closes, so the page never
+breaks. The Treasury/SOFR/FRED figures update on their own official cadence as
+before.
+
+The **"Today's catalysts"** card is generated from `data/calendar.json`, which
+holds the official BLS/BEA/FOMC release dates. It shows any releases scheduled
+for **today**, otherwise the next few upcoming. The seeded file covers 2026;
+**top it up once a year** when the agencies publish the next year's schedules
+(BLS employment/CPI, BEA GDP + Personal Income/PCE, Fed FOMC).
 
 ---
 
@@ -116,7 +132,9 @@ summer (CDT), 5:30 AM in winter (CST).
 
 | Data | Source | Notes |
 |---|---|---|
-| Index levels | [Stooq](https://stooq.com) daily CSV | `^spx`, `^ndq`, `^dji`, `^vix`; daily close + computed YoY |
+| Index & watchlist quotes (intraday) | [Yahoo Finance](https://finance.yahoo.com) v8 chart | today's **open** + current price + change vs. prior close; **~15-min delayed**. Primary source |
+| Index & watchlist (end-of-day) | [Stooq](https://stooq.com) daily CSV | automatic **fallback** if Yahoo is unavailable |
+| Economic calendar (catalysts) | seeded `data/calendar.json` | official BLS / BEA / FOMC release dates |
 | Treasury yield curve | [US Treasury XML feed](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve) | official par yields, all tenors |
 | SOFR | [NY Fed markets API](https://markets.newyorkfed.org/api/rates/secured/sofr/last/1.json) | official overnight rate |
 | Market headlines | CNBC RSS | newest, de-duplicated |

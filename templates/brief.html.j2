@@ -164,6 +164,7 @@
   .wl-code{font-family:"IBM Plex Mono",monospace;font-weight:600;color:var(--ink);white-space:nowrap;}
   .wl-desc{color:var(--ink-2);font-size:13px;}
   .wl-foot{font-size:11px;color:var(--muted);margin:12px 0 0;}
+  .datastamp{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);letter-spacing:.03em;margin:14px 0 0;}
 
   footer{border-top:1px solid var(--hair);margin-top:40px;padding:26px 0 44px;}
   footer .disc{font-size:12px;color:var(--muted);max-width:70ch;margin:0 0 16px;line-height:1.5;}
@@ -254,6 +255,7 @@
       <div class="tiles">
         {%- for t in markets_tiles %}{{ tile(t) }}{% endfor %}
       </div>
+      {%- if markets.quote_note %}<p class="datastamp">{{ markets.quote_note }}</p>{% endif %}
       <div class="section-rule"><h3>What's moving the tape</h3></div>
       <div class="grid-2">
         <div class="card prose" style="max-width:none">

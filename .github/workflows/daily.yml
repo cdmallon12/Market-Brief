@@ -6,7 +6,8 @@ on:
   # (UTC does not shift with daylight saving, so local times drift an hour
   # between summer and winter — still fine for market coverage.)
   schedule:
-    - cron: "0 8-23/3 * * 1-5"
+    - cron: "0 8-23/3 * * 1-5"   # every ~3 hours across the trading day (weekdays)
+    - cron: "35 13 * * 1-5"      # extra build just after the market open (~9:35 AM ET during EDT)
   workflow_dispatch: {}      # run on demand from the Actions tab (also always emails the digest)
 
 # Allow the workflow to commit the regenerated page back to the repo.

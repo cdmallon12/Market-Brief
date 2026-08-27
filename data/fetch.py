@@ -447,3 +447,83 @@ def fetch_watchlist():
         except Exception as e:
             print(f"[warn] watchlist {sym}: {e}")
     return out
+
+
+# --------------------------------------------------------------------------- #
+# Intraday / market-open quotes (Yahoo Finance, keyless, ~15-min delayed)       #
+# --------------------------------------------------------------------------- #
+# Gives today's OPEN, the current (delayed) price, and change vs. the prior
+# close — so the brief can show "how the market is trading today" in the
+# morning, not just yesterday's close. Unofficial endpoint: if it fails, the
+# caller falls back to Stooq end-of-day data.
+YAHOO_CHART = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}"
+# Our internal keys/codes -> Yahoo symbols
+YAHOO_INDEX = {"spx": "^GSPC", "ndq": "^IXIC", "dji": "^DJI", "vix": "^VIX"}
+YAHOO_WATCH = {"KRE": "KRE", "VNQ": "VNQ", "BXP": "BXP", "PLD": "PLD", "AVB": "AVB", "SPG": "SPG"}
+
+
+def _yahoo_quote(sym):
+    """
+    Return {'price','prev_close','change_pct','open'(opt),'open_is_today','yoy_pct'(opt),
+            'ts'(epoch, opt)} for one Yahoo symbol, or None on any failure.
+    """
+    url = YAHOO_CHART.format(sym=sym)
+    r = _get(url, params={"range": "1y", "interval": "1d"})
+    data = r.json()
+    res = (((data or {}).get("chart") or {}).get("result") or [None])[0]
+    if not res:
+        return None
+    meta = res.get("meta") or {}
+    price = meta.get("regularMarketPrice")
+    prev = meta.get("chartPreviousClose", meta.get("previousClose"))
+    if price is None or prev in (None, 0):
+        return None
+    out = {"price": float(price), "prev_close": float(prev),
+           "change_pct": (float(price) - float(prev)) / float(prev) * 100,
+           "ts": meta.get("regularMarketTime")}
+
+    ts = res.get("timestamp") or []
+    quote = (((res.get("indicators") or {}).get("quote") or [{}]))[0]
+    opens = quote.get("open") or []
+    closes = quote.get("close") or []
+
+    # Today's open: last bar's open, flagged whether that bar is actually today (ET).
+    if opens and opens[-1] is not None and ts:
+        try:
+            from zoneinfo import ZoneInfo
+            last_d = dt.datetime.fromtimestamp(ts[-1], ZoneInfo("America/New_York")).date()
+            today_et = dt.datetime.now(ZoneInfo("America/New_York")).date()
+            out["open"] = float(opens[-1])
+            out["open_is_today"] = (last_d == today_et)
+        except Exception:
+            out["open"] = float(opens[-1])
+            out["open_is_today"] = False
+
+    # YoY from the earliest close in the ~1y window.
+    firsts = [c for c in closes if c is not None]
+    if firsts:
+        base = firsts[0]
+        if base:
+            out["yoy_pct"] = (out["price"] - base) / base * 100
+    return out
+
+
+def fetch_quotes(mapping):
+    """mapping: {key: yahoo_symbol} -> {key: quote_dict}. Missing keys omitted."""
+    out = {}
+    for key, sym in mapping.items():
+        try:
+            q = _yahoo_quote(sym)
+            if q:
+                out[key] = q
+        except Exception as e:
+            print(f"[warn] yahoo {sym}: {e}")
+    return out
+
+
+def fetch_index_quotes():
+    return fetch_quotes(YAHOO_INDEX)
+
+
+def fetch_watchlist_quotes():
+    return fetch_quotes(YAHOO_WATCH)
