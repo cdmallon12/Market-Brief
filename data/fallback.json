@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date_line": "Wednesday · Aug 26, 2026",
-    "as_of": "Auto-compiled from public sources · Aug 26, 2026",
-    "compiled": "Compiled Aug 26, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-08-26T23:59:40Z"
+    "date_line": "Thursday · Aug 27, 2026",
+    "as_of": "Auto-compiled from public sources · Aug 27, 2026",
+    "compiled": "Compiled Aug 27, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-08-27T02:14:11Z"
   },
   "ticker": [
     {
@@ -269,6 +269,14 @@
   },
   "headlines": [
     {
+      "when": "Aug 27",
+      "title": "HP partners with U.S.-blacklisted Huawei for licensing the Chinese company's WiFi tech",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/08/25/hp-partners-huawei-wifi-tech-us-entity-list.html"
+    },
+    {
       "when": "Aug 26",
       "title": "Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July",
       "blurb": "",
@@ -283,14 +291,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/08/26/short-drama-china-production-ai-entertainment-economics.html"
-    },
-    {
-      "when": "Aug 26",
-      "title": "HP partners with U.S.-blacklisted Huawei for licensing the Chinese company's WiFi tech",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/08/25/hp-partners-huawei-wifi-tech-us-entity-list.html"
     },
     {
       "when": "Aug 25",
