@@ -229,25 +229,34 @@ CRE_FEEDS = [
 def _rss_items(feeds, limit):
     if feedparser is None:
         return []
+    import calendar
     items = []
     for source, url in feeds:
         try:
             f = feedparser.parse(url)
             for e in f.entries[:6]:
-                when = ""
-                if getattr(e, "published_parsed", None):
-                    when = dt.datetime(*e.published_parsed[:6]).strftime("%b %d")
+                when, epoch = "", 0
+                pp = getattr(e, "published_parsed", None)
+                if pp:
+                    # feedparser's published_parsed is UTC; label the date in
+                    # Eastern so a late-evening ET article isn't stamped tomorrow.
+                    epoch = calendar.timegm(pp)
+                    try:
+                        from zoneinfo import ZoneInfo
+                        when = dt.datetime.fromtimestamp(epoch, ZoneInfo("America/New_York")).strftime("%b %d")
+                    except Exception:
+                        when = dt.datetime.utcfromtimestamp(epoch).strftime("%b %d")
                 items.append({
                     "source": source,
                     "title": (e.get("title") or "").strip(),
                     "link": e.get("link") or "",
                     "when": when,
-                    "_ts": getattr(e, "published_parsed", None),
+                    "_ts": epoch,
                 })
         except Exception as ex:
             print(f"[warn] rss {source}: {ex}")
-    # newest first when timestamps exist
-    items.sort(key=lambda x: x["_ts"] or dt.datetime.min.timetuple(), reverse=True)
+    # newest first
+    items.sort(key=lambda x: x["_ts"] or 0, reverse=True)
     for it in items:
         it.pop("_ts", None)
     # de-dup by title

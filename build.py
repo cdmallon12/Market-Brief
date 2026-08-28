@@ -303,12 +303,17 @@ def apply_index_quotes(ctx, q):
         t = tick.get(meta["nm"])
         if t:
             t["vl"], t["ch"], t["dir"] = val, signed_pct(chg), dir_of(chg)
-    # data-freshness stamp for the markets tab
+    # data-freshness stamp for the markets tab — distinguish a live (post-open)
+    # snapshot from a pre-open/closed one so the prior close doesn't read as stale.
     stamps = [d.get("ts") for d in q.values() if d.get("ts")]
+    opened_today = any(d.get("open_is_today") for d in q.values())
     if stamps:
         et = _et_stamp(max(stamps))
         if et:
-            ctx["markets"]["quote_note"] = f"Quotes ~15-min delayed · as of {et}"
+            if opened_today:
+                ctx["markets"]["quote_note"] = f"Quotes ~15-min delayed · as of {et}"
+            else:
+                ctx["markets"]["quote_note"] = f"Markets closed — showing the prior session's close (last update {et})"
 
 
 def apply_watchlist_quotes(ctx, q):
