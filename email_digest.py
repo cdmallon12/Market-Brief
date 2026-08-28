@@ -243,16 +243,25 @@ def main():
         print("[info] digest: SMTP not configured (need DIGEST_TO, SMTP_USER, SMTP_PASS) — skipping")
         return
 
-    # Gating: manual runs always send; scheduled runs honor DIGEST_HOUR_UTC.
-    forced = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch" or os.environ.get("DIGEST_FORCE")
-    hour_gate = os.environ.get("DIGEST_HOUR_UTC", "").strip()
-    if not forced and hour_gate:
-        try:
-            if dt.datetime.utcnow().hour != int(hour_gate):
-                print(f"[info] digest: not the scheduled hour ({hour_gate} UTC) — skipping")
+    # Gating (robust to GitHub's scheduled-run delays): a manual run always sends;
+    # a scheduled run sends only when the cron that TRIGGERED it is the designated
+    # email cron. GitHub sets github.event.schedule to that cron string regardless
+    # of how late the run actually fires, so a delayed build still emails exactly
+    # once — unlike checking the wall-clock hour, which drops the email if the run
+    # slips into the next hour.
+    event = os.environ.get("GITHUB_EVENT_NAME", "").strip()
+    forced = event == "workflow_dispatch" or os.environ.get("DIGEST_FORCE")
+    email_cron = os.environ.get("DIGEST_CRON", "50 13 * * 1-5").strip()
+    trigger = os.environ.get("SCHEDULE_TRIGGER", "").strip()
+    if not forced:
+        if event == "schedule":
+            if trigger != email_cron:
+                print(f"[info] digest: build cron ({trigger or 'n/a'}) is not the email cron ({email_cron}) — skipping")
                 return
-        except ValueError:
-            pass  # bad gate value -> just send
+        elif event:
+            print(f"[info] digest: event '{event}' is neither a manual run nor the email schedule — skipping")
+            return
+        # empty event (e.g. local run) with creds set: fall through and send
 
     ctx = load()
     text, html = build_email(ctx)
