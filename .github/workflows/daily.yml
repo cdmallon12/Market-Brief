@@ -6,7 +6,7 @@ on:
   # (UTC does not shift with daylight saving, so local times drift an hour
   # between summer and winter — still fine for market coverage.)
   schedule:
-    - cron: "0 8-23/3 * * 1-5"   # every ~3 hours across the trading day (weekdays)
+    - cron: "23 8-23/3 * * 1-5"   # every ~3 hours across the trading day (weekdays)
     - cron: "50 13 * * 1-5"      # post-open build at 13:50 UTC (~9:50 AM ET during EDT) — 15-min
                                  # Yahoo delay has caught up to the 9:30 open by then; this is the
                                  # build the email digest sends from (DIGEST_HOUR_UTC=13)
