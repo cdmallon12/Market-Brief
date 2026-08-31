@@ -437,7 +437,7 @@ WATCHLIST = [
     ("vnq.us", "VNQ", "Broad U.S. REITs"),
     ("bxp.us", "BXP", "Office (Boston Properties)"),
     ("pld.us", "PLD", "Industrial / logistics (Prologis)"),
-    ("avb.us", "AVB", "Apartments (AvalonBay)"),
+    ("vmrk.us", "VMRK", "Apartments (Vivmark Residential — ex-AvalonBay/EQR)"),
     ("spg.us", "SPG", "Retail malls (Simon)"),
 ]
 
@@ -468,7 +468,7 @@ def fetch_watchlist():
 YAHOO_CHART = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}"
 # Our internal keys/codes -> Yahoo symbols
 YAHOO_INDEX = {"spx": "^GSPC", "ndq": "^IXIC", "dji": "^DJI", "vix": "^VIX"}
-YAHOO_WATCH = {"KRE": "KRE", "VNQ": "VNQ", "BXP": "BXP", "PLD": "PLD", "AVB": "AVB", "SPG": "SPG"}
+YAHOO_WATCH = {"KRE": "KRE", "VNQ": "VNQ", "BXP": "BXP", "PLD": "PLD", "VMRK": "VMRK", "SPG": "SPG"}
 
 
 def _yahoo_quote(sym):
