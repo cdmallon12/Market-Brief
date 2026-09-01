@@ -75,6 +75,7 @@ def build_summary(ctx):
         spx_val, spx_chg = spx.get("val", ""), d.get("txt", "")
         vix = ctx["markets_tiles"][3].get("val", "")
         y10 = _tval(ctx, "cre_tiles", 0)
+        mort = _tval(ctx, "cre_fin_tiles", 0)
         ig, hy = _tval(ctx, "credit_tiles", 0), _tval(ctx, "credit_tiles", 1)
         delq = _tval(ctx, "cre_fund_tiles", 0)
         sloos = ctx["cre_fund_tiles"][2].get("val", "")
@@ -82,16 +83,29 @@ def build_summary(ctx):
             stance = "easing" if float(sloos) < 0 else ("tightening" if float(sloos) > 0 else "holding")
         except Exception:
             stance = "adjusting"
+        # CMBS distress signal (overall + office) — a headline CRE-stress read.
+        cmbs = ""
+        try:
+            crows = (ctx.get("cmbs_distress", {}) or {}).get("rows", [])
+            overall = crows[0].get("val", "") if crows else ""
+            office = next((r.get("val", "") for r in crows
+                           if r.get("seg", "").lower().startswith("office")), "")
+            if overall:
+                cmbs = f"CMBS delinquency is {overall}" + (f", with office at {office}" if office else "") + "."
+        except Exception:
+            cmbs = ""
         cats = (ctx.get("markets", {}) or {}).get("catalysts", [])
         watch = f"{cats[0]['title']} ({cats[0]['when']})" if cats else ""
 
         s1 = (f"Broad market: the S&P 500 is {move} at {spx_val} "
               f"({spx_chg} vs. the prior close), the 10-year Treasury is {y10}, "
               f"and the VIX is {vix}.")
-        s2 = (f"CRE: credit spreads are {ig} investment-grade / {hy} high-yield, "
-              f"bank CRE delinquency is {delq}, and banks are {stance} lending standards.")
-        s3 = f"Watch today: {watch}." if watch else ""
-        return " ".join(x for x in (s1, s2, s3) if x)
+        s2 = (f"CRE: new debt is pricing near a {mort} 30-year mortgage, credit spreads are "
+              f"{ig} investment-grade / {hy} high-yield, bank CRE delinquency is {delq}, "
+              f"and banks are {stance} lending standards.")
+        s3 = f"Distress: {cmbs}" if cmbs else ""
+        s4 = f"Watch today: {watch}." if watch else ""
+        return " ".join(x for x in (s1, s2, s3, s4) if x)
     except Exception:
         return ""
 
@@ -112,11 +126,12 @@ def build_email(ctx):
         except Exception:
             pass
 
-    # Key rates & signals.
+    # Key rates & signals — grouped: base rates, cost of new debt, credit
+    # spreads, CRE fundamentals, policy, energy.
     rows = []
-    for key, i in [("cre_tiles", 0), ("cre_tiles", 2), ("credit_tiles", 0),
-                   ("credit_tiles", 1), ("cre_fund_tiles", 0), ("cre_fund_tiles", 2),
-                   ("economy_tiles", 0)]:
+    for key, i in [("cre_tiles", 0), ("cre_tiles", 2), ("cre_fin_tiles", 0),
+                   ("credit_tiles", 0), ("credit_tiles", 1), ("cre_fund_tiles", 0),
+                   ("cre_fund_tiles", 2), ("economy_tiles", 0), ("energy_tiles", 0)]:
         lbl, val = _tile(ctx, key, i)
         if lbl and val:
             rows.append((lbl, val))
