@@ -137,6 +137,13 @@ def apply_rates(ctx, curve, sofr):
             fin[1]["val"] = f"{y10 + 1.35:.2f}–{y10 + 1.65:.2f}"
             fin[1]["note"] = f'10Y ({y10:.2f}%) + 135–165 bp agency spread'
 
+        # Refinancing-gap chart: the "new CRE loan" bar tracks the live agency-
+        # coupon midpoint (10Y + ~150 bp). "expiring" stays the illustrative
+        # snapshot — the average coupon on debt originated years ago, which no
+        # live feed provides.
+        if y10 is not None and isinstance(ctx.get("gap"), dict):
+            ctx["gap"]["new"] = round(y10 + 1.5, 2)
+
     if sofr is not None:
         ctx["cre_tiles"][2]["val"] = f"{sofr:.2f}"
         if "SOFR" in tick_by_name:
@@ -301,6 +308,23 @@ def apply_fred(ctx, f):
         if m.get("prev") is not None:
             d = m["value"] - m["prev"]
             fin[0]["delta"] = {"dir": 0, "txt": f"{d:+.2f}pp", "note": "wk/wk"}
+
+
+def apply_imf(ctx, imf):
+    """Update the IMF global-GDP tile (economy_tiles[4]) from live WEO data."""
+    if not imf:
+        return
+    tiles = ctx.get("economy_tiles")
+    if not tiles or len(tiles) < 5:
+        return
+    t = tiles[4]
+    t["val"] = f"{imf['value']:.1f}"
+    t["unit"] = "%"
+    t["lbl"] = "Global GDP · IMF"
+    if imf.get("next_value") is not None:
+        t["note"] = f"{imf['year']} · {imf['next_value']:.1f}% projected in {imf['next_year']}"
+    else:
+        t["note"] = f"{imf['year']} · IMF World Economic Outlook"
 
 
 def apply_watchlist(ctx, wl):
@@ -512,6 +536,16 @@ def gather_live(ctx, offline):
             print("[info] fred: no FRED_API_KEY set — macro/credit tiles use snapshot values")
     except Exception as e:
         print(f"[warn] fred step: {e}")
+
+    try:
+        imf = fetch.fetch_imf_gdp()
+        if imf:
+            apply_imf(ctx, imf)
+            print(f"[ok] imf global gdp: {imf['value']}% ({imf['year']})")
+        else:
+            print("[info] imf gdp: no data — global-GDP tile uses snapshot value")
+    except Exception as e:
+        print(f"[warn] imf step: {e}")
 
     # Watchlist: Yahoo intraday primary; Stooq EOD fallback.
     try:

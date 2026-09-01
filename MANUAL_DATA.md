@@ -1,6 +1,6 @@
 # Manual data dependencies — The Standpoint Brief
 
-_Last reviewed: Sep 1, 2026_
+_Last reviewed: Sep 1, 2026 (both optional-polish items now automated)_
 
 This is the maintenance map for the brief. It separates what updates **itself** from
 what a person has to update **by hand**, and — for each manual item — says where the
@@ -29,6 +29,8 @@ These refresh on every build from free, keyless (or free-key) sources. You never
 | **Brent & WTI crude** | EIA via FRED (`DCOILBRENTEU`, `DCOILWTICO`) | Every build |
 | **30-yr mortgage rate** | Freddie Mac PMMS via FRED (`MORTGAGE30US`) | Every build |
 | **Illustrative agency coupon** | Derived: live 10Y + 135–165 bp | Every build |
+| **IMF global GDP growth** (current + next year) | IMF DataMapper API — WEO, keyless (`NGDP_RPCH`/`WLD`) | Every build |
+| **Refinancing-gap "new loan" rate** | Derived: live 10Y + 150 bp | Every build |
 | Watchlist (KRE, VNQ, BXP, PLD, VMRK, SPG) | Yahoo intraday → Stooq EOD fallback | Every build |
 | Market & CRE headlines | RSS newswires | Every build |
 | "Today's catalysts" card | `data/calendar.json` (date-matched) | Every build, from the calendar file |
@@ -73,13 +75,6 @@ unless noted; edit the value there and rebuild (or let the next scheduled build 
 - **Automation:** **Not available** (PDF/press-release only). Low churn — a quick edit a
   few times a year.
 
-**IMF global GDP** — `economy_tiles[4]` (3.3% / 3.2%)
-- **Source:** IMF World Economic Outlook.
-- **Cadence:** major releases Jan & Apr, updates Jul & Oct.
-- **Automation:** **Possible but low-value.** The IMF has a free data API (SDMX), but the
-  headline WEO growth number changes only ~4×/year and the wording around it is editorial.
-  Recommend leaving manual unless you want to wire it up as a nice-to-have.
-
 **2026 CRE maturities** — `cre_tiles[3]` ($936B) and the `cre.callout` ($1T/yr through 2030)
 - **Source:** MSCI / MBA / Trepp maturity research.
 - **Cadence:** annual research, occasionally revised.
@@ -94,11 +89,14 @@ unless noted; edit the value there and rebuild (or let the next scheduled build 
   from Fed funds futures pricing; CME's tool has no free API, and recomputing it from raw
   futures is complex and error-prone. Keep manual; update near FOMC meetings.
 
-**The refinancing-gap chart** — `gap` (`expiring` 4.76 / `new` 6.24)
-- **Source:** illustrative — "new" tracks roughly with today's CRE loan pricing, "expiring"
-  reflects rates from ~3–5 years ago.
-- **Automation:** **Partially feasible.** "New" could be tied to the live agency coupon
-  already computed; "expiring" would still be a judgment call. Currently manual/illustrative.
+**The refinancing-gap chart** — `gap` (`expiring` / `new`)
+- **`new` is now automated** — it tracks the live agency-coupon midpoint (10Y + 150 bp),
+  so the "new CRE loan" bar moves with rates on every build.
+- **`expiring` stays manual/illustrative** (4.76) — it represents the average coupon on
+  debt originated years ago, which no live feed provides. Edit occasionally if the
+  vintage of maturing debt shifts. Note: the prose in the CRE card ("priced near ~6.24%")
+  is illustrative and worded loosely, so a small chart/prose drift is expected and fine;
+  refresh that sentence if rates move materially.
 
 **Editorial narrative** — headlines, standfirsts, the "rotation" card, the energy/Hormuz
 `energy.note`, the `cre.card_body` and callouts.
@@ -128,6 +126,7 @@ unless noted; edit the value there and rebuild (or let the next scheduled build 
 - **Realistic cadence to keep the site current by hand:** ~10 minutes once a month
   (CMBS table), ~15 minutes once a quarter (cap rates / vacancy / MBA), plus a glance at
   the FedWatch odds and editorial narrative around FOMC dates.
-- **If you ever want to trim manual work further,** the only two worth wiring up are the
-  IMF global-GDP number (free SDMX API) and tying the refinancing-gap "new" rate to the
-  live agency coupon — both are low-value polish, not necessities.
+- **The two optional-polish items are now done:** IMF global GDP pulls live from the IMF
+  DataMapper API, and the refinancing-gap "new loan" rate tracks the live agency coupon.
+  Nothing further is worth automating — what remains manual is manual because there is no
+  free source for it, not for lack of wiring.

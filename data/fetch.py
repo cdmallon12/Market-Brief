@@ -475,6 +475,42 @@ def fetch_fred():
 
 
 # --------------------------------------------------------------------------- #
+# IMF global growth (World Economic Outlook via the keyless DataMapper API)      #
+# --------------------------------------------------------------------------- #
+def fetch_imf_gdp():
+    """World real-GDP growth (%) for the current and next year from the IMF WEO.
+
+    Uses the free, keyless IMF DataMapper API (NGDP_RPCH = real GDP growth,
+    WLD = world aggregate). Returns {'year','value','next_year','next_value'}
+    or None. WEO revises only a few times a year, so this rarely changes — but
+    keeping it live means the tile is never wrong at a refresh boundary.
+    """
+    url = "https://www.imf.org/external/datamapper/api/v1/NGDP_RPCH/WLD"
+    try:
+        data = _get(url).json()
+        series = data.get("values", {}).get("NGDP_RPCH", {}).get("WLD", {})
+        if not series:
+            return None
+        this_year = dt.date.today().year
+
+        def _v(y):
+            raw = series.get(str(y))
+            try:
+                return round(float(raw), 1) if raw is not None else None
+            except (TypeError, ValueError):
+                return None
+
+        cur = _v(this_year)
+        if cur is None:                       # not yet published for this year
+            return None
+        return {"year": this_year, "value": cur,
+                "next_year": this_year + 1, "next_value": _v(this_year + 1)}
+    except Exception as e:
+        print(f"[warn] imf gdp: {e}")
+        return None
+
+
+# --------------------------------------------------------------------------- #
 # Watchlist — public-market CRE proxies (Stooq, keyless)                        #
 # --------------------------------------------------------------------------- #
 # Public equities price CRE stress in real time and often lead the private
