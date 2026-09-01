@@ -131,25 +131,37 @@ NS = {
 }
 
 
-def fetch_treasury_curve():
-    """
-    Return {'points': [{t,x,y,axis,mark}], 'date': 'Mon DD, YYYY',
-            'y2': float, 'y10': float, 'y30': float, 'spread_2s10s_bps': int} or None.
-    """
-    ym = dt.date.today().strftime("%Y%m")
+def _treasury_entries(ym):
+    """Return the <entry> list from the Treasury par-yield feed for month YYYYMM, or []."""
     url = ("https://home.treasury.gov/resource-center/data-chart-center/"
            "interest-rates/pages/xml?data=daily_treasury_yield_curve"
            f"&field_tdr_date_value_month={ym}")
     try:
         root = ET.fromstring(_get(url).content)
+        return root.findall(".//a:entry", NS)
     except Exception as e:
-        print(f"[warn] treasury: {e}")
-        return None
+        print(f"[warn] treasury {ym}: {e}")
+        return []
 
-    entries = root.findall(".//a:entry", NS)
+
+def fetch_treasury_curve():
+    """
+    Return {'points': [{t,x,y,axis,mark}], 'date': 'Mon DD, YYYY',
+            'y2': float, 'y10': float, 'y30': float, 'spread_2s10s_bps': int} or None.
+
+    Queries the current month, then falls back to the previous month when the
+    current one has no rows yet — e.g. on the 1st of a month before that day's
+    curve posts after the close — so the latest available reading still shows
+    instead of the page going stale at the month boundary.
+    """
+    today = dt.date.today()
+    entries = _treasury_entries(today.strftime("%Y%m"))
+    if not entries:
+        prev_ym = (today.replace(day=1) - dt.timedelta(days=1)).strftime("%Y%m")
+        entries = _treasury_entries(prev_ym)
     if not entries:
         return None
-    props = entries[-1].find(".//m:properties", NS)  # latest date in month
+    props = entries[-1].find(".//m:properties", NS)  # latest available date
 
     def val(suffix):
         el = props.find(f"d:{suffix}", NS)
