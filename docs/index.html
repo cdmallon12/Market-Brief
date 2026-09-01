@@ -166,6 +166,13 @@
   .wl-foot{font-size:11px;color:var(--muted);margin:12px 0 0;}
   .datastamp{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);letter-spacing:.03em;margin:14px 0 0;}
 
+  /* Curve-spread readout */
+  .spreads{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));margin-top:2px;}
+  .spread{border:1px solid var(--hair);border-radius:10px;padding:12px 14px;background:var(--surface-2);}
+  .spread .sk{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px;}
+  .spread .sv{font-family:"IBM Plex Mono",monospace;font-size:20px;font-weight:500;color:var(--ink);letter-spacing:-.01em;}
+  .spread .sv .u{font-size:12px;color:var(--muted);margin-left:3px;}
+
   footer{border-top:1px solid var(--hair);margin-top:40px;padding:26px 0 44px;}
   footer .disc{font-size:12px;color:var(--muted);max-width:70ch;margin:0 0 16px;line-height:1.5;}
   footer .srcs{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:6px 14px;}
@@ -282,8 +289,13 @@
 ▾ slower <span style="color:var(--muted)">than expected</span>  </div><p class="note">Annualized real growth; a clear downshift</p></div><div class="tile ">
   <p class="lbl">Global GDP · IMF</p>
   <div class="val mono">3.3<span class="unit">%</span></div><p class="note">2026 · 3.2% projected in 2027</p></div>      </div>
-      <div class="section-rule"><h3>Reading the policy tea leaves</h3></div><div class="callout"><p class="q">Unusually for this stage of the cycle, a rate <em>hike</em> is openly on the table — yet futures still favor a hold at the September 16 meeting.</p></div>      <div class="prose"><p>The Federal Reserve has held the funds rate at <strong>3.50–3.75%</strong> since its July 29 decision. Futures lean toward another hold at the September 16 meeting — CME FedWatch put the odds of no change near <strong>59%</strong> in late August — though persistent, partly supply-driven inflation has kept an unusual hike scenario alive even as the labor market and GDP soften.</p><p>Globally, the IMF describes an economy that is <strong>steady but divergent</strong>: resilient technology investment and accommodative financial conditions have offset the drag from shifting trade policy, holding world growth near 3.3%. The risk case is a policy misstep — tightening into a slowdown — that markets watch closely with each data release.</p>      </div>
-    </section>
+      <div class="section-rule"><h3>Reading the policy tea leaves</h3></div><div class="callout"><p class="q">Unusually for this stage of the cycle, a rate <em>hike</em> is openly on the table — yet futures still favor a hold at the September 16 meeting.</p></div>      <div class="prose"><p>The Federal Reserve has held the funds rate at <strong>3.50–3.75%</strong> since its July 29 decision. Futures lean toward another hold at the September 16 meeting — CME FedWatch put the odds of no change near <strong>59%</strong> in late August — though persistent, partly supply-driven inflation has kept an unusual hike scenario alive even as the labor market and GDP soften.</p><p>Globally, the IMF describes an economy that is <strong>steady but divergent</strong>: resilient technology investment and accommodative financial conditions have offset the drag from shifting trade policy, holding world growth near 3.3%. The risk case is a policy misstep — tightening into a slowdown — that markets watch closely with each data release.</p>      </div>      <div class="section-rule"><h3>Energy &amp; the inflation pass-through</h3></div><div class="callout"><p>Energy is the macro wildcard in CRE underwriting that has nothing to do with real estate. Crude feeds headline inflation — which, unlike core, includes food and energy — so when oil runs hot, headline PCE pulls above core, the Fed stays cautious, and long-end yields stay sticky. Since new CRE debt is priced off the 10-year, an oil shock lands on financing costs regardless of what property fundamentals are doing. Watch Brent alongside the headline-vs-core PCE gap below.</p></div>      <div class="tiles"><div class="tile ">
+  <p class="lbl">Brent Crude</p>
+  <div class="val mono">$88.50</div><p class="note">Global benchmark — the swing factor in headline inflation</p></div><div class="tile ">
+  <p class="lbl">WTI Crude</p>
+  <div class="val mono">$80.50</div><p class="note">U.S. benchmark</p></div><div class="tile ">
+  <p class="lbl">Headline PCE · Jul</p>
+  <div class="val mono">3.7<span class="unit">%</span></div><p class="note">+0.4pp above core PCE — the energy pass-through</p></div>      </div>    </section>
 
     <!-- NEWS -->
     <section class="panel" id="p-news" role="tabpanel" aria-labelledby="tab-news" hidden>
@@ -335,8 +347,25 @@
   <div class="val mono">3.65<span class="unit">%</span></div><p class="note">The benchmark under most floating CRE debt</p></div><div class="tile neg">
   <p class="lbl">2026 CRE Maturities</p>
   <div class="val mono">$936<span class="unit">B</span></div>  <div class="delta ">
-+19% vs 2025  </div><p class="note">Largest near-term maturity wave</p></div>      </div>
-
++19% vs 2025  </div><p class="note">Largest near-term maturity wave</p></div>      </div>      <div class="section-rule"><h3>Financing &amp; the yield curve</h3></div>
+      <div class="grid-2">        <div class="card">
+          <h4>Cost of new CRE debt</h4>
+          <p class="csub">Benchmark mortgage rate and an illustrative agency coupon</p>
+          <div class="tiles" style="margin-top:2px"><div class="tile ">
+  <p class="lbl">30-Yr Mortgage · PMMS</p>
+  <div class="val mono">6.65<span class="unit">%</span></div><p class="note">Freddie Mac PMMS — near a 12-month high</p></div><div class="tile ">
+  <p class="lbl">Illustrative Agency Coupon</p>
+  <div class="val mono">6.01–6.31<span class="unit">%</span></div><p class="note">10Y (4.66%) + 135–165 bp agency spread</p></div>          </div>
+        </div>        <div class="card">
+          <h4>Curve spreads</h4>
+          <p class="csub">Key maturity spreads, in basis points · a positive 2s10s is a normal, upward-sloping curve</p>
+          <div class="spreads">
+            <div class="spread"><p class="sk">2s10s</p><div class="sv">+47<span class="u">bps</span></div></div>
+            <div class="spread"><p class="sk">3M – 10Y</p><div class="sv">+81<span class="u">bps</span></div></div>
+            <div class="spread"><p class="sk">5s30s</p><div class="sv">+81<span class="u">bps</span></div></div>
+            <div class="spread"><p class="sk">10s30s</p><div class="sv">+52<span class="u">bps</span></div></div>
+          </div>
+        </div>      </div>
       <div class="section-rule"><h3>The charts that matter</h3></div>
       <div class="grid-2">
         <div class="card">
@@ -372,7 +401,47 @@
   <p class="lbl">Bank CRE Loans · Jul</p>
   <div class="val mono">$3,119<span class="unit">B</span></div><p class="note"><span class="mono">+2.4%</span> outstanding vs. one year ago</p></div><div class="tile pos">
   <p class="lbl">Bank Lending Standards · Q3</p>
-  <div class="val mono">-11.3</div><p class="note">Net share of banks <strong>easing</strong> CRE standards</p></div>      </div>      <div class="section-rule"><h3>Watchlist · public-market signals</h3></div>
+  <div class="val mono">-11.3</div><p class="note">Net share of banks <strong>easing</strong> CRE standards</p></div>      </div>      <div class="section-rule"><h3>Market fundamentals · cap rates &amp; supply</h3></div><div class="callout"><p>Rates are pricing the sector, not fundamentals: cap rates sit at multi-year highs while occupancy tightens and new supply falls. The deals that clear today are value-add at a 5.75%+ going-in, not stabilized core at negative leverage.</p></div>      <div class="tiles"><div class="tile ">
+  <p class="lbl">Multifamily Cap Rate · Q2</p>
+  <div class="val mono">5.2<span class="unit">%</span></div><p class="note">Five-year high (CBRE) — negative leverage vs. a 6%+ coupon</p></div><div class="tile ">
+  <p class="lbl">All-Property Cap Rate</p>
+  <div class="val mono">6.3<span class="unit">%</span></div><p class="note">Debt cost down, caps up — spread moving to the buyer's favor</p></div><div class="tile ">
+  <p class="lbl">MF National Vacancy</p>
+  <div class="val mono">8.2<span class="unit">%</span></div><p class="note">Seen easing to 8.1% in 2027 (CoStar)</p></div><div class="tile pos">
+  <p class="lbl">2026 MF Deliveries</p>
+  <div class="val mono">421<span class="unit">K</span></div>  <div class="delta down">
+▾ from 531K <span style="color:var(--muted)">2025</span>  </div><p class="note">Supply falling from the ~1M 2023 peak — a visible end date</p></div>      </div><p class="datastamp">As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases</p>      <div class="section-rule"><h3>CMBS distress &amp; delinquency</h3></div>
+      <div class="card">
+        <div class="wl-wrap">
+          <table class="wl">
+            <thead><tr><th>Segment</th><th class="num">Rate</th><th>Trend</th></tr></thead>
+            <tbody>              <tr>
+                <td class="wl-desc" style="color:var(--ink);font-weight:600">Overall CMBS delinquency</td>
+                <td class="num mono down">7.86%</td>
+                <td class="wl-desc">+51 bp m/m · 7.23% a year ago</td>
+              </tr>              <tr>
+                <td class="wl-desc" style="color:var(--ink);font-weight:600">Office</td>
+                <td class="num mono down">11.91%</td>
+                <td class="wl-desc">+34 bp m/m</td>
+              </tr>              <tr>
+                <td class="wl-desc" style="color:var(--ink);font-weight:600">Multifamily</td>
+                <td class="num mono down">7.69%</td>
+                <td class="wl-desc">+46 bp m/m — largest increase of any type</td>
+              </tr>              <tr>
+                <td class="wl-desc" style="color:var(--ink);font-weight:600">Lodging</td>
+                <td class="num mono ">5.35%</td>
+                <td class="wl-desc">+13 bp m/m</td>
+              </tr>              <tr>
+                <td class="wl-desc" style="color:var(--ink);font-weight:600">CRED iQ overall distress</td>
+                <td class="num mono down">10.91%</td>
+                <td class="wl-desc">2026 high</td>
+              </tr>              <tr>
+                <td class="wl-desc" style="color:var(--ink);font-weight:600">CRED iQ office distress</td>
+                <td class="num mono down">16.65%</td>
+                <td class="wl-desc">~53% above the market-wide average</td>
+              </tr>            </tbody>
+          </table>
+        </div><p class="wl-foot">July 2026 reporting · Trepp & CRED iQ (manually maintained)</p>      </div>      <div class="section-rule"><h3>Watchlist · public-market signals</h3></div>
       <div class="card">
         <div class="wl-wrap">
           <table class="wl">
@@ -454,12 +523,12 @@
   <div class="wrap">
     <p class="disc"><strong style="color:var(--ink-2)">Informational only — not investment advice.</strong> Figures are compiled automatically from public sources and are point-in-time snapshots that move intraday. Verify against a live data provider before acting.</p>
     <div class="srcs">
-      <span style="color:var(--muted)">Sources:</span><a href="https://tradingeconomics.com/united-states/stock-market" target="_blank" rel="noopener">Trading Economics</a><a href="https://stooq.com/" target="_blank" rel="noopener">Stooq · Indices</a><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve" target="_blank" rel="noopener">US Treasury · Yield Curve</a><a href="https://www.newyorkfed.org/markets/reference-rates/sofr" target="_blank" rel="noopener">NY Fed · SOFR</a><a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener">FRED · Macro</a><a href="https://fred.stlouisfed.org/graph/?id=BAMLC0A4CBBB,BAMLH0A0HYM2" target="_blank" rel="noopener">ICE BofA · Credit Spreads (FRED)</a><a href="https://www.federalreserve.gov/data/sloos.htm" target="_blank" rel="noopener">Fed H.8 / SLOOS · CRE Lending</a><a href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" target="_blank" rel="noopener">CME FedWatch</a><a href="https://www.imf.org/en/publications/weo" target="_blank" rel="noopener">IMF WEO</a><a href="https://www.credaily.com/" target="_blank" rel="noopener">CRE Daily</a><a href="https://www.mba.org/news-and-research" target="_blank" rel="noopener">MBA CREF</a>    </div>
+      <span style="color:var(--muted)">Sources:</span><a href="https://tradingeconomics.com/united-states/stock-market" target="_blank" rel="noopener">Trading Economics</a><a href="https://stooq.com/" target="_blank" rel="noopener">Stooq · Indices</a><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve" target="_blank" rel="noopener">US Treasury · Yield Curve</a><a href="https://www.newyorkfed.org/markets/reference-rates/sofr" target="_blank" rel="noopener">NY Fed · SOFR</a><a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener">FRED · Macro</a><a href="https://fred.stlouisfed.org/graph/?id=BAMLC0A4CBBB,BAMLH0A0HYM2" target="_blank" rel="noopener">ICE BofA · Credit Spreads (FRED)</a><a href="https://www.federalreserve.gov/data/sloos.htm" target="_blank" rel="noopener">Fed H.8 / SLOOS · CRE Lending</a><a href="https://fred.stlouisfed.org/series/MORTGAGE30US" target="_blank" rel="noopener">Freddie Mac PMMS · Mortgage Rate (FRED)</a><a href="https://fred.stlouisfed.org/graph/?id=DCOILBRENTEU,DCOILWTICO" target="_blank" rel="noopener">EIA · Brent/WTI Crude (FRED)</a><a href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" target="_blank" rel="noopener">CME FedWatch</a><a href="https://www.imf.org/en/publications/weo" target="_blank" rel="noopener">IMF WEO</a><a href="https://www.trepp.com/trepptalk/topic/cmbs-delinquency-rate" target="_blank" rel="noopener">Trepp · CMBS Delinquency</a><a href="https://cred-iq.com/blog" target="_blank" rel="noopener">CRED iQ · CRE Distress</a><a href="https://www.cbre.com/insights/figures" target="_blank" rel="noopener">CBRE · Cap Rate Survey</a><a href="https://www.costar.com/" target="_blank" rel="noopener">CoStar · Multifamily</a><a href="https://www.credaily.com/" target="_blank" rel="noopener">CRE Daily</a><a href="https://www.mba.org/news-and-research" target="_blank" rel="noopener">MBA CREF</a>    </div>
     <p class="stamp">Compiled Sep 01, 2026 · The Standpoint Brief</p>
   </div>
 </footer>
 
-<script id="brief-data" type="application/json">{"ticker": [{"nm": "S&P 500", "vl": "7,674.70", "ch": "-0.03%", "dir": -1}, {"nm": "Nasdaq", "vl": "29,216", "ch": "-0.21%", "dir": -1}, {"nm": "Dow", "vl": "53,701", "ch": "+0.10%", "dir": 1}, {"nm": "VIX", "vl": "15.67", "ch": "+1.42%", "dir": 1}, {"nm": "10Y UST", "vl": "4.70%", "ch": "", "dir": 0}, {"nm": "2Y UST", "vl": "4.24%", "ch": "", "dir": 0}, {"nm": "30Y UST", "vl": "5.23%", "ch": "", "dir": 0}, {"nm": "SOFR", "vl": "3.65%", "ch": "", "dir": 0}, {"nm": "Fed Funds", "vl": "3.50-3.75%", "ch": "", "dir": 0}, {"nm": "CPI", "vl": "3.4%", "ch": "", "dir": 0}, {"nm": "Core PCE", "vl": "3.3%", "ch": "", "dir": 0}, {"nm": "US GDP Q2", "vl": "1.5%", "ch": "", "dir": 0}, {"nm": "IG OAS", "vl": "1.00%", "ch": "", "dir": 0}, {"nm": "HY OAS", "vl": "2.69%", "ch": "", "dir": 0}], "curve": [{"t": "1M", "x": 0.083, "y": 3.79, "axis": true, "mark": true}, {"t": "1Y", "x": 1, "y": 4.04, "axis": false, "mark": false}, {"t": "2Y", "x": 2, "y": 4.24, "axis": true, "mark": true}, {"t": "3Y", "x": 3, "y": 4.31, "axis": false, "mark": false}, {"t": "5Y", "x": 5, "y": 4.41, "axis": true, "mark": false}, {"t": "7Y", "x": 7, "y": 4.55, "axis": false, "mark": false}, {"t": "10Y", "x": 10, "y": 4.7, "axis": true, "mark": true}, {"t": "20Y", "x": 20, "y": 5.21, "axis": true, "mark": false}, {"t": "30Y", "x": 30, "y": 5.23, "axis": true, "mark": true}], "gap": {"expiring": 4.76, "new": 6.24}, "orig": {"y2025": 633.7, "y2026": 805.5}, "credit": {"ig": 1.0, "hy": 2.69}}</script>
+<script id="brief-data" type="application/json">{"ticker": [{"nm": "S&P 500", "vl": "7,674.70", "ch": "-0.03%", "dir": -1}, {"nm": "Nasdaq", "vl": "29,216", "ch": "-0.21%", "dir": -1}, {"nm": "Dow", "vl": "53,701", "ch": "+0.10%", "dir": 1}, {"nm": "VIX", "vl": "15.67", "ch": "+1.42%", "dir": 1}, {"nm": "10Y UST", "vl": "4.70%", "ch": "", "dir": 0}, {"nm": "2Y UST", "vl": "4.24%", "ch": "", "dir": 0}, {"nm": "30Y UST", "vl": "5.23%", "ch": "", "dir": 0}, {"nm": "SOFR", "vl": "3.65%", "ch": "", "dir": 0}, {"nm": "Fed Funds", "vl": "3.50-3.75%", "ch": "", "dir": 0}, {"nm": "CPI", "vl": "3.4%", "ch": "", "dir": 0}, {"nm": "Core PCE", "vl": "3.3%", "ch": "", "dir": 0}, {"nm": "Headline PCE", "vl": "3.7%", "ch": "", "dir": 0}, {"nm": "US GDP Q2", "vl": "1.5%", "ch": "", "dir": 0}, {"nm": "Brent", "vl": "$88.50", "ch": "", "dir": 0}, {"nm": "30Y Mortgage", "vl": "6.65%", "ch": "", "dir": 0}, {"nm": "IG OAS", "vl": "1.00%", "ch": "", "dir": 0}, {"nm": "HY OAS", "vl": "2.69%", "ch": "", "dir": 0}], "curve": [{"t": "1M", "x": 0.083, "y": 3.79, "axis": true, "mark": true}, {"t": "1Y", "x": 1, "y": 4.04, "axis": false, "mark": false}, {"t": "2Y", "x": 2, "y": 4.24, "axis": true, "mark": true}, {"t": "3Y", "x": 3, "y": 4.31, "axis": false, "mark": false}, {"t": "5Y", "x": 5, "y": 4.41, "axis": true, "mark": false}, {"t": "7Y", "x": 7, "y": 4.55, "axis": false, "mark": false}, {"t": "10Y", "x": 10, "y": 4.7, "axis": true, "mark": true}, {"t": "20Y", "x": 20, "y": 5.21, "axis": true, "mark": false}, {"t": "30Y", "x": 30, "y": 5.23, "axis": true, "mark": true}], "gap": {"expiring": 4.76, "new": 6.24}, "orig": {"y2025": 633.7, "y2026": 805.5}, "credit": {"ig": 1.0, "hy": 2.69}}</script>
 <script>
 (function(){
   "use strict";

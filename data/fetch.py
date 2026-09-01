@@ -186,12 +186,20 @@ def fetch_treasury_curve():
     if len(points) < 4:
         return None
 
+    y3m = val("BC_3MONTH")
     y2 = val("BC_2YEAR")
+    y5 = val("BC_5YEAR")
     y10 = val("BC_10YEAR")
     y30 = val("BC_30YEAR")
-    spread = int(round((y10 - y2) * 100)) if (y10 and y2) else None
+
+    def bps(a, b):
+        return int(round((a - b) * 100)) if (a is not None and b is not None) else None
+
     return {"points": points, "date": date_str, "y2": y2, "y10": y10, "y30": y30,
-            "spread_2s10s_bps": spread}
+            "spread_2s10s_bps": bps(y10, y2),
+            "spread_3m10y_bps": bps(y10, y3m),
+            "spread_5s30s_bps": bps(y30, y5),
+            "spread_10s30s_bps": bps(y30, y10)}
 
 
 # --------------------------------------------------------------------------- #
@@ -434,6 +442,34 @@ def fetch_fred():
             out["sloos_cre"] = {"value": sloos[0][1], "quarter": _quarter_label(sloos[0][0])}
     except Exception as e:
         print(f"[warn] fred sloos cre: {e}")
+
+    # --- Energy (the inflation driver) + headline PCE + mortgage rate --- #
+    try:
+        brent = _fred_obs("DCOILBRENTEU", key, limit=2)   # Brent crude, $/bbl (daily)
+        if brent:
+            out["brent"] = {"value": brent[0][1], "prev": brent[1][1] if len(brent) > 1 else None}
+    except Exception as e:
+        print(f"[warn] fred brent: {e}")
+    try:
+        wti = _fred_obs("DCOILWTICO", key, limit=2)       # WTI crude, $/bbl (daily)
+        if wti:
+            out["wti"] = {"value": wti[0][1], "prev": wti[1][1] if len(wti) > 1 else None}
+    except Exception as e:
+        print(f"[warn] fred wti: {e}")
+    try:
+        hpce = _fred_obs("PCEPI", key)                    # headline PCE price index (monthly) -> YoY
+        hyoy = _yoy_from_index(hpce)
+        if hyoy is not None:
+            out["headline_pce"] = {"yoy": hyoy, "month": _month_label(hpce[0][0])}
+    except Exception as e:
+        print(f"[warn] fred headline pce: {e}")
+    try:
+        mort = _fred_obs("MORTGAGE30US", key, limit=2)    # Freddie Mac PMMS 30-yr (weekly, %)
+        if mort:
+            out["mortgage30"] = {"value": mort[0][1], "prev": mort[1][1] if len(mort) > 1 else None,
+                                 "date": mort[0][0]}
+    except Exception as e:
+        print(f"[warn] fred mortgage30: {e}")
 
     return out or None
 

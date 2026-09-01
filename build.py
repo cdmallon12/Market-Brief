@@ -123,6 +123,20 @@ def apply_rates(ctx, curve, sofr):
         if y30 is not None and "30Y UST" in tick_by_name:
             tick_by_name["30Y UST"]["vl"] = f"{y30:.2f}%"
 
+        # Full curve-spread readout (CRE tab "Financing & spreads")
+        def _sp(key):
+            v = curve.get(key)
+            return f"+{v}" if (v is not None and v >= 0) else (str(v) if v is not None else "—")
+        ctx["curve_spreads"] = {
+            "2s10s": _sp("spread_2s10s_bps"), "3m10y": _sp("spread_3m10y_bps"),
+            "5s30s": _sp("spread_5s30s_bps"), "10s30s": _sp("spread_10s30s_bps"),
+        }
+        # Illustrative agency coupon = 10Y + ~135–165 bp (cre_fin_tiles[1])
+        fin = ctx.get("cre_fin_tiles")
+        if fin and len(fin) > 1 and y10 is not None:
+            fin[1]["val"] = f"{y10 + 1.35:.2f}–{y10 + 1.65:.2f}"
+            fin[1]["note"] = f'10Y ({y10:.2f}%) + 135–165 bp agency spread'
+
     if sofr is not None:
         ctx["cre_tiles"][2]["val"] = f"{sofr:.2f}"
         if "SOFR" in tick_by_name:
@@ -250,6 +264,43 @@ def apply_fred(ctx, f):
                 cf[2]["tone"] = "pos"
             else:
                 cf[2]["note"] = "Standards unchanged on net"
+
+    # --- Energy tiles (Global Economy tab): Brent, WTI, headline PCE ---
+    et = ctx.get("energy_tiles")
+    if et:
+        if "brent" in f and len(et) > 0:
+            b = f["brent"]
+            et[0]["val"], et[0]["unit"] = f"${b['value']:,.2f}", ""
+            if b.get("prev") is not None:
+                d = b["value"] - b["prev"]
+                et[0]["delta"] = {"dir": dir_of(d), "txt": f"{d:+.2f}", "note": "d/d"}
+                et[0]["tone"] = ""
+        if "wti" in f and len(et) > 1:
+            w = f["wti"]
+            et[1]["val"], et[1]["unit"] = f"${w['value']:,.2f}", ""
+            if w.get("prev") is not None:
+                d = w["value"] - w["prev"]
+                et[1]["delta"] = {"dir": dir_of(d), "txt": f"{d:+.2f}", "note": "d/d"}
+        if "headline_pce" in f and len(et) > 2:
+            h = f["headline_pce"]
+            et[2]["val"], et[2]["unit"] = f"{h['yoy']:.1f}", "%"
+            m = h.get("month") or ""
+            et[2]["lbl"] = f"Headline PCE · {m}" if m else "Headline PCE"
+            core = f.get("core_pce", {}).get("yoy")
+            if core is not None:
+                gap = h["yoy"] - core
+                et[2]["note"] = f'{gap:+.1f}pp above core PCE — the energy pass-through'
+            if "Headline PCE" in tick:
+                tick["Headline PCE"]["vl"] = f"{h['yoy']:.1f}%"
+
+    # --- CRE financing tile: 30-yr mortgage (Freddie PMMS) ---
+    fin = ctx.get("cre_fin_tiles")
+    if fin and "mortgage30" in f and len(fin) > 0:
+        m = f["mortgage30"]
+        fin[0]["val"], fin[0]["unit"] = f"{m['value']:.2f}", "%"
+        if m.get("prev") is not None:
+            d = m["value"] - m["prev"]
+            fin[0]["delta"] = {"dir": 0, "txt": f"{d:+.2f}pp", "note": "wk/wk"}
 
 
 def apply_watchlist(ctx, wl):
