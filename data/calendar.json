@@ -6,36 +6,206 @@
     "fomc": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "_verified": "2026-09-01: BLS dates through Dec 2026 confirmed against the official BLS 2026 calendar; BEA confirmed through Oct 29, 2026 only; FOMC 2027 dates are the Fed's tentative pre-announced schedule.",
+  "_bellwethers_note": "Tickers whose earnings are surfaced on the catalysts card. Symbols only — a list, not a claim; it can go incomplete but it cannot go false. Watchlist names are matched automatically and need not be listed here. Edit freely; no code change required.",
+  "bellwethers": [
+    "NVDA",
+    "MSFT",
+    "GOOGL",
+    "META",
+    "AVGO",
+    "JPM",
+    "BAC",
+    "WFC",
+    "GS",
+    "FDX",
+    "UPS",
+    "WMT",
+    "HD",
+    "CAT",
+    "CBRE",
+    "JLL",
+    "BX"
+  ],
   "events": [
-    { "date": "2026-09-01", "time": "10:00 ET", "title": "JOLTS job openings", "detail": "July openings, hires and quits. The quits rate is the cleaner read on labor-market slack than the headline count" },
-    { "date": "2026-09-04", "time": "08:30 ET", "title": "Employment Situation", "detail": "August payrolls, unemployment rate and average hourly earnings. The last jobs report before the September FOMC" },
-    { "date": "2026-09-10", "time": "08:30 ET", "title": "Producer Price Index", "detail": "August PPI. Watch the services components that feed the PCE deflator" },
-    { "date": "2026-09-11", "time": "08:30 ET", "title": "Consumer Price Index", "detail": "August CPI, headline and core. Shelter remains the largest single line in the index" },
-    { "date": "2026-09-16", "time": "14:00 ET", "title": "FOMC decision", "detail": "Rate decision plus the quarterly Summary of Economic Projections and dot plot. Press conference at 2:30 ET" },
-    { "date": "2026-09-29", "time": "10:00 ET", "title": "JOLTS job openings", "detail": "August openings, hires and quits" },
-    { "date": "2026-09-30", "time": "08:30 ET", "title": "GDP (Q2 third estimate) + Personal Income and Outlays", "detail": "August PCE, the Fed's preferred inflation gauge, released alongside the final Q2 GDP print. Also the start of BEA's 2026 annual update, so prior months can revise" },
-    { "date": "2026-10-02", "time": "08:30 ET", "title": "Employment Situation", "detail": "September payrolls, unemployment rate and average hourly earnings" },
-    { "date": "2026-10-14", "time": "08:30 ET", "title": "Consumer Price Index", "detail": "September CPI, headline and core" },
-    { "date": "2026-10-15", "time": "08:30 ET", "title": "Producer Price Index", "detail": "September PPI" },
-    { "date": "2026-10-28", "time": "14:00 ET", "title": "FOMC decision", "detail": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET" },
-    { "date": "2026-10-29", "time": "08:30 ET", "title": "GDP (Q3 advance) + Personal Income and Outlays", "detail": "First official read on Q3 output, released with September PCE the morning after the FOMC decision" },
-    { "date": "2026-10-30", "time": "08:30 ET", "title": "Employment Cost Index", "detail": "Q3 ECI. The broadest measure of wage pressure and one the Fed watches closely" },
-    { "date": "2026-11-03", "time": "10:00 ET", "title": "JOLTS job openings", "detail": "September openings, hires and quits" },
-    { "date": "2026-11-06", "time": "08:30 ET", "title": "Employment Situation", "detail": "October payrolls, unemployment rate and average hourly earnings" },
-    { "date": "2026-11-10", "time": "08:30 ET", "title": "Consumer Price Index", "detail": "October CPI, headline and core" },
-    { "date": "2026-11-13", "time": "08:30 ET", "title": "Producer Price Index", "detail": "October PPI" },
-    { "date": "2026-12-01", "time": "10:00 ET", "title": "JOLTS job openings", "detail": "October openings, hires and quits" },
-    { "date": "2026-12-04", "time": "08:30 ET", "title": "Employment Situation", "detail": "November payrolls. The last jobs report before the December FOMC" },
-    { "date": "2026-12-09", "time": "14:00 ET", "title": "FOMC decision", "detail": "Final meeting of 2026, with the Summary of Economic Projections and dot plot including the first full look at 2027" },
-    { "date": "2026-12-10", "time": "08:30 ET", "title": "Consumer Price Index", "detail": "November CPI, headline and core" },
-    { "date": "2026-12-15", "time": "08:30 ET", "title": "Producer Price Index", "detail": "November PPI" },
-    { "date": "2027-01-27", "time": "14:00 ET", "title": "FOMC decision", "detail": "First meeting of 2027. Date is the Fed's tentative schedule and is confirmed at the preceding meeting" },
-    { "date": "2027-03-17", "time": "14:00 ET", "title": "FOMC decision", "detail": "With the Summary of Economic Projections. Tentative Fed schedule" },
-    { "date": "2027-04-28", "time": "14:00 ET", "title": "FOMC decision", "detail": "No Summary of Economic Projections at this meeting. Tentative Fed schedule" },
-    { "date": "2027-06-09", "time": "14:00 ET", "title": "FOMC decision", "detail": "With the Summary of Economic Projections. Tentative Fed schedule" },
-    { "date": "2027-07-28", "time": "14:00 ET", "title": "FOMC decision", "detail": "No Summary of Economic Projections at this meeting. Tentative Fed schedule" },
-    { "date": "2027-09-15", "time": "14:00 ET", "title": "FOMC decision", "detail": "With the Summary of Economic Projections. Tentative Fed schedule" },
-    { "date": "2027-10-27", "time": "14:00 ET", "title": "FOMC decision", "detail": "No Summary of Economic Projections at this meeting. Tentative Fed schedule" },
-    { "date": "2027-12-08", "time": "14:00 ET", "title": "FOMC decision", "detail": "Final meeting of 2027, with the Summary of Economic Projections. Tentative Fed schedule" }
+    {
+      "date": "2026-09-01",
+      "time": "10:00 ET",
+      "title": "JOLTS job openings",
+      "detail": "July openings, hires and quits. The quits rate is the cleaner read on labor-market slack than the headline count"
+    },
+    {
+      "date": "2026-09-04",
+      "time": "08:30 ET",
+      "title": "Employment Situation",
+      "detail": "August payrolls, unemployment rate and average hourly earnings. The last jobs report before the September FOMC"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "08:30 ET",
+      "title": "Producer Price Index",
+      "detail": "August PPI. Watch the services components that feed the PCE deflator"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "08:30 ET",
+      "title": "Consumer Price Index",
+      "detail": "August CPI, headline and core. Shelter remains the largest single line in the index"
+    },
+    {
+      "date": "2026-09-16",
+      "time": "14:00 ET",
+      "title": "FOMC decision",
+      "detail": "Rate decision plus the quarterly Summary of Economic Projections and dot plot. Press conference at 2:30 ET"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "10:00 ET",
+      "title": "JOLTS job openings",
+      "detail": "August openings, hires and quits"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "08:30 ET",
+      "title": "GDP (Q2 third estimate) + Personal Income and Outlays",
+      "detail": "August PCE, the Fed's preferred inflation gauge, released alongside the final Q2 GDP print. Also the start of BEA's 2026 annual update, so prior months can revise"
+    },
+    {
+      "date": "2026-10-02",
+      "time": "08:30 ET",
+      "title": "Employment Situation",
+      "detail": "September payrolls, unemployment rate and average hourly earnings"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "08:30 ET",
+      "title": "Consumer Price Index",
+      "detail": "September CPI, headline and core"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "08:30 ET",
+      "title": "Producer Price Index",
+      "detail": "September PPI"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "14:00 ET",
+      "title": "FOMC decision",
+      "detail": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET"
+    },
+    {
+      "date": "2026-10-29",
+      "time": "08:30 ET",
+      "title": "GDP (Q3 advance) + Personal Income and Outlays",
+      "detail": "First official read on Q3 output, released with September PCE the morning after the FOMC decision"
+    },
+    {
+      "date": "2026-10-30",
+      "time": "08:30 ET",
+      "title": "Employment Cost Index",
+      "detail": "Q3 ECI. The broadest measure of wage pressure and one the Fed watches closely"
+    },
+    {
+      "date": "2026-11-03",
+      "time": "10:00 ET",
+      "title": "JOLTS job openings",
+      "detail": "September openings, hires and quits"
+    },
+    {
+      "date": "2026-11-06",
+      "time": "08:30 ET",
+      "title": "Employment Situation",
+      "detail": "October payrolls, unemployment rate and average hourly earnings"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "08:30 ET",
+      "title": "Consumer Price Index",
+      "detail": "October CPI, headline and core"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "08:30 ET",
+      "title": "Producer Price Index",
+      "detail": "October PPI"
+    },
+    {
+      "date": "2026-12-01",
+      "time": "10:00 ET",
+      "title": "JOLTS job openings",
+      "detail": "October openings, hires and quits"
+    },
+    {
+      "date": "2026-12-04",
+      "time": "08:30 ET",
+      "title": "Employment Situation",
+      "detail": "November payrolls. The last jobs report before the December FOMC"
+    },
+    {
+      "date": "2026-12-09",
+      "time": "14:00 ET",
+      "title": "FOMC decision",
+      "detail": "Final meeting of 2026, with the Summary of Economic Projections and dot plot including the first full look at 2027"
+    },
+    {
+      "date": "2026-12-10",
+      "time": "08:30 ET",
+      "title": "Consumer Price Index",
+      "detail": "November CPI, headline and core"
+    },
+    {
+      "date": "2026-12-15",
+      "time": "08:30 ET",
+      "title": "Producer Price Index",
+      "detail": "November PPI"
+    },
+    {
+      "date": "2027-01-27",
+      "time": "14:00 ET",
+      "title": "FOMC decision",
+      "detail": "First meeting of 2027. Date is the Fed's tentative schedule and is confirmed at the preceding meeting"
+    },
+    {
+      "date": "2027-03-17",
+      "time": "14:00 ET",
+      "title": "FOMC decision",
+      "detail": "With the Summary of Economic Projections. Tentative Fed schedule"
+    },
+    {
+      "date": "2027-04-28",
+      "time": "14:00 ET",
+      "title": "FOMC decision",
+      "detail": "No Summary of Economic Projections at this meeting. Tentative Fed schedule"
+    },
+    {
+      "date": "2027-06-09",
+      "time": "14:00 ET",
+      "title": "FOMC decision",
+      "detail": "With the Summary of Economic Projections. Tentative Fed schedule"
+    },
+    {
+      "date": "2027-07-28",
+      "time": "14:00 ET",
+      "title": "FOMC decision",
+      "detail": "No Summary of Economic Projections at this meeting. Tentative Fed schedule"
+    },
+    {
+      "date": "2027-09-15",
+      "time": "14:00 ET",
+      "title": "FOMC decision",
+      "detail": "With the Summary of Economic Projections. Tentative Fed schedule"
+    },
+    {
+      "date": "2027-10-27",
+      "time": "14:00 ET",
+      "title": "FOMC decision",
+      "detail": "No Summary of Economic Projections at this meeting. Tentative Fed schedule"
+    },
+    {
+      "date": "2027-12-08",
+      "time": "14:00 ET",
+      "title": "FOMC decision",
+      "detail": "Final meeting of 2027, with the Summary of Economic Projections. Tentative Fed schedule"
+    }
   ]
 }

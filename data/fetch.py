@@ -19,6 +19,7 @@ from __future__ import annotations
 import csv
 import io
 import os
+import time
 import datetime as dt
 import xml.etree.ElementTree as ET
 
@@ -32,10 +33,35 @@ UA = {"User-Agent": "standpoint-brief/1.0 (+https://github.com/)"}
 TIMEOUT = 20
 
 
-def _get(url, **kw):
-    r = requests.get(url, headers=UA, timeout=TIMEOUT, **kw)
-    r.raise_for_status()
-    return r
+RETRIES = 3
+BACKOFF = 1.5
+
+
+def _get(url, retries=RETRIES, timeout=None, **kw):
+    """GET with a short retry on transient failures.
+
+    Retries timeouts, connection errors and 5xx. Does NOT retry 4xx — a 403 or
+    a bad key will not improve by asking again, and retrying it just triples
+    the delay before the caller falls back to its snapshot value.
+    """
+    last = None
+    for attempt in range(retries):
+        try:
+            r = requests.get(url, headers=UA, timeout=timeout or TIMEOUT, **kw)
+            if 500 <= r.status_code < 600:
+                r.raise_for_status()
+            r.raise_for_status()
+            return r
+        except requests.HTTPError as e:
+            code = e.response.status_code if e.response is not None else None
+            if code is not None and code < 500:
+                raise
+            last = e
+        except (requests.Timeout, requests.ConnectionError) as e:
+            last = e
+        if attempt < retries - 1:
+            time.sleep(BACKOFF * (attempt + 1))
+    raise last
 
 
 # --------------------------------------------------------------------------- #
@@ -131,13 +157,16 @@ NS = {
 }
 
 
+TREASURY_TIMEOUT = 40   # this feed is routinely slower than everything else
+
+
 def _treasury_entries(ym):
     """Return the <entry> list from the Treasury par-yield feed for month YYYYMM, or []."""
     url = ("https://home.treasury.gov/resource-center/data-chart-center/"
            "interest-rates/pages/xml?data=daily_treasury_yield_curve"
            f"&field_tdr_date_value_month={ym}")
     try:
-        root = ET.fromstring(_get(url).content)
+        root = ET.fromstring(_get(url, timeout=TREASURY_TIMEOUT).content)
         return root.findall(".//a:entry", NS)
     except Exception as e:
         print(f"[warn] treasury {ym}: {e}")
@@ -650,3 +679,68 @@ def fetch_index_quotes():
 
 def fetch_watchlist_quotes():
     return fetch_quotes(YAHOO_WATCH)
+
+
+# --------------------------------------------------------------------------- #
+# Earnings calendar (Finnhub)                                                  #
+# --------------------------------------------------------------------------- #
+FINNHUB_EARNINGS = "https://finnhub.io/api/v1/calendar/earnings"
+_HOUR_LABELS = {"bmo": "Before open", "amc": "After close"}
+
+
+def fetch_earnings(symbols, days=10):
+    """Scheduled earnings for `symbols` over the next `days` days.
+
+    Returns [{'symbol','date','when'}] or None when no key is configured.
+    The feed carries every US listing reporting in the window — 271 rows over a
+    fortnight in testing — so filtering to a caller-supplied list is the whole
+    point; unfiltered it would bury the macro releases on the card.
+
+    `when` is '' unless the feed states bmo/amc. About 70% of rows leave the
+    hour blank, and a blank is never treated as after-close: the card shows the
+    date alone rather than inventing a timing the source did not give.
+    """
+    key = os.environ.get("FINNHUB_API_KEY", "").strip()
+    if not key:
+        return None
+    wanted = {str(s).upper() for s in (symbols or []) if s}
+    if not wanted:
+        return []
+
+    today = dt.date.today()
+    params = {"from": today.isoformat(),
+              "to": (today + dt.timedelta(days=days)).isoformat(),
+              "token": key}
+    try:
+        data = _get(FINNHUB_EARNINGS, params=params).json()
+    except Exception as e:
+        # requests puts the full URL in the message, query string included, so
+        # an HTTP error would otherwise print the API key. Actions masks
+        # registered secrets, but local runs do not — scrub it either way.
+        print(f"[warn] finnhub earnings: {str(e).replace(key, '<redacted>')}")
+        return None
+
+    rows = data.get("earningsCalendar")
+    if rows is None:
+        print("[warn] finnhub earnings: unexpected payload shape")
+        return None
+    if not rows:
+        # A 200 with an empty array is how Finnhub degrades a gated endpoint;
+        # an empty multi-week window is not otherwise plausible.
+        print("[warn] finnhub earnings: empty window — endpoint may be gated")
+        return []
+
+    out = []
+    for r in rows:
+        sym = str(r.get("symbol", "")).upper()
+        if sym not in wanted:
+            continue
+        try:
+            d = dt.date.fromisoformat(r["date"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        out.append({"symbol": sym, "date": d.isoformat(),
+                    "when": _HOUR_LABELS.get(str(r.get("hour", "")).lower(), "")})
+    out.sort(key=lambda x: (x["date"], x["symbol"]))
+    print(f"[ok] finnhub earnings: {len(out)} of {len(rows)} rows matched the watch list")
+    return out

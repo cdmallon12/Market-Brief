@@ -190,3 +190,83 @@ get nothing, and silently drop the tile for a day.
 - **`cre_market_tiles`** carry an `as_of` of "Aug 2026 · manually maintained
   from CBRE, CoStar & Trepp releases". The label is honest, which is why I left
   it, but those tiles age the same way everything else did.
+
+
+---
+
+# Update — earnings, retries, and the workflow (again)
+
+## Commit checklist
+
+**The workflow has failed to land twice.** Before anything else, after
+committing:
+
+```bash
+grep -A1 "git add" .github/workflows/daily.yml
+grep FINNHUB .github/workflows/daily.yml
+```
+
+The first must show `data/fallback.json data/prose_state.json`; the second must
+show the `FINNHUB_API_KEY` line. If either is missing, the zip's copy of
+`daily.yml` did not replace yours.
+
+Add `FINNHUB_API_KEY` under **Settings → Secrets and variables → Actions**
+before dispatching, or the card stays macro-only (which is a clean fallback,
+not an error).
+
+## Earnings on the catalysts card
+
+`fetch_earnings()` filters the Finnhub feed to `bellwethers` in
+`calendar.json` plus your six watchlist tickers. The probe returned 271 rows
+over a fortnight, so filtering is the entire design — unfiltered it would bury
+the macro releases.
+
+The bellwether list lives in `calendar.json` as plain symbols. It is a list,
+not a claim: it can go incomplete, but unlike the prose we removed it cannot go
+false. Edit it without touching code.
+
+Timing: only 79 of 271 rows carried an `hour`. Where the feed says `bmo`/`amc`
+the body reads "before open" / "after close"; where it is blank the row states
+the date only. A blank is never read as after-close.
+
+Macro and earnings now merge into one chronological stream, capped at
+`CATALYST_MAX` (5) rows, with macro sorting ahead of earnings on a shared date.
+
+## Treasury timeout
+
+`_get()` now retries three times with backoff on timeouts, connection errors
+and 5xx — but never on 4xx, since a 403 will not improve by asking again and
+retrying just delays the fallback. Treasury gets a 40s timeout of its own; it
+is reliably the slowest endpoint you hit.
+
+If that warning still appears on most runs rather than occasionally, it is
+rate limiting rather than slowness, and we should cache the last good curve
+instead.
+
+## Bugs caught while building this
+
+- **Undefined name.** First draft called `YAHOO_WATCH_SYMBOLS`, which does not
+  exist; it is `YAHOO_WATCH` in `fetch.py`. Would have crashed every live build.
+- **Wrong sort order.** Earnings were appended after macro rather than merged,
+  so today's after-close earnings rendered *below* next week's CPI. Now sorted
+  by date.
+- **Unbounded card.** Three macro plus three earnings gave six rows with no
+  cap. Now five.
+- **API key in the log.** `requests` puts the full URL in its error message,
+  query string included, so a 4xx would have printed your Finnhub key. Actions
+  masks registered secrets but local runs do not. The key is now scrubbed from
+  the message regardless.
+
+## Verified
+
+| Test | Result |
+| --- | --- |
+| No key | `fetch_earnings` returns None, card macro-only |
+| Key set, no matches | card macro-only |
+| Today amc pair + blank hour + future bmo | correct grouping, chronological |
+| Past-dated row | dropped |
+| Malformed rows (no date, no symbol) | skipped, rest survive |
+| 4xx | fails in 0.0s — no retry |
+| Key in error message | `<redacted>` |
+| Missing snapshot / calendar | fatal / warns, as before |
+| Offline + live builds | render, prose intact |

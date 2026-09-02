@@ -501,7 +501,40 @@ def apply_fomc_pill(ctx, cal, today):
         tile.pop("pill", None)
 
 
-def apply_calendar(ctx, cal, today):
+CATALYST_MAX = 5   # rows on the catalysts card, macro and earnings combined
+
+
+def _earnings_items(earnings, today):
+    """Group fetched earnings into card rows: [(date, item)], ascending."""
+    by_slot = {}
+    for e in earnings or []:
+        try:
+            d = dt.date.fromisoformat(e["date"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        if d < today:
+            continue
+        by_slot.setdefault((d, e.get("when", "")), []).append(e["symbol"])
+
+    items = []
+    for (d, when) in sorted(by_slot, key=lambda k: (k[0], k[1] or "zz")):
+        syms = sorted(by_slot[(d, when)])
+        label = "Today" if d == today else _rel_day(d, today)
+        # Timing goes in the body, not the label: only ~30% of rows carry an
+        # hour, so a label like "Wed · Sep 16 · before open" is both cramped and
+        # inconsistent with its neighbours. A blank hour stays unstated.
+        timing = f" {when.lower()}" if when else ""
+        if len(syms) == 1:
+            title = f"{syms[0]} earnings"
+            body = f"Scheduled to report{timing}."
+        else:
+            title = "Earnings"
+            body = ", ".join(syms) + f" scheduled to report{timing}."
+        items.append((d, {"when": label, "title": title, "body": body}))
+    return items
+
+
+def apply_calendar(ctx, cal, today, earnings=None):
     """Populate the 'catalysts' card from the economic-release calendar by date."""
     if not cal:
         return
@@ -517,20 +550,36 @@ def apply_calendar(ctx, cal, today):
     todays = [e for d, e in dated if d == today]
     upcoming = sorted([(d, e) for d, e in dated if d > today], key=lambda x: x[0])
 
-    items = []
+    # Build one dated stream so macro and earnings interleave chronologically.
+    # Sort key: date, then macro (0) before earnings (1) on the same day — the
+    # scheduled data is the spine of the card and earnings supplement it.
+    dated_items = []
     for e in todays:
-        items.append({"when": f"{e['time']} · Today", "title": e["title"], "body": e["detail"] + "."})
-    for d, e in upcoming[: (2 if todays else 3)]:
-        items.append({"when": _rel_day(d, today), "title": e["title"], "body": e["detail"] + "."})
+        dated_items.append((today, 0, {"when": f"{e['time']} · Today",
+                                       "title": e["title"], "body": e["detail"] + "."}))
+    for d, e in upcoming:
+        dated_items.append((d, 0, {"when": _rel_day(d, today),
+                                   "title": e["title"], "body": e["detail"] + "."}))
+
+    earn = _earnings_items(earnings, today)
+    for d, item in earn:
+        dated_items.append((d, 1, item))
+
+    dated_items.sort(key=lambda x: (x[0], x[1]))
+    items = [item for _, _, item in dated_items[:CATALYST_MAX]]
+    shown_today = any(d == today for d, _, _ in dated_items[:CATALYST_MAX])
+    earn_shown = any(kind == 1 for _, kind, _ in dated_items[:CATALYST_MAX])
 
     if items:
         ctx["markets"]["catalysts"] = items
-        if todays:
-            ctx["markets"]["card2_title"] = "On the calendar today"
-            ctx["markets"]["card2_sub"] = "Scheduled economic releases (ET)"
-        else:
-            ctx["markets"]["card2_title"] = "Coming up"
-            ctx["markets"]["card2_sub"] = "Next scheduled economic releases (ET)"
+        ctx["markets"]["card2_title"] = (
+            "On the calendar today" if shown_today else "Coming up"
+        )
+        ctx["markets"]["card2_sub"] = (
+            "Scheduled releases and earnings (ET)" if earn_shown
+            else ("Scheduled economic releases (ET)" if shown_today
+                  else "Next scheduled economic releases (ET)")
+        )
 
 
 def apply_market_headlines(ctx, items):
@@ -824,7 +873,17 @@ def main():
     refresh_dates(live)
 
     cal = load_calendar()
-    apply_calendar(live, cal, today)  # dynamic catalysts (date-based, no network)
+
+    earnings = None
+    if not args.offline:
+        try:
+            from data import fetch as _f
+            watched = list((cal or {}).get("bellwethers", [])) + list(_f.YAHOO_WATCH)
+            earnings = _f.fetch_earnings(watched)
+        except Exception as e:
+            print(f"[warn] earnings: {e}")
+
+    apply_calendar(live, cal, earnings=earnings, today=today)
     apply_fomc_pill(live, cal, today)
 
     # Editorial prose, derived from the metrics already merged into `live`.
