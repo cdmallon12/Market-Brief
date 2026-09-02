@@ -8,7 +8,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;0,700;1,500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
 <style>
   :root {
     color-scheme: light;
@@ -194,6 +194,7 @@
   /* Dark is the default: honor an explicit stored choice, otherwise dark. Runs before paint to avoid a flash. */
   (function(){ try{ var t=localStorage.getItem('sb-theme'); document.documentElement.setAttribute('data-theme', t==='light' ? 'light':'dark'); }catch(e){ document.documentElement.setAttribute('data-theme','dark'); } })();
 </script>
+<link rel="stylesheet" href="standpoint-signal.css">
 </head>
 <body><div class="masthead">
   <div class="wrap">
@@ -338,9 +339,9 @@
       </div>
       <div class="tiles"><div class="tile ">
   <p class="lbl">10-Yr Treasury</p>
-  <div class="val mono">4.70<span class="unit">%</span></div><p class="note">2s10s curve spread: <span class="mono">+46 bps</span></p></div><div class="tile ">
+  <div class="val mono">4.79<span class="unit">%</span></div><p class="note">2s10s curve spread: <span class="mono">+40 bps</span></p></div><div class="tile ">
   <p class="lbl">2-Yr Treasury</p>
-  <div class="val mono">4.24<span class="unit">%</span></div><p class="note">Policy-sensitive; curve positive but flat</p></div><div class="tile ">
+  <div class="val mono">4.39<span class="unit">%</span></div><p class="note">Policy-sensitive; curve positive but flat</p></div><div class="tile ">
   <p class="lbl">SOFR · Overnight</p>
   <div class="val mono">3.68<span class="unit">%</span></div><p class="note">The benchmark under most floating CRE debt</p></div><div class="tile neg">
   <p class="lbl">2026 CRE Maturities</p>
@@ -354,22 +355,22 @@
   <div class="val mono">6.66<span class="unit">%</span></div>  <div class="delta ">
 +0.01pp <span style="color:var(--muted)">wk/wk</span>  </div><p class="note">Freddie Mac PMMS — near a 12-month high</p></div><div class="tile ">
   <p class="lbl">Illustrative Agency Coupon</p>
-  <div class="val mono">6.01–6.31<span class="unit">%</span></div><p class="note">10Y (4.66%) + 135–165 bp agency spread</p></div>          </div>
+  <div class="val mono">6.14–6.44<span class="unit">%</span></div><p class="note">10Y (4.79%) + 135–165 bp agency spread</p></div>          </div>
         </div>        <div class="card">
           <h4>Curve spreads</h4>
           <p class="csub">Key maturity spreads, in basis points · a positive 2s10s is a normal, upward-sloping curve</p>
           <div class="spreads">
-            <div class="spread"><p class="sk">2s10s</p><div class="sv">+47<span class="u">bps</span></div></div>
-            <div class="spread"><p class="sk">3M – 10Y</p><div class="sv">+81<span class="u">bps</span></div></div>
-            <div class="spread"><p class="sk">5s30s</p><div class="sv">+81<span class="u">bps</span></div></div>
-            <div class="spread"><p class="sk">10s30s</p><div class="sv">+52<span class="u">bps</span></div></div>
+            <div class="spread"><p class="sk">2s10s</p><div class="sv">+40<span class="u">bps</span></div></div>
+            <div class="spread"><p class="sk">3M – 10Y</p><div class="sv">+87<span class="u">bps</span></div></div>
+            <div class="spread"><p class="sk">5s30s</p><div class="sv">+72<span class="u">bps</span></div></div>
+            <div class="spread"><p class="sk">10s30s</p><div class="sv">+48<span class="u">bps</span></div></div>
           </div>
         </div>      </div>
       <div class="section-rule"><h3>The charts that matter</h3></div>
       <div class="grid-2">
         <div class="card">
           <h4>U.S. Treasury yield curve</h4>
-          <p class="csub">Par yields by maturity · Aug 25, 2026</p>
+          <p class="csub">Par yields by maturity · Sep 01, 2026</p>
           <svg class="chart" id="chart-curve" viewBox="0 0 520 300" role="img" aria-label="Treasury yield curve by maturity"></svg>
           <div class="legend"><div class="li"><span class="sw" style="background:var(--s1)"></span> Par yield (%)</div></div>
         </div>
@@ -535,7 +536,7 @@
   </div>
 </footer>
 
-<script id="brief-data" type="application/json">{"ticker": [{"nm": "S&P 500", "vl": "7,631.47", "ch": "+18.13%", "dir": 1}, {"nm": "Nasdaq", "vl": "26,100", "ch": "+21.65%", "dir": 1}, {"nm": "Dow", "vl": "52,767", "ch": "+15.86%", "dir": 1}, {"nm": "VIX", "vl": "16.34", "ch": "-4.83%", "dir": -1}, {"nm": "10Y UST", "vl": "4.70%", "ch": "", "dir": 0}, {"nm": "2Y UST", "vl": "4.24%", "ch": "", "dir": 0}, {"nm": "30Y UST", "vl": "5.23%", "ch": "", "dir": 0}, {"nm": "SOFR", "vl": "3.68%", "ch": "", "dir": 0}, {"nm": "Fed Funds", "vl": "3.50-3.75%", "ch": "", "dir": 0}, {"nm": "CPI", "vl": "3.5%", "ch": "", "dir": 0}, {"nm": "Core PCE", "vl": "3.3%", "ch": "", "dir": 0}, {"nm": "Headline PCE", "vl": "3.7%", "ch": "", "dir": 0}, {"nm": "US GDP Q2", "vl": "1.5%", "ch": "", "dir": 0}, {"nm": "Brent", "vl": "$88.50", "ch": "", "dir": 0}, {"nm": "30Y Mortgage", "vl": "6.65%", "ch": "", "dir": 0}, {"nm": "IG OAS", "vl": "0.98%", "ch": "", "dir": 0}, {"nm": "HY OAS", "vl": "2.63%", "ch": "", "dir": 0}], "curve": [{"t": "1M", "x": 0.083, "y": 3.79, "axis": true, "mark": true}, {"t": "1Y", "x": 1, "y": 4.04, "axis": false, "mark": false}, {"t": "2Y", "x": 2, "y": 4.24, "axis": true, "mark": true}, {"t": "3Y", "x": 3, "y": 4.31, "axis": false, "mark": false}, {"t": "5Y", "x": 5, "y": 4.41, "axis": true, "mark": false}, {"t": "7Y", "x": 7, "y": 4.55, "axis": false, "mark": false}, {"t": "10Y", "x": 10, "y": 4.7, "axis": true, "mark": true}, {"t": "20Y", "x": 20, "y": 5.21, "axis": true, "mark": false}, {"t": "30Y", "x": 30, "y": 5.23, "axis": true, "mark": true}], "gap": {"expiring": 4.76, "new": 6.24}, "orig": {"y2025": 633.7, "y2026": 805.5}, "credit": {"ig": 0.98, "hy": 2.63}}</script>
+<script id="brief-data" type="application/json">{"ticker": [{"nm": "S&P 500", "vl": "7,631.47", "ch": "+18.13%", "dir": 1}, {"nm": "Nasdaq", "vl": "26,100", "ch": "+21.65%", "dir": 1}, {"nm": "Dow", "vl": "52,767", "ch": "+15.86%", "dir": 1}, {"nm": "VIX", "vl": "16.34", "ch": "-4.83%", "dir": -1}, {"nm": "10Y UST", "vl": "4.79%", "ch": "", "dir": 0}, {"nm": "2Y UST", "vl": "4.39%", "ch": "", "dir": 0}, {"nm": "30Y UST", "vl": "5.27%", "ch": "", "dir": 0}, {"nm": "SOFR", "vl": "3.68%", "ch": "", "dir": 0}, {"nm": "Fed Funds", "vl": "3.50-3.75%", "ch": "", "dir": 0}, {"nm": "CPI", "vl": "3.5%", "ch": "", "dir": 0}, {"nm": "Core PCE", "vl": "3.3%", "ch": "", "dir": 0}, {"nm": "Headline PCE", "vl": "3.7%", "ch": "", "dir": 0}, {"nm": "US GDP Q2", "vl": "1.5%", "ch": "", "dir": 0}, {"nm": "Brent", "vl": "$88.50", "ch": "", "dir": 0}, {"nm": "30Y Mortgage", "vl": "6.65%", "ch": "", "dir": 0}, {"nm": "IG OAS", "vl": "0.98%", "ch": "", "dir": 0}, {"nm": "HY OAS", "vl": "2.63%", "ch": "", "dir": 0}], "curve": [{"t": "1M", "x": 0.083, "y": 3.85, "axis": true, "mark": true}, {"t": "3M", "x": 0.25, "y": 3.92, "axis": false, "mark": false}, {"t": "6M", "x": 0.5, "y": 4.0, "axis": false, "mark": false}, {"t": "1Y", "x": 1, "y": 4.18, "axis": false, "mark": false}, {"t": "2Y", "x": 2, "y": 4.39, "axis": true, "mark": true}, {"t": "3Y", "x": 3, "y": 4.46, "axis": false, "mark": false}, {"t": "5Y", "x": 5, "y": 4.55, "axis": true, "mark": false}, {"t": "7Y", "x": 7, "y": 4.66, "axis": false, "mark": false}, {"t": "10Y", "x": 10, "y": 4.79, "axis": true, "mark": true}, {"t": "20Y", "x": 20, "y": 5.27, "axis": true, "mark": false}, {"t": "30Y", "x": 30, "y": 5.27, "axis": true, "mark": true}], "gap": {"expiring": 4.76, "new": 6.29}, "orig": {"y2025": 633.7, "y2026": 805.5}, "credit": {"ig": 0.98, "hy": 2.63}}</script>
 <script>
 (function(){
   "use strict";
