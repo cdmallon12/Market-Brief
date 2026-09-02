@@ -21,7 +21,22 @@ import datetime as dt
 import json
 import pathlib
 
+from zoneinfo import ZoneInfo
+
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+
+ET = ZoneInfo("America/New_York")
+
+
+def today_et():
+    """The current date in US Eastern time.
+
+    CI runners are UTC, so dt.date.today() rolls over at 8/7 PM ET and stamps
+    the page with tomorrow's date. Every user-facing date is market-relative,
+    so the whole build works off Eastern.
+    """
+    return dt.datetime.now(ET).date()
+
 
 ROOT = pathlib.Path(__file__).parent
 DATA = ROOT / "data"
@@ -33,9 +48,14 @@ def load_snapshot():
 
 
 def load_calendar():
+    path = DATA / "calendar.json"
     try:
-        return json.loads((DATA / "calendar.json").read_text(encoding="utf-8"))
-    except Exception:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        print(f"[warn] calendar: {path} not found - catalysts card will fall back to the snapshot")
+        return None
+    except json.JSONDecodeError as e:
+        print(f"[warn] calendar: {path} is not valid JSON ({e}) - catalysts card will fall back to the snapshot")
         return None
 
 
@@ -434,7 +454,7 @@ def apply_calendar(ctx, cal, today):
     for e in todays:
         items.append({"when": f"{e['time']} · Today", "title": e["title"], "body": e["detail"] + "."})
     for d, e in upcoming[: (2 if todays else 3)]:
-        items.append({"when": _rel_day(d, today), "title": e["title"], "body": e["detail"]})
+        items.append({"when": _rel_day(d, today), "title": e["title"], "body": e["detail"] + "."})
 
     if items:
         ctx["markets"]["catalysts"] = items
@@ -471,7 +491,7 @@ def apply_cre_headlines(ctx, items):
 
 
 def refresh_dates(ctx):
-    today = dt.date.today()
+    today = today_et()
     ctx["meta"]["date_line"] = today.strftime("%A · %b %d, %Y")
     ctx["meta"]["as_of"] = "Auto-compiled from public sources · " + today.strftime("%b %d, %Y")
     ctx["meta"]["compiled"] = "Compiled " + today.strftime("%b %d, %Y") + " · The Standpoint Brief"
@@ -595,7 +615,7 @@ def main():
     live = copy.deepcopy(ctx)
     gather_live(live, args.offline)
     refresh_dates(live)
-    apply_calendar(live, load_calendar(), dt.date.today())  # dynamic catalysts (date-based, no network)
+    apply_calendar(live, load_calendar(), today_et())  # dynamic catalysts (date-based, no network)
     render(live)
 
     # Persist merged live data as the new snapshot so future outages degrade gracefully.

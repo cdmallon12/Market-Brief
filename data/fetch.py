@@ -568,17 +568,28 @@ def _yahoo_quote(sym):
         return None
     meta = res.get("meta") or {}
     price = meta.get("regularMarketPrice")
-    prev = meta.get("chartPreviousClose", meta.get("previousClose"))
-    if price is None or prev in (None, 0):
-        return None
-    out = {"price": float(price), "prev_close": float(prev),
-           "change_pct": (float(price) - float(prev)) / float(prev) * 100,
-           "ts": meta.get("regularMarketTime")}
 
     ts = res.get("timestamp") or []
     quote = (((res.get("indicators") or {}).get("quote") or [{}]))[0]
     opens = quote.get("open") or []
     closes = quote.get("close") or []
+
+    # Prior close = the second-to-last daily bar. NOT meta.chartPreviousClose:
+    # on a multi-day range Yahoo sets that to the close BEFORE the requested
+    # window, so with range=1y it is a year-old price and the "day" change
+    # silently becomes a year-over-year change. Fall back to the meta field
+    # only if the bar history is too short to use.
+    _closes = [c for c in closes if c is not None]
+    if len(_closes) >= 2:
+        prev = _closes[-2]
+    else:
+        prev = meta.get("chartPreviousClose", meta.get("previousClose"))
+
+    if price is None or prev in (None, 0):
+        return None
+    out = {"price": float(price), "prev_close": float(prev),
+           "change_pct": (float(price) - float(prev)) / float(prev) * 100,
+           "ts": meta.get("regularMarketTime")}
 
     # Today's open: last bar's open, flagged whether that bar is actually today (ET).
     if opens and opens[-1] is not None and ts:
@@ -593,7 +604,7 @@ def _yahoo_quote(sym):
             out["open_is_today"] = False
 
     # YoY from the earliest close in the ~1y window.
-    firsts = [c for c in closes if c is not None]
+    firsts = _closes
     if firsts:
         base = firsts[0]
         if base:
