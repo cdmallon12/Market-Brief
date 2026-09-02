@@ -1,0 +1,114 @@
+/* ============================================================
+   THE STANDPOINT BRIEF — "Signal" theme
+   Style layer only. No markup, content, or script changes.
+   Load AFTER the existing <style> block. Requires the font link:
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+   ============================================================ */
+
+/* ---- 1. Tokens ------------------------------------------------ */
+:root[data-theme="dark"], :root:not([data-theme="light"]) {
+  --plane:#0c0c0c; --surface:#111111; --surface-2:#161616;
+  --ink:#f1efec; --ink-2:#a8a49e; --muted:#7c7873;
+  --accent:#2ec5f2; --accent-soft:#0d2b36; --brass:#2ec5f2;
+  --hair:#1e1e1e; --hair-strong:#2a2a2a; --grid:#232323;
+  --up:#4cc38a; --down:#f0524b;
+  --s1:#2ec5f2; --s1-soft:#6fb8d4;
+  --shadow:none;
+  --radius:0px;
+}
+:root[data-theme="light"] {
+  --plane:#f4f2ed; --surface:#fbfaf7; --surface-2:#eae7e0;
+  --ink:#131313; --ink-2:#4c4a46; --muted:#6b6862;
+  --accent:#0a86b8; --accent-soft:#dceef6; --brass:#0a86b8;
+  --hair:#dcd8d0; --hair-strong:#c9c4ba; --grid:#d9d5cd;
+  --up:#1f7a4d; --down:#c0362c;
+  --s1:#0a86b8; --s1-soft:#8fc9de;
+  --shadow:none;
+  --radius:0px;
+}
+
+/* ---- 2. Type system ------------------------------------------- */
+/* display = Oswald (condensed, uppercase) · text = Inter Tight · figures = JetBrains Mono */
+body { font-family:"Inter Tight",system-ui,-apple-system,"Segoe UI",sans-serif; letter-spacing:-0.005em; }
+.mono, .tick, .kicker, .tile .lbl, .tile .val, .tile .delta,
+.spread .sk, .spread .sv, .wl-code, .datastamp, .chart text,
+.ev .when, .news .src, footer .srcs, footer .stamp,
+.section-rule h3, .lede .eyebrow, .tab .idx, .pill,
+table.wl th, .legend .li, .mast-meta .date, .themebtn {
+  font-family:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  font-variant-numeric:tabular-nums;
+}
+.serif, .title, .lede h2, .card h4, .section-rule h3, .tile .val, .spread .sv {
+  font-family:"Oswald",'Inter Tight',sans-serif;
+}
+.title {
+  font-weight:600; text-transform:uppercase; letter-spacing:0.01em;
+  font-size:clamp(30px,5vw,52px); line-height:0.92;
+}
+.title .em { color:var(--accent); }
+.kicker { letter-spacing:0.3em; font-size:10px; color:var(--accent); }
+.lede h2 {
+  font-weight:500; text-transform:uppercase; letter-spacing:0.005em;
+  font-size:clamp(26px,3.8vw,44px); line-height:0.98; margin-bottom:14px;
+}
+.lede p { font-size:15px; line-height:1.6; }
+.lede { max-width:none; display:grid; grid-template-columns:1.6fr 1fr; gap:44px; align-items:start; }
+.lede .eyebrow { grid-column:1/-1; letter-spacing:0.3em; color:var(--accent); }
+.lede > p:not(.eyebrow) { border-left:2px solid var(--accent); padding-left:18px; margin:0; }
+.lede .eyebrow { border-left:0; padding-left:0; }
+@media (max-width:820px){ .lede{grid-template-columns:1fr;gap:18px;} }
+
+.card h4 { font-weight:500; text-transform:uppercase; letter-spacing:0.04em; font-size:22px; }
+.section-rule h3 { font-weight:500; letter-spacing:0.18em; font-size:11px; color:var(--accent); }
+.section-rule::after { background:var(--hair-strong); }
+
+/* ---- 3. Surfaces: squared, hairline, no shadow ---------------- */
+.tile, .card, .spread, .callout, .pill, .legend .sw, .themebtn {
+  border-radius:0; box-shadow:none;
+}
+.card { background:transparent; border:0; border-top:1px solid var(--hair-strong); padding:18px 0 0; }
+.tile { background:transparent; border:0; border-top:1px solid var(--hair-strong); padding:14px 0 0; }
+.tile::before { left:0; right:auto; top:0; bottom:auto; width:34px; height:2px; background:var(--accent); }
+.tile.pos::before { background:var(--up); }
+.tile.neg::before { background:var(--down); }
+.tile .lbl { letter-spacing:0.18em; font-size:10px; }
+.tile .val {
+  font-family:"Oswald",sans-serif; font-weight:500;
+  font-size:clamp(34px,4.4vw,46px); line-height:1; letter-spacing:0.01em;
+}
+.tiles { gap:22px; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); }
+
+/* ---- 4. Masthead, ticker, tabs -------------------------------- */
+.masthead { background:var(--plane); backdrop-filter:none; border-bottom:1px solid var(--hair-strong); }
+.mast-top { padding:22px 0 14px; }
+.ribbon { background:var(--plane); border-top:1px solid var(--accent); border-bottom:1px solid var(--hair); }
+.ribbon::before { background:linear-gradient(90deg,var(--plane),transparent); }
+.ribbon::after  { background:linear-gradient(270deg,var(--plane),transparent); }
+.tick { border-right:1px solid var(--hair); font-size:12px; padding:9px 20px; }
+.tick .nm { letter-spacing:0.16em; font-size:10px; }
+.tab {
+  font-family:"Oswald",sans-serif; font-weight:300; font-size:16px;
+  text-transform:uppercase; letter-spacing:0.06em; border-bottom:3px solid transparent;
+}
+.tab[aria-selected="true"] { font-weight:500; border-bottom-color:var(--accent); }
+.tab[aria-selected="true"] .idx, .tab .idx { color:var(--accent); }
+.themebtn { border-radius:0; letter-spacing:0.16em; }
+
+/* ---- 5. Charts ------------------------------------------------ */
+.chart text { font-family:"JetBrains Mono",monospace; }
+.axis-label { font-size:11px; letter-spacing:0.06em; }
+.val-label { font-size:12px; font-weight:500; }
+.legend .sw { border-radius:0; }
+
+/* ---- 6. Editorial blocks -------------------------------------- */
+.callout { border-left:2px solid var(--accent); background:var(--surface-2); border-radius:0; }
+.callout .q { font-family:"Inter Tight",sans-serif; font-style:italic; }
+.prose p { font-size:14.5px; line-height:1.65; }
+.ev .body::before { border-radius:0; border-color:var(--accent); background:var(--plane); }
+.ev h5 { font-family:"Inter Tight",sans-serif; font-weight:600; }
+.timeline::before { background:var(--hair-strong); }
+.news a { font-family:"Inter Tight",sans-serif; }
+.spread { background:transparent; border:0; border-top:1px solid var(--hair-strong); padding:12px 0 0; }
+.spread .sv { font-family:"Oswald",sans-serif; font-size:26px; }
+.pill { border-radius:0; letter-spacing:0.14em; }
+footer { border-top:1px solid var(--hair-strong); }
