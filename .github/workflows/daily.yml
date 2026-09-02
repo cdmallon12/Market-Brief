@@ -41,6 +41,8 @@ jobs:
           # FRED key (repo secret) auto-updates the macro + spread + CRE tiles.
           # Without it the build still works and those tiles use snapshot values.
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          # Optional. Without it the catalysts card is macro-only.
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: python build.py
 
       - name: Send email digest (optional)
@@ -67,7 +69,8 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/index.html docs/standpoint-signal.css
+          git add docs/index.html docs/standpoint-signal.css \
+                  data/fallback.json data/prose_state.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
