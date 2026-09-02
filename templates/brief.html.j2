@@ -257,8 +257,8 @@
     <section class="panel active" id="p-markets" role="tabpanel" aria-labelledby="tab-markets">
       <div class="lede">
         <p class="eyebrow">Equities · Session Setup</p>
-        <h2>{{ markets.headline }}</h2>
-        <p>{{ markets.standfirst|safe }}</p>
+        {%- if markets.headline %}<h2>{{ markets.headline }}</h2>{% endif %}
+        {%- if markets.standfirst %}<p>{{ markets.standfirst|safe }}</p>{% endif %}
       </div>
       <div class="tiles">
         {%- for t in markets_tiles %}{{ tile(t) }}{% endfor %}
@@ -290,8 +290,8 @@
     <section class="panel" id="p-economy" role="tabpanel" aria-labelledby="tab-economy" hidden>
       <div class="lede">
         <p class="eyebrow">Macro · Policy</p>
-        <h2>{{ economy.headline }}</h2>
-        <p>{{ economy.standfirst|safe }}</p>
+        {%- if economy.headline %}<h2>{{ economy.headline }}</h2>{% endif %}
+        {%- if economy.standfirst %}<p>{{ economy.standfirst|safe }}</p>{% endif %}
       </div>
       <div class="tiles">
         {%- for t in economy_tiles %}{{ tile(t) }}{% endfor %}
@@ -315,8 +315,8 @@
     <section class="panel" id="p-news" role="tabpanel" aria-labelledby="tab-news" hidden>
       <div class="lede">
         <p class="eyebrow">The Tape · This Week</p>
-        <h2>{{ news.headline }}</h2>
-        <p>{{ news.standfirst|safe }}</p>
+        {%- if news.headline %}<h2>{{ news.headline }}</h2>{% endif %}
+        {%- if news.standfirst %}<p>{{ news.standfirst|safe }}</p>{% endif %}
       </div>
       <div class="timeline">
         {%- for e in headlines %}
@@ -335,8 +335,8 @@
     <section class="panel" id="p-cre" role="tabpanel" aria-labelledby="tab-cre" hidden>
       <div class="lede">
         <p class="eyebrow">Commercial Real Estate · Rates &amp; Lending</p>
-        <h2>{{ cre.headline }}</h2>
-        <p>{{ cre.standfirst|safe }}</p>
+        {%- if cre.headline %}<h2>{{ cre.headline }}</h2>{% endif %}
+        {%- if cre.standfirst %}<p>{{ cre.standfirst|safe }}</p>{% endif %}
       </div>
       <div class="tiles">
         {%- for t in cre_tiles %}{{ tile(t) }}{% endfor %}
@@ -477,8 +477,8 @@
     <section class="panel" id="p-credit" role="tabpanel" aria-labelledby="tab-credit" hidden>
       <div class="lede">
         <p class="eyebrow">Credit &amp; Spreads · Cost of Debt</p>
-        <h2>{{ credit.headline }}</h2>
-        <p>{{ credit.standfirst|safe }}</p>
+        {%- if credit.headline %}<h2>{{ credit.headline }}</h2>{% endif %}
+        {%- if credit.standfirst %}<p>{{ credit.standfirst|safe }}</p>{% endif %}
       </div>
       <div class="tiles">
         {%- for t in credit_tiles %}{{ tile(t) }}{% endfor %}

@@ -27,6 +27,8 @@ from zoneinfo import ZoneInfo
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+import prose
+
 ET = ZoneInfo("America/New_York")
 
 
@@ -182,6 +184,14 @@ def apply_rates(ctx, curve, sofr):
             tick_by_name["SOFR"]["vl"] = f"{sofr:.2f}%"
 
 
+def _month_label_safe(iso):
+    try:
+        d = dt.date.fromisoformat(str(iso))
+    except (TypeError, ValueError):
+        return ""
+    return f"{d.strftime('%b')} {d.day}"
+
+
 def apply_fred(ctx, f):
     """Map authoritative FRED macro values onto the economy tiles + ticker."""
     if not f:
@@ -220,9 +230,27 @@ def apply_fred(ctx, f):
         tiles[2]["val"] = f"{p['yoy']:.1f}"
         tiles[2]["unit"] = "%"
         tiles[2]["lbl"] = f"Core PCE · {p['month']}" if p.get("month") else "Core PCE"
-        tiles[2]["note"] = "Fed's preferred gauge — still above the 2% goal"
+        # Was hardcoded as "still above the 2% goal" regardless of the print,
+        # so it would have stated a falsehood the moment core PCE dipped under 2.
+        yoy = p["yoy"]
+        rel = "above" if yoy > 2.0 else ("below" if yoy < 2.0 else "at")
+        tiles[2]["note"] = f"Fed's preferred gauge — {rel} the 2% goal"
         if "Core PCE" in tick:
             tick["Core PCE"]["vl"] = f"{p['yoy']:.1f}%"
+
+    # Energy tiles 0/1 — live crude benchmarks. Previously frozen snapshot
+    # prices that read as current; now stamped with the observation date so a
+    # stale print is visible rather than implied.
+    et = ctx.get("energy_tiles") or []
+    for idx, name, label in ((0, "brent", "Brent Crude"), (1, "wti", "WTI Crude")):
+        if name in f and idx < len(et):
+            obs = f[name]
+            et[idx]["lbl"] = label
+            et[idx]["val"] = f"${obs['value']:,.2f}"
+            month = _month_label_safe(obs.get("date"))
+            base = ("Global benchmark — the swing factor in headline inflation"
+                    if name == "brent" else "U.S. benchmark")
+            et[idx]["note"] = f"{base} · spot as of {month}" if month else base
 
     # Real GDP (tile 3) — SAAR, with a signed delta vs the prior quarter.
     if "gdp" in f:
@@ -446,6 +474,33 @@ def _rel_day(target, today):
     return f"{target.strftime('%a')} · {target.strftime('%b')} {target.day}"
 
 
+def apply_fomc_pill(ctx, cal, today):
+    """Set the Fed Funds tile pill from the next FOMC date in the calendar.
+
+    Replaces a hand-typed "Sept 16 decision" that had no mechanism to advance
+    past its own meeting. Cleared when no future FOMC date is on file, so it
+    can never name a meeting that has already happened.
+    """
+    tiles = ctx.get("economy_tiles") or []
+    if not tiles:
+        return
+    tile = tiles[0]
+    best = None
+    for e in (cal or {}).get("events") or []:
+        if "fomc" not in str(e.get("title", "")).lower():
+            continue
+        try:
+            d = dt.date.fromisoformat(e["date"])
+        except (KeyError, ValueError):
+            continue
+        if d >= today and (best is None or d < best):
+            best = d
+    if best:
+        tile["pill"] = {"cls": "watch", "txt": f"{best.strftime('%b %-d')} decision"}
+    else:
+        tile.pop("pill", None)
+
+
 def apply_calendar(ctx, cal, today):
     """Populate the 'catalysts' card from the economic-release calendar by date."""
     if not cal:
@@ -609,6 +664,7 @@ PROSE_FIELDS = {
     "news": ["headline", "standfirst"],
     "cre": ["headline", "standfirst", "card_title", "card_sub", "card_body", "callout"],
 }
+PROSE_MODE = "deterministic"   # "deterministic" | "llm" (not implemented)
 PROSE_STALE_DAYS = 10      # nag once a section's prose is older than this
 CALENDAR_LOW_EVENTS = 8    # nag once the calendar has fewer future events left
 
@@ -629,6 +685,24 @@ def _prose_digest(ctx, section):
     return hashlib.sha256("\n".join(parts).encode("utf-8")).hexdigest()[:16]
 
 
+def prose_due_today(today, force=False):
+    """True when a cost-bearing prose generator should run this build.
+
+    Only meaningful for PROSE_MODE == "llm": it holds generation to once per
+    day so an every-three-hours build does not pay six times for copy that
+    moves once. Records the date in prose_state.json alongside the freshness
+    clock.
+    """
+    if force:
+        return True
+    path = DATA / "prose_state.json"
+    try:
+        state = json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return True
+    return state.get("_generated") != today.isoformat()
+
+
 def check_prose_age(ctx, today):
     """Track when each editorial block last CHANGED and warn once it goes stale.
 
@@ -642,8 +716,13 @@ def check_prose_age(ctx, today):
     except (FileNotFoundError, json.JSONDecodeError):
         state = {}
 
+    hand_written = {s: f for s, f in PROSE_FIELDS.items() if s not in prose.GENERATED}
+    if not hand_written:
+        print("[freshness] prose: all sections generated from live metrics")
+        return {}
+
     ages = {}
-    for section in PROSE_FIELDS:
+    for section in hand_written:
         digest = _prose_digest(ctx, section)
         rec = state.get(section) or {}
         try:
@@ -726,7 +805,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--offline", action="store_true", help="build from snapshot only")
     ap.add_argument("--no-save", action="store_true", help="do not update fallback.json")
+    ap.add_argument("--force-prose", action="store_true",
+                    help="regenerate prose even if the daily gate says it already ran")
+    ap.add_argument("--probe", metavar="SOURCE",
+                    help="hit one API and print the parsed result, then exit "
+                         "(eia | finnhub | census). Renders nothing.")
     args = ap.parse_args()
+
+    if args.probe:
+        import probe
+        probe.run(args.probe)
+        return
 
     today = today_et()
     ctx = load_snapshot()
@@ -736,6 +825,18 @@ def main():
 
     cal = load_calendar()
     apply_calendar(live, cal, today)  # dynamic catalysts (date-based, no network)
+    apply_fomc_pill(live, cal, today)
+
+    # Editorial prose, derived from the metrics already merged into `live`.
+    # Deterministic output is idempotent and must track the tiles, so it is
+    # regenerated every build. The daily gate below exists for a future
+    # cost-bearing generator, where regenerating six times a day would be
+    # wasteful — it deliberately does not apply to the deterministic path.
+    if PROSE_MODE == "deterministic":
+        prose.apply_prose(live, cal, today)
+    elif not prose_due_today(today, args.force_prose):
+        print("[prose] already generated today — skipping")
+
     render(live)
 
     check_prose_age(live, today)

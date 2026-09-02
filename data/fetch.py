@@ -356,6 +356,8 @@ def fetch_fred():
       CPILFESL        core CPI index      -> YoY
       PCEPILFE        core PCE index      -> YoY
       A191RL1Q225SBEA real GDP, % change SAAR (already a rate)
+      DCOILBRENTEU    Brent crude spot, USD/bbl (daily)
+      DCOILWTICO      WTI crude spot, USD/bbl (daily)
     """
     key = os.environ.get("FRED_API_KEY", "").strip()
     if not key:
@@ -369,6 +371,17 @@ def fetch_fred():
             out["fed_lower"], out["fed_upper"] = lo[0][1], up[0][1]
     except Exception as e:
         print(f"[warn] fred fed funds: {e}")
+
+    # Crude benchmarks. These were previously frozen snapshot values that
+    # rendered as if they were live prices; FRED carries both daily and the
+    # key is already configured, so no new credential is involved.
+    for name, series in (("brent", "DCOILBRENTEU"), ("wti", "DCOILWTICO")):
+        try:
+            obs = _fred_obs(series, key, limit=5)
+            if obs:
+                out[name] = {"value": obs[0][1], "date": obs[0][0]}
+        except Exception as e:
+            print(f"[warn] fred {name}: {e}")
 
     try:
         cpi = _fred_obs("CPIAUCSL", key)
@@ -491,7 +504,13 @@ def fetch_imf_gdp():
         series = data.get("values", {}).get("NGDP_RPCH", {}).get("WLD", {})
         if not series:
             return None
-        this_year = dt.date.today().year
+        # Eastern, not UTC: on Dec 31 a UTC runner would ask for next year and
+        # get nothing back, silently dropping the tile for a day.
+        try:
+            from zoneinfo import ZoneInfo
+            this_year = dt.datetime.now(ZoneInfo("America/New_York")).year
+        except Exception:
+            this_year = dt.date.today().year
 
         def _v(y):
             raw = series.get(str(y))
