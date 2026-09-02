@@ -18,7 +18,9 @@ from __future__ import annotations
 import argparse
 import copy
 import datetime as dt
+import hashlib
 import json
+import os
 import pathlib
 
 from zoneinfo import ZoneInfo
@@ -44,7 +46,17 @@ OUT = ROOT / "docs" / "index.html"
 
 
 def load_snapshot():
-    return json.loads((DATA / "fallback.json").read_text(encoding="utf-8"))
+    path = DATA / "fallback.json"
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        raise SystemExit(
+            f"[fatal] {path} is missing. It is the last-known-good snapshot that every\n"
+            f"        section falls back to, so the page cannot render without it.\n"
+            f"        Restore it from git: git checkout HEAD~1 -- data/fallback.json"
+        )
+    except json.JSONDecodeError as e:
+        raise SystemExit(f"[fatal] {path} is not valid JSON: {e}")
 
 
 def load_calendar():
@@ -585,6 +597,111 @@ def gather_live(ctx, offline):
             print(f"[warn] watchlist step: {e2}")
 
 
+# --- Freshness checks -------------------------------------------------------
+# The numbers on this page refresh themselves; the editorial prose and the
+# release calendar do not. These checks turn both into something that reports
+# itself in the build log instead of quietly rotting on the page.
+
+PROSE_FIELDS = {
+    "markets": ["headline", "standfirst", "card1_title", "card1_sub", "card1_body"],
+    "economy": ["headline", "standfirst", "callout", "body"],
+    "credit": ["headline", "standfirst", "card_title", "card_sub", "card_body"],
+    "news": ["headline", "standfirst"],
+    "cre": ["headline", "standfirst", "card_title", "card_sub", "card_body", "callout"],
+}
+PROSE_STALE_DAYS = 10      # nag once a section's prose is older than this
+CALENDAR_LOW_EVENTS = 8    # nag once the calendar has fewer future events left
+
+
+def _ci_warn(msg):
+    """Print a GitHub Actions annotation in CI, a plain warning locally."""
+    print(f"::warning::{msg}" if os.environ.get("GITHUB_ACTIONS") else f"[warn] {msg}")
+
+
+def _prose_digest(ctx, section):
+    block = ctx.get(section) or {}
+    parts = []
+    for key in PROSE_FIELDS[section]:
+        val = block.get(key)
+        if isinstance(val, (list, tuple)):
+            val = " ".join(str(x) for x in val)
+        parts.append(f"{key}={val if val is not None else ''}")
+    return hashlib.sha256("\n".join(parts).encode("utf-8")).hexdigest()[:16]
+
+
+def check_prose_age(ctx, today):
+    """Track when each editorial block last CHANGED and warn once it goes stale.
+
+    Hashes the prose fields and records the date the hash last moved in
+    data/prose_state.json. Editing the copy in fallback.json resets the clock
+    automatically; nothing to remember to bump by hand.
+    """
+    path = DATA / "prose_state.json"
+    try:
+        state = json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        state = {}
+
+    ages = {}
+    for section in PROSE_FIELDS:
+        digest = _prose_digest(ctx, section)
+        rec = state.get(section) or {}
+        try:
+            unchanged = rec.get("digest") == digest
+            written = dt.date.fromisoformat(rec["updated"]) if unchanged else today
+        except (KeyError, ValueError, TypeError):
+            written = today
+        state[section] = {"digest": digest, "updated": written.isoformat()}
+        ages[section] = (today - written).days
+
+    try:
+        path.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    except OSError as e:
+        print(f"[warn] prose age: could not write {path} ({e})")
+
+    summary = " · ".join(f"{k} {v}d" for k, v in sorted(ages.items()))
+    print(f"[freshness] prose last rewritten: {summary}")
+    stale = sorted(k for k, v in ages.items() if v >= PROSE_STALE_DAYS)
+    if stale:
+        _ci_warn(
+            "Editorial prose is "
+            + ", ".join(f"{k} {ages[k]} days old" for k in stale)
+            + ". The numbers around it are current; the words are not. "
+              "Rewrite in data/fallback.json."
+        )
+    return ages
+
+
+def check_calendar_runway(cal, today):
+    """Warn before the catalysts calendar runs out of future events."""
+    events = (cal or {}).get("events") or []
+    future = []
+    for e in events:
+        try:
+            d = dt.date.fromisoformat(e["date"])
+        except (KeyError, ValueError):
+            continue
+        if d >= today:
+            future.append((d, e.get("title", "?")))
+    future.sort()
+
+    if not future:
+        _ci_warn(
+            "The catalysts calendar has no events on or after today. The card has "
+            "nothing to show. Top up data/calendar.json (sources are in its _sources block)."
+        )
+        return 0
+
+    nxt, title = future[0]
+    print(f"[freshness] calendar: {len(future)} future events, next {nxt.isoformat()} {title}")
+    if len(future) < CALENDAR_LOW_EVENTS:
+        _ci_warn(
+            f"The catalysts calendar has only {len(future)} future events left "
+            f"(through {future[-1][0].isoformat()}). Top up data/calendar.json."
+        )
+    return len(future)
+
+
 def render(ctx):
     env = Environment(
         loader=FileSystemLoader(str(ROOT / "templates")),
@@ -611,12 +728,18 @@ def main():
     ap.add_argument("--no-save", action="store_true", help="do not update fallback.json")
     args = ap.parse_args()
 
+    today = today_et()
     ctx = load_snapshot()
     live = copy.deepcopy(ctx)
     gather_live(live, args.offline)
     refresh_dates(live)
-    apply_calendar(live, load_calendar(), today_et())  # dynamic catalysts (date-based, no network)
+
+    cal = load_calendar()
+    apply_calendar(live, cal, today)  # dynamic catalysts (date-based, no network)
     render(live)
+
+    check_prose_age(live, today)
+    check_calendar_runway(cal, today)
 
     # Persist merged live data as the new snapshot so future outages degrade gracefully.
     if not args.offline and not args.no_save:

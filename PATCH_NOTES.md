@@ -1,76 +1,116 @@
-# Standpoint Brief — catalysts / date / delta fixes
+# Standpoint Brief — build fix + freshness automation
 
-Three files. Drop them in over the existing ones, keeping the same paths:
+## Read this first
+
+The previous zip contained a `data/` folder holding only two files. Extracting
+it **replaced** your `data/` folder instead of merging into it, which deleted
+`data/fallback.json`. That is why the workflow build failed: `load_snapshot()`
+had no error handling, so it died on the first line of `main()`.
+
+**This zip contains the complete contents of every folder it touches**, so
+replacing folders wholesale is safe this time. `data/fallback.json` is restored
+byte-for-byte from the version in the repo before the deletion.
+
+Files:
 
 ```
-build.py                 (replaces existing)
-data/fetch.py            (replaces existing)
-data/calendar.json       (NEW — this file was missing from the repo)
+build.py                        (replaces existing)
+data/fallback.json              (RESTORED — this is the fix for the failed build)
+data/fetch.py                   (unchanged from your current version — included so
+                                 a folder replace can't drop it again)
+data/calendar.json              (unchanged from your current version — same reason)
+.github/workflows/daily.yml     (replaces existing — one changed line, see #4)
 ```
 
-Nothing in `templates/`, `docs/`, or `data/fallback.json` changes. No new
-dependencies (`zoneinfo` is stdlib on Python 3.9+).
+`data/prose_state.json` is created automatically on the first build. Don't
+create it by hand.
 
 ---
 
-## 1. `data/calendar.json` was never committed
+## 1. The build failure
 
-Root cause of the stale catalysts. `load_calendar()` returned `None` on the
-missing file, `apply_calendar()` bailed out, and the card kept rendering the
-seeded prose in `fallback.json` — which `save_snapshot()` then re-wrote after
-every build, so it was pinned rather than decaying.
+`load_snapshot()` now exits with an actionable message naming the file and the
+`git checkout` command to restore it, instead of a JSON traceback. A missing
+snapshot still stops the build — the page genuinely cannot render without it —
+but you'll know why in one line.
 
-Seeded through **Dec 2026** for BLS (CPI, PPI, Employment Situation, JOLTS,
-ECI), through **Oct 29 2026** for BEA (GDP + Personal Income/PCE), and through
-**Dec 2027** for FOMC.
+## 2. Automated: editorial prose staleness
 
-**Verification status**, so you know what to trust:
+The prose was the item on your manual list most likely to rot, because it sits
+next to numbers that refresh every three hours and inherits their credibility.
 
-| Source | Verified through | Against |
-| --- | --- | --- |
-| BLS | Dec 15, 2026 | official BLS 2026 release calendar |
-| BEA | Oct 29, 2026 | BEA release schedule |
-| FOMC 2026 | Dec 9, 2026 | Fed calendar (confirmed) |
-| FOMC 2027 | Dec 8, 2027 | Fed calendar (**tentative** — each date is confirmed at the preceding meeting) |
+`build.py` now hashes the editorial fields in each section (`markets`,
+`economy`, `credit`, `news`, `cre`) and records in `data/prose_state.json` the
+date each hash last *changed*. Every build prints an age line, and once a
+section passes `PROSE_STALE_DAYS` (default 10) it emits a GitHub Actions
+warning that surfaces on the run summary.
 
-**Still to add:** BEA releases after Oct 29, 2026 (Q3 GDP second/third
-estimates, October and November PCE) and all of BLS 2027. BEA publishes the
-next year's schedule in the autumn; BLS publishes 2027 in late 2026. Sources
-are listed in the `_sources` block inside the file.
+Editing the copy in `fallback.json` resets that section's clock by itself —
+there's no date field to remember to bump. Tune the threshold at the top of the
+freshness block.
 
-`load_calendar()` now prints a warning instead of swallowing the error, so a
-missing or malformed file shows up in the Actions log rather than silently
-reverting the card.
+This automates the *reminder*, not the writing. Writing the copy is still you.
 
-## 2. Build dates ran on UTC
+## 3. Automated: calendar runway
 
-`dt.date.today()` on a GitHub runner is UTC, so any build after 8 PM ET
-stamped the page with tomorrow. Meanwhile `_et_stamp()` already used Eastern
-for the quote timestamp — which is why the header read Sep 02 above quotes
-marked Sep 1.
+`check_calendar_runway()` warns when `calendar.json` drops below
+`CALENDAR_LOW_EVENTS` (default 8) future entries, and warns loudly if it has
+none at all. You get told the calendar is running out months before the card
+goes empty, rather than finding out from the page.
 
-Added `today_et()` and used it for the header block and for the date passed
-into `apply_calendar()` (the calendar window had the same off-by-one).
+## 4. Fixed: the snapshot was never actually persisting
 
-Confirmed on a UTC box where `date -u` reads Sep 02 and ET reads Sep 01: the
-page now stamps `Tuesday · Sep 01, 2026`.
+I got this wrong in my earlier note and want to correct it. The commit step ran
+`git add docs/index.html docs/standpoint-signal.css` only — so the snapshot
+`save_snapshot()` wrote each run was discarded with the runner. It was never
+re-persisting stale prose the way I said, but the more serious consequence is
+that `fallback.json` never refreshed at all: during an outage the page would
+fall back to whatever you last committed by hand, however old.
 
-## 3. "vs prior close" was actually year-over-year
+The commit step now also stages `data/fallback.json` and
+`data/prose_state.json`. The snapshot becomes genuinely rolling, and the
+freshness clock survives between runs (it needs to persist to measure anything).
 
-`_yahoo_quote()` requests `range=1y&interval=1d`, then read
-`meta.chartPreviousClose`. On a multi-day range Yahoo sets that field to the
-close *before the requested window* — so with a 1-year range it was a
-year-old price, and the daily change was silently a YoY change. That's the
-+18.13% S&P figure, and the VIX reading down while it traded up on the day.
+## 5. Not automated, and why
 
-Prior close now comes from the second-to-last daily bar in the `close` array,
-falling back to the meta field only if there aren't two bars. The watchlist
-tiles use the same function, so they're fixed too.
+- **IMF global GDP.** Doable via the IMF DataMapper API, but it changes twice a
+  year with the World Economic Outlook. Adding a new network dependency and
+  failure path to a build I just broke is a bad trade for two edits a year.
+  Worth revisiting once things are stable.
+- **CME FedWatch odds** in the Fed Funds tile note (currently "~59% odds of a
+  hold (late Aug)"). No keyless source I'd trust. This one goes stale fast and
+  is worth either hand-updating or dropping from the tile.
+- **BLS/BEA/Fed schedule ingestion.** Neither agency publishes a stable
+  machine-readable calendar I could verify from here. The runway warning in #3
+  is the reliable half of this.
 
 ---
+
+## Verification
+
+Tested against your real template and snapshot:
+
+| Test | Result |
+| --- | --- |
+| Offline build | renders, exits 0 |
+| Live build, every fetcher 403ing | renders from snapshot, exits 0 |
+| Missing `fallback.json` | clear fatal message, no traceback |
+| Missing `calendar.json` | warns, still renders |
+| Prose backdated 14 days | warns, correct per-section ages |
+| Prose edited | that section's clock resets, others keep counting |
+| Calendar trimmed to 7 events | low-runway warning fires |
+| `daily.yml` | parses, all six steps intact |
 
 ## After committing
 
-Run **Actions → Build daily brief → Run workflow** rather than waiting for
-cron. The first successful run overwrites the stale catalysts inside
-`fallback.json`, so the snapshot stops carrying August's prose.
+Run **Actions → Build daily brief → Run workflow**. Expect these lines near the
+end of the log:
+
+```
+[freshness] prose last rewritten: cre 0d · credit 0d · economy 0d · markets 0d · news 0d
+[freshness] calendar: 29 future events, next 2026-09-04 Employment Situation
+```
+
+All sections will read `0d` on the first run — that's the clock starting, not a
+claim the copy is fresh. The `markets` prose is genuinely from late August, so
+expect its warning around ten days from now.
