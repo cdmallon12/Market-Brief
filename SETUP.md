@@ -270,3 +270,40 @@ instead.
 | Key in error message | `<redacted>` |
 | Missing snapshot / calendar | fatal / warns, as before |
 | Offline + live builds | render, prose intact |
+
+
+---
+
+# Hotfix — exit 128 on the commit step
+
+## What happened
+
+Two bugs of mine, chained.
+
+`check_prose_age()` returned early when every section is machine-generated —
+which is now always — and that early return sat *before* the line that writes
+`data/prose_state.json`. So the file was never created.
+
+The commit step then ran `git add data/prose_state.json` on a path that did not
+exist. `git add` treats a missing pathspec as fatal, which fails the whole job
+with exit 128. The build itself had already succeeded; only the push failed.
+
+## Fixed
+
+- `check_prose_age()` now always writes `prose_state.json`, carrying the
+  `_generated` marker the daily gate will read.
+- The commit step stages only files that exist, so a missing one is skipped
+  rather than fatal.
+
+The staging loop uses `if [ -f "$f" ]; then ... fi` rather than
+`[ -f "$f" ] && git add "$f"`. That is not style. Actions runs `run:` blocks
+under `bash -e`, and the `&&` form returns 1 when the file is absent, which
+would fail the step for a different reason — verified both forms under
+`bash -e`: the `&&` version exits 1, the `if` version exits 0.
+
+## If it fails again
+
+Exit code tells you where to look. **128 is git** — permissions, a rejected
+push, or a bad path in the commit step; the page built fine. **1 is Python** —
+read the traceback in the `Build the brief` step. Anything else, send me the
+step name and the last few lines.

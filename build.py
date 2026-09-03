@@ -734,6 +734,13 @@ def _prose_digest(ctx, section):
     return hashlib.sha256("\n".join(parts).encode("utf-8")).hexdigest()[:16]
 
 
+def _write_prose_state(path, state):
+    try:
+        path.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    except OSError as e:
+        print(f"[warn] prose state: could not write {path} ({e})")
+
+
 def prose_due_today(today, force=False):
     """True when a cost-bearing prose generator should run this build.
 
@@ -767,6 +774,13 @@ def check_prose_age(ctx, today):
 
     hand_written = {s: f for s, f in PROSE_FIELDS.items() if s not in prose.GENERATED}
     if not hand_written:
+        # Every section is machine-generated, so there is no clock to run — but
+        # the file must still exist. It carries the "_generated" marker the
+        # daily gate reads, and the workflow stages it by name: returning early
+        # without writing it left git staging a path that was never created,
+        # which fails the whole job with exit 128.
+        state["_generated"] = today.isoformat()
+        _write_prose_state(path, state)
         print("[freshness] prose: all sections generated from live metrics")
         return {}
 
@@ -782,10 +796,8 @@ def check_prose_age(ctx, today):
         state[section] = {"digest": digest, "updated": written.isoformat()}
         ages[section] = (today - written).days
 
-    try:
-        path.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    except OSError as e:
-        print(f"[warn] prose age: could not write {path} ({e})")
+    state["_generated"] = today.isoformat()
+    _write_prose_state(path, state)
 
     summary = " · ".join(f"{k} {v}d" for k, v in sorted(ages.items()))
     print(f"[freshness] prose last rewritten: {summary}")
