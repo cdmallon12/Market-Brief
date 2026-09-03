@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date_line": "Wednesday · Sep 02, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 02, 2026",
-    "compiled": "Compiled Sep 02, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-03T02:10:30Z"
+    "date_line": "Thursday · Sep 03, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 03, 2026",
+    "compiled": "Compiled Sep 03, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-03T12:54:19Z"
   },
   "ticker": [
     {
@@ -26,8 +26,8 @@
     },
     {
       "nm": "VIX",
-      "vl": "15.20",
-      "ch": "-6.98%",
+      "vl": "15.12",
+      "ch": "-0.53%",
       "dir": -1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.66%",
+      "vl": "3.65%",
       "ch": "",
       "dir": 0
     },
@@ -111,7 +111,7 @@
   ],
   "markets": {
     "headline": "The S&P 500 edged higher 0.46%",
-    "standfirst": "At the last close: S&P 500 7,666.60 (+0.46%); Nasdaq 26,218 (+0.45%); Dow 53,062 (+0.56%). VIX 15.20 (-6.98%).",
+    "standfirst": "At the last close: S&P 500 7,666.60 (+0.46%); Nasdaq 26,218 (+0.45%); Dow 53,062 (+0.56%). VIX 15.12 (-0.53%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
@@ -122,7 +122,7 @@
     "card2_sub": "Next scheduled economic releases (ET)",
     "catalysts": [
       {
-        "when": "Fri · Sep 4",
+        "when": "Tomorrow",
         "title": "Employment Situation",
         "body": "August payrolls, unemployment rate and average hourly earnings. The last jobs report before the September FOMC."
       },
@@ -147,7 +147,7 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 2"
+    "quote_note": "Quotes ~15-min delayed · as of 8:38 AM ET, Sep 3"
   },
   "markets_tiles": [
     {
@@ -159,7 +159,7 @@
         "txt": "0.46%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,634.58</span> · <span class=\"up mono\">+18.9%</span> YoY"
+      "note": "Prior close <span class=\"mono\">7,631.47</span> · <span class=\"up mono\">+18.9%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
@@ -170,7 +170,7 @@
         "txt": "0.45%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">26,094</span>"
+      "note": "Prior close <span class=\"mono\">26,100</span>"
     },
     {
       "lbl": "Dow Jones",
@@ -181,18 +181,18 @@
         "txt": "0.56%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">52,830</span>"
+      "note": "Prior close <span class=\"mono\">52,767</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.20",
+      "val": "15.12",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "6.98%",
+        "txt": "0.53%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">16.39</span>"
+      "note": "Open <span class=\"mono\">15.25</span>"
     }
   ],
   "economy": {
@@ -331,6 +331,30 @@
   },
   "headlines": [
     {
+      "when": "Sep 03",
+      "title": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
+    },
+    {
+      "when": "Sep 03",
+      "title": "'Danger zone of extreme weather': UN warns of supersized El Niño set to hit global economy and markets",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/03/supersized-el-nino-un-economy.html"
+    },
+    {
+      "when": "Sep 03",
+      "title": "China hits back at G20 statement on its reliance on exports, accusing them of 'promoting protectionism'",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/03/china-g20-exports-trade.html"
+    },
+    {
       "when": "Sep 02",
       "title": "South Korea's semiconductor exports just tripled year-over-year. Is it too much of a good thing?",
       "blurb": "",
@@ -353,34 +377,10 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
-    },
-    {
-      "when": "Sep 02",
-      "title": "Berkshire CEO Greg Abel says Japanese bond yields not a challenge for trading houses right now",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/02/berkshire-ceo-says-japanese-bond-yields-not-a-challenge-for-trading-houses.html"
-    },
-    {
-      "when": "Sep 02",
-      "title": "Nepal’s mountain tourism industry faces ‘serious warning’ after Himalayan flood disaster",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/02/nepal-tibet-floods-adventure-tourism-economy.html"
-    },
-    {
-      "when": "Sep 01",
-      "title": "Hugging Face's new duck robot is selling fast. A Chinese chip powers it",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/01/hugging-faces-new-duck-robot-is-selling-fast-a-chinese-chip-powers-it.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.79%, overnight SOFR at 3.66%",
+    "headline": "The 10-year at 4.79%, overnight SOFR at 3.65%",
     "standfirst": "An illustrative agency coupon prices at 6.14–6.44%. The Freddie Mac 30-year survey rate is 6.66%.",
     "curve_date": "Sep 02, 2026",
     "card_title": "Credit conditions",
@@ -407,7 +407,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.66",
+      "val": "3.65",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -426,6 +426,18 @@
     }
   ],
   "cre_headlines": [
+    {
+      "source": "Commercial Observer",
+      "title": "Get to Know the Broker: Libby McKinney Tritschler of William Raveis Real Estate",
+      "when": "Sep 03",
+      "link": "https://commercialobserver.com/2026/09/get-to-know-the-broker-libby-mckinney-tritschler-william-raveis-real-estate/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Liability Litigation Is Choking Multifamily Housing",
+      "when": "Sep 03",
+      "link": "https://commercialobserver.com/2026/09/liability-litigation-multifamily-housing/"
+    },
     {
       "source": "Commercial Observer",
       "title": "Westfield Montgomery Owner Pays Off $350M Loan on Bethesda, Md., Mall",
@@ -449,18 +461,6 @@
       "title": "Affinius Capital Lends $310M for Jersey City Multifamily Tower Build",
       "when": "Sep 02",
       "link": "https://commercialobserver.com/2026/09/affinius-capital-jersey-city-apartments/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Industrious Adds 19th L.A.-Area Location at Caruso’s Masonic Temple",
-      "when": "Sep 02",
-      "link": "https://commercialobserver.com/2026/09/industrious-la-glendale-caruso-masonic-temple/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Fashion Boutique Atelier Secures Retail Space at 181 MacDougal Street",
-      "when": "Sep 02",
-      "link": "https://commercialobserver.com/2026/09/atelier-lease-straus-group-181-macdougal-street-retail/"
     }
   ],
   "cre_fund_tiles": [
