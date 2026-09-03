@@ -3,31 +3,31 @@
     "date_line": "Thursday · Sep 03, 2026",
     "as_of": "Auto-compiled from public sources · Sep 03, 2026",
     "compiled": "Compiled Sep 03, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-03T13:51:01Z"
+    "generated_utc": "2026-09-03T17:16:21Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,713.66",
-      "ch": "+0.61%",
+      "vl": "7,741.50",
+      "ch": "+0.98%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,469",
-      "ch": "+0.96%",
+      "vl": "26,559",
+      "ch": "+1.30%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "53,455",
-      "ch": "+0.74%",
+      "vl": "53,653",
+      "ch": "+1.11%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "14.98",
-      "ch": "-1.45%",
+      "vl": "14.59",
+      "ch": "-4.01%",
       "dir": -1
     },
     {
@@ -104,19 +104,19 @@
     },
     {
       "nm": "HY OAS",
-      "vl": "2.65%",
+      "vl": "2.66%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.61%",
-    "standfirst": "At the last close: S&P 500 7,713.66 (+0.61%); Nasdaq 26,469 (+0.96%); Dow 53,455 (+0.74%). VIX 14.98 (-1.45%).",
+    "headline": "The S&P 500 rose 0.98%",
+    "standfirst": "At the last close: S&P 500 7,741.50 (+0.98%); Nasdaq 26,559 (+1.30%); Dow 53,653 (+1.11%). VIX 14.59 (-4.01%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "5 of 6 names on the watchlist closed higher.",
-      "KRE led at +1.24%; SPG lagged at -0.08%."
+      "BXP led at +1.12%; VMRK lagged at -0.23%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 3"
+    "quote_note": "Quotes ~15-min delayed · as of 1:15 PM ET, Sep 3"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,713.66",
+      "val": "7,741.50",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.61%",
+        "txt": "0.98%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,686.71</span> · <span class=\"up mono\">+19.6%</span> YoY"
+      "note": "Open <span class=\"mono\">7,686.71</span> · <span class=\"up mono\">+20.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,469",
+      "val": "26,559",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.96%",
+        "txt": "1.30%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,336</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "53,455",
+      "val": "53,653",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.74%",
+        "txt": "1.11%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">53,309</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.98",
+      "val": "14.59",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.45%",
+        "txt": "4.01%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.25</span>"
@@ -280,8 +280,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.99%, high-yield at 2.65%",
-    "standfirst": "The high-yield premium over investment grade is 1.66 percentage points. The 2s10s Treasury spread is +40 bps.",
+    "headline": "Investment-grade OAS at 0.99%, high-yield at 2.66%",
+    "standfirst": "The high-yield premium over investment grade is 1.67 percentage points. The 2s10s Treasury spread is +40 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -297,25 +297,25 @@
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.01pp",
-        "note": "wider"
+        "txt": "+0.00pp",
+        "note": "flat"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "2.65",
+      "val": "2.66",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.02pp",
+        "txt": "+0.01pp",
         "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "1.66",
+      "val": "1.67",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
@@ -323,7 +323,7 @@
   ],
   "credit_chart": {
     "ig": 0.99,
-    "hy": 2.65
+    "hy": 2.66
   },
   "news": {
     "headline": "Latest headlines",
@@ -381,7 +381,7 @@
   ],
   "cre": {
     "headline": "The 10-year at 4.79%, overnight SOFR at 3.65%",
-    "standfirst": "An illustrative agency coupon prices at 6.14–6.44%. The Freddie Mac 30-year survey rate is 6.66%.",
+    "standfirst": "An illustrative agency coupon prices at 6.14–6.44%. The Freddie Mac 30-year survey rate is 6.71%.",
     "curve_date": "Sep 02, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
@@ -428,6 +428,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Reforming Pilates to Open New Studio at 233 East 34th Street in Murray Hill",
+      "when": "Sep 03",
+      "link": "https://commercialobserver.com/2026/09/reforming-pilates-lease-studio-233-east-34th-street-murray-hill/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Proptech Unicorn EliseAI Launches AI Agent Apollo",
       "when": "Sep 03",
       "link": "https://commercialobserver.com/2026/09/eliseai-ai-agent-apollo/"
@@ -455,12 +461,6 @@
       "title": "Vestal Point Capital Takes 12K SF at Rockrose Development’s 11 East 26th Street",
       "when": "Sep 02",
       "link": "https://commercialobserver.com/2026/09/vestal-point-capital-lease-rockrose-development-11-east-26th-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "NYC Human Resources Administration Extends 174K-SF Lease in Midtown",
-      "when": "Sep 02",
-      "link": "https://commercialobserver.com/2026/09/nyc-human-resources-administration-lease-extension-260-11th-avenue/"
     }
   ],
   "cre_fund_tiles": [
@@ -494,13 +494,13 @@
   "cre_fin_tiles": [
     {
       "lbl": "30-Yr Mortgage · PMMS",
-      "val": "6.66",
+      "val": "6.71",
       "unit": "%",
       "tone": "",
       "note": "Freddie Mac Primary Mortgage Market Survey",
       "delta": {
         "dir": 0,
-        "txt": "+0.01pp",
+        "txt": "+0.05pp",
         "note": "wk/wk"
       }
     },
@@ -601,44 +601,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "75.16",
-      "chg": "+1.24%",
+      "price": "74.97",
+      "chg": "+0.98%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.06",
-      "chg": "+0.29%",
+      "price": "96.56",
+      "chg": "+0.81%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "67.50",
-      "chg": "+0.60%",
+      "price": "67.85",
+      "chg": "+1.12%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "136.75",
-      "chg": "+0.12%",
+      "price": "137.79",
+      "chg": "+0.88%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.13",
-      "chg": "+0.34%",
-      "dir": 1
+      "price": "64.76",
+      "chg": "-0.23%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "210.04",
-      "chg": "-0.08%",
-      "dir": -1
+      "price": "211.13",
+      "chg": "+0.44%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
