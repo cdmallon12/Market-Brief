@@ -3,31 +3,31 @@
     "date_line": "Thursday · Sep 03, 2026",
     "as_of": "Auto-compiled from public sources · Sep 03, 2026",
     "compiled": "Compiled Sep 03, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-03T12:54:19Z"
+    "generated_utc": "2026-09-03T13:51:01Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,666.60",
-      "ch": "+0.46%",
+      "vl": "7,713.66",
+      "ch": "+0.61%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,218",
-      "ch": "+0.45%",
+      "vl": "26,469",
+      "ch": "+0.96%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "53,062",
-      "ch": "+0.56%",
+      "vl": "53,455",
+      "ch": "+0.74%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.12",
-      "ch": "-0.53%",
+      "vl": "14.98",
+      "ch": "-1.45%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.46%",
-    "standfirst": "At the last close: S&P 500 7,666.60 (+0.46%); Nasdaq 26,218 (+0.45%); Dow 53,062 (+0.56%). VIX 15.12 (-0.53%).",
+    "headline": "The S&P 500 rose 0.61%",
+    "standfirst": "At the last close: S&P 500 7,713.66 (+0.61%); Nasdaq 26,469 (+0.96%); Dow 53,455 (+0.74%). VIX 14.98 (-1.45%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "2 of 6 names on the watchlist closed higher.",
-      "KRE led at +2.23%; PLD lagged at -2.21%."
+      "5 of 6 names on the watchlist closed higher.",
+      "KRE led at +1.24%; SPG lagged at -0.08%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 8:38 AM ET, Sep 3"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 3"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,666.60",
+      "val": "7,713.66",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.46%",
+        "txt": "0.61%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">7,631.47</span> · <span class=\"up mono\">+18.9%</span> YoY"
+      "note": "Open <span class=\"mono\">7,686.71</span> · <span class=\"up mono\">+19.6%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,218",
+      "val": "26,469",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.45%",
+        "txt": "0.96%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">26,100</span>"
+      "note": "Open <span class=\"mono\">26,336</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "53,062",
+      "val": "53,455",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.56%",
+        "txt": "0.74%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">52,767</span>"
+      "note": "Open <span class=\"mono\">53,309</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.12",
+      "val": "14.98",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.53%",
+        "txt": "1.45%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.25</span>"
@@ -428,6 +428,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Proptech Unicorn EliseAI Launches AI Agent Apollo",
+      "when": "Sep 03",
+      "link": "https://commercialobserver.com/2026/09/eliseai-ai-agent-apollo/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Get to Know the Broker: Libby McKinney Tritschler of William Raveis Real Estate",
       "when": "Sep 03",
       "link": "https://commercialobserver.com/2026/09/get-to-know-the-broker-libby-mckinney-tritschler-william-raveis-real-estate/"
@@ -455,12 +461,6 @@
       "title": "NYC Human Resources Administration Extends 174K-SF Lease in Midtown",
       "when": "Sep 02",
       "link": "https://commercialobserver.com/2026/09/nyc-human-resources-administration-lease-extension-260-11th-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Affinius Capital Lends $310M for Jersey City Multifamily Tower Build",
-      "when": "Sep 02",
-      "link": "https://commercialobserver.com/2026/09/affinius-capital-jersey-city-apartments/"
     }
   ],
   "cre_fund_tiles": [
@@ -601,43 +601,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "74.24",
-      "chg": "+2.23%",
+      "price": "75.16",
+      "chg": "+1.24%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "95.78",
-      "chg": "-0.54%",
-      "dir": -1
+      "price": "96.06",
+      "chg": "+0.29%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "67.10",
-      "chg": "+0.06%",
+      "price": "67.50",
+      "chg": "+0.60%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "136.59",
-      "chg": "-2.21%",
-      "dir": -1
+      "price": "136.75",
+      "chg": "+0.12%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.91",
-      "chg": "-0.57%",
-      "dir": -1
+      "price": "65.13",
+      "chg": "+0.34%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "210.20",
-      "chg": "-0.79%",
+      "price": "210.04",
+      "chg": "-0.08%",
       "dir": -1
     }
   ],
