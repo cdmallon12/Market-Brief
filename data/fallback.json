@@ -3,48 +3,48 @@
     "date_line": "Thursday · Sep 03, 2026",
     "as_of": "Auto-compiled from public sources · Sep 03, 2026",
     "compiled": "Compiled Sep 03, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-03T17:55:23Z"
+    "generated_utc": "2026-09-03T22:40:19Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,750.16",
-      "ch": "+1.09%",
+      "vl": "7,747.71",
+      "ch": "+1.06%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,608",
-      "ch": "+1.49%",
+      "vl": "26,584",
+      "ch": "+1.40%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "53,692",
-      "ch": "+1.19%",
+      "vl": "53,686",
+      "ch": "+1.18%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "14.52",
-      "ch": "-4.47%",
+      "vl": "14.32",
+      "ch": "-5.79%",
       "dir": -1
     },
     {
       "nm": "10Y UST",
-      "vl": "4.79%",
+      "vl": "4.77%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.39%",
+      "vl": "4.34%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.27%",
+      "vl": "5.25%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 1.09%",
-    "standfirst": "At the last close: S&P 500 7,750.16 (+1.09%); Nasdaq 26,608 (+1.49%); Dow 53,692 (+1.19%). VIX 14.52 (-4.47%).",
+    "headline": "The S&P 500 rose 1.06%",
+    "standfirst": "At the last close: S&P 500 7,747.71 (+1.06%); Nasdaq 26,584 (+1.40%); Dow 53,686 (+1.18%). VIX 14.32 (-5.79%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.57%; VMRK lagged at -0.40%."
+      "6 of 6 names on the watchlist closed higher.",
+      "BXP led at +1.68%; VMRK lagged at +0.08%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:54 PM ET, Sep 3"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 3"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,750.16",
+      "val": "7,747.71",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.09%",
+        "txt": "1.06%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,686.71</span> · <span class=\"up mono\">+20.2%</span> YoY"
+      "note": "Open <span class=\"mono\">7,686.71</span> · <span class=\"up mono\">+19.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,608",
+      "val": "26,584",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.49%",
+        "txt": "1.40%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,336</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "53,692",
+      "val": "53,686",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.19%",
+        "txt": "1.18%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">53,309</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.52",
+      "val": "14.32",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "4.47%",
+        "txt": "5.79%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.25</span>"
@@ -281,11 +281,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 0.99%, high-yield at 2.66%",
-    "standfirst": "The high-yield premium over investment grade is 1.67 percentage points. The 2s10s Treasury spread is +40 bps.",
+    "standfirst": "The high-yield premium over investment grade is 1.67 percentage points. The 2s10s Treasury spread is +43 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +40 bps; 3m10y +87 bps; 5s30s +73 bps; 10s30s +48 bps."
+      "Across the curve: 2s10s +43 bps; 3m10y +88 bps; 5s30s +73 bps; 10s30s +48 bps."
     ]
   },
   "credit_tiles": [
@@ -332,6 +332,14 @@
   "headlines": [
     {
       "when": "Sep 03",
+      "title": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
+    },
+    {
+      "when": "Sep 03",
       "title": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
       "blurb": "",
       "kind": "",
@@ -369,20 +377,12 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html"
-    },
-    {
-      "when": "Sep 02",
-      "title": "Private payrolls rose by 38,000 in August, less than expected, ADP reports",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.79%, overnight SOFR at 3.65%",
-    "standfirst": "An illustrative agency coupon prices at 6.14–6.44%. The Freddie Mac 30-year survey rate is 6.71%.",
-    "curve_date": "Sep 02, 2026",
+    "headline": "The 10-year at 4.77%, overnight SOFR at 3.65%",
+    "standfirst": "An illustrative agency coupon prices at 6.12–6.42%. The Freddie Mac 30-year survey rate is 6.71%.",
+    "curve_date": "Sep 03, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -393,14 +393,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "4.79",
+      "val": "4.77",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+40 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+43 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.39",
+      "val": "4.34",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -428,39 +428,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Dwight Investment Management Supplies $115M Refi on Charlotte Apartments",
+      "title": "Reuben Brothers’ Jordana Yechiel On the Firm’s Big Bet on Century City",
       "when": "Sep 03",
-      "link": "https://commercialobserver.com/2026/09/dwight-investment-management-charlotte-apartments/"
+      "link": "https://commercialobserver.com/2026/09/reuben-brothers-jordana-yechiel-century-city-plaza-park-elm-la/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Reforming Pilates to Open New Studio at 233 East 34th Street in Murray Hill",
+      "title": "Downtown D.C. Office Conversion Secures $176M Loan, New Majority Partner",
       "when": "Sep 03",
-      "link": "https://commercialobserver.com/2026/09/reforming-pilates-lease-studio-233-east-34th-street-murray-hill/"
+      "link": "https://commercialobserver.com/2026/09/downtown-dc-office-conversion-1990-k-street-nw-stonebridge-bernstein-criterion/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Proptech Unicorn EliseAI Launches AI Agent Apollo",
+      "title": "Geoff Mason Promoted to U.S. Chief Operating Officer of Unibail-Rodamco-Westfield",
       "when": "Sep 03",
-      "link": "https://commercialobserver.com/2026/09/eliseai-ai-agent-apollo/"
+      "link": "https://commercialobserver.com/2026/09/geoff-mason-promoted-coo-unibail-rodamco-westfield/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Get to Know the Broker: Libby McKinney Tritschler of William Raveis Real Estate",
+      "title": "Sagehall Picks Up Chetrit Organization’s 428 Broadway for $47M",
       "when": "Sep 03",
-      "link": "https://commercialobserver.com/2026/09/get-to-know-the-broker-libby-mckinney-tritschler-william-raveis-real-estate/"
+      "link": "https://commercialobserver.com/2026/09/sagehall-buys-chetrit-organization-428-broadway-office/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Liability Litigation Is Choking Multifamily Housing",
+      "title": "Rockpoint Buys Oceanfront Fort Lauderdale Hotel for $47M",
       "when": "Sep 03",
-      "link": "https://commercialobserver.com/2026/09/liability-litigation-multifamily-housing/"
+      "link": "https://commercialobserver.com/2026/09/rockpoint-hilton-hotel-maren-fort-lauderdale-beach/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Westfield Montgomery Owner Pays Off $350M Loan on Bethesda, Md., Mall",
-      "when": "Sep 02",
-      "link": "https://commercialobserver.com/2026/09/westfield-montgomery-maryland/"
+      "title": "Warehouse Near Miami Airport Sells for $21M",
+      "when": "Sep 03",
+      "link": "https://commercialobserver.com/2026/09/miami-industrial-terreno-dalfen-aersale/"
     }
   ],
   "cre_fund_tiles": [
@@ -506,15 +506,15 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.14–6.44",
+      "val": "6.12–6.42",
       "unit": "%",
       "tone": "",
-      "note": "10Y (4.79%) + 135–165 bp agency spread"
+      "note": "10Y (4.77%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+40",
-    "3m10y": "+87",
+    "2s10s": "+43",
+    "3m10y": "+88",
     "5s30s": "+73",
     "10s30s": "+48"
   },
@@ -601,43 +601,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "74.94",
-      "chg": "+0.94%",
+      "price": "74.87",
+      "chg": "+0.85%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.50",
-      "chg": "+0.75%",
+      "price": "96.66",
+      "chg": "+0.92%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "68.16",
-      "chg": "+1.57%",
+      "price": "68.23",
+      "chg": "+1.68%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "137.75",
-      "chg": "+0.85%",
+      "price": "138.35",
+      "chg": "+1.29%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.65",
-      "chg": "-0.40%",
-      "dir": -1
+      "price": "64.96",
+      "chg": "+0.08%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "211.17",
-      "chg": "+0.46%",
+      "price": "211.52",
+      "chg": "+0.63%",
       "dir": 1
     }
   ],
@@ -653,77 +653,77 @@
     {
       "t": "3M",
       "x": 0.25,
-      "y": 3.92,
+      "y": 3.89,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.0,
+      "y": 3.95,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.16,
+      "y": 4.11,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.39,
+      "y": 4.34,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.45,
+      "y": 4.41,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.54,
+      "y": 4.52,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.66,
+      "y": 4.63,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 4.79,
+      "y": 4.77,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.27,
+      "y": 5.25,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.27,
+      "y": 5.25,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.29
+    "new": 6.27
   },
   "orig": {
     "y2025": 633.7,
