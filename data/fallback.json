@@ -3,31 +3,31 @@
     "date_line": "Thursday · Sep 03, 2026",
     "as_of": "Auto-compiled from public sources · Sep 03, 2026",
     "compiled": "Compiled Sep 03, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-03T17:16:21Z"
+    "generated_utc": "2026-09-03T17:55:23Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,741.50",
-      "ch": "+0.98%",
+      "vl": "7,750.16",
+      "ch": "+1.09%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,559",
-      "ch": "+1.30%",
+      "vl": "26,608",
+      "ch": "+1.49%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "53,653",
-      "ch": "+1.11%",
+      "vl": "53,692",
+      "ch": "+1.19%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "14.59",
-      "ch": "-4.01%",
+      "vl": "14.52",
+      "ch": "-4.47%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.98%",
-    "standfirst": "At the last close: S&P 500 7,741.50 (+0.98%); Nasdaq 26,559 (+1.30%); Dow 53,653 (+1.11%). VIX 14.59 (-4.01%).",
+    "headline": "The S&P 500 rose 1.09%",
+    "standfirst": "At the last close: S&P 500 7,750.16 (+1.09%); Nasdaq 26,608 (+1.49%); Dow 53,692 (+1.19%). VIX 14.52 (-4.47%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "5 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.12%; VMRK lagged at -0.23%."
+      "BXP led at +1.57%; VMRK lagged at -0.40%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:15 PM ET, Sep 3"
+    "quote_note": "Quotes ~15-min delayed · as of 1:54 PM ET, Sep 3"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,741.50",
+      "val": "7,750.16",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.98%",
+        "txt": "1.09%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,686.71</span> · <span class=\"up mono\">+20.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,686.71</span> · <span class=\"up mono\">+20.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,559",
+      "val": "26,608",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.30%",
+        "txt": "1.49%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,336</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "53,653",
+      "val": "53,692",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.11%",
+        "txt": "1.19%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">53,309</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.59",
+      "val": "14.52",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "4.01%",
+        "txt": "4.47%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.25</span>"
@@ -428,6 +428,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Dwight Investment Management Supplies $115M Refi on Charlotte Apartments",
+      "when": "Sep 03",
+      "link": "https://commercialobserver.com/2026/09/dwight-investment-management-charlotte-apartments/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Reforming Pilates to Open New Studio at 233 East 34th Street in Murray Hill",
       "when": "Sep 03",
       "link": "https://commercialobserver.com/2026/09/reforming-pilates-lease-studio-233-east-34th-street-murray-hill/"
@@ -455,12 +461,6 @@
       "title": "Westfield Montgomery Owner Pays Off $350M Loan on Bethesda, Md., Mall",
       "when": "Sep 02",
       "link": "https://commercialobserver.com/2026/09/westfield-montgomery-maryland/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Vestal Point Capital Takes 12K SF at Rockrose Development’s 11 East 26th Street",
-      "when": "Sep 02",
-      "link": "https://commercialobserver.com/2026/09/vestal-point-capital-lease-rockrose-development-11-east-26th-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -601,43 +601,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "74.97",
-      "chg": "+0.98%",
+      "price": "74.94",
+      "chg": "+0.94%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.56",
-      "chg": "+0.81%",
+      "price": "96.50",
+      "chg": "+0.75%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "67.85",
-      "chg": "+1.12%",
+      "price": "68.16",
+      "chg": "+1.57%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "137.79",
-      "chg": "+0.88%",
+      "price": "137.75",
+      "chg": "+0.85%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.76",
-      "chg": "-0.23%",
+      "price": "64.65",
+      "chg": "-0.40%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "211.13",
-      "chg": "+0.44%",
+      "price": "211.17",
+      "chg": "+0.46%",
       "dir": 1
     }
   ],
