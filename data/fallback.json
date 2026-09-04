@@ -3,31 +3,31 @@
     "date_line": "Friday · Sep 04, 2026",
     "as_of": "Auto-compiled from public sources · Sep 04, 2026",
     "compiled": "Compiled Sep 04, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-04T17:06:54Z"
+    "generated_utc": "2026-09-04T17:40:53Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,720.76",
-      "ch": "-0.35%",
+      "vl": "7,712.29",
+      "ch": "-0.46%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,505",
-      "ch": "-0.30%",
+      "vl": "26,462",
+      "ch": "-0.46%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "53,408",
-      "ch": "-0.52%",
+      "vl": "53,397",
+      "ch": "-0.54%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "14.02",
-      "ch": "-2.09%",
+      "vl": "14.10",
+      "ch": "-1.54%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.35%",
-    "standfirst": "At the last close: S&P 500 7,720.76 (-0.35%); Nasdaq 26,505 (-0.30%); Dow 53,408 (-0.52%). VIX 14.02 (-2.09%).",
+    "headline": "The S&P 500 edged lower 0.46%",
+    "standfirst": "At the last close: S&P 500 7,712.29 (-0.46%); Nasdaq 26,462 (-0.46%); Dow 53,397 (-0.54%). VIX 14.10 (-1.54%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "2 of 6 names on the watchlist closed higher.",
-      "VMRK led at +1.03%; BXP lagged at -0.35%."
+      "VMRK led at +1.06%; VNQ lagged at -0.42%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:06 PM ET, Sep 4"
+    "quote_note": "Quotes ~15-min delayed · as of 1:40 PM ET, Sep 4"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,720.76",
+      "val": "7,712.29",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.35%",
+        "txt": "0.46%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,750.19</span> · <span class=\"up mono\">+18.7%</span> YoY"
+      "note": "Open <span class=\"mono\">7,750.19</span> · <span class=\"up mono\">+18.6%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,505",
+      "val": "26,462",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.30%",
+        "txt": "0.46%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,588</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "53,408",
+      "val": "53,397",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.52%",
+        "txt": "0.54%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">53,585</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.02",
+      "val": "14.10",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.09%",
+        "txt": "1.54%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">14.15</span>"
@@ -332,6 +332,14 @@
   "headlines": [
     {
       "when": "Sep 04",
+      "title": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
+    },
+    {
+      "when": "Sep 04",
       "title": "White House has vetted candidates for key CFTC vacancies, sources tell CNBC. It's unclear if they will be filled",
       "blurb": "",
       "kind": "",
@@ -345,14 +353,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/04/bitcoin-heads-for-third-winning-week-in-a-row-as-macro-pressures-mount.html"
-    },
-    {
-      "when": "Sep 04",
-      "title": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
     },
     {
       "when": "Sep 04",
@@ -601,43 +601,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "75.35",
-      "chg": "+0.64%",
+      "price": "75.28",
+      "chg": "+0.54%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.46",
-      "chg": "-0.21%",
+      "price": "96.25",
+      "chg": "-0.42%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "67.99",
-      "chg": "-0.35%",
+      "price": "68.11",
+      "chg": "-0.18%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "137.97",
-      "chg": "-0.27%",
+      "price": "137.83",
+      "chg": "-0.38%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.63",
-      "chg": "+1.03%",
+      "price": "65.65",
+      "chg": "+1.06%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "211.28",
-      "chg": "-0.11%",
+      "price": "210.80",
+      "chg": "-0.34%",
       "dir": -1
     }
   ],
