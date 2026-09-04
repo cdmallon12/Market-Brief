@@ -3,31 +3,31 @@
     "date_line": "Friday · Sep 04, 2026",
     "as_of": "Auto-compiled from public sources · Sep 04, 2026",
     "compiled": "Compiled Sep 04, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-04T13:50:55Z"
+    "generated_utc": "2026-09-04T17:06:54Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,740.02",
-      "ch": "-0.10%",
+      "vl": "7,720.76",
+      "ch": "-0.35%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,586",
-      "ch": "+0.01%",
-      "dir": 1
+      "vl": "26,505",
+      "ch": "-0.30%",
+      "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "53,568",
-      "ch": "-0.22%",
+      "vl": "53,408",
+      "ch": "-0.52%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "14.12",
-      "ch": "-1.40%",
+      "vl": "14.02",
+      "ch": "-2.09%",
       "dir": -1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "0.99%",
+      "vl": "1.00%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "2.66%",
+      "vl": "2.65%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.10%",
-    "standfirst": "At the last close: S&P 500 7,740.02 (-0.10%); Nasdaq 26,586 (+0.01%); Dow 53,568 (-0.22%). VIX 14.12 (-1.40%).",
+    "headline": "The S&P 500 edged lower 0.35%",
+    "standfirst": "At the last close: S&P 500 7,720.76 (-0.35%); Nasdaq 26,505 (-0.30%); Dow 53,408 (-0.52%). VIX 14.02 (-2.09%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "4 of 6 names on the watchlist closed higher.",
-      "VMRK led at +0.54%; VNQ lagged at -0.14%."
+      "2 of 6 names on the watchlist closed higher.",
+      "VMRK led at +1.03%; BXP lagged at -0.35%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 4"
+    "quote_note": "Quotes ~15-min delayed · as of 1:06 PM ET, Sep 4"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,740.02",
+      "val": "7,720.76",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.10%",
+        "txt": "0.35%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,750.19</span> · <span class=\"up mono\">+19.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,750.19</span> · <span class=\"up mono\">+18.7%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,586",
-      "tone": "pos",
+      "val": "26,505",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.01%",
+        "dir": -1,
+        "txt": "0.30%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,588</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "53,568",
+      "val": "53,408",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.22%",
+        "txt": "0.52%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">53,585</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.12",
+      "val": "14.02",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.40%",
+        "txt": "2.09%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">14.15</span>"
@@ -280,8 +280,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.99%, high-yield at 2.66%",
-    "standfirst": "The high-yield premium over investment grade is 1.67 percentage points. The 2s10s Treasury spread is +43 bps.",
+    "headline": "Investment-grade OAS at 1.00%, high-yield at 2.65%",
+    "standfirst": "The high-yield premium over investment grade is 1.65 percentage points. The 2s10s Treasury spread is +43 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -291,22 +291,10 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "0.99",
+      "val": "1.00",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
-      "delta": {
-        "dir": 0,
-        "txt": "+0.00pp",
-        "note": "flat"
-      }
-    },
-    {
-      "lbl": "High-Yield OAS",
-      "val": "2.66",
-      "unit": "%",
-      "tone": "",
-      "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
         "txt": "+0.01pp",
@@ -314,16 +302,28 @@
       }
     },
     {
+      "lbl": "High-Yield OAS",
+      "val": "2.65",
+      "unit": "%",
+      "tone": "",
+      "note": "Below-investment-grade spread — the risk-appetite gauge",
+      "delta": {
+        "dir": 0,
+        "txt": "-0.01pp",
+        "note": "tighter"
+      }
+    },
+    {
       "lbl": "HY − IG Premium",
-      "val": "1.67",
+      "val": "1.65",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 0.99,
-    "hy": 2.66
+    "ig": 1.0,
+    "hy": 2.65
   },
   "news": {
     "headline": "Latest headlines",
@@ -332,11 +332,11 @@
   "headlines": [
     {
       "when": "Sep 04",
-      "title": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
+      "title": "White House has vetted candidates for key CFTC vacancies, sources tell CNBC. It's unclear if they will be filled",
       "blurb": "",
       "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/04/white-house-has-vetted-candidates-for-key-cftc-vacancies-sources-tell-cnbc.html"
     },
     {
       "when": "Sep 04",
@@ -345,6 +345,14 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/04/bitcoin-heads-for-third-winning-week-in-a-row-as-macro-pressures-mount.html"
+    },
+    {
+      "when": "Sep 04",
+      "title": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
     },
     {
       "when": "Sep 04",
@@ -369,14 +377,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
-    },
-    {
-      "when": "Sep 03",
-      "title": "'Danger zone of extreme weather': UN warns of supersized El Niño set to hit global economy and markets",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/03/supersized-el-nino-un-economy.html"
     }
   ],
   "cre": {
@@ -428,39 +428,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Amid Higher-for-Longer Mortgage Rates, Multifamily Pros Find a Silver Lining",
+      "title": "Ares Buys Two Fully Leased Miami Warehouses for $109M",
       "when": "Sep 04",
-      "link": "https://commercialobserver.com/2026/09/higher-mortgage-rates-2026-multifamily/"
+      "link": "https://commercialobserver.com/2026/09/ares-miami-bgre-brookfield-target/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Reuben Brothers’ Jordana Yechiel On the Firm’s Big Bet on Century City",
-      "when": "Sep 03",
-      "link": "https://commercialobserver.com/2026/09/reuben-brothers-jordana-yechiel-century-city-plaza-park-elm-la/"
+      "title": "Gaia Lands Another Extension for Williamsburg Apartments’ $48M Loan",
+      "when": "Sep 04",
+      "link": "https://commercialobserver.com/2026/09/gaia-real-estate-loan-extension-williamsburg-brooklyn-apartments/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Downtown D.C. Office Conversion Secures $176M Loan, New Majority Partner",
-      "when": "Sep 03",
-      "link": "https://commercialobserver.com/2026/09/downtown-dc-office-conversion-1990-k-street-nw-stonebridge-bernstein-criterion/"
+      "title": "Membership Platform Patreon Renews 45K-SF Sublease at 75 Varick Street",
+      "when": "Sep 04",
+      "link": "https://commercialobserver.com/2026/09/patreon-renewal-sublease-75-varick-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Geoff Mason Promoted to U.S. Chief Operating Officer of Unibail-Rodamco-Westfield",
-      "when": "Sep 03",
-      "link": "https://commercialobserver.com/2026/09/geoff-mason-promoted-coo-unibail-rodamco-westfield/"
+      "title": "Developer Ailanthus Files Plans to Build 400 Apartments at 424 Hoyt Street in Gowanus",
+      "when": "Sep 04",
+      "link": "https://commercialobserver.com/2026/09/ailanthus-400-apartments-424-hoyt-street-gowanus/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Sagehall Picks Up Chetrit Organization’s 428 Broadway for $47M",
-      "when": "Sep 03",
-      "link": "https://commercialobserver.com/2026/09/sagehall-buys-chetrit-organization-428-broadway-office/"
+      "title": "HR Tech Firm Gusto Expands to 76K SF at Vornado’s Penn 1",
+      "when": "Sep 04",
+      "link": "https://commercialobserver.com/2026/09/gusto-lease-expansion-renewal-vornado-penn-1/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Rockpoint Buys Oceanfront Fort Lauderdale Hotel for $47M",
-      "when": "Sep 03",
-      "link": "https://commercialobserver.com/2026/09/rockpoint-hilton-hotel-maren-fort-lauderdale-beach/"
+      "title": "Strong U.S. Jobs Report Sets the Stage for Possible Rate Hike",
+      "when": "Sep 04",
+      "link": "https://commercialobserver.com/2026/09/us-bureau-labor-statistics-jobs-august-2026/"
     }
   ],
   "cre_fund_tiles": [
@@ -601,44 +601,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "75.03",
-      "chg": "+0.22%",
+      "price": "75.35",
+      "chg": "+0.64%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.53",
-      "chg": "-0.14%",
+      "price": "96.46",
+      "chg": "-0.21%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "68.36",
-      "chg": "+0.20%",
-      "dir": 1
+      "price": "67.99",
+      "chg": "-0.35%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "138.24",
-      "chg": "-0.08%",
+      "price": "137.97",
+      "chg": "-0.27%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.31",
-      "chg": "+0.54%",
+      "price": "65.63",
+      "chg": "+1.03%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "212.14",
-      "chg": "+0.29%",
-      "dir": 1
+      "price": "211.28",
+      "chg": "-0.11%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
