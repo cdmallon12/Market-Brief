@@ -3,7 +3,7 @@
     "date_line": "Thursday · Sep 03, 2026",
     "as_of": "Auto-compiled from public sources · Sep 03, 2026",
     "compiled": "Compiled Sep 03, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-03T22:40:19Z"
+    "generated_utc": "2026-09-04T01:05:45Z"
   },
   "ticker": [
     {
@@ -115,8 +115,8 @@
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.68%; VMRK lagged at +0.08%."
+      "4 of 6 names on the watchlist closed higher.",
+      "KRE led at +3.10%; PLD lagged at -0.95%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -602,29 +602,29 @@
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
       "price": "74.87",
-      "chg": "+0.85%",
+      "chg": "+3.10%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
       "price": "96.66",
-      "chg": "+0.92%",
+      "chg": "+0.37%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
       "price": "68.23",
-      "chg": "+1.68%",
+      "chg": "+1.74%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
       "price": "138.35",
-      "chg": "+1.29%",
-      "dir": 1
+      "chg": "-0.95%",
+      "dir": -1
     },
     {
       "code": "VMRK",
@@ -637,8 +637,8 @@
       "code": "SPG",
       "desc": "Retail malls (Simon)",
       "price": "211.52",
-      "chg": "+0.63%",
-      "dir": 1
+      "chg": "-0.17%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
