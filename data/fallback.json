@@ -3,48 +3,48 @@
     "date_line": "Friday · Sep 04, 2026",
     "as_of": "Auto-compiled from public sources · Sep 04, 2026",
     "compiled": "Compiled Sep 04, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-04T17:40:53Z"
+    "generated_utc": "2026-09-04T22:26:00Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,712.29",
-      "ch": "-0.46%",
+      "vl": "7,718.60",
+      "ch": "-0.38%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,462",
-      "ch": "-0.46%",
+      "vl": "26,507",
+      "ch": "-0.29%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "53,397",
-      "ch": "-0.54%",
+      "vl": "53,414",
+      "ch": "-0.51%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "14.10",
-      "ch": "-1.54%",
-      "dir": -1
+      "vl": "14.53",
+      "ch": "+1.47%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
-      "vl": "4.77%",
+      "vl": "4.78%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.34%",
+      "vl": "4.37%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.25%",
+      "vl": "5.24%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.46%",
-    "standfirst": "At the last close: S&P 500 7,712.29 (-0.46%); Nasdaq 26,462 (-0.46%); Dow 53,397 (-0.54%). VIX 14.10 (-1.54%).",
+    "headline": "The S&P 500 edged lower 0.38%",
+    "standfirst": "At the last close: S&P 500 7,718.60 (-0.38%); Nasdaq 26,507 (-0.29%); Dow 53,414 (-0.51%). VIX 14.53 (+1.47%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "2 of 6 names on the watchlist closed higher.",
-      "VMRK led at +1.06%; VNQ lagged at -0.42%."
+      "VMRK led at +0.60%; SPG lagged at -0.98%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:40 PM ET, Sep 4"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 4"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,712.29",
+      "val": "7,718.60",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.46%",
+        "txt": "0.38%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,750.19</span> · <span class=\"up mono\">+18.6%</span> YoY"
+      "note": "Open <span class=\"mono\">7,750.19</span> · <span class=\"up mono\">+19.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,462",
+      "val": "26,507",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.46%",
+        "txt": "0.29%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,588</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "53,397",
+      "val": "53,414",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.54%",
+        "txt": "0.51%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">53,585</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.10",
-      "tone": "neg",
+      "val": "14.53",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "1.54%",
+        "dir": 1,
+        "txt": "1.47%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">14.15</span>"
@@ -281,11 +281,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.00%, high-yield at 2.65%",
-    "standfirst": "The high-yield premium over investment grade is 1.65 percentage points. The 2s10s Treasury spread is +43 bps.",
+    "standfirst": "The high-yield premium over investment grade is 1.65 percentage points. The 2s10s Treasury spread is +41 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +43 bps; 3m10y +88 bps; 5s30s +73 bps; 10s30s +48 bps."
+      "Across the curve: 2s10s +41 bps; 3m10y +87 bps; 5s30s +70 bps; 10s30s +46 bps."
     ]
   },
   "credit_tiles": [
@@ -332,11 +332,11 @@
   "headlines": [
     {
       "when": "Sep 04",
-      "title": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
+      "title": "Women accounted for almost all of job gains in August. Here's why",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
+      "link": "https://www.cnbc.com/2026/09/04/jobs-report-women-payrolls.html"
     },
     {
       "when": "Sep 04",
@@ -345,6 +345,14 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/04/white-house-has-vetted-candidates-for-key-cftc-vacancies-sources-tell-cnbc.html"
+    },
+    {
+      "when": "Sep 04",
+      "title": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
     },
     {
       "when": "Sep 04",
@@ -369,20 +377,12 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
-    },
-    {
-      "when": "Sep 03",
-      "title": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.77%, overnight SOFR at 3.66%",
-    "standfirst": "An illustrative agency coupon prices at 6.12–6.42%. The Freddie Mac 30-year survey rate is 6.71%.",
-    "curve_date": "Sep 03, 2026",
+    "headline": "The 10-year at 4.78%, overnight SOFR at 3.66%",
+    "standfirst": "An illustrative agency coupon prices at 6.13–6.43%. The Freddie Mac 30-year survey rate is 6.71%.",
+    "curve_date": "Sep 04, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -393,14 +393,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "4.77",
+      "val": "4.78",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+43 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+41 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.34",
+      "val": "4.37",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -426,6 +426,12 @@
     }
   ],
   "cre_headlines": [
+    {
+      "source": "Commercial Observer",
+      "title": "Related Secures $65M Refi for Office Property in L.A.’s South Bay",
+      "when": "Sep 04",
+      "link": "https://commercialobserver.com/2026/09/related-refi-office-south-bay-la/"
+    },
     {
       "source": "Commercial Observer",
       "title": "Ares Buys Two Fully Leased Miami Warehouses for $109M",
@@ -455,12 +461,6 @@
       "title": "HR Tech Firm Gusto Expands to 76K SF at Vornado’s Penn 1",
       "when": "Sep 04",
       "link": "https://commercialobserver.com/2026/09/gusto-lease-expansion-renewal-vornado-penn-1/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Strong U.S. Jobs Report Sets the Stage for Possible Rate Hike",
-      "when": "Sep 04",
-      "link": "https://commercialobserver.com/2026/09/us-bureau-labor-statistics-jobs-august-2026/"
     }
   ],
   "cre_fund_tiles": [
@@ -506,17 +506,17 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.12–6.42",
+      "val": "6.13–6.43",
       "unit": "%",
       "tone": "",
-      "note": "10Y (4.77%) + 135–165 bp agency spread"
+      "note": "10Y (4.78%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+43",
-    "3m10y": "+88",
-    "5s30s": "+73",
-    "10s30s": "+48"
+    "2s10s": "+41",
+    "3m10y": "+87",
+    "5s30s": "+70",
+    "10s30s": "+46"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -601,43 +601,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "75.28",
-      "chg": "+0.54%",
+      "price": "75.27",
+      "chg": "+0.53%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.25",
-      "chg": "-0.42%",
+      "price": "96.02",
+      "chg": "-0.66%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "68.11",
-      "chg": "-0.18%",
+      "price": "67.69",
+      "chg": "-0.79%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "137.83",
-      "chg": "-0.38%",
+      "price": "137.34",
+      "chg": "-0.73%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.65",
-      "chg": "+1.06%",
+      "price": "65.35",
+      "chg": "+0.60%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "210.80",
-      "chg": "-0.34%",
+      "price": "209.44",
+      "chg": "-0.98%",
       "dir": -1
     }
   ],
@@ -646,63 +646,63 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 3.83,
+      "y": 3.79,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 3.89,
+      "y": 3.91,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 3.95,
+      "y": 3.98,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.11,
+      "y": 4.13,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.34,
+      "y": 4.37,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.41,
+      "y": 4.45,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.52,
+      "y": 4.54,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.63,
+      "y": 4.65,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 4.77,
+      "y": 4.78,
       "axis": true,
       "mark": true
     },
@@ -716,14 +716,14 @@
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.25,
+      "y": 5.24,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.27
+    "new": 6.28
   },
   "orig": {
     "y2025": 633.7,
