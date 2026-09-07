@@ -3,7 +3,7 @@
     "date_line": "Monday · Sep 07, 2026",
     "as_of": "Auto-compiled from public sources · Sep 07, 2026",
     "compiled": "Compiled Sep 07, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-07T13:50:49Z"
+    "generated_utc": "2026-09-07T14:19:45Z"
   },
   "ticker": [
     {
@@ -26,8 +26,8 @@
     },
     {
       "nm": "VIX",
-      "vl": "15.11",
-      "ch": "+3.99%",
+      "vl": "15.18",
+      "ch": "+4.47%",
       "dir": 1
     },
     {
@@ -111,7 +111,7 @@
   ],
   "markets": {
     "headline": "The S&P 500 edged lower 0.38%",
-    "standfirst": "At the last close: S&P 500 7,718.60 (-0.38%); Nasdaq 26,507 (-0.29%); Dow 53,414 (-0.51%). VIX 15.11 (+3.99%).",
+    "standfirst": "At the last close: S&P 500 7,718.60 (-0.38%); Nasdaq 26,507 (-0.29%); Dow 53,414 (-0.51%). VIX 15.18 (+4.47%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
@@ -147,7 +147,7 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:35 AM ET, Sep 7"
+    "quote_note": "Quotes ~15-min delayed · as of 10:04 AM ET, Sep 7"
   },
   "markets_tiles": [
     {
@@ -185,11 +185,11 @@
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.11",
+      "val": "15.18",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "3.99%",
+        "txt": "4.47%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.02</span>"
