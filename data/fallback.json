@@ -3,7 +3,7 @@
     "date_line": "Monday · Sep 07, 2026",
     "as_of": "Auto-compiled from public sources · Sep 07, 2026",
     "compiled": "Compiled Sep 07, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-07T14:19:45Z"
+    "generated_utc": "2026-09-07T18:25:15Z"
   },
   "ticker": [
     {
@@ -26,8 +26,8 @@
     },
     {
       "nm": "VIX",
-      "vl": "15.18",
-      "ch": "+4.47%",
+      "vl": "15.30",
+      "ch": "+5.30%",
       "dir": 1
     },
     {
@@ -111,7 +111,7 @@
   ],
   "markets": {
     "headline": "The S&P 500 edged lower 0.38%",
-    "standfirst": "At the last close: S&P 500 7,718.60 (-0.38%); Nasdaq 26,507 (-0.29%); Dow 53,414 (-0.51%). VIX 15.18 (+4.47%).",
+    "standfirst": "At the last close: S&P 500 7,718.60 (-0.38%); Nasdaq 26,507 (-0.29%); Dow 53,414 (-0.51%). VIX 15.30 (+5.30%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
@@ -147,7 +147,7 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 10:04 AM ET, Sep 7"
+    "quote_note": "Quotes ~15-min delayed · as of 11:30 AM ET, Sep 7"
   },
   "markets_tiles": [
     {
@@ -185,11 +185,11 @@
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.18",
+      "val": "15.30",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "4.47%",
+        "txt": "5.30%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.02</span>"
@@ -428,6 +428,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Dongbei Chinese Restaurant & Bar Inks Deal at 63 Cooper Square",
+      "when": "Sep 07",
+      "link": "https://commercialobserver.com/2026/09/dongbei-chinese-restaurant-bar-lease-63-cooper-square/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Power Is No Longer an Input in Data Centers. It Is the Product.",
       "when": "Sep 07",
       "link": "https://commercialobserver.com/2026/09/data-centers-digital-dirt/"
@@ -455,12 +461,6 @@
       "title": "Ares Buys Two Fully Leased Miami Warehouses for $109M",
       "when": "Sep 04",
       "link": "https://commercialobserver.com/2026/09/ares-miami-bgre-brookfield-target/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Gaia Lands Another Extension for Williamsburg Apartments’ $48M Loan",
-      "when": "Sep 04",
-      "link": "https://commercialobserver.com/2026/09/gaia-real-estate-loan-extension-williamsburg-brooklyn-apartments/"
     }
   ],
   "cre_fund_tiles": [
