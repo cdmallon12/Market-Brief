@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date_line": "Friday · Sep 04, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 04, 2026",
-    "compiled": "Compiled Sep 04, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-05T01:08:05Z"
+    "date_line": "Monday · Sep 07, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 07, 2026",
+    "compiled": "Compiled Sep 07, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-07T13:50:49Z"
   },
   "ticker": [
     {
@@ -26,8 +26,8 @@
     },
     {
       "nm": "VIX",
-      "vl": "14.53",
-      "ch": "+1.47%",
+      "vl": "15.11",
+      "ch": "+3.99%",
       "dir": 1
     },
     {
@@ -111,21 +111,16 @@
   ],
   "markets": {
     "headline": "The S&P 500 edged lower 0.38%",
-    "standfirst": "At the last close: S&P 500 7,718.60 (-0.38%); Nasdaq 26,507 (-0.29%); Dow 53,414 (-0.51%). VIX 14.53 (+1.47%).",
+    "standfirst": "At the last close: S&P 500 7,718.60 (-0.38%); Nasdaq 26,507 (-0.29%); Dow 53,414 (-0.51%). VIX 15.11 (+3.99%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "KRE led at +1.39%; SPG lagged at -0.36%."
+      "2 of 6 names on the watchlist closed higher.",
+      "VMRK led at +0.60%; SPG lagged at -0.98%."
     ],
-    "card2_title": "On the calendar today",
-    "card2_sub": "Scheduled economic releases (ET)",
+    "card2_title": "Coming up",
+    "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
-      {
-        "when": "08:30 ET · Today",
-        "title": "Employment Situation",
-        "body": "August payrolls, unemployment rate and average hourly earnings. The last jobs report before the September FOMC."
-      },
       {
         "when": "Thu · Sep 10",
         "title": "Producer Price Index",
@@ -142,12 +137,17 @@
         "body": "Rate decision plus the quarterly Summary of Economic Projections and dot plot. Press conference at 2:30 ET."
       },
       {
+        "when": "Wed · Sep 16",
+        "title": "FDX earnings",
+        "body": "Scheduled to report."
+      },
+      {
         "when": "Tue · Sep 29",
         "title": "JOLTS job openings",
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 4"
+    "quote_note": "Quotes ~15-min delayed · as of 9:35 AM ET, Sep 7"
   },
   "markets_tiles": [
     {
@@ -159,7 +159,7 @@
         "txt": "0.38%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,750.19</span> · <span class=\"up mono\">+19.1%</span> YoY"
+      "note": "Prior close <span class=\"mono\">7,747.71</span> · <span class=\"up mono\">+19.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
@@ -170,7 +170,7 @@
         "txt": "0.29%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">26,588</span>"
+      "note": "Prior close <span class=\"mono\">26,584</span>"
     },
     {
       "lbl": "Dow Jones",
@@ -181,18 +181,18 @@
         "txt": "0.51%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">53,585</span>"
+      "note": "Prior close <span class=\"mono\">53,686</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.53",
+      "val": "15.11",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.47%",
+        "txt": "3.99%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">14.15</span>"
+      "note": "Open <span class=\"mono\">15.02</span>"
     }
   ],
   "economy": {
@@ -331,52 +331,52 @@
   },
   "headlines": [
     {
+      "when": "Sep 07",
+      "title": "China says it will pump $54 billion into banks and insurers — but their stocks still fell",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html"
+    },
+    {
+      "when": "Sep 07",
+      "title": "Japan's foreign reserves drop by a record $80 billion in August following yen intervention",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/07/japan-foreign-reserves-yen-intervention.html"
+    },
+    {
+      "when": "Sep 06",
+      "title": "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/06/sugar-is-outperforming-the-stock-market-this-year-whats-driving-it.html"
+    },
+    {
+      "when": "Sep 05",
+      "title": "From ‘mystery vacations’ to hostels, budget travelers get thrifty as prices rise",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/05/budget-travel-vacation-costs.html"
+    },
+    {
+      "when": "Sep 05",
+      "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html"
+    },
+    {
       "when": "Sep 04",
       "title": "Women accounted for almost all of job gains in August. Here's why",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/04/jobs-report-women-payrolls.html"
-    },
-    {
-      "when": "Sep 04",
-      "title": "White House has vetted candidates for key CFTC vacancies, sources tell CNBC. It's unclear if they will be filled",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/04/white-house-has-vetted-candidates-for-key-cftc-vacancies-sources-tell-cnbc.html"
-    },
-    {
-      "when": "Sep 04",
-      "title": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
-    },
-    {
-      "when": "Sep 04",
-      "title": "Bitcoin heads for third winning week in a row as macro pressures mount",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/04/bitcoin-heads-for-third-winning-week-in-a-row-as-macro-pressures-mount.html"
-    },
-    {
-      "when": "Sep 04",
-      "title": "The big business of personal protection: How private security became a $50 billion industry",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/04/private-security-spending-crime-allied-universal.html"
-    },
-    {
-      "when": "Sep 03",
-      "title": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
     }
   ],
   "cre": {
@@ -428,6 +428,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Power Is No Longer an Input in Data Centers. It Is the Product.",
+      "when": "Sep 07",
+      "link": "https://commercialobserver.com/2026/09/data-centers-digital-dirt/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Anthony Cohen of Northmarq: 5 Questions",
+      "when": "Sep 07",
+      "link": "https://commercialobserver.com/2026/09/anthony-cohen-northmarq-5-questions/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Sunday Summary: Sharp Left",
+      "when": "Sep 06",
+      "link": "https://commercialobserver.com/2026/09/sunday-summary-sharp-left/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Related Secures $65M Refi for Office Property in L.A.’s South Bay",
       "when": "Sep 04",
       "link": "https://commercialobserver.com/2026/09/related-refi-office-south-bay-la/"
@@ -443,24 +461,6 @@
       "title": "Gaia Lands Another Extension for Williamsburg Apartments’ $48M Loan",
       "when": "Sep 04",
       "link": "https://commercialobserver.com/2026/09/gaia-real-estate-loan-extension-williamsburg-brooklyn-apartments/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Membership Platform Patreon Renews 45K-SF Sublease at 75 Varick Street",
-      "when": "Sep 04",
-      "link": "https://commercialobserver.com/2026/09/patreon-renewal-sublease-75-varick-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Developer Ailanthus Files Plans to Build 400 Apartments at 424 Hoyt Street in Gowanus",
-      "when": "Sep 04",
-      "link": "https://commercialobserver.com/2026/09/ailanthus-400-apartments-424-hoyt-street-gowanus/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "HR Tech Firm Gusto Expands to 76K SF at Vornado’s Penn 1",
-      "when": "Sep 04",
-      "link": "https://commercialobserver.com/2026/09/gusto-lease-expansion-renewal-vornado-penn-1/"
     }
   ],
   "cre_fund_tiles": [
@@ -602,42 +602,42 @@
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
       "price": "75.27",
-      "chg": "+1.39%",
+      "chg": "+0.53%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
       "price": "96.02",
-      "chg": "+0.25%",
-      "dir": 1
+      "chg": "-0.66%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
       "price": "67.69",
-      "chg": "+0.88%",
-      "dir": 1
+      "chg": "-0.79%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
       "price": "137.34",
-      "chg": "+0.55%",
-      "dir": 1
+      "chg": "-0.73%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
       "price": "65.35",
-      "chg": "+0.68%",
+      "chg": "+0.60%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
       "price": "209.44",
-      "chg": "-0.36%",
+      "chg": "-0.98%",
       "dir": -1
     }
   ],
