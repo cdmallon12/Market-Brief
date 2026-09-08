@@ -3,31 +3,31 @@
     "date_line": "Tuesday · Sep 08, 2026",
     "as_of": "Auto-compiled from public sources · Sep 08, 2026",
     "compiled": "Compiled Sep 08, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-08T12:56:42Z"
+    "generated_utc": "2026-09-08T13:50:54Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,718.60",
-      "ch": "-0.38%",
+      "vl": "7,692.20",
+      "ch": "-0.34%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,507",
-      "ch": "-0.29%",
+      "vl": "26,412",
+      "ch": "-0.36%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "53,414",
-      "ch": "-0.51%",
+      "vl": "52,958",
+      "ch": "-0.85%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.53",
-      "ch": "+1.50%",
+      "vl": "15.40",
+      "ch": "+0.65%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.38%",
-    "standfirst": "At the last close: S&P 500 7,718.60 (-0.38%); Nasdaq 26,507 (-0.29%); Dow 53,414 (-0.51%). VIX 15.53 (+1.50%).",
+    "headline": "The S&P 500 edged lower 0.34%",
+    "standfirst": "At the last close: S&P 500 7,692.20 (-0.34%); Nasdaq 26,412 (-0.36%); Dow 52,958 (-0.85%). VIX 15.40 (+0.65%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "2 of 6 names on the watchlist closed higher.",
-      "VMRK led at +0.60%; SPG lagged at -0.98%."
+      "4 of 6 names on the watchlist closed higher.",
+      "VMRK led at +0.60%; KRE lagged at -0.41%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 8:41 AM ET, Sep 8"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 8"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,718.60",
+      "val": "7,692.20",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.38%",
+        "txt": "0.34%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">7,747.71</span> · <span class=\"up mono\">+19.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,717.81</span> · <span class=\"up mono\">+18.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,507",
+      "val": "26,412",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.29%",
+        "txt": "0.36%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">26,584</span>"
+      "note": "Open <span class=\"mono\">26,529</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "53,414",
+      "val": "52,958",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.51%",
+        "txt": "0.85%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">53,686</span>"
+      "note": "Open <span class=\"mono\">53,110</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.53",
+      "val": "15.40",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.50%",
+        "txt": "0.65%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.56</span>"
@@ -428,6 +428,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "CRE CLO Distress Accelerates in August",
+      "when": "Sep 08",
+      "link": "https://commercialobserver.com/2026/09/cre-clo-distress-cred-iq/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Office-Leasing Bidding Wars in Manhattan Are Now a Thing",
+      "when": "Sep 08",
+      "link": "https://commercialobserver.com/2026/09/office-leasing-bidding-wars-new-york/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "For Manhattan Class B Office, the Days of Optional Amenities Are Past",
+      "when": "Sep 08",
+      "link": "https://commercialobserver.com/2026/09/manhattan-class-b-office-amenities-cost-expansion-2026/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Office’s Real Story Is the Spread Between Prime Space and Everything Else",
+      "when": "Sep 08",
+      "link": "https://commercialobserver.com/2026/09/offices-real-story-is-the-spread-between-prime-space-and-everything-else/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "A Wave of New York Office Tower Listings Tests the Market’s Recovery",
       "when": "Sep 08",
       "link": "https://commercialobserver.com/2026/09/new-york-office-tower-listings-2026/"
@@ -437,30 +461,6 @@
       "title": "CIM Group Hires PIMCO’s Adam Lerer as Managing Director of Investments",
       "when": "Sep 08",
       "link": "https://commercialobserver.com/2026/09/cim-group-adam-lerer/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Lower Manhattan Has Become a Model for Other Urban Hubs — Including Midtown",
-      "when": "Sep 08",
-      "link": "https://commercialobserver.com/2026/09/lower-manhattan-resurgence-post-911/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Dongbei Chinese Restaurant & Bar Inks Deal at 63 Cooper Square",
-      "when": "Sep 07",
-      "link": "https://commercialobserver.com/2026/09/dongbei-chinese-restaurant-bar-lease-63-cooper-square/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Power Is No Longer an Input in Data Centers. It Is the Product.",
-      "when": "Sep 07",
-      "link": "https://commercialobserver.com/2026/09/data-centers-digital-dirt/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Anthony Cohen of Northmarq: 5 Questions",
-      "when": "Sep 07",
-      "link": "https://commercialobserver.com/2026/09/anthony-cohen-northmarq-5-questions/"
     }
   ],
   "cre_fund_tiles": [
@@ -601,44 +601,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "75.27",
-      "chg": "+0.53%",
-      "dir": 1
+      "price": "74.97",
+      "chg": "-0.41%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.02",
-      "chg": "-0.66%",
-      "dir": -1
+      "price": "96.24",
+      "chg": "+0.23%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "67.69",
-      "chg": "-0.79%",
+      "price": "67.44",
+      "chg": "-0.36%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "137.34",
-      "chg": "-0.73%",
-      "dir": -1
+      "price": "137.74",
+      "chg": "+0.29%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.35",
+      "price": "65.74",
       "chg": "+0.60%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "209.44",
-      "chg": "-0.98%",
-      "dir": -1
+      "price": "209.77",
+      "chg": "+0.16%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
