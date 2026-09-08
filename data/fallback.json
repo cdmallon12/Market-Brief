@@ -3,32 +3,32 @@
     "date_line": "Tuesday · Sep 08, 2026",
     "as_of": "Auto-compiled from public sources · Sep 08, 2026",
     "compiled": "Compiled Sep 08, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-08T13:50:54Z"
+    "generated_utc": "2026-09-08T17:31:58Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,692.20",
-      "ch": "-0.34%",
-      "dir": -1
-    },
-    {
-      "nm": "Nasdaq",
-      "vl": "26,412",
+      "vl": "7,690.56",
       "ch": "-0.36%",
       "dir": -1
     },
     {
+      "nm": "Nasdaq",
+      "vl": "26,480",
+      "ch": "-0.10%",
+      "dir": -1
+    },
+    {
       "nm": "Dow",
-      "vl": "52,958",
-      "ch": "-0.85%",
+      "vl": "52,862",
+      "ch": "-1.03%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.40",
-      "ch": "+0.65%",
-      "dir": 1
+      "vl": "15.28",
+      "ch": "-0.13%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.00%",
+      "vl": "0.99%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "2.65%",
+      "vl": "2.68%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.34%",
-    "standfirst": "At the last close: S&P 500 7,692.20 (-0.34%); Nasdaq 26,412 (-0.36%); Dow 52,958 (-0.85%). VIX 15.40 (+0.65%).",
+    "headline": "The S&P 500 edged lower 0.36%",
+    "standfirst": "At the last close: S&P 500 7,690.56 (-0.36%); Nasdaq 26,480 (-0.10%); Dow 52,862 (-1.03%). VIX 15.28 (-0.13%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "4 of 6 names on the watchlist closed higher.",
-      "VMRK led at +0.60%; KRE lagged at -0.41%."
+      "PLD led at +1.11%; BXP lagged at -2.30%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 8"
+    "quote_note": "Quotes ~15-min delayed · as of 1:31 PM ET, Sep 8"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,692.20",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.34%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">7,717.81</span> · <span class=\"up mono\">+18.4%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "26,412",
+      "val": "7,690.56",
       "tone": "neg",
       "delta": {
         "dir": -1,
         "txt": "0.36%",
         "note": "vs prior close"
       },
+      "note": "Open <span class=\"mono\">7,717.81</span> · <span class=\"up mono\">+18.4%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "26,480",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.10%",
+        "note": "vs prior close"
+      },
       "note": "Open <span class=\"mono\">26,529</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,958",
+      "val": "52,862",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.85%",
+        "txt": "1.03%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">53,110</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.40",
-      "tone": "pos",
+      "val": "15.28",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.65%",
+        "dir": -1,
+        "txt": "0.13%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.56</span>"
@@ -280,8 +280,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.00%, high-yield at 2.65%",
-    "standfirst": "The high-yield premium over investment grade is 1.65 percentage points. The 2s10s Treasury spread is +41 bps.",
+    "headline": "Investment-grade OAS at 0.99%, high-yield at 2.68%",
+    "standfirst": "The high-yield premium over investment grade is 1.69 percentage points. The 2s10s Treasury spread is +41 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -291,45 +291,61 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.00",
+      "val": "0.99",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.01pp",
-        "note": "wider"
+        "txt": "+0.00pp",
+        "note": "flat"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "2.65",
+      "val": "2.68",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "-0.01pp",
-        "note": "tighter"
+        "txt": "+0.00pp",
+        "note": "flat"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "1.65",
+      "val": "1.69",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.0,
-    "hy": 2.65
+    "ig": 0.99,
+    "hy": 2.68
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Sep 08",
+      "title": "Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
+    },
+    {
+      "when": "Sep 08",
+      "title": "Japan's foreign reserves drop by a record $80 billion in August following yen intervention",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/07/japan-foreign-reserves-yen-intervention.html"
+    },
     {
       "when": "Sep 08",
       "title": "White House has vetted candidates for key CFTC vacancies, sources tell CNBC. It's unclear if they will be filled",
@@ -348,14 +364,6 @@
     },
     {
       "when": "Sep 08",
-      "title": "Canada's retaliatory tariffs worth $27.6 billion take effect as trade rift with U.S. deepens",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
-    },
-    {
-      "when": "Sep 08",
       "title": "Crypto platforms have lost over $3.63 billion to cyberattacks — even though most of them did security checks",
       "blurb": "",
       "kind": "",
@@ -369,14 +377,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/08/china-exports-imports-august-trade-rebalance-demand-surplus-.html"
-    },
-    {
-      "when": "Sep 07",
-      "title": "China says it will pump $54 billion into banks and insurers — but their stocks still fell",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html"
     }
   ],
   "cre": {
@@ -428,39 +428,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "CRE CLO Distress Accelerates in August",
+      "title": "Podcast: How Physical Property Data Drives Key CRE Decisions, ID Plans’ Jordan Hearin",
       "when": "Sep 08",
-      "link": "https://commercialobserver.com/2026/09/cre-clo-distress-cred-iq/"
+      "link": "https://commercialobserver.com/2026/09/podcast-how-physical-property-data-drives-key-cre-decisions-id-plans-jordan-hearin/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Office-Leasing Bidding Wars in Manhattan Are Now a Thing",
+      "title": "Thor Equities Drops $62M on Boca Raton Office",
       "when": "Sep 08",
-      "link": "https://commercialobserver.com/2026/09/office-leasing-bidding-wars-new-york/"
+      "link": "https://commercialobserver.com/2026/09/two-town-center-boca-raton-thor-equities-cp-group/"
     },
     {
       "source": "Commercial Observer",
-      "title": "For Manhattan Class B Office, the Days of Optional Amenities Are Past",
+      "title": "Diamond Realty Sells Retail, Office Component of Williamsburg’s Dime for $29M",
       "when": "Sep 08",
-      "link": "https://commercialobserver.com/2026/09/manhattan-class-b-office-amenities-cost-expansion-2026/"
+      "link": "https://commercialobserver.com/2026/09/diamond-realty-sells-retail-office-williamsburg-dime/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Office’s Real Story Is the Spread Between Prime Space and Everything Else",
+      "title": "Ian Schrager, Ed Scheetz Land $117M Refi for Public Hotel West Hollywood",
       "when": "Sep 08",
-      "link": "https://commercialobserver.com/2026/09/offices-real-story-is-the-spread-between-prime-space-and-everything-else/"
+      "link": "https://commercialobserver.com/2026/09/ian-schrager-ed-scheetz-public-hotel-west-hollywood/"
     },
     {
       "source": "Commercial Observer",
-      "title": "A Wave of New York Office Tower Listings Tests the Market’s Recovery",
+      "title": "After Foreclosure Saga, Charles Cohen Plans Office Complex in Florida’s Dania Beach",
       "when": "Sep 08",
-      "link": "https://commercialobserver.com/2026/09/new-york-office-tower-listings-2026/"
+      "link": "https://commercialobserver.com/2026/09/charles-cohen-dania-beach-office-center-of-the-americas-ocota/"
     },
     {
       "source": "Commercial Observer",
-      "title": "CIM Group Hires PIMCO’s Adam Lerer as Managing Director of Investments",
+      "title": "A COGE Member On How New York City Can Boost Affordable Housing",
       "when": "Sep 08",
-      "link": "https://commercialobserver.com/2026/09/cim-group-adam-lerer/"
+      "link": "https://commercialobserver.com/2026/09/coge-affordable-housing-ballot-november/"
     }
   ],
   "cre_fund_tiles": [
@@ -601,43 +601,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "74.97",
-      "chg": "-0.41%",
+      "price": "74.69",
+      "chg": "-0.77%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.24",
-      "chg": "+0.23%",
+      "price": "96.47",
+      "chg": "+0.46%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "67.44",
-      "chg": "-0.36%",
+      "price": "66.13",
+      "chg": "-2.30%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "137.74",
-      "chg": "+0.29%",
+      "price": "138.87",
+      "chg": "+1.11%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.74",
-      "chg": "+0.60%",
+      "price": "66.01",
+      "chg": "+1.01%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "209.77",
-      "chg": "+0.16%",
+      "price": "211.63",
+      "chg": "+1.05%",
       "dir": 1
     }
   ],
