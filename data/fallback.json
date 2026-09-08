@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date_line": "Monday · Sep 07, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 07, 2026",
-    "compiled": "Compiled Sep 07, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-08T01:15:47Z"
+    "date_line": "Tuesday · Sep 08, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 08, 2026",
+    "compiled": "Compiled Sep 08, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-08T12:56:42Z"
   },
   "ticker": [
     {
@@ -26,8 +26,8 @@
     },
     {
       "nm": "VIX",
-      "vl": "15.30",
-      "ch": "+5.30%",
+      "vl": "15.53",
+      "ch": "+1.50%",
       "dir": 1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.66%",
+      "vl": "3.65%",
       "ch": "",
       "dir": 0
     },
@@ -111,7 +111,7 @@
   ],
   "markets": {
     "headline": "The S&P 500 edged lower 0.38%",
-    "standfirst": "At the last close: S&P 500 7,718.60 (-0.38%); Nasdaq 26,507 (-0.29%); Dow 53,414 (-0.51%). VIX 15.30 (+5.30%).",
+    "standfirst": "At the last close: S&P 500 7,718.60 (-0.38%); Nasdaq 26,507 (-0.29%); Dow 53,414 (-0.51%). VIX 15.53 (+1.50%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
@@ -147,7 +147,7 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:30 AM ET, Sep 7"
+    "quote_note": "Quotes ~15-min delayed · as of 8:41 AM ET, Sep 8"
   },
   "markets_tiles": [
     {
@@ -185,14 +185,14 @@
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.30",
+      "val": "15.53",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "5.30%",
+        "txt": "1.50%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">15.02</span>"
+      "note": "Open <span class=\"mono\">15.56</span>"
     }
   ],
   "economy": {
@@ -331,56 +331,56 @@
   },
   "headlines": [
     {
+      "when": "Sep 08",
+      "title": "White House has vetted candidates for key CFTC vacancies, sources tell CNBC. It's unclear if they will be filled",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/04/white-house-has-vetted-candidates-for-key-cftc-vacancies-sources-tell-cnbc.html"
+    },
+    {
+      "when": "Sep 08",
+      "title": "Visa tells CNBC it is expanding data offering for blockchain lenders as demand for stablecoin-linked cards surges",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/08/visa-blockchain-lender-stablecoin-cards.html"
+    },
+    {
+      "when": "Sep 08",
+      "title": "Canada's retaliatory tariffs worth $27.6 billion take effect as trade rift with U.S. deepens",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
+    },
+    {
+      "when": "Sep 08",
+      "title": "Crypto platforms have lost over $3.63 billion to cyberattacks — even though most of them did security checks",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/08/crypto-platforms-lost-billions-to-cyberattacks-many-even-after-audits.html"
+    },
+    {
+      "when": "Sep 08",
+      "title": "China's imports in August miss estimates as calls for rebalancing trade grow",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/08/china-exports-imports-august-trade-rebalance-demand-surplus-.html"
+    },
+    {
       "when": "Sep 07",
       "title": "China says it will pump $54 billion into banks and insurers — but their stocks still fell",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html"
-    },
-    {
-      "when": "Sep 07",
-      "title": "Japan's foreign reserves drop by a record $80 billion in August following yen intervention",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/07/japan-foreign-reserves-yen-intervention.html"
-    },
-    {
-      "when": "Sep 06",
-      "title": "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/06/sugar-is-outperforming-the-stock-market-this-year-whats-driving-it.html"
-    },
-    {
-      "when": "Sep 05",
-      "title": "From ‘mystery vacations’ to hostels, budget travelers get thrifty as prices rise",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/05/budget-travel-vacation-costs.html"
-    },
-    {
-      "when": "Sep 05",
-      "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html"
-    },
-    {
-      "when": "Sep 04",
-      "title": "Women accounted for almost all of job gains in August. Here's why",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/04/jobs-report-women-payrolls.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.78%, overnight SOFR at 3.66%",
+    "headline": "The 10-year at 4.78%, overnight SOFR at 3.65%",
     "standfirst": "An illustrative agency coupon prices at 6.13–6.43%. The Freddie Mac 30-year survey rate is 6.71%.",
     "curve_date": "Sep 04, 2026",
     "card_title": "Credit conditions",
@@ -407,7 +407,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.66",
+      "val": "3.65",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -428,6 +428,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "A Wave of New York Office Tower Listings Tests the Market’s Recovery",
+      "when": "Sep 08",
+      "link": "https://commercialobserver.com/2026/09/new-york-office-tower-listings-2026/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "CIM Group Hires PIMCO’s Adam Lerer as Managing Director of Investments",
+      "when": "Sep 08",
+      "link": "https://commercialobserver.com/2026/09/cim-group-adam-lerer/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Lower Manhattan Has Become a Model for Other Urban Hubs — Including Midtown",
+      "when": "Sep 08",
+      "link": "https://commercialobserver.com/2026/09/lower-manhattan-resurgence-post-911/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Dongbei Chinese Restaurant & Bar Inks Deal at 63 Cooper Square",
       "when": "Sep 07",
       "link": "https://commercialobserver.com/2026/09/dongbei-chinese-restaurant-bar-lease-63-cooper-square/"
@@ -443,24 +461,6 @@
       "title": "Anthony Cohen of Northmarq: 5 Questions",
       "when": "Sep 07",
       "link": "https://commercialobserver.com/2026/09/anthony-cohen-northmarq-5-questions/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Sunday Summary: Sharp Left",
-      "when": "Sep 06",
-      "link": "https://commercialobserver.com/2026/09/sunday-summary-sharp-left/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Related Secures $65M Refi for Office Property in L.A.’s South Bay",
-      "when": "Sep 04",
-      "link": "https://commercialobserver.com/2026/09/related-refi-office-south-bay-la/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Ares Buys Two Fully Leased Miami Warehouses for $109M",
-      "when": "Sep 04",
-      "link": "https://commercialobserver.com/2026/09/ares-miami-bgre-brookfield-target/"
     }
   ],
   "cre_fund_tiles": [
