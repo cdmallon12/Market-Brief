@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Sep 09, 2026",
     "as_of": "Auto-compiled from public sources · Sep 09, 2026",
     "compiled": "Compiled Sep 09, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-09T13:04:15Z"
+    "generated_utc": "2026-09-09T13:50:56Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,673.52",
-      "ch": "-0.58%",
+      "vl": "7,652.99",
+      "ch": "-0.27%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,421",
-      "ch": "-0.32%",
+      "vl": "26,332",
+      "ch": "-0.34%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,786",
-      "ch": "-1.18%",
+      "vl": "52,427",
+      "ch": "-0.68%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "16.31",
-      "ch": "+3.75%",
+      "vl": "16.10",
+      "ch": "+2.42%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.58%",
-    "standfirst": "At the last close: S&P 500 7,673.52 (-0.58%); Nasdaq 26,421 (-0.32%); Dow 52,786 (-1.18%). VIX 16.31 (+3.75%).",
+    "headline": "The S&P 500 edged lower 0.27%",
+    "standfirst": "At the last close: S&P 500 7,652.99 (-0.27%); Nasdaq 26,332 (-0.34%); Dow 52,427 (-0.68%). VIX 16.10 (+2.42%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "3 of 6 names on the watchlist closed higher.",
-      "VMRK led at +1.29%; BXP lagged at -2.88%."
+      "0 of 6 names on the watchlist closed higher.",
+      "BXP led at -0.09%; KRE lagged at -1.14%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 8:46 AM ET, Sep 9"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 9"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,673.52",
+      "val": "7,652.99",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.58%",
+        "txt": "0.27%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">7,718.60</span> · <span class=\"up mono\">+17.8%</span> YoY"
+      "note": "Open <span class=\"mono\">7,660.68</span> · <span class=\"up mono\">+17.5%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,421",
+      "val": "26,332",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.32%",
+        "txt": "0.34%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">26,507</span>"
+      "note": "Open <span class=\"mono\">26,325</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,786",
+      "val": "52,427",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.18%",
+        "txt": "0.68%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">53,414</span>"
+      "note": "Open <span class=\"mono\">52,708</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.31",
+      "val": "16.10",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "3.75%",
+        "txt": "2.42%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.65</span>"
@@ -428,6 +428,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Nadeem Meghji Exits Blackstone After Less Than a Year as Global Real Estate Head",
+      "when": "Sep 09",
+      "link": "https://commercialobserver.com/2026/09/nadeem-meghji-departs-blackstone/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Jay Badame Joins Bravo Group Three Years After Termination From AECOM Tishman",
       "when": "Sep 09",
       "link": "https://commercialobserver.com/2026/09/jay-badame-hire-bravo-group-aecom-tishman/"
@@ -455,12 +461,6 @@
       "title": "Acadia Buys Mixed-Use Property on SoHo’s Greene Street for $60M",
       "when": "Sep 08",
       "link": "https://commercialobserver.com/2026/09/acadia-buys-soho-69-71-greene-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Women’s Clothing Store Esti’s Takes 8K SF at 2263 Nostrand Avenue in Midwood",
-      "when": "Sep 08",
-      "link": "https://commercialobserver.com/2026/09/estis-2263-nostrand-avenue-midwood-retail-lease/"
     }
   ],
   "cre_fund_tiles": [
@@ -601,44 +601,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "74.31",
-      "chg": "-1.28%",
+      "price": "73.47",
+      "chg": "-1.14%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "95.93",
-      "chg": "-0.09%",
+      "price": "95.70",
+      "chg": "-0.24%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "65.74",
-      "chg": "-2.88%",
+      "price": "65.68",
+      "chg": "-0.09%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "138.48",
-      "chg": "+0.83%",
-      "dir": 1
+      "price": "137.28",
+      "chg": "-0.87%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "66.19",
-      "chg": "+1.29%",
-      "dir": 1
+      "price": "65.75",
+      "chg": "-0.66%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "211.88",
-      "chg": "+1.17%",
-      "dir": 1
+      "price": "210.44",
+      "chg": "-0.68%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
