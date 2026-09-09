@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Sep 09, 2026",
     "as_of": "Auto-compiled from public sources · Sep 09, 2026",
     "compiled": "Compiled Sep 09, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-09T13:50:56Z"
+    "generated_utc": "2026-09-09T17:18:39Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,652.99",
-      "ch": "-0.27%",
+      "vl": "7,644.61",
+      "ch": "-0.38%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,332",
-      "ch": "-0.34%",
+      "vl": "26,264",
+      "ch": "-0.60%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,427",
-      "ch": "-0.68%",
+      "vl": "52,518",
+      "ch": "-0.51%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "16.10",
-      "ch": "+2.42%",
+      "vl": "16.27",
+      "ch": "+3.50%",
       "dir": 1
     },
     {
@@ -104,19 +104,19 @@
     },
     {
       "nm": "HY OAS",
-      "vl": "2.68%",
+      "vl": "2.67%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.27%",
-    "standfirst": "At the last close: S&P 500 7,652.99 (-0.27%); Nasdaq 26,332 (-0.34%); Dow 52,427 (-0.68%). VIX 16.10 (+2.42%).",
+    "headline": "The S&P 500 edged lower 0.38%",
+    "standfirst": "At the last close: S&P 500 7,644.61 (-0.38%); Nasdaq 26,264 (-0.60%); Dow 52,518 (-0.51%). VIX 16.27 (+3.50%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "BXP led at -0.09%; KRE lagged at -1.14%."
+      "VNQ led at -1.06%; SPG lagged at -2.61%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 9"
+    "quote_note": "Quotes ~15-min delayed · as of 1:18 PM ET, Sep 9"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,652.99",
+      "val": "7,644.61",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.27%",
+        "txt": "0.38%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,660.68</span> · <span class=\"up mono\">+17.5%</span> YoY"
+      "note": "Open <span class=\"mono\">7,660.68</span> · <span class=\"up mono\">+17.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,332",
+      "val": "26,264",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.34%",
+        "txt": "0.60%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,325</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,427",
+      "val": "52,518",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.68%",
+        "txt": "0.51%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,708</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.10",
+      "val": "16.27",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "2.42%",
+        "txt": "3.50%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.65</span>"
@@ -280,8 +280,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.99%, high-yield at 2.68%",
-    "standfirst": "The high-yield premium over investment grade is 1.69 percentage points. The 2s10s Treasury spread is +41 bps.",
+    "headline": "Investment-grade OAS at 0.99%, high-yield at 2.67%",
+    "standfirst": "The high-yield premium over investment grade is 1.68 percentage points. The 2s10s Treasury spread is +41 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -303,19 +303,19 @@
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "2.68",
+      "val": "2.67",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.00pp",
-        "note": "flat"
+        "txt": "-0.01pp",
+        "note": "tighter"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "1.69",
+      "val": "1.68",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
@@ -323,7 +323,7 @@
   ],
   "credit_chart": {
     "ig": 0.99,
-    "hy": 2.68
+    "hy": 2.67
   },
   "news": {
     "headline": "Latest headlines",
@@ -428,39 +428,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Nadeem Meghji Exits Blackstone After Less Than a Year as Global Real Estate Head",
+      "title": "CBRE Investment Management Acquires $1.6B Net-Lease Portfolio",
       "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/nadeem-meghji-departs-blackstone/"
+      "link": "https://commercialobserver.com/2026/09/cbre-investment-management-acquires-1-6b-net-lease-portfolio/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Jay Badame Joins Bravo Group Three Years After Termination From AECOM Tishman",
+      "title": "Skip the Script — a Great Seller’s Broker Creates a Strategy Based on Market Feedback",
       "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/jay-badame-hire-bravo-group-aecom-tishman/"
+      "link": "https://commercialobserver.com/2026/09/investment-sales-brokers-market-based-strategy/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Commercial Real Estate Lenders Are Raising the Bar on AI Underwriting",
+      "title": "SL Green Sells 110 Greene Street to Natora Group for $226M",
       "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/commercial-real-estate-lenders-auditability/"
+      "link": "https://commercialobserver.com/2026/09/sl-green-sells-110-greene-street-natora-group-226m/"
     },
     {
       "source": "Commercial Observer",
-      "title": "The Plan: 360 Lexington Avenue Has Been ‘Completely Reinvented’",
+      "title": "Dwight Refis LA-Area Apartments With $62M Loan",
       "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/360-lexington-avenue-office-renovation/"
+      "link": "https://commercialobserver.com/2026/09/dwight-investment-management-culver-city-apartments/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Lisa Silverstein Leads Silverstein Properties at an Auspicious Time",
+      "title": "AI Real Estate Platform Orbital Leases 11K SF at 40 West 25th Street",
       "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/lisa-silverstein-world-trade-center-properties/"
+      "link": "https://commercialobserver.com/2026/09/orbital-ai-lease-kaufman-organization-40-west-25th-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Acadia Buys Mixed-Use Property on SoHo’s Greene Street for $60M",
-      "when": "Sep 08",
-      "link": "https://commercialobserver.com/2026/09/acadia-buys-soho-69-71-greene-street/"
+      "title": "10 Counties Hold 42% of U.S. Data Centers. Home Prices Rise Faster There.",
+      "when": "Sep 09",
+      "link": "https://commercialobserver.com/2026/09/national-association-realtors-data-center-report/"
     }
   ],
   "cre_fund_tiles": [
@@ -601,43 +601,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.47",
-      "chg": "-1.14%",
+      "price": "73.22",
+      "chg": "-1.47%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "95.70",
-      "chg": "-0.24%",
+      "price": "94.92",
+      "chg": "-1.06%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "65.68",
-      "chg": "-0.09%",
+      "price": "64.44",
+      "chg": "-1.97%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "137.28",
-      "chg": "-0.87%",
+      "price": "135.32",
+      "chg": "-2.28%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.75",
-      "chg": "-0.66%",
+      "price": "65.19",
+      "chg": "-1.52%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "210.44",
-      "chg": "-0.68%",
+      "price": "206.34",
+      "chg": "-2.61%",
       "dir": -1
     }
   ],
