@@ -3,48 +3,48 @@
     "date_line": "Wednesday · Sep 09, 2026",
     "as_of": "Auto-compiled from public sources · Sep 09, 2026",
     "compiled": "Compiled Sep 09, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-09T17:53:19Z"
+    "generated_utc": "2026-09-09T22:38:35Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,645.41",
-      "ch": "-0.37%",
+      "vl": "7,636.36",
+      "ch": "-0.48%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,271",
-      "ch": "-0.57%",
+      "vl": "26,253",
+      "ch": "-0.64%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,502",
-      "ch": "-0.54%",
+      "vl": "52,381",
+      "ch": "-0.77%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "16.28",
-      "ch": "+3.56%",
+      "vl": "16.46",
+      "ch": "+4.71%",
       "dir": 1
     },
     {
       "nm": "10Y UST",
-      "vl": "4.80%",
+      "vl": "4.83%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.39%",
+      "vl": "4.43%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.25%",
+      "vl": "5.28%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.37%",
-    "standfirst": "At the last close: S&P 500 7,645.41 (-0.37%); Nasdaq 26,271 (-0.57%); Dow 52,502 (-0.54%). VIX 16.28 (+3.56%).",
+    "headline": "The S&P 500 edged lower 0.48%",
+    "standfirst": "At the last close: S&P 500 7,636.36 (-0.48%); Nasdaq 26,253 (-0.64%); Dow 52,381 (-0.77%). VIX 16.46 (+4.71%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "VNQ led at -1.02%; SPG lagged at -2.75%."
+      "VNQ led at -1.03%; SPG lagged at -3.47%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:52 PM ET, Sep 9"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 9"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,645.41",
+      "val": "7,636.36",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.37%",
+        "txt": "0.48%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,660.68</span> · <span class=\"up mono\">+17.4%</span> YoY"
+      "note": "Open <span class=\"mono\">7,660.68</span> · <span class=\"up mono\">+16.9%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,271",
+      "val": "26,253",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.57%",
+        "txt": "0.64%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,325</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,502",
+      "val": "52,381",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.54%",
+        "txt": "0.77%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,708</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.28",
+      "val": "16.46",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "3.56%",
+        "txt": "4.71%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.65</span>"
@@ -281,11 +281,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 0.99%, high-yield at 2.67%",
-    "standfirst": "The high-yield premium over investment grade is 1.68 percentage points. The 2s10s Treasury spread is +41 bps.",
+    "standfirst": "The high-yield premium over investment grade is 1.68 percentage points. The 2s10s Treasury spread is +40 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +41 bps; 3m10y +86 bps; 5s30s +68 bps; 10s30s +45 bps."
+      "Across the curve: 2s10s +40 bps; 3m10y +88 bps; 5s30s +67 bps; 10s30s +45 bps."
     ]
   },
   "credit_tiles": [
@@ -380,9 +380,9 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.80%, overnight SOFR at 3.64%",
-    "standfirst": "An illustrative agency coupon prices at 6.15–6.45%. The Freddie Mac 30-year survey rate is 6.71%.",
-    "curve_date": "Sep 08, 2026",
+    "headline": "The 10-year at 4.83%, overnight SOFR at 3.64%",
+    "standfirst": "An illustrative agency coupon prices at 6.18–6.48%. The Freddie Mac 30-year survey rate is 6.71%.",
+    "curve_date": "Sep 09, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -393,14 +393,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "4.80",
+      "val": "4.83",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+41 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+40 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.39",
+      "val": "4.43",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -428,39 +428,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Harrison Street Hires Dan Fanelli as Co-Head of U.S. Investment Solutions in NYC",
+      "title": "Friedman’s Restaurant Ownership Buys Upper West Side Retail Space to Open New Spot",
       "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/harrison-street-new-hire-dan-fanelli-kim-james-choi/"
+      "link": "https://commercialobserver.com/2026/09/friedmans-restaurant-buys-upper-west-side-retail-541-amsterdam-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "LORE and Element Land $58M to Build Miami Condo",
+      "title": "Law Firm Thompson Relocates to 4K SF at Cohen Brothers’ 622 Third Avenue",
       "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/lore-element-development-miami-coconut-grove-lincoln/"
+      "link": "https://commercialobserver.com/2026/09/thompson-lease-cohen-brothers-622-third-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Madison Realty Capital Lends $77M for Whole Foods-Anchored Texas Development",
+      "title": "Law Firm O’Melveny Renews 100K SF at 1625 Eye Street in D.C.",
       "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/madison-realty-capital-whole-foods-dallas-fort-worth/"
+      "link": "https://commercialobserver.com/2026/09/law-firm-omelveny-1625-eye-street-dc-greenbarn-farmview-farallon/"
     },
     {
       "source": "Commercial Observer",
-      "title": "CBRE Investment Management Acquires $1.6B Net-Lease Portfolio",
+      "title": "Prime Finance Supplies $63M Refi for Chelsea Multifamily Portfolio",
       "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/cbre-investment-management-acquires-1-6b-net-lease-portfolio/"
+      "link": "https://commercialobserver.com/2026/09/prime-finance-chelsea-manhattan-apartments/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Skip the Script — a Great Seller’s Broker Creates a Strategy Based on Market Feedback",
+      "title": "Hibachi Eatery Bijin Omakase Signs 5K-SF Lease in Long Island City",
       "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/investment-sales-brokers-market-based-strategy/"
+      "link": "https://commercialobserver.com/2026/09/bijin-omakase-lease-zd-jasper-realty-27-19-thomson-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "SL Green Sells 110 Greene Street to Natora Group for $226M",
+      "title": "Manhattan’s Supply of New Condos to Hit Highest Level Since 2014 This Fall: Report",
       "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/sl-green-sells-110-greene-street-natora-group-226m/"
+      "link": "https://commercialobserver.com/2026/09/manhattan-supply-new-condos-report/"
     }
   ],
   "cre_fund_tiles": [
@@ -506,16 +506,16 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.15–6.45",
+      "val": "6.18–6.48",
       "unit": "%",
       "tone": "",
-      "note": "10Y (4.80%) + 135–165 bp agency spread"
+      "note": "10Y (4.83%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+41",
-    "3m10y": "+86",
-    "5s30s": "+68",
+    "2s10s": "+40",
+    "3m10y": "+88",
+    "5s30s": "+67",
     "10s30s": "+45"
   },
   "cre_market": {
@@ -601,43 +601,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.22",
-      "chg": "-1.46%",
+      "price": "73.45",
+      "chg": "-1.16%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.95",
-      "chg": "-1.02%",
+      "price": "94.94",
+      "chg": "-1.03%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.44",
-      "chg": "-1.98%",
+      "price": "64.29",
+      "chg": "-2.21%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.45",
-      "chg": "-2.19%",
+      "price": "135.66",
+      "chg": "-2.04%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.15",
-      "chg": "-1.57%",
+      "price": "64.98",
+      "chg": "-1.83%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "206.05",
-      "chg": "-2.75%",
+      "price": "204.53",
+      "chg": "-3.47%",
       "dir": -1
     }
   ],
@@ -653,77 +653,77 @@
     {
       "t": "3M",
       "x": 0.25,
-      "y": 3.94,
+      "y": 3.95,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.0,
+      "y": 4.01,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.15,
+      "y": 4.17,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.39,
+      "y": 4.43,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.44,
+      "y": 4.49,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.57,
+      "y": 4.61,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.68,
+      "y": 4.71,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 4.8,
+      "y": 4.83,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.26,
+      "y": 5.28,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.25,
+      "y": 5.28,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.3
+    "new": 6.33
   },
   "orig": {
     "y2025": 633.7,
