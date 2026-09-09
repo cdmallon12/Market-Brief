@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Sep 09, 2026",
     "as_of": "Auto-compiled from public sources · Sep 09, 2026",
     "compiled": "Compiled Sep 09, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-09T17:18:39Z"
+    "generated_utc": "2026-09-09T17:53:19Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,644.61",
-      "ch": "-0.38%",
+      "vl": "7,645.41",
+      "ch": "-0.37%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,264",
-      "ch": "-0.60%",
+      "vl": "26,271",
+      "ch": "-0.57%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,518",
-      "ch": "-0.51%",
+      "vl": "52,502",
+      "ch": "-0.54%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "16.27",
-      "ch": "+3.50%",
+      "vl": "16.28",
+      "ch": "+3.56%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.38%",
-    "standfirst": "At the last close: S&P 500 7,644.61 (-0.38%); Nasdaq 26,264 (-0.60%); Dow 52,518 (-0.51%). VIX 16.27 (+3.50%).",
+    "headline": "The S&P 500 edged lower 0.37%",
+    "standfirst": "At the last close: S&P 500 7,645.41 (-0.37%); Nasdaq 26,271 (-0.57%); Dow 52,502 (-0.54%). VIX 16.28 (+3.56%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "VNQ led at -1.06%; SPG lagged at -2.61%."
+      "VNQ led at -1.02%; SPG lagged at -2.75%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:18 PM ET, Sep 9"
+    "quote_note": "Quotes ~15-min delayed · as of 1:52 PM ET, Sep 9"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,644.61",
+      "val": "7,645.41",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.38%",
+        "txt": "0.37%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,660.68</span> · <span class=\"up mono\">+17.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,264",
+      "val": "26,271",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.60%",
+        "txt": "0.57%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,325</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,518",
+      "val": "52,502",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.51%",
+        "txt": "0.54%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,708</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.27",
+      "val": "16.28",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "3.50%",
+        "txt": "3.56%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.65</span>"
@@ -428,6 +428,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Harrison Street Hires Dan Fanelli as Co-Head of U.S. Investment Solutions in NYC",
+      "when": "Sep 09",
+      "link": "https://commercialobserver.com/2026/09/harrison-street-new-hire-dan-fanelli-kim-james-choi/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "LORE and Element Land $58M to Build Miami Condo",
+      "when": "Sep 09",
+      "link": "https://commercialobserver.com/2026/09/lore-element-development-miami-coconut-grove-lincoln/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Madison Realty Capital Lends $77M for Whole Foods-Anchored Texas Development",
+      "when": "Sep 09",
+      "link": "https://commercialobserver.com/2026/09/madison-realty-capital-whole-foods-dallas-fort-worth/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "CBRE Investment Management Acquires $1.6B Net-Lease Portfolio",
       "when": "Sep 09",
       "link": "https://commercialobserver.com/2026/09/cbre-investment-management-acquires-1-6b-net-lease-portfolio/"
@@ -443,24 +461,6 @@
       "title": "SL Green Sells 110 Greene Street to Natora Group for $226M",
       "when": "Sep 09",
       "link": "https://commercialobserver.com/2026/09/sl-green-sells-110-greene-street-natora-group-226m/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Dwight Refis LA-Area Apartments With $62M Loan",
-      "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/dwight-investment-management-culver-city-apartments/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "AI Real Estate Platform Orbital Leases 11K SF at 40 West 25th Street",
-      "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/orbital-ai-lease-kaufman-organization-40-west-25th-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "10 Counties Hold 42% of U.S. Data Centers. Home Prices Rise Faster There.",
-      "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/national-association-realtors-data-center-report/"
     }
   ],
   "cre_fund_tiles": [
@@ -602,42 +602,42 @@
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
       "price": "73.22",
-      "chg": "-1.47%",
+      "chg": "-1.46%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.92",
-      "chg": "-1.06%",
+      "price": "94.95",
+      "chg": "-1.02%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
       "price": "64.44",
-      "chg": "-1.97%",
+      "chg": "-1.98%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.32",
-      "chg": "-2.28%",
+      "price": "135.45",
+      "chg": "-2.19%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.19",
-      "chg": "-1.52%",
+      "price": "65.15",
+      "chg": "-1.57%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "206.34",
-      "chg": "-2.61%",
+      "price": "206.05",
+      "chg": "-2.75%",
       "dir": -1
     }
   ],
