@@ -3,31 +3,31 @@
     "date_line": "Thursday · Sep 10, 2026",
     "as_of": "Auto-compiled from public sources · Sep 10, 2026",
     "compiled": "Compiled Sep 10, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-10T13:50:56Z"
+    "generated_utc": "2026-09-10T17:14:19Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,598.37",
-      "ch": "-0.50%",
+      "vl": "7,605.58",
+      "ch": "-0.40%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,091",
-      "ch": "-0.62%",
-      "dir": -1
-    },
-    {
-      "nm": "Dow",
-      "vl": "52,198",
+      "vl": "26,160",
       "ch": "-0.35%",
       "dir": -1
     },
     {
+      "nm": "Dow",
+      "vl": "52,102",
+      "ch": "-0.53%",
+      "dir": -1
+    },
+    {
       "nm": "VIX",
-      "vl": "17.72",
-      "ch": "+7.65%",
+      "vl": "17.25",
+      "ch": "+4.80%",
       "dir": 1
     },
     {
@@ -104,19 +104,19 @@
     },
     {
       "nm": "HY OAS",
-      "vl": "2.67%",
+      "vl": "2.71%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.50%",
-    "standfirst": "At the last close: S&P 500 7,598.37 (-0.50%); Nasdaq 26,091 (-0.62%); Dow 52,198 (-0.35%). VIX 17.72 (+7.65%).",
+    "headline": "The S&P 500 edged lower 0.40%",
+    "standfirst": "At the last close: S&P 500 7,605.58 (-0.40%); Nasdaq 26,160 (-0.35%); Dow 52,102 (-0.53%). VIX 17.25 (+4.80%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "2 of 6 names on the watchlist closed higher.",
-      "SPG led at +0.59%; BXP lagged at -0.45%."
+      "1 of 6 names on the watchlist closed higher.",
+      "SPG led at +0.76%; VNQ lagged at -0.65%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 10"
+    "quote_note": "Quotes ~15-min delayed · as of 1:13 PM ET, Sep 10"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,598.37",
+      "val": "7,605.58",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.50%",
+        "txt": "0.40%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,594.74</span> · <span class=\"up mono\">+16.3%</span> YoY"
+      "note": "Open <span class=\"mono\">7,594.74</span> · <span class=\"up mono\">+16.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,091",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.62%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">26,021</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "52,198",
+      "val": "26,160",
       "tone": "neg",
       "delta": {
         "dir": -1,
         "txt": "0.35%",
         "note": "vs prior close"
       },
+      "note": "Open <span class=\"mono\">26,021</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "52,102",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.53%",
+        "note": "vs prior close"
+      },
       "note": "Open <span class=\"mono\">52,292</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.72",
+      "val": "17.25",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "7.65%",
+        "txt": "4.80%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.31</span>"
@@ -280,8 +280,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.99%, high-yield at 2.67%",
-    "standfirst": "The high-yield premium over investment grade is 1.68 percentage points. The 2s10s Treasury spread is +40 bps.",
+    "headline": "Investment-grade OAS at 0.99%, high-yield at 2.71%",
+    "standfirst": "The high-yield premium over investment grade is 1.72 percentage points. The 2s10s Treasury spread is +40 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -303,19 +303,19 @@
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "2.67",
+      "val": "2.71",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "-0.01pp",
-        "note": "tighter"
+        "txt": "+0.04pp",
+        "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "1.68",
+      "val": "1.72",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
@@ -323,13 +323,29 @@
   ],
   "credit_chart": {
     "ig": 0.99,
-    "hy": 2.67
+    "hy": 2.71
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Sep 10",
+      "title": "The likelihood of a Fed interest rate hike next week just got a lot higher",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
+    },
+    {
+      "when": "Sep 10",
+      "title": "Kalshi launches ‘perps’ for gold and silver following CFTC approval, expanding futures offerings",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/10/kalshi-launches-perps-for-gold-and-silver-following-cftc-approval-expanding-futures-offerings.html"
+    },
     {
       "when": "Sep 10",
       "title": "Wholesale prices rose 0.4% in August, as expected",
@@ -361,27 +377,11 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/09/adani-enterprises-airport-fundraise-shares.html"
-    },
-    {
-      "when": "Sep 09",
-      "title": "China's EV makers shift gears to focus on humanoids as car market slows",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/09/chinas-ev-makers-shift-gears-to-focus-on-humanoids-as-car-market-slows.html"
-    },
-    {
-      "when": "Sep 08",
-      "title": "How one hedge-fund manager built his firm to be powered entirely by AI agents",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/08/brian-kelly-bracket22-ai-agents.html"
     }
   ],
   "cre": {
     "headline": "The 10-year at 4.83%, overnight SOFR at 3.64%",
-    "standfirst": "An illustrative agency coupon prices at 6.18–6.48%. The Freddie Mac 30-year survey rate is 6.71%.",
+    "standfirst": "An illustrative agency coupon prices at 6.18–6.48%. The Freddie Mac 30-year survey rate is 6.76%.",
     "curve_date": "Sep 09, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
@@ -428,39 +428,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "S3 Capital Lends $45M to Build Williamsburg Apartments on Church Land",
+      "when": "Sep 10",
+      "link": "https://commercialobserver.com/2026/09/s3-capital-williamsburg-brooklyn-apartments-church/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Coney Island Prep Inks 45K-SF Deal to Relocate to 773 Neptune Avenue",
+      "when": "Sep 10",
+      "link": "https://commercialobserver.com/2026/09/coney-island-prep-lease-773-neptune-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Affinius Capital, Axonic Capital Lend $48M for Suburban Boston Apartments Build",
+      "when": "Sep 10",
+      "link": "https://commercialobserver.com/2026/09/affinius-capital-axonic-capital-lexington-massachusetts-apartments/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "French Perfume Brand Diptyque More Than Doubles NYC Footprint at 16 East 34th Street",
+      "when": "Sep 10",
+      "link": "https://commercialobserver.com/2026/09/diptyque-office-lease-relocation-16-east-34th-street/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Apollo, BDT & MSD Partners Provide $197M to Build Naples Luxury Condos",
+      "when": "Sep 10",
+      "link": "https://commercialobserver.com/2026/09/apollo-bdt-msd-partners-197m-naples-luxury-condos/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Get to Know the Broker: Teresa Minnick of Christie’s International Real Estate Group",
       "when": "Sep 10",
       "link": "https://commercialobserver.com/2026/09/get-to-know-the-broker-teresa-minnick-christies-international-real-estate-group/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "One Generation’s Senior Housing Boom Is Another’s Bust",
-      "when": "Sep 10",
-      "link": "https://commercialobserver.com/2026/09/senior-housing-boom-baby-boomers-generations/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Friedman’s Restaurant Ownership Buys Upper West Side Retail Space to Open New Spot",
-      "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/friedmans-restaurant-buys-upper-west-side-retail-541-amsterdam-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Law Firm Thompson Relocates to 4K SF at Cohen Brothers’ 622 Third Avenue",
-      "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/thompson-lease-cohen-brothers-622-third-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Law Firm O’Melveny Renews 100K SF at 1625 Eye Street in D.C.",
-      "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/law-firm-omelveny-1625-eye-street-dc-greenbarn-farmview-farallon/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Prime Finance Supplies $63M Refi for Chelsea Multifamily Portfolio",
-      "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/prime-finance-chelsea-manhattan-apartments/"
     }
   ],
   "cre_fund_tiles": [
@@ -494,7 +494,7 @@
   "cre_fin_tiles": [
     {
       "lbl": "30-Yr Mortgage · PMMS",
-      "val": "6.71",
+      "val": "6.76",
       "unit": "%",
       "tone": "",
       "note": "Freddie Mac Primary Mortgage Market Survey",
@@ -601,43 +601,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.15",
-      "chg": "-0.41%",
+      "price": "73.27",
+      "chg": "-0.25%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.88",
-      "chg": "-0.06%",
+      "price": "94.33",
+      "chg": "-0.65%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.00",
-      "chg": "-0.45%",
+      "price": "63.89",
+      "chg": "-0.62%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.46",
-      "chg": "-0.15%",
+      "price": "135.21",
+      "chg": "-0.34%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.36",
-      "chg": "+0.58%",
-      "dir": 1
+      "price": "64.69",
+      "chg": "-0.45%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.74",
-      "chg": "+0.59%",
+      "price": "206.09",
+      "chg": "+0.76%",
       "dir": 1
     }
   ],
