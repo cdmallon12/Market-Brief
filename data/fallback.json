@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date_line": "Wednesday · Sep 09, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 09, 2026",
-    "compiled": "Compiled Sep 09, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-10T01:12:10Z"
+    "date_line": "Thursday · Sep 10, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 10, 2026",
+    "compiled": "Compiled Sep 10, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-10T12:59:10Z"
   },
   "ticker": [
     {
@@ -26,8 +26,8 @@
     },
     {
       "nm": "VIX",
-      "vl": "16.46",
-      "ch": "+4.71%",
+      "vl": "17.72",
+      "ch": "+7.65%",
       "dir": 1
     },
     {
@@ -111,23 +111,23 @@
   ],
   "markets": {
     "headline": "The S&P 500 edged lower 0.48%",
-    "standfirst": "At the last close: S&P 500 7,636.36 (-0.48%); Nasdaq 26,253 (-0.64%); Dow 52,381 (-0.77%). VIX 16.46 (+4.71%).",
+    "standfirst": "At the last close: S&P 500 7,636.36 (-0.48%); Nasdaq 26,253 (-0.64%); Dow 52,381 (-0.77%). VIX 17.72 (+7.65%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "VMRK led at -0.57%; BXP lagged at -5.02%."
+      "VNQ led at -1.03%; SPG lagged at -3.47%."
     ],
-    "card2_title": "Coming up",
+    "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "Tomorrow",
+        "when": "08:30 ET · Today",
         "title": "Producer Price Index",
         "body": "August PPI. Watch the services components that feed the PCE deflator."
       },
       {
-        "when": "Fri · Sep 11",
+        "when": "Tomorrow",
         "title": "Consumer Price Index",
         "body": "August CPI, headline and core. Shelter remains the largest single line in the index."
       },
@@ -147,7 +147,7 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 9"
+    "quote_note": "Quotes ~15-min delayed · as of 8:43 AM ET, Sep 10"
   },
   "markets_tiles": [
     {
@@ -159,7 +159,7 @@
         "txt": "0.48%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,660.68</span> · <span class=\"up mono\">+16.9%</span> YoY"
+      "note": "Prior close <span class=\"mono\">7,673.52</span> · <span class=\"up mono\">+16.9%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
@@ -170,7 +170,7 @@
         "txt": "0.64%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">26,325</span>"
+      "note": "Prior close <span class=\"mono\">26,421</span>"
     },
     {
       "lbl": "Dow Jones",
@@ -181,18 +181,18 @@
         "txt": "0.77%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">52,708</span>"
+      "note": "Prior close <span class=\"mono\">52,786</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.46",
+      "val": "17.72",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "4.71%",
+        "txt": "7.65%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">15.65</span>"
+      "note": "Open <span class=\"mono\">16.31</span>"
     }
   ],
   "economy": {
@@ -331,6 +331,14 @@
   },
   "headlines": [
     {
+      "when": "Sep 10",
+      "title": "Wholesale prices rose 0.4% in August, as expected",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/10/ppi-inflation-report-august-2026.html"
+    },
+    {
       "when": "Sep 09",
       "title": "Ant International partners with Visa, Mastercard on developing AI payments",
       "blurb": "",
@@ -369,14 +377,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/08/brian-kelly-bracket22-ai-agents.html"
-    },
-    {
-      "when": "Sep 08",
-      "title": "Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
     }
   ],
   "cre": {
@@ -428,6 +428,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Get to Know the Broker: Teresa Minnick of Christie’s International Real Estate Group",
+      "when": "Sep 10",
+      "link": "https://commercialobserver.com/2026/09/get-to-know-the-broker-teresa-minnick-christies-international-real-estate-group/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "One Generation’s Senior Housing Boom Is Another’s Bust",
+      "when": "Sep 10",
+      "link": "https://commercialobserver.com/2026/09/senior-housing-boom-baby-boomers-generations/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Friedman’s Restaurant Ownership Buys Upper West Side Retail Space to Open New Spot",
       "when": "Sep 09",
       "link": "https://commercialobserver.com/2026/09/friedmans-restaurant-buys-upper-west-side-retail-541-amsterdam-avenue/"
@@ -449,18 +461,6 @@
       "title": "Prime Finance Supplies $63M Refi for Chelsea Multifamily Portfolio",
       "when": "Sep 09",
       "link": "https://commercialobserver.com/2026/09/prime-finance-chelsea-manhattan-apartments/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Hibachi Eatery Bijin Omakase Signs 5K-SF Lease in Long Island City",
-      "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/bijin-omakase-lease-zd-jasper-realty-27-19-thomson-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Manhattan’s Supply of New Condos to Hit Highest Level Since 2014 This Fall: Report",
-      "when": "Sep 09",
-      "link": "https://commercialobserver.com/2026/09/manhattan-supply-new-condos-report/"
     }
   ],
   "cre_fund_tiles": [
@@ -602,42 +602,42 @@
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
       "price": "73.45",
-      "chg": "-2.42%",
+      "chg": "-1.16%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
       "price": "94.94",
-      "chg": "-1.12%",
+      "chg": "-1.03%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
       "price": "64.29",
-      "chg": "-5.02%",
+      "chg": "-2.21%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
       "price": "135.66",
-      "chg": "-1.22%",
+      "chg": "-2.04%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
       "price": "64.98",
-      "chg": "-0.57%",
+      "chg": "-1.83%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
       "price": "204.53",
-      "chg": "-2.34%",
+      "chg": "-3.47%",
       "dir": -1
     }
   ],
