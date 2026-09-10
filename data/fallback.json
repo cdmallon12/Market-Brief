@@ -3,31 +3,31 @@
     "date_line": "Thursday · Sep 10, 2026",
     "as_of": "Auto-compiled from public sources · Sep 10, 2026",
     "compiled": "Compiled Sep 10, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-10T17:14:19Z"
+    "generated_utc": "2026-09-10T17:45:37Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,605.58",
-      "ch": "-0.40%",
+      "vl": "7,597.40",
+      "ch": "-0.51%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,160",
-      "ch": "-0.35%",
+      "vl": "26,138",
+      "ch": "-0.44%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,102",
-      "ch": "-0.53%",
+      "vl": "52,030",
+      "ch": "-0.67%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "17.25",
-      "ch": "+4.80%",
+      "vl": "17.43",
+      "ch": "+5.89%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.40%",
-    "standfirst": "At the last close: S&P 500 7,605.58 (-0.40%); Nasdaq 26,160 (-0.35%); Dow 52,102 (-0.53%). VIX 17.25 (+4.80%).",
+    "headline": "The S&P 500 fell 0.51%",
+    "standfirst": "At the last close: S&P 500 7,597.40 (-0.51%); Nasdaq 26,138 (-0.44%); Dow 52,030 (-0.67%). VIX 17.43 (+5.89%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "1 of 6 names on the watchlist closed higher.",
-      "SPG led at +0.76%; VNQ lagged at -0.65%."
+      "SPG led at +0.69%; BXP lagged at -1.04%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "August openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:13 PM ET, Sep 10"
+    "quote_note": "Quotes ~15-min delayed · as of 1:44 PM ET, Sep 10"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,605.58",
+      "val": "7,597.40",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.40%",
+        "txt": "0.51%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,594.74</span> · <span class=\"up mono\">+16.4%</span> YoY"
+      "note": "Open <span class=\"mono\">7,594.74</span> · <span class=\"up mono\">+16.3%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,160",
+      "val": "26,138",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.35%",
+        "txt": "0.44%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,021</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,102",
+      "val": "52,030",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.53%",
+        "txt": "0.67%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,292</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.25",
+      "val": "17.43",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "4.80%",
+        "txt": "5.89%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.31</span>"
@@ -332,6 +332,14 @@
   "headlines": [
     {
       "when": "Sep 10",
+      "title": "OpenAI targets work of Wall Street junior bankers with new ChatGPT for Financial Services",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html"
+    },
+    {
+      "when": "Sep 10",
       "title": "The likelihood of a Fed interest rate hike next week just got a lot higher",
       "blurb": "",
       "kind": "",
@@ -369,14 +377,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/09/us-canada-trade-war-import-ban.html"
-    },
-    {
-      "when": "Sep 09",
-      "title": "Adani Enterprises shares jump as airport unit enters into $1 billion fundraising deal",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/09/adani-enterprises-airport-fundraise-shares.html"
     }
   ],
   "cre": {
@@ -428,6 +428,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Two Supermarkets Ink Deals Along Brooklyn’s Atlantic Avenue",
+      "when": "Sep 10",
+      "link": "https://commercialobserver.com/2026/09/supermarket-leases-880-1042-atlantic-avenue-brooklyn/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "S3 Capital Lends $45M to Build Williamsburg Apartments on Church Land",
       "when": "Sep 10",
       "link": "https://commercialobserver.com/2026/09/s3-capital-williamsburg-brooklyn-apartments-church/"
@@ -455,12 +461,6 @@
       "title": "Apollo, BDT & MSD Partners Provide $197M to Build Naples Luxury Condos",
       "when": "Sep 10",
       "link": "https://commercialobserver.com/2026/09/apollo-bdt-msd-partners-197m-naples-luxury-condos/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Get to Know the Broker: Teresa Minnick of Christie’s International Real Estate Group",
-      "when": "Sep 10",
-      "link": "https://commercialobserver.com/2026/09/get-to-know-the-broker-teresa-minnick-christies-international-real-estate-group/"
     }
   ],
   "cre_fund_tiles": [
@@ -601,43 +601,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.27",
-      "chg": "-0.25%",
+      "price": "73.36",
+      "chg": "-0.12%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.33",
-      "chg": "-0.65%",
+      "price": "94.15",
+      "chg": "-0.83%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.89",
-      "chg": "-0.62%",
+      "price": "63.62",
+      "chg": "-1.04%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.21",
-      "chg": "-0.34%",
+      "price": "134.99",
+      "chg": "-0.50%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
       "price": "64.69",
-      "chg": "-0.45%",
+      "chg": "-0.44%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "206.09",
-      "chg": "+0.76%",
+      "price": "205.94",
+      "chg": "+0.69%",
       "dir": 1
     }
   ],
