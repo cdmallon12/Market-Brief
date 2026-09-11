@@ -3,7 +3,7 @@
     "date_line": "Thursday · Sep 10, 2026",
     "as_of": "Auto-compiled from public sources · Sep 10, 2026",
     "compiled": "Compiled Sep 10, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-10T22:41:05Z"
+    "generated_utc": "2026-09-11T01:14:12Z"
   },
   "ticker": [
     {
@@ -115,8 +115,8 @@
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "3 of 6 names on the watchlist closed higher.",
-      "KRE led at +0.49%; PLD lagged at -0.92%."
+      "0 of 6 names on the watchlist closed higher.",
+      "KRE led at -0.67%; SPG lagged at -3.40%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Sep 10",
+      "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html"
+    },
+    {
+      "when": "Sep 10",
       "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/10/ppi-inflation-report-august-2026.html"
-    },
-    {
-      "when": "Sep 09",
-      "title": "Ant International partners with Visa, Mastercard on developing AI payments",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/10/ant-international-visa-mastercard-ai-agent-payment-standard.html"
     }
   ],
   "cre": {
@@ -607,43 +607,43 @@
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
       "price": "73.81",
-      "chg": "+0.49%",
-      "dir": 1
+      "chg": "-0.67%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
       "price": "94.12",
-      "chg": "-0.86%",
+      "chg": "-1.89%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
       "price": "63.72",
-      "chg": "-0.89%",
+      "chg": "-3.07%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
       "price": "134.41",
-      "chg": "-0.92%",
+      "chg": "-2.94%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
       "price": "65.02",
-      "chg": "+0.06%",
-      "dir": 1
+      "chg": "-1.77%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
       "price": "204.67",
-      "chg": "+0.07%",
-      "dir": 1
+      "chg": "-3.40%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
