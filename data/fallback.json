@@ -3,31 +3,31 @@
     "date_line": "Friday · Sep 11, 2026",
     "as_of": "Auto-compiled from public sources · Sep 11, 2026",
     "compiled": "Compiled Sep 11, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-11T12:54:05Z"
+    "generated_utc": "2026-09-11T13:51:10Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,591.70",
-      "ch": "-0.58%",
-      "dir": -1
+      "vl": "7,664.97",
+      "ch": "+0.97%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,082",
-      "ch": "-0.65%",
-      "dir": -1
+      "vl": "26,362",
+      "ch": "+1.07%",
+      "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,064",
-      "ch": "-0.60%",
-      "dir": -1
+      "vl": "52,535",
+      "ch": "+0.90%",
+      "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "16.72",
-      "ch": "-6.28%",
+      "vl": "15.74",
+      "ch": "-11.77%",
       "dir": -1
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "nm": "CPI",
-      "vl": "3.5%",
+      "vl": "3.7%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.58%",
-    "standfirst": "At the last close: S&P 500 7,591.70 (-0.58%); Nasdaq 26,082 (-0.65%); Dow 52,064 (-0.60%). VIX 16.72 (-6.28%).",
+    "headline": "The S&P 500 rose 0.97%",
+    "standfirst": "At the last close: S&P 500 7,664.97 (+0.97%); Nasdaq 26,362 (+1.07%); Dow 52,535 (+0.90%). VIX 15.74 (-11.77%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "3 of 6 names on the watchlist closed higher.",
-      "KRE led at +0.49%; PLD lagged at -0.92%."
+      "6 of 6 names on the watchlist closed higher.",
+      "BXP led at +0.82%; KRE lagged at +0.09%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,59 +147,59 @@
         "body": "August PCE, the Fed's preferred inflation gauge, released alongside the final Q2 GDP print. Also the start of BEA's 2026 annual update, so prior months can revise."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 8:38 AM ET, Sep 11"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 11"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,591.70",
-      "tone": "neg",
+      "val": "7,664.97",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.58%",
+        "dir": 1,
+        "txt": "0.97%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">7,636.36</span> · <span class=\"up mono\">+15.2%</span> YoY"
+      "note": "Open <span class=\"mono\">7,636.75</span> · <span class=\"up mono\">+16.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,082",
-      "tone": "neg",
+      "val": "26,362",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.65%",
+        "dir": 1,
+        "txt": "1.07%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">26,253</span>"
+      "note": "Open <span class=\"mono\">26,289</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,064",
-      "tone": "neg",
+      "val": "52,535",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.60%",
+        "dir": 1,
+        "txt": "0.90%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">52,381</span>"
+      "note": "Open <span class=\"mono\">52,204</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.72",
+      "val": "15.74",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "6.28%",
+        "txt": "11.77%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.51</span>"
     }
   ],
   "economy": {
-    "headline": "Policy and prices: the federal funds target at 3.50-3.75%, headline CPI at 3.5% year over year, core PCE at 3.3%",
+    "headline": "Policy and prices: the federal funds target at 3.50-3.75%, headline CPI at 3.7% year over year, core PCE at 3.3%",
     "standfirst": "Real GDP was last reported at 1.5% annualized. The IMF puts world real growth at 3.3%. The next FOMC decision is scheduled for September 16.",
     "body": [
-      "CPI stands at 3.5% and core PCE at 3.3%, against the Federal Reserve's stated 2% objective.",
+      "CPI stands at 3.7% and core PCE at 3.3%, against the Federal Reserve's stated 2% objective.",
       "The target range has been 3.50-3.75% as of the most recent decision."
     ]
   },
@@ -215,8 +215,8 @@
       }
     },
     {
-      "lbl": "CPI Inflation · Jul",
-      "val": "3.5",
+      "lbl": "CPI Inflation · Aug",
+      "val": "3.7",
       "unit": "%",
       "tone": "",
       "note": "Core CPI: <span class=\"mono\">2.8%</span>"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.81",
-      "chg": "+0.49%",
+      "price": "73.88",
+      "chg": "+0.09%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.12",
-      "chg": "-0.86%",
-      "dir": -1
+      "price": "94.71",
+      "chg": "+0.63%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.72",
-      "chg": "-0.89%",
-      "dir": -1
+      "price": "64.25",
+      "chg": "+0.82%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "134.41",
-      "chg": "-0.92%",
-      "dir": -1
+      "price": "134.94",
+      "chg": "+0.39%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.02",
-      "chg": "+0.06%",
+      "price": "65.53",
+      "chg": "+0.78%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.67",
-      "chg": "+0.07%",
+      "price": "204.93",
+      "chg": "+0.13%",
       "dir": 1
     }
   ],
