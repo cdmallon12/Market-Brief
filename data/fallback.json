@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date_line": "Thursday · Sep 10, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 10, 2026",
-    "compiled": "Compiled Sep 10, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-11T01:14:12Z"
+    "date_line": "Friday · Sep 11, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 11, 2026",
+    "compiled": "Compiled Sep 11, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-11T12:54:05Z"
   },
   "ticker": [
     {
@@ -26,9 +26,9 @@
     },
     {
       "nm": "VIX",
-      "vl": "17.84",
-      "ch": "+8.38%",
-      "dir": 1
+      "vl": "16.72",
+      "ch": "-6.28%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.64%",
+      "vl": "3.62%",
       "ch": "",
       "dir": 0
     },
@@ -111,23 +111,18 @@
   ],
   "markets": {
     "headline": "The S&P 500 fell 0.58%",
-    "standfirst": "At the last close: S&P 500 7,591.70 (-0.58%); Nasdaq 26,082 (-0.65%); Dow 52,064 (-0.60%). VIX 17.84 (+8.38%).",
+    "standfirst": "At the last close: S&P 500 7,591.70 (-0.58%); Nasdaq 26,082 (-0.65%); Dow 52,064 (-0.60%). VIX 16.72 (-6.28%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "0 of 6 names on the watchlist closed higher.",
-      "KRE led at -0.67%; SPG lagged at -3.40%."
+      "3 of 6 names on the watchlist closed higher.",
+      "KRE led at +0.49%; PLD lagged at -0.92%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
         "when": "08:30 ET · Today",
-        "title": "Producer Price Index",
-        "body": "August PPI. Watch the services components that feed the PCE deflator."
-      },
-      {
-        "when": "Tomorrow",
         "title": "Consumer Price Index",
         "body": "August CPI, headline and core. Shelter remains the largest single line in the index."
       },
@@ -145,9 +140,14 @@
         "when": "Tue · Sep 29",
         "title": "JOLTS job openings",
         "body": "August openings, hires and quits."
+      },
+      {
+        "when": "Wed · Sep 30",
+        "title": "GDP (Q2 third estimate) + Personal Income and Outlays",
+        "body": "August PCE, the Fed's preferred inflation gauge, released alongside the final Q2 GDP print. Also the start of BEA's 2026 annual update, so prior months can revise."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 10"
+    "quote_note": "Quotes ~15-min delayed · as of 8:38 AM ET, Sep 11"
   },
   "markets_tiles": [
     {
@@ -159,7 +159,7 @@
         "txt": "0.58%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,594.74</span> · <span class=\"up mono\">+15.2%</span> YoY"
+      "note": "Prior close <span class=\"mono\">7,636.36</span> · <span class=\"up mono\">+15.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
@@ -170,7 +170,7 @@
         "txt": "0.65%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">26,021</span>"
+      "note": "Prior close <span class=\"mono\">26,253</span>"
     },
     {
       "lbl": "Dow Jones",
@@ -181,18 +181,18 @@
         "txt": "0.60%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">52,292</span>"
+      "note": "Prior close <span class=\"mono\">52,381</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.84",
-      "tone": "pos",
+      "val": "16.72",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "8.38%",
+        "dir": -1,
+        "txt": "6.28%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">16.31</span>"
+      "note": "Open <span class=\"mono\">17.51</span>"
     }
   ],
   "economy": {
@@ -336,6 +336,22 @@
   },
   "headlines": [
     {
+      "when": "Sep 11",
+      "title": "Inflation persisted in August, potentially locking in a Fed interest rate hike",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html"
+    },
+    {
+      "when": "Sep 11",
+      "title": "A Chinese humanoid startup flips 'distillation' claim on OpenAI as it releases a new robotics model",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/11/chinese-humanoid-robot-startup-distillation-claim-openai.html"
+    },
+    {
       "when": "Sep 10",
       "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
       "blurb": "",
@@ -366,26 +382,10 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
-    },
-    {
-      "when": "Sep 10",
-      "title": "Kalshi launches ‘perps’ for gold and silver following CFTC approval, expanding futures offerings",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/10/kalshi-launches-perps-for-gold-and-silver-following-cftc-approval-expanding-futures-offerings.html"
-    },
-    {
-      "when": "Sep 10",
-      "title": "Wholesale prices rose 0.4% in August, as expected",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/10/ppi-inflation-report-august-2026.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.95%, overnight SOFR at 3.64%",
+    "headline": "The 10-year at 4.95%, overnight SOFR at 3.62%",
     "standfirst": "An illustrative agency coupon prices at 6.30–6.60%. The Freddie Mac 30-year survey rate is 6.76%.",
     "curve_date": "Sep 10, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.64",
+      "val": "3.62",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -451,7 +451,7 @@
     },
     {
       "source": "Commercial Observer",
-      "title": "RFR Buys Prada-Anchored Upper East Side Retail Condo at 841 Madison Avenue for $57M",
+      "title": "RFR Buys Prada-Anchored Retail Condo at 841 Madison Avenue for $57M",
       "when": "Sep 10",
       "link": "https://commercialobserver.com/2026/09/rfr-holding-acquisition-841-madison-avenue/"
     },
@@ -607,43 +607,43 @@
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
       "price": "73.81",
-      "chg": "-0.67%",
-      "dir": -1
+      "chg": "+0.49%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
       "price": "94.12",
-      "chg": "-1.89%",
+      "chg": "-0.86%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
       "price": "63.72",
-      "chg": "-3.07%",
+      "chg": "-0.89%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
       "price": "134.41",
-      "chg": "-2.94%",
+      "chg": "-0.92%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
       "price": "65.02",
-      "chg": "-1.77%",
-      "dir": -1
+      "chg": "+0.06%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
       "price": "204.67",
-      "chg": "-3.40%",
-      "dir": -1
+      "chg": "+0.07%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
