@@ -3,25 +3,25 @@
     "date_line": "Friday · Sep 11, 2026",
     "as_of": "Auto-compiled from public sources · Sep 11, 2026",
     "compiled": "Compiled Sep 11, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-11T13:51:10Z"
+    "generated_utc": "2026-09-11T17:15:49Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,664.97",
-      "ch": "+0.97%",
+      "vl": "7,669.55",
+      "ch": "+1.03%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,362",
-      "ch": "+1.07%",
+      "vl": "26,383",
+      "ch": "+1.16%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,535",
-      "ch": "+0.90%",
+      "vl": "52,648",
+      "ch": "+1.12%",
       "dir": 1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "0.99%",
+      "vl": "0.98%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "2.71%",
+      "vl": "2.70%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.97%",
-    "standfirst": "At the last close: S&P 500 7,664.97 (+0.97%); Nasdaq 26,362 (+1.07%); Dow 52,535 (+0.90%). VIX 15.74 (-11.77%).",
+    "headline": "The S&P 500 rose 1.03%",
+    "standfirst": "At the last close: S&P 500 7,669.55 (+1.03%); Nasdaq 26,383 (+1.16%); Dow 52,648 (+1.12%). VIX 15.74 (-11.77%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "6 of 6 names on the watchlist closed higher.",
-      "BXP led at +0.82%; KRE lagged at +0.09%."
+      "BXP led at +1.81%; KRE lagged at +0.04%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,38 +147,38 @@
         "body": "August PCE, the Fed's preferred inflation gauge, released alongside the final Q2 GDP print. Also the start of BEA's 2026 annual update, so prior months can revise."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 11"
+    "quote_note": "Quotes ~15-min delayed · as of 1:15 PM ET, Sep 11"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,664.97",
+      "val": "7,669.55",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.97%",
+        "txt": "1.03%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,636.75</span> · <span class=\"up mono\">+16.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,362",
+      "val": "26,383",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.07%",
+        "txt": "1.16%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,289</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,535",
+      "val": "52,648",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.90%",
+        "txt": "1.12%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,204</span>"
@@ -285,7 +285,7 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.99%, high-yield at 2.71%",
+    "headline": "Investment-grade OAS at 0.98%, high-yield at 2.70%",
     "standfirst": "The high-yield premium over investment grade is 1.72 percentage points. The 2s10s Treasury spread is +39 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
@@ -296,26 +296,26 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "0.99",
+      "val": "0.98",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.00pp",
-        "note": "flat"
+        "txt": "-0.01pp",
+        "note": "tighter"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "2.71",
+      "val": "2.70",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.04pp",
-        "note": "wider"
+        "txt": "-0.01pp",
+        "note": "tighter"
       }
     },
     {
@@ -327,14 +327,46 @@
     }
   ],
   "credit_chart": {
-    "ig": 0.99,
-    "hy": 2.71
+    "ig": 0.98,
+    "hy": 2.7
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Sep 11",
+      "title": "Consumer outlook plunges in September as inflation outlook worsens",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/11/consumer-outlook-plunges-in-september-as-inflation-outlook-worsens.html"
+    },
+    {
+      "when": "Sep 11",
+      "title": "OpenAI targets work of Wall Street junior bankers with new ChatGPT for Financial Services",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html"
+    },
+    {
+      "when": "Sep 11",
+      "title": "Record U.S. cyclosporiasis outbreak is over, CDC says",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/11/cdc-record-cyclosporiasis-outbreak-over.html"
+    },
+    {
+      "when": "Sep 11",
+      "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html"
+    },
     {
       "when": "Sep 11",
       "title": "Inflation persisted in August, potentially locking in a Fed interest rate hike",
@@ -350,38 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/11/chinese-humanoid-robot-startup-distillation-claim-openai.html"
-    },
-    {
-      "when": "Sep 10",
-      "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html"
-    },
-    {
-      "when": "Sep 10",
-      "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html"
-    },
-    {
-      "when": "Sep 10",
-      "title": "OpenAI targets work of Wall Street junior bankers with new ChatGPT for Financial Services",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html"
-    },
-    {
-      "when": "Sep 10",
-      "title": "The likelihood of a Fed interest rate hike next week just got a lot higher",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
     }
   ],
   "cre": {
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Municipal Credit Union Signs 6K-SF Lease for New Branch at 162-15 Jamaica Avenue",
+      "when": "Sep 11",
+      "link": "https://commercialobserver.com/2026/09/municipal-credit-union-lease-162-15-jamaica-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Multifamily Developer LCOR Buys Taconic’s UES Life Sciences Site for $73M",
+      "when": "Sep 11",
+      "link": "https://commercialobserver.com/2026/09/lcor-buys-taconic-life-sciences-site-309-east-94th-street/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "CRE Finance Council Names Paul Vanderslice New CEO",
+      "when": "Sep 11",
+      "link": "https://commercialobserver.com/2026/09/cre-finance-council-paul-vanderslice/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Harbor Fitness to Open 20K-SF Club at 3460 Nostrand Avenue in South Brooklyn",
+      "when": "Sep 11",
+      "link": "https://commercialobserver.com/2026/09/harbor-fitness-lease-3460-nostrand-avenue-brooklyn/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Watermark Capital Moves Forward With School-to-Resi Conversion in Crown Heights",
       "when": "Sep 10",
       "link": "https://commercialobserver.com/2026/09/560-sterling-place-conversion-crown-heights-watermark/"
@@ -442,30 +466,6 @@
       "title": "Japanese Firm Orix Provides $55M Refi for 200-Unit Seattle Apartment Complex",
       "when": "Sep 10",
       "link": "https://commercialobserver.com/2026/09/orix-55m-refi-seattle-swell-apartments/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Jay Roberts of Prosper Group: 5 Questions",
-      "when": "Sep 10",
-      "link": "https://commercialobserver.com/2026/09/jay-roberts-prosper-group-florida/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "RFR Buys Prada-Anchored Retail Condo at 841 Madison Avenue for $57M",
-      "when": "Sep 10",
-      "link": "https://commercialobserver.com/2026/09/rfr-holding-acquisition-841-madison-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Roadway Moving, Contenur Take Combined 231K SF at Innovo’s 28-90 Review Avenue",
-      "when": "Sep 10",
-      "link": "https://commercialobserver.com/2026/09/roadway-moving-contenur-innovo-28-90-review-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Apparel Manufacturer Bagatelle International Takes 24K SF at 463 Seventh Avenue",
-      "when": "Sep 10",
-      "link": "https://commercialobserver.com/2026/09/bagatelle-international-lease-relocation-463-seventh-avenue/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.88",
-      "chg": "+0.09%",
+      "price": "73.84",
+      "chg": "+0.04%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.71",
-      "chg": "+0.63%",
+      "price": "95.09",
+      "chg": "+1.04%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.25",
-      "chg": "+0.82%",
+      "price": "64.88",
+      "chg": "+1.81%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "134.94",
-      "chg": "+0.39%",
+      "price": "136.19",
+      "chg": "+1.32%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.53",
-      "chg": "+0.78%",
+      "price": "65.78",
+      "chg": "+1.16%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.93",
-      "chg": "+0.13%",
+      "price": "205.53",
+      "chg": "+0.42%",
       "dir": 1
     }
   ],
