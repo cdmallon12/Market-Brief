@@ -3,7 +3,7 @@
     "date_line": "Friday · Sep 11, 2026",
     "as_of": "Auto-compiled from public sources · Sep 11, 2026",
     "compiled": "Compiled Sep 11, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-11T22:40:56Z"
+    "generated_utc": "2026-09-12T01:16:30Z"
   },
   "ticker": [
     {
@@ -115,8 +115,8 @@
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.54%; SPG lagged at +0.08%."
+      "5 of 6 names on the watchlist closed higher.",
+      "VMRK led at +0.86%; VNQ lagged at -0.15%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -607,42 +607,42 @@
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
       "price": "73.90",
-      "chg": "+0.12%",
+      "chg": "+0.61%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
       "price": "94.80",
-      "chg": "+0.72%",
-      "dir": 1
+      "chg": "-0.15%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
       "price": "64.70",
-      "chg": "+1.54%",
+      "chg": "+0.64%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
       "price": "135.75",
-      "chg": "+1.00%",
+      "chg": "+0.07%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
       "price": "65.54",
-      "chg": "+0.80%",
+      "chg": "+0.86%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
       "price": "204.83",
-      "chg": "+0.08%",
+      "chg": "+0.15%",
       "dir": 1
     }
   ],
