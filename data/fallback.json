@@ -3,31 +3,31 @@
     "date_line": "Tuesday · Sep 15, 2026",
     "as_of": "Auto-compiled from public sources · Sep 15, 2026",
     "compiled": "Compiled Sep 15, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-15T13:50:51Z"
+    "generated_utc": "2026-09-15T17:46:52Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,606.23",
-      "ch": "-0.18%",
+      "vl": "7,583.67",
+      "ch": "-0.48%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,146",
-      "ch": "-0.15%",
+      "vl": "25,981",
+      "ch": "-0.79%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,084",
-      "ch": "-0.64%",
+      "vl": "52,007",
+      "ch": "-0.79%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "17.14",
-      "ch": "+0.23%",
+      "vl": "17.63",
+      "ch": "+3.10%",
       "dir": 1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "0.97%",
+      "vl": "0.98%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "2.65%",
+      "vl": "2.71%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.18%",
-    "standfirst": "At the last close: S&P 500 7,606.23 (-0.18%); Nasdaq 26,146 (-0.15%); Dow 52,084 (-0.64%). VIX 17.14 (+0.23%).",
+    "headline": "The S&P 500 edged lower 0.48%",
+    "standfirst": "At the last close: S&P 500 7,583.67 (-0.48%); Nasdaq 25,981 (-0.79%); Dow 52,007 (-0.79%). VIX 17.63 (+3.10%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "1 of 6 names on the watchlist closed higher.",
-      "KRE led at +0.28%; VMRK lagged at -0.92%."
+      "PLD led at +0.58%; VMRK lagged at -0.93%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "September payrolls, unemployment rate and average hourly earnings."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 15"
+    "quote_note": "Quotes ~15-min delayed · as of 1:46 PM ET, Sep 15"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,606.23",
+      "val": "7,583.67",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.18%",
+        "txt": "0.48%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,612.30</span> · <span class=\"up mono\">+15.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,612.30</span> · <span class=\"up mono\">+14.6%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,146",
+      "val": "25,981",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.15%",
+        "txt": "0.79%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,140</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,084",
+      "val": "52,007",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.64%",
+        "txt": "0.79%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,303</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.14",
+      "val": "17.63",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.23%",
+        "txt": "3.10%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.57</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.97%, high-yield at 2.65%",
-    "standfirst": "The high-yield premium over investment grade is 1.68 percentage points. The 2s10s Treasury spread is +32 bps.",
+    "headline": "Investment-grade OAS at 0.98%, high-yield at 2.71%",
+    "standfirst": "The high-yield premium over investment grade is 1.73 percentage points. The 2s10s Treasury spread is +32 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,39 +296,39 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "0.97",
+      "val": "0.98",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "-0.01pp",
-        "note": "tighter"
+        "txt": "+0.01pp",
+        "note": "wider"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "2.65",
+      "val": "2.71",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "-0.05pp",
-        "note": "tighter"
+        "txt": "+0.06pp",
+        "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "1.68",
+      "val": "1.73",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 0.97,
-    "hy": 2.65
+    "ig": 0.98,
+    "hy": 2.71
   },
   "news": {
     "headline": "Latest headlines",
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Podcast: How AI Is Making Rental Application Fraud Harder to Catch, with Docuverus",
+      "when": "Sep 15",
+      "link": "https://commercialobserver.com/2026/09/podcast-how-ai-is-making-rental-application-fraud-harder-to-catch-with-docuverus/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Brooklyn’s Former Hotel Bossert Set to Become Ritz-Carlton Luxury Residences",
+      "when": "Sep 15",
+      "link": "https://commercialobserver.com/2026/09/brooklyn-hotel-bossert-ritz-carlton-condos-someraroad/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Starwood Capital Group Hires Blackstone’s Michael Eglit as U.S. Head of Originations",
+      "when": "Sep 15",
+      "link": "https://commercialobserver.com/2026/09/starwood-capital-group-blackstone-michael-eglit/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Market Shifts, New York’s Uniqueness Mean Mamdani’s Grocery Plan Could Work",
+      "when": "Sep 15",
+      "link": "https://commercialobserver.com/2026/09/mamdani-grocery-stores-economics-lawsuits/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "CMBS Loan Backed by Hyatt Regency in Jersey City Sent to Special Servicing",
       "when": "Sep 15",
       "link": "https://commercialobserver.com/2026/09/cmbs-loan-hyatt-regency-jersey-city-special-servicing/"
@@ -442,30 +466,6 @@
       "title": "Stockdale Capital Partners Aims for $300M in Loans by 2028 Via New Credit Platform",
       "when": "Sep 15",
       "link": "https://commercialobserver.com/2026/09/stockdale-capital-partners-aims-for-300m-in-loans-by-2028-via-new-credit-platform/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Property Operations Platform Visitt Teams With VendorPM",
-      "when": "Sep 15",
-      "link": "https://commercialobserver.com/2026/09/visitt-vendorpm-bgo/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "New York City Selects It’s Electric to Install Curbside EV Charging Ports",
-      "when": "Sep 15",
-      "link": "https://commercialobserver.com/2026/09/new-york-city-its-electric-curbside-ev-charging/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Power California 2026",
-      "when": "Sep 15",
-      "link": "https://commercialobserver.com/2026/09/2026-power-california/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Billion-Dollar Blockbusters Won’t Revive L.A.’s Film Industry",
-      "when": "Sep 15",
-      "link": "https://commercialobserver.com/2026/09/billion-dollar-blockbusters-los-angeles-sounstages-studios-challenges/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "74.32",
-      "chg": "+0.28%",
-      "dir": 1
+      "price": "73.93",
+      "chg": "-0.24%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.70",
-      "chg": "-0.67%",
+      "price": "94.05",
+      "chg": "-0.30%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
       "price": "64.11",
-      "chg": "-0.60%",
+      "chg": "-0.61%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "134.05",
-      "chg": "-0.84%",
-      "dir": -1
+      "price": "135.98",
+      "chg": "+0.58%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.71",
-      "chg": "-0.92%",
+      "price": "65.70",
+      "chg": "-0.93%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "203.34",
-      "chg": "-0.79%",
+      "price": "203.93",
+      "chg": "-0.51%",
       "dir": -1
     }
   ],
