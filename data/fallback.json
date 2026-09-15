@@ -3,31 +3,31 @@
     "date_line": "Tuesday · Sep 15, 2026",
     "as_of": "Auto-compiled from public sources · Sep 15, 2026",
     "compiled": "Compiled Sep 15, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-15T17:46:52Z"
+    "generated_utc": "2026-09-15T18:18:39Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,583.67",
-      "ch": "-0.48%",
+      "vl": "7,587.03",
+      "ch": "-0.43%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,981",
-      "ch": "-0.79%",
+      "vl": "25,994",
+      "ch": "-0.74%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,007",
-      "ch": "-0.79%",
+      "vl": "52,027",
+      "ch": "-0.75%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "17.63",
-      "ch": "+3.10%",
+      "vl": "17.49",
+      "ch": "+2.28%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.48%",
-    "standfirst": "At the last close: S&P 500 7,583.67 (-0.48%); Nasdaq 25,981 (-0.79%); Dow 52,007 (-0.79%). VIX 17.63 (+3.10%).",
+    "headline": "The S&P 500 edged lower 0.43%",
+    "standfirst": "At the last close: S&P 500 7,587.03 (-0.43%); Nasdaq 25,994 (-0.74%); Dow 52,027 (-0.75%). VIX 17.49 (+2.28%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "PLD led at +0.58%; VMRK lagged at -0.93%."
+      "2 of 6 names on the watchlist closed higher.",
+      "PLD led at +0.42%; VMRK lagged at -1.29%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "September payrolls, unemployment rate and average hourly earnings."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:46 PM ET, Sep 15"
+    "quote_note": "Quotes ~15-min delayed · as of 2:18 PM ET, Sep 15"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,583.67",
+      "val": "7,587.03",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.48%",
+        "txt": "0.43%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,612.30</span> · <span class=\"up mono\">+14.6%</span> YoY"
+      "note": "Open <span class=\"mono\">7,612.30</span> · <span class=\"up mono\">+14.7%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,981",
+      "val": "25,994",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.79%",
+        "txt": "0.74%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,140</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,007",
+      "val": "52,027",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.79%",
+        "txt": "0.75%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,303</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.63",
+      "val": "17.49",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "3.10%",
+        "txt": "2.28%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.57</span>"
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Kirkland & Ellis Hires Seth Niedermayer as Partner in Real Estate Group",
+      "when": "Sep 15",
+      "link": "https://commercialobserver.com/2026/09/kirkland-ellis-hires-seth-niedermayer-hsf-kramer/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Podcast: How AI Is Making Rental Application Fraud Harder to Catch, with Docuverus",
       "when": "Sep 15",
       "link": "https://commercialobserver.com/2026/09/podcast-how-ai-is-making-rental-application-fraud-harder-to-catch-with-docuverus/"
@@ -460,12 +466,6 @@
       "title": "CMBS Loan Backed by Hyatt Regency in Jersey City Sent to Special Servicing",
       "when": "Sep 15",
       "link": "https://commercialobserver.com/2026/09/cmbs-loan-hyatt-regency-jersey-city-special-servicing/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Stockdale Capital Partners Aims for $300M in Loans by 2028 Via New Credit Platform",
-      "when": "Sep 15",
-      "link": "https://commercialobserver.com/2026/09/stockdale-capital-partners-aims-for-300m-in-loans-by-2028-via-new-credit-platform/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.93",
-      "chg": "-0.24%",
-      "dir": -1
+      "price": "74.14",
+      "chg": "+0.03%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.05",
-      "chg": "-0.30%",
+      "price": "94.00",
+      "chg": "-0.34%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.11",
-      "chg": "-0.61%",
+      "price": "64.23",
+      "chg": "-0.42%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.98",
-      "chg": "+0.58%",
+      "price": "135.75",
+      "chg": "+0.42%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.70",
-      "chg": "-0.93%",
+      "price": "65.47",
+      "chg": "-1.29%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "203.93",
-      "chg": "-0.51%",
+      "price": "204.33",
+      "chg": "-0.31%",
       "dir": -1
     }
   ],
