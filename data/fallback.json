@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Monday · Sep 14, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 14, 2026",
-    "compiled": "Compiled Sep 14, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-15T01:36:07Z"
+    "date_line": "Tuesday · Sep 15, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 15, 2026",
+    "compiled": "Compiled Sep 15, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-15T13:41:58Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,619.98",
-      "ch": "-0.48%",
+      "vl": "7,609.93",
+      "ch": "-0.13%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,186",
-      "ch": "-0.56%",
+      "vl": "26,157",
+      "ch": "-0.11%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,421",
-      "ch": "-0.29%",
+      "vl": "52,108",
+      "ch": "-0.60%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "17.10",
-      "ch": "+7.95%",
-      "dir": 1
+      "vl": "16.84",
+      "ch": "-1.52%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -110,24 +110,24 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.48%",
-    "standfirst": "At the last close: S&P 500 7,619.98 (-0.48%); Nasdaq 26,186 (-0.56%); Dow 52,421 (-0.29%). VIX 17.10 (+7.95%).",
+    "headline": "The S&P 500 edged lower 0.13%",
+    "standfirst": "At the last close: S&P 500 7,609.93 (-0.13%); Nasdaq 26,157 (-0.11%); Dow 52,108 (-0.60%). VIX 16.84 (-1.52%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "VMRK led at +2.00%; SPG lagged at +0.15%."
+      "1 of 6 names on the watchlist closed higher.",
+      "KRE led at +0.35%; PLD lagged at -0.94%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "Wed · Sep 16",
+        "when": "Tomorrow",
         "title": "FOMC decision",
         "body": "Rate decision plus the quarterly Summary of Economic Projections and dot plot. Press conference at 2:30 ET."
       },
       {
-        "when": "Wed · Sep 16",
+        "when": "Tomorrow",
         "title": "FDX earnings",
         "body": "Scheduled to report."
       },
@@ -147,52 +147,52 @@
         "body": "September payrolls, unemployment rate and average hourly earnings."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 14"
+    "quote_note": "Quotes ~15-min delayed · as of 9:41 AM ET, Sep 15"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,619.98",
+      "val": "7,609.93",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.48%",
+        "txt": "0.13%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,611.44</span> · <span class=\"up mono\">+15.2%</span> YoY"
+      "note": "Open <span class=\"mono\">7,612.30</span> · <span class=\"up mono\">+15.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,186",
+      "val": "26,157",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.56%",
+        "txt": "0.11%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">26,019</span>"
+      "note": "Open <span class=\"mono\">26,140</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,421",
+      "val": "52,108",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.29%",
+        "txt": "0.60%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">52,751</span>"
+      "note": "Open <span class=\"mono\">52,303</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.10",
-      "tone": "pos",
+      "val": "16.84",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "7.95%",
+        "dir": -1,
+        "txt": "1.52%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">17.50</span>"
+      "note": "Open <span class=\"mono\">17.57</span>"
     }
   ],
   "economy": {
@@ -336,6 +336,14 @@
   },
   "headlines": [
     {
+      "when": "Sep 15",
+      "title": "China's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html"
+    },
+    {
       "when": "Sep 14",
       "title": "China says AI CEOs' call for a slowdown is 'fear mongering'",
       "blurb": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/14/prediction-markets-traders-think-gas-prices-will-hit-new-highs-in-2026.html"
-    },
-    {
-      "when": "Sep 14",
-      "title": "NFL and midterm elections set up prediction markets for a critical fall season",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/13/nfl-and-midterms-mark-key-fall-season-for-prediction-markets.html"
     }
   ],
   "cre": {
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Bally’s Lands $560M Loan From WhiteHawk for Bronx Casino Development",
-      "when": "Sep 14",
-      "link": "https://commercialobserver.com/2026/09/ballys-bronx-casino-trump-golf-course/"
+      "title": "CMBS Loan Backed by Hyatt Regency in Jersey City Sent to Special Servicing",
+      "when": "Sep 15",
+      "link": "https://commercialobserver.com/2026/09/cmbs-loan-hyatt-regency-jersey-city-special-servicing/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Stockdale Leads $157M Shopping Center Acquisition in Southern California",
-      "when": "Sep 14",
-      "link": "https://commercialobserver.com/2026/09/stockdale-retail-california-chino-hills/"
+      "title": "Stockdale Capital Partners Aims for $300M in Loans by 2028 Via New Credit Platform",
+      "when": "Sep 15",
+      "link": "https://commercialobserver.com/2026/09/stockdale-capital-partners-aims-for-300m-in-loans-by-2028-via-new-credit-platform/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Hines and Rialto Credit Partners’ Debt Fund Closes at $1.1B",
-      "when": "Sep 14",
-      "link": "https://commercialobserver.com/2026/09/hines-rialto-credit-partners-debt-fund-close/"
+      "title": "Property Operations Platform Visitt Teams With VendorPM",
+      "when": "Sep 15",
+      "link": "https://commercialobserver.com/2026/09/visitt-vendorpm-bgo/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Dwight Investment Group Supplies $130M Refi for Phoenix Apartment Tower",
-      "when": "Sep 14",
-      "link": "https://commercialobserver.com/2026/09/dwight-investment-group-phoenix-apartments/"
+      "title": "New York City Selects It’s Electric to Install Curbside EV Charging Ports",
+      "when": "Sep 15",
+      "link": "https://commercialobserver.com/2026/09/new-york-city-its-electric-curbside-ev-charging/"
     },
     {
       "source": "Commercial Observer",
-      "title": "J.E. Richards, Maker of Data Center Components, Signs Massive Northern Virginia Lease",
-      "when": "Sep 14",
-      "link": "https://commercialobserver.com/2026/09/je-richards-lease-211-centreport-parkway-virginia/"
+      "title": "Power California 2026",
+      "when": "Sep 15",
+      "link": "https://commercialobserver.com/2026/09/2026-power-california/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Cohen Brothers Closes Nearly 96K SF in Leases at West Hollywood’s Pacific Design Center",
-      "when": "Sep 14",
-      "link": "https://commercialobserver.com/2026/09/cohen-brothers-leases-west-hollywood-pacific-design-center/"
+      "title": "Billion-Dollar Blockbusters Won’t Revive L.A.’s Film Industry",
+      "when": "Sep 15",
+      "link": "https://commercialobserver.com/2026/09/billion-dollar-blockbusters-los-angeles-sounstages-studios-challenges/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "74.11",
-      "chg": "+0.41%",
+      "price": "74.37",
+      "chg": "+0.35%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.33",
-      "chg": "+0.22%",
-      "dir": 1
+      "price": "93.49",
+      "chg": "-0.89%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.50",
-      "chg": "+1.22%",
-      "dir": 1
+      "price": "64.28",
+      "chg": "-0.33%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.19",
-      "chg": "+0.58%",
-      "dir": 1
+      "price": "133.92",
+      "chg": "-0.94%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "66.32",
-      "chg": "+2.00%",
-      "dir": 1
+      "price": "65.86",
+      "chg": "-0.69%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.97",
-      "chg": "+0.15%",
-      "dir": 1
+      "price": "203.52",
+      "chg": "-0.71%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
