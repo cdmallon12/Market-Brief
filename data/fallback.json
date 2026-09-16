@@ -3,7 +3,7 @@
     "date_line": "Tuesday · Sep 15, 2026",
     "as_of": "Auto-compiled from public sources · Sep 15, 2026",
     "compiled": "Compiled Sep 15, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-15T22:59:25Z"
+    "generated_utc": "2026-09-16T01:29:58Z"
   },
   "ticker": [
     {
@@ -115,8 +115,8 @@
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "PLD led at +0.48%; VMRK lagged at -1.04%."
+      "3 of 6 names on the watchlist closed higher.",
+      "KRE led at +0.20%; BXP lagged at -1.33%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Sep 15",
+      "title": "Why de-dollarization discussions are more talk, less action",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/16/de-dollarization-brics-china-russia-trump.html"
+    },
+    {
+      "when": "Sep 15",
       "title": "China's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html"
-    },
-    {
-      "when": "Sep 14",
-      "title": "Prediction market traders think gas prices will hit new highs for the year",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/14/prediction-markets-traders-think-gas-prices-will-hit-new-highs-in-2026.html"
     }
   ],
   "cre": {
@@ -607,42 +607,42 @@
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
       "price": "74.05",
-      "chg": "-0.08%",
-      "dir": -1
+      "chg": "+0.20%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
       "price": "94.10",
-      "chg": "-0.24%",
+      "chg": "-0.74%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
       "price": "63.84",
-      "chg": "-1.02%",
+      "chg": "-1.33%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
       "price": "135.84",
-      "chg": "+0.48%",
+      "chg": "+0.07%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
       "price": "65.63",
-      "chg": "-1.04%",
-      "dir": -1
+      "chg": "+0.14%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
       "price": "204.10",
-      "chg": "-0.42%",
+      "chg": "-0.36%",
       "dir": -1
     }
   ],
