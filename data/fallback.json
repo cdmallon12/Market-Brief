@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Sep 16, 2026",
     "as_of": "Auto-compiled from public sources · Sep 16, 2026",
     "compiled": "Compiled Sep 16, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-16T13:35:58Z"
+    "generated_utc": "2026-09-16T13:50:52Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,604.68",
-      "ch": "+0.25%",
+      "vl": "7,611.10",
+      "ch": "+0.33%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,101",
-      "ch": "+0.46%",
+      "vl": "26,160",
+      "ch": "+0.69%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,051",
-      "ch": "-0.08%",
+      "vl": "52,023",
+      "ch": "-0.14%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "16.77",
-      "ch": "-2.50%",
+      "vl": "16.86",
+      "ch": "-1.98%",
       "dir": -1
     },
     {
@@ -104,19 +104,19 @@
     },
     {
       "nm": "HY OAS",
-      "vl": "2.71%",
+      "vl": "2.76%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.25%",
-    "standfirst": "At the last close: S&P 500 7,604.68 (+0.25%); Nasdaq 26,101 (+0.46%); Dow 52,051 (-0.08%). VIX 16.77 (-2.50%).",
+    "headline": "The S&P 500 edged higher 0.33%",
+    "standfirst": "At the last close: S&P 500 7,611.10 (+0.33%); Nasdaq 26,160 (+0.69%); Dow 52,023 (-0.14%). VIX 16.86 (-1.98%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "3 of 6 names on the watchlist closed higher.",
-      "VNQ led at +0.58%; KRE lagged at -0.34%."
+      "BXP led at +1.03%; KRE lagged at -0.51%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "September payrolls, unemployment rate and average hourly earnings."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:35 AM ET, Sep 16"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 16"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,604.68",
+      "val": "7,611.10",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.25%",
+        "txt": "0.33%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,601.25</span> · <span class=\"up mono\">+15.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,601.25</span> · <span class=\"up mono\">+15.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,101",
+      "val": "26,160",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.46%",
+        "txt": "0.69%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,108</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,051",
+      "val": "52,023",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.08%",
+        "txt": "0.14%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,115</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.77",
+      "val": "16.86",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.50%",
+        "txt": "1.98%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.91</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.98%, high-yield at 2.71%",
-    "standfirst": "The high-yield premium over investment grade is 1.73 percentage points. The 2s10s Treasury spread is +33 bps.",
+    "headline": "Investment-grade OAS at 0.98%, high-yield at 2.76%",
+    "standfirst": "The high-yield premium over investment grade is 1.78 percentage points. The 2s10s Treasury spread is +33 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -302,25 +302,25 @@
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.01pp",
-        "note": "wider"
+        "txt": "+0.00pp",
+        "note": "flat"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "2.71",
+      "val": "2.76",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.06pp",
+        "txt": "+0.05pp",
         "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "1.73",
+      "val": "1.78",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
@@ -328,7 +328,7 @@
   ],
   "credit_chart": {
     "ig": 0.98,
-    "hy": 2.71
+    "hy": 2.76
   },
   "news": {
     "headline": "Latest headlines",
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.80",
-      "chg": "-0.34%",
+      "price": "73.67",
+      "chg": "-0.51%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.65",
-      "chg": "+0.58%",
+      "price": "94.83",
+      "chg": "+0.78%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.07",
-      "chg": "+0.36%",
+      "price": "64.50",
+      "chg": "+1.03%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.71",
-      "chg": "-0.10%",
+      "price": "135.81",
+      "chg": "-0.03%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.51",
-      "chg": "-0.18%",
+      "price": "65.43",
+      "chg": "-0.30%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.76",
-      "chg": "+0.32%",
+      "price": "205.08",
+      "chg": "+0.48%",
       "dir": 1
     }
   ],
