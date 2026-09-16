@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Sep 16, 2026",
     "as_of": "Auto-compiled from public sources · Sep 16, 2026",
     "compiled": "Compiled Sep 16, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-16T13:50:52Z"
+    "generated_utc": "2026-09-16T17:45:33Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,611.10",
-      "ch": "+0.33%",
+      "vl": "7,604.10",
+      "ch": "+0.24%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,160",
-      "ch": "+0.69%",
+      "vl": "26,122",
+      "ch": "+0.54%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,023",
-      "ch": "-0.14%",
-      "dir": -1
+      "vl": "52,097",
+      "ch": "+0.01%",
+      "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "16.86",
-      "ch": "-1.98%",
+      "vl": "16.81",
+      "ch": "-2.27%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.33%",
-    "standfirst": "At the last close: S&P 500 7,611.10 (+0.33%); Nasdaq 26,160 (+0.69%); Dow 52,023 (-0.14%). VIX 16.86 (-1.98%).",
+    "headline": "The S&P 500 edged higher 0.24%",
+    "standfirst": "At the last close: S&P 500 7,604.10 (+0.24%); Nasdaq 26,122 (+0.54%); Dow 52,097 (+0.01%). VIX 16.81 (-2.27%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "3 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.03%; KRE lagged at -0.51%."
+      "2 of 6 names on the watchlist closed higher.",
+      "BXP led at +0.94%; VMRK lagged at -2.22%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "September payrolls, unemployment rate and average hourly earnings."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 16"
+    "quote_note": "Quotes ~15-min delayed · as of 1:44 PM ET, Sep 16"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,611.10",
+      "val": "7,604.10",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.33%",
+        "txt": "0.24%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,601.25</span> · <span class=\"up mono\">+15.2%</span> YoY"
+      "note": "Open <span class=\"mono\">7,601.25</span> · <span class=\"up mono\">+15.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,160",
+      "val": "26,122",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.69%",
+        "txt": "0.54%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,108</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,023",
-      "tone": "neg",
+      "val": "52,097",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.14%",
+        "dir": 1,
+        "txt": "0.01%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,115</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.86",
+      "val": "16.81",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.98%",
+        "txt": "2.27%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.91</span>"
@@ -254,25 +254,25 @@
   "energy_tiles": [
     {
       "lbl": "Brent Crude",
-      "val": "$109.51",
+      "val": "$130.80",
       "unit": "",
       "tone": "",
       "note": "Global benchmark — the swing factor in headline inflation",
       "delta": {
         "dir": 1,
-        "txt": "+3.39",
+        "txt": "+9.55",
         "note": "d/d"
       }
     },
     {
       "lbl": "WTI Crude",
-      "val": "$97.26",
+      "val": "$107.02",
       "unit": "",
       "tone": "",
       "note": "U.S. benchmark",
       "delta": {
         "dir": 1,
-        "txt": "+3.05",
+        "txt": "+4.60",
         "note": "d/d"
       }
     },
@@ -345,6 +345,22 @@
     },
     {
       "when": "Sep 16",
+      "title": "'Science fiction': Transport companies — the backbone of economy — are sounding alarm on fuel prices",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
+    },
+    {
+      "when": "Sep 16",
+      "title": "Senate is still a toss-up, but Democrats now have slight edge, prediction market traders think",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/16/prediction-markets-say-democrats-are-slightly-favored-to-win-senate.html"
+    },
+    {
+      "when": "Sep 16",
       "title": "UK inflation jumps to 3.1% as energy costs soar",
       "blurb": "",
       "kind": "",
@@ -366,22 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/16/indonesia-finance-minister-msci-prabowo-.html"
-    },
-    {
-      "when": "Sep 15",
-      "title": "Why de-dollarization discussions are more talk, less action",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/16/de-dollarization-brics-china-russia-trump.html"
-    },
-    {
-      "when": "Sep 15",
-      "title": "China's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html"
     }
   ],
   "cre": {
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Mesa West Lends $27M on Seattle-Area Apartments Acquisition",
+      "title": "IMG Worldwide Renews 90K SF at SL Green’s 304 Park Avenue South",
       "when": "Sep 16",
-      "link": "https://commercialobserver.com/2026/09/mesa-west-seattle-area-apartments/"
+      "link": "https://commercialobserver.com/2026/09/img-worldwide-lease-renewal-304-park-avenue-south/"
     },
     {
       "source": "Commercial Observer",
-      "title": "The Plan: Fifth Avenue’s New Rolex Building, a Nod to Timelessness",
+      "title": "Nearwater Management Takes 38K SF at SL Green’s 245 Park Avenue",
       "when": "Sep 16",
-      "link": "https://commercialobserver.com/2026/09/new-rolex-building-new-york/"
+      "link": "https://commercialobserver.com/2026/09/nearwater-lease-sl-green-245-park-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "$420M CMBS Loan Backed by 51 West 52nd Exits Special Servicing, Secures Extension",
-      "when": "Sep 15",
-      "link": "https://commercialobserver.com/2026/09/420m-cmbs-loan-51-west-52nd-exits-special-servicing-extension/"
+      "title": "Prologis Buys JFK Airport Warehouse From Wildflower for $49M",
+      "when": "Sep 16",
+      "link": "https://commercialobserver.com/2026/09/prologis-buys-jfk-airport-warehouse-wildflower/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Stewards Sets Up $240M Deal for Two South Florida Multifamily Properties",
-      "when": "Sep 15",
-      "link": "https://commercialobserver.com/2026/09/stewards-florida-multifamily/"
+      "title": "JLL’s Matt Landek to Lead New Data Center Operations Firm L5 Mission Critical",
+      "when": "Sep 16",
+      "link": "https://commercialobserver.com/2026/09/l5-mission-critical-hires-matt-landek-jll/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Piedmont Buys Virginia Office for $53M — Double Its 2024 Sale Price",
-      "when": "Sep 15",
-      "link": "https://commercialobserver.com/2026/09/piedmont-buys-virginia-office-for-53m-double-its-2024-sale-price/"
+      "title": "Watch Brand Fossil Renews 15K-SF Showroom Lease at 366 Fifth Avenue",
+      "when": "Sep 16",
+      "link": "https://commercialobserver.com/2026/09/fossil-lease-renewal-366-fifth-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Logos Faith Development CEO Martin Porter On Building With Religious Institutions",
-      "when": "Sep 15",
-      "link": "https://commercialobserver.com/2026/09/logos-faith-development-ceo-martin-porter/"
+      "title": "U.S. Apartment Rents Decline for First Time in Eight Months: Report",
+      "when": "Sep 16",
+      "link": "https://commercialobserver.com/2026/09/us-apartment-rent-growth-report/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.67",
-      "chg": "-0.51%",
+      "price": "73.90",
+      "chg": "-0.20%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.83",
-      "chg": "+0.78%",
+      "price": "94.33",
+      "chg": "+0.24%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.50",
-      "chg": "+1.03%",
+      "price": "64.44",
+      "chg": "+0.94%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.81",
-      "chg": "-0.03%",
+      "price": "135.14",
+      "chg": "-0.52%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.43",
-      "chg": "-0.30%",
+      "price": "64.17",
+      "chg": "-2.22%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.08",
-      "chg": "+0.48%",
-      "dir": 1
+      "price": "203.71",
+      "chg": "-0.19%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
