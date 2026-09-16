@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Sep 16, 2026",
     "as_of": "Auto-compiled from public sources · Sep 16, 2026",
     "compiled": "Compiled Sep 16, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-16T17:45:33Z"
+    "generated_utc": "2026-09-16T18:16:00Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,604.10",
-      "ch": "+0.24%",
+      "vl": "7,611.51",
+      "ch": "+0.34%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,122",
-      "ch": "+0.54%",
+      "vl": "26,163",
+      "ch": "+0.70%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,097",
-      "ch": "+0.01%",
-      "dir": 1
+      "vl": "52,072",
+      "ch": "-0.04%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "16.81",
-      "ch": "-2.27%",
+      "vl": "16.86",
+      "ch": "-1.98%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.24%",
-    "standfirst": "At the last close: S&P 500 7,604.10 (+0.24%); Nasdaq 26,122 (+0.54%); Dow 52,097 (+0.01%). VIX 16.81 (-2.27%).",
+    "headline": "The S&P 500 edged higher 0.34%",
+    "standfirst": "At the last close: S&P 500 7,611.51 (+0.34%); Nasdaq 26,163 (+0.70%); Dow 52,072 (-0.04%). VIX 16.86 (-1.98%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "2 of 6 names on the watchlist closed higher.",
-      "BXP led at +0.94%; VMRK lagged at -2.22%."
+      "BXP led at +0.63%; VMRK lagged at -2.13%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "September payrolls, unemployment rate and average hourly earnings."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:44 PM ET, Sep 16"
+    "quote_note": "Quotes ~15-min delayed · as of 2:14 PM ET, Sep 16"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,604.10",
+      "val": "7,611.51",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.24%",
+        "txt": "0.34%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,601.25</span> · <span class=\"up mono\">+15.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,601.25</span> · <span class=\"up mono\">+15.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,122",
+      "val": "26,163",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.54%",
+        "txt": "0.70%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,108</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,097",
-      "tone": "pos",
+      "val": "52,072",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.01%",
+        "dir": -1,
+        "txt": "0.04%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,115</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.81",
+      "val": "16.86",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.27%",
+        "txt": "1.98%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.91</span>"
@@ -337,11 +337,19 @@
   "headlines": [
     {
       "when": "Sep 16",
-      "title": "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household",
+      "title": "Fed approves interest rate hike, signals one more to come this year",
       "blurb": "",
       "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+    },
+    {
+      "when": "Sep 16",
+      "title": "Here is what changed in the new Fed statement under Warsh",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/16/september-fed-statement-redline.html"
     },
     {
       "when": "Sep 16",
@@ -350,6 +358,14 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
+    },
+    {
+      "when": "Sep 16",
+      "title": "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
     },
     {
       "when": "Sep 16",
@@ -366,22 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
-    },
-    {
-      "when": "Sep 16",
-      "title": "China's AI leaders keep quiet despite U.S. 'publicity' on tech risks",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/16/chinas-ai-leaders-keep-quiet-despite-us-publicity-on-tech-risks.html"
-    },
-    {
-      "when": "Sep 15",
-      "title": "Indonesia's new finance minister faces an uphill battle on fiscal credibility",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/16/indonesia-finance-minister-msci-prabowo-.html"
     }
   ],
   "cre": {
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "George Soros Puts Argonaut Building on the Market for Roughly $100M",
+      "when": "Sep 16",
+      "link": "https://commercialobserver.com/2026/09/george-soros-argonaut-sale-224-west-57th-street/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "IMG Worldwide Renews 90K SF at SL Green’s 304 Park Avenue South",
       "when": "Sep 16",
       "link": "https://commercialobserver.com/2026/09/img-worldwide-lease-renewal-304-park-avenue-south/"
@@ -460,12 +466,6 @@
       "title": "Watch Brand Fossil Renews 15K-SF Showroom Lease at 366 Fifth Avenue",
       "when": "Sep 16",
       "link": "https://commercialobserver.com/2026/09/fossil-lease-renewal-366-fifth-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "U.S. Apartment Rents Decline for First Time in Eight Months: Report",
-      "when": "Sep 16",
-      "link": "https://commercialobserver.com/2026/09/us-apartment-rent-growth-report/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.90",
-      "chg": "-0.20%",
+      "price": "73.50",
+      "chg": "-0.74%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.33",
-      "chg": "+0.24%",
+      "price": "94.23",
+      "chg": "+0.14%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.44",
-      "chg": "+0.94%",
+      "price": "64.25",
+      "chg": "+0.63%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.14",
-      "chg": "-0.52%",
+      "price": "134.63",
+      "chg": "-0.89%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.17",
-      "chg": "-2.22%",
+      "price": "64.23",
+      "chg": "-2.13%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "203.71",
-      "chg": "-0.19%",
+      "price": "203.16",
+      "chg": "-0.46%",
       "dir": -1
     }
   ],
