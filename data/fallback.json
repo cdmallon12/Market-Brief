@@ -3,25 +3,25 @@
     "date_line": "Thursday · Sep 17, 2026",
     "as_of": "Auto-compiled from public sources · Sep 17, 2026",
     "compiled": "Compiled Sep 17, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-17T13:50:49Z"
+    "generated_utc": "2026-09-17T17:45:20Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,626.30",
-      "ch": "+0.99%",
+      "vl": "7,635.59",
+      "ch": "+1.11%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,319",
-      "ch": "+1.31%",
+      "vl": "26,397",
+      "ch": "+1.61%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,747",
-      "ch": "+0.55%",
+      "vl": "51,803",
+      "ch": "+0.66%",
       "dir": 1
     },
     {
@@ -56,7 +56,7 @@
     },
     {
       "nm": "Fed Funds",
-      "vl": "3.50-3.75%",
+      "vl": "3.75-4.00%",
       "ch": "",
       "dir": 0
     },
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "0.98%",
+      "vl": "0.96%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "2.76%",
+      "vl": "2.70%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.99%",
-    "standfirst": "At the last close: S&P 500 7,626.30 (+0.99%); Nasdaq 26,319 (+1.31%); Dow 51,747 (+0.55%). VIX 15.66 (-11.58%).",
+    "headline": "The S&P 500 rose 1.11%",
+    "standfirst": "At the last close: S&P 500 7,635.59 (+1.11%); Nasdaq 26,397 (+1.61%); Dow 51,803 (+0.66%). VIX 15.66 (-11.58%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "6 of 6 names on the watchlist closed higher.",
-      "PLD led at +0.84%; KRE lagged at +0.29%."
+      "SPG led at +1.43%; BXP lagged at +0.41%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,38 +147,38 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 17"
+    "quote_note": "Quotes ~15-min delayed · as of 1:44 PM ET, Sep 17"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,626.30",
+      "val": "7,635.59",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.99%",
+        "txt": "1.11%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,631.44</span> · <span class=\"up mono\">+15.5%</span> YoY"
+      "note": "Open <span class=\"mono\">7,631.44</span> · <span class=\"up mono\">+15.7%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,319",
+      "val": "26,397",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.31%",
+        "txt": "1.61%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,378</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,747",
+      "val": "51,803",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.55%",
+        "txt": "0.66%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,883</span>"
@@ -196,18 +196,18 @@
     }
   ],
   "economy": {
-    "headline": "Policy and prices: the federal funds target at 3.50-3.75%, headline CPI at 3.7% year over year, core PCE at 3.3%",
+    "headline": "Policy and prices: the federal funds target at 3.75-4.00%, headline CPI at 3.7% year over year, core PCE at 3.3%",
     "standfirst": "Real GDP was last reported at 1.5% annualized. The IMF puts world real growth at 3.3%. The next FOMC decision is scheduled for October 28.",
     "body": [
       "CPI stands at 3.7% and core PCE at 3.3%, against the Federal Reserve's stated 2% objective.",
-      "The target range has been 3.50-3.75% as of the most recent decision."
+      "The target range has been 3.75-4.00% as of the most recent decision."
     ]
   },
   "economy_tiles": [
     {
       "lbl": "Fed Funds Target",
-      "val": "3.50",
-      "unit": "-3.75%",
+      "val": "3.75",
+      "unit": "-4.00%",
       "tone": "",
       "pill": {
         "cls": "watch",
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.98%, high-yield at 2.76%",
-    "standfirst": "The high-yield premium over investment grade is 1.78 percentage points. The 2s10s Treasury spread is +27 bps.",
+    "headline": "Investment-grade OAS at 0.96%, high-yield at 2.70%",
+    "standfirst": "The high-yield premium over investment grade is 1.74 percentage points. The 2s10s Treasury spread is +27 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,45 +296,53 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "0.98",
+      "val": "0.96",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.00pp",
-        "note": "flat"
+        "txt": "-0.02pp",
+        "note": "tighter"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "2.76",
+      "val": "2.70",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.05pp",
-        "note": "wider"
+        "txt": "-0.06pp",
+        "note": "tighter"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "1.78",
+      "val": "1.74",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 0.98,
-    "hy": 2.76
+    "ig": 0.96,
+    "hy": 2.7
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Sep 17",
+      "title": "A Chinese AI company just connected its model to Wall Street's leading data providers",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/17/china-moonshot-kimi-financial-services.html"
+    },
     {
       "when": "Sep 17",
       "title": "Bank of England defies Fed’s rate-hike lead, leaving rates unchanged",
@@ -374,19 +382,11 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
-    },
-    {
-      "when": "Sep 16",
-      "title": "'Science fiction': Transport companies — the backbone of economy — are sounding alarm on fuel prices",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
     }
   ],
   "cre": {
     "headline": "The 10-year at 5.01%, overnight SOFR at 3.62%",
-    "standfirst": "An illustrative agency coupon prices at 6.36–6.66%. The Freddie Mac 30-year survey rate is 6.76%.",
+    "standfirst": "An illustrative agency coupon prices at 6.36–6.66%. The Freddie Mac 30-year survey rate is 6.95%.",
     "curve_date": "Sep 16, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Shorenstein to Buy Fully Leased SoHo Office Property From Tishman Speyer",
+      "title": "Ares Management, PSP Investments Form $2.4B U.S. Logistics Partnership",
       "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/shorenstein-buy-fully-leased-soho-office-property-tishman-speyer/"
+      "link": "https://commercialobserver.com/2026/09/ares-management-psp-investments-logistics-partnership/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Digital Financial Services Firm Zip Takes 13K SF at Rudin’s 41 Madison Avenue",
+      "title": "Wells Fargo Refis Long Island City Apartments With $115M Fannie Mae Loan",
       "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/zip-lease-rudin-41-madison-avenue/"
+      "link": "https://commercialobserver.com/2026/09/wells-fargo-long-island-city-queens-apartments/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Get to Know the Broker: Ian Slater of Compass’ Trove Partners",
+      "title": "Borough Developers Closes on $84M Sale of Downtown Brooklyn Development Site",
       "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/get-to-know-the-broker-ian-slater-compass-trove-partners/"
+      "link": "https://commercialobserver.com/2026/09/borough-developers-sale-downtown-brooklyn-development-site-485-fulton-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Warehub Founder James Holbrook On Industrial’s Flexibility Needs",
+      "title": "Capital Insight Acquires Hudson Yards Hotel Property in Foreclosure Auction",
       "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/warehub-james-holbrook-industrial/"
+      "link": "https://commercialobserver.com/2026/09/capital-insight-acquires-511-ninth-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "The Problem With Fake Buyers",
+      "title": "ACORE Claims Keys to Would-be Life Sciences Facility in Hell’s Kitchen",
       "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/nyc-real-estate-residential-fake-buyers/"
+      "link": "https://commercialobserver.com/2026/09/acore-acquires-beacon-captial-life-sciences-conversion-707-11th-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "CIBC Supplies $102M Refi for SkyREM Industrial Portfolio",
-      "when": "Sep 16",
-      "link": "https://commercialobserver.com/2026/09/skyrem-refinance-industrial-portfolio-cibc-loan/"
+      "title": "Jewelry Brand Julie Vos Signs 14K-SF Office Lease at 218-232 West 40th Street",
+      "when": "Sep 17",
+      "link": "https://commercialobserver.com/2026/09/julie-vos-office-lease-218-232-west-40th-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -499,13 +499,13 @@
   "cre_fin_tiles": [
     {
       "lbl": "30-Yr Mortgage · PMMS",
-      "val": "6.76",
+      "val": "6.95",
       "unit": "%",
       "tone": "",
       "note": "Freddie Mac Primary Mortgage Market Survey",
       "delta": {
         "dir": 0,
-        "txt": "+0.05pp",
+        "txt": "+0.19pp",
         "note": "wk/wk"
       }
     },
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.95",
-      "chg": "+0.29%",
+      "price": "73.25",
+      "chg": "+0.69%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.11",
-      "chg": "+0.67%",
+      "price": "94.02",
+      "chg": "+0.57%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.45",
-      "chg": "+0.64%",
+      "price": "64.31",
+      "chg": "+0.41%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "134.87",
-      "chg": "+0.84%",
+      "price": "135.51",
+      "chg": "+1.32%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.34",
-      "chg": "+0.56%",
+      "price": "63.40",
+      "chg": "+0.65%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.27",
-      "chg": "+0.66%",
+      "price": "205.85",
+      "chg": "+1.43%",
       "dir": 1
     }
   ],
