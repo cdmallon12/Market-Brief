@@ -3,31 +3,31 @@
     "date_line": "Thursday · Sep 17, 2026",
     "as_of": "Auto-compiled from public sources · Sep 17, 2026",
     "compiled": "Compiled Sep 17, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-17T17:45:20Z"
+    "generated_utc": "2026-09-17T18:22:21Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,635.59",
-      "ch": "+1.11%",
+      "vl": "7,638.90",
+      "ch": "+1.15%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,397",
-      "ch": "+1.61%",
+      "vl": "26,398",
+      "ch": "+1.62%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,803",
-      "ch": "+0.66%",
+      "vl": "51,844",
+      "ch": "+0.74%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.66",
-      "ch": "-11.58%",
+      "vl": "15.55",
+      "ch": "-12.20%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 1.11%",
-    "standfirst": "At the last close: S&P 500 7,635.59 (+1.11%); Nasdaq 26,397 (+1.61%); Dow 51,803 (+0.66%). VIX 15.66 (-11.58%).",
+    "headline": "The S&P 500 rose 1.15%",
+    "standfirst": "At the last close: S&P 500 7,638.90 (+1.15%); Nasdaq 26,398 (+1.62%); Dow 51,844 (+0.74%). VIX 15.55 (-12.20%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "6 of 6 names on the watchlist closed higher.",
-      "SPG led at +1.43%; BXP lagged at +0.41%."
+      "SPG led at +1.20%; BXP lagged at +0.23%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:44 PM ET, Sep 17"
+    "quote_note": "Quotes ~15-min delayed · as of 2:21 PM ET, Sep 17"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,635.59",
+      "val": "7,638.90",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.11%",
+        "txt": "1.15%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,631.44</span> · <span class=\"up mono\">+15.7%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,397",
+      "val": "26,398",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.61%",
+        "txt": "1.62%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,378</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,803",
+      "val": "51,844",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.66%",
+        "txt": "0.74%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,883</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.66",
+      "val": "15.55",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "11.58%",
+        "txt": "12.20%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.03</span>"
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Sep 17",
+      "title": "Securitize jumps after regulators greenlight some tokenized U.S. stock trading",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/17/securitize-jumps-after-regulators-greenlight-tokenized-us-stocks.html"
+    },
+    {
+      "when": "Sep 17",
       "title": "A Chinese AI company just connected its model to Wall Street's leading data providers",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/16/here-are-five-key-takeaways-from-wednesdays-fed-rate-hike.html"
-    },
-    {
-      "when": "Sep 16",
-      "title": "Fed approves interest rate hike, signals one more to come this year",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
     }
   ],
   "cre": {
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.25",
-      "chg": "+0.69%",
+      "price": "73.08",
+      "chg": "+0.47%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.02",
-      "chg": "+0.57%",
+      "price": "94.00",
+      "chg": "+0.55%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.31",
-      "chg": "+0.41%",
+      "price": "64.19",
+      "chg": "+0.23%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.51",
-      "chg": "+1.32%",
+      "price": "135.20",
+      "chg": "+1.09%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.40",
-      "chg": "+0.65%",
+      "price": "63.34",
+      "chg": "+0.56%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.85",
-      "chg": "+1.43%",
+      "price": "205.38",
+      "chg": "+1.20%",
       "dir": 1
     }
   ],
