@@ -3,7 +3,7 @@
     "date_line": "Wednesday · Sep 16, 2026",
     "as_of": "Auto-compiled from public sources · Sep 16, 2026",
     "compiled": "Compiled Sep 16, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-16T23:04:18Z"
+    "generated_utc": "2026-09-17T01:33:33Z"
   },
   "ticker": [
     {
@@ -119,17 +119,12 @@
       "BXP led at +0.31%; VMRK lagged at -4.02%."
     ],
     "card2_title": "On the calendar today",
-    "card2_sub": "Scheduled releases and earnings (ET)",
+    "card2_sub": "Scheduled economic releases (ET)",
     "catalysts": [
       {
         "when": "14:00 ET · Today",
         "title": "FOMC decision",
         "body": "Rate decision plus the quarterly Summary of Economic Projections and dot plot. Press conference at 2:30 ET."
-      },
-      {
-        "when": "Today",
-        "title": "FDX earnings",
-        "body": "Scheduled to report."
       },
       {
         "when": "Tue · Sep 29",
@@ -145,6 +140,11 @@
         "when": "Fri · Oct 2",
         "title": "Employment Situation",
         "body": "September payrolls, unemployment rate and average hourly earnings."
+      },
+      {
+        "when": "Wed · Oct 14",
+        "title": "Consumer Price Index",
+        "body": "September CPI, headline and core."
       }
     ],
     "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 16"
