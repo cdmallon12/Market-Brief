@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Wednesday · Sep 16, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 16, 2026",
-    "compiled": "Compiled Sep 16, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-17T01:33:33Z"
+    "date_line": "Thursday · Sep 17, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 17, 2026",
+    "compiled": "Compiled Sep 17, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-17T13:37:21Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,551.81",
-      "ch": "-0.45%",
-      "dir": -1
+      "vl": "7,623.42",
+      "ch": "+0.95%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,978",
-      "ch": "-0.01%",
-      "dir": -1
+      "vl": "26,306",
+      "ch": "+1.26%",
+      "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,462",
-      "ch": "-1.21%",
-      "dir": -1
+      "vl": "51,754",
+      "ch": "+0.57%",
+      "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "17.71",
-      "ch": "+2.97%",
-      "dir": 1
+      "vl": "15.43",
+      "ch": "-12.87%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.64%",
+      "vl": "3.62%",
       "ch": "",
       "dir": 0
     },
@@ -110,22 +110,17 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.45%",
-    "standfirst": "At the last close: S&P 500 7,551.81 (-0.45%); Nasdaq 25,978 (-0.01%); Dow 51,462 (-1.21%). VIX 17.71 (+2.97%).",
+    "headline": "The S&P 500 rose 0.95%",
+    "standfirst": "At the last close: S&P 500 7,623.42 (+0.95%); Nasdaq 26,306 (+1.26%); Dow 51,754 (+0.57%). VIX 15.43 (-12.87%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "BXP led at +0.31%; VMRK lagged at -4.02%."
+      "6 of 6 names on the watchlist closed higher.",
+      "BXP led at +0.95%; SPG lagged at +0.30%."
     ],
-    "card2_title": "On the calendar today",
-    "card2_sub": "Scheduled economic releases (ET)",
+    "card2_title": "Coming up",
+    "card2_sub": "Next scheduled economic releases (ET)",
     "catalysts": [
-      {
-        "when": "14:00 ET · Today",
-        "title": "FOMC decision",
-        "body": "Rate decision plus the quarterly Summary of Economic Projections and dot plot. Press conference at 2:30 ET."
-      },
       {
         "when": "Tue · Sep 29",
         "title": "JOLTS job openings",
@@ -145,59 +140,64 @@
         "when": "Wed · Oct 14",
         "title": "Consumer Price Index",
         "body": "September CPI, headline and core."
+      },
+      {
+        "when": "Thu · Oct 15",
+        "title": "Producer Price Index",
+        "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 16"
+    "quote_note": "Quotes ~15-min delayed · as of 9:36 AM ET, Sep 17"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,551.81",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.45%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">7,601.25</span> · <span class=\"up mono\">+14.4%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "25,978",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.01%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">26,108</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "51,462",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "1.21%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">52,115</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "17.71",
+      "val": "7,623.42",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "2.97%",
+        "txt": "0.95%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">16.91</span>"
+      "note": "Open <span class=\"mono\">7,631.44</span> · <span class=\"up mono\">+15.5%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "26,306",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "1.26%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">26,378</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "51,754",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.57%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">51,883</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "15.43",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "12.87%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">16.03</span>"
     }
   ],
   "economy": {
     "headline": "Policy and prices: the federal funds target at 3.50-3.75%, headline CPI at 3.7% year over year, core PCE at 3.3%",
-    "standfirst": "Real GDP was last reported at 1.5% annualized. The IMF puts world real growth at 3.3%. The next FOMC decision is scheduled for September 16.",
+    "standfirst": "Real GDP was last reported at 1.5% annualized. The IMF puts world real growth at 3.3%. The next FOMC decision is scheduled for October 28.",
     "body": [
       "CPI stands at 3.7% and core PCE at 3.3%, against the Federal Reserve's stated 2% objective.",
       "The target range has been 3.50-3.75% as of the most recent decision."
@@ -211,7 +211,7 @@
       "tone": "",
       "pill": {
         "cls": "watch",
-        "txt": "Sep 16 decision"
+        "txt": "Oct 28 decision"
       }
     },
     {
@@ -336,6 +336,30 @@
   },
   "headlines": [
     {
+      "when": "Sep 17",
+      "title": "Bank of England defies Fed’s rate-hike lead, leaving rates unchanged",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html"
+    },
+    {
+      "when": "Sep 17",
+      "title": "OpenAI and Anthropic are making 10 times more revenue than all Chinese AI models combined, research group Rhodium says",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/17/chinas-ai-models-make-only-10percent-of-us-leaders-revenue-rhodium.html"
+    },
+    {
+      "when": "Sep 17",
+      "title": "UK inflation jumps to 3.1% as energy costs soar",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+    },
+    {
       "when": "Sep 16",
       "title": "Here are five key takeaways from Wednesday's Fed rate hike",
       "blurb": "",
@@ -358,34 +382,10 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
-    },
-    {
-      "when": "Sep 16",
-      "title": "Here is what changed in the new Fed statement under Warsh",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/16/september-fed-statement-redline.html"
-    },
-    {
-      "when": "Sep 16",
-      "title": "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
-    },
-    {
-      "when": "Sep 16",
-      "title": "Senate is still a toss-up, but Democrats now have slight edge, prediction market traders think",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/16/prediction-markets-say-democrats-are-slightly-favored-to-win-senate.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.01%, overnight SOFR at 3.64%",
+    "headline": "The 10-year at 5.01%, overnight SOFR at 3.62%",
     "standfirst": "An illustrative agency coupon prices at 6.36–6.66%. The Freddie Mac 30-year survey rate is 6.76%.",
     "curve_date": "Sep 16, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.64",
+      "val": "3.62",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Digital Financial Services Firm Zip Takes 13K SF at Rudin’s 41 Madison Avenue",
+      "when": "Sep 17",
+      "link": "https://commercialobserver.com/2026/09/zip-lease-rudin-41-madison-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Get to Know the Broker: Ian Slater of Compass’ Trove Partners",
+      "when": "Sep 17",
+      "link": "https://commercialobserver.com/2026/09/get-to-know-the-broker-ian-slater-compass-trove-partners/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Warehub Founder James Holbrook On Industrial’s Flexibility Needs",
+      "when": "Sep 17",
+      "link": "https://commercialobserver.com/2026/09/warehub-james-holbrook-industrial/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "The Problem With Fake Buyers",
+      "when": "Sep 17",
+      "link": "https://commercialobserver.com/2026/09/nyc-real-estate-residential-fake-buyers/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "CIBC Supplies $102M Refi for SkyREM Industrial Portfolio",
       "when": "Sep 16",
       "link": "https://commercialobserver.com/2026/09/skyrem-refinance-industrial-portfolio-cibc-loan/"
@@ -442,30 +466,6 @@
       "title": "As Fed Hikes Rates for First Time Since 2023, Commercial Real Estate Comes to Terms",
       "when": "Sep 16",
       "link": "https://commercialobserver.com/2026/09/fed-interest-rate-hike-kevin-warsh/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Law Firm Greenberg Traurig Expands to 133K SF at One Vanderbilt",
-      "when": "Sep 16",
-      "link": "https://commercialobserver.com/2026/09/greenberg-traurig-lease-expansion-one-vanderbilt/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "In Pro-Development South Florida, NIMBYism Rises",
-      "when": "Sep 16",
-      "link": "https://commercialobserver.com/2026/09/south-florida-nimby/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "George Soros Puts Argonaut Building on the Market for Roughly $100M",
-      "when": "Sep 16",
-      "link": "https://commercialobserver.com/2026/09/george-soros-argonaut-sale-224-west-57th-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "IMG Worldwide Renews 90K SF at SL Green’s 304 Park Avenue South",
-      "when": "Sep 16",
-      "link": "https://commercialobserver.com/2026/09/img-worldwide-lease-renewal-304-park-avenue-south/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.74",
-      "chg": "-1.77%",
-      "dir": -1
+      "price": "73.04",
+      "chg": "+0.41%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.48",
-      "chg": "-0.66%",
-      "dir": -1
+      "price": "94.11",
+      "chg": "+0.67%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.04",
-      "chg": "+0.31%",
+      "price": "64.65",
+      "chg": "+0.95%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "133.74",
-      "chg": "-1.55%",
-      "dir": -1
+      "price": "134.49",
+      "chg": "+0.56%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.99",
-      "chg": "-4.02%",
-      "dir": -1
+      "price": "63.33",
+      "chg": "+0.54%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "202.94",
-      "chg": "-0.57%",
-      "dir": -1
+      "price": "203.54",
+      "chg": "+0.30%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
