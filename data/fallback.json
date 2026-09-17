@@ -3,48 +3,48 @@
     "date_line": "Thursday · Sep 17, 2026",
     "as_of": "Auto-compiled from public sources · Sep 17, 2026",
     "compiled": "Compiled Sep 17, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-17T18:22:21Z"
+    "generated_utc": "2026-09-17T22:56:06Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,638.90",
-      "ch": "+1.15%",
+      "vl": "7,637.76",
+      "ch": "+1.14%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,398",
-      "ch": "+1.62%",
+      "vl": "26,418",
+      "ch": "+1.69%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,844",
-      "ch": "+0.74%",
+      "vl": "51,778",
+      "ch": "+0.61%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.55",
-      "ch": "-12.20%",
+      "vl": "15.44",
+      "ch": "-12.82%",
       "dir": -1
     },
     {
       "nm": "10Y UST",
-      "vl": "5.01%",
+      "vl": "4.94%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.74%",
+      "vl": "4.67%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.35%",
+      "vl": "5.29%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 1.15%",
-    "standfirst": "At the last close: S&P 500 7,638.90 (+1.15%); Nasdaq 26,398 (+1.62%); Dow 51,844 (+0.74%). VIX 15.55 (-12.20%).",
+    "headline": "The S&P 500 rose 1.14%",
+    "standfirst": "At the last close: S&P 500 7,637.76 (+1.14%); Nasdaq 26,418 (+1.69%); Dow 51,778 (+0.61%). VIX 15.44 (-12.82%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "SPG led at +1.20%; BXP lagged at +0.23%."
+      "4 of 6 names on the watchlist closed higher.",
+      "PLD led at +1.08%; BXP lagged at -0.17%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 2:21 PM ET, Sep 17"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 17"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,638.90",
+      "val": "7,637.76",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.15%",
+        "txt": "1.14%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,631.44</span> · <span class=\"up mono\">+15.7%</span> YoY"
+      "note": "Open <span class=\"mono\">7,631.44</span> · <span class=\"up mono\">+15.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,398",
+      "val": "26,418",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.62%",
+        "txt": "1.69%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,378</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,844",
+      "val": "51,778",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.74%",
+        "txt": "0.61%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,883</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.55",
+      "val": "15.44",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "12.20%",
+        "txt": "12.82%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.03</span>"
@@ -290,7 +290,7 @@
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +27 bps; 3m10y +87 bps; 5s30s +49 bps; 10s30s +34 bps."
+      "Across the curve: 2s10s +27 bps; 3m10y +82 bps; 5s30s +51 bps; 10s30s +35 bps."
     ]
   },
   "credit_tiles": [
@@ -385,9 +385,9 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.01%, overnight SOFR at 3.62%",
-    "standfirst": "An illustrative agency coupon prices at 6.36–6.66%. The Freddie Mac 30-year survey rate is 6.95%.",
-    "curve_date": "Sep 16, 2026",
+    "headline": "The 10-year at 4.94%, overnight SOFR at 3.62%",
+    "standfirst": "An illustrative agency coupon prices at 6.29–6.59%. The Freddie Mac 30-year survey rate is 6.95%.",
+    "curve_date": "Sep 17, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,14 +398,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "5.01",
+      "val": "4.94",
       "unit": "%",
       "tone": "",
       "note": "2s10s curve spread: <span class=\"mono\">+27 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.74",
+      "val": "4.67",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,6 +433,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Beer-Importing Holterbosch Family Offloads LIC Warehouse for $95M",
+      "when": "Sep 17",
+      "link": "https://commercialobserver.com/2026/09/holterbosch-family-sale-10-01-45th-road/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Juanita’s Foods to Consolidate L.A. Production at 120K-SF Facility",
+      "when": "Sep 17",
+      "link": "https://commercialobserver.com/2026/09/juanitas-foods-la-lease/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Knighthead Lends $63M or Doral, Fla., Industrial Portfolio Buy",
+      "when": "Sep 17",
+      "link": "https://commercialobserver.com/2026/09/knighthead-doral-florida-industrial/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Ares Management, PSP Investments Form $2.4B U.S. Logistics Partnership",
       "when": "Sep 17",
       "link": "https://commercialobserver.com/2026/09/ares-management-psp-investments-logistics-partnership/"
@@ -448,24 +466,6 @@
       "title": "Borough Developers Closes on $84M Sale of Downtown Brooklyn Development Site",
       "when": "Sep 17",
       "link": "https://commercialobserver.com/2026/09/borough-developers-sale-downtown-brooklyn-development-site-485-fulton-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Capital Insight Acquires Hudson Yards Hotel Property in Foreclosure Auction",
-      "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/capital-insight-acquires-511-ninth-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "ACORE Claims Keys to Would-be Life Sciences Facility in Hell’s Kitchen",
-      "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/acore-acquires-beacon-captial-life-sciences-conversion-707-11th-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Jewelry Brand Julie Vos Signs 14K-SF Office Lease at 218-232 West 40th Street",
-      "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/julie-vos-office-lease-218-232-west-40th-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -511,17 +511,17 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.36–6.66",
+      "val": "6.29–6.59",
       "unit": "%",
       "tone": "",
-      "note": "10Y (5.01%) + 135–165 bp agency spread"
+      "note": "10Y (4.94%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
     "2s10s": "+27",
-    "3m10y": "+87",
-    "5s30s": "+49",
-    "10s30s": "+34"
+    "3m10y": "+82",
+    "5s30s": "+51",
+    "10s30s": "+35"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.08",
-      "chg": "+0.47%",
+      "price": "72.74",
+      "chg": "+0.00%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.00",
-      "chg": "+0.55%",
+      "price": "93.81",
+      "chg": "+0.35%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.19",
-      "chg": "+0.23%",
-      "dir": 1
+      "price": "63.93",
+      "chg": "-0.17%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.20",
-      "chg": "+1.09%",
+      "price": "135.18",
+      "chg": "+1.08%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.34",
-      "chg": "+0.56%",
+      "price": "63.01",
+      "chg": "+0.03%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.38",
-      "chg": "+1.20%",
+      "price": "204.47",
+      "chg": "+0.75%",
       "dir": 1
     }
   ],
@@ -651,84 +651,84 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 3.96,
+      "y": 3.97,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.14,
+      "y": 4.12,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.22,
+      "y": 4.2,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.45,
+      "y": 4.4,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.74,
+      "y": 4.67,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.82,
+      "y": 4.75,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.86,
+      "y": 4.78,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.94,
+      "y": 4.86,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 5.01,
+      "y": 4.94,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.39,
+      "y": 5.32,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.35,
+      "y": 5.29,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.51
+    "new": 6.44
   },
   "orig": {
     "y2025": 633.7,
