@@ -3,31 +3,31 @@
     "date_line": "Thursday · Sep 17, 2026",
     "as_of": "Auto-compiled from public sources · Sep 17, 2026",
     "compiled": "Compiled Sep 17, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-17T13:37:21Z"
+    "generated_utc": "2026-09-17T13:50:49Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,623.42",
-      "ch": "+0.95%",
+      "vl": "7,626.30",
+      "ch": "+0.99%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,306",
-      "ch": "+1.26%",
+      "vl": "26,319",
+      "ch": "+1.31%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,754",
-      "ch": "+0.57%",
+      "vl": "51,747",
+      "ch": "+0.55%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.43",
-      "ch": "-12.87%",
+      "vl": "15.66",
+      "ch": "-11.58%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.95%",
-    "standfirst": "At the last close: S&P 500 7,623.42 (+0.95%); Nasdaq 26,306 (+1.26%); Dow 51,754 (+0.57%). VIX 15.43 (-12.87%).",
+    "headline": "The S&P 500 rose 0.99%",
+    "standfirst": "At the last close: S&P 500 7,626.30 (+0.99%); Nasdaq 26,319 (+1.31%); Dow 51,747 (+0.55%). VIX 15.66 (-11.58%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "6 of 6 names on the watchlist closed higher.",
-      "BXP led at +0.95%; SPG lagged at +0.30%."
+      "PLD led at +0.84%; KRE lagged at +0.29%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:36 AM ET, Sep 17"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 17"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,623.42",
+      "val": "7,626.30",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.95%",
+        "txt": "0.99%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,631.44</span> · <span class=\"up mono\">+15.5%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,306",
+      "val": "26,319",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.26%",
+        "txt": "1.31%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,378</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,754",
+      "val": "51,747",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.57%",
+        "txt": "0.55%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,883</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.43",
+      "val": "15.66",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "12.87%",
+        "txt": "11.58%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.03</span>"
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Shorenstein to Buy Fully Leased SoHo Office Property From Tishman Speyer",
+      "when": "Sep 17",
+      "link": "https://commercialobserver.com/2026/09/shorenstein-buy-fully-leased-soho-office-property-tishman-speyer/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Digital Financial Services Firm Zip Takes 13K SF at Rudin’s 41 Madison Avenue",
       "when": "Sep 17",
       "link": "https://commercialobserver.com/2026/09/zip-lease-rudin-41-madison-avenue/"
@@ -460,12 +466,6 @@
       "title": "CIBC Supplies $102M Refi for SkyREM Industrial Portfolio",
       "when": "Sep 16",
       "link": "https://commercialobserver.com/2026/09/skyrem-refinance-industrial-portfolio-cibc-loan/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "As Fed Hikes Rates for First Time Since 2023, Commercial Real Estate Comes to Terms",
-      "when": "Sep 16",
-      "link": "https://commercialobserver.com/2026/09/fed-interest-rate-hike-kevin-warsh/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,8 +606,8 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.04",
-      "chg": "+0.41%",
+      "price": "72.95",
+      "chg": "+0.29%",
       "dir": 1
     },
     {
@@ -620,29 +620,29 @@
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.65",
-      "chg": "+0.95%",
+      "price": "64.45",
+      "chg": "+0.64%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "134.49",
-      "chg": "+0.56%",
+      "price": "134.87",
+      "chg": "+0.84%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.33",
-      "chg": "+0.54%",
+      "price": "63.34",
+      "chg": "+0.56%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "203.54",
-      "chg": "+0.30%",
+      "price": "204.27",
+      "chg": "+0.66%",
       "dir": 1
     }
   ],
