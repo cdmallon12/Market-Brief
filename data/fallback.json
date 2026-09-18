@@ -3,31 +3,31 @@
     "date_line": "Friday · Sep 18, 2026",
     "as_of": "Auto-compiled from public sources · Sep 18, 2026",
     "compiled": "Compiled Sep 18, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-18T13:50:51Z"
+    "generated_utc": "2026-09-18T17:14:07Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,635.61",
-      "ch": "-0.03%",
+      "vl": "7,623.03",
+      "ch": "-0.19%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,470",
-      "ch": "+0.20%",
-      "dir": 1
+      "vl": "26,397",
+      "ch": "-0.08%",
+      "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,633",
-      "ch": "-0.28%",
+      "vl": "51,556",
+      "ch": "-0.43%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.26",
-      "ch": "-1.17%",
+      "vl": "15.40",
+      "ch": "-0.26%",
       "dir": -1
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "0.96%",
+      "vl": "0.95%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 was little changed",
-    "standfirst": "At the last close: S&P 500 7,635.61 (-0.03%); Nasdaq 26,470 (+0.20%); Dow 51,633 (-0.28%). VIX 15.26 (-1.17%).",
+    "headline": "The S&P 500 edged lower 0.19%",
+    "standfirst": "At the last close: S&P 500 7,623.03 (-0.19%); Nasdaq 26,397 (-0.08%); Dow 51,556 (-0.43%). VIX 15.40 (-0.26%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "BXP led at -0.29%; VMRK lagged at -1.14%."
+      "SPG led at -0.19%; VMRK lagged at -2.10%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 18"
+    "quote_note": "Quotes ~15-min delayed · as of 1:13 PM ET, Sep 18"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,635.61",
+      "val": "7,623.03",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.03%",
+        "txt": "0.19%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,657.17</span> · <span class=\"up mono\">+15.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,657.17</span> · <span class=\"up mono\">+14.9%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,470",
-      "tone": "pos",
+      "val": "26,397",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.20%",
+        "dir": -1,
+        "txt": "0.08%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,522</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,633",
+      "val": "51,556",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.28%",
+        "txt": "0.43%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,827</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.26",
+      "val": "15.40",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.17%",
+        "txt": "0.26%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.07</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.96%, high-yield at 2.70%",
-    "standfirst": "The high-yield premium over investment grade is 1.74 percentage points. The 2s10s Treasury spread is +27 bps.",
+    "headline": "Investment-grade OAS at 0.95%, high-yield at 2.70%",
+    "standfirst": "The high-yield premium over investment grade is 1.75 percentage points. The 2s10s Treasury spread is +27 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,13 +296,13 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "0.96",
+      "val": "0.95",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "-0.02pp",
+        "txt": "-0.01pp",
         "note": "tighter"
       }
     },
@@ -314,20 +314,20 @@
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "-0.06pp",
-        "note": "tighter"
+        "txt": "+0.00pp",
+        "note": "flat"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "1.74",
+      "val": "1.75",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 0.96,
+    "ig": 0.95,
     "hy": 2.7
   },
   "news": {
@@ -335,6 +335,14 @@
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Sep 18",
+      "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html"
+    },
     {
       "when": "Sep 18",
       "title": "Warren Buffett steps down as chairman of Berkshire Hathaway: 'Father Time always wins'",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html"
-    },
-    {
-      "when": "Sep 17",
-      "title": "OpenAI and Anthropic are making 10 times more revenue than all Chinese AI models combined, research group Rhodium says",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/17/chinas-ai-models-make-only-10percent-of-us-leaders-revenue-rhodium.html"
     }
   ],
   "cre": {
@@ -433,13 +433,31 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Stroller Brand Uppababy Relocates Store to 156 Montague Street in Brooklyn Heights",
+      "when": "Sep 18",
+      "link": "https://commercialobserver.com/2026/09/uppababy-lease-156-montague-street-brooklyn/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Institutional and Private Equity Investors: Their Commercial Real Estate Hot Takes",
+      "when": "Sep 18",
+      "link": "https://commercialobserver.com/2026/09/institutional-private-equity-forum-2026-commercial-observer/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "A Different Downtown San Diego Is Taking Shape",
+      "when": "Sep 18",
+      "link": "https://commercialobserver.com/2026/09/downtown-san-diego-mccullough/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "BridgeInvest Provides $114M Refi for Robert Rivani ‘Concierge Office’ in Miami Beach",
       "when": "Sep 18",
       "link": "https://commercialobserver.com/2026/09/bridgeinvest-114m-refi-robert-rivani-office-miami-beach/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Vaja Group Acquires Astoria Development Site at 24-41 31st Street for $26M",
+      "title": "Vaja Group to Acquire Astoria Development Site at 24-41 31st Street for $26M",
       "when": "Sep 18",
       "link": "https://commercialobserver.com/2026/09/vaja-group-buys-astoria-development-site-24-41-31st-street/"
     },
@@ -448,24 +466,6 @@
       "title": "Beer-Importing Holterbosch Family Offloads LIC Warehouse for $95M",
       "when": "Sep 17",
       "link": "https://commercialobserver.com/2026/09/holterbosch-family-sale-10-01-45th-road/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Juanita’s Foods to Consolidate L.A. Production at 120K-SF Facility",
-      "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/juanitas-foods-la-lease/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Knighthead Lends $63M for Doral, Fla., Industrial Portfolio Buy",
-      "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/knighthead-doral-florida-industrial/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Ares Management, PSP Investments Form $2.4B U.S. Logistics Partnership",
-      "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/ares-management-psp-investments-logistics-partnership/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.19",
-      "chg": "-0.76%",
+      "price": "72.44",
+      "chg": "-0.41%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.12",
-      "chg": "-0.74%",
+      "price": "93.18",
+      "chg": "-0.67%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.74",
-      "chg": "-0.29%",
+      "price": "63.67",
+      "chg": "-0.41%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "134.31",
-      "chg": "-0.65%",
+      "price": "134.33",
+      "chg": "-0.63%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.29",
-      "chg": "-1.14%",
+      "price": "61.69",
+      "chg": "-2.10%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "203.34",
-      "chg": "-0.55%",
+      "price": "204.08",
+      "chg": "-0.19%",
       "dir": -1
     }
   ],
