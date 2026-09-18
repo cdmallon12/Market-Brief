@@ -3,32 +3,32 @@
     "date_line": "Friday · Sep 18, 2026",
     "as_of": "Auto-compiled from public sources · Sep 18, 2026",
     "compiled": "Compiled Sep 18, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-18T13:03:19Z"
+    "generated_utc": "2026-09-18T13:50:51Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,637.76",
-      "ch": "+1.14%",
-      "dir": 1
+      "vl": "7,635.61",
+      "ch": "-0.03%",
+      "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,418",
-      "ch": "+1.69%",
+      "vl": "26,470",
+      "ch": "+0.20%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,778",
-      "ch": "+0.61%",
-      "dir": 1
+      "vl": "51,633",
+      "ch": "-0.28%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.50",
-      "ch": "+0.39%",
-      "dir": 1
+      "vl": "15.26",
+      "ch": "-1.17%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 1.14%",
-    "standfirst": "At the last close: S&P 500 7,637.76 (+1.14%); Nasdaq 26,418 (+1.69%); Dow 51,778 (+0.61%). VIX 15.50 (+0.39%).",
+    "headline": "The S&P 500 was little changed",
+    "standfirst": "At the last close: S&P 500 7,635.61 (-0.03%); Nasdaq 26,470 (+0.20%); Dow 51,633 (-0.28%). VIX 15.26 (-1.17%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "4 of 6 names on the watchlist closed higher.",
-      "PLD led at +1.08%; BXP lagged at -0.17%."
+      "0 of 6 names on the watchlist closed higher.",
+      "BXP led at -0.29%; VMRK lagged at -1.14%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 8:46 AM ET, Sep 18"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 18"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,637.76",
-      "tone": "pos",
+      "val": "7,635.61",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "1.14%",
+        "dir": -1,
+        "txt": "0.03%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">7,551.81</span> · <span class=\"up mono\">+15.2%</span> YoY"
+      "note": "Open <span class=\"mono\">7,657.17</span> · <span class=\"up mono\">+15.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,418",
+      "val": "26,470",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.69%",
+        "txt": "0.20%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">25,978</span>"
+      "note": "Open <span class=\"mono\">26,522</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,778",
-      "tone": "pos",
+      "val": "51,633",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.61%",
+        "dir": -1,
+        "txt": "0.28%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">51,462</span>"
+      "note": "Open <span class=\"mono\">51,827</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.50",
-      "tone": "pos",
+      "val": "15.26",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.39%",
+        "dir": -1,
+        "txt": "1.17%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.07</span>"
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "BridgeInvest Provides $114M Refi for Robert Rivani ‘Concierge Office’ in Miami Beach",
+      "when": "Sep 18",
+      "link": "https://commercialobserver.com/2026/09/bridgeinvest-114m-refi-robert-rivani-office-miami-beach/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Vaja Group Acquires Astoria Development Site at 24-41 31st Street for $26M",
       "when": "Sep 18",
       "link": "https://commercialobserver.com/2026/09/vaja-group-buys-astoria-development-site-24-41-31st-street/"
@@ -451,7 +457,7 @@
     },
     {
       "source": "Commercial Observer",
-      "title": "Knighthead Lends $63M or Doral, Fla., Industrial Portfolio Buy",
+      "title": "Knighthead Lends $63M for Doral, Fla., Industrial Portfolio Buy",
       "when": "Sep 17",
       "link": "https://commercialobserver.com/2026/09/knighthead-doral-florida-industrial/"
     },
@@ -460,12 +466,6 @@
       "title": "Ares Management, PSP Investments Form $2.4B U.S. Logistics Partnership",
       "when": "Sep 17",
       "link": "https://commercialobserver.com/2026/09/ares-management-psp-investments-logistics-partnership/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Wells Fargo Refis Long Island City Apartments With $115M Fannie Mae Loan",
-      "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/wells-fargo-long-island-city-queens-apartments/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.74",
-      "chg": "+0.00%",
-      "dir": 1
+      "price": "72.19",
+      "chg": "-0.76%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.81",
-      "chg": "+0.35%",
-      "dir": 1
+      "price": "93.12",
+      "chg": "-0.74%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.93",
-      "chg": "-0.17%",
+      "price": "63.74",
+      "chg": "-0.29%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.18",
-      "chg": "+1.08%",
-      "dir": 1
+      "price": "134.31",
+      "chg": "-0.65%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.01",
-      "chg": "+0.03%",
-      "dir": 1
+      "price": "62.29",
+      "chg": "-1.14%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.47",
-      "chg": "+0.75%",
-      "dir": 1
+      "price": "203.34",
+      "chg": "-0.55%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
