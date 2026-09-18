@@ -3,48 +3,48 @@
     "date_line": "Friday · Sep 18, 2026",
     "as_of": "Auto-compiled from public sources · Sep 18, 2026",
     "compiled": "Compiled Sep 18, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-18T17:44:48Z"
+    "generated_utc": "2026-09-18T22:41:31Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,627.42",
-      "ch": "-0.14%",
-      "dir": -1
+      "vl": "7,650.50",
+      "ch": "+0.17%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,415",
-      "ch": "-0.01%",
-      "dir": -1
+      "vl": "26,523",
+      "ch": "+0.39%",
+      "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,593",
-      "ch": "-0.36%",
+      "vl": "51,683",
+      "ch": "-0.18%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.38",
-      "ch": "-0.39%",
+      "vl": "14.81",
+      "ch": "-4.08%",
       "dir": -1
     },
     {
       "nm": "10Y UST",
-      "vl": "4.94%",
+      "vl": "5.01%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.67%",
+      "vl": "4.76%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.29%",
+      "vl": "5.34%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.14%",
-    "standfirst": "At the last close: S&P 500 7,627.42 (-0.14%); Nasdaq 26,415 (-0.01%); Dow 51,593 (-0.36%). VIX 15.38 (-0.39%).",
+    "headline": "The S&P 500 edged higher 0.17%",
+    "standfirst": "At the last close: S&P 500 7,650.50 (+0.17%); Nasdaq 26,523 (+0.39%); Dow 51,683 (-0.18%). VIX 14.81 (-4.08%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "0 of 6 names on the watchlist closed higher.",
-      "SPG led at -0.19%; VMRK lagged at -2.22%."
+      "2 of 6 names on the watchlist closed higher.",
+      "SPG led at +0.42%; VMRK lagged at -2.84%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:44 PM ET, Sep 18"
+    "quote_note": "Quotes ~15-min delayed · as of 5:52 PM ET, Sep 18"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,627.42",
-      "tone": "neg",
+      "val": "7,650.50",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.14%",
+        "dir": 1,
+        "txt": "0.17%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,657.17</span> · <span class=\"up mono\">+15.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,657.17</span> · <span class=\"up mono\">+14.8%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,415",
-      "tone": "neg",
+      "val": "26,523",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.01%",
+        "dir": 1,
+        "txt": "0.39%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,522</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,593",
+      "val": "51,683",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.36%",
+        "txt": "0.18%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,827</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.38",
+      "val": "14.81",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.39%",
+        "txt": "4.08%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.07</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 0.95%, high-yield at 2.70%",
-    "standfirst": "The high-yield premium over investment grade is 1.75 percentage points. The 2s10s Treasury spread is +27 bps.",
+    "standfirst": "The high-yield premium over investment grade is 1.75 percentage points. The 2s10s Treasury spread is +25 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +27 bps; 3m10y +82 bps; 5s30s +51 bps; 10s30s +35 bps."
+      "Across the curve: 2s10s +25 bps; 3m10y +87 bps; 5s30s +48 bps; 10s30s +33 bps."
     ]
   },
   "credit_tiles": [
@@ -385,9 +385,9 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.94%, overnight SOFR at 3.85%",
-    "standfirst": "An illustrative agency coupon prices at 6.29–6.59%. The Freddie Mac 30-year survey rate is 6.95%.",
-    "curve_date": "Sep 17, 2026",
+    "headline": "The 10-year at 5.01%, overnight SOFR at 3.85%",
+    "standfirst": "An illustrative agency coupon prices at 6.36–6.66%. The Freddie Mac 30-year survey rate is 6.95%.",
+    "curve_date": "Sep 18, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,14 +398,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "4.94",
+      "val": "5.01",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+27 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+25 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.67",
+      "val": "4.76",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Asian-American Deli Café Hestia Signs 8K-SF Lease at 570 Lexington Avenue",
+      "when": "Sep 18",
+      "link": "https://commercialobserver.com/2026/09/cafe-hestia-lease-570-lexington-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Edgewood Capital Provides $28M Refi for Fort Lauderdale Condo Project",
+      "when": "Sep 18",
+      "link": "https://commercialobserver.com/2026/09/edgewood-capital-fort-lauderdale-condos/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Decron Properties Buys 163-Unit Property in L.A.’s Miracle Mile for $114M",
+      "when": "Sep 18",
+      "link": "https://commercialobserver.com/2026/09/la-decron-miracle-mile-wilshire/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Corebridge Financial Refis Meatpacking Office Property With $293M Loan",
+      "when": "Sep 18",
+      "link": "https://commercialobserver.com/2026/09/corebridge-40-tenth-avenue-meatpacking-district-office/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Stroller Brand Uppababy Relocates Store to 156 Montague Street in Brooklyn Heights",
       "when": "Sep 18",
       "link": "https://commercialobserver.com/2026/09/uppababy-lease-156-montague-street-brooklyn/"
@@ -442,30 +466,6 @@
       "title": "Institutional and Private Equity Investors: Their Commercial Real Estate Hot Takes",
       "when": "Sep 18",
       "link": "https://commercialobserver.com/2026/09/institutional-private-equity-forum-2026-commercial-observer/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "A Different Downtown San Diego Is Taking Shape",
-      "when": "Sep 18",
-      "link": "https://commercialobserver.com/2026/09/downtown-san-diego-mccullough/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "BridgeInvest Provides $114M Refi for Robert Rivani ‘Concierge Office’ in Miami Beach",
-      "when": "Sep 18",
-      "link": "https://commercialobserver.com/2026/09/bridgeinvest-114m-refi-robert-rivani-office-miami-beach/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Vaja Group to Acquire Astoria Development Site at 24-41 31st Street for $26M",
-      "when": "Sep 18",
-      "link": "https://commercialobserver.com/2026/09/vaja-group-buys-astoria-development-site-24-41-31st-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Beer-Importing Holterbosch Family Offloads LIC Warehouse for $95M",
-      "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/holterbosch-family-sale-10-01-45th-road/"
     }
   ],
   "cre_fund_tiles": [
@@ -511,17 +511,17 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.29–6.59",
+      "val": "6.36–6.66",
       "unit": "%",
       "tone": "",
-      "note": "10Y (4.94%) + 135–165 bp agency spread"
+      "note": "10Y (5.01%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+27",
-    "3m10y": "+82",
-    "5s30s": "+51",
-    "10s30s": "+35"
+    "2s10s": "+25",
+    "3m10y": "+87",
+    "5s30s": "+48",
+    "10s30s": "+33"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.51",
-      "chg": "-0.32%",
-      "dir": -1
+      "price": "72.75",
+      "chg": "+0.01%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.22",
-      "chg": "-0.63%",
+      "price": "92.91",
+      "chg": "-0.96%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.70",
-      "chg": "-0.35%",
+      "price": "63.17",
+      "chg": "-1.19%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "134.50",
-      "chg": "-0.51%",
+      "price": "134.84",
+      "chg": "-0.25%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.61",
-      "chg": "-2.22%",
+      "price": "61.22",
+      "chg": "-2.84%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.09",
-      "chg": "-0.19%",
-      "dir": -1
+      "price": "205.32",
+      "chg": "+0.42%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
@@ -658,77 +658,77 @@
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.12,
+      "y": 4.14,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.2,
+      "y": 4.24,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.4,
+      "y": 4.44,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.67,
+      "y": 4.76,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.75,
+      "y": 4.83,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.78,
+      "y": 4.86,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.86,
+      "y": 4.93,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 4.94,
+      "y": 5.01,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.32,
+      "y": 5.38,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.29,
+      "y": 5.34,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.44
+    "new": 6.51
   },
   "orig": {
     "y2025": 633.7,
