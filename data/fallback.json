@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date_line": "Thursday · Sep 17, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 17, 2026",
-    "compiled": "Compiled Sep 17, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-18T01:20:21Z"
+    "date_line": "Friday · Sep 18, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 18, 2026",
+    "compiled": "Compiled Sep 18, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-18T13:03:19Z"
   },
   "ticker": [
     {
@@ -26,9 +26,9 @@
     },
     {
       "nm": "VIX",
-      "vl": "15.44",
-      "ch": "-12.82%",
-      "dir": -1
+      "vl": "15.50",
+      "ch": "+0.39%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.62%",
+      "vl": "3.85%",
       "ch": "",
       "dir": 0
     },
@@ -111,12 +111,12 @@
   ],
   "markets": {
     "headline": "The S&P 500 rose 1.14%",
-    "standfirst": "At the last close: S&P 500 7,637.76 (+1.14%); Nasdaq 26,418 (+1.69%); Dow 51,778 (+0.61%). VIX 15.44 (-12.82%).",
+    "standfirst": "At the last close: S&P 500 7,637.76 (+1.14%); Nasdaq 26,418 (+1.69%); Dow 51,778 (+0.61%). VIX 15.50 (+0.39%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "2 of 6 names on the watchlist closed higher.",
-      "SPG led at +0.18%; VMRK lagged at -3.99%."
+      "4 of 6 names on the watchlist closed higher.",
+      "PLD led at +1.08%; BXP lagged at -0.17%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,7 +147,7 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 17"
+    "quote_note": "Quotes ~15-min delayed · as of 8:46 AM ET, Sep 18"
   },
   "markets_tiles": [
     {
@@ -159,7 +159,7 @@
         "txt": "1.14%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,631.44</span> · <span class=\"up mono\">+15.2%</span> YoY"
+      "note": "Prior close <span class=\"mono\">7,551.81</span> · <span class=\"up mono\">+15.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
@@ -170,7 +170,7 @@
         "txt": "1.69%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">26,378</span>"
+      "note": "Prior close <span class=\"mono\">25,978</span>"
     },
     {
       "lbl": "Dow Jones",
@@ -181,18 +181,18 @@
         "txt": "0.61%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">51,883</span>"
+      "note": "Prior close <span class=\"mono\">51,462</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.44",
-      "tone": "neg",
+      "val": "15.50",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "12.82%",
+        "dir": 1,
+        "txt": "0.39%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">16.03</span>"
+      "note": "Open <span class=\"mono\">15.07</span>"
     }
   ],
   "economy": {
@@ -336,20 +336,36 @@
   },
   "headlines": [
     {
+      "when": "Sep 18",
+      "title": "Warren Buffett steps down as chairman of Berkshire Hathaway: 'Father Time always wins'",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/18/buffett-stepping-down-as-berkshire-chairman.html"
+    },
+    {
+      "when": "Sep 18",
+      "title": "A Chinese AI company just connected its model to Wall Street's leading data providers",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/17/china-moonshot-kimi-financial-services.html"
+    },
+    {
+      "when": "Sep 18",
+      "title": "Why Japan’s markets flipped the usual script after central bank rate hike",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html"
+    },
+    {
       "when": "Sep 17",
       "title": "Securitize jumps after regulators greenlight some tokenized U.S. stock trading",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/17/securitize-jumps-after-regulators-greenlight-tokenized-us-stocks.html"
-    },
-    {
-      "when": "Sep 17",
-      "title": "A Chinese AI company just connected its model to Wall Street's leading data providers",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/17/china-moonshot-kimi-financial-services.html"
     },
     {
       "when": "Sep 17",
@@ -366,26 +382,10 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/17/chinas-ai-models-make-only-10percent-of-us-leaders-revenue-rhodium.html"
-    },
-    {
-      "when": "Sep 17",
-      "title": "UK inflation jumps to 3.1% as energy costs soar",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
-    },
-    {
-      "when": "Sep 16",
-      "title": "Here are five key takeaways from Wednesday's Fed rate hike",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/16/here-are-five-key-takeaways-from-wednesdays-fed-rate-hike.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.94%, overnight SOFR at 3.62%",
+    "headline": "The 10-year at 4.94%, overnight SOFR at 3.85%",
     "standfirst": "An illustrative agency coupon prices at 6.29–6.59%. The Freddie Mac 30-year survey rate is 6.95%.",
     "curve_date": "Sep 17, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.62",
+      "val": "3.85",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -431,6 +431,12 @@
     }
   ],
   "cre_headlines": [
+    {
+      "source": "Commercial Observer",
+      "title": "Vaja Group Acquires Astoria Development Site at 24-41 31st Street for $26M",
+      "when": "Sep 18",
+      "link": "https://commercialobserver.com/2026/09/vaja-group-buys-astoria-development-site-24-41-31st-street/"
+    },
     {
       "source": "Commercial Observer",
       "title": "Beer-Importing Holterbosch Family Offloads LIC Warehouse for $95M",
@@ -460,12 +466,6 @@
       "title": "Wells Fargo Refis Long Island City Apartments With $115M Fannie Mae Loan",
       "when": "Sep 17",
       "link": "https://commercialobserver.com/2026/09/wells-fargo-long-island-city-queens-apartments/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Borough Developers Closes on $84M Sale of Downtown Brooklyn Development Site",
-      "when": "Sep 17",
-      "link": "https://commercialobserver.com/2026/09/borough-developers-sale-downtown-brooklyn-development-site-485-fulton-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -607,42 +607,42 @@
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
       "price": "72.74",
-      "chg": "-1.77%",
-      "dir": -1
+      "chg": "+0.00%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
       "price": "93.81",
-      "chg": "-0.31%",
-      "dir": -1
+      "chg": "+0.35%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
       "price": "63.93",
-      "chg": "+0.14%",
-      "dir": 1
+      "chg": "-0.17%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
       "price": "135.18",
-      "chg": "-0.49%",
-      "dir": -1
+      "chg": "+1.08%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
       "price": "63.01",
-      "chg": "-3.99%",
-      "dir": -1
+      "chg": "+0.03%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
       "price": "204.47",
-      "chg": "+0.18%",
+      "chg": "+0.75%",
       "dir": 1
     }
   ],
