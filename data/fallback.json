@@ -3,36 +3,36 @@
     "date_line": "Monday · Sep 21, 2026",
     "as_of": "Auto-compiled from public sources · Sep 21, 2026",
     "compiled": "Compiled Sep 21, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-21T18:55:00Z"
+    "generated_utc": "2026-09-21T21:09:20Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,775.45",
-      "ch": "+1.63%",
+      "vl": "7,764.70",
+      "ch": "+1.49%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,141",
-      "ch": "+2.33%",
+      "vl": "27,122",
+      "ch": "+2.26%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,103",
-      "ch": "+0.81%",
+      "vl": "52,049",
+      "ch": "+0.71%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "14.99",
-      "ch": "+1.22%",
+      "vl": "14.87",
+      "ch": "+0.41%",
       "dir": 1
     },
     {
       "nm": "10Y UST",
-      "vl": "5.01%",
+      "vl": "4.96%",
       "ch": "",
       "dir": 0
     },
@@ -44,7 +44,7 @@
     },
     {
       "nm": "30Y UST",
-      "vl": "5.34%",
+      "vl": "5.29%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 climbed 1.63%",
-    "standfirst": "At the last close: S&P 500 7,775.45 (+1.63%); Nasdaq 27,141 (+2.33%); Dow 52,103 (+0.81%). VIX 14.99 (+1.22%).",
+    "headline": "The S&P 500 rose 1.49%",
+    "standfirst": "At the last close: S&P 500 7,764.70 (+1.49%); Nasdaq 27,122 (+2.26%); Dow 52,049 (+0.71%). VIX 14.87 (+0.41%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.23%; KRE lagged at -0.62%."
+      "4 of 6 names on the watchlist closed higher.",
+      "BXP led at +1.52%; KRE lagged at -1.04%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 2:54 PM ET, Sep 21"
+    "quote_note": "Quotes ~15-min delayed · as of 5:08 PM ET, Sep 21"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,775.45",
+      "val": "7,764.70",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.63%",
+        "txt": "1.49%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,692.83</span> · <span class=\"up mono\">+16.2%</span> YoY"
+      "note": "Open <span class=\"mono\">7,692.83</span> · <span class=\"up mono\">+16.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,141",
+      "val": "27,122",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "2.33%",
+        "txt": "2.26%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,723</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,103",
+      "val": "52,049",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.81%",
+        "txt": "0.71%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,937</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.99",
+      "val": "14.87",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.22%",
+        "txt": "0.41%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">14.96</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 0.94%, high-yield at 2.68%",
-    "standfirst": "The high-yield premium over investment grade is 1.74 percentage points. The 2s10s Treasury spread is +25 bps.",
+    "standfirst": "The high-yield premium over investment grade is 1.74 percentage points. The 2s10s Treasury spread is +20 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +25 bps; 3m10y +87 bps; 5s30s +48 bps; 10s30s +33 bps."
+      "Across the curve: 2s10s +20 bps; 3m10y +79 bps; 5s30s +46 bps; 10s30s +33 bps."
     ]
   },
   "credit_tiles": [
@@ -385,9 +385,9 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.01%, overnight SOFR at 3.85%",
-    "standfirst": "An illustrative agency coupon prices at 6.36–6.66%. The Freddie Mac 30-year survey rate is 6.95%.",
-    "curve_date": "Sep 18, 2026",
+    "headline": "The 10-year at 4.96%, overnight SOFR at 3.85%",
+    "standfirst": "An illustrative agency coupon prices at 6.31–6.61%. The Freddie Mac 30-year survey rate is 6.95%.",
+    "curve_date": "Sep 21, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,10 +398,10 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "5.01",
+      "val": "4.96",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+25 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+20 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Two AI Companies Ink Full-Floor Deals at 61 West 23rd Street",
+      "when": "Sep 21",
+      "link": "https://commercialobserver.com/2026/09/normal-computing-inspiren-leases-61-west-23rd-street/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Podcast: The Risks CRE Investors Aren’t Pricing In, with Moody’s Jeffrey Havsy",
+      "when": "Sep 21",
+      "link": "https://commercialobserver.com/2026/09/podcast-the-risks-cre-investors-arent-pricing-in-with-moodys-jeffrey-havsy/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Principal Asset Management Adds Drew Fung for Debt Role",
       "when": "Sep 21",
       "link": "https://commercialobserver.com/2026/09/principal-asset-management-drew-fung/"
@@ -454,18 +466,6 @@
       "title": "Hochul Adds New Restrictions to Data Center Development in New York",
       "when": "Sep 21",
       "link": "https://commercialobserver.com/2026/09/hochul-data-center-restriction-raise-act-new-york/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Jeff Sutton’s Planned 340-Key Midtown Hotel Enters the Demolition Phase",
-      "when": "Sep 21",
-      "link": "https://commercialobserver.com/2026/09/wharton-properties-west-34th-street-hotel-demolition/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "CMBS Conduit Capital Focuses Heavily on Multifamily, Office Sectors",
-      "when": "Sep 21",
-      "link": "https://commercialobserver.com/2026/09/cmbs-conduit-multifamily-office-cred-iq/"
     }
   ],
   "cre_fund_tiles": [
@@ -511,16 +511,16 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.36–6.66",
+      "val": "6.31–6.61",
       "unit": "%",
       "tone": "",
-      "note": "10Y (5.01%) + 135–165 bp agency spread"
+      "note": "10Y (4.96%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+25",
-    "3m10y": "+87",
-    "5s30s": "+48",
+    "2s10s": "+20",
+    "3m10y": "+79",
+    "5s30s": "+46",
     "10s30s": "+33"
   },
   "cre_market": {
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.30",
-      "chg": "-0.62%",
+      "price": "71.99",
+      "chg": "-1.04%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.84",
-      "chg": "+1.01%",
+      "price": "93.81",
+      "chg": "+0.97%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.95",
-      "chg": "+1.23%",
+      "price": "64.13",
+      "chg": "+1.52%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "136.04",
-      "chg": "+0.89%",
+      "price": "135.82",
+      "chg": "+0.73%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.43",
-      "chg": "+0.34%",
+      "price": "61.36",
+      "chg": "+0.23%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.34",
-      "chg": "+0.01%",
-      "dir": 1
+      "price": "204.98",
+      "chg": "-0.17%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
@@ -651,28 +651,28 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 3.97,
+      "y": 3.96,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.14,
+      "y": 4.17,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.24,
+      "y": 4.27,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.44,
+      "y": 4.45,
       "axis": false,
       "mark": false
     },
@@ -686,49 +686,49 @@
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.83,
+      "y": 4.82,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.86,
+      "y": 4.83,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.93,
+      "y": 4.89,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 5.01,
+      "y": 4.96,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.38,
+      "y": 5.33,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.34,
+      "y": 5.29,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.51
+    "new": 6.46
   },
   "orig": {
     "y2025": 633.7,
