@@ -3,32 +3,32 @@
     "date_line": "Monday · Sep 21, 2026",
     "as_of": "Auto-compiled from public sources · Sep 21, 2026",
     "compiled": "Compiled Sep 21, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-21T15:11:21Z"
+    "generated_utc": "2026-09-21T18:55:00Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,725.10",
-      "ch": "+0.98%",
+      "vl": "7,775.45",
+      "ch": "+1.63%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,941",
-      "ch": "+1.58%",
+      "vl": "27,141",
+      "ch": "+2.33%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,894",
-      "ch": "+0.41%",
+      "vl": "52,103",
+      "ch": "+0.81%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "14.62",
-      "ch": "-1.28%",
-      "dir": -1
+      "vl": "14.99",
+      "ch": "+1.22%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.98%",
-    "standfirst": "At the last close: S&P 500 7,725.10 (+0.98%); Nasdaq 26,941 (+1.58%); Dow 51,894 (+0.41%). VIX 14.62 (-1.28%).",
+    "headline": "The S&P 500 climbed 1.63%",
+    "standfirst": "At the last close: S&P 500 7,775.45 (+1.63%); Nasdaq 27,141 (+2.33%); Dow 52,103 (+0.81%). VIX 14.99 (+1.22%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "4 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.01%; KRE lagged at -0.63%."
+      "5 of 6 names on the watchlist closed higher.",
+      "BXP led at +1.23%; KRE lagged at -0.62%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:10 AM ET, Sep 21"
+    "quote_note": "Quotes ~15-min delayed · as of 2:54 PM ET, Sep 21"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,725.10",
+      "val": "7,775.45",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.98%",
+        "txt": "1.63%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,692.83</span> · <span class=\"up mono\">+15.4%</span> YoY"
+      "note": "Open <span class=\"mono\">7,692.83</span> · <span class=\"up mono\">+16.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,941",
+      "val": "27,141",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.58%",
+        "txt": "2.33%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,723</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,894",
+      "val": "52,103",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.41%",
+        "txt": "0.81%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,937</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.62",
-      "tone": "neg",
+      "val": "14.99",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "1.28%",
+        "dir": 1,
+        "txt": "1.22%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">14.96</span>"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Principal Asset Management Adds Drew Fung for Debt Role",
+      "when": "Sep 21",
+      "link": "https://commercialobserver.com/2026/09/principal-asset-management-drew-fung/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Santander Bank, Washington Capital Provide $113M Debt for Chicago Office Conversion",
+      "when": "Sep 21",
+      "link": "https://commercialobserver.com/2026/09/santander-bank-washington-capital-113m-chicago-office-conversion/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Related Group, Tricap Sell Casa Tua-Leased Retail Condo in Miami’s Wynwood",
+      "when": "Sep 21",
+      "link": "https://commercialobserver.com/2026/09/related-group-tricap-casa-tua-miami-wynwood-nomad-residences/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Hochul Adds New Restrictions to Data Center Development in New York",
+      "when": "Sep 21",
+      "link": "https://commercialobserver.com/2026/09/hochul-data-center-restriction-raise-act-new-york/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Jeff Sutton’s Planned 340-Key Midtown Hotel Enters the Demolition Phase",
+      "when": "Sep 21",
+      "link": "https://commercialobserver.com/2026/09/wharton-properties-west-34th-street-hotel-demolition/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "CMBS Conduit Capital Focuses Heavily on Multifamily, Office Sectors",
       "when": "Sep 21",
       "link": "https://commercialobserver.com/2026/09/cmbs-conduit-multifamily-office-cred-iq/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Commercial Real Estate Investment’s Curious Rise Amid Higher Inflation, Rates",
-      "when": "Sep 21",
-      "link": "https://commercialobserver.com/2026/09/commercial-real-estate-investment-inflation-interest-rates-2026/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "New York State’s Opportunity Zones Deadline Is Fast Approaching",
-      "when": "Sep 21",
-      "link": "https://commercialobserver.com/2026/09/new-york-state-opportunity-zones-deadline-2026/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Sunday Summary: Rate Hikes, Investor Conferences and Power California",
-      "when": "Sep 20",
-      "link": "https://commercialobserver.com/2026/09/sunday-summary-rate-hikes-investor-conferences-and-power-california/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Asian-American Deli Café Hestia Signs 8K-SF Lease at 570 Lexington Avenue",
-      "when": "Sep 18",
-      "link": "https://commercialobserver.com/2026/09/cafe-hestia-lease-570-lexington-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Edgewood Capital Provides $28M Refi for Fort Lauderdale Condo Project",
-      "when": "Sep 18",
-      "link": "https://commercialobserver.com/2026/09/edgewood-capital-fort-lauderdale-condos/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.29",
-      "chg": "-0.63%",
+      "price": "72.30",
+      "chg": "-0.62%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.65",
-      "chg": "+0.80%",
+      "price": "93.84",
+      "chg": "+1.01%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.81",
-      "chg": "+1.01%",
+      "price": "63.95",
+      "chg": "+1.23%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.25",
-      "chg": "+0.30%",
+      "price": "136.04",
+      "chg": "+0.89%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.28",
-      "chg": "+0.10%",
+      "price": "61.43",
+      "chg": "+0.34%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.00",
-      "chg": "-0.15%",
-      "dir": -1
+      "price": "205.34",
+      "chg": "+0.01%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
