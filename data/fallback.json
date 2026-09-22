@@ -3,31 +3,31 @@
     "date_line": "Tuesday · Sep 22, 2026",
     "as_of": "Auto-compiled from public sources · Sep 22, 2026",
     "compiled": "Compiled Sep 22, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-22T13:50:53Z"
+    "generated_utc": "2026-09-22T17:46:04Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,774.18",
-      "ch": "+0.12%",
+      "vl": "7,765.53",
+      "ch": "+0.01%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,240",
-      "ch": "+0.44%",
+      "vl": "27,209",
+      "ch": "+0.32%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,041",
-      "ch": "-0.02%",
+      "vl": "51,835",
+      "ch": "-0.41%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "14.66",
-      "ch": "-1.41%",
+      "vl": "14.28",
+      "ch": "-3.97%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.12%",
-    "standfirst": "At the last close: S&P 500 7,774.18 (+0.12%); Nasdaq 27,240 (+0.44%); Dow 52,041 (-0.02%). VIX 14.66 (-1.41%).",
+    "headline": "The S&P 500 was little changed",
+    "standfirst": "At the last close: S&P 500 7,765.53 (+0.01%); Nasdaq 27,209 (+0.32%); Dow 51,835 (-0.41%). VIX 14.28 (-3.97%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "2 of 6 names on the watchlist closed higher.",
-      "KRE led at +0.13%; PLD lagged at -0.45%."
+      "VMRK led at +1.27%; BXP lagged at -0.59%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 22"
+    "quote_note": "Quotes ~15-min delayed · as of 1:45 PM ET, Sep 22"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,774.18",
+      "val": "7,765.53",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.12%",
+        "txt": "0.01%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,770.81</span> · <span class=\"up mono\">+16.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,770.81</span> · <span class=\"up mono\">+16.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,240",
+      "val": "27,209",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.44%",
+        "txt": "0.32%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,161</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,041",
+      "val": "51,835",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.02%",
+        "txt": "0.41%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,302</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.66",
+      "val": "14.28",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.41%",
+        "txt": "3.97%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">14.64</span>"
@@ -337,19 +337,19 @@
   "headlines": [
     {
       "when": "Sep 22",
-      "title": "Kalshi asks CFTC to allow margin trading on its platform, letting users buy with borrowed funds",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/22/kalshi-asks-cftc-to-allow-margin-trading-on-its-platform-letting-users-buy-with-borrowed-funds.html"
-    },
-    {
-      "when": "Sep 21",
       "title": "Here's who we know is going to the Trump-Xi dinner so far",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html"
+    },
+    {
+      "when": "Sep 22",
+      "title": "Kalshi asks CFTC to allow margin trading on its platform, letting users buy with borrowed funds",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/22/kalshi-asks-cftc-to-allow-margin-trading-on-its-platform-letting-users-buy-with-borrowed-funds.html"
     },
     {
       "when": "Sep 21",
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Dwight Investment Management Provides $42M Refi for College Station Apartments",
+      "when": "Sep 22",
+      "link": "https://commercialobserver.com/2026/09/college-station-apartments-texas-a-m/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "AI Firm Rogo Technologies Doubles 360 Park Avenue South Footprint to 46K SF",
+      "when": "Sep 22",
+      "link": "https://commercialobserver.com/2026/09/rogo-technologies-360-park-avenue-south-lease-expansion/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "100 Gold Street Conversion Boosted to Yield 4,000 Housing Units",
+      "when": "Sep 22",
+      "link": "https://commercialobserver.com/2026/09/100-gold-street-conversion-housing-mamdani/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Corcoran Sunshine Marketing Group’s Kelly Kennedy Mack Can’t Slow Down",
+      "when": "Sep 22",
+      "link": "https://commercialobserver.com/2026/09/corcoran-sunshine-marketing-groups-kelly-kennedy-mack-expansion/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Trump, Mamdani Advance Sunnyside Yards Housing Discussion",
+      "when": "Sep 22",
+      "link": "https://commercialobserver.com/2026/09/trump-mamdani-affordable-housing-sunny-side-yards/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Vikas Enti of Reframe Systems: 5 Questions",
       "when": "Sep 22",
       "link": "https://commercialobserver.com/2026/09/vikas-enti-reframe-systems-fundraise/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Ian Michael Klein, Rabina’s Development Head, Wanted to Be ‘a Real Estate Guy’",
-      "when": "Sep 22",
-      "link": "https://commercialobserver.com/2026/09/ian-michael-klein-rabina-condo-development-construction/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Adam America, JW Capital Land $180M Refi for Florida International Student Housing",
-      "when": "Sep 22",
-      "link": "https://commercialobserver.com/2026/09/adam-america-jw-refinance-florida-international-student-housing/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Chelsea’s Rubin Museum of Himalayan Art Hits the Market",
-      "when": "Sep 22",
-      "link": "https://commercialobserver.com/2026/09/rubin-museum-listing-140-154-west-17th-street-jll/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Victoria Industrial, Lincoln Equities Buy NoVa Industrial Portfolio for $63M",
-      "when": "Sep 21",
-      "link": "https://commercialobserver.com/2026/09/victoria-industrial-lincoln-equities-buy-nova-industrial-portfolio-for-63m/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Private Lender Ascent Expands L.A. Headquarters as It Tops $3.7B in Originations",
-      "when": "Sep 21",
-      "link": "https://commercialobserver.com/2026/09/la-ascent-hq-douglas-emmett/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.08",
-      "chg": "+0.13%",
-      "dir": 1
+      "price": "71.72",
+      "chg": "-0.37%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.63",
-      "chg": "-0.19%",
+      "price": "93.65",
+      "chg": "-0.17%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.11",
-      "chg": "-0.03%",
+      "price": "63.75",
+      "chg": "-0.59%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.21",
-      "chg": "-0.45%",
+      "price": "135.61",
+      "chg": "-0.15%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.30",
-      "chg": "-0.10%",
-      "dir": -1
+      "price": "62.14",
+      "chg": "+1.27%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.04",
-      "chg": "+0.03%",
+      "price": "205.34",
+      "chg": "+0.18%",
       "dir": 1
     }
   ],
