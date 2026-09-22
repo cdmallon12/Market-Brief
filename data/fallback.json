@@ -3,14 +3,14 @@
     "date_line": "Tuesday · Sep 22, 2026",
     "as_of": "Auto-compiled from public sources · Sep 22, 2026",
     "compiled": "Compiled Sep 22, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-22T18:10:44Z"
+    "generated_utc": "2026-09-22T23:03:56Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,771.10",
-      "ch": "+0.08%",
-      "dir": 1
+      "vl": "7,764.64",
+      "ch": "-0.00%",
+      "dir": -1
     },
     {
       "nm": "Nasdaq",
@@ -20,14 +20,14 @@
     },
     {
       "nm": "Dow",
-      "vl": "51,884",
-      "ch": "-0.32%",
+      "vl": "51,864",
+      "ch": "-0.36%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "14.23",
-      "ch": "-4.30%",
+      "vl": "14.21",
+      "ch": "-4.44%",
       "dir": -1
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "nm": "2Y UST",
-      "vl": "4.76%",
+      "vl": "4.71%",
       "ch": "",
       "dir": 0
     },
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "0.94%",
+      "vl": "0.95%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "2.68%",
+      "vl": "2.66%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
     "headline": "The S&P 500 was little changed",
-    "standfirst": "At the last close: S&P 500 7,771.10 (+0.08%); Nasdaq 27,244 (+0.45%); Dow 51,884 (-0.32%). VIX 14.23 (-4.30%).",
+    "standfirst": "At the last close: S&P 500 7,764.64 (-0.00%); Nasdaq 27,244 (+0.45%); Dow 51,864 (-0.36%). VIX 14.21 (-4.44%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "4 of 6 names on the watchlist closed higher.",
-      "VMRK led at +1.50%; BXP lagged at -0.28%."
+      "VMRK led at +1.61%; KRE lagged at -1.11%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,19 +147,19 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 2:10 PM ET, Sep 22"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 22"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,771.10",
-      "tone": "pos",
+      "val": "7,764.64",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.08%",
+        "dir": -1,
+        "txt": "0.00%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,770.81</span> · <span class=\"up mono\">+16.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,770.81</span> · <span class=\"up mono\">+16.6%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
@@ -174,22 +174,22 @@
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,884",
+      "val": "51,864",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.32%",
+        "txt": "0.36%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,302</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.23",
+      "val": "14.21",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "4.30%",
+        "txt": "4.44%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">14.64</span>"
@@ -285,30 +285,30 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.94%, high-yield at 2.68%",
-    "standfirst": "The high-yield premium over investment grade is 1.74 percentage points. The 2s10s Treasury spread is +20 bps.",
+    "headline": "Investment-grade OAS at 0.95%, high-yield at 2.66%",
+    "standfirst": "The high-yield premium over investment grade is 1.71 percentage points. The 2s10s Treasury spread is +25 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +20 bps; 3m10y +79 bps; 5s30s +46 bps; 10s30s +33 bps."
+      "Across the curve: 2s10s +25 bps; 3m10y +80 bps; 5s30s +46 bps; 10s30s +33 bps."
     ]
   },
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "0.94",
+      "val": "0.95",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "-0.01pp",
-        "note": "tighter"
+        "txt": "+0.01pp",
+        "note": "wider"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "2.68",
+      "val": "2.66",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
@@ -320,21 +320,29 @@
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "1.74",
+      "val": "1.71",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 0.94,
-    "hy": 2.68
+    "ig": 0.95,
+    "hy": 2.66
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Sep 22",
+      "title": "CFTC says prediction markets' 'mentions' contracts present a higher risk of manipulation",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/22/cftc-prediction-markets-mentions-contracts-have-manipulation-risk.html"
+    },
     {
       "when": "Sep 22",
       "title": "Here's who we know is going to the Trump-Xi dinner so far",
@@ -374,20 +382,12 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html"
-    },
-    {
-      "when": "Sep 20",
-      "title": "France’s wine production nears a 70-year low, leaving winemakers with tough choices",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/20/france-wine-production-70-year-low-heatwaves-drought.html"
     }
   ],
   "cre": {
     "headline": "The 10-year at 4.96%, overnight SOFR at 3.85%",
     "standfirst": "An illustrative agency coupon prices at 6.31–6.61%. The Freddie Mac 30-year survey rate is 6.95%.",
-    "curve_date": "Sep 21, 2026",
+    "curve_date": "Sep 22, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -401,11 +401,11 @@
       "val": "4.96",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+20 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+25 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.76",
+      "val": "4.71",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Harrison Street Adds Three More Former PGIM Employees to Its Payroll",
+      "title": "Distyl AI Doubles Its 135 Madison Offices to 30K SF After Less Than a Year",
       "when": "Sep 22",
-      "link": "https://commercialobserver.com/2026/09/harrison-street-jon-glass-pgim/"
+      "link": "https://commercialobserver.com/2026/09/distyl-ai-135-madison-lease-expansion/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Dwight Investment Management Provides $42M Refi for College Station Apartments",
+      "title": "CIP Real Estate Buys San Gabriel Valley Industrial Park for $61M",
       "when": "Sep 22",
-      "link": "https://commercialobserver.com/2026/09/college-station-apartments-texas-a-m/"
+      "link": "https://commercialobserver.com/2026/09/cip-la-aew-industrial-park/"
     },
     {
       "source": "Commercial Observer",
-      "title": "AI Firm Rogo Technologies Doubles 360 Park Avenue South Footprint to 46K SF",
+      "title": "Happier Grocery to Open Second NYC Location on the Upper East Side",
       "when": "Sep 22",
-      "link": "https://commercialobserver.com/2026/09/rogo-technologies-360-park-avenue-south-lease-expansion/"
+      "link": "https://commercialobserver.com/2026/09/happier-grocery-lease-210-east-86th-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "100 Gold Street Conversion Boosted to Yield 4,000 Housing Units",
+      "title": "Richard Born Part of Investor Group in BlackRock’s $245M Sale of 600 Third Avenue",
       "when": "Sep 22",
-      "link": "https://commercialobserver.com/2026/09/100-gold-street-conversion-housing-mamdani/"
+      "link": "https://commercialobserver.com/2026/09/richard-born-investor-blackrock-sale-600-third-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Corcoran Sunshine Marketing Group’s Kelly Kennedy Mack Can’t Slow Down",
+      "title": "JP Morgan Chase Sells South Florida Rental for $106M",
       "when": "Sep 22",
-      "link": "https://commercialobserver.com/2026/09/corcoran-sunshine-marketing-groups-kelly-kennedy-mack-expansion/"
+      "link": "https://commercialobserver.com/2026/09/jp-morgan-chase-ta-realty-polo-lakes-wellington/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Trump, Mamdani Advance Sunnyside Yards Housing Discussion",
+      "title": "Office Tenants Should Negotiate Cell Coverage Like a Lease Issue",
       "when": "Sep 22",
-      "link": "https://commercialobserver.com/2026/09/trump-mamdani-affordable-housing-sunny-side-yards/"
+      "link": "https://commercialobserver.com/2026/09/cell-coverage-office-tenantw/"
     }
   ],
   "cre_fund_tiles": [
@@ -518,8 +518,8 @@
     }
   ],
   "curve_spreads": {
-    "2s10s": "+20",
-    "3m10y": "+79",
+    "2s10s": "+25",
+    "3m10y": "+80",
     "5s30s": "+46",
     "10s30s": "+33"
   },
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "71.81",
-      "chg": "-0.25%",
+      "price": "71.19",
+      "chg": "-1.11%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.84",
-      "chg": "+0.04%",
-      "dir": 1
+      "price": "93.62",
+      "chg": "-0.20%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.95",
-      "chg": "-0.28%",
-      "dir": -1
+      "price": "64.31",
+      "chg": "+0.28%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "136.08",
-      "chg": "+0.19%",
+      "price": "135.88",
+      "chg": "+0.04%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.28",
-      "chg": "+1.50%",
+      "price": "62.35",
+      "chg": "+1.61%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.70",
-      "chg": "+0.35%",
+      "price": "205.95",
+      "chg": "+0.47%",
       "dir": 1
     }
   ],
@@ -651,42 +651,42 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 3.96,
+      "y": 3.97,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.17,
+      "y": 4.16,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.27,
+      "y": 4.26,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.45,
+      "y": 4.43,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.76,
+      "y": 4.71,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.82,
+      "y": 4.81,
       "axis": false,
       "mark": false
     },
