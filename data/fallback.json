@@ -3,7 +3,7 @@
     "date_line": "Monday · Sep 21, 2026",
     "as_of": "Auto-compiled from public sources · Sep 21, 2026",
     "compiled": "Compiled Sep 21, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-21T21:09:20Z"
+    "generated_utc": "2026-09-22T01:39:31Z"
   },
   "ticker": [
     {
@@ -147,7 +147,7 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:08 PM ET, Sep 21"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 21"
   },
   "markets_tiles": [
     {
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Victoria Industrial, Lincoln Equities Buy NoVa Industrial Portfolio for $63M",
+      "when": "Sep 21",
+      "link": "https://commercialobserver.com/2026/09/victoria-industrial-lincoln-equities-buy-nova-industrial-portfolio-for-63m/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Private Lender Ascent Expands L.A. Headquarters as It Tops $3.7B in Originations",
+      "when": "Sep 21",
+      "link": "https://commercialobserver.com/2026/09/la-ascent-hq-douglas-emmett/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Two AI Companies Ink Full-Floor Deals at 61 West 23rd Street",
       "when": "Sep 21",
       "link": "https://commercialobserver.com/2026/09/normal-computing-inspiren-leases-61-west-23rd-street/"
@@ -454,18 +466,6 @@
       "title": "Santander Bank, Washington Capital Provide $113M Debt for Chicago Office Conversion",
       "when": "Sep 21",
       "link": "https://commercialobserver.com/2026/09/santander-bank-washington-capital-113m-chicago-office-conversion/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Related Group, Tricap Sell Casa Tua-Leased Retail Condo in Miami’s Wynwood",
-      "when": "Sep 21",
-      "link": "https://commercialobserver.com/2026/09/related-group-tricap-casa-tua-miami-wynwood-nomad-residences/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Hochul Adds New Restrictions to Data Center Development in New York",
-      "when": "Sep 21",
-      "link": "https://commercialobserver.com/2026/09/hochul-data-center-restriction-raise-act-new-york/"
     }
   ],
   "cre_fund_tiles": [
