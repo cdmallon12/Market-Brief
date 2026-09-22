@@ -3,31 +3,31 @@
     "date_line": "Tuesday · Sep 22, 2026",
     "as_of": "Auto-compiled from public sources · Sep 22, 2026",
     "compiled": "Compiled Sep 22, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-22T17:46:04Z"
+    "generated_utc": "2026-09-22T18:10:44Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,765.53",
-      "ch": "+0.01%",
+      "vl": "7,771.10",
+      "ch": "+0.08%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,209",
-      "ch": "+0.32%",
+      "vl": "27,244",
+      "ch": "+0.45%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,835",
-      "ch": "-0.41%",
+      "vl": "51,884",
+      "ch": "-0.32%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "14.28",
-      "ch": "-3.97%",
+      "vl": "14.23",
+      "ch": "-4.30%",
       "dir": -1
     },
     {
@@ -111,12 +111,12 @@
   ],
   "markets": {
     "headline": "The S&P 500 was little changed",
-    "standfirst": "At the last close: S&P 500 7,765.53 (+0.01%); Nasdaq 27,209 (+0.32%); Dow 51,835 (-0.41%). VIX 14.28 (-3.97%).",
+    "standfirst": "At the last close: S&P 500 7,771.10 (+0.08%); Nasdaq 27,244 (+0.45%); Dow 51,884 (-0.32%). VIX 14.23 (-4.30%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "2 of 6 names on the watchlist closed higher.",
-      "VMRK led at +1.27%; BXP lagged at -0.59%."
+      "4 of 6 names on the watchlist closed higher.",
+      "VMRK led at +1.50%; BXP lagged at -0.28%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:45 PM ET, Sep 22"
+    "quote_note": "Quotes ~15-min delayed · as of 2:10 PM ET, Sep 22"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,765.53",
+      "val": "7,771.10",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.01%",
+        "txt": "0.08%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,770.81</span> · <span class=\"up mono\">+16.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,770.81</span> · <span class=\"up mono\">+16.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,209",
+      "val": "27,244",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.32%",
+        "txt": "0.45%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,161</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,835",
+      "val": "51,884",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.41%",
+        "txt": "0.32%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,302</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.28",
+      "val": "14.23",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "3.97%",
+        "txt": "4.30%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">14.64</span>"
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Harrison Street Adds Three More Former PGIM Employees to Its Payroll",
+      "when": "Sep 22",
+      "link": "https://commercialobserver.com/2026/09/harrison-street-jon-glass-pgim/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Dwight Investment Management Provides $42M Refi for College Station Apartments",
       "when": "Sep 22",
       "link": "https://commercialobserver.com/2026/09/college-station-apartments-texas-a-m/"
@@ -460,12 +466,6 @@
       "title": "Trump, Mamdani Advance Sunnyside Yards Housing Discussion",
       "when": "Sep 22",
       "link": "https://commercialobserver.com/2026/09/trump-mamdani-affordable-housing-sunny-side-yards/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Vikas Enti of Reframe Systems: 5 Questions",
-      "when": "Sep 22",
-      "link": "https://commercialobserver.com/2026/09/vikas-enti-reframe-systems-fundraise/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "71.72",
-      "chg": "-0.37%",
+      "price": "71.81",
+      "chg": "-0.25%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.65",
-      "chg": "-0.17%",
-      "dir": -1
+      "price": "93.84",
+      "chg": "+0.04%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.75",
-      "chg": "-0.59%",
+      "price": "63.95",
+      "chg": "-0.28%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.61",
-      "chg": "-0.15%",
-      "dir": -1
+      "price": "136.08",
+      "chg": "+0.19%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.14",
-      "chg": "+1.27%",
+      "price": "62.28",
+      "chg": "+1.50%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.34",
-      "chg": "+0.18%",
+      "price": "205.70",
+      "chg": "+0.35%",
       "dir": 1
     }
   ],
