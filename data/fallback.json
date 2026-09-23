@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Sep 23, 2026",
     "as_of": "Auto-compiled from public sources · Sep 23, 2026",
     "compiled": "Compiled Sep 23, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-23T17:59:22Z"
+    "generated_utc": "2026-09-23T18:27:51Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,719.28",
-      "ch": "-0.58%",
+      "vl": "7,713.59",
+      "ch": "-0.66%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,965",
-      "ch": "-0.58%",
+      "vl": "26,955",
+      "ch": "-0.61%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,636",
-      "ch": "-0.79%",
+      "vl": "51,573",
+      "ch": "-0.91%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.17",
-      "ch": "+2.02%",
+      "vl": "15.04",
+      "ch": "+1.14%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.58%",
-    "standfirst": "At the last close: S&P 500 7,719.28 (-0.58%); Nasdaq 26,965 (-0.58%); Dow 51,636 (-0.79%). VIX 15.17 (+2.02%).",
+    "headline": "The S&P 500 fell 0.66%",
+    "standfirst": "At the last close: S&P 500 7,713.59 (-0.66%); Nasdaq 26,955 (-0.61%); Dow 51,573 (-0.91%). VIX 15.04 (+1.14%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "VMRK led at +0.17%; VNQ lagged at -1.98%."
+      "0 of 6 names on the watchlist closed higher.",
+      "SPG led at -0.03%; VNQ lagged at -2.17%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:58 PM ET, Sep 23"
+    "quote_note": "Quotes ~15-min delayed · as of 2:27 PM ET, Sep 23"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,719.28",
+      "val": "7,713.59",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.58%",
+        "txt": "0.66%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,761.94</span> · <span class=\"up mono\">+16.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,761.94</span> · <span class=\"up mono\">+15.9%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,965",
+      "val": "26,955",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.58%",
+        "txt": "0.61%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,214</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,636",
+      "val": "51,573",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.79%",
+        "txt": "0.91%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,771</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.17",
+      "val": "15.04",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "2.02%",
+        "txt": "1.14%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">14.16</span>"
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Conduct AI Takes 7K SF at Capstone’s 140 Crosby Street for First U.S. Office",
+      "when": "Sep 23",
+      "link": "https://commercialobserver.com/2026/09/conduct-ai-lease-capstone-140-crosby-street/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Zara Doubles Footprint at a Macerich Shopping Center in Los Angeles County",
+      "when": "Sep 23",
+      "link": "https://commercialobserver.com/2026/09/zara-macerich-cerritos/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Fort Partners Buys Hotel Next to Its Four Seasons Property in Palm Beach",
       "when": "Sep 23",
       "link": "https://commercialobserver.com/2026/09/fort-partners-jeff-greene-tideline-florida-ocean-resort/"
@@ -454,18 +466,6 @@
       "title": "Irish Arts Center Signs 4K-SF Lease at GFP’s 630 Ninth Avenue",
       "when": "Sep 23",
       "link": "https://commercialobserver.com/2026/09/irish-arts-center-lease-gfp-630-ninth-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "U.S. Housing Starts Stabilize as Developers Move Cautiously Forward: Report",
-      "when": "Sep 23",
-      "link": "https://commercialobserver.com/2026/09/us-housing-starts-stabilize-multifamily-single/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "On, Sneaker Maker Beloved by Roger Federer and Kylian Mbappé, Moves NYC HQ to Penn 1",
-      "when": "Sep 23",
-      "link": "https://commercialobserver.com/2026/09/on-sneakers-lease-vornado-penn-1-roger-federer-kylian-mbappe/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "71.00",
-      "chg": "-1.38%",
+      "price": "70.92",
+      "chg": "-1.48%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.95",
-      "chg": "-1.98%",
+      "price": "91.78",
+      "chg": "-2.17%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.99",
-      "chg": "-1.78%",
+      "price": "62.90",
+      "chg": "-1.92%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.06",
-      "chg": "-0.56%",
+      "price": "134.72",
+      "chg": "-0.81%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.47",
-      "chg": "+0.17%",
-      "dir": 1
+      "price": "61.31",
+      "chg": "-0.08%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.99",
-      "chg": "+0.00%",
-      "dir": 1
+      "price": "204.91",
+      "chg": "-0.03%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
