@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Tuesday · Sep 22, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 22, 2026",
-    "compiled": "Compiled Sep 22, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-23T01:34:20Z"
+    "date_line": "Wednesday · Sep 23, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 23, 2026",
+    "compiled": "Compiled Sep 23, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-23T13:44:13Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,764.64",
-      "ch": "-0.00%",
+      "vl": "7,751.58",
+      "ch": "-0.17%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,244",
-      "ch": "+0.45%",
+      "vl": "27,161",
+      "ch": "+0.14%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,864",
-      "ch": "-0.36%",
+      "vl": "51,764",
+      "ch": "-0.55%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "14.21",
-      "ch": "-4.44%",
+      "vl": "14.28",
+      "ch": "-3.97%",
       "dir": -1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.85%",
+      "vl": "3.87%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 was little changed",
-    "standfirst": "At the last close: S&P 500 7,764.64 (-0.00%); Nasdaq 27,244 (+0.45%); Dow 51,864 (-0.36%). VIX 14.21 (-4.44%).",
+    "headline": "The S&P 500 edged lower 0.17%",
+    "standfirst": "At the last close: S&P 500 7,751.58 (-0.17%); Nasdaq 27,161 (+0.14%); Dow 51,764 (-0.55%). VIX 14.28 (-3.97%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "VMRK led at +1.85%; KRE lagged at -2.14%."
+      "1 of 6 names on the watchlist closed higher.",
+      "VMRK led at +1.25%; VNQ lagged at -1.78%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,52 +147,52 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 22"
+    "quote_note": "Quotes ~15-min delayed · as of 9:43 AM ET, Sep 23"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,764.64",
+      "val": "7,751.58",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.00%",
+        "txt": "0.17%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,770.81</span> · <span class=\"up mono\">+16.6%</span> YoY"
+      "note": "Open <span class=\"mono\">7,761.94</span> · <span class=\"up mono\">+16.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,244",
+      "val": "27,161",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.45%",
+        "txt": "0.14%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">27,161</span>"
+      "note": "Open <span class=\"mono\">27,214</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,864",
+      "val": "51,764",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.36%",
+        "txt": "0.55%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">52,302</span>"
+      "note": "Open <span class=\"mono\">51,771</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.21",
+      "val": "14.28",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "4.44%",
+        "txt": "3.97%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">14.64</span>"
+      "note": "Open <span class=\"mono\">14.16</span>"
     }
   ],
   "economy": {
@@ -336,6 +336,14 @@
   },
   "headlines": [
     {
+      "when": "Sep 23",
+      "title": "Trump-Xi meeting: Why China's self-sufficiency changes the calculus",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-why-chinas-self-sufficiency-changes-the-calculus.html"
+    },
+    {
       "when": "Sep 22",
       "title": "CFTC says prediction markets' 'mentions' contracts present a higher risk of manipulation",
       "blurb": "",
@@ -374,18 +382,10 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html"
-    },
-    {
-      "when": "Sep 20",
-      "title": "Why Japan’s markets flipped the usual script after central bank rate hike",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.96%, overnight SOFR at 3.85%",
+    "headline": "The 10-year at 4.96%, overnight SOFR at 3.87%",
     "standfirst": "An illustrative agency coupon prices at 6.31–6.61%. The Freddie Mac 30-year survey rate is 6.95%.",
     "curve_date": "Sep 22, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.85",
+      "val": "3.87",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -431,6 +431,12 @@
     }
   ],
   "cre_headlines": [
+    {
+      "source": "Commercial Observer",
+      "title": "The Plan: NYC’s First Flight Club Aims for a Bull’s-Eye at 31 Union Square West",
+      "when": "Sep 23",
+      "link": "https://commercialobserver.com/2026/09/the-plan-nyc-flight-club-31-union-square-west/"
+    },
     {
       "source": "Commercial Observer",
       "title": "Distyl AI Doubles Its 135 Madison Offices to 30K SF After Less Than a Year",
@@ -460,12 +466,6 @@
       "title": "JP Morgan Chase Sells South Florida Rental for $106M",
       "when": "Sep 22",
       "link": "https://commercialobserver.com/2026/09/jp-morgan-chase-ta-realty-polo-lakes-wellington/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Office Tenants Should Negotiate Cell Coverage Like a Lease Issue",
-      "when": "Sep 22",
-      "link": "https://commercialobserver.com/2026/09/cell-coverage-office-tenantw/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "71.19",
-      "chg": "-2.14%",
+      "price": "71.15",
+      "chg": "-1.17%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.62",
-      "chg": "+0.76%",
-      "dir": 1
+      "price": "92.14",
+      "chg": "-1.78%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.31",
-      "chg": "+1.80%",
-      "dir": 1
+      "price": "63.77",
+      "chg": "-0.56%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "135.88",
-      "chg": "+0.77%",
-      "dir": 1
+      "price": "134.32",
+      "chg": "-1.10%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.35",
-      "chg": "+1.85%",
+      "price": "62.13",
+      "chg": "+1.25%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.95",
-      "chg": "+0.31%",
-      "dir": 1
+      "price": "204.43",
+      "chg": "-0.27%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
