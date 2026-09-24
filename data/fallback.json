@@ -3,31 +3,31 @@
     "date_line": "Thursday · Sep 24, 2026",
     "as_of": "Auto-compiled from public sources · Sep 24, 2026",
     "compiled": "Compiled Sep 24, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-24T17:58:40Z"
+    "generated_utc": "2026-09-24T18:29:06Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,697.70",
-      "ch": "-0.11%",
-      "dir": -1
+      "vl": "7,708.01",
+      "ch": "+0.03%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,880",
-      "ch": "-0.21%",
+      "vl": "26,926",
+      "ch": "-0.04%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,328",
-      "ch": "-0.36%",
+      "vl": "51,413",
+      "ch": "-0.19%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.72",
-      "ch": "+3.56%",
+      "vl": "15.73",
+      "ch": "+3.62%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.11%",
-    "standfirst": "At the last close: S&P 500 7,697.70 (-0.11%); Nasdaq 26,880 (-0.21%); Dow 51,328 (-0.36%). VIX 15.72 (+3.56%).",
+    "headline": "The S&P 500 was little changed",
+    "standfirst": "At the last close: S&P 500 7,708.01 (+0.03%); Nasdaq 26,926 (-0.04%); Dow 51,413 (-0.19%). VIX 15.73 (+3.62%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "KRE led at +0.57%; VMRK lagged at -0.27%."
+      "3 of 6 names on the watchlist closed higher.",
+      "KRE led at +0.69%; VMRK lagged at -0.51%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:58 PM ET, Sep 24"
+    "quote_note": "Quotes ~15-min delayed · as of 2:28 PM ET, Sep 24"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,697.70",
-      "tone": "neg",
+      "val": "7,708.01",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.11%",
+        "dir": 1,
+        "txt": "0.03%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,666.99</span> · <span class=\"up mono\">+16.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,666.99</span> · <span class=\"up mono\">+16.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,880",
+      "val": "26,926",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.21%",
+        "txt": "0.04%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,735</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,328",
+      "val": "51,413",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.36%",
+        "txt": "0.19%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,416</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.72",
+      "val": "15.73",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "3.56%",
+        "txt": "3.62%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.83</span>"
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Coworking Firm Industrious to Provide Hologram-Like Google Beam Meetings",
+      "when": "Sep 24",
+      "link": "https://commercialobserver.com/2026/09/industrious-google-beam/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Moishe Mana Buys Discounted Fort Lauderdale Officer Tower for $89M",
       "when": "Sep 24",
       "link": "https://commercialobserver.com/2026/09/moishe-mana-fort-lauderdale-110-tower/"
@@ -460,12 +466,6 @@
       "title": "Get to Know the Broker: Lauren Muss of Douglas Elliman",
       "when": "Sep 24",
       "link": "https://commercialobserver.com/2026/09/get-to-know-the-broker-lauren-muss-douglas-elliman/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "The Power of the Public-Private Partnership for Affordable Housing",
-      "when": "Sep 24",
-      "link": "https://commercialobserver.com/2026/09/public-private-partnership-affordable-housing/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.78",
-      "chg": "+0.57%",
+      "price": "70.86",
+      "chg": "+0.69%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.53",
-      "chg": "+0.09%",
-      "dir": 1
+      "price": "91.41",
+      "chg": "-0.05%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.51",
-      "chg": "+0.23%",
+      "price": "62.56",
+      "chg": "+0.32%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "134.30",
-      "chg": "+0.25%",
-      "dir": 1
+      "price": "133.88",
+      "chg": "-0.06%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.12",
-      "chg": "-0.27%",
+      "price": "60.98",
+      "chg": "-0.51%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.13",
-      "chg": "+0.48%",
+      "price": "205.21",
+      "chg": "+0.51%",
       "dir": 1
     }
   ],
