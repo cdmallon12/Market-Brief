@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Wednesday · Sep 23, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 23, 2026",
-    "compiled": "Compiled Sep 23, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-24T01:30:22Z"
+    "date_line": "Thursday · Sep 24, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 24, 2026",
+    "compiled": "Compiled Sep 24, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-24T13:38:27Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,706.03",
-      "ch": "-0.76%",
+      "vl": "7,676.62",
+      "ch": "-0.38%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,936",
-      "ch": "-0.69%",
+      "vl": "26,779",
+      "ch": "-0.58%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,512",
-      "ch": "-1.03%",
+      "vl": "51,304",
+      "ch": "-0.40%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.18",
-      "ch": "+2.08%",
+      "vl": "15.87",
+      "ch": "+4.55%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.76%",
-    "standfirst": "At the last close: S&P 500 7,706.03 (-0.76%); Nasdaq 26,936 (-0.69%); Dow 51,512 (-1.03%). VIX 15.18 (+2.08%).",
+    "headline": "The S&P 500 edged lower 0.38%",
+    "standfirst": "At the last close: S&P 500 7,676.62 (-0.38%); Nasdaq 26,779 (-0.58%); Dow 51,304 (-0.40%). VIX 15.87 (+4.55%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "VMRK led at +0.11%; KRE lagged at -2.24%."
+      "5 of 6 names on the watchlist closed higher.",
+      "BXP led at +0.37%; VMRK lagged at -0.02%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,52 +147,52 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 23"
+    "quote_note": "Quotes ~15-min delayed · as of 9:37 AM ET, Sep 24"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,706.03",
+      "val": "7,676.62",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.76%",
+        "txt": "0.38%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,761.94</span> · <span class=\"up mono\">+16.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,666.99</span> · <span class=\"up mono\">+15.6%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,936",
+      "val": "26,779",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.69%",
+        "txt": "0.58%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">27,214</span>"
+      "note": "Open <span class=\"mono\">26,735</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,512",
+      "val": "51,304",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.03%",
+        "txt": "0.40%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">51,771</span>"
+      "note": "Open <span class=\"mono\">51,416</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.18",
+      "val": "15.87",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "2.08%",
+        "txt": "4.55%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">14.16</span>"
+      "note": "Open <span class=\"mono\">15.83</span>"
     }
   ],
   "economy": {
@@ -336,7 +336,39 @@
   },
   "headlines": [
     {
-      "when": "Sep 23",
+      "when": "Sep 24",
+      "title": "China confirms first AI talks with U.S. have taken place, hints at trade truce extension",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html"
+    },
+    {
+      "when": "Sep 24",
+      "title": "Switzerland is keeping rates at 0% — for now",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/24/swiss-national-bank-interest-rates-inflation.html"
+    },
+    {
+      "when": "Sep 24",
+      "title": "Global debt tops $365 trillion as economists sound alarm over 'vicious cycle'",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html"
+    },
+    {
+      "when": "Sep 24",
+      "title": "France's fresh budget battle threatens to topple another government",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/24/france-budget-debt-deficit-government.html"
+    },
+    {
+      "when": "Sep 24",
       "title": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
       "blurb": "",
       "kind": "",
@@ -344,44 +376,12 @@
       "link": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
     },
     {
-      "when": "Sep 23",
-      "title": "Trump-Xi meeting: Why China's self-sufficiency changes the calculus",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-why-chinas-self-sufficiency-changes-the-calculus.html"
-    },
-    {
-      "when": "Sep 23",
-      "title": "Here's what happens to the economy when Treasury yields soar like they are now",
+      "when": "Sep 24",
+      "title": "World heads into food crises 'blind' as U.S. aid cuts squeeze UN food agency, experts warn",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html"
-    },
-    {
-      "when": "Sep 22",
-      "title": "CFTC says prediction markets' 'mentions' contracts present a higher risk of manipulation",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/22/cftc-prediction-markets-mentions-contracts-have-manipulation-risk.html"
-    },
-    {
-      "when": "Sep 22",
-      "title": "Here's who we know is going to the Trump-Xi dinner so far",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html"
-    },
-    {
-      "when": "Sep 22",
-      "title": "Kalshi asks CFTC to allow margin trading on its platform, letting users buy with borrowed funds",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/22/kalshi-asks-cftc-to-allow-margin-trading-on-its-platform-letting-users-buy-with-borrowed-funds.html"
+      "link": "https://www.cnbc.com/2026/09/24/hormuz-blacksea-ukraine-iran-food-security-united-nations-.html"
     }
   ],
   "cre": {
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Get to Know the Broker: Lauren Muss of Douglas Elliman",
+      "when": "Sep 24",
+      "link": "https://commercialobserver.com/2026/09/get-to-know-the-broker-lauren-muss-douglas-elliman/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "The Power of the Public-Private Partnership for Affordable Housing",
+      "when": "Sep 24",
+      "link": "https://commercialobserver.com/2026/09/public-private-partnership-affordable-housing/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Virginia, Maryland Tighten Data Center Rules as Scrutiny Intensifies",
       "when": "Sep 23",
       "link": "https://commercialobserver.com/2026/09/virginia-maryland-data-center-regulations-by-right-development/"
@@ -454,18 +466,6 @@
       "title": "Wells Fargo Supplies $456M Refi for Family Dollar’s Distribution Center Portfolio",
       "when": "Sep 23",
       "link": "https://commercialobserver.com/2026/09/wells-fargo-refi-family-dollar-distribution-portfolio/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Conduct AI Takes 7K SF at Capstone’s 140 Crosby Street for First U.S. Office",
-      "when": "Sep 23",
-      "link": "https://commercialobserver.com/2026/09/conduct-ai-lease-capstone-140-crosby-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Zara Doubles Footprint at a Macerich Shopping Center in Los Angeles County",
-      "when": "Sep 23",
-      "link": "https://commercialobserver.com/2026/09/zara-macerich-cerritos/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.38",
-      "chg": "-2.24%",
-      "dir": -1
+      "price": "70.51",
+      "chg": "+0.18%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.45",
-      "chg": "-1.57%",
-      "dir": -1
+      "price": "91.61",
+      "chg": "+0.17%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.36",
-      "chg": "-1.28%",
-      "dir": -1
+      "price": "62.59",
+      "chg": "+0.37%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "133.96",
-      "chg": "-0.65%",
-      "dir": -1
+      "price": "134.17",
+      "chg": "+0.16%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.29",
-      "chg": "+0.11%",
-      "dir": 1
+      "price": "61.28",
+      "chg": "-0.02%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.16",
-      "chg": "-0.56%",
-      "dir": -1
+      "price": "204.26",
+      "chg": "+0.05%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
