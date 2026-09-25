@@ -3,31 +3,31 @@
     "date_line": "Friday · Sep 25, 2026",
     "as_of": "Auto-compiled from public sources · Sep 25, 2026",
     "compiled": "Compiled Sep 25, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-25T18:05:08Z"
+    "generated_utc": "2026-09-25T18:45:38Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,740.89",
-      "ch": "+0.48%",
+      "vl": "7,739.49",
+      "ch": "+0.46%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,083",
-      "ch": "+0.53%",
+      "vl": "27,069",
+      "ch": "+0.48%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,771",
-      "ch": "+0.82%",
+      "vl": "51,778",
+      "ch": "+0.83%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "14.98",
-      "ch": "-4.40%",
+      "vl": "15.05",
+      "ch": "-3.96%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.48%",
-    "standfirst": "At the last close: S&P 500 7,740.89 (+0.48%); Nasdaq 27,083 (+0.53%); Dow 51,771 (+0.82%). VIX 14.98 (-4.40%).",
+    "headline": "The S&P 500 edged higher 0.46%",
+    "standfirst": "At the last close: S&P 500 7,739.49 (+0.46%); Nasdaq 27,069 (+0.48%); Dow 51,778 (+0.83%). VIX 15.05 (-3.96%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "4 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.67%; PLD lagged at -0.47%."
+      "BXP led at +1.74%; PLD lagged at -0.45%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 2:04 PM ET, Sep 25"
+    "quote_note": "Quotes ~15-min delayed · as of 2:44 PM ET, Sep 25"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,740.89",
+      "val": "7,739.49",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.48%",
+        "txt": "0.46%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,709.86</span> · <span class=\"up mono\">+17.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,083",
+      "val": "27,069",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.53%",
+        "txt": "0.48%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,971</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,771",
+      "val": "51,778",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.82%",
+        "txt": "0.83%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,360</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.98",
+      "val": "15.05",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "4.40%",
+        "txt": "3.96%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.61</span>"
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Prestige Companies Back Dania Beach, Fla., Residential Complex at a Discount",
+      "when": "Sep 25",
+      "link": "https://commercialobserver.com/2026/09/prestige-florida-multifamily/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Greystone Lends $35M on Chicago-Area Apartments Acquisition",
       "when": "Sep 25",
       "link": "https://commercialobserver.com/2026/09/greystone-chicago-area-apartments/"
@@ -460,12 +466,6 @@
       "title": "South Florida Starchitect Kobi Karp: 5 Questions",
       "when": "Sep 24",
       "link": "https://commercialobserver.com/2026/09/florida-architect-kobi-karp/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "BHI Lends $72M on New Jersey Apartments Build",
-      "when": "Sep 24",
-      "link": "https://commercialobserver.com/2026/09/bhi-bayonne-new-jersey-apartments/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "71.67",
-      "chg": "+1.03%",
+      "price": "71.64",
+      "chg": "+0.98%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.79",
-      "chg": "-0.42%",
+      "price": "90.83",
+      "chg": "-0.38%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.31",
-      "chg": "+1.67%",
+      "price": "63.35",
+      "chg": "+1.74%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "133.19",
-      "chg": "-0.47%",
+      "price": "133.22",
+      "chg": "-0.45%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.17",
-      "chg": "+0.20%",
+      "price": "61.28",
+      "chg": "+0.38%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.07",
-      "chg": "+0.18%",
+      "price": "204.95",
+      "chg": "+0.12%",
       "dir": 1
     }
   ],
