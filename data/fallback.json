@@ -3,7 +3,7 @@
     "date_line": "Thursday · Sep 24, 2026",
     "as_of": "Auto-compiled from public sources · Sep 24, 2026",
     "compiled": "Compiled Sep 24, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-24T23:16:24Z"
+    "generated_utc": "2026-09-25T01:39:01Z"
   },
   "ticker": [
     {
@@ -337,6 +337,22 @@
   "headlines": [
     {
       "when": "Sep 24",
+      "title": "China's Xi urges U.S. to cooperate on AI",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html"
+    },
+    {
+      "when": "Sep 24",
+      "title": "Here's who is attending the Trump-Xi state dinner",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html"
+    },
+    {
+      "when": "Sep 24",
       "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
       "blurb": "",
       "kind": "",
@@ -366,22 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html"
-    },
-    {
-      "when": "Sep 24",
-      "title": "Switzerland is keeping rates at 0% — for now",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/24/swiss-national-bank-interest-rates-inflation.html"
-    },
-    {
-      "when": "Sep 24",
-      "title": "Global debt tops $365 trillion as economists sound alarm over 'vicious cycle'",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html"
     }
   ],
   "cre": {
