@@ -3,31 +3,31 @@
     "date_line": "Friday · Sep 25, 2026",
     "as_of": "Auto-compiled from public sources · Sep 25, 2026",
     "compiled": "Compiled Sep 25, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-25T13:58:02Z"
+    "generated_utc": "2026-09-25T18:05:08Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,730.35",
-      "ch": "+0.34%",
-      "dir": 1
-    },
-    {
-      "nm": "Nasdaq",
-      "vl": "27,064",
-      "ch": "+0.46%",
-      "dir": 1
-    },
-    {
-      "nm": "Dow",
-      "vl": "51,596",
+      "vl": "7,740.89",
       "ch": "+0.48%",
       "dir": 1
     },
     {
+      "nm": "Nasdaq",
+      "vl": "27,083",
+      "ch": "+0.53%",
+      "dir": 1
+    },
+    {
+      "nm": "Dow",
+      "vl": "51,771",
+      "ch": "+0.82%",
+      "dir": 1
+    },
+    {
       "nm": "VIX",
-      "vl": "15.10",
-      "ch": "-3.64%",
+      "vl": "14.98",
+      "ch": "-4.40%",
       "dir": -1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "0.95%",
+      "vl": "0.97%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "2.73%",
+      "vl": "2.80%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.34%",
-    "standfirst": "At the last close: S&P 500 7,730.35 (+0.34%); Nasdaq 27,064 (+0.46%); Dow 51,596 (+0.48%). VIX 15.10 (-3.64%).",
+    "headline": "The S&P 500 edged higher 0.48%",
+    "standfirst": "At the last close: S&P 500 7,740.89 (+0.48%); Nasdaq 27,083 (+0.53%); Dow 51,771 (+0.82%). VIX 14.98 (-4.40%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "KRE led at +0.68%; VMRK lagged at -0.27%."
+      "4 of 6 names on the watchlist closed higher.",
+      "BXP led at +1.67%; PLD lagged at -0.47%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:57 AM ET, Sep 25"
+    "quote_note": "Quotes ~15-min delayed · as of 2:04 PM ET, Sep 25"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,730.35",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.34%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">7,709.86</span> · <span class=\"up mono\">+17.0%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "27,064",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.46%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">26,971</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "51,596",
+      "val": "7,740.89",
       "tone": "pos",
       "delta": {
         "dir": 1,
         "txt": "0.48%",
         "note": "vs prior close"
       },
+      "note": "Open <span class=\"mono\">7,709.86</span> · <span class=\"up mono\">+17.2%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "27,083",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.53%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">26,971</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "51,771",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.82%",
+        "note": "vs prior close"
+      },
       "note": "Open <span class=\"mono\">51,360</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.10",
+      "val": "14.98",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "3.64%",
+        "txt": "4.40%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.61</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.95%, high-yield at 2.73%",
-    "standfirst": "The high-yield premium over investment grade is 1.78 percentage points. The 2s10s Treasury spread is +31 bps.",
+    "headline": "Investment-grade OAS at 0.97%, high-yield at 2.80%",
+    "standfirst": "The high-yield premium over investment grade is 1.83 percentage points. The 2s10s Treasury spread is +31 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,45 +296,53 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "0.95",
+      "val": "0.97",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.00pp",
-        "note": "flat"
+        "txt": "+0.02pp",
+        "note": "wider"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "2.73",
+      "val": "2.80",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.05pp",
+        "txt": "+0.07pp",
         "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "1.78",
+      "val": "1.83",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 0.95,
-    "hy": 2.73
+    "ig": 0.97,
+    "hy": 2.8
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Sep 25",
+      "title": "Here's who attended the Trump-Xi state dinner",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html"
+    },
     {
       "when": "Sep 25",
       "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
@@ -350,14 +358,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/09/25/china-exports-surplus-trade-tariffs-.html"
-    },
-    {
-      "when": "Sep 25",
-      "title": "Here's who attended the Trump-Xi state dinner",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html"
     },
     {
       "when": "Sep 25",
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Greystone Lends $35M on Chicago-Area Apartments Acquisition",
+      "when": "Sep 25",
+      "link": "https://commercialobserver.com/2026/09/greystone-chicago-area-apartments/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Aquarian Real Estate Partners, 3650 Capital Loan $72M on Chicago-Area Acquisition",
       "when": "Sep 25",
       "link": "https://commercialobserver.com/2026/09/aquarian-real-estate-partners-3650-capital-rhino-investments/"
@@ -460,12 +466,6 @@
       "title": "BHI Lends $72M on New Jersey Apartments Build",
       "when": "Sep 24",
       "link": "https://commercialobserver.com/2026/09/bhi-bayonne-new-jersey-apartments/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Coworking Firm Industrious to Provide Hologram-Like Google Beam Meetings",
-      "when": "Sep 24",
-      "link": "https://commercialobserver.com/2026/09/industrious-google-beam/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "71.42",
-      "chg": "+0.68%",
+      "price": "71.67",
+      "chg": "+1.03%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.12",
-      "chg": "-0.05%",
+      "price": "90.79",
+      "chg": "-0.42%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.18",
-      "chg": "-0.14%",
-      "dir": -1
+      "price": "63.31",
+      "chg": "+1.67%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "133.54",
-      "chg": "-0.21%",
+      "price": "133.19",
+      "chg": "-0.47%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.88",
-      "chg": "-0.27%",
-      "dir": -1
+      "price": "61.17",
+      "chg": "+0.20%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.44",
-      "chg": "-0.13%",
-      "dir": -1
+      "price": "205.07",
+      "chg": "+0.18%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
