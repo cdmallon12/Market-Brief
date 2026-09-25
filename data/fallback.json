@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Thursday · Sep 24, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 24, 2026",
-    "compiled": "Compiled Sep 24, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-25T01:39:01Z"
+    "date_line": "Friday · Sep 25, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 25, 2026",
+    "compiled": "Compiled Sep 25, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-25T13:50:57Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,704.13",
-      "ch": "-0.02%",
-      "dir": -1
+      "vl": "7,726.69",
+      "ch": "+0.29%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,939",
-      "ch": "+0.01%",
+      "vl": "27,039",
+      "ch": "+0.37%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,350",
-      "ch": "-0.31%",
-      "dir": -1
+      "vl": "51,573",
+      "ch": "+0.43%",
+      "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.67",
-      "ch": "+3.23%",
-      "dir": 1
+      "vl": "15.10",
+      "ch": "-3.64%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.87%",
+      "vl": "3.88%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 was little changed",
-    "standfirst": "At the last close: S&P 500 7,704.13 (-0.02%); Nasdaq 26,939 (+0.01%); Dow 51,350 (-0.31%). VIX 15.67 (+3.23%).",
+    "headline": "The S&P 500 edged higher 0.29%",
+    "standfirst": "At the last close: S&P 500 7,726.69 (+0.29%); Nasdaq 27,039 (+0.37%); Dow 51,573 (+0.43%). VIX 15.10 (-3.64%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "2 of 6 names on the watchlist closed higher.",
-      "KRE led at +0.80%; VMRK lagged at -0.39%."
+      "1 of 6 names on the watchlist closed higher.",
+      "KRE led at +0.70%; VMRK lagged at -0.54%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,52 +147,52 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 24"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 25"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,704.13",
-      "tone": "neg",
+      "val": "7,726.69",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.02%",
+        "dir": 1,
+        "txt": "0.29%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,666.99</span> · <span class=\"up mono\">+16.6%</span> YoY"
+      "note": "Open <span class=\"mono\">7,709.86</span> · <span class=\"up mono\">+17.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,939",
+      "val": "27,039",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.01%",
+        "txt": "0.37%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">26,735</span>"
+      "note": "Open <span class=\"mono\">26,971</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,350",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.31%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">51,416</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "15.67",
+      "val": "51,573",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "3.23%",
+        "txt": "0.43%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">15.83</span>"
+      "note": "Open <span class=\"mono\">51,360</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "15.10",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "3.64%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">15.61</span>"
     }
   ],
   "economy": {
@@ -336,6 +336,38 @@
   },
   "headlines": [
     {
+      "when": "Sep 25",
+      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html"
+    },
+    {
+      "when": "Sep 25",
+      "title": "China saw 'surprise' jump in U.S. orders ahead of Trump-Xi summit, private survey shows",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/09/25/china-exports-surplus-trade-tariffs-.html"
+    },
+    {
+      "when": "Sep 25",
+      "title": "Here's who attended the Trump-Xi state dinner",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html"
+    },
+    {
+      "when": "Sep 25",
+      "title": "Crypto platform Bitget suspects North Korea is responsible for $352 million hack",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/25/crypto-platform-bitget-suspects-north-korea-in-352-million-hack.html"
+    },
+    {
       "when": "Sep 24",
       "title": "China's Xi urges U.S. to cooperate on AI",
       "blurb": "",
@@ -345,47 +377,15 @@
     },
     {
       "when": "Sep 24",
-      "title": "Here's who is attending the Trump-Xi state dinner",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html"
-    },
-    {
-      "when": "Sep 24",
-      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html"
-    },
-    {
-      "when": "Sep 24",
       "title": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/24/philadelphia-feds-anna-paulson-says-modest-rate-moves-likely-ahead-to-tame-inflation.html"
-    },
-    {
-      "when": "Sep 24",
-      "title": "Here's what happens to the economy when Treasury yields soar like they are now",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html"
-    },
-    {
-      "when": "Sep 24",
-      "title": "China confirms first AI talks with U.S. have taken place, hints at trade truce extension",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.18%, overnight SOFR at 3.87%",
+    "headline": "The 10-year at 5.18%, overnight SOFR at 3.88%",
     "standfirst": "An illustrative agency coupon prices at 6.53–6.83%. The Freddie Mac 30-year survey rate is 7.03%.",
     "curve_date": "Sep 24, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.87",
+      "val": "3.88",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -431,6 +431,12 @@
     }
   ],
   "cre_headlines": [
+    {
+      "source": "Commercial Observer",
+      "title": "Aquarian Real Estate Partners, 3650 Capital Loan $72M on Chicago-Area Acquisition",
+      "when": "Sep 25",
+      "link": "https://commercialobserver.com/2026/09/aquarian-real-estate-partners-3650-capital-rhino-investments/"
+    },
     {
       "source": "Commercial Observer",
       "title": "Pistola Denim Takes Nearly 18K SF at ROW DTLA",
@@ -460,12 +466,6 @@
       "title": "Coworking Firm Industrious to Provide Hologram-Like Google Beam Meetings",
       "when": "Sep 24",
       "link": "https://commercialobserver.com/2026/09/industrious-google-beam/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Moishe Mana Buys Discounted Fort Lauderdale Office Tower for $89M",
-      "when": "Sep 24",
-      "link": "https://commercialobserver.com/2026/09/moishe-mana-fort-lauderdale-110-tower/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.94",
-      "chg": "+0.80%",
+      "price": "71.44",
+      "chg": "+0.70%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.17",
-      "chg": "-0.31%",
+      "price": "91.09",
+      "chg": "-0.09%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.27",
-      "chg": "-0.14%",
+      "price": "62.19",
+      "chg": "-0.13%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "133.82",
-      "chg": "-0.10%",
+      "price": "133.47",
+      "chg": "-0.26%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.05",
-      "chg": "-0.39%",
+      "price": "60.72",
+      "chg": "-0.54%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.70",
-      "chg": "+0.26%",
-      "dir": 1
+      "price": "204.24",
+      "chg": "-0.22%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
