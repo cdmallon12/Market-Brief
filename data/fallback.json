@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Friday · Sep 25, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 25, 2026",
-    "compiled": "Compiled Sep 25, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-26T01:47:03Z"
+    "date_line": "Monday · Sep 28, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 28, 2026",
+    "compiled": "Compiled Sep 28, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-28T13:50:59Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,743.41",
-      "ch": "+0.51%",
-      "dir": 1
+      "vl": "7,711.17",
+      "ch": "-0.42%",
+      "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,069",
-      "ch": "+0.48%",
-      "dir": 1
+      "vl": "26,919",
+      "ch": "-0.55%",
+      "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,829",
-      "ch": "+0.93%",
-      "dir": 1
+      "vl": "51,584",
+      "ch": "-0.47%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "14.87",
-      "ch": "-5.11%",
-      "dir": -1
+      "vl": "16.16",
+      "ch": "+8.68%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.88%",
+      "vl": "3.90%",
       "ch": "",
       "dir": 0
     },
@@ -110,19 +110,19 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.51%",
-    "standfirst": "At the last close: S&P 500 7,743.41 (+0.51%); Nasdaq 27,069 (+0.48%); Dow 51,829 (+0.93%). VIX 14.87 (-5.11%).",
+    "headline": "The S&P 500 edged lower 0.42%",
+    "standfirst": "At the last close: S&P 500 7,711.17 (-0.42%); Nasdaq 26,919 (-0.55%); Dow 51,584 (-0.47%). VIX 16.16 (+8.68%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "4 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.81%; PLD lagged at -0.58%."
+      "PLD led at +0.75%; KRE lagged at -0.77%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
     "catalysts": [
       {
-        "when": "Tue · Sep 29",
+        "when": "Tomorrow",
         "title": "JOLTS job openings",
         "body": "August openings, hires and quits."
       },
@@ -147,52 +147,52 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 25"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 28"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,743.41",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.51%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">7,709.86</span> · <span class=\"up mono\">+16.6%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "27,069",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.48%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">26,971</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "51,829",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.93%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">51,360</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "14.87",
+      "val": "7,711.17",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "5.11%",
+        "txt": "0.42%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">15.61</span>"
+      "note": "Open <span class=\"mono\">7,721.70</span> · <span class=\"up mono\">+15.8%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "26,919",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.55%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">26,936</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "51,584",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.47%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">51,648</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "16.16",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "8.68%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">16.16</span>"
     }
   ],
   "economy": {
@@ -336,56 +336,56 @@
   },
   "headlines": [
     {
-      "when": "Sep 25",
-      "title": "Appeals court rules that states can regulate Kalshi’s sports prediction markets, dealing another legal blow to platforms",
+      "when": "Sep 28",
+      "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/25/appeals-court-rules-states-can-regulate-sports-prediction-markets.html"
+      "link": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html"
     },
     {
-      "when": "Sep 25",
-      "title": "Here's who attended the Trump-Xi state dinner",
+      "when": "Sep 28",
+      "title": "Trump-Xi summit analysis: 'Tangible outcomes' needed for U.S.-China truce to hold",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html"
+      "link": "https://www.cnbc.com/2026/09/28/trump-xi-summit-tangible-outcomes-us-china-truce.html"
     },
     {
-      "when": "Sep 25",
-      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+      "when": "Sep 28",
+      "title": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html"
+      "link": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html"
     },
     {
-      "when": "Sep 25",
-      "title": "China saw 'surprise' jump in U.S. orders ahead of Trump-Xi summit, private survey shows",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/25/china-exports-surplus-trade-tariffs-.html"
-    },
-    {
-      "when": "Sep 25",
-      "title": "Crypto platform Bitget suspects North Korea is responsible for $352 million hack",
+      "when": "Sep 27",
+      "title": "Debt-hungry AI companies face increased risk as bond yields spike",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/25/crypto-platform-bitget-suspects-north-korea-in-352-million-hack.html"
+      "link": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html"
     },
     {
-      "when": "Sep 24",
-      "title": "China's Xi urges U.S. to cooperate on AI",
+      "when": "Sep 26",
+      "title": "This may be the ‘missing piece’ for investors looking to boost AI exposure",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html"
+      "link": "https://www.cnbc.com/2026/09/26/ai-portfolios-may-need-china-to-grab-the-biggest-gains.html"
+    },
+    {
+      "when": "Sep 26",
+      "title": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.17%, overnight SOFR at 3.88%",
+    "headline": "The 10-year at 5.17%, overnight SOFR at 3.90%",
     "standfirst": "An illustrative agency coupon prices at 6.52–6.82%. The Freddie Mac 30-year survey rate is 7.03%.",
     "curve_date": "Sep 25, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.88",
+      "val": "3.90",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "U.S. Government Pays $285M for Defense Health Agency HQ in Northern Virginia",
-      "when": "Sep 25",
-      "link": "https://commercialobserver.com/2026/09/us-defense-health-agency-virginia/"
+      "title": "The Quantum Coast: Meet America’s Top New Tech Hub",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/quantum-computing-santa-barbara-real-estate/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Construction Firm Brasfield & Gorrie Inks 19K-SF Lease in Broward County",
-      "when": "Sep 25",
-      "link": "https://commercialobserver.com/2026/09/brasfield-gorrie-weston-broward-county/"
+      "title": "Mavik Loans $229M in Construction Financing for Tempe Multifamily",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/mavik-loans-299m-construction-tempe-multifamily/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Developers File Plans for 402-Unit Housing Project Along Astoria Waterfront",
-      "when": "Sep 25",
-      "link": "https://commercialobserver.com/2026/09/across-the-river-realty-31-29-vernon-boulevard/"
+      "title": "Office CMBS Delinquency Rate at Highest Level This Decade",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/office-cmbs-delinquency-rate-cred-iq/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Legion Investment Group, SMA Equities Pair on 300K-SF UES Resi Project",
-      "when": "Sep 25",
-      "link": "https://commercialobserver.com/2026/09/legion-investment-group-sma-equities-residential-1491-third-avenue/"
+      "title": "Marco Caffuzzi of Latham & Watkins: 5 Questions",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/marco-caffuzzi-latham-watkins-5-questions/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Harbor Associates Sells Office Campus in North L.A. County for $32M",
-      "when": "Sep 25",
-      "link": "https://commercialobserver.com/2026/09/strauss-harbor-office-la/"
+      "title": "Higher Forever: How Surging Treasury Yields Are Impacting Commercial Real Estate",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/10-year-treasury-yields-commercial-real-estate/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Prestige Companies Buys Back Dania Beach, Fla., Residential Complex at a Discount",
-      "when": "Sep 25",
-      "link": "https://commercialobserver.com/2026/09/prestige-florida-multifamily/"
+      "title": "In Construction Lending, It’s a Good Time to Be the Right Borrower",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/construction-lending-borrower-conditions-2026/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "71.55",
-      "chg": "+0.86%",
-      "dir": 1
+      "price": "71.00",
+      "chg": "-0.77%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.99",
-      "chg": "-0.20%",
-      "dir": -1
+      "price": "91.30",
+      "chg": "+0.34%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.40",
-      "chg": "+1.81%",
-      "dir": 1
+      "price": "63.12",
+      "chg": "-0.44%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "133.05",
-      "chg": "-0.58%",
-      "dir": -1
+      "price": "134.05",
+      "chg": "+0.75%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.51",
-      "chg": "+0.75%",
+      "price": "61.65",
+      "chg": "+0.22%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.82",
-      "chg": "+0.06%",
+      "price": "205.46",
+      "chg": "+0.31%",
       "dir": 1
     }
   ],
