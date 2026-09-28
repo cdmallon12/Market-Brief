@@ -3,48 +3,48 @@
     "date_line": "Monday · Sep 28, 2026",
     "as_of": "Auto-compiled from public sources · Sep 28, 2026",
     "compiled": "Compiled Sep 28, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-28T16:50:45Z"
+    "generated_utc": "2026-09-28T20:14:44Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,698.20",
-      "ch": "-0.58%",
+      "vl": "7,683.69",
+      "ch": "-0.77%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,893",
-      "ch": "-0.65%",
+      "vl": "26,820",
+      "ch": "-0.92%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,557",
-      "ch": "-0.52%",
+      "vl": "51,482",
+      "ch": "-0.67%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.84",
-      "ch": "+6.52%",
+      "vl": "16.08",
+      "ch": "+8.14%",
       "dir": 1
     },
     {
       "nm": "10Y UST",
-      "vl": "5.17%",
+      "vl": "5.24%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.81%",
+      "vl": "4.92%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.49%",
+      "vl": "5.56%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.58%",
-    "standfirst": "At the last close: S&P 500 7,698.20 (-0.58%); Nasdaq 26,893 (-0.65%); Dow 51,557 (-0.52%). VIX 15.84 (+6.52%).",
+    "headline": "The S&P 500 fell 0.77%",
+    "standfirst": "At the last close: S&P 500 7,683.69 (-0.77%); Nasdaq 26,820 (-0.92%); Dow 51,482 (-0.67%). VIX 16.08 (+8.14%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "PLD led at -0.11%; BXP lagged at -1.88%."
+      "SPG led at -0.13%; BXP lagged at -1.50%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 12:50 PM ET, Sep 28"
+    "quote_note": "Quotes ~15-min delayed · as of 4:14 PM ET, Sep 28"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,698.20",
+      "val": "7,683.69",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.58%",
+        "txt": "0.77%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,721.70</span> · <span class=\"up mono\">+15.6%</span> YoY"
+      "note": "Open <span class=\"mono\">7,721.70</span> · <span class=\"up mono\">+15.3%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,893",
+      "val": "26,820",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.65%",
+        "txt": "0.92%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,936</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,557",
+      "val": "51,482",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.52%",
+        "txt": "0.67%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,648</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.84",
+      "val": "16.08",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "6.52%",
+        "txt": "8.14%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.16</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 0.99%, high-yield at 2.93%",
-    "standfirst": "The high-yield premium over investment grade is 1.94 percentage points. The 2s10s Treasury spread is +36 bps.",
+    "standfirst": "The high-yield premium over investment grade is 1.94 percentage points. The 2s10s Treasury spread is +32 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +36 bps; 3m10y +93 bps; 5s30s +51 bps; 10s30s +32 bps."
+      "Across the curve: 2s10s +32 bps; 3m10y +96 bps; 5s30s +50 bps; 10s30s +32 bps."
     ]
   },
   "credit_tiles": [
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Sep 28",
+      "title": "Nearly half the stocks in the S&P 500 are at cross purposes with the rest of the market",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/28/nearly-half-of-the-stocks-in-the-sp-500-are-working-against-it.html"
+    },
+    {
+      "when": "Sep 28",
       "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies",
       "blurb": "",
       "kind": "",
@@ -374,20 +382,12 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/26/ai-portfolios-may-need-china-to-grab-the-biggest-gains.html"
-    },
-    {
-      "when": "Sep 26",
-      "title": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.17%, overnight SOFR at 3.90%",
-    "standfirst": "An illustrative agency coupon prices at 6.52–6.82%. The Freddie Mac 30-year survey rate is 7.03%.",
-    "curve_date": "Sep 25, 2026",
+    "headline": "The 10-year at 5.24%, overnight SOFR at 3.90%",
+    "standfirst": "An illustrative agency coupon prices at 6.59–6.89%. The Freddie Mac 30-year survey rate is 7.03%.",
+    "curve_date": "Sep 28, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,14 +398,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "5.17",
+      "val": "5.24",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+36 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+32 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.81",
+      "val": "4.92",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Private Equity Firm Sentinel Capital Expands to 35K SF at One Vanderbilt",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/sentinel-capital-lease-expansion-one-vanderbilt/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Hedge Fund Castle Hook Takes Penthouse Office at Related’s 625 Madison Avenue",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/castle-hook-partners-lease-related-companies-625-madison-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Elysee Investments Buys Shopping Center Near Waterford Business District for $28M",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/elysee-investments-waterford-business-district-blue-lagoon-shoppes/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Brixmor Property Group, Everview Partners Acquire Slate Grocery REIT for $2.34B",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/brixmor-property-group-everview-partners-acquire-slate-grocery-reit/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Solidcore Signs Lease for Fitness Studio at 1695 Second Avenue on Upper East Side",
       "when": "Sep 28",
       "link": "https://commercialobserver.com/2026/09/solidcore-lease-1695-second-avenue/"
@@ -442,30 +466,6 @@
       "title": "Men’s Grooming Club John Allan’s Moves to 4 East 46th Street",
       "when": "Sep 28",
       "link": "https://commercialobserver.com/2026/09/john-allans-lease-4-east-46th-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Toys R Us Bets on Brick and Mortar With 120 New Stores",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/toys-r-us-leases-new-stores/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Mainstay Raises $18M and Acquires Truelist",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/mainstay-truelist-proptech/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "The Quantum Coast: Meet America’s Top New Tech Hub",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/quantum-computing-santa-barbara-real-estate/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Mavik Loans $229M in Construction Financing for Tempe Multifamily",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/mavik-loans-299m-construction-tempe-multifamily/"
     }
   ],
   "cre_fund_tiles": [
@@ -511,16 +511,16 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.52–6.82",
+      "val": "6.59–6.89",
       "unit": "%",
       "tone": "",
-      "note": "10Y (5.17%) + 135–165 bp agency spread"
+      "note": "10Y (5.24%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+36",
-    "3m10y": "+93",
-    "5s30s": "+51",
+    "2s10s": "+32",
+    "3m10y": "+96",
+    "5s30s": "+50",
     "10s30s": "+32"
   },
   "cre_market": {
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.75",
-      "chg": "-1.13%",
+      "price": "70.57",
+      "chg": "-1.37%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.49",
-      "chg": "-0.55%",
+      "price": "90.60",
+      "chg": "-0.43%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.20",
-      "chg": "-1.88%",
+      "price": "62.45",
+      "chg": "-1.50%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "132.90",
-      "chg": "-0.11%",
+      "price": "132.41",
+      "chg": "-0.48%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.86",
-      "chg": "-1.06%",
+      "price": "61.37",
+      "chg": "-0.23%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "203.95",
-      "chg": "-0.42%",
+      "price": "204.55",
+      "chg": "-0.13%",
       "dir": -1
     }
   ],
@@ -658,77 +658,77 @@
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.24,
+      "y": 4.28,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.33,
+      "y": 4.41,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.5,
+      "y": 4.59,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.81,
+      "y": 4.92,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.94,
+      "y": 5.01,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.98,
+      "y": 5.06,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 5.06,
+      "y": 5.15,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 5.17,
+      "y": 5.24,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.54,
+      "y": 5.6,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.49,
+      "y": 5.56,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.67
+    "new": 6.74
   },
   "orig": {
     "y2025": 633.7,
