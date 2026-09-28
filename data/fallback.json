@@ -3,31 +3,31 @@
     "date_line": "Monday · Sep 28, 2026",
     "as_of": "Auto-compiled from public sources · Sep 28, 2026",
     "compiled": "Compiled Sep 28, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-28T13:50:59Z"
+    "generated_utc": "2026-09-28T16:50:45Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,711.17",
-      "ch": "-0.42%",
+      "vl": "7,698.20",
+      "ch": "-0.58%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,919",
-      "ch": "-0.55%",
+      "vl": "26,893",
+      "ch": "-0.65%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,584",
-      "ch": "-0.47%",
+      "vl": "51,557",
+      "ch": "-0.52%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "16.16",
-      "ch": "+8.68%",
+      "vl": "15.84",
+      "ch": "+6.52%",
       "dir": 1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "0.97%",
+      "vl": "0.99%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "2.80%",
+      "vl": "2.93%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.42%",
-    "standfirst": "At the last close: S&P 500 7,711.17 (-0.42%); Nasdaq 26,919 (-0.55%); Dow 51,584 (-0.47%). VIX 16.16 (+8.68%).",
+    "headline": "The S&P 500 fell 0.58%",
+    "standfirst": "At the last close: S&P 500 7,698.20 (-0.58%); Nasdaq 26,893 (-0.65%); Dow 51,557 (-0.52%). VIX 15.84 (+6.52%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "4 of 6 names on the watchlist closed higher.",
-      "PLD led at +0.75%; KRE lagged at -0.77%."
+      "0 of 6 names on the watchlist closed higher.",
+      "PLD led at -0.11%; BXP lagged at -1.88%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 28"
+    "quote_note": "Quotes ~15-min delayed · as of 12:50 PM ET, Sep 28"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,711.17",
+      "val": "7,698.20",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.42%",
+        "txt": "0.58%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,721.70</span> · <span class=\"up mono\">+15.8%</span> YoY"
+      "note": "Open <span class=\"mono\">7,721.70</span> · <span class=\"up mono\">+15.6%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,919",
+      "val": "26,893",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.55%",
+        "txt": "0.65%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,936</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,584",
+      "val": "51,557",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.47%",
+        "txt": "0.52%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,648</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.16",
+      "val": "15.84",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "8.68%",
+        "txt": "6.52%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.16</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.97%, high-yield at 2.80%",
-    "standfirst": "The high-yield premium over investment grade is 1.83 percentage points. The 2s10s Treasury spread is +36 bps.",
+    "headline": "Investment-grade OAS at 0.99%, high-yield at 2.93%",
+    "standfirst": "The high-yield premium over investment grade is 1.94 percentage points. The 2s10s Treasury spread is +36 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,7 +296,7 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "0.97",
+      "val": "0.99",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
@@ -308,27 +308,27 @@
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "2.80",
+      "val": "2.93",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.07pp",
+        "txt": "+0.13pp",
         "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "1.83",
+      "val": "1.94",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 0.97,
-    "hy": 2.8
+    "ig": 0.99,
+    "hy": 2.93
   },
   "news": {
     "headline": "Latest headlines",
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Solidcore Signs Lease for Fitness Studio at 1695 Second Avenue on Upper East Side",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/solidcore-lease-1695-second-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Men’s Grooming Club John Allan’s Moves to 4 East 46th Street",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/john-allans-lease-4-east-46th-street/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Toys R Us Bets on Brick and Mortar With 120 New Stores",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/toys-r-us-leases-new-stores/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Mainstay Raises $18M and Acquires Truelist",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/mainstay-truelist-proptech/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "The Quantum Coast: Meet America’s Top New Tech Hub",
       "when": "Sep 28",
       "link": "https://commercialobserver.com/2026/09/quantum-computing-santa-barbara-real-estate/"
@@ -442,30 +466,6 @@
       "title": "Mavik Loans $229M in Construction Financing for Tempe Multifamily",
       "when": "Sep 28",
       "link": "https://commercialobserver.com/2026/09/mavik-loans-299m-construction-tempe-multifamily/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Office CMBS Delinquency Rate at Highest Level This Decade",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/office-cmbs-delinquency-rate-cred-iq/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Marco Caffuzzi of Latham & Watkins: 5 Questions",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/marco-caffuzzi-latham-watkins-5-questions/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Higher Forever: How Surging Treasury Yields Are Impacting Commercial Real Estate",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/10-year-treasury-yields-commercial-real-estate/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "In Construction Lending, It’s a Good Time to Be the Right Borrower",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/construction-lending-borrower-conditions-2026/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "71.00",
-      "chg": "-0.77%",
+      "price": "70.75",
+      "chg": "-1.13%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.30",
-      "chg": "+0.34%",
-      "dir": 1
+      "price": "90.49",
+      "chg": "-0.55%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.12",
-      "chg": "-0.44%",
+      "price": "62.20",
+      "chg": "-1.88%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "134.05",
-      "chg": "+0.75%",
-      "dir": 1
+      "price": "132.90",
+      "chg": "-0.11%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.65",
-      "chg": "+0.22%",
-      "dir": 1
+      "price": "60.86",
+      "chg": "-1.06%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.46",
-      "chg": "+0.31%",
-      "dir": 1
+      "price": "203.95",
+      "chg": "-0.42%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
