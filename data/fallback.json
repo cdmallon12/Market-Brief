@@ -3,7 +3,7 @@
     "date_line": "Monday · Sep 28, 2026",
     "as_of": "Auto-compiled from public sources · Sep 28, 2026",
     "compiled": "Compiled Sep 28, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-28T20:14:44Z"
+    "generated_utc": "2026-09-28T22:35:26Z"
   },
   "ticker": [
     {
@@ -26,8 +26,8 @@
     },
     {
       "nm": "VIX",
-      "vl": "16.08",
-      "ch": "+8.14%",
+      "vl": "16.07",
+      "ch": "+8.07%",
       "dir": 1
     },
     {
@@ -111,12 +111,12 @@
   ],
   "markets": {
     "headline": "The S&P 500 fell 0.77%",
-    "standfirst": "At the last close: S&P 500 7,683.69 (-0.77%); Nasdaq 26,820 (-0.92%); Dow 51,482 (-0.67%). VIX 16.08 (+8.14%).",
+    "standfirst": "At the last close: S&P 500 7,683.69 (-0.77%); Nasdaq 26,820 (-0.92%); Dow 51,482 (-0.67%). VIX 16.07 (+8.07%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "SPG led at -0.13%; BXP lagged at -1.50%."
+      "SPG led at -0.14%; BXP lagged at -1.53%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,7 +147,7 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 4:14 PM ET, Sep 28"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 28"
   },
   "markets_tiles": [
     {
@@ -185,11 +185,11 @@
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.08",
+      "val": "16.07",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "8.14%",
+        "txt": "8.07%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.16</span>"
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Podcast: Automating CRE Accounts Payable Coding, with PredictAP CEO David Stifter",
+      "when": "Sep 28",
+      "link": "https://commercialobserver.com/2026/09/podcast-automating-cre-accounts-payable-coding-with-predictap-ceo-david-stifter/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Private Equity Firm Sentinel Capital Expands to 35K SF at One Vanderbilt",
       "when": "Sep 28",
       "link": "https://commercialobserver.com/2026/09/sentinel-capital-lease-expansion-one-vanderbilt/"
@@ -460,12 +466,6 @@
       "title": "Solidcore Signs Lease for Fitness Studio at 1695 Second Avenue on Upper East Side",
       "when": "Sep 28",
       "link": "https://commercialobserver.com/2026/09/solidcore-lease-1695-second-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Men’s Grooming Club John Allan’s Moves to 4 East 46th Street",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/john-allans-lease-4-east-46th-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,29 +606,29 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.57",
-      "chg": "-1.37%",
+      "price": "70.55",
+      "chg": "-1.40%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.60",
-      "chg": "-0.43%",
+      "price": "90.59",
+      "chg": "-0.44%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.45",
-      "chg": "-1.50%",
+      "price": "62.43",
+      "chg": "-1.53%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "132.41",
-      "chg": "-0.48%",
+      "price": "132.44",
+      "chg": "-0.46%",
       "dir": -1
     },
     {
@@ -641,8 +641,8 @@
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.55",
-      "chg": "-0.13%",
+      "price": "204.53",
+      "chg": "-0.14%",
       "dir": -1
     }
   ],
