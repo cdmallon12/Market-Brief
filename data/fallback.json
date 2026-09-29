@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Monday · Sep 28, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 28, 2026",
-    "compiled": "Compiled Sep 28, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-29T02:37:18Z"
+    "date_line": "Tuesday · Sep 29, 2026",
+    "as_of": "Auto-compiled from public sources · Sep 29, 2026",
+    "compiled": "Compiled Sep 29, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-09-29T13:50:50Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,683.69",
-      "ch": "-0.77%",
+      "vl": "7,679.07",
+      "ch": "-0.06%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,820",
-      "ch": "-0.92%",
+      "vl": "26,800",
+      "ch": "-0.08%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,482",
-      "ch": "-0.67%",
+      "vl": "51,420",
+      "ch": "-0.12%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "16.07",
-      "ch": "+8.07%",
-      "dir": 1
+      "vl": "15.94",
+      "ch": "-0.81%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -110,24 +110,24 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.77%",
-    "standfirst": "At the last close: S&P 500 7,683.69 (-0.77%); Nasdaq 26,820 (-0.92%); Dow 51,482 (-0.67%). VIX 16.07 (+8.07%).",
+    "headline": "The S&P 500 was little changed",
+    "standfirst": "At the last close: S&P 500 7,679.07 (-0.06%); Nasdaq 26,800 (-0.08%); Dow 51,420 (-0.12%). VIX 15.94 (-0.81%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "0 of 6 names on the watchlist closed higher.",
-      "SPG led at -0.14%; BXP lagged at -1.53%."
+      "6 of 6 names on the watchlist closed higher.",
+      "SPG led at +0.37%; PLD lagged at +0.08%."
     ],
-    "card2_title": "Coming up",
-    "card2_sub": "Next scheduled economic releases (ET)",
+    "card2_title": "On the calendar today",
+    "card2_sub": "Scheduled economic releases (ET)",
     "catalysts": [
       {
-        "when": "Tomorrow",
+        "when": "10:00 ET · Today",
         "title": "JOLTS job openings",
         "body": "August openings, hires and quits."
       },
       {
-        "when": "Wed · Sep 30",
+        "when": "Tomorrow",
         "title": "GDP (Q2 third estimate) + Personal Income and Outlays",
         "body": "August PCE, the Fed's preferred inflation gauge, released alongside the final Q2 GDP print. Also the start of BEA's 2026 annual update, so prior months can revise."
       },
@@ -147,52 +147,52 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 28"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 29"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,683.69",
+      "val": "7,679.07",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.77%",
+        "txt": "0.06%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,721.70</span> · <span class=\"up mono\">+15.3%</span> YoY"
+      "note": "Open <span class=\"mono\">7,699.60</span> · <span class=\"up mono\">+15.3%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,820",
+      "val": "26,800",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.92%",
+        "txt": "0.08%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">26,936</span>"
+      "note": "Open <span class=\"mono\">26,909</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,482",
+      "val": "51,420",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.67%",
+        "txt": "0.12%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">51,648</span>"
+      "note": "Open <span class=\"mono\">51,417</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.07",
-      "tone": "pos",
+      "val": "15.94",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "8.07%",
+        "dir": -1,
+        "txt": "0.81%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">16.16</span>"
+      "note": "Open <span class=\"mono\">16.17</span>"
     }
   ],
   "economy": {
@@ -336,6 +336,30 @@
   },
   "headlines": [
     {
+      "when": "Sep 29",
+      "title": "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/29/polymarket-lisa-mantil-institutional-growth.html"
+    },
+    {
+      "when": "Sep 29",
+      "title": "Trump’s municipal bond portfolio reaches as much as $1 billion as policy overlaps mount",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio/.html"
+    },
+    {
+      "when": "Sep 29",
+      "title": "China has three new criteria for humanoid robot IPOs. Few, if any, meet them",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/29/china-criteria-humanoid-robot-ipos.html"
+    },
+    {
       "when": "Sep 28",
       "title": "Nearly half the stocks in the S&P 500 are at cross purposes with the rest of the market",
       "blurb": "",
@@ -358,30 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/28/trump-xi-summit-tangible-outcomes-us-china-truce.html"
-    },
-    {
-      "when": "Sep 28",
-      "title": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html"
-    },
-    {
-      "when": "Sep 27",
-      "title": "Debt-hungry AI companies face increased risk as bond yields spike",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html"
-    },
-    {
-      "when": "Sep 26",
-      "title": "This may be the ‘missing piece’ for investors looking to boost AI exposure",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/26/ai-portfolios-may-need-china-to-grab-the-biggest-gains.html"
     }
   ],
   "cre": {
@@ -433,6 +433,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Venn Acquires Leasing Agent Company Zuma for $50M",
+      "when": "Sep 29",
+      "link": "https://commercialobserver.com/2026/09/venn-zuma-proptech/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Westlight Capital Founder Doug Faron On Going Long in Multifamily",
+      "when": "Sep 29",
+      "link": "https://commercialobserver.com/2026/09/westlight-capital-doug-faron-multifamily-lending/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Rising Rates, Construction Costs Force Developers to Get Creative With Financing",
+      "when": "Sep 29",
+      "link": "https://commercialobserver.com/2026/09/rates-construction-costs-development-financing/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Podcast: Automating CRE Accounts Payable Coding, with PredictAP CEO David Stifter",
       "when": "Sep 28",
       "link": "https://commercialobserver.com/2026/09/podcast-automating-cre-accounts-payable-coding-with-predictap-ceo-david-stifter/"
@@ -448,24 +466,6 @@
       "title": "Hedge Fund Castle Hook Takes Penthouse Office at Related’s 625 Madison Avenue",
       "when": "Sep 28",
       "link": "https://commercialobserver.com/2026/09/castle-hook-partners-lease-related-companies-625-madison-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Elysee Investments Buys Shopping Center Near Waterford Business District for $28M",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/elysee-investments-waterford-business-district-blue-lagoon-shoppes/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Brixmor Property Group, Everview Partners Acquire Slate Grocery REIT for $2.34B",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/brixmor-property-group-everview-partners-acquire-slate-grocery-reit/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Solidcore Signs Lease for Fitness Studio at 1695 Second Avenue on Upper East Side",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/solidcore-lease-1695-second-avenue/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.55",
-      "chg": "-1.40%",
-      "dir": -1
+      "price": "70.61",
+      "chg": "+0.09%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.59",
-      "chg": "-0.44%",
-      "dir": -1
+      "price": "90.82",
+      "chg": "+0.25%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.43",
-      "chg": "-1.53%",
-      "dir": -1
+      "price": "62.66",
+      "chg": "+0.36%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "132.44",
-      "chg": "-0.46%",
-      "dir": -1
+      "price": "132.54",
+      "chg": "+0.08%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.37",
-      "chg": "-0.23%",
-      "dir": -1
+      "price": "61.43",
+      "chg": "+0.10%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.53",
-      "chg": "-0.14%",
-      "dir": -1
+      "price": "205.29",
+      "chg": "+0.37%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
