@@ -3,31 +3,31 @@
     "date_line": "Tuesday · Sep 29, 2026",
     "as_of": "Auto-compiled from public sources · Sep 29, 2026",
     "compiled": "Compiled Sep 29, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-29T13:50:50Z"
+    "generated_utc": "2026-09-29T14:54:59Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,679.07",
-      "ch": "-0.06%",
-      "dir": -1
+      "vl": "7,683.70",
+      "ch": "+0.00%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,800",
-      "ch": "-0.08%",
-      "dir": -1
+      "vl": "26,881",
+      "ch": "+0.23%",
+      "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,420",
-      "ch": "-0.12%",
+      "vl": "51,303",
+      "ch": "-0.35%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.94",
-      "ch": "-0.81%",
+      "vl": "15.89",
+      "ch": "-1.12%",
       "dir": -1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "0.99%",
+      "vl": "1.02%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "2.93%",
+      "vl": "3.02%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
     "headline": "The S&P 500 was little changed",
-    "standfirst": "At the last close: S&P 500 7,679.07 (-0.06%); Nasdaq 26,800 (-0.08%); Dow 51,420 (-0.12%). VIX 15.94 (-0.81%).",
+    "standfirst": "At the last close: S&P 500 7,683.70 (+0.00%); Nasdaq 26,881 (+0.23%); Dow 51,303 (-0.35%). VIX 15.89 (-1.12%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "SPG led at +0.37%; PLD lagged at +0.08%."
+      "1 of 6 names on the watchlist closed higher.",
+      "PLD led at +0.35%; KRE lagged at -0.47%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 29"
+    "quote_note": "Quotes ~15-min delayed · as of 10:54 AM ET, Sep 29"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,679.07",
-      "tone": "neg",
+      "val": "7,683.70",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.06%",
+        "dir": 1,
+        "txt": "0.00%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,699.60</span> · <span class=\"up mono\">+15.3%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,800",
-      "tone": "neg",
+      "val": "26,881",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.08%",
+        "dir": 1,
+        "txt": "0.23%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,909</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,420",
+      "val": "51,303",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.12%",
+        "txt": "0.35%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,417</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.94",
+      "val": "15.89",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.81%",
+        "txt": "1.12%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.17</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 0.99%, high-yield at 2.93%",
-    "standfirst": "The high-yield premium over investment grade is 1.94 percentage points. The 2s10s Treasury spread is +32 bps.",
+    "headline": "Investment-grade OAS at 1.02%, high-yield at 3.02%",
+    "standfirst": "The high-yield premium over investment grade is 2.00 percentage points. The 2s10s Treasury spread is +32 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,39 +296,39 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "0.99",
+      "val": "1.02",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.02pp",
+        "txt": "+0.03pp",
         "note": "wider"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "2.93",
+      "val": "3.02",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.13pp",
+        "txt": "+0.09pp",
         "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "1.94",
+      "val": "2.00",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 0.99,
-    "hy": 2.93
+    "ig": 1.02,
+    "hy": 3.02
   },
   "news": {
     "headline": "Latest headlines",
@@ -337,19 +337,19 @@
   "headlines": [
     {
       "when": "Sep 29",
+      "title": "Trump’s municipal bond portfolio reaches as much as $1 billion as policy overlaps mount",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio.html"
+    },
+    {
+      "when": "Sep 29",
       "title": "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/29/polymarket-lisa-mantil-institutional-growth.html"
-    },
-    {
-      "when": "Sep 29",
-      "title": "Trump’s municipal bond portfolio reaches as much as $1 billion as policy overlaps mount",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio/.html"
     },
     {
       "when": "Sep 29",
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Related Affiliate Nabs $167M From Greystone to Build Miami Resi Towers",
+      "when": "Sep 29",
+      "link": "https://commercialobserver.com/2026/09/related-greystone-miami-apartment-towers-affordable-housing/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "In Manhattan Investment Sales, the Money Is Moving Faster Than the Market",
+      "when": "Sep 29",
+      "link": "https://commercialobserver.com/2026/09/manhattan-investment-sales-money-vs-sales-late-2026/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Venn Acquires Leasing Agent Company Zuma for $50M",
       "when": "Sep 29",
       "link": "https://commercialobserver.com/2026/09/venn-zuma-proptech/"
@@ -454,18 +466,6 @@
       "title": "Podcast: Automating CRE Accounts Payable Coding, with PredictAP CEO David Stifter",
       "when": "Sep 28",
       "link": "https://commercialobserver.com/2026/09/podcast-automating-cre-accounts-payable-coding-with-predictap-ceo-david-stifter/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Private Equity Firm Sentinel Capital Expands to 35K SF at One Vanderbilt",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/sentinel-capital-lease-expansion-one-vanderbilt/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Hedge Fund Castle Hook Takes Penthouse Office at Related’s 625 Madison Avenue",
-      "when": "Sep 28",
-      "link": "https://commercialobserver.com/2026/09/castle-hook-partners-lease-related-companies-625-madison-avenue/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.61",
-      "chg": "+0.09%",
-      "dir": 1
+      "price": "70.22",
+      "chg": "-0.47%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.82",
-      "chg": "+0.25%",
-      "dir": 1
+      "price": "90.58",
+      "chg": "-0.01%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.66",
-      "chg": "+0.36%",
-      "dir": 1
+      "price": "62.34",
+      "chg": "-0.14%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "132.54",
-      "chg": "+0.08%",
+      "price": "132.91",
+      "chg": "+0.35%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.43",
-      "chg": "+0.10%",
-      "dir": 1
+      "price": "61.23",
+      "chg": "-0.23%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.29",
-      "chg": "+0.37%",
-      "dir": 1
+      "price": "204.23",
+      "chg": "-0.15%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
