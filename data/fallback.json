@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Sep 30, 2026",
     "as_of": "Auto-compiled from public sources · Sep 30, 2026",
     "compiled": "Compiled Sep 30, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-30T15:01:32Z"
+    "generated_utc": "2026-09-30T18:35:32Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,712.52",
-      "ch": "+0.54%",
+      "vl": "7,691.67",
+      "ch": "+0.27%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,054",
-      "ch": "+0.96%",
+      "vl": "27,005",
+      "ch": "+0.77%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,376",
-      "ch": "+0.05%",
-      "dir": 1
+      "vl": "51,135",
+      "ch": "-0.42%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.92",
-      "ch": "-0.75%",
+      "vl": "15.84",
+      "ch": "-1.25%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.54%",
-    "standfirst": "At the last close: S&P 500 7,712.52 (+0.54%); Nasdaq 27,054 (+0.96%); Dow 51,376 (+0.05%). VIX 15.92 (-0.75%).",
+    "headline": "The S&P 500 edged higher 0.27%",
+    "standfirst": "At the last close: S&P 500 7,691.67 (+0.27%); Nasdaq 27,005 (+0.77%); Dow 51,135 (-0.42%). VIX 15.84 (-1.25%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "KRE led at -0.11%; PLD lagged at -1.06%."
+      "VMRK led at -0.70%; PLD lagged at -1.46%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:00 AM ET, Sep 30"
+    "quote_note": "Quotes ~15-min delayed · as of 2:34 PM ET, Sep 30"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,712.52",
+      "val": "7,691.67",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.54%",
+        "txt": "0.27%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,688.99</span> · <span class=\"up mono\">+15.3%</span> YoY"
+      "note": "Open <span class=\"mono\">7,688.99</span> · <span class=\"up mono\">+15.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,054",
+      "val": "27,005",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.96%",
+        "txt": "0.77%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,893</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,376",
-      "tone": "pos",
+      "val": "51,135",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.05%",
+        "dir": -1,
+        "txt": "0.42%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,425</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.92",
+      "val": "15.84",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.75%",
+        "txt": "1.25%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.93</span>"
@@ -254,25 +254,25 @@
   "energy_tiles": [
     {
       "lbl": "Brent Crude",
-      "val": "$114.89",
+      "val": "$113.96",
       "unit": "",
       "tone": "",
       "note": "Global benchmark — the swing factor in headline inflation",
       "delta": {
         "dir": -1,
-        "txt": "-1.26",
+        "txt": "-6.01",
         "note": "d/d"
       }
     },
     {
       "lbl": "WTI Crude",
-      "val": "$96.41",
+      "val": "$96.16",
       "unit": "",
       "tone": "",
       "note": "U.S. benchmark",
       "delta": {
         "dir": -1,
-        "txt": "-0.56",
+        "txt": "-3.21",
         "note": "d/d"
       }
     },
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Mamdani, Hochul Secure Stay in Court Order Against Pied-à-Terre Tax Rollout",
+      "title": "London’s Maison Estelle Is Taking Over the Infamous Limelight Church",
       "when": "Sep 30",
-      "link": "https://commercialobserver.com/2026/09/mamdani-automatic-stay-pied-a-terre-tax/"
+      "link": "https://commercialobserver.com/2026/09/maison-estelle-lease-656-avenue-of-the-americas/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Värde Partners Supplies $66M Refi for Phoenix Single-Family Rental Property",
+      "title": "Cushman & Wakefield Tapped to Market Properties Once Slated for Detention Centers",
       "when": "Sep 30",
-      "link": "https://commercialobserver.com/2026/09/varde-partners-phoenix-single-family-rentals-phoenix-arizona/"
+      "link": "https://commercialobserver.com/2026/09/cushman-wakefield-selling-dhs-warehouses-ice-trump/"
     },
     {
       "source": "Commercial Observer",
-      "title": "L+M Companies Names Eben Ellertson Its New CEO",
+      "title": "BGO Snaps Up 11-Property Surgery Center Portfolio",
       "when": "Sep 30",
-      "link": "https://commercialobserver.com/2026/09/lm-companies-eben-ellertson-ceo-carrie-van-syckel/"
+      "link": "https://commercialobserver.com/2026/09/bgo-sale-surgery-center-portfolio/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Energy Tech Company Novele Raises $17M Series A",
+      "title": "Northwest Bank Lends $35M on Boston-Area Industrial Buy",
       "when": "Sep 30",
-      "link": "https://commercialobserver.com/2026/09/energy-tech-company-novele-series-a/"
+      "link": "https://commercialobserver.com/2026/09/northwest-bank-boston-industrial-medtronic/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Dina Levy Has a Very Bold Mandate for Affordable Housing in New York City",
+      "title": "Burlington Stores Inks 32K SF at Brooklyn Navy Yard’s Admirals Row Campus",
       "when": "Sep 30",
-      "link": "https://commercialobserver.com/2026/09/dina-levy-new-york-city-housing/"
+      "link": "https://commercialobserver.com/2026/09/burlington-stores-steiner-lease-25-navy-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "The Plan: Tribeca’s 50 Hudson Debuts First-of-Its-Kind Glass Brick Facade",
+      "title": "Ken Griffin Gives $3B to Carnegie Mellon to Launch 35-Acre Miami Campus",
       "when": "Sep 30",
-      "link": "https://commercialobserver.com/2026/09/the-plan-tribeca-50-hudson-street-glass-brick/"
+      "link": "https://commercialobserver.com/2026/09/ken-griffin-carnegie-mellon-campus/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.75",
-      "chg": "-0.11%",
+      "price": "69.19",
+      "chg": "-0.92%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.19",
-      "chg": "-0.38%",
+      "price": "89.86",
+      "chg": "-0.74%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "61.57",
-      "chg": "-0.22%",
+      "price": "61.15",
+      "chg": "-0.92%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "131.20",
-      "chg": "-1.06%",
+      "price": "130.68",
+      "chg": "-1.46%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.18",
-      "chg": "-0.28%",
+      "price": "60.92",
+      "chg": "-0.70%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "203.27",
-      "chg": "-0.49%",
+      "price": "201.75",
+      "chg": "-1.24%",
       "dir": -1
     }
   ],
