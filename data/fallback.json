@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Sep 30, 2026",
     "as_of": "Auto-compiled from public sources · Sep 30, 2026",
     "compiled": "Compiled Sep 30, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-09-30T13:50:55Z"
+    "generated_utc": "2026-09-30T15:01:32Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,700.65",
-      "ch": "+0.39%",
+      "vl": "7,712.52",
+      "ch": "+0.54%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,968",
-      "ch": "+0.64%",
+      "vl": "27,054",
+      "ch": "+0.96%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,390",
-      "ch": "+0.08%",
+      "vl": "51,376",
+      "ch": "+0.05%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.82",
-      "ch": "-1.37%",
+      "vl": "15.92",
+      "ch": "-0.75%",
       "dir": -1
     },
     {
@@ -104,19 +104,19 @@
     },
     {
       "nm": "HY OAS",
-      "vl": "3.02%",
+      "vl": "3.08%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.39%",
-    "standfirst": "At the last close: S&P 500 7,700.65 (+0.39%); Nasdaq 26,968 (+0.64%); Dow 51,390 (+0.08%). VIX 15.82 (-1.37%).",
+    "headline": "The S&P 500 rose 0.54%",
+    "standfirst": "At the last close: S&P 500 7,712.52 (+0.54%); Nasdaq 27,054 (+0.96%); Dow 51,376 (+0.05%). VIX 15.92 (-0.75%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "KRE led at +0.21%; PLD lagged at -0.80%."
+      "0 of 6 names on the watchlist closed higher.",
+      "KRE led at -0.11%; PLD lagged at -1.06%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Sep 30"
+    "quote_note": "Quotes ~15-min delayed · as of 11:00 AM ET, Sep 30"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,700.65",
+      "val": "7,712.52",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.39%",
+        "txt": "0.54%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,688.99</span> · <span class=\"up mono\">+15.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,688.99</span> · <span class=\"up mono\">+15.3%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,968",
+      "val": "27,054",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.64%",
+        "txt": "0.96%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,893</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,390",
+      "val": "51,376",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.08%",
+        "txt": "0.05%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,425</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.82",
+      "val": "15.92",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.37%",
+        "txt": "0.75%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.93</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.02%, high-yield at 3.02%",
-    "standfirst": "The high-yield premium over investment grade is 2.00 percentage points. The 2s10s Treasury spread is +37 bps.",
+    "headline": "Investment-grade OAS at 1.02%, high-yield at 3.08%",
+    "standfirst": "The high-yield premium over investment grade is 2.06 percentage points. The 2s10s Treasury spread is +37 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -302,25 +302,25 @@
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.03pp",
-        "note": "wider"
+        "txt": "+0.00pp",
+        "note": "flat"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.02",
+      "val": "3.08",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.09pp",
+        "txt": "+0.06pp",
         "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.00",
+      "val": "2.06",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
@@ -328,13 +328,21 @@
   ],
   "credit_chart": {
     "ig": 1.02,
-    "hy": 3.02
+    "hy": 3.08
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Sep 30",
+      "title": "Kalshi, Polymarket trading volumes on some products raises questions amid massive growth",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/09/30/kalshi-polymarket-trading-volume-scrutiny.html"
+    },
     {
       "when": "Sep 30",
       "title": "Singapore's Temasek to expand Middle East presence, open Abu Dhabi, Riyadh offices",
@@ -366,14 +374,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/09/29/prediction-market-traders-september-jobs-report-will-beat-estimates.html"
-    },
-    {
-      "when": "Sep 29",
-      "title": "Trump’s municipal bond portfolio reaches as much as $1 billion as policy overlaps mount",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio.html"
     },
     {
       "when": "Sep 29",
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Mamdani, Hochul Secure Stay in Court Order Against Pied-à-Terre Tax Rollout",
+      "when": "Sep 30",
+      "link": "https://commercialobserver.com/2026/09/mamdani-automatic-stay-pied-a-terre-tax/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Värde Partners Supplies $66M Refi for Phoenix Single-Family Rental Property",
       "when": "Sep 30",
       "link": "https://commercialobserver.com/2026/09/varde-partners-phoenix-single-family-rentals-phoenix-arizona/"
@@ -460,12 +466,6 @@
       "title": "The Plan: Tribeca’s 50 Hudson Debuts First-of-Its-Kind Glass Brick Facade",
       "when": "Sep 30",
       "link": "https://commercialobserver.com/2026/09/the-plan-tribeca-50-hudson-street-glass-brick/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "BXP Sells D.C. Office to Jemal Equities for $92M",
-      "when": "Sep 29",
-      "link": "https://commercialobserver.com/2026/09/bxp-dc-office-jemal-equities/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.98",
-      "chg": "+0.21%",
-      "dir": 1
+      "price": "69.75",
+      "chg": "-0.11%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.26",
-      "chg": "-0.30%",
+      "price": "90.19",
+      "chg": "-0.38%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "61.36",
-      "chg": "-0.57%",
+      "price": "61.57",
+      "chg": "-0.22%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "131.55",
-      "chg": "-0.80%",
+      "price": "131.20",
+      "chg": "-1.06%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.95",
-      "chg": "-0.66%",
+      "price": "61.18",
+      "chg": "-0.28%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "202.83",
-      "chg": "-0.71%",
+      "price": "203.27",
+      "chg": "-0.49%",
       "dir": -1
     }
   ],
