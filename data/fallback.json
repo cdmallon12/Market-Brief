@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Wednesday · Sep 30, 2026",
-    "as_of": "Auto-compiled from public sources · Sep 30, 2026",
-    "compiled": "Compiled Sep 30, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-01T02:14:36Z"
+    "date_line": "Thursday · Oct 01, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 01, 2026",
+    "compiled": "Compiled Oct 01, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-01T13:51:14Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,651.54",
-      "ch": "-0.25%",
-      "dir": -1
+      "vl": "7,656.54",
+      "ch": "+0.07%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,861",
-      "ch": "+0.24%",
+      "vl": "26,896",
+      "ch": "+0.13%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "50,906",
-      "ch": "-0.86%",
+      "vl": "50,854",
+      "ch": "-0.10%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "16.34",
-      "ch": "+1.87%",
+      "vl": "16.60",
+      "ch": "+1.59%",
       "dir": 1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.88%",
+      "vl": "3.90%",
       "ch": "",
       "dir": 0
     },
@@ -110,24 +110,19 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.25%",
-    "standfirst": "At the last close: S&P 500 7,651.54 (-0.25%); Nasdaq 26,861 (+0.24%); Dow 50,906 (-0.86%). VIX 16.34 (+1.87%).",
+    "headline": "The S&P 500 was little changed",
+    "standfirst": "At the last close: S&P 500 7,656.54 (+0.07%); Nasdaq 26,896 (+0.13%); Dow 50,854 (-0.10%). VIX 16.60 (+1.59%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "KRE led at -0.56%; PLD lagged at -2.09%."
+      "VNQ led at -1.05%; PLD lagged at -1.44%."
     ],
-    "card2_title": "On the calendar today",
-    "card2_sub": "Scheduled economic releases (ET)",
+    "card2_title": "Coming up",
+    "card2_sub": "Next scheduled economic releases (ET)",
     "catalysts": [
       {
-        "when": "08:30 ET · Today",
-        "title": "GDP (Q2 third estimate) + Personal Income and Outlays",
-        "body": "August PCE, the Fed's preferred inflation gauge, released alongside the final Q2 GDP print. Also the start of BEA's 2026 annual update, so prior months can revise."
-      },
-      {
-        "when": "Fri · Oct 2",
+        "when": "Tomorrow",
         "title": "Employment Situation",
         "body": "September payrolls, unemployment rate and average hourly earnings."
       },
@@ -145,54 +140,59 @@
         "when": "Wed · Oct 28",
         "title": "FOMC decision",
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
+      },
+      {
+        "when": "Thu · Oct 29",
+        "title": "GDP (Q3 advance) + Personal Income and Outlays",
+        "body": "First official read on Q3 output, released with September PCE the morning after the FOMC decision."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Sep 30"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 1"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,651.54",
-      "tone": "neg",
+      "val": "7,656.54",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.25%",
+        "dir": 1,
+        "txt": "0.07%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,688.99</span> · <span class=\"up mono\">+14.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,666.47</span> · <span class=\"up mono\">+14.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,861",
+      "val": "26,896",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.24%",
+        "txt": "0.13%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">26,893</span>"
+      "note": "Open <span class=\"mono\">26,992</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "50,906",
+      "val": "50,854",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.86%",
+        "txt": "0.10%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">51,425</span>"
+      "note": "Open <span class=\"mono\">51,008</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.34",
+      "val": "16.60",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.87%",
+        "txt": "1.59%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">15.93</span>"
+      "note": "Open <span class=\"mono\">16.33</span>"
     }
   ],
   "economy": {
@@ -385,7 +385,7 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.29%, overnight SOFR at 3.88%",
+    "headline": "The 10-year at 5.29%, overnight SOFR at 3.90%",
     "standfirst": "An illustrative agency coupon prices at 6.64–6.94%. The Freddie Mac 30-year survey rate is 7.03%.",
     "curve_date": "Sep 30, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.88",
+      "val": "3.90",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,6 +433,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "BankUnited Lands Fifth Avenue Retail Flagship and Expands Offices at 450 Park Avenue",
+      "when": "Oct 01",
+      "link": "https://commercialobserver.com/2026/10/bankunited-leases-10-bryant-park-retail-office-450-park-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Get to Know the Broker: Kayla Lee of Serhant",
+      "when": "Oct 01",
+      "link": "https://commercialobserver.com/2026/10/get-to-know-the-broker-kayla-lee-serhant/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Most Likable? Fine by Me.",
+      "when": "Oct 01",
+      "link": "https://commercialobserver.com/2026/10/new-york-city-residential-real-estate-brokers-mike-fabbri/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Blackstone, LBA Land $270M Office Refi in L.A.’s Culver City",
       "when": "Sep 30",
       "link": "https://commercialobserver.com/2026/09/blackstone-lba-office-la-nomura/"
@@ -448,24 +466,6 @@
       "title": "Alcion Ventures, Slate Offload 60 East 12th Street for $83M",
       "when": "Sep 30",
       "link": "https://commercialobserver.com/2026/09/alcion-ventures-slate-sale-60-east-12th-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Multifamily Investment Firm Bozzuto Relocating HQ in Maryland",
-      "when": "Sep 30",
-      "link": "https://commercialobserver.com/2026/09/bozzuto-hq-maryland-2/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Mercedes-Benz Miami Project’s $1.1B Financing Package Speeds Closer to Completion",
-      "when": "Sep 30",
-      "link": "https://commercialobserver.com/2026/09/mercedes-benz-miami-construction-jpmorgan/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Uncertain Times Demand Fresh Construction Project Management Strategies",
-      "when": "Sep 30",
-      "link": "https://commercialobserver.com/2026/09/fresh-construction-project-management-strategies/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.44",
-      "chg": "-0.56%",
+      "price": "68.69",
+      "chg": "-1.08%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "89.63",
-      "chg": "-0.99%",
+      "price": "88.69",
+      "chg": "-1.05%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "61.11",
-      "chg": "-0.97%",
+      "price": "60.32",
+      "chg": "-1.29%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.84",
-      "chg": "-2.09%",
+      "price": "127.97",
+      "chg": "-1.44%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.76",
-      "chg": "-0.96%",
+      "price": "59.91",
+      "chg": "-1.40%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "200.76",
-      "chg": "-1.72%",
+      "price": "198.55",
+      "chg": "-1.10%",
       "dir": -1
     }
   ],
