@@ -3,7 +3,7 @@
     "date_line": "Thursday · Oct 01, 2026",
     "as_of": "Auto-compiled from public sources · Oct 01, 2026",
     "compiled": "Compiled Oct 01, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-01T21:53:07Z"
+    "generated_utc": "2026-10-02T02:20:41Z"
   },
   "ticker": [
     {
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Stockbridge Buys Maryland Industrial Property for $57M",
+      "when": "Oct 01",
+      "link": "https://commercialobserver.com/2026/10/stockbridge-maryland-industrial-ta-realty/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Inside Ken Griffin’s $3B Bet on Miami’s Wynwood",
       "when": "Oct 01",
       "link": "https://commercialobserver.com/2026/10/ken-griffin-miami-wynwood-moishe-mana-carnegie-mellon/"
@@ -460,12 +466,6 @@
       "title": "Cityview, PCCP Joint Venture Buys L.A. Apartments for $76M",
       "when": "Oct 01",
       "link": "https://commercialobserver.com/2026/10/cityview-pccp-la-multifamily/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Apollo Provides $131M Construction Loan for Brookfield’s California Logistics Center",
-      "when": "Oct 01",
-      "link": "https://commercialobserver.com/2026/10/apollo-provides-131m-construction-loan-for-brookfields-california-logistics-center/"
     }
   ],
   "cre_fund_tiles": [
