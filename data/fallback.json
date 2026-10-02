@@ -3,48 +3,48 @@
     "date_line": "Friday · Oct 02, 2026",
     "as_of": "Auto-compiled from public sources · Oct 02, 2026",
     "compiled": "Compiled Oct 02, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-02T18:42:58Z"
+    "generated_utc": "2026-10-02T21:22:40Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,720.02",
-      "ch": "+0.70%",
+      "vl": "7,722.72",
+      "ch": "+0.73%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,172",
-      "ch": "+1.12%",
+      "vl": "27,191",
+      "ch": "+1.19%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,147",
-      "ch": "+0.43%",
+      "vl": "51,177",
+      "ch": "+0.49%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.61",
-      "ch": "-4.76%",
+      "vl": "15.31",
+      "ch": "-6.59%",
       "dir": -1
     },
     {
       "nm": "10Y UST",
-      "vl": "5.24%",
+      "vl": "5.28%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.78%",
+      "vl": "4.83%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.61%",
+      "vl": "5.63%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.70%",
-    "standfirst": "At the last close: S&P 500 7,720.02 (+0.70%); Nasdaq 27,172 (+1.12%); Dow 51,147 (+0.43%). VIX 15.61 (-4.76%).",
+    "headline": "The S&P 500 rose 0.73%",
+    "standfirst": "At the last close: S&P 500 7,722.72 (+0.73%); Nasdaq 27,191 (+1.19%); Dow 51,177 (+0.49%). VIX 15.31 (-6.59%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "4 of 6 names on the watchlist closed higher.",
-      "KRE led at +0.81%; VMRK lagged at -0.39%."
+      "5 of 6 names on the watchlist closed higher.",
+      "KRE led at +1.19%; VMRK lagged at -0.63%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "First official read on Q3 output, released with September PCE the morning after the FOMC decision."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 2:42 PM ET, Oct 2"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 2"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,720.02",
+      "val": "7,722.72",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.70%",
+        "txt": "0.73%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,726.24</span> · <span class=\"up mono\">+15.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,172",
+      "val": "27,191",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.12%",
+        "txt": "1.19%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,217</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,147",
+      "val": "51,177",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.43%",
+        "txt": "0.49%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,241</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.61",
+      "val": "15.31",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "4.76%",
+        "txt": "6.59%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.15</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.06%, high-yield at 3.24%",
-    "standfirst": "The high-yield premium over investment grade is 2.18 percentage points. The 2s10s Treasury spread is +46 bps.",
+    "standfirst": "The high-yield premium over investment grade is 2.18 percentage points. The 2s10s Treasury spread is +45 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +46 bps; 3m10y +107 bps; 5s30s +60 bps; 10s30s +37 bps."
+      "Across the curve: 2s10s +45 bps; 3m10y +109 bps; 5s30s +57 bps; 10s30s +35 bps."
     ]
   },
   "credit_tiles": [
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Oct 02",
+      "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html"
+    },
+    {
+      "when": "Oct 02",
       "title": "Men are losing ground in the labor market. Here's why",
       "blurb": "",
       "kind": "",
@@ -361,14 +369,6 @@
     },
     {
       "when": "Oct 02",
-      "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html"
-    },
-    {
-      "when": "Oct 02",
       "title": "'The hottest skill on Wall Street’: Demand for this AI ability jumped 1,721% as banks embrace agents",
       "blurb": "",
       "kind": "",
@@ -385,9 +385,9 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.24%, overnight SOFR at 3.87%",
-    "standfirst": "An illustrative agency coupon prices at 6.59–6.89%. The Freddie Mac 30-year survey rate is 7.28%.",
-    "curve_date": "Oct 01, 2026",
+    "headline": "The 10-year at 5.28%, overnight SOFR at 3.87%",
+    "standfirst": "An illustrative agency coupon prices at 6.63–6.93%. The Freddie Mac 30-year survey rate is 7.28%.",
+    "curve_date": "Oct 02, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,14 +398,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "5.24",
+      "val": "5.28",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+46 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+45 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.78",
+      "val": "4.83",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Kolter, BH Inch Toward Buyout on Oceanfront Miami Beach Condo",
+      "when": "Oct 02",
+      "link": "https://commercialobserver.com/2026/10/kolter-bh-miami-north-beach-port-royale-normandy-plaza-crystal-beach-suites/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Google Relocation Leads D.C.’s Office Market in Q3",
+      "when": "Oct 02",
+      "link": "https://commercialobserver.com/2026/10/google-dc-office-q3/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Bank of America, JLL Provide $276M Refi for SoCal Senior Housing",
       "when": "Oct 02",
       "link": "https://commercialobserver.com/2026/10/nexus-bank-of-america-jll-senior-housing-california/"
@@ -454,18 +466,6 @@
       "title": "Madison Realty Capital Supplies $127M Refi for Fort Lauderdale Development",
       "when": "Oct 02",
       "link": "https://commercialobserver.com/2026/10/madison-realty-arcadian-fuse-krea-multifamily/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Chinese Restaurant Chain to Open 10K-SF Eatery at 365 West 46th Street",
-      "when": "Oct 02",
-      "link": "https://commercialobserver.com/2026/10/nong-geng-ji-lease-365-west-46th-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "World Trade Centers Association Leases 3K-SF Office in Namesake Campus",
-      "when": "Oct 02",
-      "link": "https://commercialobserver.com/2026/10/world-trade-centers-association-lease-one-world-trade-center/"
     }
   ],
   "cre_fund_tiles": [
@@ -483,10 +483,10 @@
     },
     {
       "lbl": "Bank CRE Loans · Aug",
-      "val": "$3,130",
+      "val": "$3,129",
       "unit": "B",
       "tone": "",
-      "note": "<span class=\"mono\">+3.5%</span> outstanding vs. one year ago"
+      "note": "<span class=\"mono\">+3.4%</span> outstanding vs. one year ago"
     },
     {
       "lbl": "Bank Lending Standards · Q3",
@@ -511,17 +511,17 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.59–6.89",
+      "val": "6.63–6.93",
       "unit": "%",
       "tone": "",
-      "note": "10Y (5.24%) + 135–165 bp agency spread"
+      "note": "10Y (5.28%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+46",
-    "3m10y": "+107",
-    "5s30s": "+60",
-    "10s30s": "+37"
+    "2s10s": "+45",
+    "3m10y": "+109",
+    "5s30s": "+57",
+    "10s30s": "+35"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.52",
-      "chg": "+0.81%",
+      "price": "70.78",
+      "chg": "+1.19%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "89.67",
-      "chg": "+0.56%",
+      "price": "89.50",
+      "chg": "+0.37%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "60.69",
-      "chg": "+0.75%",
+      "price": "60.45",
+      "chg": "+0.35%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.19",
-      "chg": "+0.78%",
+      "price": "128.91",
+      "chg": "+0.57%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "59.94",
-      "chg": "-0.39%",
+      "price": "59.79",
+      "chg": "-0.63%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "200.65",
-      "chg": "-0.08%",
-      "dir": -1
+      "price": "200.95",
+      "chg": "+0.07%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
@@ -651,14 +651,14 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 4.06,
+      "y": 4.04,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.17,
+      "y": 4.19,
       "axis": false,
       "mark": false
     },
@@ -672,63 +672,63 @@
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.44,
+      "y": 4.46,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.78,
+      "y": 4.83,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.91,
+      "y": 4.96,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 5.01,
+      "y": 5.06,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 5.12,
+      "y": 5.17,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 5.24,
+      "y": 5.28,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.64,
+      "y": 5.67,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.61,
+      "y": 5.63,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.74
+    "new": 6.78
   },
   "orig": {
     "y2025": 633.7,
