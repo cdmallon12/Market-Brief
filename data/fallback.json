@@ -3,31 +3,31 @@
     "date_line": "Friday · Oct 02, 2026",
     "as_of": "Auto-compiled from public sources · Oct 02, 2026",
     "compiled": "Compiled Oct 02, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-02T14:49:14Z"
+    "generated_utc": "2026-10-02T18:42:58Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,751.27",
-      "ch": "+1.11%",
+      "vl": "7,720.02",
+      "ch": "+0.70%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,330",
-      "ch": "+1.71%",
+      "vl": "27,172",
+      "ch": "+1.12%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,266",
-      "ch": "+0.67%",
+      "vl": "51,147",
+      "ch": "+0.43%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.47",
-      "ch": "-5.61%",
+      "vl": "15.61",
+      "ch": "-4.76%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 1.11%",
-    "standfirst": "At the last close: S&P 500 7,751.27 (+1.11%); Nasdaq 27,330 (+1.71%); Dow 51,266 (+0.67%). VIX 15.47 (-5.61%).",
+    "headline": "The S&P 500 rose 0.70%",
+    "standfirst": "At the last close: S&P 500 7,720.02 (+0.70%); Nasdaq 27,172 (+1.12%); Dow 51,147 (+0.43%). VIX 15.61 (-4.76%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "BXP led at +2.56%; VMRK lagged at -0.40%."
+      "4 of 6 names on the watchlist closed higher.",
+      "KRE led at +0.81%; VMRK lagged at -0.39%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "First official read on Q3 output, released with September PCE the morning after the FOMC decision."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 10:48 AM ET, Oct 2"
+    "quote_note": "Quotes ~15-min delayed · as of 2:42 PM ET, Oct 2"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,751.27",
+      "val": "7,720.02",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.11%",
+        "txt": "0.70%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,726.24</span> · <span class=\"up mono\">+15.4%</span> YoY"
+      "note": "Open <span class=\"mono\">7,726.24</span> · <span class=\"up mono\">+15.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,330",
+      "val": "27,172",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.71%",
+        "txt": "1.12%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,217</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,266",
+      "val": "51,147",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.67%",
+        "txt": "0.43%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,241</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.47",
+      "val": "15.61",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "5.61%",
+        "txt": "4.76%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">16.15</span>"
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Oct 02",
+      "title": "Men are losing ground in the labor market. Here's why",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/02/men-labor-market-jobs-report.html"
+    },
+    {
+      "when": "Oct 02",
       "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/02/bitget-crypto-stolen-hack-recovery.html"
-    },
-    {
-      "when": "Oct 01",
-      "title": "The September jobs report will be released Friday. Here's what to expect",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html"
     }
   ],
   "cre": {
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Stockbridge Buys Maryland Industrial Property for $57M",
-      "when": "Oct 01",
-      "link": "https://commercialobserver.com/2026/10/stockbridge-maryland-industrial-ta-realty/"
+      "title": "Bank of America, JLL Provide $276M Refi for SoCal Senior Housing",
+      "when": "Oct 02",
+      "link": "https://commercialobserver.com/2026/10/nexus-bank-of-america-jll-senior-housing-california/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Inside Ken Griffin’s $3B Bet on Miami’s Wynwood",
-      "when": "Oct 01",
-      "link": "https://commercialobserver.com/2026/10/ken-griffin-miami-wynwood-moishe-mana-carnegie-mellon/"
+      "title": "Sony in Talks to Anchor Tishman Speyer’s 99 Hudson Boulevard",
+      "when": "Oct 02",
+      "link": "https://commercialobserver.com/2026/10/sony-in-talks-to-anchor-tishman-speyers-99-hudson-boulevard/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Malaysian Bank, Medical Practice Sign Leases at 575 Madison Avenue",
-      "when": "Oct 01",
-      "link": "https://commercialobserver.com/2026/10/malayan-banking-berhad-lease-575-madison-avenue/"
+      "title": "Hines Promotes Adam Hines to Co-CEO Alongside Laura Hines-Pierce",
+      "when": "Oct 02",
+      "link": "https://commercialobserver.com/2026/10/laura-hines-pierce-adam-hines-co-ceo-promotion/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Helaba Provides $105M Construction Takeout Loan on Nashville Apartments",
-      "when": "Oct 01",
-      "link": "https://commercialobserver.com/2026/10/helaba-mill-creek-residential-nashville-apartments/"
+      "title": "Madison Realty Capital Supplies $127M Refi for Fort Lauderdale Development",
+      "when": "Oct 02",
+      "link": "https://commercialobserver.com/2026/10/madison-realty-arcadian-fuse-krea-multifamily/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Joyland Sells Staten Island Shopping Center for $57M",
-      "when": "Oct 01",
-      "link": "https://commercialobserver.com/2026/10/joyland-sells-staten-island-shopping-center/"
+      "title": "Chinese Restaurant Chain to Open 10K-SF Eatery at 365 West 46th Street",
+      "when": "Oct 02",
+      "link": "https://commercialobserver.com/2026/10/nong-geng-ji-lease-365-west-46th-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Cityview, PCCP Joint Venture Buys L.A. Apartments for $76M",
-      "when": "Oct 01",
-      "link": "https://commercialobserver.com/2026/10/cityview-pccp-la-multifamily/"
+      "title": "World Trade Centers Association Leases 3K-SF Office in Namesake Campus",
+      "when": "Oct 02",
+      "link": "https://commercialobserver.com/2026/10/world-trade-centers-association-lease-one-world-trade-center/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "71.10",
-      "chg": "+1.64%",
+      "price": "70.52",
+      "chg": "+0.81%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.15",
-      "chg": "+1.10%",
+      "price": "89.67",
+      "chg": "+0.56%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "61.78",
-      "chg": "+2.56%",
+      "price": "60.69",
+      "chg": "+0.75%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.17",
-      "chg": "+0.77%",
+      "price": "129.19",
+      "chg": "+0.78%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "59.93",
-      "chg": "-0.40%",
+      "price": "59.94",
+      "chg": "-0.39%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "201.87",
-      "chg": "+0.53%",
-      "dir": 1
+      "price": "200.65",
+      "chg": "-0.08%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
