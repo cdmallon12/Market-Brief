@@ -3,7 +3,7 @@
     "date_line": "Friday · Oct 02, 2026",
     "as_of": "Auto-compiled from public sources · Oct 02, 2026",
     "compiled": "Compiled Oct 02, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-02T21:22:40Z"
+    "generated_utc": "2026-10-03T02:07:34Z"
   },
   "ticker": [
     {
@@ -119,12 +119,22 @@
       "KRE led at +1.19%; VMRK lagged at -0.63%."
     ],
     "card2_title": "On the calendar today",
-    "card2_sub": "Scheduled economic releases (ET)",
+    "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
         "when": "08:30 ET · Today",
         "title": "Employment Situation",
         "body": "September payrolls, unemployment rate and average hourly earnings."
+      },
+      {
+        "when": "Tue · Oct 13",
+        "title": "Earnings",
+        "body": "GS, WFC scheduled to report before open."
+      },
+      {
+        "when": "Tue · Oct 13",
+        "title": "JPM earnings",
+        "body": "Scheduled to report."
       },
       {
         "when": "Wed · Oct 14",
@@ -135,16 +145,6 @@
         "when": "Thu · Oct 15",
         "title": "Producer Price Index",
         "body": "September PPI."
-      },
-      {
-        "when": "Wed · Oct 28",
-        "title": "FOMC decision",
-        "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
-      },
-      {
-        "when": "Thu · Oct 29",
-        "title": "GDP (Q3 advance) + Personal Income and Outlays",
-        "body": "First official read on Q3 output, released with September PCE the morning after the FOMC decision."
       }
     ],
     "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 2"
