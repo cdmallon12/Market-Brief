@@ -3,7 +3,7 @@
     "date_line": "Monday · Oct 05, 2026",
     "as_of": "Auto-compiled from public sources · Oct 05, 2026",
     "compiled": "Compiled Oct 05, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-05T21:24:36Z"
+    "generated_utc": "2026-10-05T23:13:49Z"
   },
   "ticker": [
     {
@@ -337,19 +337,19 @@
   "headlines": [
     {
       "when": "Oct 05",
-      "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html"
-    },
-    {
-      "when": "Oct 05",
       "title": "House Democrat targets candidate prediction market trades after opponent’s Kalshi penalty",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/05/don-davis-prediction-market-candidate-trading.html"
+    },
+    {
+      "when": "Oct 05",
+      "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html"
     },
     {
       "when": "Oct 05",
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Miami-Dade Office Rents Rise and Vacancy Tightens",
+      "when": "Oct 05",
+      "link": "https://commercialobserver.com/2026/10/miami-dade-office-q3/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Gravity Fitness Signs 23K-SF Lease at Queens’ Flushing Plaza",
       "when": "Oct 05",
       "link": "https://commercialobserver.com/2026/10/gravity-fitness-lease-41-61-kissena-boulevard-flushing-plaza/"
@@ -460,12 +466,6 @@
       "title": "The AI Infrastructure Industry Has Entered Its Coordination Crisis",
       "when": "Oct 05",
       "link": "https://commercialobserver.com/2026/10/ai-infrastructure-industry-coordination-crisis/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Steve Wylder On Safehold’s Plan to Fill Affordable Housing Capital Gaps",
-      "when": "Oct 05",
-      "link": "https://commercialobserver.com/2026/10/steve-wylder-safehold-affordable-housing-ground-lease/"
     }
   ],
   "cre_fund_tiles": [
