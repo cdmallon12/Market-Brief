@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Friday · Oct 02, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 02, 2026",
-    "compiled": "Compiled Oct 02, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-03T02:07:34Z"
+    "date_line": "Monday · Oct 05, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 05, 2026",
+    "compiled": "Compiled Oct 05, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-05T13:50:58Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,722.72",
-      "ch": "+0.73%",
+      "vl": "7,733.57",
+      "ch": "+0.14%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,191",
-      "ch": "+1.19%",
+      "vl": "27,327",
+      "ch": "+0.50%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,177",
-      "ch": "+0.49%",
-      "dir": 1
+      "vl": "50,919",
+      "ch": "-0.50%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.31",
-      "ch": "-6.59%",
-      "dir": -1
+      "vl": "15.92",
+      "ch": "+3.98%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.87%",
+      "vl": "3.88%",
       "ch": "",
       "dir": 0
     },
@@ -110,22 +110,17 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.73%",
-    "standfirst": "At the last close: S&P 500 7,722.72 (+0.73%); Nasdaq 27,191 (+1.19%); Dow 51,177 (+0.49%). VIX 15.31 (-6.59%).",
+    "headline": "The S&P 500 edged higher 0.14%",
+    "standfirst": "At the last close: S&P 500 7,733.57 (+0.14%); Nasdaq 27,327 (+0.50%); Dow 50,919 (-0.50%). VIX 15.92 (+3.98%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "KRE led at +1.19%; VMRK lagged at -0.63%."
+      "0 of 6 names on the watchlist closed higher.",
+      "SPG led at -0.34%; VMRK lagged at -1.27%."
     ],
-    "card2_title": "On the calendar today",
+    "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
-      {
-        "when": "08:30 ET · Today",
-        "title": "Employment Situation",
-        "body": "September payrolls, unemployment rate and average hourly earnings."
-      },
       {
         "when": "Tue · Oct 13",
         "title": "Earnings",
@@ -142,57 +137,62 @@
         "body": "September CPI, headline and core."
       },
       {
+        "when": "Wed · Oct 14",
+        "title": "BAC earnings",
+        "body": "Scheduled to report before open."
+      },
+      {
         "when": "Thu · Oct 15",
         "title": "Producer Price Index",
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 2"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 5"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,722.72",
+      "val": "7,733.57",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.73%",
+        "txt": "0.14%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,726.24</span> · <span class=\"up mono\">+15.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,730.86</span> · <span class=\"up mono\">+14.7%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,191",
+      "val": "27,327",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.19%",
+        "txt": "0.50%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">27,217</span>"
+      "note": "Open <span class=\"mono\">27,226</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,177",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.49%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">51,241</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "15.31",
+      "val": "50,919",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "6.59%",
+        "txt": "0.50%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">16.15</span>"
+      "note": "Open <span class=\"mono\">51,199</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "15.92",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "3.98%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">16.24</span>"
     }
   ],
   "economy": {
@@ -336,6 +336,30 @@
   },
   "headlines": [
     {
+      "when": "Oct 05",
+      "title": "The 2029 tipping point: Western populations are about to start shrinking, piling pressure on public finances",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/05/aging-population-moodys-public-finances.html"
+    },
+    {
+      "when": "Oct 04",
+      "title": "Sports betting is increasingly the norm for Gen Z.  Here’s why some financial and mental health experts are worried",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/04/gen-z-sports-betting-financial-and-mental-health-risks.html"
+    },
+    {
+      "when": "Oct 03",
+      "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html"
+    },
+    {
       "when": "Oct 02",
       "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
       "blurb": "",
@@ -358,34 +382,10 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
-    },
-    {
-      "when": "Oct 02",
-      "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html"
-    },
-    {
-      "when": "Oct 02",
-      "title": "'The hottest skill on Wall Street’: Demand for this AI ability jumped 1,721% as banks embrace agents",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/02/ai-skills-most-in-demand-at-jpmorgan-chase-citigroup-capital-one.html"
-    },
-    {
-      "when": "Oct 02",
-      "title": "Bitget 'not expecting to recover a lot' from $388 million hack, CEO tells CNBC",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/02/bitget-crypto-stolen-hack-recovery.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.28%, overnight SOFR at 3.87%",
+    "headline": "The 10-year at 5.28%, overnight SOFR at 3.88%",
     "standfirst": "An illustrative agency coupon prices at 6.63–6.93%. The Freddie Mac 30-year survey rate is 7.28%.",
     "curve_date": "Oct 02, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.87",
+      "val": "3.88",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Kolter, BH Inch Toward Buyout on Oceanfront Miami Beach Condo",
-      "when": "Oct 02",
-      "link": "https://commercialobserver.com/2026/10/kolter-bh-miami-north-beach-port-royale-normandy-plaza-crystal-beach-suites/"
+      "title": "Canyon Adds Chad Goodman From Related as Head of Eastern, Central Region Credit",
+      "when": "Oct 05",
+      "link": "https://commercialobserver.com/2026/10/canyon-partners-real-estate-chad-goodman-related/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Google Relocation Leads D.C.’s Office Market in Q3",
-      "when": "Oct 02",
-      "link": "https://commercialobserver.com/2026/10/google-dc-office-q3/"
+      "title": "The Hekemian Group Scores $45M Recap From RXR, North Carolina Investment Authority",
+      "when": "Oct 05",
+      "link": "https://commercialobserver.com/2026/10/the-hekemian-group-scores-45m-recap-from-rxr-north-carolina-investment-authority/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Bank of America, JLL Provide $276M Refi for SoCal Senior Housing",
-      "when": "Oct 02",
-      "link": "https://commercialobserver.com/2026/10/nexus-bank-of-america-jll-senior-housing-california/"
+      "title": "Silver Heights, Nuveen Green Capital Lend $36M on Philly Apartments Build",
+      "when": "Oct 05",
+      "link": "https://commercialobserver.com/2026/10/silver-heights-nuveen-green-capital-philadelphia-apartments/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Sony in Talks to Anchor Tishman Speyer’s 99 Hudson Boulevard",
-      "when": "Oct 02",
-      "link": "https://commercialobserver.com/2026/10/sony-in-talks-to-anchor-tishman-speyers-99-hudson-boulevard/"
+      "title": "Trebellar, an AI Platform for Corporate Occupiers, Raises $18M Series A",
+      "when": "Oct 05",
+      "link": "https://commercialobserver.com/2026/10/trebellar-series-a/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Hines Promotes Adam Hines to Co-CEO Alongside Laura Hines-Pierce",
-      "when": "Oct 02",
-      "link": "https://commercialobserver.com/2026/10/laura-hines-pierce-adam-hines-co-ceo-promotion/"
+      "title": "Jessica Rascionato of Citizens Bank Talks Shop",
+      "when": "Oct 05",
+      "link": "https://commercialobserver.com/2026/10/jessica-rascionato-citizens-bank/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Madison Realty Capital Supplies $127M Refi for Fort Lauderdale Development",
-      "when": "Oct 02",
-      "link": "https://commercialobserver.com/2026/10/madison-realty-arcadian-fuse-krea-multifamily/"
+      "title": "L.A. Might Be Commercial Real Estate’s Best-Kept Secret",
+      "when": "Oct 05",
+      "link": "https://commercialobserver.com/2026/10/la-commercial-real-estate-investment-opportunities/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.78",
-      "chg": "+1.19%",
-      "dir": 1
+      "price": "70.13",
+      "chg": "-0.92%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "89.50",
-      "chg": "+0.37%",
-      "dir": 1
+      "price": "88.97",
+      "chg": "-0.59%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "60.45",
-      "chg": "+0.35%",
-      "dir": 1
+      "price": "60.10",
+      "chg": "-0.58%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.91",
-      "chg": "+0.57%",
-      "dir": 1
+      "price": "128.09",
+      "chg": "-0.64%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "59.79",
-      "chg": "-0.63%",
+      "price": "59.03",
+      "chg": "-1.27%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "200.95",
-      "chg": "+0.07%",
-      "dir": 1
+      "price": "200.28",
+      "chg": "-0.34%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
