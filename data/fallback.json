@@ -3,31 +3,31 @@
     "date_line": "Tuesday · Oct 06, 2026",
     "as_of": "Auto-compiled from public sources · Oct 06, 2026",
     "compiled": "Compiled Oct 06, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-06T15:19:00Z"
+    "generated_utc": "2026-10-06T19:06:23Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,840.08",
-      "ch": "+0.85%",
-      "dir": 1
-    },
-    {
-      "nm": "Nasdaq",
-      "vl": "27,709",
-      "ch": "+0.84%",
-      "dir": 1
-    },
-    {
-      "nm": "Dow",
-      "vl": "51,644",
+      "vl": "7,830.42",
       "ch": "+0.73%",
       "dir": 1
     },
     {
+      "nm": "Nasdaq",
+      "vl": "27,651",
+      "ch": "+0.63%",
+      "dir": 1
+    },
+    {
+      "nm": "Dow",
+      "vl": "51,564",
+      "ch": "+0.58%",
+      "dir": 1
+    },
+    {
       "nm": "VIX",
-      "vl": "15.36",
-      "ch": "-1.03%",
+      "vl": "15.02",
+      "ch": "-3.22%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.85%",
-    "standfirst": "At the last close: S&P 500 7,840.08 (+0.85%); Nasdaq 27,709 (+0.84%); Dow 51,644 (+0.73%). VIX 15.36 (-1.03%).",
+    "headline": "The S&P 500 rose 0.73%",
+    "standfirst": "At the last close: S&P 500 7,830.42 (+0.73%); Nasdaq 27,651 (+0.63%); Dow 51,564 (+0.58%). VIX 15.02 (-3.22%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "VNQ led at +1.19%; KRE lagged at +0.28%."
+      "4 of 6 names on the watchlist closed higher.",
+      "VNQ led at +0.89%; KRE lagged at -0.50%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "September PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:18 AM ET, Oct 6"
+    "quote_note": "Quotes ~15-min delayed · as of 3:05 PM ET, Oct 6"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,840.08",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.85%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">7,805.96</span> · <span class=\"up mono\">+16.3%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "27,709",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.84%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">27,641</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "51,644",
+      "val": "7,830.42",
       "tone": "pos",
       "delta": {
         "dir": 1,
         "txt": "0.73%",
         "note": "vs prior close"
       },
+      "note": "Open <span class=\"mono\">7,805.96</span> · <span class=\"up mono\">+16.2%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "27,651",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.63%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">27,641</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "51,564",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.58%",
+        "note": "vs prior close"
+      },
       "note": "Open <span class=\"mono\">51,444</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.36",
+      "val": "15.02",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.03%",
+        "txt": "3.22%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.50</span>"
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Oct 06",
+      "title": "How event contract bundles are boosting volume on prediction markets",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/06/prediction-market-combo-contract-volume.html"
+    },
+    {
+      "when": "Oct 06",
       "title": "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html"
-    },
-    {
-      "when": "Oct 05",
-      "title": "The 2029 tipping point: Western populations are about to start shrinking, piling pressure on public finances",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/05/aging-population-moodys-public-finances.html"
     }
   ],
   "cre": {
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Fifth Wall’s Brendan Wallace On Spotting Real Estate’s Next Hot Tech Early",
+      "title": "Coworking Firm Nomadworks Inks 34K SF at Rosen’s 122 West 27th Street",
       "when": "Oct 06",
-      "link": "https://commercialobserver.com/2026/10/fifth-wall-brendan-wallace-investment/"
+      "link": "https://commercialobserver.com/2026/10/nomadworks-lease-rosen-122-west-27th-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Power Tech & AI 2026",
+      "title": "L.A. Office Leasing Hits Highest Level Since 2019",
       "when": "Oct 06",
-      "link": "https://commercialobserver.com/2026/10/power-tech-ai-2026/"
+      "link": "https://commercialobserver.com/2026/10/l-a-office-leasing-hits-highest-level-since-2019/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Teresa Stephenson of Platinum Forbes Global Properties: 5 Questions",
+      "title": "Baltimore Organizations Line Up Financing for Stalled Housing Projects",
       "when": "Oct 06",
-      "link": "https://commercialobserver.com/2026/10/teresa-stephenson-platinum-forbes-global-properties-5-questions/"
+      "link": "https://commercialobserver.com/2026/10/greater-baltimore-committee-funders-consortium/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Miami-Dade Office Rents Rise and Vacancy Tightens",
-      "when": "Oct 05",
-      "link": "https://commercialobserver.com/2026/10/miami-dade-office-q3/"
+      "title": "ACORE Lends $71M on San Diego-Area Industrial Development",
+      "when": "Oct 06",
+      "link": "https://commercialobserver.com/2026/10/acore-capital-san-diego-industrial/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Gravity Fitness Signs 23K-SF Lease at Queens’ Flushing Plaza",
-      "when": "Oct 05",
-      "link": "https://commercialobserver.com/2026/10/gravity-fitness-lease-41-61-kissena-boulevard-flushing-plaza/"
+      "title": "South Beach’s Cameo Theater Could Reopen With Romain Zago Concept",
+      "when": "Oct 06",
+      "link": "https://commercialobserver.com/2026/10/miami-south-beach-cameo-theater-romain-zago/"
     },
     {
       "source": "Commercial Observer",
-      "title": "French Consulting Firm Wavestone Leases 10K SF at 511 Fifth Avenue",
-      "when": "Oct 05",
-      "link": "https://commercialobserver.com/2026/10/wavestone-lease-511-fifth-avenue/"
+      "title": "Italian Restaurant Casa Serra to Open at 227 Front Street in South Street Seaport",
+      "when": "Oct 06",
+      "link": "https://commercialobserver.com/2026/10/casa-serra-lease-seaport-227-front-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.59",
-      "chg": "+0.28%",
-      "dir": 1
+      "price": "70.03",
+      "chg": "-0.50%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.22",
-      "chg": "+1.19%",
+      "price": "89.94",
+      "chg": "+0.89%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.83",
-      "chg": "+0.77%",
+      "price": "59.47",
+      "chg": "+0.16%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.24",
-      "chg": "+0.91%",
+      "price": "128.86",
+      "chg": "+0.61%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.71",
-      "chg": "+1.03%",
+      "price": "60.40",
+      "chg": "+0.52%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "203.19",
-      "chg": "+0.89%",
-      "dir": 1
+      "price": "201.33",
+      "chg": "-0.03%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
