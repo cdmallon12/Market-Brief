@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Oct 07, 2026",
     "as_of": "Auto-compiled from public sources · Oct 07, 2026",
     "compiled": "Compiled Oct 07, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-07T13:50:43Z"
+    "generated_utc": "2026-10-07T15:38:45Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,770.51",
-      "ch": "-0.62%",
+      "vl": "7,786.78",
+      "ch": "-0.41%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,363",
-      "ch": "-0.86%",
+      "vl": "27,462",
+      "ch": "-0.50%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,031",
-      "ch": "-0.95%",
+      "vl": "51,057",
+      "ch": "-0.90%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.72",
-      "ch": "+4.73%",
+      "vl": "15.64",
+      "ch": "+4.20%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.62%",
-    "standfirst": "At the last close: S&P 500 7,770.51 (-0.62%); Nasdaq 27,363 (-0.86%); Dow 51,031 (-0.95%). VIX 15.72 (+4.73%).",
+    "headline": "The S&P 500 edged lower 0.41%",
+    "standfirst": "At the last close: S&P 500 7,786.78 (-0.41%); Nasdaq 27,462 (-0.50%); Dow 51,057 (-0.90%). VIX 15.64 (+4.20%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "PLD led at -0.31%; KRE lagged at -1.79%."
+      "PLD led at -0.84%; KRE lagged at -1.93%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 7"
+    "quote_note": "Quotes ~15-min delayed · as of 11:38 AM ET, Oct 7"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,770.51",
+      "val": "7,786.78",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.62%",
+        "txt": "0.41%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,792.98</span> · <span class=\"up mono\">+15.7%</span> YoY"
+      "note": "Open <span class=\"mono\">7,792.98</span> · <span class=\"up mono\">+16.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,363",
+      "val": "27,462",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.86%",
+        "txt": "0.50%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,431</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,031",
+      "val": "51,057",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.95%",
+        "txt": "0.90%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,406</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.72",
+      "val": "15.64",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "4.73%",
+        "txt": "4.20%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.21</span>"
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Oct 07",
+      "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html"
+    },
+    {
+      "when": "Oct 07",
       "title": "ICE came to town and left behind weakened economies",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html"
-    },
-    {
-      "when": "Oct 06",
-      "title": "How event contract bundles are boosting volume on prediction markets",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/06/prediction-market-combo-contract-volume.html"
     }
   ],
   "cre": {
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Silverstein Adds 55K SF of Leases at Downtown L.A.’s U.S. Bank Tower",
+      "when": "Oct 07",
+      "link": "https://commercialobserver.com/2026/10/silverstein-us-bank-tower-la/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Manhattan’s Supply of New Condos Expected to Deepen in Q4: Report",
+      "when": "Oct 07",
+      "link": "https://commercialobserver.com/2026/10/manhattan-supply-new-condos-report-2/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Tishman Speyer Signs 150-Year Ground Lease to Reposition Chrysler Building",
       "when": "Oct 07",
       "link": "https://commercialobserver.com/2026/10/tishman-speyer-ground-lease-signed-chrysler-building/"
@@ -454,18 +466,6 @@
       "title": "Amazon’s Lessons for Multifamily Operators",
       "when": "Oct 07",
       "link": "https://commercialobserver.com/2026/10/amazon-lessons-multifamily-operators/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "The Plan: At the Waldorf Astoria Residences, Time Stops — and Takes a Swim",
-      "when": "Oct 07",
-      "link": "https://commercialobserver.com/2026/10/the-plan-waldorf-astoria-residences/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "The Points Guy Takes 12K SF at 875 Avenue of the Americas in NoMad",
-      "when": "Oct 06",
-      "link": "https://commercialobserver.com/2026/10/points-guy-lease-875-avenue-of-the-americas/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "68.81",
-      "chg": "-1.79%",
+      "price": "68.72",
+      "chg": "-1.93%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "89.49",
-      "chg": "-0.49%",
+      "price": "89.00",
+      "chg": "-1.03%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.21",
-      "chg": "-0.97%",
+      "price": "59.15",
+      "chg": "-1.07%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.28",
-      "chg": "-0.31%",
+      "price": "127.59",
+      "chg": "-0.84%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.05",
-      "chg": "-0.53%",
+      "price": "59.74",
+      "chg": "-1.04%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "201.00",
-      "chg": "-0.37%",
+      "price": "199.37",
+      "chg": "-1.17%",
       "dir": -1
     }
   ],
