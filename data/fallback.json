@@ -3,7 +3,7 @@
     "date_line": "Tuesday · Oct 06, 2026",
     "as_of": "Auto-compiled from public sources · Oct 06, 2026",
     "compiled": "Compiled Oct 06, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-06T21:45:14Z"
+    "generated_utc": "2026-10-07T02:30:20Z"
   },
   "ticker": [
     {
@@ -124,12 +124,7 @@
       {
         "when": "Tue · Oct 13",
         "title": "Earnings",
-        "body": "GS, WFC scheduled to report before open."
-      },
-      {
-        "when": "Tue · Oct 13",
-        "title": "JPM earnings",
-        "body": "Scheduled to report."
+        "body": "GS, JPM, WFC scheduled to report before open."
       },
       {
         "when": "Wed · Oct 14",
@@ -145,9 +140,14 @@
         "when": "Thu · Oct 15",
         "title": "Producer Price Index",
         "body": "September PPI."
+      },
+      {
+        "when": "Thu · Oct 15",
+        "title": "PLD earnings",
+        "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 6"
+    "quote_note": "Quotes ~15-min delayed · as of 6:31 PM ET, Oct 6"
   },
   "markets_tiles": [
     {
