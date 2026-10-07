@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Oct 07, 2026",
     "as_of": "Auto-compiled from public sources · Oct 07, 2026",
     "compiled": "Compiled Oct 07, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-07T15:38:45Z"
+    "generated_utc": "2026-10-07T19:32:57Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,786.78",
-      "ch": "-0.41%",
+      "vl": "7,798.05",
+      "ch": "-0.27%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,462",
-      "ch": "-0.50%",
+      "vl": "27,508",
+      "ch": "-0.33%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,057",
-      "ch": "-0.90%",
+      "vl": "51,175",
+      "ch": "-0.67%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.64",
-      "ch": "+4.20%",
+      "vl": "15.12",
+      "ch": "+0.73%",
       "dir": 1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.04%",
+      "vl": "1.02%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.12%",
+      "vl": "3.03%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.41%",
-    "standfirst": "At the last close: S&P 500 7,786.78 (-0.41%); Nasdaq 27,462 (-0.50%); Dow 51,057 (-0.90%). VIX 15.64 (+4.20%).",
+    "headline": "The S&P 500 edged lower 0.27%",
+    "standfirst": "At the last close: S&P 500 7,798.05 (-0.27%); Nasdaq 27,508 (-0.33%); Dow 51,175 (-0.67%). VIX 15.12 (+0.73%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "PLD led at -0.84%; KRE lagged at -1.93%."
+      "BXP led at -0.17%; SPG lagged at -1.81%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:38 AM ET, Oct 7"
+    "quote_note": "Quotes ~15-min delayed · as of 3:32 PM ET, Oct 7"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,786.78",
+      "val": "7,798.05",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.41%",
+        "txt": "0.27%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,792.98</span> · <span class=\"up mono\">+16.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,792.98</span> · <span class=\"up mono\">+16.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,462",
+      "val": "27,508",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.50%",
+        "txt": "0.33%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,431</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,057",
+      "val": "51,175",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.90%",
+        "txt": "0.67%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,406</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.64",
+      "val": "15.12",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "4.20%",
+        "txt": "0.73%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.21</span>"
@@ -254,25 +254,25 @@
   "energy_tiles": [
     {
       "lbl": "Brent Crude",
-      "val": "$113.96",
+      "val": "$125.44",
       "unit": "",
       "tone": "",
       "note": "Global benchmark — the swing factor in headline inflation",
       "delta": {
         "dir": -1,
-        "txt": "-6.01",
+        "txt": "-0.07",
         "note": "d/d"
       }
     },
     {
       "lbl": "WTI Crude",
-      "val": "$96.16",
+      "val": "$96.24",
       "unit": "",
       "tone": "",
       "note": "U.S. benchmark",
       "delta": {
-        "dir": -1,
-        "txt": "-3.21",
+        "dir": 1,
+        "txt": "+0.11",
         "note": "d/d"
       }
     },
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.04%, high-yield at 3.12%",
-    "standfirst": "The high-yield premium over investment grade is 2.08 percentage points. The 2s10s Treasury spread is +48 bps.",
+    "headline": "Investment-grade OAS at 1.02%, high-yield at 3.03%",
+    "standfirst": "The high-yield premium over investment grade is 2.01 percentage points. The 2s10s Treasury spread is +48 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,39 +296,39 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.04",
+      "val": "1.02",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.00pp",
-        "note": "flat"
+        "txt": "-0.02pp",
+        "note": "tighter"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.12",
+      "val": "3.03",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.02pp",
-        "note": "wider"
+        "txt": "-0.09pp",
+        "note": "tighter"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.08",
+      "val": "2.01",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.04,
-    "hy": 3.12
+    "ig": 1.02,
+    "hy": 3.03
   },
   "news": {
     "headline": "Latest headlines",
@@ -342,6 +342,14 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html"
+    },
+    {
+      "when": "Oct 07",
+      "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
     },
     {
       "when": "Oct 07",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html"
-    },
-    {
-      "when": "Oct 06",
-      "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html"
     }
   ],
   "cre": {
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Silverstein Adds 55K SF of Leases at Downtown L.A.’s U.S. Bank Tower",
+      "title": "13th Floor Sells Florida Housing Community for $29M",
       "when": "Oct 07",
-      "link": "https://commercialobserver.com/2026/10/silverstein-us-bank-tower-la/"
+      "link": "https://commercialobserver.com/2026/10/13th-floor-delray-solera-at-avalon-trails-robbins-property-associates/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Manhattan’s Supply of New Condos Expected to Deepen in Q4: Report",
+      "title": "ESRT Faces New Activist Investor Following Stake Acquisition",
       "when": "Oct 07",
-      "link": "https://commercialobserver.com/2026/10/manhattan-supply-new-condos-report-2/"
+      "link": "https://commercialobserver.com/2026/10/esrt-erez-asset-management-stake-acquisition/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Tishman Speyer Signs 150-Year Ground Lease to Reposition Chrysler Building",
+      "title": "Citigroup Supplies $28M Refi for Revived Office Building in Arlington, Va.",
       "when": "Oct 07",
-      "link": "https://commercialobserver.com/2026/10/tishman-speyer-ground-lease-signed-chrysler-building/"
+      "link": "https://commercialobserver.com/2026/10/citigroup-arlington-virginia-office-turnaround/"
     },
     {
       "source": "Commercial Observer",
-      "title": "John Meko of WiredScore: 5 Questions",
+      "title": "Three Fashion Tenants Ink Deals at 231 West 39th Street",
       "when": "Oct 07",
-      "link": "https://commercialobserver.com/2026/10/john-meko-wiredscore-office-connectivity/"
+      "link": "https://commercialobserver.com/2026/10/rino-pelle-lease-231-west-39th-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Health Care Investment Firm Lorient Inks 6K-SF lease at Durst’s 825 Third Avenue",
+      "title": "Financial Services Firm Rothera Signs Lease at 242 West 38th Street",
       "when": "Oct 07",
-      "link": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/"
+      "link": "https://commercialobserver.com/2026/10/rothera-lease-242-west-38th-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Amazon’s Lessons for Multifamily Operators",
+      "title": "The Interest Rate Hike Shifts the Calculus on New York City Multifamily Investing",
       "when": "Oct 07",
-      "link": "https://commercialobserver.com/2026/10/amazon-lessons-multifamily-operators/"
+      "link": "https://commercialobserver.com/2026/10/interest-rate-hike-new-york-city-multifamily-investing/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "68.72",
-      "chg": "-1.93%",
+      "price": "68.93",
+      "chg": "-1.63%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "89.00",
-      "chg": "-1.03%",
+      "price": "88.89",
+      "chg": "-1.16%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.15",
-      "chg": "-1.07%",
+      "price": "59.69",
+      "chg": "-0.17%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "127.59",
-      "chg": "-0.84%",
+      "price": "127.09",
+      "chg": "-1.24%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "59.74",
-      "chg": "-1.04%",
+      "price": "59.55",
+      "chg": "-1.37%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "199.37",
-      "chg": "-1.17%",
+      "price": "198.09",
+      "chg": "-1.81%",
       "dir": -1
     }
   ],
