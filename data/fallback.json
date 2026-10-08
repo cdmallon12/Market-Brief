@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Wednesday · Oct 07, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 07, 2026",
-    "compiled": "Compiled Oct 07, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-08T02:45:57Z"
+    "date_line": "Thursday · Oct 08, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 08, 2026",
+    "compiled": "Compiled Oct 08, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-08T13:50:47Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,801.77",
-      "ch": "-0.22%",
+      "vl": "7,780.41",
+      "ch": "-0.27%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,539",
-      "ch": "-0.22%",
+      "vl": "27,388",
+      "ch": "-0.55%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,180",
-      "ch": "-0.66%",
+      "vl": "51,151",
+      "ch": "-0.06%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.08",
-      "ch": "+0.47%",
+      "vl": "15.38",
+      "ch": "+1.99%",
       "dir": 1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.90%",
+      "vl": "3.88%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.22%",
-    "standfirst": "At the last close: S&P 500 7,801.77 (-0.22%); Nasdaq 27,539 (-0.22%); Dow 51,180 (-0.66%). VIX 15.08 (+0.47%).",
+    "headline": "The S&P 500 edged lower 0.27%",
+    "standfirst": "At the last close: S&P 500 7,780.41 (-0.27%); Nasdaq 27,388 (-0.55%); Dow 51,151 (-0.06%). VIX 15.38 (+1.99%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "0 of 6 names on the watchlist closed higher.",
-      "BXP led at -0.62%; SPG lagged at -2.06%."
+      "5 of 6 names on the watchlist closed higher.",
+      "KRE led at +0.32%; BXP lagged at -0.38%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,52 +147,52 @@
         "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 7"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 8"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,801.77",
+      "val": "7,780.41",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.22%",
+        "txt": "0.27%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,792.98</span> · <span class=\"up mono\">+15.5%</span> YoY"
+      "note": "Open <span class=\"mono\">7,778.45</span> · <span class=\"up mono\">+15.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,539",
+      "val": "27,388",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.22%",
+        "txt": "0.55%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">27,431</span>"
+      "note": "Open <span class=\"mono\">27,416</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,180",
+      "val": "51,151",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.66%",
+        "txt": "0.06%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">51,406</span>"
+      "note": "Open <span class=\"mono\">51,105</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.08",
+      "val": "15.38",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.47%",
+        "txt": "1.99%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">15.21</span>"
+      "note": "Open <span class=\"mono\">15.68</span>"
     }
   ],
   "economy": {
@@ -336,6 +336,30 @@
   },
   "headlines": [
     {
+      "when": "Oct 08",
+      "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+    },
+    {
+      "when": "Oct 08",
+      "title": "After a yearslong slump, China's real estate market may be set for a turnaround",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/08/chinas-real-estate-market-may-be-set-for-a-turnaround-sp-says.html"
+    },
+    {
+      "when": "Oct 08",
+      "title": "Huawei doubles down on smartphones as EV sales slow",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/08/huawei-china-smartphone-ev-slow.html"
+    },
+    {
       "when": "Oct 07",
       "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
       "blurb": "",
@@ -358,34 +382,10 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html"
-    },
-    {
-      "when": "Oct 07",
-      "title": "India’s central bank hikes rates for the first time since 2023 as inflation risks build",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
-    },
-    {
-      "when": "Oct 07",
-      "title": "Why AI is both the hope and the hazard for world leaders, according to IMF chief Georgieva",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html"
-    },
-    {
-      "when": "Oct 06",
-      "title": "World Bank warns of AI concentration risks as it lifts East Asia and Pacific growth outlook to 4.5%",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.28%, overnight SOFR at 3.90%",
+    "headline": "The 10-year at 5.28%, overnight SOFR at 3.88%",
     "standfirst": "An illustrative agency coupon prices at 6.63–6.93%. The Freddie Mac 30-year survey rate is 7.28%.",
     "curve_date": "Oct 07, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.90",
+      "val": "3.88",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,6 +433,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Interactive Floor Plans Platform Planpoint Exits Stealth",
+      "when": "Oct 08",
+      "link": "https://commercialobserver.com/2026/10/floor-plans-platform-planpoint/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Get to Know the Broker: Marlene Hamad of Platinum Forbes Global Properties",
+      "when": "Oct 08",
+      "link": "https://commercialobserver.com/2026/10/get-to-know-the-broker-marlene-hamad-platinum-forbes-global-properties/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "In Brooklyn, the Old Ways of Development Just Won’t Cut It",
+      "when": "Oct 08",
+      "link": "https://commercialobserver.com/2026/10/brooklyn-development-housing-property-values-construction/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Delivery Service Spot & Tango, Ad Firm MediaRadar Sign at 11 Bryant Park Plaza",
       "when": "Oct 07",
       "link": "https://commercialobserver.com/2026/10/spot-tango-mediaradar-leases-11-bryant-park-plaza/"
@@ -448,24 +466,6 @@
       "title": "ESRT Faces New Activist Investor Following Stake Acquisition",
       "when": "Oct 07",
       "link": "https://commercialobserver.com/2026/10/esrt-erez-asset-management-stake-acquisition/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Citigroup Supplies $28M Refi for Revived Office Building in Arlington, Va.",
-      "when": "Oct 07",
-      "link": "https://commercialobserver.com/2026/10/citigroup-arlington-virginia-office-turnaround/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Three Fashion Tenants Ink Deals at 231 West 39th Street",
-      "when": "Oct 07",
-      "link": "https://commercialobserver.com/2026/10/rino-pelle-lease-231-west-39th-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Financial Services Firm Rothera Signs Lease at 242 West 38th Street",
-      "when": "Oct 07",
-      "link": "https://commercialobserver.com/2026/10/rothera-lease-242-west-38th-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "68.89",
-      "chg": "-1.68%",
-      "dir": -1
+      "price": "69.11",
+      "chg": "+0.32%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "88.69",
-      "chg": "-1.38%",
-      "dir": -1
+      "price": "88.72",
+      "chg": "+0.03%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.42",
-      "chg": "-0.62%",
+      "price": "59.20",
+      "chg": "-0.38%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "127.30",
-      "chg": "-1.07%",
-      "dir": -1
+      "price": "127.67",
+      "chg": "+0.29%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "59.29",
-      "chg": "-1.79%",
-      "dir": -1
+      "price": "59.44",
+      "chg": "+0.25%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "197.59",
-      "chg": "-2.06%",
-      "dir": -1
+      "price": "197.94",
+      "chg": "+0.18%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
