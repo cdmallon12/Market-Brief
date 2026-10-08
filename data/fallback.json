@@ -3,31 +3,31 @@
     "date_line": "Thursday · Oct 08, 2026",
     "as_of": "Auto-compiled from public sources · Oct 08, 2026",
     "compiled": "Compiled Oct 08, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-08T15:44:31Z"
+    "generated_utc": "2026-10-08T19:27:42Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,772.21",
-      "ch": "-0.38%",
+      "vl": "7,766.07",
+      "ch": "-0.46%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,364",
-      "ch": "-0.63%",
+      "vl": "27,195",
+      "ch": "-1.25%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "50,988",
-      "ch": "-0.38%",
-      "dir": -1
+      "vl": "51,238",
+      "ch": "+0.11%",
+      "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.50",
-      "ch": "+2.79%",
+      "vl": "15.60",
+      "ch": "+3.45%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.38%",
-    "standfirst": "At the last close: S&P 500 7,772.21 (-0.38%); Nasdaq 27,364 (-0.63%); Dow 50,988 (-0.38%). VIX 15.50 (+2.79%).",
+    "headline": "The S&P 500 edged lower 0.46%",
+    "standfirst": "At the last close: S&P 500 7,766.07 (-0.46%); Nasdaq 27,195 (-1.25%); Dow 51,238 (+0.11%). VIX 15.60 (+3.45%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "2 of 6 names on the watchlist closed higher.",
-      "VMRK led at +0.40%; BXP lagged at -1.60%."
+      "6 of 6 names on the watchlist closed higher.",
+      "PLD led at +1.64%; BXP lagged at +0.01%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:43 AM ET, Oct 8"
+    "quote_note": "Quotes ~15-min delayed · as of 3:27 PM ET, Oct 8"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,772.21",
+      "val": "7,766.07",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.38%",
+        "txt": "0.46%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,778.45</span> · <span class=\"up mono\">+15.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,778.45</span> · <span class=\"up mono\">+15.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,364",
+      "val": "27,195",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.63%",
+        "txt": "1.25%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,416</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "50,988",
-      "tone": "neg",
+      "val": "51,238",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.38%",
+        "dir": 1,
+        "txt": "0.11%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,105</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.50",
+      "val": "15.60",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "2.79%",
+        "txt": "3.45%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.68</span>"
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Oct 08",
+      "title": "Little relief expected for gas prices ahead of Election Day, according to prediction markets",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/08/little-relief-expected-for-gas-prices-ahead-of-election-day.html"
+    },
+    {
+      "when": "Oct 08",
       "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
       "blurb": "",
       "kind": "",
@@ -374,19 +382,11 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
-    },
-    {
-      "when": "Oct 07",
-      "title": "ICE came to town and left behind weakened economies",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html"
     }
   ],
   "cre": {
     "headline": "The 10-year at 5.28%, overnight SOFR at 3.88%",
-    "standfirst": "An illustrative agency coupon prices at 6.63–6.93%. The Freddie Mac 30-year survey rate is 7.28%.",
+    "standfirst": "An illustrative agency coupon prices at 6.63–6.93%. The Freddie Mac 30-year survey rate is 7.40%.",
     "curve_date": "Oct 07, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Toll Brothers Buys West Chelsea Development Site for $45M",
+      "title": "Private Equity Firm Brenton Point Inks 9K SF at Marx Realty’s 10 Grand Central",
       "when": "Oct 08",
-      "link": "https://commercialobserver.com/2026/10/toll-brothers-buys-west-chelsea-development-site-10th-avenue/"
+      "link": "https://commercialobserver.com/2026/10/brenton-point-lease-marx-realty-10-grand-central/"
     },
     {
       "source": "Commercial Observer",
-      "title": "AI Platform Synthesia Moves HQ to 50K SF at GFP’s 675 Avenue of the Americas",
+      "title": "Global Design Firm Perkins&Will Takes 51K SF at 135 West 18th Street",
       "when": "Oct 08",
-      "link": "https://commercialobserver.com/2026/10/synthesia-lease-gfp-675-avenue-of-the-americas/"
+      "link": "https://commercialobserver.com/2026/10/perkins-will-lease-135-west-18th-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Interactive Floor Plans Platform Planpoint Exits Stealth",
+      "title": "Jemal-Led JV Plans 323-Unit Office-to-Resi Conversion in D.C.",
       "when": "Oct 08",
-      "link": "https://commercialobserver.com/2026/10/floor-plans-platform-planpoint/"
+      "link": "https://commercialobserver.com/2026/10/jemal-divcowest-jls-conversion-dc/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Get to Know the Broker: Marlene Hamad of Platinum Forbes Global Properties",
+      "title": "AI Financial Platform Brex Inks 94K-SF Lease at GFP’s 200 Varick Street",
       "when": "Oct 08",
-      "link": "https://commercialobserver.com/2026/10/get-to-know-the-broker-marlene-hamad-platinum-forbes-global-properties/"
+      "link": "https://commercialobserver.com/2026/10/brex-lease-gfp-200-varick-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "In Brooklyn, the Old Ways of Development Just Won’t Cut It",
+      "title": "Data Centers: There’s So Much to Talk About",
       "when": "Oct 08",
-      "link": "https://commercialobserver.com/2026/10/brooklyn-development-housing-property-values-construction/"
+      "link": "https://commercialobserver.com/2026/10/data-centers-forum-commercial-observer-2026/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Delivery Service Spot & Tango, Ad Firm MediaRadar Sign at 11 Bryant Park Plaza",
-      "when": "Oct 07",
-      "link": "https://commercialobserver.com/2026/10/spot-tango-mediaradar-leases-11-bryant-park-plaza/"
+      "title": "Terra-Led JV Lands $507M Construction Loan for South Beach Condo Before Pre-Sales",
+      "when": "Oct 08",
+      "link": "https://commercialobserver.com/2026/10/terra-1250-west-miami-south-beach-tyko-gianluca-vacchi/"
     }
   ],
   "cre_fund_tiles": [
@@ -499,13 +499,13 @@
   "cre_fin_tiles": [
     {
       "lbl": "30-Yr Mortgage · PMMS",
-      "val": "7.28",
+      "val": "7.40",
       "unit": "%",
       "tone": "",
       "note": "Freddie Mac Primary Mortgage Market Survey",
       "delta": {
         "dir": 0,
-        "txt": "+0.25pp",
+        "txt": "+0.12pp",
         "note": "wk/wk"
       }
     },
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "68.63",
-      "chg": "-0.38%",
-      "dir": -1
+      "price": "69.66",
+      "chg": "+1.11%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "88.36",
-      "chg": "-0.38%",
-      "dir": -1
+      "price": "89.47",
+      "chg": "+0.88%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "58.47",
-      "chg": "-1.60%",
-      "dir": -1
+      "price": "59.42",
+      "chg": "+0.01%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "127.67",
-      "chg": "+0.29%",
+      "price": "129.39",
+      "chg": "+1.64%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "59.53",
-      "chg": "+0.40%",
+      "price": "60.17",
+      "chg": "+1.48%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "197.50",
-      "chg": "-0.05%",
-      "dir": -1
+      "price": "200.04",
+      "chg": "+1.24%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
