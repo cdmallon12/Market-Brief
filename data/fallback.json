@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Thursday · Oct 08, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 08, 2026",
-    "compiled": "Compiled Oct 08, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-09T02:59:35Z"
+    "date_line": "Friday · Oct 09, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 09, 2026",
+    "compiled": "Compiled Oct 09, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-09T13:50:43Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,765.36",
-      "ch": "-0.47%",
-      "dir": -1
+      "vl": "7,785.20",
+      "ch": "+0.26%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,193",
-      "ch": "-1.25%",
-      "dir": -1
+      "vl": "27,280",
+      "ch": "+0.32%",
+      "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,232",
-      "ch": "+0.10%",
+      "vl": "51,393",
+      "ch": "+0.32%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.41",
-      "ch": "+2.19%",
-      "dir": 1
+      "vl": "15.07",
+      "ch": "-2.21%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.88%",
+      "vl": "3.87%",
       "ch": "",
       "dir": 0
     },
@@ -104,19 +104,19 @@
     },
     {
       "nm": "HY OAS",
-      "vl": "3.09%",
+      "vl": "3.15%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.47%",
-    "standfirst": "At the last close: S&P 500 7,765.36 (-0.47%); Nasdaq 27,193 (-1.25%); Dow 51,232 (+0.10%). VIX 15.41 (+2.19%).",
+    "headline": "The S&P 500 edged higher 0.26%",
+    "standfirst": "At the last close: S&P 500 7,785.20 (+0.26%); Nasdaq 27,280 (+0.32%); Dow 51,393 (+0.32%). VIX 15.07 (-2.21%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "PLD led at +1.56%; BXP lagged at -0.17%."
+      "3 of 6 names on the watchlist closed higher.",
+      "VNQ led at +0.94%; KRE lagged at -0.76%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,52 +147,52 @@
         "body": "Scheduled to report before open."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 8"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 9"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,765.36",
-      "tone": "neg",
+      "val": "7,785.20",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.47%",
+        "dir": 1,
+        "txt": "0.26%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,778.45</span> · <span class=\"up mono\">+15.3%</span> YoY"
+      "note": "Open <span class=\"mono\">7,786.36</span> · <span class=\"up mono\">+15.6%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,193",
-      "tone": "neg",
+      "val": "27,280",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "1.25%",
+        "dir": 1,
+        "txt": "0.32%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">27,416</span>"
+      "note": "Open <span class=\"mono\">27,342</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,232",
+      "val": "51,393",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.10%",
+        "txt": "0.32%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">51,105</span>"
+      "note": "Open <span class=\"mono\">51,259</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.41",
-      "tone": "pos",
+      "val": "15.07",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "2.19%",
+        "dir": -1,
+        "txt": "2.21%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">15.68</span>"
+      "note": "Open <span class=\"mono\">15.34</span>"
     }
   ],
   "economy": {
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.02%, high-yield at 3.09%",
-    "standfirst": "The high-yield premium over investment grade is 2.07 percentage points. The 2s10s Treasury spread is +47 bps.",
+    "headline": "Investment-grade OAS at 1.02%, high-yield at 3.15%",
+    "standfirst": "The high-yield premium over investment grade is 2.13 percentage points. The 2s10s Treasury spread is +47 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -308,7 +308,7 @@
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.09",
+      "val": "3.15",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
@@ -320,7 +320,7 @@
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.07",
+      "val": "2.13",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
@@ -328,7 +328,7 @@
   ],
   "credit_chart": {
     "ig": 1.02,
-    "hy": 3.09
+    "hy": 3.15
   },
   "news": {
     "headline": "Latest headlines",
@@ -336,7 +336,23 @@
   },
   "headlines": [
     {
-      "when": "Oct 08",
+      "when": "Oct 09",
+      "title": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html"
+    },
+    {
+      "when": "Oct 09",
+      "title": "Blockchain.com seeks U.S. approval for prediction markets, crypto derivatives trading",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/09/blockchain-com-cftc-prediction-markets.html"
+    },
+    {
+      "when": "Oct 09",
       "title": "Tokenization could unleash tens of billions of dollars in trapped capital, Nasdaq CEO says",
       "blurb": "",
       "kind": "",
@@ -366,26 +382,10 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/08/chinas-real-estate-market-may-be-set-for-a-turnaround-sp-says.html"
-    },
-    {
-      "when": "Oct 08",
-      "title": "Huawei doubles down on smartphones as EV sales slow",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/08/huawei-china-smartphone-ev-slow.html"
-    },
-    {
-      "when": "Oct 07",
-      "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.22%, overnight SOFR at 3.88%",
+    "headline": "The 10-year at 5.22%, overnight SOFR at 3.87%",
     "standfirst": "An illustrative agency coupon prices at 6.57–6.87%. The Freddie Mac 30-year survey rate is 7.40%.",
     "curve_date": "Oct 08, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.88",
+      "val": "3.87",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.59",
-      "chg": "+1.02%",
-      "dir": 1
+      "price": "69.06",
+      "chg": "-0.76%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "89.35",
-      "chg": "+0.74%",
+      "price": "90.19",
+      "chg": "+0.94%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.32",
-      "chg": "-0.17%",
+      "price": "58.95",
+      "chg": "-0.62%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.29",
-      "chg": "+1.56%",
-      "dir": 1
+      "price": "128.99",
+      "chg": "-0.23%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "59.98",
-      "chg": "+1.16%",
+      "price": "60.27",
+      "chg": "+0.49%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "199.61",
-      "chg": "+1.02%",
+      "price": "200.43",
+      "chg": "+0.41%",
       "dir": 1
     }
   ],
