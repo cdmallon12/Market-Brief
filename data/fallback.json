@@ -3,31 +3,31 @@
     "date_line": "Friday · Oct 09, 2026",
     "as_of": "Auto-compiled from public sources · Oct 09, 2026",
     "compiled": "Compiled Oct 09, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-09T13:50:43Z"
+    "generated_utc": "2026-10-09T15:23:03Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,785.20",
-      "ch": "+0.26%",
+      "vl": "7,802.79",
+      "ch": "+0.48%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,280",
-      "ch": "+0.32%",
+      "vl": "27,327",
+      "ch": "+0.49%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,393",
-      "ch": "+0.32%",
+      "vl": "51,509",
+      "ch": "+0.54%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.07",
-      "ch": "-2.21%",
+      "vl": "14.99",
+      "ch": "-2.73%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.26%",
-    "standfirst": "At the last close: S&P 500 7,785.20 (+0.26%); Nasdaq 27,280 (+0.32%); Dow 51,393 (+0.32%). VIX 15.07 (-2.21%).",
+    "headline": "The S&P 500 edged higher 0.48%",
+    "standfirst": "At the last close: S&P 500 7,802.79 (+0.48%); Nasdaq 27,327 (+0.49%); Dow 51,509 (+0.54%). VIX 14.99 (-2.73%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "3 of 6 names on the watchlist closed higher.",
-      "VNQ led at +0.94%; KRE lagged at -0.76%."
+      "VNQ led at +1.09%; KRE lagged at -0.57%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report before open."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 9"
+    "quote_note": "Quotes ~15-min delayed · as of 11:22 AM ET, Oct 9"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,785.20",
+      "val": "7,802.79",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.26%",
+        "txt": "0.48%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,786.36</span> · <span class=\"up mono\">+15.6%</span> YoY"
+      "note": "Open <span class=\"mono\">7,786.36</span> · <span class=\"up mono\">+15.9%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,280",
+      "val": "27,327",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.32%",
+        "txt": "0.49%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,342</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,393",
+      "val": "51,509",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.32%",
+        "txt": "0.54%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,259</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.07",
+      "val": "14.99",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.21%",
+        "txt": "2.73%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.34</span>"
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Oct 09",
+      "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html"
+    },
+    {
+      "when": "Oct 09",
       "title": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
-    },
-    {
-      "when": "Oct 08",
-      "title": "After a yearslong slump, China's real estate market may be set for a turnaround",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/08/chinas-real-estate-market-may-be-set-for-a-turnaround-sp-says.html"
     }
   ],
   "cre": {
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Manhattan’s Office Sector Has Become the Corporate World’s Surest Bet",
+      "when": "Oct 09",
+      "link": "https://commercialobserver.com/2026/10/manhattan-office-market-2026-metrics-measures/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Law Firm Seward & Kissel Signs 171K-SF Renewal at One Battery Park Plaza",
+      "when": "Oct 09",
+      "link": "https://commercialobserver.com/2026/10/seward-kissel-lease-renewal-one-battery-park-plaza/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Law Firm Morgan & Morgan Signs 71K-SF Lease at One Seaport Plaza",
       "when": "Oct 08",
       "link": "https://commercialobserver.com/2026/10/morgan-morgan-lease-one-seaport-plaza/"
@@ -454,18 +466,6 @@
       "title": "Private Equity Firm Brenton Point Inks 9K SF at Marx Realty’s 10 Grand Central",
       "when": "Oct 08",
       "link": "https://commercialobserver.com/2026/10/brenton-point-lease-marx-realty-10-grand-central/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Global Design Firm Perkins&Will Takes 51K SF at 135 West 18th Street",
-      "when": "Oct 08",
-      "link": "https://commercialobserver.com/2026/10/perkins-will-lease-135-west-18th-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Jemal-Led JV Plans 323-Unit Office-to-Resi Conversion in D.C.",
-      "when": "Oct 08",
-      "link": "https://commercialobserver.com/2026/10/jemal-divcowest-jls-conversion-dc/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.06",
-      "chg": "-0.76%",
+      "price": "69.19",
+      "chg": "-0.57%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.19",
-      "chg": "+0.94%",
+      "price": "90.32",
+      "chg": "+1.09%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "58.95",
-      "chg": "-0.62%",
+      "price": "59.11",
+      "chg": "-0.35%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.99",
-      "chg": "-0.23%",
+      "price": "129.05",
+      "chg": "-0.19%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.27",
-      "chg": "+0.49%",
+      "price": "60.60",
+      "chg": "+1.03%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "200.43",
-      "chg": "+0.41%",
+      "price": "200.12",
+      "chg": "+0.26%",
       "dir": 1
     }
   ],
