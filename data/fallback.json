@@ -3,7 +3,7 @@
     "date_line": "Thursday · Oct 08, 2026",
     "as_of": "Auto-compiled from public sources · Oct 08, 2026",
     "compiled": "Compiled Oct 08, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-08T22:14:09Z"
+    "generated_utc": "2026-10-09T02:59:35Z"
   },
   "ticker": [
     {
@@ -144,7 +144,7 @@
       {
         "when": "Thu · Oct 15",
         "title": "PLD earnings",
-        "body": "Scheduled to report."
+        "body": "Scheduled to report before open."
       }
     ],
     "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 8"
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Oct 08",
+      "title": "Tokenization could unleash tens of billions of dollars in trapped capital, Nasdaq CEO says",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/09/nasdaq-ceo-tokenization-could-unleash-billions-in-trapped-capital-.html"
+    },
+    {
+      "when": "Oct 08",
       "title": "Little relief expected for gas prices ahead of Election Day, according to prediction markets",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html"
-    },
-    {
-      "when": "Oct 07",
-      "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
     }
   ],
   "cre": {
