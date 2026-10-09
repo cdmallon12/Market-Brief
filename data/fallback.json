@@ -3,31 +3,31 @@
     "date_line": "Friday · Oct 09, 2026",
     "as_of": "Auto-compiled from public sources · Oct 09, 2026",
     "compiled": "Compiled Oct 09, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-09T15:23:03Z"
+    "generated_utc": "2026-10-09T19:01:34Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,802.79",
-      "ch": "+0.48%",
+      "vl": "7,817.16",
+      "ch": "+0.67%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,327",
-      "ch": "+0.49%",
+      "vl": "27,376",
+      "ch": "+0.67%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,509",
-      "ch": "+0.54%",
+      "vl": "51,755",
+      "ch": "+1.02%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "14.99",
-      "ch": "-2.73%",
+      "vl": "14.86",
+      "ch": "-3.57%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.48%",
-    "standfirst": "At the last close: S&P 500 7,802.79 (+0.48%); Nasdaq 27,327 (+0.49%); Dow 51,509 (+0.54%). VIX 14.99 (-2.73%).",
+    "headline": "The S&P 500 rose 0.67%",
+    "standfirst": "At the last close: S&P 500 7,817.16 (+0.67%); Nasdaq 27,376 (+0.67%); Dow 51,755 (+1.02%). VIX 14.86 (-3.57%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "3 of 6 names on the watchlist closed higher.",
-      "VNQ led at +1.09%; KRE lagged at -0.57%."
+      "5 of 6 names on the watchlist closed higher.",
+      "VMRK led at +1.88%; KRE lagged at -0.47%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report before open."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:22 AM ET, Oct 9"
+    "quote_note": "Quotes ~15-min delayed · as of 3:00 PM ET, Oct 9"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,802.79",
+      "val": "7,817.16",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.48%",
+        "txt": "0.67%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,786.36</span> · <span class=\"up mono\">+15.9%</span> YoY"
+      "note": "Open <span class=\"mono\">7,786.36</span> · <span class=\"up mono\">+16.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,327",
+      "val": "27,376",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.49%",
+        "txt": "0.67%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,342</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,509",
+      "val": "51,755",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.54%",
+        "txt": "1.02%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,259</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "14.99",
+      "val": "14.86",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.73%",
+        "txt": "3.57%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.34</span>"
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Northern Virginia Office Vacancy Falls Again as AI, Defense Demand Builds",
+      "when": "Oct 09",
+      "link": "https://commercialobserver.com/2026/10/northern-virginia-office-q3/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "S3 Capital Supplies $20M for Boutique Miami Beach Condo",
+      "when": "Oct 09",
+      "link": "https://commercialobserver.com/2026/10/trinity-southern-s3-miami-beach-condo-twenty-nine-indian-creek/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Manhattan’s Office Sector Has Become the Corporate World’s Surest Bet",
       "when": "Oct 09",
       "link": "https://commercialobserver.com/2026/10/manhattan-office-market-2026-metrics-measures/"
@@ -454,18 +466,6 @@
       "title": "City National Bank of Florida Sells Former HQ in Coral Gables After Moving Out",
       "when": "Oct 08",
       "link": "https://commercialobserver.com/2026/10/city-national-bank-of-florida-coral-gables-baptist-health/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Westwood Financial Pays $56M for Huntington Beach, Calif., Shopping Center",
-      "when": "Oct 08",
-      "link": "https://commercialobserver.com/2026/10/blackstone-westwood-peninsula-calif-shopping-center-retail/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Private Equity Firm Brenton Point Inks 9K SF at Marx Realty’s 10 Grand Central",
-      "when": "Oct 08",
-      "link": "https://commercialobserver.com/2026/10/brenton-point-lease-marx-realty-10-grand-central/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.19",
-      "chg": "-0.57%",
+      "price": "69.26",
+      "chg": "-0.47%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.32",
-      "chg": "+1.09%",
+      "price": "90.72",
+      "chg": "+1.53%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.11",
-      "chg": "-0.35%",
-      "dir": -1
+      "price": "59.43",
+      "chg": "+0.19%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.05",
-      "chg": "-0.19%",
-      "dir": -1
+      "price": "129.75",
+      "chg": "+0.36%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.60",
-      "chg": "+1.03%",
+      "price": "61.11",
+      "chg": "+1.88%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "200.12",
-      "chg": "+0.26%",
+      "price": "200.44",
+      "chg": "+0.41%",
       "dir": 1
     }
   ],
