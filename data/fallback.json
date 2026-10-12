@@ -3,31 +3,31 @@
     "date_line": "Monday · Oct 12, 2026",
     "as_of": "Auto-compiled from public sources · Oct 12, 2026",
     "compiled": "Compiled Oct 12, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-12T13:50:49Z"
+    "generated_utc": "2026-10-12T18:03:49Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,812.47",
-      "ch": "+0.01%",
-      "dir": 1
+      "vl": "7,802.96",
+      "ch": "-0.11%",
+      "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,340",
-      "ch": "-0.09%",
+      "vl": "27,243",
+      "ch": "-0.45%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,721",
-      "ch": "+0.13%",
+      "vl": "51,857",
+      "ch": "+0.39%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.42",
-      "ch": "+3.91%",
+      "vl": "15.19",
+      "ch": "+2.36%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 was little changed",
-    "standfirst": "At the last close: S&P 500 7,812.47 (+0.01%); Nasdaq 27,340 (-0.09%); Dow 51,721 (+0.13%). VIX 15.42 (+3.91%).",
+    "headline": "The S&P 500 edged lower 0.11%",
+    "standfirst": "At the last close: S&P 500 7,802.96 (-0.11%); Nasdaq 27,243 (-0.45%); Dow 51,857 (+0.39%). VIX 15.19 (+2.36%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "2 of 6 names on the watchlist closed higher.",
-      "KRE led at +0.51%; BXP lagged at -1.31%."
+      "5 of 6 names on the watchlist closed higher.",
+      "PLD led at +1.66%; VMRK lagged at -0.16%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report before open."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 12"
+    "quote_note": "Quotes ~15-min delayed · as of 2:03 PM ET, Oct 12"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,812.47",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.01%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">7,813.04</span> · <span class=\"up mono\">+17.4%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "27,340",
+      "val": "7,802.96",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.09%",
+        "txt": "0.11%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">7,813.04</span> · <span class=\"up mono\">+17.3%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "27,243",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.45%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,353</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,721",
+      "val": "51,857",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.13%",
+        "txt": "0.39%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,765</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.42",
+      "val": "15.19",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "3.91%",
+        "txt": "2.36%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.39</span>"
@@ -337,6 +337,22 @@
   "headlines": [
     {
       "when": "Oct 12",
+      "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html"
+    },
+    {
+      "when": "Oct 12",
+      "title": "Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/12/inflation-will-remain-sticky-in-2026-according-to-prediction-markets.html"
+    },
+    {
+      "when": "Oct 12",
       "title": "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford",
       "blurb": "",
       "kind": "",
@@ -366,22 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/10/jpmorgan-sees-once-in-a-generation-opportunity-in-fixed-income-space.html"
-    },
-    {
-      "when": "Oct 09",
-      "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html"
-    },
-    {
-      "when": "Oct 09",
-      "title": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html"
     }
   ],
   "cre": {
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.36",
-      "chg": "+0.51%",
+      "price": "69.82",
+      "chg": "+1.17%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.43",
-      "chg": "-0.24%",
-      "dir": -1
+      "price": "91.17",
+      "chg": "+0.57%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "58.27",
-      "chg": "-1.31%",
-      "dir": -1
+      "price": "59.38",
+      "chg": "+0.56%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "130.04",
-      "chg": "+0.42%",
+      "price": "131.63",
+      "chg": "+1.66%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.39",
-      "chg": "-1.26%",
+      "price": "61.06",
+      "chg": "-0.16%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "199.25",
-      "chg": "-0.08%",
-      "dir": -1
+      "price": "201.00",
+      "chg": "+0.79%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
