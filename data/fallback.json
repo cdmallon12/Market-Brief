@@ -3,31 +3,31 @@
     "date_line": "Monday · Oct 12, 2026",
     "as_of": "Auto-compiled from public sources · Oct 12, 2026",
     "compiled": "Compiled Oct 12, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-12T18:03:49Z"
+    "generated_utc": "2026-10-12T21:52:43Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,802.96",
-      "ch": "-0.11%",
+      "vl": "7,807.24",
+      "ch": "-0.06%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,243",
-      "ch": "-0.45%",
+      "vl": "27,246",
+      "ch": "-0.44%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,857",
-      "ch": "+0.39%",
+      "vl": "51,851",
+      "ch": "+0.38%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.19",
-      "ch": "+2.36%",
+      "vl": "15.21",
+      "ch": "+2.49%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.11%",
-    "standfirst": "At the last close: S&P 500 7,802.96 (-0.11%); Nasdaq 27,243 (-0.45%); Dow 51,857 (+0.39%). VIX 15.19 (+2.36%).",
+    "headline": "The S&P 500 was little changed",
+    "standfirst": "At the last close: S&P 500 7,807.24 (-0.06%); Nasdaq 27,246 (-0.44%); Dow 51,851 (+0.38%). VIX 15.21 (+2.49%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "PLD led at +1.66%; VMRK lagged at -0.16%."
+      "6 of 6 names on the watchlist closed higher.",
+      "PLD led at +2.30%; VMRK lagged at +0.15%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report before open."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 2:03 PM ET, Oct 12"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 12"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,802.96",
+      "val": "7,807.24",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.11%",
+        "txt": "0.06%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,813.04</span> · <span class=\"up mono\">+17.3%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,243",
+      "val": "27,246",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.45%",
+        "txt": "0.44%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,353</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,857",
+      "val": "51,851",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.39%",
+        "txt": "0.38%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,765</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.19",
+      "val": "15.21",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "2.36%",
+        "txt": "2.49%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.39</span>"
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Oct 12",
+      "title": "The bull market turned 4 years old on Monday. Investors say reaching a fifth birthday could be challenging",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/12/the-bull-market-just-turned-four-after-climbing-a-wall-of-worry.html"
+    },
+    {
+      "when": "Oct 12",
       "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
-    },
-    {
-      "when": "Oct 10",
-      "title": "JPMorgan makes bullish call in fixed income space, suggests it's a once in a generation opportunity",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/10/jpmorgan-sees-once-in-a-generation-opportunity-in-fixed-income-space.html"
     }
   ],
   "cre": {
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.82",
-      "chg": "+1.17%",
+      "price": "69.56",
+      "chg": "+0.80%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.17",
-      "chg": "+0.57%",
+      "price": "91.36",
+      "chg": "+0.78%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.38",
-      "chg": "+0.56%",
+      "price": "59.55",
+      "chg": "+0.85%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "131.63",
-      "chg": "+1.66%",
+      "price": "132.47",
+      "chg": "+2.30%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.06",
-      "chg": "-0.16%",
-      "dir": -1
+      "price": "61.25",
+      "chg": "+0.15%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "201.00",
-      "chg": "+0.79%",
+      "price": "201.41",
+      "chg": "+1.00%",
       "dir": 1
     }
   ],
