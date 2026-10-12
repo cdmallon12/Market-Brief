@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Friday · Oct 09, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 09, 2026",
-    "compiled": "Compiled Oct 09, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-10T02:27:20Z"
+    "date_line": "Monday · Oct 12, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 12, 2026",
+    "compiled": "Compiled Oct 12, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-12T13:50:49Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,811.54",
-      "ch": "+0.59%",
+      "vl": "7,812.47",
+      "ch": "+0.01%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,366",
-      "ch": "+0.64%",
-      "dir": 1
+      "vl": "27,340",
+      "ch": "-0.09%",
+      "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,655",
-      "ch": "+0.83%",
+      "vl": "51,721",
+      "ch": "+0.13%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "14.84",
-      "ch": "-3.70%",
-      "dir": -1
+      "vl": "15.42",
+      "ch": "+3.91%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -110,19 +110,19 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.59%",
-    "standfirst": "At the last close: S&P 500 7,811.54 (+0.59%); Nasdaq 27,366 (+0.64%); Dow 51,655 (+0.83%). VIX 14.84 (-3.70%).",
+    "headline": "The S&P 500 was little changed",
+    "standfirst": "At the last close: S&P 500 7,812.47 (+0.01%); Nasdaq 27,340 (-0.09%); Dow 51,721 (+0.13%). VIX 15.42 (+3.91%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "3 of 6 names on the watchlist closed higher.",
-      "VMRK led at +1.97%; KRE lagged at -0.83%."
+      "2 of 6 names on the watchlist closed higher.",
+      "KRE led at +0.51%; BXP lagged at -1.31%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "Tue · Oct 13",
+        "when": "Tomorrow",
         "title": "Earnings",
         "body": "GS, JPM, WFC scheduled to report before open."
       },
@@ -147,52 +147,52 @@
         "body": "Scheduled to report before open."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:29 PM ET, Oct 9"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 12"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,811.54",
+      "val": "7,812.47",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.59%",
+        "txt": "0.01%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,786.36</span> · <span class=\"up mono\">+19.2%</span> YoY"
+      "note": "Open <span class=\"mono\">7,813.04</span> · <span class=\"up mono\">+17.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,366",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.64%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">27,342</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "51,655",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.83%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">51,259</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "14.84",
+      "val": "27,340",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "3.70%",
+        "txt": "0.09%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">15.34</span>"
+      "note": "Open <span class=\"mono\">27,353</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "51,721",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.13%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">51,765</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "15.42",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "3.91%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">15.39</span>"
     }
   ],
   "economy": {
@@ -336,6 +336,38 @@
   },
   "headlines": [
     {
+      "when": "Oct 12",
+      "title": "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/12/nobel-economics-prize-winner-woodford-hall.html"
+    },
+    {
+      "when": "Oct 12",
+      "title": "India’s retail inflation jumps to 5.54% in September, above estimates",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/12/india-inflation-oil-energy-iran-war.html"
+    },
+    {
+      "when": "Oct 12",
+      "title": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
+    },
+    {
+      "when": "Oct 10",
+      "title": "JPMorgan makes bullish call in fixed income space, suggests it's a once in a generation opportunity",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/10/jpmorgan-sees-once-in-a-generation-opportunity-in-fixed-income-space.html"
+    },
+    {
       "when": "Oct 09",
       "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
       "blurb": "",
@@ -350,38 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html"
-    },
-    {
-      "when": "Oct 09",
-      "title": "Blockchain.com seeks U.S. approval for prediction markets, crypto derivatives trading",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/09/blockchain-com-cftc-prediction-markets.html"
-    },
-    {
-      "when": "Oct 09",
-      "title": "Tokenization could unleash tens of billions of dollars in trapped capital, Nasdaq CEO says",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/09/nasdaq-ceo-tokenization-could-unleash-billions-in-trapped-capital-.html"
-    },
-    {
-      "when": "Oct 08",
-      "title": "Little relief expected for gas prices ahead of Election Day, according to prediction markets",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/08/little-relief-expected-for-gas-prices-ahead-of-election-day.html"
-    },
-    {
-      "when": "Oct 08",
-      "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
     }
   ],
   "cre": {
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Sunday Summary: Welcome Back, Speyer!",
+      "when": "Oct 11",
+      "link": "https://commercialobserver.com/2026/10/sunday-summary-welcome-back-speyer/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Charter School Inks 56K-SF Lease in Retail Center Near Miami Suburb",
       "when": "Oct 09",
       "link": "https://commercialobserver.com/2026/10/bridgeprep-academy-california-club-shopping-center/"
@@ -460,12 +466,6 @@
       "title": "S3 Capital Supplies $20M for Boutique Miami Beach Condo",
       "when": "Oct 09",
       "link": "https://commercialobserver.com/2026/10/trinity-southern-s3-miami-beach-condo-twenty-nine-indian-creek/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Manhattan’s Office Sector Has Become the Corporate World’s Surest Bet",
-      "when": "Oct 09",
-      "link": "https://commercialobserver.com/2026/10/manhattan-office-market-2026-metrics-measures/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.01",
-      "chg": "-0.83%",
-      "dir": -1
+      "price": "69.36",
+      "chg": "+0.51%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.65",
-      "chg": "+1.45%",
-      "dir": 1
+      "price": "90.43",
+      "chg": "-0.24%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.05",
-      "chg": "-0.46%",
+      "price": "58.27",
+      "chg": "-1.31%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.49",
-      "chg": "+0.15%",
+      "price": "130.04",
+      "chg": "+0.42%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.16",
-      "chg": "+1.97%",
-      "dir": 1
+      "price": "60.39",
+      "chg": "-1.26%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "199.42",
-      "chg": "-0.10%",
+      "price": "199.25",
+      "chg": "-0.08%",
       "dir": -1
     }
   ],
