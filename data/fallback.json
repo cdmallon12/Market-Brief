@@ -3,7 +3,7 @@
     "date_line": "Monday · Oct 12, 2026",
     "as_of": "Auto-compiled from public sources · Oct 12, 2026",
     "compiled": "Compiled Oct 12, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-12T21:52:43Z"
+    "generated_utc": "2026-10-13T02:07:54Z"
   },
   "ticker": [
     {
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Oct 12",
+      "title": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html"
+    },
+    {
+      "when": "Oct 12",
       "title": "The bull market turned 4 years old on Monday. Investors say reaching a fifth birthday could be challenging",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/12/india-inflation-oil-energy-iran-war.html"
-    },
-    {
-      "when": "Oct 12",
-      "title": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
     }
   ],
   "cre": {
