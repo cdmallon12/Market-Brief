@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Monday · Oct 12, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 12, 2026",
-    "compiled": "Compiled Oct 12, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-13T02:07:54Z"
+    "date_line": "Tuesday · Oct 13, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 13, 2026",
+    "compiled": "Compiled Oct 13, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-13T13:50:47Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,807.24",
-      "ch": "-0.06%",
-      "dir": -1
+      "vl": "7,808.83",
+      "ch": "+0.02%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,246",
-      "ch": "-0.44%",
+      "vl": "27,243",
+      "ch": "-0.01%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,851",
-      "ch": "+0.38%",
+      "vl": "52,003",
+      "ch": "+0.29%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.21",
-      "ch": "+2.49%",
+      "vl": "15.26",
+      "ch": "+0.33%",
       "dir": 1
     },
     {
@@ -111,28 +111,28 @@
   ],
   "markets": {
     "headline": "The S&P 500 was little changed",
-    "standfirst": "At the last close: S&P 500 7,807.24 (-0.06%); Nasdaq 27,246 (-0.44%); Dow 51,851 (+0.38%). VIX 15.21 (+2.49%).",
+    "standfirst": "At the last close: S&P 500 7,808.83 (+0.02%); Nasdaq 27,243 (-0.01%); Dow 52,003 (+0.29%). VIX 15.26 (+0.33%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "PLD led at +2.30%; VMRK lagged at +0.15%."
+      "2 of 6 names on the watchlist closed higher.",
+      "BXP led at +0.82%; SPG lagged at -0.20%."
     ],
-    "card2_title": "Coming up",
+    "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "Tomorrow",
+        "when": "Today",
         "title": "Earnings",
         "body": "GS, JPM, WFC scheduled to report before open."
       },
       {
-        "when": "Wed · Oct 14",
+        "when": "Tomorrow",
         "title": "Consumer Price Index",
         "body": "September CPI, headline and core."
       },
       {
-        "when": "Wed · Oct 14",
+        "when": "Tomorrow",
         "title": "BAC earnings",
         "body": "Scheduled to report before open."
       },
@@ -147,52 +147,52 @@
         "body": "Scheduled to report before open."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 12"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 13"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,807.24",
-      "tone": "neg",
+      "val": "7,808.83",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.06%",
+        "dir": 1,
+        "txt": "0.02%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,813.04</span> · <span class=\"up mono\">+17.3%</span> YoY"
+      "note": "Open <span class=\"mono\">7,795.27</span> · <span class=\"up mono\">+17.3%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,246",
+      "val": "27,243",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.44%",
+        "txt": "0.01%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">27,353</span>"
+      "note": "Open <span class=\"mono\">27,139</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,851",
+      "val": "52,003",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.38%",
+        "txt": "0.29%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">51,765</span>"
+      "note": "Open <span class=\"mono\">52,093</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.21",
+      "val": "15.26",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "2.49%",
+        "txt": "0.33%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">15.39</span>"
+      "note": "Open <span class=\"mono\">15.61</span>"
     }
   ],
   "economy": {
@@ -336,20 +336,44 @@
   },
   "headlines": [
     {
-      "when": "Oct 12",
-      "title": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
+      "when": "Oct 13",
+      "title": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
       "blurb": "",
       "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html"
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
     },
     {
-      "when": "Oct 12",
-      "title": "The bull market turned 4 years old on Monday. Investors say reaching a fifth birthday could be challenging",
+      "when": "Oct 13",
+      "title": "In charts: How one of the world's biggest economies got trapped by debt",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html"
+    },
+    {
+      "when": "Oct 13",
+      "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/12/the-bull-market-just-turned-four-after-climbing-a-wall-of-worry.html"
+      "link": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html"
+    },
+    {
+      "when": "Oct 13",
+      "title": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html"
+    },
+    {
+      "when": "Oct 13",
+      "title": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html"
     },
     {
       "when": "Oct 12",
@@ -358,30 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html"
-    },
-    {
-      "when": "Oct 12",
-      "title": "Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/12/inflation-will-remain-sticky-in-2026-according-to-prediction-markets.html"
-    },
-    {
-      "when": "Oct 12",
-      "title": "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/12/nobel-economics-prize-winner-woodford-hall.html"
-    },
-    {
-      "when": "Oct 12",
-      "title": "India’s retail inflation jumps to 5.54% in September, above estimates",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/12/india-inflation-oil-energy-iran-war.html"
     }
   ],
   "cre": {
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Proof Stacking — Or, the Compounding Value of Credibility in Business",
+      "when": "Oct 13",
+      "link": "https://commercialobserver.com/2026/10/proof-stacking-business/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Custom Data Requests Don’t Have to Stymie Commercial Real Estate Teams",
+      "when": "Oct 13",
+      "link": "https://commercialobserver.com/2026/10/custom-data-requests-commercial-real-estate-teams/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Developer Joe Moinian On His Hudson Yards Project, AI’s Impact and Land Buys",
+      "when": "Oct 13",
+      "link": "https://commercialobserver.com/2026/10/joe-moinian-hudson-yards-new-york-development/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "RXR Names Whitney Arcaro COO of Residential Business, Taps Gerard Norcia to Lead It",
+      "when": "Oct 13",
+      "link": "https://commercialobserver.com/2026/10/rxr-whitney-arcaro-gerard-norcia/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Sunday Summary: Welcome Back, Speyer!",
       "when": "Oct 11",
       "link": "https://commercialobserver.com/2026/10/sunday-summary-welcome-back-speyer/"
@@ -442,30 +466,6 @@
       "title": "Charter School Inks 56K-SF Lease in Retail Center Near Miami Suburb",
       "when": "Oct 09",
       "link": "https://commercialobserver.com/2026/10/bridgeprep-academy-california-club-shopping-center/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Taco Bell’s Office Lease Largest in Orange County, Calif., in Five Years",
-      "when": "Oct 09",
-      "link": "https://commercialobserver.com/2026/10/office-lease-orange-county-calif-taco-bell/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Yves Saint Laurent to Open Store at Kering’s 717 Fifth Avenue",
-      "when": "Oct 09",
-      "link": "https://commercialobserver.com/2026/10/yves-saint-laurent-lease-store-kering-717-fifth-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Northern Virginia Office Vacancy Falls Again as AI, Defense Demand Builds",
-      "when": "Oct 09",
-      "link": "https://commercialobserver.com/2026/10/northern-virginia-office-q3/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "S3 Capital Supplies $20M for Boutique Miami Beach Condo",
-      "when": "Oct 09",
-      "link": "https://commercialobserver.com/2026/10/trinity-southern-s3-miami-beach-condo-twenty-nine-indian-creek/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.56",
-      "chg": "+0.80%",
-      "dir": 1
+      "price": "69.53",
+      "chg": "-0.04%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.36",
-      "chg": "+0.78%",
-      "dir": 1
+      "price": "91.21",
+      "chg": "-0.16%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.55",
-      "chg": "+0.85%",
+      "price": "60.04",
+      "chg": "+0.82%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "132.47",
-      "chg": "+2.30%",
+      "price": "133.38",
+      "chg": "+0.69%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.25",
-      "chg": "+0.15%",
-      "dir": 1
+      "price": "61.20",
+      "chg": "-0.07%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "201.41",
-      "chg": "+1.00%",
-      "dir": 1
+      "price": "201.00",
+      "chg": "-0.20%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
