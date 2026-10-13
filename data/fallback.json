@@ -3,48 +3,48 @@
     "date_line": "Tuesday · Oct 13, 2026",
     "as_of": "Auto-compiled from public sources · Oct 13, 2026",
     "compiled": "Compiled Oct 13, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-13T16:08:55Z"
+    "generated_utc": "2026-10-13T19:57:58Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,794.01",
-      "ch": "-0.17%",
+      "vl": "7,803.71",
+      "ch": "-0.05%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,197",
-      "ch": "-0.18%",
+      "vl": "27,199",
+      "ch": "-0.17%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,673",
-      "ch": "-0.34%",
+      "vl": "51,667",
+      "ch": "-0.35%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "15.41",
-      "ch": "+1.31%",
+      "vl": "15.31",
+      "ch": "+0.66%",
       "dir": 1
     },
     {
       "nm": "10Y UST",
-      "vl": "5.24%",
+      "vl": "5.21%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.80%",
+      "vl": "4.79%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.60%",
+      "vl": "5.56%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.17%",
-    "standfirst": "At the last close: S&P 500 7,794.01 (-0.17%); Nasdaq 27,197 (-0.18%); Dow 51,673 (-0.34%). VIX 15.41 (+1.31%).",
+    "headline": "The S&P 500 was little changed",
+    "standfirst": "At the last close: S&P 500 7,803.71 (-0.05%); Nasdaq 27,199 (-0.17%); Dow 51,667 (-0.35%). VIX 15.31 (+0.66%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "2 of 6 names on the watchlist closed higher.",
-      "PLD led at +0.66%; KRE lagged at -0.98%."
+      "BXP led at +0.84%; KRE lagged at -0.65%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report before open."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 12:08 PM ET, Oct 13"
+    "quote_note": "Quotes ~15-min delayed · as of 3:57 PM ET, Oct 13"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,794.01",
+      "val": "7,803.71",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.05%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">7,795.27</span> · <span class=\"up mono\">+17.3%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "27,199",
       "tone": "neg",
       "delta": {
         "dir": -1,
         "txt": "0.17%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,795.27</span> · <span class=\"up mono\">+17.1%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "27,197",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.18%",
-        "note": "vs prior close"
-      },
       "note": "Open <span class=\"mono\">27,139</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,673",
+      "val": "51,667",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.34%",
+        "txt": "0.35%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,093</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "15.41",
+      "val": "15.31",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.31%",
+        "txt": "0.66%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.61</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.02%, high-yield at 3.11%",
-    "standfirst": "The high-yield premium over investment grade is 2.09 percentage points. The 2s10s Treasury spread is +44 bps.",
+    "standfirst": "The high-yield premium over investment grade is 2.09 percentage points. The 2s10s Treasury spread is +42 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +44 bps; 3m10y +99 bps; 5s30s +58 bps; 10s30s +36 bps."
+      "Across the curve: 2s10s +42 bps; 3m10y +95 bps; 5s30s +56 bps; 10s30s +35 bps."
     ]
   },
   "credit_tiles": [
@@ -337,19 +337,35 @@
   "headlines": [
     {
       "when": "Oct 13",
+      "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html"
+    },
+    {
+      "when": "Oct 13",
+      "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html"
+    },
+    {
+      "when": "Oct 13",
+      "title": "The latest inflation data is expected to show price increases are accelerating",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html"
+    },
+    {
+      "when": "Oct 13",
       "title": "In charts: How one of the world's biggest economies got trapped by debt",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html"
-    },
-    {
-      "when": "Oct 13",
-      "title": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
     },
     {
       "when": "Oct 13",
@@ -366,28 +382,12 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html"
-    },
-    {
-      "when": "Oct 13",
-      "title": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html"
-    },
-    {
-      "when": "Oct 12",
-      "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.24%, overnight SOFR at 3.87%",
-    "standfirst": "An illustrative agency coupon prices at 6.59–6.89%. The Freddie Mac 30-year survey rate is 7.40%.",
-    "curve_date": "Oct 09, 2026",
+    "headline": "The 10-year at 5.21%, overnight SOFR at 3.87%",
+    "standfirst": "An illustrative agency coupon prices at 6.56–6.86%. The Freddie Mac 30-year survey rate is 7.40%.",
+    "curve_date": "Oct 13, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,14 +398,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "5.24",
+      "val": "5.21",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+44 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+42 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.80",
+      "val": "4.79",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "In Sun Belt Multifamily, an Uneven Path Back Toward Boom Times",
+      "title": "ONE Street Secures $38M Loan for D.C. Office-to-Condo Conversion",
       "when": "Oct 13",
-      "link": "https://commercialobserver.com/2026/10/sun-belt-multifamily-market-2027-2028/"
+      "link": "https://commercialobserver.com/2026/10/one-street-dc-office-to-condo-conversion-oaknorth-hickory-cre/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Arrow Hires Yanni Marmarou to Grow N.J. Business",
+      "title": "Eyewear Brand Gentle Monster Takes 29K SF at Kushner’s Puck Building",
       "when": "Oct 13",
-      "link": "https://commercialobserver.com/2026/10/arrow-real-estate-advisors-yanni-marmarou-new-jersey/"
+      "link": "https://commercialobserver.com/2026/10/gentle-monster-lease-kushner-puck-building-rei/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Proof Stacking — Or, the Compounding Value of Credibility in Business",
+      "title": "Starwood Property Trust Provides $238M Refi on N.C. Life Sciences Campus",
       "when": "Oct 13",
-      "link": "https://commercialobserver.com/2026/10/proof-stacking-business/"
+      "link": "https://commercialobserver.com/2026/10/starwood-property-trust-238m-refi-north-carolina-life-sciences-campus/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Custom Data Requests Don’t Have to Stymie Commercial Real Estate Teams",
+      "title": "Rent Freeze and Fulton Street Development Dominate Brooklyn Panel Discussions",
       "when": "Oct 13",
-      "link": "https://commercialobserver.com/2026/10/custom-data-requests-commercial-real-estate-teams/"
+      "link": "https://commercialobserver.com/2026/10/terracrg-brooklyn-real-estate-rent-freeze/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Developer Joe Moinian On His Hudson Yards Project, AI’s Impact and Land Buys",
+      "title": "Cohen Brothers Adds 76K SF in Leases at West Hollywood Campus",
       "when": "Oct 13",
-      "link": "https://commercialobserver.com/2026/10/joe-moinian-hudson-yards-new-york-development/"
+      "link": "https://commercialobserver.com/2026/10/cohen-brothers-west-hollywood-pacific-design-center/"
     },
     {
       "source": "Commercial Observer",
-      "title": "RXR Names Whitney Arcaro COO of Residential Business, Taps Gerard Norcia to Lead It",
+      "title": "Kinsmen Property, SK Development to Build 184 Apartments at 50 Third Avenue",
       "when": "Oct 13",
-      "link": "https://commercialobserver.com/2026/10/rxr-whitney-arcaro-gerard-norcia/"
+      "link": "https://commercialobserver.com/2026/10/kinsmen-property-sk-development-housing-50-third-avenue/"
     }
   ],
   "cre_fund_tiles": [
@@ -511,17 +511,17 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.59–6.89",
+      "val": "6.56–6.86",
       "unit": "%",
       "tone": "",
-      "note": "10Y (5.24%) + 135–165 bp agency spread"
+      "note": "10Y (5.21%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+44",
-    "3m10y": "+99",
-    "5s30s": "+58",
-    "10s30s": "+36"
+    "2s10s": "+42",
+    "3m10y": "+95",
+    "5s30s": "+56",
+    "10s30s": "+35"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "68.88",
-      "chg": "-0.98%",
+      "price": "69.11",
+      "chg": "-0.65%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.78",
-      "chg": "-0.63%",
+      "price": "91.16",
+      "chg": "-0.22%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.68",
-      "chg": "+0.22%",
+      "price": "60.05",
+      "chg": "+0.84%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "133.34",
-      "chg": "+0.66%",
+      "price": "133.54",
+      "chg": "+0.81%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.04",
-      "chg": "-0.34%",
+      "price": "61.22",
+      "chg": "-0.06%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "199.95",
-      "chg": "-0.72%",
+      "price": "200.76",
+      "chg": "-0.32%",
       "dir": -1
     }
   ],
@@ -651,84 +651,84 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 4.13,
+      "y": 4.1,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.25,
+      "y": 4.26,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.32,
+      "y": 4.34,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.47,
+      "y": 4.48,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.8,
+      "y": 4.79,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.89,
+      "y": 4.9,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 5.02,
+      "y": 5.0,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 5.13,
+      "y": 5.11,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 5.24,
+      "y": 5.21,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.65,
+      "y": 5.6,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.6,
+      "y": 5.56,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.74
+    "new": 6.71
   },
   "orig": {
     "y2025": 633.7,
