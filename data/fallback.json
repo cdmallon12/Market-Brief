@@ -3,7 +3,7 @@
     "date_line": "Tuesday · Oct 13, 2026",
     "as_of": "Auto-compiled from public sources · Oct 13, 2026",
     "compiled": "Compiled Oct 13, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-13T21:54:01Z"
+    "generated_utc": "2026-10-14T02:00:55Z"
   },
   "ticker": [
     {
@@ -118,14 +118,9 @@
       "2 of 6 names on the watchlist closed higher.",
       "PLD led at +0.82%; KRE lagged at -0.72%."
     ],
-    "card2_title": "On the calendar today",
+    "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
-      {
-        "when": "Today",
-        "title": "Earnings",
-        "body": "GS, JPM, WFC scheduled to report before open."
-      },
       {
         "when": "Tomorrow",
         "title": "Consumer Price Index",
@@ -144,6 +139,11 @@
       {
         "when": "Thu · Oct 15",
         "title": "PLD earnings",
+        "body": "Scheduled to report before open."
+      },
+      {
+        "when": "Thu · Oct 22",
+        "title": "BX earnings",
         "body": "Scheduled to report before open."
       }
     ],
@@ -337,6 +337,22 @@
   "headlines": [
     {
       "when": "Oct 13",
+      "title": "China's exports likely grew by double-digits in September",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html"
+    },
+    {
+      "when": "Oct 13",
+      "title": "Goldman says investors are looking for 'profitable' Chinese business growth overseas",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html"
+    },
+    {
+      "when": "Oct 13",
       "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
       "blurb": "",
       "kind": "",
@@ -366,22 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html"
-    },
-    {
-      "when": "Oct 13",
-      "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html"
-    },
-    {
-      "when": "Oct 13",
-      "title": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html"
     }
   ],
   "cre": {
