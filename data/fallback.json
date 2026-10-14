@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Oct 14, 2026",
     "as_of": "Auto-compiled from public sources · Oct 14, 2026",
     "compiled": "Compiled Oct 14, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-14T18:11:18Z"
+    "generated_utc": "2026-10-14T18:45:02Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,699.81",
-      "ch": "-1.35%",
+      "vl": "7,703.73",
+      "ch": "-1.30%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,647",
-      "ch": "-2.05%",
+      "vl": "26,641",
+      "ch": "-2.07%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,421",
-      "ch": "-0.48%",
+      "vl": "51,461",
+      "ch": "-0.40%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "17.08",
-      "ch": "+11.85%",
+      "vl": "17.02",
+      "ch": "+11.46%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 1.35%",
-    "standfirst": "At the last close: S&P 500 7,699.81 (-1.35%); Nasdaq 26,647 (-2.05%); Dow 51,421 (-0.48%). VIX 17.08 (+11.85%).",
+    "headline": "The S&P 500 fell 1.30%",
+    "standfirst": "At the last close: S&P 500 7,703.73 (-1.30%); Nasdaq 26,641 (-2.07%); Dow 51,461 (-0.40%). VIX 17.02 (+11.46%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "PLD led at -0.37%; BXP lagged at -3.60%."
+      "PLD led at -0.56%; BXP lagged at -3.93%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report after close."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 2:10 PM ET, Oct 14"
+    "quote_note": "Quotes ~15-min delayed · as of 2:44 PM ET, Oct 14"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,699.81",
+      "val": "7,703.73",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.35%",
+        "txt": "1.30%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,774.18</span> · <span class=\"up mono\">+15.9%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,647",
+      "val": "26,641",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.05%",
+        "txt": "2.07%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,032</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,421",
+      "val": "51,461",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.48%",
+        "txt": "0.40%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,685</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.08",
+      "val": "17.02",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "11.85%",
+        "txt": "11.46%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.17</span>"
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Bank OZK Provides $133M Construction Loan for Culver City, Calif., Mixed-Use Project",
+      "when": "Oct 14",
+      "link": "https://commercialobserver.com/2026/10/bank-ozk-construction-la-lincoln-mccourt/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "CBTS Technology Solutions Takes 4K SF at 1261 Broadway",
+      "when": "Oct 14",
+      "link": "https://commercialobserver.com/2026/10/cbts-technology-solutions-lease-1261-broadway/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Terra Secures $184M Refi for New Tom Brady-Leased Office Near Miami",
       "when": "Oct 14",
       "link": "https://commercialobserver.com/2026/10/terra-well-miami-tom-brady-monroe-bay-harbor-islands/"
@@ -454,18 +466,6 @@
       "title": "The Next Great Workplace Will Be Designed for Attention",
       "when": "Oct 14",
       "link": "https://commercialobserver.com/2026/10/workplace-design-for-attention/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Brooklyn Nets, NY Liberty Holding Company Buys Three Training Facilities in Brooklyn",
-      "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/brooklyn-nets-ny-liberty-buy-training-facilities-brooklyn/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Finance App Lucid Trading Signs 8K-SF Lease at 260 Spring Street",
-      "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/lucid-trading-lease-260-spring-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "68.28",
-      "chg": "-1.12%",
+      "price": "68.38",
+      "chg": "-0.99%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.58",
-      "chg": "-0.62%",
+      "price": "90.50",
+      "chg": "-0.70%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "57.83",
-      "chg": "-3.60%",
+      "price": "57.63",
+      "chg": "-3.93%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "133.06",
-      "chg": "-0.37%",
+      "price": "132.80",
+      "chg": "-0.56%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.81",
-      "chg": "-0.64%",
+      "price": "60.69",
+      "chg": "-0.83%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "198.95",
-      "chg": "-0.85%",
+      "price": "199.08",
+      "chg": "-0.78%",
       "dir": -1
     }
   ],
