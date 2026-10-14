@@ -3,48 +3,48 @@
     "date_line": "Wednesday · Oct 14, 2026",
     "as_of": "Auto-compiled from public sources · Oct 14, 2026",
     "compiled": "Compiled Oct 14, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-14T18:45:02Z"
+    "generated_utc": "2026-10-14T23:19:23Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,703.73",
-      "ch": "-1.30%",
+      "vl": "7,718.94",
+      "ch": "-1.11%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,641",
-      "ch": "-2.07%",
+      "vl": "26,693",
+      "ch": "-1.88%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,461",
-      "ch": "-0.40%",
+      "vl": "51,621",
+      "ch": "-0.09%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "17.02",
-      "ch": "+11.46%",
+      "vl": "16.87",
+      "ch": "+10.48%",
       "dir": 1
     },
     {
       "nm": "10Y UST",
-      "vl": "5.21%",
+      "vl": "5.19%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.79%",
+      "vl": "4.82%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.56%",
+      "vl": "5.52%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 1.30%",
-    "standfirst": "At the last close: S&P 500 7,703.73 (-1.30%); Nasdaq 26,641 (-2.07%); Dow 51,461 (-0.40%). VIX 17.02 (+11.46%).",
+    "headline": "The S&P 500 fell 1.11%",
+    "standfirst": "At the last close: S&P 500 7,718.94 (-1.11%); Nasdaq 26,693 (-1.88%); Dow 51,621 (-0.09%). VIX 16.87 (+10.48%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "PLD led at -0.56%; BXP lagged at -3.93%."
+      "VMRK led at -0.65%; BXP lagged at -3.82%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report after close."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 2:44 PM ET, Oct 14"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 14"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,703.73",
+      "val": "7,718.94",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.30%",
+        "txt": "1.11%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,774.18</span> · <span class=\"up mono\">+15.9%</span> YoY"
+      "note": "Open <span class=\"mono\">7,774.18</span> · <span class=\"up mono\">+15.7%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,641",
+      "val": "26,693",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.07%",
+        "txt": "1.88%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27,032</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,461",
+      "val": "51,621",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.40%",
+        "txt": "0.09%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,685</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.02",
+      "val": "16.87",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "11.46%",
+        "txt": "10.48%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">15.17</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.03%, high-yield at 3.16%",
-    "standfirst": "The high-yield premium over investment grade is 2.13 percentage points. The 2s10s Treasury spread is +42 bps.",
+    "standfirst": "The high-yield premium over investment grade is 2.13 percentage points. The 2s10s Treasury spread is +37 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +42 bps; 3m10y +95 bps; 5s30s +56 bps; 10s30s +35 bps."
+      "Across the curve: 2s10s +37 bps; 3m10y +91 bps; 5s30s +52 bps; 10s30s +33 bps."
     ]
   },
   "credit_tiles": [
@@ -337,14 +337,6 @@
   "headlines": [
     {
       "when": "Oct 14",
-      "title": "How high inflation became a 'fact of life' in the U.S.",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html"
-    },
-    {
-      "when": "Oct 14",
       "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
       "blurb": "",
       "kind": "",
@@ -353,11 +345,27 @@
     },
     {
       "when": "Oct 14",
-      "title": "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty",
+      "title": "Bank of America shares drop after third-quarter revenue miss and regulatory penalty",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html"
+    },
+    {
+      "when": "Oct 14",
+      "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html"
+    },
+    {
+      "when": "Oct 14",
+      "title": "How high inflation became a 'fact of life' in the U.S.",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html"
     },
     {
       "when": "Oct 14",
@@ -374,20 +382,12 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html"
-    },
-    {
-      "when": "Oct 13",
-      "title": "China's exports and imports surge past expectations in September",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.21%, overnight SOFR at 3.89%",
-    "standfirst": "An illustrative agency coupon prices at 6.56–6.86%. The Freddie Mac 30-year survey rate is 7.40%.",
-    "curve_date": "Oct 13, 2026",
+    "headline": "The 10-year at 5.19%, overnight SOFR at 3.89%",
+    "standfirst": "An illustrative agency coupon prices at 6.54–6.84%. The Freddie Mac 30-year survey rate is 7.40%.",
+    "curve_date": "Oct 14, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,14 +398,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "5.21",
+      "val": "5.19",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+42 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+37 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.79",
+      "val": "4.82",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Bank OZK Provides $133M Construction Loan for Culver City, Calif., Mixed-Use Project",
+      "title": "Insurance Is Taking a Bigger Bite Out of Apartment Revenue",
       "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/bank-ozk-construction-la-lincoln-mccourt/"
+      "link": "https://commercialobserver.com/2026/10/insurance-apartment-revenue-cred-iq/"
     },
     {
       "source": "Commercial Observer",
-      "title": "CBTS Technology Solutions Takes 4K SF at 1261 Broadway",
+      "title": "Brooklyn Apartment Leasing Strongest Since 2020 for a September: Report",
       "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/cbts-technology-solutions-lease-1261-broadway/"
+      "link": "https://commercialobserver.com/2026/10/brooklyn-apartment-leasing-september-report/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Terra Secures $184M Refi for New Tom Brady-Leased Office Near Miami",
+      "title": "C-PACE Financing Can Be a Useful Part of a Data Center’s Capital Stack",
       "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/terra-well-miami-tom-brady-monroe-bay-harbor-islands/"
+      "link": "https://commercialobserver.com/2026/10/c-pace-financing-data-centers/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Rithm Capital Closes $375M Securitization of Multifamily Loans",
+      "title": "Japanese Restaurant Udon Shin to Open First NYC Spot at 37 West 17th Street",
       "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/rithm-capital-375m-genesis-securitization-multifamily/"
+      "link": "https://commercialobserver.com/2026/10/udon-shin-lease-restaurant-37-west-17th-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Lake Forest Bank Refis Queens IOS Site With $39M Loan",
+      "title": "Digital Communications Firm Next 15 Signs 6K-SF Lease at 78 Crosby Street",
       "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/lake-forest-bank-queens-industrial-outdoor-storage/"
+      "link": "https://commercialobserver.com/2026/10/next-15-lease-78-crosby-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "The Next Great Workplace Will Be Designed for Attention",
+      "title": "Unframe Shares the Key to Successful AI Integration",
       "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/workplace-design-for-attention/"
+      "link": "https://commercialobserver.com/2026/10/unframe-shares-the-key-to-successful-ai-integration/"
     }
   ],
   "cre_fund_tiles": [
@@ -511,17 +511,17 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.56–6.86",
+      "val": "6.54–6.84",
       "unit": "%",
       "tone": "",
-      "note": "10Y (5.21%) + 135–165 bp agency spread"
+      "note": "10Y (5.19%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+42",
-    "3m10y": "+95",
-    "5s30s": "+56",
-    "10s30s": "+35"
+    "2s10s": "+37",
+    "3m10y": "+91",
+    "5s30s": "+52",
+    "10s30s": "+33"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "68.38",
-      "chg": "-0.99%",
+      "price": "68.54",
+      "chg": "-0.75%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.50",
-      "chg": "-0.70%",
+      "price": "90.35",
+      "chg": "-0.87%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "57.63",
-      "chg": "-3.93%",
+      "price": "57.70",
+      "chg": "-3.82%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "132.80",
-      "chg": "-0.56%",
+      "price": "130.46",
+      "chg": "-2.31%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.69",
-      "chg": "-0.83%",
+      "price": "60.80",
+      "chg": "-0.65%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "199.08",
-      "chg": "-0.78%",
+      "price": "198.70",
+      "chg": "-0.97%",
       "dir": -1
     }
   ],
@@ -651,42 +651,42 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 4.1,
+      "y": 4.11,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.26,
+      "y": 4.28,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.34,
+      "y": 4.37,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.48,
+      "y": 4.53,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.79,
+      "y": 4.82,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.9,
+      "y": 4.92,
       "axis": false,
       "mark": false
     },
@@ -700,35 +700,35 @@
     {
       "t": "7Y",
       "x": 7,
-      "y": 5.11,
+      "y": 5.09,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 5.21,
+      "y": 5.19,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.6,
+      "y": 5.57,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.56,
+      "y": 5.52,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.71
+    "new": 6.69
   },
   "orig": {
     "y2025": 633.7,
