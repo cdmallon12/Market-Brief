@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Tuesday · Oct 13, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 13, 2026",
-    "compiled": "Compiled Oct 13, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-14T02:00:55Z"
+    "date_line": "Wednesday · Oct 14, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 14, 2026",
+    "compiled": "Compiled Oct 14, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-14T13:50:44Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,805.45",
-      "ch": "-0.02%",
+      "vl": "7,786.44",
+      "ch": "-0.24%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "27,204",
-      "ch": "-0.15%",
+      "vl": "27,122",
+      "ch": "-0.30%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,670",
-      "ch": "-0.35%",
-      "dir": -1
+      "vl": "51,853",
+      "ch": "+0.35%",
+      "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "15.27",
-      "ch": "+0.39%",
+      "vl": "15.72",
+      "ch": "+2.95%",
       "dir": 1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.87%",
+      "vl": "3.89%",
       "ch": "",
       "dir": 0
     },
@@ -62,7 +62,7 @@
     },
     {
       "nm": "CPI",
-      "vl": "3.7%",
+      "vl": "4.0%",
       "ch": "",
       "dir": 0
     },
@@ -110,96 +110,96 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 was little changed",
-    "standfirst": "At the last close: S&P 500 7,805.45 (-0.02%); Nasdaq 27,204 (-0.15%); Dow 51,670 (-0.35%). VIX 15.27 (+0.39%).",
+    "headline": "The S&P 500 edged lower 0.24%",
+    "standfirst": "At the last close: S&P 500 7,786.44 (-0.24%); Nasdaq 27,122 (-0.30%); Dow 51,853 (+0.35%). VIX 15.72 (+2.95%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "2 of 6 names on the watchlist closed higher.",
-      "PLD led at +0.82%; KRE lagged at -0.72%."
+      "0 of 6 names on the watchlist closed higher.",
+      "SPG led at -0.37%; KRE lagged at -1.80%."
     ],
-    "card2_title": "Coming up",
+    "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "Tomorrow",
+        "when": "08:30 ET · Today",
         "title": "Consumer Price Index",
         "body": "September CPI, headline and core."
       },
       {
-        "when": "Tomorrow",
+        "when": "Today",
         "title": "BAC earnings",
         "body": "Scheduled to report before open."
       },
       {
-        "when": "Thu · Oct 15",
+        "when": "Tomorrow",
         "title": "Producer Price Index",
         "body": "September PPI."
       },
       {
-        "when": "Thu · Oct 15",
+        "when": "Tomorrow",
         "title": "PLD earnings",
         "body": "Scheduled to report before open."
       },
       {
-        "when": "Thu · Oct 22",
-        "title": "BX earnings",
-        "body": "Scheduled to report before open."
+        "when": "Wed · Oct 21",
+        "title": "META earnings",
+        "body": "Scheduled to report after close."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 13"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 14"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,805.45",
+      "val": "7,786.44",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.02%",
+        "txt": "0.24%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,795.27</span> · <span class=\"up mono\">+17.5%</span> YoY"
+      "note": "Open <span class=\"mono\">7,774.18</span> · <span class=\"up mono\">+17.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "27,204",
+      "val": "27,122",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.15%",
+        "txt": "0.30%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">27,139</span>"
+      "note": "Open <span class=\"mono\">27,032</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,670",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.35%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">52,093</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "15.27",
+      "val": "51,853",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.39%",
+        "txt": "0.35%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">15.61</span>"
+      "note": "Open <span class=\"mono\">51,685</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "15.72",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "2.95%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">15.17</span>"
     }
   ],
   "economy": {
-    "headline": "Policy and prices: the federal funds target at 3.75-4.00%, headline CPI at 3.7% year over year, core PCE at 3.0%",
+    "headline": "Policy and prices: the federal funds target at 3.75-4.00%, headline CPI at 4.0% year over year, core PCE at 3.0%",
     "standfirst": "Real GDP was last reported at 2.2% annualized. The IMF puts world real growth at 3.3%. The next FOMC decision is scheduled for October 28.",
     "body": [
-      "CPI stands at 3.7% and core PCE at 3.0%, against the Federal Reserve's stated 2% objective.",
+      "CPI stands at 4.0% and core PCE at 3.0%, against the Federal Reserve's stated 2% objective.",
       "The target range has been 3.75-4.00% as of the most recent decision."
     ]
   },
@@ -215,8 +215,8 @@
       }
     },
     {
-      "lbl": "CPI Inflation · Aug",
-      "val": "3.7",
+      "lbl": "CPI Inflation · Sep",
+      "val": "4.0",
       "unit": "%",
       "tone": "",
       "note": "Core CPI: <span class=\"mono\">2.8%</span>"
@@ -336,8 +336,40 @@
   },
   "headlines": [
     {
+      "when": "Oct 14",
+      "title": "Consumer prices rose 3.7% annually in September as gas costs skyrocket",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    },
+    {
+      "when": "Oct 14",
+      "title": "Bank of America shares drop 7% after third-quarter revenue miss and regulatory penalty",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html"
+    },
+    {
+      "when": "Oct 14",
+      "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html"
+    },
+    {
+      "when": "Oct 14",
+      "title": "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html"
+    },
+    {
       "when": "Oct 13",
-      "title": "China's exports likely grew by double-digits in September",
+      "title": "China's exports and imports surge past expectations in September",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
@@ -350,42 +382,10 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html"
-    },
-    {
-      "when": "Oct 13",
-      "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html"
-    },
-    {
-      "when": "Oct 13",
-      "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html"
-    },
-    {
-      "when": "Oct 13",
-      "title": "The latest inflation data is expected to show price increases are accelerating",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html"
-    },
-    {
-      "when": "Oct 13",
-      "title": "In charts: How one of the world's biggest economies got trapped by debt",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.21%, overnight SOFR at 3.87%",
+    "headline": "The 10-year at 5.21%, overnight SOFR at 3.89%",
     "standfirst": "An illustrative agency coupon prices at 6.56–6.86%. The Freddie Mac 30-year survey rate is 7.40%.",
     "curve_date": "Oct 13, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.87",
+      "val": "3.89",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -431,6 +431,18 @@
     }
   ],
   "cre_headlines": [
+    {
+      "source": "Commercial Observer",
+      "title": "The Plan: The Metropolitan Museum of Art’s New Modern and Contemporary Wing Goes Big",
+      "when": "Oct 14",
+      "link": "https://commercialobserver.com/2026/10/the-plan-metropolitan-museum-art-tang-wing/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "You Better Hope Suri Kasirer Takes Your Call",
+      "when": "Oct 14",
+      "link": "https://commercialobserver.com/2026/10/suri-kasirer-lobbying-new-york-city-real-estate-nonprofits/"
+    },
     {
       "source": "Commercial Observer",
       "title": "New York Investor Buys Palm Beach County Nursing Home for At Least $24M",
@@ -454,18 +466,6 @@
       "title": "One Street Secures $38M Loan for D.C. Office-to-Condo Conversion",
       "when": "Oct 13",
       "link": "https://commercialobserver.com/2026/10/one-street-dc-office-to-condo-conversion-oaknorth-hickory-cre/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Eyewear Brand Gentle Monster Takes 29K SF at Kushner’s Puck Building",
-      "when": "Oct 13",
-      "link": "https://commercialobserver.com/2026/10/gentle-monster-lease-kushner-puck-building-rei/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Starwood Property Trust Provides $238M Refi on N.C. Life Sciences Campus",
-      "when": "Oct 13",
-      "link": "https://commercialobserver.com/2026/10/starwood-property-trust-238m-refi-north-carolina-life-sciences-campus/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.06",
-      "chg": "-0.72%",
+      "price": "67.82",
+      "chg": "-1.80%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.14",
-      "chg": "-0.24%",
+      "price": "90.46",
+      "chg": "-0.75%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.99",
-      "chg": "+0.74%",
-      "dir": 1
+      "price": "59.10",
+      "chg": "-1.48%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "133.55",
-      "chg": "+0.82%",
-      "dir": 1
+      "price": "132.82",
+      "chg": "-0.55%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.20",
-      "chg": "-0.08%",
+      "price": "60.79",
+      "chg": "-0.67%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "200.65",
-      "chg": "-0.38%",
+      "price": "199.91",
+      "chg": "-0.37%",
       "dir": -1
     }
   ],
