@@ -3,32 +3,32 @@
     "date_line": "Thursday · Oct 15, 2026",
     "as_of": "Auto-compiled from public sources · Oct 15, 2026",
     "compiled": "Compiled Oct 15, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-15T13:50:44Z"
+    "generated_utc": "2026-10-15T17:54:10Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,687.25",
-      "ch": "-0.41%",
-      "dir": -1
+      "vl": "7,741.25",
+      "ch": "+0.29%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,411",
-      "ch": "-1.06%",
+      "vl": "26,677",
+      "ch": "-0.06%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,784",
-      "ch": "+0.32%",
+      "vl": "52,172",
+      "ch": "+1.07%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "17.70",
-      "ch": "+4.92%",
-      "dir": 1
+      "vl": "16.66",
+      "ch": "-1.24%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.03%",
+      "vl": "1.04%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.16%",
+      "vl": "3.25%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.41%",
-    "standfirst": "At the last close: S&P 500 7,687.25 (-0.41%); Nasdaq 26,411 (-1.06%); Dow 51,784 (+0.32%). VIX 17.70 (+4.92%).",
+    "headline": "The S&P 500 edged higher 0.29%",
+    "standfirst": "At the last close: S&P 500 7,741.25 (+0.29%); Nasdaq 26,677 (-0.06%); Dow 52,172 (+1.07%). VIX 16.66 (-1.24%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.66%; PLD lagged at +0.53%."
+      "5 of 6 names on the watchlist closed higher.",
+      "BXP led at +2.97%; PLD lagged at -1.61%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 15"
+    "quote_note": "Quotes ~15-min delayed · as of 1:53 PM ET, Oct 15"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,687.25",
-      "tone": "neg",
+      "val": "7,741.25",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.41%",
+        "dir": 1,
+        "txt": "0.29%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,687.31</span> · <span class=\"up mono\">+15.2%</span> YoY"
+      "note": "Open <span class=\"mono\">7,687.31</span> · <span class=\"up mono\">+16.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,411",
+      "val": "26,677",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.06%",
+        "txt": "0.06%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,381</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,784",
+      "val": "52,172",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.32%",
+        "txt": "1.07%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,858</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.70",
-      "tone": "pos",
+      "val": "16.66",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "4.92%",
+        "dir": -1,
+        "txt": "1.24%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.55</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.03%, high-yield at 3.16%",
-    "standfirst": "The high-yield premium over investment grade is 2.13 percentage points. The 2s10s Treasury spread is +37 bps.",
+    "headline": "Investment-grade OAS at 1.04%, high-yield at 3.25%",
+    "standfirst": "The high-yield premium over investment grade is 2.21 percentage points. The 2s10s Treasury spread is +37 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,7 +296,7 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.03",
+      "val": "1.04",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
@@ -308,27 +308,27 @@
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.16",
+      "val": "3.25",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.05pp",
+        "txt": "+0.09pp",
         "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.13",
+      "val": "2.21",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.03,
-    "hy": 3.16
+    "ig": 1.04,
+    "hy": 3.25
   },
   "news": {
     "headline": "Latest headlines",
@@ -342,6 +342,14 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html"
+    },
+    {
+      "when": "Oct 15",
+      "title": "Economists: Hot PPI shows Fed's work is not done",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html"
     },
     {
       "when": "Oct 15",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/15/uk-gdp-august-2026-economy.html"
-    },
-    {
-      "when": "Oct 14",
-      "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html"
     }
   ],
   "cre": {
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Colorado Federal Bank Lends $23M for Brooklyn Apartments at Former Event Space",
+      "when": "Oct 15",
+      "link": "https://commercialobserver.com/2026/10/colorado-federal-bank-apartments-conversion-wedding-venue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "EQT Real Estate Acquires $16B Alternatives Investment Firm Stockbridge for $375M",
+      "when": "Oct 15",
+      "link": "https://commercialobserver.com/2026/10/eqt-real-estate-acquires-stockbridge-375m/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Sustainability Innovation Equals Improved Building Performance: Forum",
+      "when": "Oct 15",
+      "link": "https://commercialobserver.com/2026/10/sustainability-technology-forum-event/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Entertainment Firm Fifth Season Grabs 5K SF at 115 West 27th Street",
+      "when": "Oct 15",
+      "link": "https://commercialobserver.com/2026/10/fifth-season-lease-115-west-27th-street/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Your Family Lives There. So Why Is New York Imposing a Pied-à-Terre Tax?",
       "when": "Oct 15",
       "link": "https://commercialobserver.com/2026/10/new-york-pied-a-terre-tax-llc-trusts/"
@@ -442,30 +466,6 @@
       "title": "Power Availability Defining Most Coveted Locations in CRE",
       "when": "Oct 15",
       "link": "https://commercialobserver.com/2026/10/ai-data-centers-real-estate-urban-land-institute-heitman/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Get to Know the Broker: Patrick Southern of Serhant",
-      "when": "Oct 15",
-      "link": "https://commercialobserver.com/2026/10/get-to-know-the-broker-patrick-southern-serhant/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Scarcity, Privacy and Authenticity Are Luxury Development’s Calling Cards Now",
-      "when": "Oct 15",
-      "link": "https://commercialobserver.com/2026/10/privacy-luxury-development-brooklyn/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Insurance Is Taking a Bigger Bite Out of Apartment Revenue",
-      "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/insurance-apartment-revenue-cred-iq/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Brooklyn Apartment Leasing Strongest Since 2020 for a September: Report",
-      "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/brooklyn-apartment-leasing-september-report/"
     }
   ],
   "cre_fund_tiles": [
@@ -505,7 +505,7 @@
       "note": "Freddie Mac Primary Mortgage Market Survey",
       "delta": {
         "dir": 0,
-        "txt": "+0.12pp",
+        "txt": "+0.00pp",
         "note": "wk/wk"
       }
     },
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.20",
-      "chg": "+0.97%",
+      "price": "69.61",
+      "chg": "+1.56%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.62",
-      "chg": "+1.41%",
+      "price": "91.48",
+      "chg": "+1.25%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "58.66",
-      "chg": "+1.66%",
+      "price": "59.41",
+      "chg": "+2.97%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "131.16",
-      "chg": "+0.53%",
-      "dir": 1
+      "price": "128.37",
+      "chg": "-1.61%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.55",
-      "chg": "+1.23%",
+      "price": "61.34",
+      "chg": "+0.89%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "201.46",
-      "chg": "+1.39%",
+      "price": "203.09",
+      "chg": "+2.21%",
       "dir": 1
     }
   ],
