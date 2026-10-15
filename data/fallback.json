@@ -3,7 +3,7 @@
     "date_line": "Wednesday · Oct 14, 2026",
     "as_of": "Auto-compiled from public sources · Oct 14, 2026",
     "compiled": "Compiled Oct 14, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-14T23:19:23Z"
+    "generated_utc": "2026-10-15T01:36:06Z"
   },
   "ticker": [
     {
@@ -127,11 +127,6 @@
         "body": "September CPI, headline and core."
       },
       {
-        "when": "Today",
-        "title": "BAC earnings",
-        "body": "Scheduled to report before open."
-      },
-      {
         "when": "Tomorrow",
         "title": "Producer Price Index",
         "body": "September PPI."
@@ -145,6 +140,11 @@
         "when": "Wed · Oct 21",
         "title": "META earnings",
         "body": "Scheduled to report after close."
+      },
+      {
+        "when": "Thu · Oct 22",
+        "title": "BX earnings",
+        "body": "Scheduled to report before open."
       }
     ],
     "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 14"
