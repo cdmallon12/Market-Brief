@@ -3,31 +3,31 @@
     "date_line": "Thursday · Oct 15, 2026",
     "as_of": "Auto-compiled from public sources · Oct 15, 2026",
     "compiled": "Compiled Oct 15, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-15T17:54:10Z"
+    "generated_utc": "2026-10-15T18:24:58Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,741.25",
-      "ch": "+0.29%",
+      "vl": "7,720.08",
+      "ch": "+0.01%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,677",
-      "ch": "-0.06%",
+      "vl": "26,576",
+      "ch": "-0.44%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,172",
-      "ch": "+1.07%",
+      "vl": "52,074",
+      "ch": "+0.88%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "16.66",
-      "ch": "-1.24%",
+      "vl": "16.81",
+      "ch": "-0.36%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.29%",
-    "standfirst": "At the last close: S&P 500 7,741.25 (+0.29%); Nasdaq 26,677 (-0.06%); Dow 52,172 (+1.07%). VIX 16.66 (-1.24%).",
+    "headline": "The S&P 500 was little changed",
+    "standfirst": "At the last close: S&P 500 7,720.08 (+0.01%); Nasdaq 26,576 (-0.44%); Dow 52,074 (+0.88%). VIX 16.81 (-0.36%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "5 of 6 names on the watchlist closed higher.",
-      "BXP led at +2.97%; PLD lagged at -1.61%."
+      "BXP led at +3.08%; PLD lagged at -1.99%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:53 PM ET, Oct 15"
+    "quote_note": "Quotes ~15-min delayed · as of 2:24 PM ET, Oct 15"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,741.25",
+      "val": "7,720.08",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.29%",
+        "txt": "0.01%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,687.31</span> · <span class=\"up mono\">+16.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,687.31</span> · <span class=\"up mono\">+15.7%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,677",
+      "val": "26,576",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.06%",
+        "txt": "0.44%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,381</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,172",
+      "val": "52,074",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.07%",
+        "txt": "0.88%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,858</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.66",
+      "val": "16.81",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.24%",
+        "txt": "0.36%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.55</span>"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.61",
-      "chg": "+1.56%",
+      "price": "69.69",
+      "chg": "+1.67%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.48",
-      "chg": "+1.25%",
+      "price": "91.36",
+      "chg": "+1.12%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.41",
-      "chg": "+2.97%",
+      "price": "59.48",
+      "chg": "+3.08%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.37",
-      "chg": "-1.61%",
+      "price": "127.87",
+      "chg": "-1.99%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.34",
-      "chg": "+0.89%",
+      "price": "61.21",
+      "chg": "+0.67%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "203.09",
-      "chg": "+2.21%",
+      "price": "203.69",
+      "chg": "+2.51%",
       "dir": 1
     }
   ],
