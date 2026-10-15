@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Wednesday · Oct 14, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 14, 2026",
-    "compiled": "Compiled Oct 14, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-15T01:36:06Z"
+    "date_line": "Thursday · Oct 15, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 15, 2026",
+    "compiled": "Compiled Oct 15, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-15T13:33:31Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,718.94",
-      "ch": "-1.11%",
+      "vl": "7,682.27",
+      "ch": "-0.48%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,693",
-      "ch": "-1.88%",
+      "vl": "26,353",
+      "ch": "-1.27%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,621",
-      "ch": "-0.09%",
-      "dir": -1
+      "vl": "51,905",
+      "ch": "+0.55%",
+      "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "16.87",
-      "ch": "+10.48%",
+      "vl": "17.49",
+      "ch": "+3.68%",
       "dir": 1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.89%",
+      "vl": "3.88%",
       "ch": "",
       "dir": 0
     },
@@ -110,29 +110,24 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 1.11%",
-    "standfirst": "At the last close: S&P 500 7,718.94 (-1.11%); Nasdaq 26,693 (-1.88%); Dow 51,621 (-0.09%). VIX 16.87 (+10.48%).",
+    "headline": "The S&P 500 edged lower 0.48%",
+    "standfirst": "At the last close: S&P 500 7,682.27 (-0.48%); Nasdaq 26,353 (-1.27%); Dow 51,905 (+0.55%). VIX 17.49 (+3.68%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "0 of 6 names on the watchlist closed higher.",
-      "VMRK led at -0.65%; BXP lagged at -3.82%."
+      "6 of 6 names on the watchlist closed higher.",
+      "SPG led at +1.83%; KRE lagged at +0.58%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
         "when": "08:30 ET · Today",
-        "title": "Consumer Price Index",
-        "body": "September CPI, headline and core."
-      },
-      {
-        "when": "Tomorrow",
         "title": "Producer Price Index",
         "body": "September PPI."
       },
       {
-        "when": "Tomorrow",
+        "when": "Today",
         "title": "PLD earnings",
         "body": "Scheduled to report before open."
       },
@@ -145,54 +140,59 @@
         "when": "Thu · Oct 22",
         "title": "BX earnings",
         "body": "Scheduled to report before open."
+      },
+      {
+        "when": "Thu · Oct 22",
+        "title": "CBRE earnings",
+        "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 14"
+    "quote_note": "Quotes ~15-min delayed · as of 9:32 AM ET, Oct 15"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,718.94",
+      "val": "7,682.27",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.11%",
+        "txt": "0.48%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,774.18</span> · <span class=\"up mono\">+15.7%</span> YoY"
+      "note": "Open <span class=\"mono\">7,687.31</span> · <span class=\"up mono\">+15.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,693",
+      "val": "26,353",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.88%",
+        "txt": "1.27%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">27,032</span>"
+      "note": "Open <span class=\"mono\">26,381</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,621",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.09%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">51,685</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "16.87",
+      "val": "51,905",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "10.48%",
+        "txt": "0.55%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">15.17</span>"
+      "note": "Open <span class=\"mono\">51,858</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "17.49",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "3.68%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">17.55</span>"
     }
   ],
   "economy": {
@@ -336,56 +336,56 @@
   },
   "headlines": [
     {
+      "when": "Oct 15",
+      "title": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html"
+    },
+    {
+      "when": "Oct 15",
+      "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html"
+    },
+    {
+      "when": "Oct 15",
+      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
+    },
+    {
+      "when": "Oct 15",
+      "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html"
+    },
+    {
+      "when": "Oct 15",
+      "title": "UK economy grew 0.1% in August, beating expectations",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/15/uk-gdp-august-2026-economy.html"
+    },
+    {
       "when": "Oct 14",
       "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html"
-    },
-    {
-      "when": "Oct 14",
-      "title": "Bank of America shares drop after third-quarter revenue miss and regulatory penalty",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html"
-    },
-    {
-      "when": "Oct 14",
-      "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html"
-    },
-    {
-      "when": "Oct 14",
-      "title": "How high inflation became a 'fact of life' in the U.S.",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html"
-    },
-    {
-      "when": "Oct 14",
-      "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
-    },
-    {
-      "when": "Oct 14",
-      "title": "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.19%, overnight SOFR at 3.89%",
+    "headline": "The 10-year at 5.19%, overnight SOFR at 3.88%",
     "standfirst": "An illustrative agency coupon prices at 6.54–6.84%. The Freddie Mac 30-year survey rate is 7.40%.",
     "curve_date": "Oct 14, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.89",
+      "val": "3.88",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Your Family Lives There. So Why Is New York Imposing a Pied-à-Terre Tax?",
+      "when": "Oct 15",
+      "link": "https://commercialobserver.com/2026/10/new-york-pied-a-terre-tax-llc-trusts/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Power Availability Defining Most Coveted Locations in CRE",
+      "when": "Oct 15",
+      "link": "https://commercialobserver.com/2026/10/ai-data-centers-real-estate-urban-land-institute-heitman/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Get to Know the Broker: Patrick Southern of Serhant",
+      "when": "Oct 15",
+      "link": "https://commercialobserver.com/2026/10/get-to-know-the-broker-patrick-southern-serhant/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Scarcity, Privacy and Authenticity Are Luxury Development’s Calling Cards Now",
+      "when": "Oct 15",
+      "link": "https://commercialobserver.com/2026/10/privacy-luxury-development-brooklyn/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Insurance Is Taking a Bigger Bite Out of Apartment Revenue",
       "when": "Oct 14",
       "link": "https://commercialobserver.com/2026/10/insurance-apartment-revenue-cred-iq/"
@@ -442,30 +466,6 @@
       "title": "Brooklyn Apartment Leasing Strongest Since 2020 for a September: Report",
       "when": "Oct 14",
       "link": "https://commercialobserver.com/2026/10/brooklyn-apartment-leasing-september-report/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "C-PACE Financing Can Be a Useful Part of a Data Center’s Capital Stack",
-      "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/c-pace-financing-data-centers/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Japanese Restaurant Udon Shin to Open First NYC Spot at 37 West 17th Street",
-      "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/udon-shin-lease-restaurant-37-west-17th-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Digital Communications Firm Next 15 Signs 6K-SF Lease at 78 Crosby Street",
-      "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/next-15-lease-78-crosby-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Unframe Shares the Key to Successful AI Integration",
-      "when": "Oct 14",
-      "link": "https://commercialobserver.com/2026/10/unframe-shares-the-key-to-successful-ai-integration/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "68.54",
-      "chg": "-0.75%",
-      "dir": -1
+      "price": "68.94",
+      "chg": "+0.58%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.35",
-      "chg": "-0.87%",
-      "dir": -1
+      "price": "91.54",
+      "chg": "+1.32%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "57.70",
-      "chg": "-3.82%",
-      "dir": -1
+      "price": "58.75",
+      "chg": "+1.82%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "130.46",
-      "chg": "-2.31%",
-      "dir": -1
+      "price": "131.94",
+      "chg": "+1.13%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.80",
-      "chg": "-0.65%",
-      "dir": -1
+      "price": "61.61",
+      "chg": "+1.33%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "198.70",
-      "chg": "-0.97%",
-      "dir": -1
+      "price": "202.33",
+      "chg": "+1.83%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
