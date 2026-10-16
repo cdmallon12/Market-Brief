@@ -3,25 +3,25 @@
     "date_line": "Friday · Oct 16, 2026",
     "as_of": "Auto-compiled from public sources · Oct 16, 2026",
     "compiled": "Compiled Oct 16, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-16T17:42:19Z"
+    "generated_utc": "2026-10-16T18:12:39Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,681.96",
-      "ch": "-0.80%",
+      "vl": "7,654.95",
+      "ch": "-1.15%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,258",
-      "ch": "-1.70%",
+      "vl": "26,150",
+      "ch": "-2.11%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,083",
-      "ch": "-0.18%",
+      "vl": "51,938",
+      "ch": "-0.46%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.80%",
-    "standfirst": "At the last close: S&P 500 7,681.96 (-0.80%); Nasdaq 26,258 (-1.70%); Dow 52,083 (-0.18%). VIX 20.73 (+25.94%).",
+    "headline": "The S&P 500 fell 1.15%",
+    "standfirst": "At the last close: S&P 500 7,654.95 (-1.15%); Nasdaq 26,150 (-2.11%); Dow 51,938 (-0.46%). VIX 20.73 (+25.94%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "3 of 6 names on the watchlist closed higher.",
-      "SPG led at +0.69%; PLD lagged at -0.54%."
+      "2 of 6 names on the watchlist closed higher.",
+      "SPG led at +0.60%; PLD lagged at -1.22%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,38 +147,38 @@
         "body": "Q3 ECI. The broadest measure of wage pressure and one the Fed watches closely."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:41 PM ET, Oct 16"
+    "quote_note": "Quotes ~15-min delayed · as of 2:12 PM ET, Oct 16"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,681.96",
+      "val": "7,654.95",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.80%",
+        "txt": "1.15%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,745.32</span> · <span class=\"up mono\">+15.9%</span> YoY"
+      "note": "Open <span class=\"mono\">7,745.32</span> · <span class=\"up mono\">+15.5%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,258",
+      "val": "26,150",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.70%",
+        "txt": "2.11%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,653</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,083",
+      "val": "51,938",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.18%",
+        "txt": "0.46%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,308</span>"
@@ -337,6 +337,22 @@
   "headlines": [
     {
       "when": "Oct 16",
+      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
+    },
+    {
+      "when": "Oct 16",
+      "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html"
+    },
+    {
+      "when": "Oct 16",
       "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
       "blurb": "",
       "kind": "",
@@ -366,22 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/15/harvards-endowment-jumps-27percent-with-spacex-as-top-holding.html"
-    },
-    {
-      "when": "Oct 15",
-      "title": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html"
-    },
-    {
-      "when": "Oct 15",
-      "title": "Economists: Hot PPI shows Fed's work is not done",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html"
     }
   ],
   "cre": {
@@ -606,29 +606,29 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.92",
-      "chg": "+0.24%",
+      "price": "69.78",
+      "chg": "+0.04%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.58",
-      "chg": "+0.15%",
-      "dir": 1
+      "price": "91.43",
+      "chg": "-0.01%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.58",
-      "chg": "-0.18%",
+      "price": "59.34",
+      "chg": "-0.59%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "126.25",
-      "chg": "-0.54%",
+      "price": "125.39",
+      "chg": "-1.22%",
       "dir": -1
     },
     {
@@ -641,8 +641,8 @@
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "204.79",
-      "chg": "+0.69%",
+      "price": "204.60",
+      "chg": "+0.60%",
       "dir": 1
     }
   ],
