@@ -3,7 +3,7 @@
     "date_line": "Thursday · Oct 15, 2026",
     "as_of": "Auto-compiled from public sources · Oct 15, 2026",
     "compiled": "Compiled Oct 15, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-15T23:08:21Z"
+    "generated_utc": "2026-10-16T01:31:30Z"
   },
   "ticker": [
     {
@@ -127,11 +127,6 @@
         "body": "September PPI."
       },
       {
-        "when": "Today",
-        "title": "PLD earnings",
-        "body": "Scheduled to report before open."
-      },
-      {
         "when": "Wed · Oct 21",
         "title": "META earnings",
         "body": "Scheduled to report after close."
@@ -145,6 +140,11 @@
         "when": "Wed · Oct 28",
         "title": "FOMC decision",
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
+      },
+      {
+        "when": "Thu · Oct 29",
+        "title": "GDP (Q3 advance) + Personal Income and Outlays",
+        "body": "First official read on Q3 output, released with September PCE the morning after the FOMC decision."
       }
     ],
     "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 15"
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Oct 15",
+      "title": "People in China are spending nearly as much of their income as Americans on healthcare",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/15/chinese-spending-nearly-as-much-of-income-as-americans-on-healthcare.html"
+    },
+    {
+      "when": "Oct 15",
       "title": "Harvard’s endowment jumps 27% in fiscal 2026, lifted by SpaceX as top holding",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
-    },
-    {
-      "when": "Oct 15",
-      "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html"
     }
   ],
   "cre": {
