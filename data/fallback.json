@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date_line": "Thursday · Oct 15, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 15, 2026",
-    "compiled": "Compiled Oct 15, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-16T01:31:30Z"
+    "date_line": "Friday · Oct 16, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 16, 2026",
+    "compiled": "Compiled Oct 16, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-16T13:22:10Z"
   },
   "ticker": [
     {
@@ -26,8 +26,8 @@
     },
     {
       "nm": "VIX",
-      "vl": "16.46",
-      "ch": "-2.43%",
+      "vl": "15.89",
+      "ch": "-3.46%",
       "dir": -1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.88%",
+      "vl": "3.89%",
       "ch": "",
       "dir": 0
     },
@@ -111,21 +111,16 @@
   ],
   "markets": {
     "headline": "The S&P 500 edged higher 0.33%",
-    "standfirst": "At the last close: S&P 500 7,744.06 (+0.33%); Nasdaq 26,713 (+0.08%); Dow 52,178 (+1.08%). VIX 16.46 (-2.43%).",
+    "standfirst": "At the last close: S&P 500 7,744.06 (+0.33%); Nasdaq 26,713 (+0.08%); Dow 52,178 (+1.08%). VIX 15.89 (-3.46%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "5 of 6 names on the watchlist closed higher.",
       "BXP led at +3.45%; PLD lagged at -2.70%."
     ],
-    "card2_title": "On the calendar today",
+    "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
-      {
-        "when": "08:30 ET · Today",
-        "title": "Producer Price Index",
-        "body": "September PPI."
-      },
       {
         "when": "Wed · Oct 21",
         "title": "META earnings",
@@ -145,9 +140,14 @@
         "when": "Thu · Oct 29",
         "title": "GDP (Q3 advance) + Personal Income and Outlays",
         "body": "First official read on Q3 output, released with September PCE the morning after the FOMC decision."
+      },
+      {
+        "when": "Fri · Oct 30",
+        "title": "Employment Cost Index",
+        "body": "Q3 ECI. The broadest measure of wage pressure and one the Fed watches closely."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 15"
+    "quote_note": "Quotes ~15-min delayed · as of 9:06 AM ET, Oct 16"
   },
   "markets_tiles": [
     {
@@ -159,7 +159,7 @@
         "txt": "0.33%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,687.31</span> · <span class=\"up mono\">+16.8%</span> YoY"
+      "note": "Prior close <span class=\"mono\">7,718.94</span> · <span class=\"up mono\">+16.8%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
@@ -170,7 +170,7 @@
         "txt": "0.08%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">26,381</span>"
+      "note": "Prior close <span class=\"mono\">26,693</span>"
     },
     {
       "lbl": "Dow Jones",
@@ -181,18 +181,18 @@
         "txt": "1.08%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">51,858</span>"
+      "note": "Prior close <span class=\"mono\">51,621</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.46",
+      "val": "15.89",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.43%",
+        "txt": "3.46%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">17.55</span>"
+      "note": "Open <span class=\"mono\">16.02</span>"
     }
   ],
   "economy": {
@@ -385,7 +385,7 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.10%, overnight SOFR at 3.88%",
+    "headline": "The 10-year at 5.10%, overnight SOFR at 3.89%",
     "standfirst": "An illustrative agency coupon prices at 6.45–6.75%. The Freddie Mac 30-year survey rate is 7.40%.",
     "curve_date": "Oct 15, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.88",
+      "val": "3.89",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -431,6 +431,12 @@
     }
   ],
   "cre_headlines": [
+    {
+      "source": "Commercial Observer",
+      "title": "CMBS Loan Backed by Hyatt Regency Waikiki Beach Resort Sent to Special Servicing",
+      "when": "Oct 16",
+      "link": "https://commercialobserver.com/2026/10/cmbs-loan-hyatt-regency-waikiki-beach-resort-special-servicing/"
+    },
     {
       "source": "Commercial Observer",
       "title": "Investment Firm Garnett Station Partners Expands to 35K SF at 450 Park Avenue",
@@ -460,12 +466,6 @@
       "title": "News Outlet Semafor Takes 12K SF at 495 Broadway",
       "when": "Oct 15",
       "link": "https://commercialobserver.com/2026/10/semafor-lease-495-broadway/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "AI Platform Fuel Cycle Takes Office Space at GFP’s 630 Ninth Avenue",
-      "when": "Oct 15",
-      "link": "https://commercialobserver.com/2026/10/fuel-cycle-lease-gfp-630-ninth-avenue/"
     }
   ],
   "cre_fund_tiles": [
