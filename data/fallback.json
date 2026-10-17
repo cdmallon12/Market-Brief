@@ -3,7 +3,7 @@
     "date_line": "Friday · Oct 16, 2026",
     "as_of": "Auto-compiled from public sources · Oct 16, 2026",
     "compiled": "Compiled Oct 16, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-16T22:54:39Z"
+    "generated_utc": "2026-10-17T01:22:59Z"
   },
   "ticker": [
     {
@@ -115,8 +115,8 @@
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "4 of 6 names on the watchlist closed higher.",
-      "SPG led at +1.01%; PLD lagged at -0.94%."
+      "5 of 6 names on the watchlist closed higher.",
+      "SPG led at +3.39%; PLD lagged at -3.61%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -132,19 +132,19 @@
         "body": "BX, CBRE scheduled to report before open."
       },
       {
+        "when": "Tue · Oct 27",
+        "title": "Earnings",
+        "body": "BXP, GOOGL scheduled to report after close."
+      },
+      {
+        "when": "Tue · Oct 27",
+        "title": "UPS earnings",
+        "body": "Scheduled to report before open."
+      },
+      {
         "when": "Wed · Oct 28",
         "title": "FOMC decision",
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
-      },
-      {
-        "when": "Thu · Oct 29",
-        "title": "GDP (Q3 advance) + Personal Income and Outlays",
-        "body": "First official read on Q3 output, released with September PCE the morning after the FOMC decision."
-      },
-      {
-        "when": "Fri · Oct 30",
-        "title": "Employment Cost Index",
-        "body": "Q3 ECI. The broadest measure of wage pressure and one the Fed watches closely."
       }
     ],
     "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 16"
@@ -607,42 +607,42 @@
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
       "price": "69.81",
-      "chg": "+0.09%",
+      "chg": "+1.85%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
       "price": "91.76",
-      "chg": "+0.35%",
+      "chg": "+1.56%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
       "price": "59.20",
-      "chg": "-0.82%",
-      "dir": -1
+      "chg": "+2.60%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
       "price": "125.75",
-      "chg": "-0.94%",
+      "chg": "-3.61%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
       "price": "61.26",
-      "chg": "+0.13%",
+      "chg": "+0.76%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
       "price": "205.44",
-      "chg": "+1.01%",
+      "chg": "+3.39%",
       "dir": 1
     }
   ],
