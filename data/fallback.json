@@ -3,48 +3,48 @@
     "date_line": "Monday · Oct 19, 2026",
     "as_of": "Auto-compiled from public sources · Oct 19, 2026",
     "compiled": "Compiled Oct 19, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-19T19:29:57Z"
+    "generated_utc": "2026-10-19T21:36:52Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,706.65",
-      "ch": "+0.62%",
+      "vl": "7,690.73",
+      "ch": "+0.41%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,495",
-      "ch": "+1.36%",
+      "vl": "26,431",
+      "ch": "+1.11%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,044",
-      "ch": "+0.08%",
-      "dir": 1
+      "vl": "51,966",
+      "ch": "-0.07%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "18.22",
-      "ch": "-8.85%",
+      "vl": "18.44",
+      "ch": "-7.75%",
       "dir": -1
     },
     {
       "nm": "10Y UST",
-      "vl": "5.09%",
+      "vl": "5.15%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.74%",
+      "vl": "4.77%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.43%",
+      "vl": "5.48%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.62%",
-    "standfirst": "At the last close: S&P 500 7,706.65 (+0.62%); Nasdaq 26,495 (+1.36%); Dow 52,044 (+0.08%). VIX 18.22 (-8.85%).",
+    "headline": "The S&P 500 edged higher 0.41%",
+    "standfirst": "At the last close: S&P 500 7,690.73 (+0.41%); Nasdaq 26,431 (+1.11%); Dow 51,966 (-0.07%). VIX 18.44 (-7.75%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "VMRK led at -0.70%; BXP lagged at -2.15%."
+      "VMRK led at -0.65%; BXP lagged at -2.13%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 3:29 PM ET, Oct 19"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 19"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,706.65",
+      "val": "7,690.73",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.62%",
+        "txt": "0.41%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,702.77</span> · <span class=\"up mono\">+14.4%</span> YoY"
+      "note": "Open <span class=\"mono\">7,702.77</span> · <span class=\"up mono\">+14.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,495",
+      "val": "26,431",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.36%",
+        "txt": "1.11%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,395</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,044",
-      "tone": "pos",
+      "val": "51,966",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.08%",
+        "dir": -1,
+        "txt": "0.07%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,979</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "18.22",
+      "val": "18.44",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "8.85%",
+        "txt": "7.75%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">18.37</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.06%, high-yield at 3.31%",
-    "standfirst": "The high-yield premium over investment grade is 2.25 percentage points. The 2s10s Treasury spread is +35 bps.",
+    "standfirst": "The high-yield premium over investment grade is 2.25 percentage points. The 2s10s Treasury spread is +38 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +35 bps; 3m10y +83 bps; 5s30s +54 bps; 10s30s +34 bps."
+      "Across the curve: 2s10s +38 bps; 3m10y +88 bps; 5s30s +54 bps; 10s30s +33 bps."
     ]
   },
   "credit_tiles": [
@@ -385,9 +385,9 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.09%, overnight SOFR at 3.88%",
-    "standfirst": "An illustrative agency coupon prices at 6.44–6.74%. The Freddie Mac 30-year survey rate is 7.40%.",
-    "curve_date": "Oct 16, 2026",
+    "headline": "The 10-year at 5.15%, overnight SOFR at 3.88%",
+    "standfirst": "An illustrative agency coupon prices at 6.50–6.80%. The Freddie Mac 30-year survey rate is 7.40%.",
+    "curve_date": "Oct 19, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,14 +398,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "5.09",
+      "val": "5.15",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+35 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+38 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.74",
+      "val": "4.77",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "A Third of Maturing Multifamily Debt Needs Cash Infusion to Refinance",
+      "when": "Oct 19",
+      "link": "https://commercialobserver.com/2026/10/multifamily-debt-refinances/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Stimdel Properties Files Plans to Build 612 Apartments in Astoria",
+      "when": "Oct 19",
+      "link": "https://commercialobserver.com/2026/10/stimdel-properties-housing-astoria-12-12-33rd-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Southern California Retail Markets Tighten as Tenant Demand Picks Up",
+      "when": "Oct 19",
+      "link": "https://commercialobserver.com/2026/10/california-retail-q3/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Invesco Sells Publix-Anchored Property for $90M After Nearly 35 Years",
+      "when": "Oct 19",
+      "link": "https://commercialobserver.com/2026/10/invesco-publix-boca-raton-urban-edge-properties-woodfield-plaza/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Data Software Firm Databricks Doubles Down With 120K SF at 5 Bryant Park",
+      "when": "Oct 19",
+      "link": "https://commercialobserver.com/2026/10/databricks-lease-expansion-5-bryant-park-savanna/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Charlotte Cafe Opening Fourth Manhattan Shop at Chelsea’s 219 Ninth Avenue",
       "when": "Oct 19",
       "link": "https://commercialobserver.com/2026/10/charlotte-cafe-lease-219-ninth-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Eagle AI Takes 7K-SF Office at 120 Fifth Avenue in Flatiron District",
-      "when": "Oct 19",
-      "link": "https://commercialobserver.com/2026/10/eagle-ai-lease-office-120-fifth-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Susan Ahlheit Promoted to Chief Operating Officer at TSCG as Bob Wordes Retires",
-      "when": "Oct 19",
-      "link": "https://commercialobserver.com/2026/10/susan-ahlheit-david-huntley-promotion-tscg/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "As Investors Pull Back, L.A. Warehouse Users Step In",
-      "when": "Oct 19",
-      "link": "https://commercialobserver.com/2026/10/california-industrial-owner-user/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "S3 Capital Lends $53M for Upper East Side Condo Tower",
-      "when": "Oct 19",
-      "link": "https://commercialobserver.com/2026/10/s3-capital-manhattan-upper-east-side-condos/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Camera Brand Fujifilm Takes 13K SF at 210 Lafayette Street in SoHo",
-      "when": "Oct 19",
-      "link": "https://commercialobserver.com/2026/10/fujifilm-retail-lease-210-lafayette-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -511,17 +511,17 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.44–6.74",
+      "val": "6.50–6.80",
       "unit": "%",
       "tone": "",
-      "note": "10Y (5.09%) + 135–165 bp agency spread"
+      "note": "10Y (5.15%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+35",
-    "3m10y": "+83",
+    "2s10s": "+38",
+    "3m10y": "+88",
     "5s30s": "+54",
-    "10s30s": "+34"
+    "10s30s": "+33"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.28",
-      "chg": "-0.76%",
+      "price": "69.26",
+      "chg": "-0.79%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "90.66",
-      "chg": "-1.20%",
+      "price": "90.71",
+      "chg": "-1.14%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "57.93",
-      "chg": "-2.15%",
+      "price": "57.94",
+      "chg": "-2.13%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "124.38",
-      "chg": "-1.09%",
+      "price": "124.09",
+      "chg": "-1.32%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "60.83",
-      "chg": "-0.70%",
+      "price": "60.86",
+      "chg": "-0.65%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "202.71",
-      "chg": "-1.33%",
+      "price": "202.49",
+      "chg": "-1.44%",
       "dir": -1
     }
   ],
@@ -651,84 +651,84 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 4.12,
+      "y": 4.11,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.26,
+      "y": 4.27,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.34,
+      "y": 4.37,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.46,
+      "y": 4.5,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.74,
+      "y": 4.77,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.82,
+      "y": 4.85,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.89,
+      "y": 4.94,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.98,
+      "y": 5.04,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 5.09,
+      "y": 5.15,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.47,
+      "y": 5.53,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.43,
+      "y": 5.48,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.59
+    "new": 6.65
   },
   "orig": {
     "y2025": 633.7,
