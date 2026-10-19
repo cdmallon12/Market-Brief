@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Friday · Oct 16, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 16, 2026",
-    "compiled": "Compiled Oct 16, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-17T01:22:59Z"
+    "date_line": "Monday · Oct 19, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 19, 2026",
+    "compiled": "Compiled Oct 19, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-19T13:51:19Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,659.44",
-      "ch": "-1.09%",
-      "dir": -1
+      "vl": "7,695.79",
+      "ch": "+0.47%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,140",
-      "ch": "-2.15%",
-      "dir": -1
+      "vl": "26,391",
+      "ch": "+0.96%",
+      "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,002",
-      "ch": "-0.34%",
+      "vl": "51,893",
+      "ch": "-0.21%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "19.99",
-      "ch": "+21.45%",
-      "dir": 1
+      "vl": "18.08",
+      "ch": "-9.55%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.89%",
+      "vl": "3.88%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 1.09%",
-    "standfirst": "At the last close: S&P 500 7,659.44 (-1.09%); Nasdaq 26,140 (-2.15%); Dow 52,002 (-0.34%). VIX 19.99 (+21.45%).",
+    "headline": "The S&P 500 edged higher 0.47%",
+    "standfirst": "At the last close: S&P 500 7,695.79 (+0.47%); Nasdaq 26,391 (+0.96%); Dow 51,893 (-0.21%). VIX 18.08 (-9.55%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "SPG led at +3.39%; PLD lagged at -3.61%."
+      "0 of 6 names on the watchlist closed higher.",
+      "KRE led at -0.34%; BXP lagged at -1.69%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -133,8 +133,8 @@
       },
       {
         "when": "Tue · Oct 27",
-        "title": "Earnings",
-        "body": "BXP, GOOGL scheduled to report after close."
+        "title": "BXP earnings",
+        "body": "Scheduled to report after close."
       },
       {
         "when": "Tue · Oct 27",
@@ -147,52 +147,52 @@
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 16"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 19"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,659.44",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "1.09%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">7,745.32</span> · <span class=\"up mono\">+14.9%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "26,140",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "2.15%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">26,653</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "52,002",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.34%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">52,308</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "19.99",
+      "val": "7,695.79",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "21.45%",
+        "txt": "0.47%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">16.02</span>"
+      "note": "Open <span class=\"mono\">7,702.77</span> · <span class=\"up mono\">+14.3%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "26,391",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.96%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">26,395</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "51,893",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.21%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">51,979</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "18.08",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "9.55%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">18.37</span>"
     }
   ],
   "economy": {
@@ -336,56 +336,56 @@
   },
   "headlines": [
     {
+      "when": "Oct 19",
+      "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html"
+    },
+    {
+      "when": "Oct 19",
+      "title": "Women may be at greater risk of AI job losses. Telephone switch operators and PCs show why.",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html"
+    },
+    {
+      "when": "Oct 19",
+      "title": "India’s finance minister says market liquidity makes it easier for investors to exit",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html"
+    },
+    {
+      "when": "Oct 17",
+      "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html"
+    },
+    {
+      "when": "Oct 17",
+      "title": "'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/17/dead-money-for-a-decade-hedge-fund-approach-that-may-trump-bonds.html"
+    },
+    {
       "when": "Oct 16",
       "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html"
-    },
-    {
-      "when": "Oct 16",
-      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
-    },
-    {
-      "when": "Oct 16",
-      "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html"
-    },
-    {
-      "when": "Oct 16",
-      "title": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
-    },
-    {
-      "when": "Oct 15",
-      "title": "People in China are spending nearly as much of their income as Americans on healthcare",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/15/chinese-spending-nearly-as-much-of-income-as-americans-on-healthcare.html"
-    },
-    {
-      "when": "Oct 15",
-      "title": "Harvard’s endowment jumps 27% in fiscal 2026, lifted by SpaceX as top holding",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/15/harvards-endowment-jumps-27percent-with-spacex-as-top-holding.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.09%, overnight SOFR at 3.89%",
+    "headline": "The 10-year at 5.09%, overnight SOFR at 3.88%",
     "standfirst": "An illustrative agency coupon prices at 6.44–6.74%. The Freddie Mac 30-year survey rate is 7.40%.",
     "curve_date": "Oct 16, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.89",
+      "val": "3.88",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Pearlmark Provides $81M for Apartment Project in Coral Gables",
-      "when": "Oct 16",
-      "link": "https://commercialobserver.com/2026/10/pearlmark-coral-gables-multifamily-empira/"
+      "title": "The New York Housing Court Problem Comes Home to City Hall",
+      "when": "Oct 19",
+      "link": "https://commercialobserver.com/2026/10/new-york-housing-court-reforms-nonpayments/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Citi Provides $210M Refi for Grand Hyatt Resort in Southern California",
-      "when": "Oct 16",
-      "link": "https://commercialobserver.com/2026/10/citi-provides-210m-refi-for-grand-hyatt-resort-in-southern-california/"
+      "title": "A Federal Banking Rule Threatens New York Affordable Housing Investment",
+      "when": "Oct 19",
+      "link": "https://commercialobserver.com/2026/10/federal-banking-rule-tax-credits-affordable-housing/"
     },
     {
       "source": "Commercial Observer",
-      "title": "L.A. Industrial Vacancy Falls for First Time in Two Years",
-      "when": "Oct 16",
-      "link": "https://commercialobserver.com/2026/10/la-industrial-vacancy-rent-leasing-q3/"
+      "title": "Off-Market Office Leases Are on the Rise in a Frenetic Manhattan",
+      "when": "Oct 19",
+      "link": "https://commercialobserver.com/2026/10/off-market-office-leases-manhattan-2026/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Walker & Dunlop Investment Partners Supplies $63M Refi for Illinois Apartments",
-      "when": "Oct 16",
-      "link": "https://commercialobserver.com/2026/10/walker-dunlop-chicago-illinois-apartments/"
+      "title": "Craig Panzirer, Rudin’s Head of Leasing, Leans Into His Hard-Won Reputation",
+      "when": "Oct 19",
+      "link": "https://commercialobserver.com/2026/10/craig-panzirer-rudin-office-leasing/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Skin Care Brand FaceGym to Open New Tribeca Location at 110 Reade Street",
-      "when": "Oct 16",
-      "link": "https://commercialobserver.com/2026/10/facegym-lease-tribeca-110-reade-street/"
+      "title": "Three Labor Unions Back Hochul for Re-Election in November",
+      "when": "Oct 19",
+      "link": "https://commercialobserver.com/2026/10/labor-unions-endorse-kathy-hochul-election-bruce-blakeman/"
     },
     {
       "source": "Commercial Observer",
-      "title": "SMBC Refis Apartments Near Dallas, Philly With $108M Loan",
-      "when": "Oct 16",
-      "link": "https://commercialobserver.com/2026/10/smbc-philadelphia-dallas-apartments/"
+      "title": "Vornado Hires Elisa Young From Brookfield to Lead Manhattan Retail Leasing",
+      "when": "Oct 19",
+      "link": "https://commercialobserver.com/2026/10/vornado-hires-elisa-young-brookfield/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.81",
-      "chg": "+1.85%",
-      "dir": 1
+      "price": "69.58",
+      "chg": "-0.34%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.76",
-      "chg": "+1.56%",
-      "dir": 1
+      "price": "90.91",
+      "chg": "-0.93%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.20",
-      "chg": "+2.60%",
-      "dir": 1
+      "price": "58.20",
+      "chg": "-1.69%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "125.75",
-      "chg": "-3.61%",
+      "price": "123.67",
+      "chg": "-1.65%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.26",
-      "chg": "+0.76%",
-      "dir": 1
+      "price": "60.72",
+      "chg": "-0.88%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.44",
-      "chg": "+3.39%",
-      "dir": 1
+      "price": "203.03",
+      "chg": "-1.17%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
