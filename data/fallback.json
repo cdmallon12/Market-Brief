@@ -3,31 +3,31 @@
     "date_line": "Tuesday · Oct 20, 2026",
     "as_of": "Auto-compiled from public sources · Oct 20, 2026",
     "compiled": "Compiled Oct 20, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-20T18:07:08Z"
+    "generated_utc": "2026-10-20T18:33:38Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,719.68",
-      "ch": "+0.38%",
+      "vl": "7,715.17",
+      "ch": "+0.32%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,476",
-      "ch": "+0.17%",
+      "vl": "26,450",
+      "ch": "+0.07%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,477",
-      "ch": "+0.98%",
+      "vl": "52,464",
+      "ch": "+0.96%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "17.34",
-      "ch": "-5.97%",
+      "vl": "17.30",
+      "ch": "-6.18%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.38%",
-    "standfirst": "At the last close: S&P 500 7,719.68 (+0.38%); Nasdaq 26,476 (+0.17%); Dow 52,477 (+0.98%). VIX 17.34 (-5.97%).",
+    "headline": "The S&P 500 edged higher 0.32%",
+    "standfirst": "At the last close: S&P 500 7,715.17 (+0.32%); Nasdaq 26,450 (+0.07%); Dow 52,464 (+0.96%). VIX 17.30 (-6.18%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "6 of 6 names on the watchlist closed higher.",
-      "PLD led at +2.26%; VMRK lagged at +1.58%."
+      "PLD led at +2.17%; KRE lagged at +1.62%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 2:06 PM ET, Oct 20"
+    "quote_note": "Quotes ~15-min delayed · as of 2:33 PM ET, Oct 20"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,719.68",
+      "val": "7,715.17",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.38%",
+        "txt": "0.32%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,679.01</span> · <span class=\"up mono\">+14.6%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,476",
+      "val": "26,450",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.17%",
+        "txt": "0.07%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,333</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,477",
+      "val": "52,464",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.98%",
+        "txt": "0.96%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,959</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.34",
+      "val": "17.30",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "5.97%",
+        "txt": "6.18%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">18.42</span>"
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Life Sciences Vacancy Near 27% for Three Biggest U.S. Hubs",
+      "when": "Oct 20",
+      "link": "https://commercialobserver.com/2026/10/life-sciences-vacancy-boston-bay-area-san-diego/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "CBRE Acquires Data Center Equipment Provider Onnec Group for $610M",
       "when": "Oct 20",
       "link": "https://commercialobserver.com/2026/10/cbre-acquisition-data-center-onnec-group/"
@@ -460,12 +466,6 @@
       "title": "Blackstone’s 2021 $1.3B CMBS Multifamily Loan Hits Special Servicing",
       "when": "Oct 20",
       "link": "https://commercialobserver.com/2026/10/blackstone-sun-belt-multifamily-cmbs-loan/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "New York Office Tenant Improvement Totals Rise in 2026 Amid Market Shifts",
-      "when": "Oct 20",
-      "link": "https://commercialobserver.com/2026/10/new-york-office-tenant-improvement-allowances-2026/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.42",
-      "chg": "+1.67%",
+      "price": "70.38",
+      "chg": "+1.62%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "92.16",
-      "chg": "+1.59%",
+      "price": "92.25",
+      "chg": "+1.70%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.04",
-      "chg": "+1.90%",
+      "price": "59.01",
+      "chg": "+1.84%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "126.89",
-      "chg": "+2.26%",
+      "price": "126.78",
+      "chg": "+2.17%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.82",
-      "chg": "+1.58%",
+      "price": "62.02",
+      "chg": "+1.90%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.85",
-      "chg": "+1.66%",
+      "price": "205.96",
+      "chg": "+1.71%",
       "dir": 1
     }
   ],
