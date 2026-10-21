@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Oct 21, 2026",
     "as_of": "Auto-compiled from public sources · Oct 21, 2026",
     "compiled": "Compiled Oct 21, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-21T13:58:21Z"
+    "generated_utc": "2026-10-21T18:16:07Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,734.94",
-      "ch": "+0.29%",
+      "vl": "7,767.61",
+      "ch": "+0.71%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,614",
-      "ch": "+0.72%",
+      "vl": "26,752",
+      "ch": "+1.24%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,588",
-      "ch": "+0.18%",
+      "vl": "52,805",
+      "ch": "+0.59%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "16.93",
-      "ch": "-2.20%",
+      "vl": "16.62",
+      "ch": "-3.99%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.29%",
-    "standfirst": "At the last close: S&P 500 7,734.94 (+0.29%); Nasdaq 26,614 (+0.72%); Dow 52,588 (+0.18%). VIX 16.93 (-2.20%).",
+    "headline": "The S&P 500 rose 0.71%",
+    "standfirst": "At the last close: S&P 500 7,767.61 (+0.71%); Nasdaq 26,752 (+1.24%); Dow 52,805 (+0.59%). VIX 16.62 (-3.99%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "4 of 6 names on the watchlist closed higher.",
-      "PLD led at +0.88%; SPG lagged at -0.66%."
+      "2 of 6 names on the watchlist closed higher.",
+      "VMRK led at +0.48%; VNQ lagged at -0.48%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:57 AM ET, Oct 21"
+    "quote_note": "Quotes ~15-min delayed · as of 2:15 PM ET, Oct 21"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,734.94",
+      "val": "7,767.61",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.29%",
+        "txt": "0.71%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,736.43</span> · <span class=\"up mono\">+14.8%</span> YoY"
+      "note": "Open <span class=\"mono\">7,736.43</span> · <span class=\"up mono\">+15.3%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,614",
+      "val": "26,752",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.72%",
+        "txt": "1.24%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,602</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,588",
+      "val": "52,805",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.18%",
+        "txt": "0.59%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,653</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.93",
+      "val": "16.62",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.20%",
+        "txt": "3.99%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.25</span>"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Northwind Group Closes $1B Debt Fund",
+      "title": "Mexican Eatery Casa Carmen to Open Third Manhattan Location",
       "when": "Oct 21",
-      "link": "https://commercialobserver.com/2026/10/northwind-debt-fund-ran-eliasaf/"
+      "link": "https://commercialobserver.com/2026/10/casa-carmen-lease-sage-437-madison-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Infinity Collective Tweaks Plans for Miami Beach Project at Former Shvo Site",
+      "title": "L.A. Multifamily Sales Jump 44%",
       "when": "Oct 21",
-      "link": "https://commercialobserver.com/2026/10/infinity-collective-alton-road-miami-south-beach-shvo/"
+      "link": "https://commercialobserver.com/2026/10/la-multifamily-investment-rent-q3/"
     },
     {
       "source": "Commercial Observer",
-      "title": "The Plan: At Cobble Hill’s 110 Boerum, No Two Floor Plates Are the Same",
+      "title": "Designer Indecor Home Inks 17K-SF Lease at GFP’s 247 West 37th Street",
       "when": "Oct 21",
-      "link": "https://commercialobserver.com/2026/10/the-plan-110-boerum-place/"
+      "link": "https://commercialobserver.com/2026/10/indecor-home-lease-gfp-247-west-37th-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Personal Training Studio LIV Method Takes 12K SF in Meatpacking District",
-      "when": "Oct 20",
-      "link": "https://commercialobserver.com/2026/10/liv-method-lease-2-gansevoort-street/"
+      "title": "Mamdani Nominates Five Leaders in Business and Government to City Planning Commission",
+      "when": "Oct 21",
+      "link": "https://commercialobserver.com/2026/10/mamdani-nominates-julie-stein-meenakshi-srinivasan-city-planning-commission/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Forbright Bank Provides $50M for Southern California R&D Campus",
-      "when": "Oct 20",
-      "link": "https://commercialobserver.com/2026/10/forbright-bank-southern-california-alta-west/"
+      "title": "Snowflake Spa to Open New Location at 619 Ninth Avenue in Hell’s Kitchen",
+      "when": "Oct 21",
+      "link": "https://commercialobserver.com/2026/10/snowflake-spa-lease-619-ninth-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Design Firm Twelve Doubles HQ at Two Trees’ 45 Main Street to 14K SF",
-      "when": "Oct 20",
-      "link": "https://commercialobserver.com/2026/10/twelve-lease-expansion-two-trees-45-main-street/"
+      "title": "Apollo, UDR Partner on $2B Multifamily Joint Venture",
+      "when": "Oct 21",
+      "link": "https://commercialobserver.com/2026/10/apollo-udr-multifamily-joint-venture/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.64",
-      "chg": "+0.04%",
-      "dir": 1
+      "price": "70.48",
+      "chg": "-0.20%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "92.03",
-      "chg": "-0.27%",
+      "price": "91.83",
+      "chg": "-0.48%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.10",
-      "chg": "+0.05%",
-      "dir": 1
+      "price": "58.87",
+      "chg": "-0.34%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.59",
-      "chg": "+0.88%",
+      "price": "128.07",
+      "chg": "+0.47%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.14",
-      "chg": "+0.40%",
+      "price": "62.19",
+      "chg": "+0.48%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "205.63",
-      "chg": "-0.66%",
+      "price": "206.12",
+      "chg": "-0.42%",
       "dir": -1
     }
   ],
