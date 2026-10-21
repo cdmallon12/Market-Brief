@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Tuesday · Oct 20, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 20, 2026",
-    "compiled": "Compiled Oct 20, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-21T01:44:07Z"
+    "date_line": "Wednesday · Oct 21, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 21, 2026",
+    "compiled": "Compiled Oct 21, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-21T13:50:47Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,712.57",
-      "ch": "+0.28%",
+      "vl": "7,736.72",
+      "ch": "+0.31%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,425",
-      "ch": "-0.02%",
-      "dir": -1
+      "vl": "26,614",
+      "ch": "+0.72%",
+      "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,496",
-      "ch": "+1.02%",
+      "vl": "52,599",
+      "ch": "+0.20%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "17.31",
-      "ch": "-6.13%",
+      "vl": "17.04",
+      "ch": "-1.56%",
       "dir": -1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.87%",
+      "vl": "3.88%",
       "ch": "",
       "dir": 0
     },
@@ -110,24 +110,24 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.28%",
-    "standfirst": "At the last close: S&P 500 7,712.57 (+0.28%); Nasdaq 26,425 (-0.02%); Dow 52,496 (+1.02%). VIX 17.31 (-6.13%).",
+    "headline": "The S&P 500 edged higher 0.31%",
+    "standfirst": "At the last close: S&P 500 7,736.72 (+0.31%); Nasdaq 26,614 (+0.72%); Dow 52,599 (+0.20%). VIX 17.04 (-1.56%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "PLD led at +2.72%; VMRK lagged at +1.69%."
+      "4 of 6 names on the watchlist closed higher.",
+      "PLD led at +0.77%; SPG lagged at -0.25%."
     ],
-    "card2_title": "Coming up",
+    "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "Tomorrow",
+        "when": "Today",
         "title": "META earnings",
         "body": "Scheduled to report after close."
       },
       {
-        "when": "Thu · Oct 22",
+        "when": "Tomorrow",
         "title": "Earnings",
         "body": "BX, CBRE scheduled to report before open."
       },
@@ -147,52 +147,52 @@
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 20"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 21"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,712.57",
+      "val": "7,736.72",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.28%",
+        "txt": "0.31%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,679.01</span> · <span class=\"up mono\">+14.5%</span> YoY"
+      "note": "Open <span class=\"mono\">7,736.43</span> · <span class=\"up mono\">+14.9%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,425",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.02%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">26,333</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "52,496",
+      "val": "26,614",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.02%",
+        "txt": "0.72%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">51,959</span>"
+      "note": "Open <span class=\"mono\">26,602</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "52,599",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.20%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">52,653</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.31",
+      "val": "17.04",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "6.13%",
+        "txt": "1.56%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">18.42</span>"
+      "note": "Open <span class=\"mono\">17.25</span>"
     }
   ],
   "economy": {
@@ -336,20 +336,36 @@
   },
   "headlines": [
     {
+      "when": "Oct 21",
+      "title": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html"
+    },
+    {
+      "when": "Oct 21",
+      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+    },
+    {
+      "when": "Oct 21",
+      "title": "UK inflation jumps to 3.5% — cementing rate hike expectations",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+    },
+    {
       "when": "Oct 20",
       "title": "Car buyers are demanding lower prices and better tech. Automakers must deliver both",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html"
-    },
-    {
-      "when": "Oct 20",
-      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
     },
     {
       "when": "Oct 20",
@@ -366,26 +382,10 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html"
-    },
-    {
-      "when": "Oct 19",
-      "title": "Women may be at greater risk of AI job losses. Telephone switch operators and PCs show why",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html"
-    },
-    {
-      "when": "Oct 19",
-      "title": "Anthropic is AI trade's last big hope for a major IPO this year",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.12%, overnight SOFR at 3.87%",
+    "headline": "The 10-year at 5.12%, overnight SOFR at 3.88%",
     "standfirst": "An illustrative agency coupon prices at 6.47–6.77%. The Freddie Mac 30-year survey rate is 7.40%.",
     "curve_date": "Oct 20, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.87",
+      "val": "3.88",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,6 +433,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Northwind Group Closes $1B Debt Fund",
+      "when": "Oct 21",
+      "link": "https://commercialobserver.com/2026/10/northwind-debt-fund-ran-eliasaf/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Infinity Collective Tweaks Plans for Miami Beach Project at Former Shvo Site",
+      "when": "Oct 21",
+      "link": "https://commercialobserver.com/2026/10/infinity-collective-alton-road-miami-south-beach-shvo/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "The Plan: At Cobble Hill’s 110 Boerum, No Two Floor Plates Are the Same",
+      "when": "Oct 21",
+      "link": "https://commercialobserver.com/2026/10/the-plan-110-boerum-place/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Personal Training Studio LIV Method Takes 12K SF in Meatpacking District",
       "when": "Oct 20",
       "link": "https://commercialobserver.com/2026/10/liv-method-lease-2-gansevoort-street/"
@@ -448,24 +466,6 @@
       "title": "Design Firm Twelve Doubles HQ at Two Trees’ 45 Main Street to 14K SF",
       "when": "Oct 20",
       "link": "https://commercialobserver.com/2026/10/twelve-lease-expansion-two-trees-45-main-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "AT&T Renews 7K-SF Lease at Rudin’s 3 Times Square",
-      "when": "Oct 20",
-      "link": "https://commercialobserver.com/2026/10/att-lease-rudin-3-times-square/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Brooklyn Powerhouse Sports to Open 11K-SF Facility in Sunset Park",
-      "when": "Oct 20",
-      "link": "https://commercialobserver.com/2026/10/brooklyn-powerhouse-sports-lease-sunset-park-14-53rd-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Stephen Ross Buys Second Boca Raton Office Property for $64M",
-      "when": "Oct 20",
-      "link": "https://commercialobserver.com/2026/10/related-ross-florida-north-40/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.62",
-      "chg": "+1.96%",
+      "price": "70.65",
+      "chg": "+0.04%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "92.28",
-      "chg": "+1.73%",
-      "dir": 1
+      "price": "92.18",
+      "chg": "-0.11%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.07",
-      "chg": "+1.95%",
+      "price": "59.17",
+      "chg": "+0.18%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "127.47",
-      "chg": "+2.72%",
+      "price": "128.46",
+      "chg": "+0.77%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.89",
-      "chg": "+1.69%",
+      "price": "62.13",
+      "chg": "+0.39%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "206.99",
-      "chg": "+2.22%",
-      "dir": 1
+      "price": "206.48",
+      "chg": "-0.25%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
