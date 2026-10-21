@@ -3,7 +3,7 @@
     "date_line": "Tuesday · Oct 20, 2026",
     "as_of": "Auto-compiled from public sources · Oct 20, 2026",
     "compiled": "Compiled Oct 20, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-20T23:14:54Z"
+    "generated_utc": "2026-10-21T01:44:07Z"
   },
   "ticker": [
     {
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Oct 20",
+      "title": "Car buyers are demanding lower prices and better tech. Automakers must deliver both",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html"
+    },
+    {
+      "when": "Oct 20",
       "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html"
-    },
-    {
-      "when": "Oct 19",
-      "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html"
     }
   ],
   "cre": {
