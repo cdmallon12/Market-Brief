@@ -3,25 +3,25 @@
     "date_line": "Wednesday · Oct 21, 2026",
     "as_of": "Auto-compiled from public sources · Oct 21, 2026",
     "compiled": "Compiled Oct 21, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-21T18:46:40Z"
+    "generated_utc": "2026-10-21T23:28:20Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,766.85",
-      "ch": "+0.70%",
+      "vl": "7,757.17",
+      "ch": "+0.58%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,752",
-      "ch": "+1.24%",
+      "vl": "26,703",
+      "ch": "+1.05%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,823",
-      "ch": "+0.62%",
+      "vl": "52,856",
+      "ch": "+0.69%",
       "dir": 1
     },
     {
@@ -32,13 +32,13 @@
     },
     {
       "nm": "10Y UST",
-      "vl": "5.12%",
+      "vl": "5.13%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.79%",
+      "vl": "4.81%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.70%",
-    "standfirst": "At the last close: S&P 500 7,766.85 (+0.70%); Nasdaq 26,752 (+1.24%); Dow 52,823 (+0.62%). VIX 16.68 (-3.64%).",
+    "headline": "The S&P 500 rose 0.58%",
+    "standfirst": "At the last close: S&P 500 7,757.17 (+0.58%); Nasdaq 26,703 (+1.05%); Dow 52,856 (+0.69%). VIX 16.68 (-3.64%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "2 of 6 names on the watchlist closed higher.",
-      "PLD led at +0.59%; VNQ lagged at -0.45%."
+      "VMRK led at +0.16%; VNQ lagged at -0.86%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,38 +147,38 @@
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 2:46 PM ET, Oct 21"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 21"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,766.85",
+      "val": "7,757.17",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.70%",
+        "txt": "0.58%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,736.43</span> · <span class=\"up mono\">+15.3%</span> YoY"
+      "note": "Open <span class=\"mono\">7,736.43</span> · <span class=\"up mono\">+15.8%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,752",
+      "val": "26,703",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.24%",
+        "txt": "1.05%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,602</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,823",
+      "val": "52,856",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.62%",
+        "txt": "0.69%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,653</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.08%, high-yield at 3.29%",
-    "standfirst": "The high-yield premium over investment grade is 2.21 percentage points. The 2s10s Treasury spread is +33 bps.",
+    "standfirst": "The high-yield premium over investment grade is 2.21 percentage points. The 2s10s Treasury spread is +32 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +33 bps; 3m10y +86 bps; 5s30s +48 bps; 10s30s +30 bps."
+      "Across the curve: 2s10s +32 bps; 3m10y +88 bps; 5s30s +47 bps; 10s30s +29 bps."
     ]
   },
   "credit_tiles": [
@@ -385,9 +385,9 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.12%, overnight SOFR at 3.88%",
-    "standfirst": "An illustrative agency coupon prices at 6.47–6.77%. The Freddie Mac 30-year survey rate is 7.40%.",
-    "curve_date": "Oct 20, 2026",
+    "headline": "The 10-year at 5.13%, overnight SOFR at 3.88%",
+    "standfirst": "An illustrative agency coupon prices at 6.48–6.78%. The Freddie Mac 30-year survey rate is 7.40%.",
+    "curve_date": "Oct 21, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,14 +398,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "5.12",
+      "val": "5.13",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+33 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+32 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.79",
+      "val": "4.81",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Genting Lands $500M to Refi Mixed-Use Omni Center in Miami",
+      "when": "Oct 21",
+      "link": "https://commercialobserver.com/2026/10/genting-miami-omni-center-wells-fargo/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Ken Griffin Seals $3.3B Construction Loan for Manhattan Office Tower",
+      "when": "Oct 21",
+      "link": "https://commercialobserver.com/2026/10/ken-griffin-citadel-350-park-manhattan/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Canadian Investor Buys Two Hotels in Palm Beach County for More Than $48M",
       "when": "Oct 21",
       "link": "https://commercialobserver.com/2026/10/brasswater-hampton-inns-west-palm-beach-boynton-beach-hospitality/"
@@ -454,18 +466,6 @@
       "title": "Designer Indecor Home Inks 17K-SF Lease at GFP’s 247 West 37th Street",
       "when": "Oct 21",
       "link": "https://commercialobserver.com/2026/10/indecor-home-lease-gfp-247-west-37th-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Mamdani Nominates Five Leaders in Business and Government to City Planning Commission",
-      "when": "Oct 21",
-      "link": "https://commercialobserver.com/2026/10/mamdani-nominates-julie-stein-meenakshi-srinivasan-city-planning-commission/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Snowflake Spa to Open New Location at 619 Ninth Avenue in Hell’s Kitchen",
-      "when": "Oct 21",
-      "link": "https://commercialobserver.com/2026/10/snowflake-spa-lease-619-ninth-avenue/"
     }
   ],
   "cre_fund_tiles": [
@@ -511,17 +511,17 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.47–6.77",
+      "val": "6.48–6.78",
       "unit": "%",
       "tone": "",
-      "note": "10Y (5.12%) + 135–165 bp agency spread"
+      "note": "10Y (5.13%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+33",
-    "3m10y": "+86",
-    "5s30s": "+48",
-    "10s30s": "+30"
+    "2s10s": "+32",
+    "3m10y": "+88",
+    "5s30s": "+47",
+    "10s30s": "+29"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.55",
-      "chg": "-0.10%",
+      "price": "70.62",
+      "chg": "-0.00%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.86",
-      "chg": "-0.45%",
+      "price": "91.49",
+      "chg": "-0.86%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "58.93",
-      "chg": "-0.24%",
+      "price": "58.64",
+      "chg": "-0.73%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.22",
-      "chg": "+0.59%",
+      "price": "127.60",
+      "chg": "+0.10%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.16",
-      "chg": "+0.44%",
+      "price": "61.99",
+      "chg": "+0.16%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "206.31",
-      "chg": "-0.33%",
+      "price": "205.55",
+      "chg": "-0.70%",
       "dir": -1
     }
   ],
@@ -651,63 +651,63 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 4.1,
+      "y": 4.09,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.26,
+      "y": 4.25,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.36,
+      "y": 4.35,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.51,
+      "y": 4.52,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.79,
+      "y": 4.81,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.86,
+      "y": 4.89,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.94,
+      "y": 4.95,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 5.02,
+      "y": 5.03,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 5.12,
+      "y": 5.13,
       "axis": true,
       "mark": true
     },
@@ -728,7 +728,7 @@
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.62
+    "new": 6.63
   },
   "orig": {
     "y2025": 633.7,
