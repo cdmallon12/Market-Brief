@@ -3,13 +3,13 @@
     "date_line": "Wednesday · Oct 21, 2026",
     "as_of": "Auto-compiled from public sources · Oct 21, 2026",
     "compiled": "Compiled Oct 21, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-21T13:50:47Z"
+    "generated_utc": "2026-10-21T13:58:21Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,736.72",
-      "ch": "+0.31%",
+      "vl": "7,734.94",
+      "ch": "+0.29%",
       "dir": 1
     },
     {
@@ -20,14 +20,14 @@
     },
     {
       "nm": "Dow",
-      "vl": "52,599",
-      "ch": "+0.20%",
+      "vl": "52,588",
+      "ch": "+0.18%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "17.04",
-      "ch": "-1.56%",
+      "vl": "16.93",
+      "ch": "-2.20%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.31%",
-    "standfirst": "At the last close: S&P 500 7,736.72 (+0.31%); Nasdaq 26,614 (+0.72%); Dow 52,599 (+0.20%). VIX 17.04 (-1.56%).",
+    "headline": "The S&P 500 edged higher 0.29%",
+    "standfirst": "At the last close: S&P 500 7,734.94 (+0.29%); Nasdaq 26,614 (+0.72%); Dow 52,588 (+0.18%). VIX 16.93 (-2.20%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "4 of 6 names on the watchlist closed higher.",
-      "PLD led at +0.77%; SPG lagged at -0.25%."
+      "PLD led at +0.88%; SPG lagged at -0.66%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,19 +147,19 @@
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 21"
+    "quote_note": "Quotes ~15-min delayed · as of 9:57 AM ET, Oct 21"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,736.72",
+      "val": "7,734.94",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.31%",
+        "txt": "0.29%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,736.43</span> · <span class=\"up mono\">+14.9%</span> YoY"
+      "note": "Open <span class=\"mono\">7,736.43</span> · <span class=\"up mono\">+14.8%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
@@ -174,22 +174,22 @@
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,599",
+      "val": "52,588",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.20%",
+        "txt": "0.18%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,653</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.04",
+      "val": "16.93",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.56%",
+        "txt": "2.20%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.25</span>"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.65",
+      "price": "70.64",
       "chg": "+0.04%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "92.18",
-      "chg": "-0.11%",
+      "price": "92.03",
+      "chg": "-0.27%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.17",
-      "chg": "+0.18%",
+      "price": "59.10",
+      "chg": "+0.05%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.46",
-      "chg": "+0.77%",
+      "price": "128.59",
+      "chg": "+0.88%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.13",
-      "chg": "+0.39%",
+      "price": "62.14",
+      "chg": "+0.40%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "206.48",
-      "chg": "-0.25%",
+      "price": "205.63",
+      "chg": "-0.66%",
       "dir": -1
     }
   ],
