@@ -3,13 +3,13 @@
     "date_line": "Wednesday · Oct 21, 2026",
     "as_of": "Auto-compiled from public sources · Oct 21, 2026",
     "compiled": "Compiled Oct 21, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-21T18:16:07Z"
+    "generated_utc": "2026-10-21T18:46:40Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,767.61",
-      "ch": "+0.71%",
+      "vl": "7,766.85",
+      "ch": "+0.70%",
       "dir": 1
     },
     {
@@ -20,14 +20,14 @@
     },
     {
       "nm": "Dow",
-      "vl": "52,805",
-      "ch": "+0.59%",
+      "vl": "52,823",
+      "ch": "+0.62%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "16.62",
-      "ch": "-3.99%",
+      "vl": "16.68",
+      "ch": "-3.64%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.71%",
-    "standfirst": "At the last close: S&P 500 7,767.61 (+0.71%); Nasdaq 26,752 (+1.24%); Dow 52,805 (+0.59%). VIX 16.62 (-3.99%).",
+    "headline": "The S&P 500 rose 0.70%",
+    "standfirst": "At the last close: S&P 500 7,766.85 (+0.70%); Nasdaq 26,752 (+1.24%); Dow 52,823 (+0.62%). VIX 16.68 (-3.64%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "2 of 6 names on the watchlist closed higher.",
-      "VMRK led at +0.48%; VNQ lagged at -0.48%."
+      "PLD led at +0.59%; VNQ lagged at -0.45%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,16 +147,16 @@
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 2:15 PM ET, Oct 21"
+    "quote_note": "Quotes ~15-min delayed · as of 2:46 PM ET, Oct 21"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,767.61",
+      "val": "7,766.85",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.71%",
+        "txt": "0.70%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,736.43</span> · <span class=\"up mono\">+15.3%</span> YoY"
@@ -174,22 +174,22 @@
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,805",
+      "val": "52,823",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.59%",
+        "txt": "0.62%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,653</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.62",
+      "val": "16.68",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "3.99%",
+        "txt": "3.64%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.25</span>"
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Canadian Investor Buys Two Hotels in Palm Beach County for More Than $48M",
+      "when": "Oct 21",
+      "link": "https://commercialobserver.com/2026/10/brasswater-hampton-inns-west-palm-beach-boynton-beach-hospitality/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Mexican Eatery Casa Carmen to Open Third Manhattan Location",
       "when": "Oct 21",
       "link": "https://commercialobserver.com/2026/10/casa-carmen-lease-sage-437-madison-avenue/"
@@ -460,12 +466,6 @@
       "title": "Snowflake Spa to Open New Location at 619 Ninth Avenue in Hell’s Kitchen",
       "when": "Oct 21",
       "link": "https://commercialobserver.com/2026/10/snowflake-spa-lease-619-ninth-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Apollo, UDR Partner on $2B Multifamily Joint Venture",
-      "when": "Oct 21",
-      "link": "https://commercialobserver.com/2026/10/apollo-udr-multifamily-joint-venture/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.48",
-      "chg": "-0.20%",
+      "price": "70.55",
+      "chg": "-0.10%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.83",
-      "chg": "-0.48%",
+      "price": "91.86",
+      "chg": "-0.45%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "58.87",
-      "chg": "-0.34%",
+      "price": "58.93",
+      "chg": "-0.24%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.07",
-      "chg": "+0.47%",
+      "price": "128.22",
+      "chg": "+0.59%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.19",
-      "chg": "+0.48%",
+      "price": "62.16",
+      "chg": "+0.44%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "206.12",
-      "chg": "-0.42%",
+      "price": "206.31",
+      "chg": "-0.33%",
       "dir": -1
     }
   ],
