@@ -3,31 +3,31 @@
     "date_line": "Thursday · Oct 22, 2026",
     "as_of": "Auto-compiled from public sources · Oct 22, 2026",
     "compiled": "Compiled Oct 22, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-22T13:56:30Z"
+    "generated_utc": "2026-10-22T18:10:36Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,690.76",
-      "ch": "-0.86%",
+      "vl": "7,649.28",
+      "ch": "-1.39%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,292",
-      "ch": "-1.54%",
+      "vl": "25,992",
+      "ch": "-2.66%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,775",
-      "ch": "-0.15%",
+      "vl": "52,757",
+      "ch": "-0.19%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "17.83",
-      "ch": "+6.89%",
+      "vl": "19.15",
+      "ch": "+14.81%",
       "dir": 1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.08%",
+      "vl": "1.09%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.33%",
+      "vl": "3.27%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.86%",
-    "standfirst": "At the last close: S&P 500 7,690.76 (-0.86%); Nasdaq 26,292 (-1.54%); Dow 52,775 (-0.15%). VIX 17.83 (+6.89%).",
+    "headline": "The S&P 500 fell 1.39%",
+    "standfirst": "At the last close: S&P 500 7,649.28 (-1.39%); Nasdaq 25,992 (-2.66%); Dow 52,757 (-0.19%). VIX 19.15 (+14.81%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "KRE led at +1.34%; PLD lagged at +0.07%."
+      "5 of 6 names on the watchlist closed higher.",
+      "BXP led at +3.25%; PLD lagged at -1.48%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "FDX, GOOGL, MSFT scheduled to report after close."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:56 AM ET, Oct 22"
+    "quote_note": "Quotes ~15-min delayed · as of 2:10 PM ET, Oct 22"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,690.76",
+      "val": "7,649.28",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.86%",
+        "txt": "1.39%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,694.62</span> · <span class=\"up mono\">+14.8%</span> YoY"
+      "note": "Open <span class=\"mono\">7,694.62</span> · <span class=\"up mono\">+14.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,292",
+      "val": "25,992",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.54%",
+        "txt": "2.66%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,308</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,775",
+      "val": "52,757",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.15%",
+        "txt": "0.19%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,788</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.83",
+      "val": "19.15",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "6.89%",
+        "txt": "14.81%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">18.29</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.08%, high-yield at 3.33%",
-    "standfirst": "The high-yield premium over investment grade is 2.25 percentage points. The 2s10s Treasury spread is +32 bps.",
+    "headline": "Investment-grade OAS at 1.09%, high-yield at 3.27%",
+    "standfirst": "The high-yield premium over investment grade is 2.18 percentage points. The 2s10s Treasury spread is +32 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,39 +296,39 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.08",
+      "val": "1.09",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.00pp",
-        "note": "flat"
+        "txt": "+0.01pp",
+        "note": "wider"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.33",
+      "val": "3.27",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.04pp",
-        "note": "wider"
+        "txt": "-0.06pp",
+        "note": "tighter"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.25",
+      "val": "2.18",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.08,
-    "hy": 3.33
+    "ig": 1.09,
+    "hy": 3.27
   },
   "news": {
     "headline": "Latest headlines",
@@ -386,7 +386,7 @@
   ],
   "cre": {
     "headline": "The 10-year at 5.13%, overnight SOFR at 3.88%",
-    "standfirst": "An illustrative agency coupon prices at 6.48–6.78%. The Freddie Mac 30-year survey rate is 7.40%.",
+    "standfirst": "An illustrative agency coupon prices at 6.48–6.78%. The Freddie Mac 30-year survey rate is 7.32%.",
     "curve_date": "Oct 21, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Nonprofit Pursuit Transformation Inks 41K-SF Lease at LIC’s the Jacx",
+      "when": "Oct 22",
+      "link": "https://commercialobserver.com/2026/10/pursuit-transformation-lease-lic-jacx/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Tishman Speyer, Bouwinvest Launch New U.S. Office Properties Fund",
+      "when": "Oct 22",
+      "link": "https://commercialobserver.com/2026/10/tishman-speyer-bouwinvest-us-office-fund/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "CBRE’s Q3 Earnings Top Estimates but Leasing Lags Behind",
+      "when": "Oct 22",
+      "link": "https://commercialobserver.com/2026/10/cbre-q3-earnings-leasing/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Affinius Capital Lends $98M for D.C. Multifamily Refi",
+      "when": "Oct 22",
+      "link": "https://commercialobserver.com/2026/10/affinius-dc-multifamily-refi-quadrangle-wilkes/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Blackstone’s Q3 Profits Dip Amid Interest Rate Headwinds",
+      "when": "Oct 22",
+      "link": "https://commercialobserver.com/2026/10/blackstone-earnings-third-quarter/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Real Estate Tech Startup MARC Raises $5M Seed Round",
       "when": "Oct 22",
       "link": "https://commercialobserver.com/2026/10/marc-seed-round/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Get to Know the Broker: Joshua Young of Brown Harris Stevens",
-      "when": "Oct 22",
-      "link": "https://commercialobserver.com/2026/10/get-to-know-the-broker-joshua-young-brown-harris-stevens/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Manhattan Investment Sales Dip but Remain Ahead of 2025: Report",
-      "when": "Oct 22",
-      "link": "https://commercialobserver.com/2026/10/manhattan-investment-sales-third-quarter/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Four Signals From the New York City Market That Matter More Than a Headline",
-      "when": "Oct 22",
-      "link": "https://commercialobserver.com/2026/10/new-york-city-residential-market-sales/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Genting Lands $500M to Refi Mixed-Use Omni Center in Miami",
-      "when": "Oct 21",
-      "link": "https://commercialobserver.com/2026/10/genting-miami-omni-center-wells-fargo/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Ken Griffin Seals $3.3B Construction Loan for Manhattan Office Tower",
-      "when": "Oct 21",
-      "link": "https://commercialobserver.com/2026/10/ken-griffin-citadel-350-park-manhattan/"
     }
   ],
   "cre_fund_tiles": [
@@ -499,13 +499,13 @@
   "cre_fin_tiles": [
     {
       "lbl": "30-Yr Mortgage · PMMS",
-      "val": "7.40",
+      "val": "7.32",
       "unit": "%",
       "tone": "",
       "note": "Freddie Mac Primary Mortgage Market Survey",
       "delta": {
         "dir": 0,
-        "txt": "+0.00pp",
+        "txt": "-0.08pp",
         "note": "wk/wk"
       }
     },
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "71.56",
-      "chg": "+1.34%",
+      "price": "72.22",
+      "chg": "+2.26%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.93",
-      "chg": "+0.48%",
+      "price": "92.21",
+      "chg": "+0.79%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "59.37",
-      "chg": "+1.24%",
+      "price": "60.55",
+      "chg": "+3.25%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "127.69",
-      "chg": "+0.07%",
-      "dir": 1
+      "price": "125.72",
+      "chg": "-1.48%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.77",
-      "chg": "+1.26%",
+      "price": "63.43",
+      "chg": "+2.32%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "207.73",
-      "chg": "+1.06%",
+      "price": "211.15",
+      "chg": "+2.72%",
       "dir": 1
     }
   ],
