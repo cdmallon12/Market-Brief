@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Thursday · Oct 22, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 22, 2026",
-    "compiled": "Compiled Oct 22, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-22T23:28:17Z"
+    "date_line": "Friday · Oct 23, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 23, 2026",
+    "compiled": "Compiled Oct 23, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-23T13:37:57Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,663.43",
-      "ch": "-1.21%",
+      "vl": "7,615.92",
+      "ch": "-0.62%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,009",
-      "ch": "-2.60%",
+      "vl": "25,867",
+      "ch": "-0.54%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,868",
-      "ch": "+0.02%",
-      "dir": 1
+      "vl": "52,337",
+      "ch": "-1.00%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "19.03",
-      "ch": "+14.09%",
+      "vl": "20.06",
+      "ch": "+5.41%",
       "dir": 1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.88%",
+      "vl": "3.90%",
       "ch": "",
       "dir": 0
     },
@@ -98,34 +98,29 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.09%",
+      "vl": "1.11%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.27%",
+      "vl": "3.40%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 1.21%",
-    "standfirst": "At the last close: S&P 500 7,663.43 (-1.21%); Nasdaq 26,009 (-2.60%); Dow 52,868 (+0.02%). VIX 19.03 (+14.09%).",
+    "headline": "The S&P 500 fell 0.62%",
+    "standfirst": "At the last close: S&P 500 7,615.92 (-0.62%); Nasdaq 25,867 (-0.54%); Dow 52,337 (-1.00%). VIX 20.06 (+5.41%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "BXP led at +4.86%; PLD lagged at -0.74%."
+      "6 of 6 names on the watchlist closed higher.",
+      "BXP led at +0.75%; VMRK lagged at +0.01%."
     ],
-    "card2_title": "On the calendar today",
+    "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
-      {
-        "when": "Today",
-        "title": "Earnings",
-        "body": "BX, CBRE scheduled to report before open."
-      },
       {
         "when": "Tue · Oct 27",
         "title": "BXP earnings",
@@ -145,54 +140,59 @@
         "when": "Wed · Oct 28",
         "title": "Earnings",
         "body": "FDX, GOOGL, MSFT scheduled to report after close."
+      },
+      {
+        "when": "Wed · Oct 28",
+        "title": "JLL earnings",
+        "body": "Scheduled to report before open."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 22"
+    "quote_note": "Quotes ~15-min delayed · as of 9:37 AM ET, Oct 23"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,663.43",
+      "val": "7,615.92",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.21%",
+        "txt": "0.62%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,694.62</span> · <span class=\"up mono\">+13.7%</span> YoY"
+      "note": "Open <span class=\"mono\">7,637.18</span> · <span class=\"up mono\">+13.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,009",
+      "val": "25,867",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.60%",
+        "txt": "0.54%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">26,308</span>"
+      "note": "Open <span class=\"mono\">25,894</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,868",
-      "tone": "pos",
+      "val": "52,337",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.02%",
+        "dir": -1,
+        "txt": "1.00%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">52,788</span>"
+      "note": "Open <span class=\"mono\">52,697</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "19.03",
+      "val": "20.06",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "14.09%",
+        "txt": "5.41%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">18.29</span>"
+      "note": "Open <span class=\"mono\">19.18</span>"
     }
   ],
   "economy": {
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.09%, high-yield at 3.27%",
-    "standfirst": "The high-yield premium over investment grade is 2.18 percentage points. The 2s10s Treasury spread is +31 bps.",
+    "headline": "Investment-grade OAS at 1.11%, high-yield at 3.40%",
+    "standfirst": "The high-yield premium over investment grade is 2.29 percentage points. The 2s10s Treasury spread is +31 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,39 +296,39 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.09",
+      "val": "1.11",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.01pp",
+        "txt": "+0.02pp",
         "note": "wider"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.27",
+      "val": "3.40",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "-0.06pp",
-        "note": "tighter"
+        "txt": "+0.13pp",
+        "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.18",
+      "val": "2.29",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.09,
-    "hy": 3.27
+    "ig": 1.11,
+    "hy": 3.4
   },
   "news": {
     "headline": "Latest headlines",
@@ -385,7 +385,7 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.96%, overnight SOFR at 3.88%",
+    "headline": "The 10-year at 4.96%, overnight SOFR at 3.90%",
     "standfirst": "An illustrative agency coupon prices at 6.31–6.61%. The Freddie Mac 30-year survey rate is 7.32%.",
     "curve_date": "Oct 22, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.88",
+      "val": "3.90",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.41",
-      "chg": "+2.53%",
+      "price": "72.58",
+      "chg": "+0.23%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "92.65",
-      "chg": "+1.27%",
+      "price": "93.31",
+      "chg": "+0.71%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "61.49",
-      "chg": "+4.86%",
+      "price": "61.95",
+      "chg": "+0.75%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "126.66",
-      "chg": "-0.74%",
-      "dir": -1
+      "price": "127.36",
+      "chg": "+0.55%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.57",
-      "chg": "+2.55%",
+      "price": "63.58",
+      "chg": "+0.01%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "212.04",
-      "chg": "+3.16%",
+      "price": "212.88",
+      "chg": "+0.40%",
       "dir": 1
     }
   ],
