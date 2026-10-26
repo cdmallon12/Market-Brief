@@ -3,31 +3,31 @@
     "date_line": "Monday · Oct 26, 2026",
     "as_of": "Auto-compiled from public sources · Oct 26, 2026",
     "compiled": "Compiled Oct 26, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-26T19:34:54Z"
+    "generated_utc": "2026-10-26T21:42:13Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,682.03",
-      "ch": "+0.77%",
+      "vl": "7,676.77",
+      "ch": "+0.70%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,205",
-      "ch": "+0.96%",
+      "vl": "26,169",
+      "ch": "+0.82%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,347",
-      "ch": "+0.25%",
+      "vl": "52,362",
+      "ch": "+0.28%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "18.34",
-      "ch": "-5.71%",
+      "vl": "18.39",
+      "ch": "-5.45%",
       "dir": -1
     },
     {
@@ -38,13 +38,13 @@
     },
     {
       "nm": "2Y UST",
-      "vl": "4.69%",
+      "vl": "4.68%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.33%",
+      "vl": "5.31%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.77%",
-    "standfirst": "At the last close: S&P 500 7,682.03 (+0.77%); Nasdaq 26,205 (+0.96%); Dow 52,347 (+0.25%). VIX 18.34 (-5.71%).",
+    "headline": "The S&P 500 rose 0.70%",
+    "standfirst": "At the last close: S&P 500 7,676.77 (+0.70%); Nasdaq 26,169 (+0.82%); Dow 52,362 (+0.28%). VIX 18.39 (-5.45%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "4 of 6 names on the watchlist closed higher.",
-      "SPG led at +0.83%; PLD lagged at -0.15%."
+      "VNQ led at +0.52%; VMRK lagged at -0.40%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report after close."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 3:34 PM ET, Oct 26"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 26"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,682.03",
+      "val": "7,676.77",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.77%",
+        "txt": "0.70%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,639.70</span> · <span class=\"up mono\">+11.7%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,205",
+      "val": "26,169",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.96%",
+        "txt": "0.82%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,027</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,347",
+      "val": "52,362",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.25%",
+        "txt": "0.28%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,320</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "18.34",
+      "val": "18.39",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "5.71%",
+        "txt": "5.45%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">19.66</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.13%, high-yield at 3.38%",
-    "standfirst": "The high-yield premium over investment grade is 2.25 percentage points. The 2s10s Treasury spread is +31 bps.",
+    "standfirst": "The high-yield premium over investment grade is 2.25 percentage points. The 2s10s Treasury spread is +32 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +31 bps; 3m10y +78 bps; 5s30s +51 bps; 10s30s +33 bps."
+      "Across the curve: 2s10s +32 bps; 3m10y +78 bps; 5s30s +47 bps; 10s30s +31 bps."
     ]
   },
   "credit_tiles": [
@@ -387,7 +387,7 @@
   "cre": {
     "headline": "The 10-year at 5.00%, overnight SOFR at 3.92%",
     "standfirst": "An illustrative agency coupon prices at 6.35–6.65%. The Freddie Mac 30-year survey rate is 7.32%.",
-    "curve_date": "Oct 23, 2026",
+    "curve_date": "Oct 26, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -401,11 +401,11 @@
       "val": "5.00",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+31 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+32 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.69",
+      "val": "4.68",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,6 +433,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Madison Realty Lends $463M for First St. Regis Condo in Sunny Isles, Fla.",
+      "when": "Oct 26",
+      "link": "https://commercialobserver.com/2026/10/madison-realty-st-regis-condo-sunny-isles-fortune-international-chateau/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Shorenstein Signs 78K SF in Office Leases at Repositioned D.C. Building",
+      "when": "Oct 26",
+      "link": "https://commercialobserver.com/2026/10/shorenstein-signs-78k-sf-in-office-leases-at-repositioned-d-c-building/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Octagon Lends $48M on Missouri Office-to-Resi Conversion of Former 7Up HQ",
+      "when": "Oct 26",
+      "link": "https://commercialobserver.com/2026/10/octagon-7up-former-headquarters-clayton-missouri/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "AI Firm Minerva Doubles Office Footprint at the Refinery at Domino",
       "when": "Oct 26",
       "link": "https://commercialobserver.com/2026/10/minerva-lease-expansion-refinery-at-domino/"
@@ -448,24 +466,6 @@
       "title": "Holt Construction Hires Finance Executive Adam Canosa as President",
       "when": "Oct 26",
       "link": "https://commercialobserver.com/2026/10/holt-construction-hires-adam-canosa-president/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Driftwood Capital, Merrimac Ventures Land $145M for Waterfront Hotel in Miami",
-      "when": "Oct 26",
-      "link": "https://commercialobserver.com/2026/10/downtown-miami-driftwood-capital-merrimac-ventures-centennial-bank-riverside-wharf/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "LMF Commercial Closing Its Doors: Sources",
-      "when": "Oct 26",
-      "link": "https://commercialobserver.com/2026/10/lmf-commercial-shuttering-lennar/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "BGO Transitions Its Name Back to GreenOak",
-      "when": "Oct 26",
-      "link": "https://commercialobserver.com/2026/10/bgo-name-rebrand-greenoak/"
     }
   ],
   "cre_fund_tiles": [
@@ -518,10 +518,10 @@
     }
   ],
   "curve_spreads": {
-    "2s10s": "+31",
+    "2s10s": "+32",
     "3m10y": "+78",
-    "5s30s": "+51",
-    "10s30s": "+33"
+    "5s30s": "+47",
+    "10s30s": "+31"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -606,8 +606,8 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.89",
-      "chg": "+0.60%",
+      "price": "72.73",
+      "chg": "+0.37%",
       "dir": 1
     },
     {
@@ -620,29 +620,29 @@
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.48",
-      "chg": "+0.61%",
+      "price": "62.26",
+      "chg": "+0.26%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "126.27",
-      "chg": "-0.15%",
+      "price": "126.31",
+      "chg": "-0.11%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.95",
-      "chg": "-0.13%",
+      "price": "62.78",
+      "chg": "-0.40%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "213.39",
-      "chg": "+0.83%",
+      "price": "212.69",
+      "chg": "+0.50%",
       "dir": 1
     }
   ],
@@ -665,42 +665,42 @@
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.3,
+      "y": 4.35,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.44,
+      "y": 4.47,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.69,
+      "y": 4.68,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.75,
+      "y": 4.79,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.82,
+      "y": 4.84,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.89,
+      "y": 4.91,
       "axis": false,
       "mark": false
     },
@@ -714,14 +714,14 @@
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.37,
+      "y": 5.35,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.33,
+      "y": 5.31,
       "axis": true,
       "mark": true
     }
