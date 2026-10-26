@@ -3,31 +3,31 @@
     "date_line": "Monday · Oct 26, 2026",
     "as_of": "Auto-compiled from public sources · Oct 26, 2026",
     "compiled": "Compiled Oct 26, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-26T15:18:52Z"
+    "generated_utc": "2026-10-26T19:34:54Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,697.26",
-      "ch": "+0.97%",
+      "vl": "7,682.03",
+      "ch": "+0.77%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,279",
-      "ch": "+1.25%",
+      "vl": "26,205",
+      "ch": "+0.96%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,463",
-      "ch": "+0.48%",
+      "vl": "52,347",
+      "ch": "+0.25%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "17.87",
-      "ch": "-8.12%",
+      "vl": "18.34",
+      "ch": "-5.71%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.97%",
-    "standfirst": "At the last close: S&P 500 7,697.26 (+0.97%); Nasdaq 26,279 (+1.25%); Dow 52,463 (+0.48%). VIX 17.87 (-8.12%).",
+    "headline": "The S&P 500 rose 0.77%",
+    "standfirst": "At the last close: S&P 500 7,682.03 (+0.77%); Nasdaq 26,205 (+0.96%); Dow 52,347 (+0.25%). VIX 18.34 (-5.71%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.14%; PLD lagged at -0.02%."
+      "4 of 6 names on the watchlist closed higher.",
+      "SPG led at +0.83%; PLD lagged at -0.15%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report after close."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:18 AM ET, Oct 26"
+    "quote_note": "Quotes ~15-min delayed · as of 3:34 PM ET, Oct 26"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,697.26",
+      "val": "7,682.03",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.97%",
+        "txt": "0.77%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,639.70</span> · <span class=\"up mono\">+12.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,639.70</span> · <span class=\"up mono\">+11.7%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,279",
+      "val": "26,205",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.25%",
+        "txt": "0.96%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,027</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,463",
+      "val": "52,347",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.48%",
+        "txt": "0.25%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,320</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.87",
+      "val": "18.34",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "8.12%",
+        "txt": "5.71%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">19.66</span>"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Passion: The First Ingredient in the ‘DNA of Success’",
+      "title": "AI Firm Minerva Doubles Office Footprint at the Refinery at Domino",
       "when": "Oct 26",
-      "link": "https://commercialobserver.com/2026/10/passion-first-ingredient-dna-of-success/"
+      "link": "https://commercialobserver.com/2026/10/minerva-lease-expansion-refinery-at-domino/"
     },
     {
       "source": "Commercial Observer",
-      "title": "SASBs Dominate Conduits 3 to 1 in 2026 CMBS Market",
+      "title": "Barings Buys SoCal Grocery-Anchored Shopping Center for $66M",
       "when": "Oct 26",
-      "link": "https://commercialobserver.com/2026/10/cmbs-sasb-conduit-2026/"
+      "link": "https://commercialobserver.com/2026/10/barings-first-washington-ralphs-retail-california/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Waste Storage Manufacturer Citibin Triples Footprint to 15K SF at Industry City",
+      "title": "Holt Construction Hires Finance Executive Adam Canosa as President",
       "when": "Oct 26",
-      "link": "https://commercialobserver.com/2026/10/citibin-lease-expansion-industry-city/"
+      "link": "https://commercialobserver.com/2026/10/holt-construction-hires-adam-canosa-president/"
     },
     {
       "source": "Commercial Observer",
-      "title": "The Mamdani Administration’s Embrace of In-House Tech Has Little Room for AI",
+      "title": "Driftwood Capital, Merrimac Ventures Land $145M for Waterfront Hotel in Miami",
       "when": "Oct 26",
-      "link": "https://commercialobserver.com/2026/10/mamdani-administration-technology-ai/"
+      "link": "https://commercialobserver.com/2026/10/downtown-miami-driftwood-capital-merrimac-ventures-centennial-bank-riverside-wharf/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Welcome to Data Centerville, U.S.A.: How One Asset Class Changed Loudoun County, Va.",
+      "title": "LMF Commercial Closing Its Doors: Sources",
       "when": "Oct 26",
-      "link": "https://commercialobserver.com/2026/10/data-centers-changed-loudoun-county-virginia/"
+      "link": "https://commercialobserver.com/2026/10/lmf-commercial-shuttering-lennar/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Sunday Summary: Market Slowing Down? Speeding Up? How About Both?",
-      "when": "Oct 25",
-      "link": "https://commercialobserver.com/2026/10/sunday-summary-market-slowing-down-speeding-up-how-about-both/"
+      "title": "BGO Transitions Its Name Back to GreenOak",
+      "when": "Oct 26",
+      "link": "https://commercialobserver.com/2026/10/bgo-name-rebrand-greenoak/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.16",
-      "chg": "+0.97%",
+      "price": "72.89",
+      "chg": "+0.60%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.37",
-      "chg": "+0.73%",
+      "price": "93.17",
+      "chg": "+0.52%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.81",
-      "chg": "+1.14%",
+      "price": "62.48",
+      "chg": "+0.61%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "126.42",
-      "chg": "-0.02%",
+      "price": "126.27",
+      "chg": "-0.15%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.34",
-      "chg": "+0.49%",
-      "dir": 1
+      "price": "62.95",
+      "chg": "-0.13%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "213.06",
-      "chg": "+0.68%",
+      "price": "213.39",
+      "chg": "+0.83%",
       "dir": 1
     }
   ],
