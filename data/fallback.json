@@ -3,31 +3,31 @@
     "date_line": "Tuesday · Oct 27, 2026",
     "as_of": "Auto-compiled from public sources · Oct 27, 2026",
     "compiled": "Compiled Oct 27, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-27T14:41:48Z"
+    "generated_utc": "2026-10-27T18:59:44Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,699.82",
-      "ch": "+0.30%",
+      "vl": "7,719.34",
+      "ch": "+0.55%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,349",
-      "ch": "+0.69%",
+      "vl": "26,480",
+      "ch": "+1.19%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,304",
-      "ch": "-0.11%",
-      "dir": -1
+      "vl": "52,366",
+      "ch": "+0.01%",
+      "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "18.00",
-      "ch": "-2.12%",
+      "vl": "17.75",
+      "ch": "-3.48%",
       "dir": -1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.13%",
+      "vl": "1.12%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.38%",
+      "vl": "3.30%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.30%",
-    "standfirst": "At the last close: S&P 500 7,699.82 (+0.30%); Nasdaq 26,349 (+0.69%); Dow 52,304 (-0.11%). VIX 18.00 (-2.12%).",
+    "headline": "The S&P 500 rose 0.55%",
+    "standfirst": "At the last close: S&P 500 7,719.34 (+0.55%); Nasdaq 26,480 (+1.19%); Dow 52,366 (+0.01%). VIX 17.75 (-3.48%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "2 of 6 names on the watchlist closed higher.",
-      "PLD led at +0.23%; VNQ lagged at -0.52%."
+      "1 of 6 names on the watchlist closed higher.",
+      "PLD led at +0.04%; BXP lagged at -1.82%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report after close."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 10:41 AM ET, Oct 27"
+    "quote_note": "Quotes ~15-min delayed · as of 2:59 PM ET, Oct 27"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,699.82",
+      "val": "7,719.34",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.30%",
+        "txt": "0.55%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,699.47</span> · <span class=\"up mono\">+12.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,699.47</span> · <span class=\"up mono\">+12.3%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,349",
+      "val": "26,480",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.69%",
+        "txt": "1.19%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,286</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,304",
-      "tone": "neg",
+      "val": "52,366",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.11%",
+        "dir": 1,
+        "txt": "0.01%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,277</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "18.00",
+      "val": "17.75",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.12%",
+        "txt": "3.48%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">18.43</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.13%, high-yield at 3.38%",
-    "standfirst": "The high-yield premium over investment grade is 2.25 percentage points. The 2s10s Treasury spread is +32 bps.",
+    "headline": "Investment-grade OAS at 1.12%, high-yield at 3.30%",
+    "standfirst": "The high-yield premium over investment grade is 2.18 percentage points. The 2s10s Treasury spread is +32 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,39 +296,39 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.13",
+      "val": "1.12",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.02pp",
-        "note": "wider"
+        "txt": "-0.01pp",
+        "note": "tighter"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.38",
+      "val": "3.30",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "-0.02pp",
+        "txt": "-0.08pp",
         "note": "tighter"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.25",
+      "val": "2.18",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.13,
-    "hy": 3.38
+    "ig": 1.12,
+    "hy": 3.3
   },
   "news": {
     "headline": "Latest headlines",
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Mesa West Provides $62M Refi for Silicon Valley Office Property",
+      "title": "Shorenstein Buys Fully Leased SoHo Office Property From Tishman Speyer",
       "when": "Oct 27",
-      "link": "https://commercialobserver.com/2026/10/mesa-west-refi-silicon-valley-office/"
+      "link": "https://commercialobserver.com/2026/10/shorenstein-buy-fully-leased-soho-office-property-tishman-speyer/"
     },
     {
       "source": "Commercial Observer",
-      "title": "JLL Promotes Angela Gentry to Market Lead for New York",
+      "title": "Welltower Earnings Boosted by Senior Housing Acquisitions",
       "when": "Oct 27",
-      "link": "https://commercialobserver.com/2026/10/jll-promotes-angela-gentry-market-lead-new-york/"
+      "link": "https://commercialobserver.com/2026/10/welltower-q3-earnings-senior-housing/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Takenaka Under Contract to Buy One Broadway for $170M",
+      "title": "Truist Provides $152M for Long Beach, Calif., Apartment Development",
       "when": "Oct 27",
-      "link": "https://commercialobserver.com/2026/10/takenaka-one-broadway-rockwood-harrison-midtown/"
+      "link": "https://commercialobserver.com/2026/10/truist-long-beach-calif-multifamily-construction-financing/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Amazon’s Same-Day Delivery Expansion Reignites Demand for Last-Mile Logistics",
+      "title": "Orange County, Calif., Apartment Sales Up 15.6%, but Values Fall",
       "when": "Oct 27",
-      "link": "https://commercialobserver.com/2026/10/amazon-same-day-delivery-logistics-real-estate/"
+      "link": "https://commercialobserver.com/2026/10/orange-county-calif-multifamily-rent-sales/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Real Estate Operating System HqO Launches AI Platform for Workflows, Data",
+      "title": "Invesco Posts Solid Q3 Earnings as Revenue Grows 16.5%",
       "when": "Oct 27",
-      "link": "https://commercialobserver.com/2026/10/hqo-rex/"
+      "link": "https://commercialobserver.com/2026/10/invesco-earnings-revenue-q3/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Fintech Firm Ramp Adds Another 175K SF at 28-40 West 23rd Street",
+      "title": "North Development Buys Miami Site For $33M",
       "when": "Oct 27",
-      "link": "https://commercialobserver.com/2026/10/ramp-lease-expansion-28-40-west-23rd-street/"
+      "link": "https://commercialobserver.com/2026/10/north-development-miami-edgewater-2100-bayshore-drive/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.41",
-      "chg": "-0.45%",
+      "price": "72.59",
+      "chg": "-0.19%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "92.69",
-      "chg": "-0.52%",
+      "price": "92.15",
+      "chg": "-1.09%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.33",
-      "chg": "+0.11%",
-      "dir": 1
+      "price": "61.12",
+      "chg": "-1.82%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "126.60",
-      "chg": "+0.23%",
+      "price": "126.36",
+      "chg": "+0.04%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.65",
-      "chg": "-0.21%",
+      "price": "62.46",
+      "chg": "-0.51%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "211.90",
-      "chg": "-0.37%",
+      "price": "212.03",
+      "chg": "-0.31%",
       "dir": -1
     }
   ],
