@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Oct 28, 2026",
     "as_of": "Auto-compiled from public sources · Oct 28, 2026",
     "compiled": "Compiled Oct 28, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-28T13:50:40Z"
+    "generated_utc": "2026-10-28T15:14:46Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,723.66",
-      "ch": "+0.01%",
+      "vl": "7,734.20",
+      "ch": "+0.15%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,454",
-      "ch": "-0.09%",
+      "vl": "26,469",
+      "ch": "-0.03%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,437",
-      "ch": "+0.11%",
+      "vl": "52,471",
+      "ch": "+0.18%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "17.42",
-      "ch": "-0.57%",
+      "vl": "17.39",
+      "ch": "-0.74%",
       "dir": -1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.12%",
+      "vl": "1.09%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.30%",
+      "vl": "3.18%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 was little changed",
-    "standfirst": "At the last close: S&P 500 7,723.66 (+0.01%); Nasdaq 26,454 (-0.09%); Dow 52,437 (+0.11%). VIX 17.42 (-0.57%).",
+    "headline": "The S&P 500 edged higher 0.15%",
+    "standfirst": "At the last close: S&P 500 7,734.20 (+0.15%); Nasdaq 26,469 (-0.03%); Dow 52,471 (+0.18%). VIX 17.39 (-0.74%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "BXP led at +0.30%; VMRK lagged at -2.26%."
+      "2 of 6 names on the watchlist closed higher.",
+      "BXP led at +0.94%; VMRK lagged at -2.08%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report after close."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 28"
+    "quote_note": "Quotes ~15-min delayed · as of 11:14 AM ET, Oct 28"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,723.66",
+      "val": "7,734.20",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.01%",
+        "txt": "0.15%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,735.56</span> · <span class=\"up mono\">+12.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,735.56</span> · <span class=\"up mono\">+12.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,454",
+      "val": "26,469",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.09%",
+        "txt": "0.03%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,542</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,437",
+      "val": "52,471",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.11%",
+        "txt": "0.18%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,335</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.42",
+      "val": "17.39",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.57%",
+        "txt": "0.74%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.47</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.12%, high-yield at 3.30%",
-    "standfirst": "The high-yield premium over investment grade is 2.18 percentage points. The 2s10s Treasury spread is +29 bps.",
+    "headline": "Investment-grade OAS at 1.09%, high-yield at 3.18%",
+    "standfirst": "The high-yield premium over investment grade is 2.09 percentage points. The 2s10s Treasury spread is +29 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,45 +296,53 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.12",
+      "val": "1.09",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "-0.01pp",
+        "txt": "-0.03pp",
         "note": "tighter"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.30",
+      "val": "3.18",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "-0.08pp",
+        "txt": "-0.12pp",
         "note": "tighter"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.18",
+      "val": "2.09",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.12,
-    "hy": 3.3
+    "ig": 1.09,
+    "hy": 3.18
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Oct 28",
+      "title": "The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
+    },
     {
       "when": "Oct 27",
       "title": "World Bank's Banga: Availability of capital 'not really an issue' as AI demand drives up borrowing costs",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html"
-    },
-    {
-      "when": "Oct 21",
-      "title": "UK inflation jumps to 3.5% — cementing rate hike expectations",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
     }
   ],
   "cre": {
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "JLL Optimized Cash Flow in Q3 With Growth in Office, Data Centers",
+      "when": "Oct 28",
+      "link": "https://commercialobserver.com/2026/10/jll-q3-earnings-office-data-centers/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "KKR Buys 49% Stake in Alexandria’s San Diego ‘Megacampus’",
       "when": "Oct 28",
       "link": "https://commercialobserver.com/2026/10/kkr-jv-alexandria-campus-point-by-alexandria-megacampus/"
@@ -460,12 +466,6 @@
       "title": "Alexandria Reports Improved Sales and Leasing Amid Financial Hardships",
       "when": "Oct 27",
       "link": "https://commercialobserver.com/2026/10/alexandria-q3-earnings-leasing-sales/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "NBA Store Seeks New, Larger Location Up to 25K Square Feet",
-      "when": "Oct 27",
-      "link": "https://commercialobserver.com/2026/10/nba-store-manhattan-relocation-expansion/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.44",
-      "chg": "-0.19%",
+      "price": "71.86",
+      "chg": "-1.00%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.32",
-      "chg": "-1.16%",
+      "price": "91.69",
+      "chg": "-0.76%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "61.07",
-      "chg": "+0.30%",
+      "price": "61.46",
+      "chg": "+0.94%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "125.38",
-      "chg": "-0.86%",
+      "price": "125.80",
+      "chg": "-0.53%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.13",
-      "chg": "-2.26%",
+      "price": "61.25",
+      "chg": "-2.08%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "210.80",
-      "chg": "-0.70%",
-      "dir": -1
+      "price": "212.31",
+      "chg": "+0.02%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
