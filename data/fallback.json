@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Tuesday · Oct 27, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 27, 2026",
-    "compiled": "Compiled Oct 27, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-28T02:26:12Z"
+    "date_line": "Wednesday · Oct 28, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 28, 2026",
+    "compiled": "Compiled Oct 28, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-28T13:50:40Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,722.60",
-      "ch": "+0.60%",
+      "vl": "7,723.66",
+      "ch": "+0.01%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,478",
-      "ch": "+1.18%",
-      "dir": 1
+      "vl": "26,454",
+      "ch": "-0.09%",
+      "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,378",
-      "ch": "+0.03%",
+      "vl": "52,437",
+      "ch": "+0.11%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "17.52",
-      "ch": "-4.73%",
+      "vl": "17.42",
+      "ch": "-0.57%",
       "dir": -1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.93%",
+      "vl": "3.95%",
       "ch": "",
       "dir": 0
     },
@@ -110,24 +110,24 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.60%",
-    "standfirst": "At the last close: S&P 500 7,722.60 (+0.60%); Nasdaq 26,478 (+1.18%); Dow 52,378 (+0.03%). VIX 17.52 (-4.73%).",
+    "headline": "The S&P 500 was little changed",
+    "standfirst": "At the last close: S&P 500 7,723.66 (+0.01%); Nasdaq 26,454 (-0.09%); Dow 52,437 (+0.11%). VIX 17.42 (-0.57%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "1 of 6 names on the watchlist closed higher.",
-      "PLD led at +0.13%; BXP lagged at -2.20%."
+      "BXP led at +0.30%; VMRK lagged at -2.26%."
     ],
-    "card2_title": "Coming up",
+    "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "Tomorrow",
+        "when": "14:00 ET · Today",
         "title": "FOMC decision",
         "body": "Rate decision and statement, no Summary of Economic Projections at this meeting. Press conference at 2:30 ET."
       },
       {
-        "when": "Thu · Oct 29",
+        "when": "Tomorrow",
         "title": "GDP (Q3 advance) + Personal Income and Outlays",
         "body": "First official read on Q3 output, released with September PCE the morning after the FOMC decision."
       },
@@ -147,52 +147,52 @@
         "body": "Scheduled to report after close."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 27"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 28"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,722.60",
+      "val": "7,723.66",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.60%",
+        "txt": "0.01%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,699.47</span> · <span class=\"up mono\">+12.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,735.56</span> · <span class=\"up mono\">+12.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,478",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "1.18%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">26,286</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "52,378",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.03%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">52,277</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "17.52",
+      "val": "26,454",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "4.73%",
+        "txt": "0.09%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">18.43</span>"
+      "note": "Open <span class=\"mono\">26,542</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "52,437",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.11%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">52,335</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "17.42",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.57%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">17.47</span>"
     }
   ],
   "economy": {
@@ -385,7 +385,7 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.99%, overnight SOFR at 3.93%",
+    "headline": "The 10-year at 4.99%, overnight SOFR at 3.95%",
     "standfirst": "An illustrative agency coupon prices at 6.34–6.64%. The Freddie Mac 30-year survey rate is 7.32%.",
     "curve_date": "Oct 27, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.93",
+      "val": "3.95",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,6 +433,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "KKR Buys 49% Stake in Alexandria’s San Diego ‘Megacampus’",
+      "when": "Oct 28",
+      "link": "https://commercialobserver.com/2026/10/kkr-jv-alexandria-campus-point-by-alexandria-megacampus/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "COPA Passed. Don’t Expect It to Reshape New York City Multifamily.",
+      "when": "Oct 28",
+      "link": "https://commercialobserver.com/2026/10/copa-new-york-city-multifamily-investment/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "The Plan: Stark Office Suites’ 717 Fifth Avenue Is Open to a Long-Term Relationship",
+      "when": "Oct 28",
+      "link": "https://commercialobserver.com/2026/10/the-plan-stark-office-suites-717-fifth-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Blood Cancer Nonprofit DKMS Takes 15K SF at 115 Broadway",
       "when": "Oct 27",
       "link": "https://commercialobserver.com/2026/10/dkms-mag-partners-trinity-centre-leases/"
@@ -448,24 +466,6 @@
       "title": "NBA Store Seeks New, Larger Location Up to 25K Square Feet",
       "when": "Oct 27",
       "link": "https://commercialobserver.com/2026/10/nba-store-manhattan-relocation-expansion/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Shorenstein Buys Fully Leased SoHo Office Property From Tishman Speyer",
-      "when": "Oct 27",
-      "link": "https://commercialobserver.com/2026/10/shorenstein-buy-fully-leased-soho-office-property-tishman-speyer/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Welltower Earnings Boosted by Senior Housing Acquisitions",
-      "when": "Oct 27",
-      "link": "https://commercialobserver.com/2026/10/welltower-q3-earnings-senior-housing/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Truist Provides $152M for Long Beach, Calif., Apartment Development",
-      "when": "Oct 27",
-      "link": "https://commercialobserver.com/2026/10/truist-long-beach-calif-multifamily-construction-financing/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.58",
-      "chg": "-0.21%",
+      "price": "72.44",
+      "chg": "-0.19%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "92.39",
-      "chg": "-0.84%",
+      "price": "91.32",
+      "chg": "-1.16%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "60.89",
-      "chg": "-2.20%",
-      "dir": -1
+      "price": "61.07",
+      "chg": "+0.30%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "126.47",
-      "chg": "+0.13%",
-      "dir": 1
+      "price": "125.38",
+      "chg": "-0.86%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.55",
-      "chg": "-0.37%",
+      "price": "61.13",
+      "chg": "-2.26%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "212.28",
-      "chg": "-0.19%",
+      "price": "210.80",
+      "chg": "-0.70%",
       "dir": -1
     }
   ],
