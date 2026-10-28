@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Oct 28, 2026",
     "as_of": "Auto-compiled from public sources · Oct 28, 2026",
     "compiled": "Compiled Oct 28, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-28T15:14:46Z"
+    "generated_utc": "2026-10-28T19:07:42Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,734.20",
-      "ch": "+0.15%",
+      "vl": "7,729.68",
+      "ch": "+0.09%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,469",
-      "ch": "-0.03%",
+      "vl": "26,472",
+      "ch": "-0.02%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,471",
-      "ch": "+0.18%",
+      "vl": "52,401",
+      "ch": "+0.04%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "17.39",
-      "ch": "-0.74%",
+      "vl": "17.31",
+      "ch": "-1.20%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.15%",
-    "standfirst": "At the last close: S&P 500 7,734.20 (+0.15%); Nasdaq 26,469 (-0.03%); Dow 52,471 (+0.18%). VIX 17.39 (-0.74%).",
+    "headline": "The S&P 500 was little changed",
+    "standfirst": "At the last close: S&P 500 7,729.68 (+0.09%); Nasdaq 26,472 (-0.02%); Dow 52,401 (+0.04%). VIX 17.31 (-1.20%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "2 of 6 names on the watchlist closed higher.",
-      "BXP led at +0.94%; VMRK lagged at -2.08%."
+      "1 of 6 names on the watchlist closed higher.",
+      "BXP led at +0.83%; VMRK lagged at -2.73%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report after close."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:14 AM ET, Oct 28"
+    "quote_note": "Quotes ~15-min delayed · as of 3:07 PM ET, Oct 28"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,734.20",
+      "val": "7,729.68",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.15%",
+        "txt": "0.09%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">7,735.56</span> · <span class=\"up mono\">+12.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,469",
+      "val": "26,472",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.03%",
+        "txt": "0.02%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,542</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,471",
+      "val": "52,401",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.18%",
+        "txt": "0.04%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,335</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.39",
+      "val": "17.31",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.74%",
+        "txt": "1.20%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.47</span>"
@@ -254,25 +254,25 @@
   "energy_tiles": [
     {
       "lbl": "Brent Crude",
-      "val": "$115.22",
+      "val": "$123.10",
       "unit": "",
       "tone": "",
       "note": "Global benchmark — the swing factor in headline inflation",
       "delta": {
         "dir": -1,
-        "txt": "-3.60",
+        "txt": "-5.02",
         "note": "d/d"
       }
     },
     {
       "lbl": "WTI Crude",
-      "val": "$107.89",
+      "val": "$103.37",
       "unit": "",
       "tone": "",
       "note": "U.S. benchmark",
       "delta": {
         "dir": -1,
-        "txt": "-2.12",
+        "txt": "-1.88",
         "note": "d/d"
       }
     },
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "JLL Optimized Cash Flow in Q3 With Growth in Office, Data Centers",
+      "title": "Fed Pauses Interest Rates as CRE Market Preps for December Hike",
       "when": "Oct 28",
-      "link": "https://commercialobserver.com/2026/10/jll-q3-earnings-office-data-centers/"
+      "link": "https://commercialobserver.com/2026/10/fed-interest-rate-pause-kevin-warsh/"
     },
     {
       "source": "Commercial Observer",
-      "title": "KKR Buys 49% Stake in Alexandria’s San Diego ‘Megacampus’",
+      "title": "Life Time Inks 20-Year Lease at Crescent Heights’ Miami Dev Site",
       "when": "Oct 28",
-      "link": "https://commercialobserver.com/2026/10/kkr-jv-alexandria-campus-point-by-alexandria-megacampus/"
+      "link": "https://commercialobserver.com/2026/10/life-time-crescent-heights-galbut-edgewater-florida/"
     },
     {
       "source": "Commercial Observer",
-      "title": "COPA Passed. Don’t Expect It to Reshape New York City Multifamily.",
+      "title": "Extell’s Times Square Supertall Project Has Its Anchor Hotel",
       "when": "Oct 28",
-      "link": "https://commercialobserver.com/2026/10/copa-new-york-city-multifamily-investment/"
+      "link": "https://commercialobserver.com/2026/10/extell-740-eighth-avenue-hyatt-hotel/"
     },
     {
       "source": "Commercial Observer",
-      "title": "The Plan: Stark Office Suites’ 717 Fifth Avenue Is Open to a Long-Term Relationship",
+      "title": "BXP Posts 4.6% Revenue Gain in Q3 After Two Major Sales",
       "when": "Oct 28",
-      "link": "https://commercialobserver.com/2026/10/the-plan-stark-office-suites-717-fifth-avenue/"
+      "link": "https://commercialobserver.com/2026/10/bxp-revenue-earnings-q3-sales/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Blood Cancer Nonprofit DKMS Takes 15K SF at 115 Broadway",
-      "when": "Oct 27",
-      "link": "https://commercialobserver.com/2026/10/dkms-mag-partners-trinity-centre-leases/"
+      "title": "Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing",
+      "when": "Oct 28",
+      "link": "https://commercialobserver.com/2026/10/wells-fargo-construction-financing-oakland-affordable-housing/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Alexandria Reports Improved Sales and Leasing Amid Financial Hardships",
-      "when": "Oct 27",
-      "link": "https://commercialobserver.com/2026/10/alexandria-q3-earnings-leasing-sales/"
+      "title": "Savanna, Deutsche Bank Pushing Off 521 Fifth Avenue’s Foreclosure Sale",
+      "when": "Oct 28",
+      "link": "https://commercialobserver.com/2026/10/savanna-deutsche-bank-521-fifth-avenue-foreclosure-sale/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "71.86",
-      "chg": "-1.00%",
+      "price": "71.82",
+      "chg": "-1.05%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "91.69",
-      "chg": "-0.76%",
+      "price": "91.34",
+      "chg": "-1.14%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "61.46",
-      "chg": "+0.94%",
+      "price": "61.40",
+      "chg": "+0.83%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "125.80",
-      "chg": "-0.53%",
+      "price": "124.94",
+      "chg": "-1.21%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.25",
-      "chg": "-2.08%",
+      "price": "60.84",
+      "chg": "-2.73%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "212.31",
-      "chg": "+0.02%",
-      "dir": 1
+      "price": "210.72",
+      "chg": "-0.73%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
