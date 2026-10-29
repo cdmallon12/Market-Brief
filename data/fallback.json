@@ -3,32 +3,32 @@
     "date_line": "Thursday · Oct 29, 2026",
     "as_of": "Auto-compiled from public sources · Oct 29, 2026",
     "compiled": "Compiled Oct 29, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-29T15:19:15Z"
+    "generated_utc": "2026-10-29T19:13:57Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,723.58",
-      "ch": "-0.26%",
+      "vl": "7,698.54",
+      "ch": "-0.59%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,225",
-      "ch": "-1.22%",
+      "vl": "26,115",
+      "ch": "-1.64%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,371",
-      "ch": "-0.20%",
+      "vl": "52,208",
+      "ch": "-0.51%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "16.46",
-      "ch": "-2.66%",
-      "dir": -1
+      "vl": "16.93",
+      "ch": "+0.12%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.26%",
-    "standfirst": "At the last close: S&P 500 7,723.58 (-0.26%); Nasdaq 26,225 (-1.22%); Dow 52,371 (-0.20%). VIX 16.46 (-2.66%).",
+    "headline": "The S&P 500 fell 0.59%",
+    "standfirst": "At the last close: S&P 500 7,698.54 (-0.59%); Nasdaq 26,115 (-1.64%); Dow 52,208 (-0.51%). VIX 16.93 (+0.12%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "6 of 6 names on the watchlist closed higher.",
-      "PLD led at +1.92%; VMRK lagged at +0.30%."
+      "SPG led at +2.10%; VMRK lagged at +0.72%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:18 AM ET, Oct 29"
+    "quote_note": "Quotes ~15-min delayed · as of 3:13 PM ET, Oct 29"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,723.58",
+      "val": "7,698.54",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.26%",
+        "txt": "0.59%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,699.61</span> · <span class=\"up mono\">+12.1%</span> YoY"
+      "note": "Open <span class=\"mono\">7,699.61</span> · <span class=\"up mono\">+11.7%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "26,225",
+      "val": "26,115",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.22%",
+        "txt": "1.64%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26,202</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,371",
+      "val": "52,208",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.20%",
+        "txt": "0.51%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,086</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "16.46",
-      "tone": "neg",
+      "val": "16.93",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "2.66%",
+        "dir": 1,
+        "txt": "0.12%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.15</span>"
@@ -337,6 +337,22 @@
   "headlines": [
     {
       "when": "Oct 29",
+      "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+    },
+    {
+      "when": "Oct 29",
+      "title": "Analysis: Kevin Warsh is keeping Wall Street guessing. It may be his most powerful tool",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"
+    },
+    {
+      "when": "Oct 29",
       "title": "The politics of President Lagarde's European Central Bank early exit  — and who could replace her",
       "blurb": "",
       "kind": "",
@@ -350,22 +366,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
-    },
-    {
-      "when": "Oct 29",
-      "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
-    },
-    {
-      "when": "Oct 29",
-      "title": "Analysis: Kevin Warsh is keeping Wall Street guessing. It may be his most powerful tool.",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"
     },
     {
       "when": "Oct 28",
@@ -386,7 +386,7 @@
   ],
   "cre": {
     "headline": "The 10-year at 5.05%, overnight SOFR at 3.94%",
-    "standfirst": "An illustrative agency coupon prices at 6.40–6.70%. The Freddie Mac 30-year survey rate is 7.32%.",
+    "standfirst": "An illustrative agency coupon prices at 6.40–6.70%. The Freddie Mac 30-year survey rate is 7.24%.",
     "curve_date": "Oct 28, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Day Care Operator Inks 21K-SF Lease in Brooklyn’s Gravesend",
+      "title": "Hudson Valley Boutique Shop Signs Lease in Manhattan’s Nolita",
       "when": "Oct 29",
-      "link": "https://commercialobserver.com/2026/10/day-care-operator-inks-21k-sf-lease-in-brooklyns-gravesend/"
+      "link": "https://commercialobserver.com/2026/10/solstad-house-general-store-lease-167-mott-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Robely, U.S. Legwork Each Ink 5K-SF Deals at Rosen’s 37 West 37th Street",
+      "title": "Blackstone Mortgage Trust Reports $327.6M Loss as It Cuts Older Office Loans",
       "when": "Oct 29",
-      "link": "https://commercialobserver.com/2026/10/robely-us-legwork-leases-37-west-37th-street/"
+      "link": "https://commercialobserver.com/2026/10/blackstone-mortgage-trust-q3-earnings-office-loans/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Location Firm Placer.ai Hires Jigso Co-Founders Or Shani and Tomer Naveh",
+      "title": "Equinix Raises Outlook Again as Data Center Bookings Hit Record in Q3",
       "when": "Oct 29",
-      "link": "https://commercialobserver.com/2026/10/placer-ai-hires-jigso-co-founders-or-shani-tomer-naveh/"
+      "link": "https://commercialobserver.com/2026/10/equinix-data-center-ai-q3/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Get to Know the Broker: Matt Ellingson of Sotheby’s International Realty",
+      "title": "Vici Properties’ Q3 Earnings Hampered by Market Headwinds, Caesars Lease Unknowns",
       "when": "Oct 29",
-      "link": "https://commercialobserver.com/2026/10/get-to-know-the-broker-matt-ellingson-sothebys-international-realty/"
+      "link": "https://commercialobserver.com/2026/10/vici-properties-earnings-caesars/"
     },
     {
       "source": "Commercial Observer",
-      "title": "New York’s Luxury Real Estate Ghost Market Is Trying to Tell Us Something",
+      "title": "Turner School Renews 8K-SF Lease at Feil’s 145 West 30th Street",
       "when": "Oct 29",
-      "link": "https://commercialobserver.com/2026/10/new-york-luxury-real-estate-ghost-market/"
+      "link": "https://commercialobserver.com/2026/10/turner-school-lease-renewal-feil-145-west-30th-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Fortune Lands Record $817M From Tyko Capital to Build Miami Faena Condo Towers",
-      "when": "Oct 28",
-      "link": "https://commercialobserver.com/2026/10/fortune-international-miami-faena-condo-tyko/"
+      "title": "Bank OZK Leads $135M Financing for Yonkers Apartments Build",
+      "when": "Oct 29",
+      "link": "https://commercialobserver.com/2026/10/bank-ozk-yonkers-apartments/"
     }
   ],
   "cre_fund_tiles": [
@@ -499,7 +499,7 @@
   "cre_fin_tiles": [
     {
       "lbl": "30-Yr Mortgage · PMMS",
-      "val": "7.32",
+      "val": "7.24",
       "unit": "%",
       "tone": "",
       "note": "Freddie Mac Primary Mortgage Market Survey",
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.02",
-      "chg": "+1.26%",
+      "price": "72.65",
+      "chg": "+0.75%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.50",
-      "chg": "+1.86%",
+      "price": "93.61",
+      "chg": "+1.98%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.13",
-      "chg": "+1.06%",
+      "price": "62.45",
+      "chg": "+1.58%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "127.63",
-      "chg": "+1.92%",
+      "price": "127.66",
+      "chg": "+1.94%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.09",
-      "chg": "+0.30%",
+      "price": "61.34",
+      "chg": "+0.72%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "214.73",
-      "chg": "+1.65%",
+      "price": "215.68",
+      "chg": "+2.10%",
       "dir": 1
     }
   ],
