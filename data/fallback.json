@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Thursday · Oct 29, 2026",
-    "as_of": "Auto-compiled from public sources · Oct 29, 2026",
-    "compiled": "Compiled Oct 29, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-30T02:42:48Z"
+    "date_line": "Friday · Oct 30, 2026",
+    "as_of": "Auto-compiled from public sources · Oct 30, 2026",
+    "compiled": "Compiled Oct 30, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-10-30T13:50:45Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,720.39",
-      "ch": "-0.30%",
+      "vl": "7,627.60",
+      "ch": "-1.20%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "26,185",
-      "ch": "-1.38%",
+      "vl": "25,603",
+      "ch": "-2.22%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,343",
-      "ch": "-0.25%",
+      "vl": "52,184",
+      "ch": "-0.30%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "17.20",
-      "ch": "+1.71%",
+      "vl": "19.15",
+      "ch": "+11.34%",
       "dir": 1
     },
     {
@@ -110,24 +110,19 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.30%",
-    "standfirst": "At the last close: S&P 500 7,720.39 (-0.30%); Nasdaq 26,185 (-1.38%); Dow 52,343 (-0.25%). VIX 17.20 (+1.71%).",
+    "headline": "The S&P 500 fell 1.20%",
+    "standfirst": "At the last close: S&P 500 7,627.60 (-1.20%); Nasdaq 25,603 (-2.22%); Dow 52,184 (-0.30%). VIX 19.15 (+11.34%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "BXP led at +2.50%; KRE lagged at +1.04%."
+      "2 of 6 names on the watchlist closed higher.",
+      "SPG led at +0.13%; KRE lagged at -0.55%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
         "when": "08:30 ET · Today",
-        "title": "GDP (Q3 advance) + Personal Income and Outlays",
-        "body": "First official read on Q3 output, released with September PCE the morning after the FOMC decision."
-      },
-      {
-        "when": "Tomorrow",
         "title": "Employment Cost Index",
         "body": "Q3 ECI. The broadest measure of wage pressure and one the Fed watches closely."
       },
@@ -145,54 +140,59 @@
         "when": "Thu · Nov 5",
         "title": "SPG earnings",
         "body": "Scheduled to report after close."
+      },
+      {
+        "when": "Fri · Nov 6",
+        "title": "Employment Situation",
+        "body": "October payrolls, unemployment rate and average hourly earnings."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 29"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Oct 30"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,720.39",
+      "val": "7,627.60",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "1.20%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">7,631.07</span> · <span class=\"up mono\">+11.8%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "25,603",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "2.22%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">25,592</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "52,184",
       "tone": "neg",
       "delta": {
         "dir": -1,
         "txt": "0.30%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,699.61</span> · <span class=\"up mono\">+13.2%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "26,185",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "1.38%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">26,202</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "52,343",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.25%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">52,086</span>"
+      "note": "Open <span class=\"mono\">52,384</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.20",
+      "val": "19.15",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.71%",
+        "txt": "11.34%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">17.15</span>"
+      "note": "Open <span class=\"mono\">18.43</span>"
     }
   ],
   "economy": {
@@ -336,6 +336,14 @@
   },
   "headlines": [
     {
+      "when": "Oct 30",
+      "title": "Euro zone economy slows to 0.4% growth in Q3 as crisis-hit France contracts",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/10/30/euro-zone-gdp-france.html"
+    },
+    {
       "when": "Oct 29",
       "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
       "blurb": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html"
-    },
-    {
-      "when": "Oct 28",
-      "title": "Bessent says 'not necessarily' a mistake if the Fed hikes again",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html"
     }
   ],
   "cre": {
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.86",
-      "chg": "+1.04%",
-      "dir": 1
+      "price": "72.46",
+      "chg": "-0.55%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.87",
-      "chg": "+2.27%",
+      "price": "93.98",
+      "chg": "+0.12%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.02",
-      "chg": "+2.50%",
-      "dir": 1
+      "price": "62.98",
+      "chg": "-0.06%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.02",
-      "chg": "+2.24%",
-      "dir": 1
+      "price": "127.94",
+      "chg": "-0.07%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.75",
-      "chg": "+1.40%",
-      "dir": 1
+      "price": "61.66",
+      "chg": "-0.14%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "215.72",
-      "chg": "+2.12%",
+      "price": "216.00",
+      "chg": "+0.13%",
       "dir": 1
     }
   ],
