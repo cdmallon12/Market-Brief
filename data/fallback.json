@@ -3,31 +3,31 @@
     "date_line": "Friday · Oct 30, 2026",
     "as_of": "Auto-compiled from public sources · Oct 30, 2026",
     "compiled": "Compiled Oct 30, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-30T15:08:01Z"
+    "generated_utc": "2026-10-30T18:52:55Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,612.85",
-      "ch": "-1.39%",
+      "vl": "7,531.21",
+      "ch": "-2.45%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,602",
-      "ch": "-2.23%",
+      "vl": "25,195",
+      "ch": "-3.78%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,041",
-      "ch": "-0.58%",
+      "vl": "51,590",
+      "ch": "-1.44%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "19.09",
-      "ch": "+10.99%",
+      "vl": "23.54",
+      "ch": "+36.86%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 1.39%",
-    "standfirst": "At the last close: S&P 500 7,612.85 (-1.39%); Nasdaq 25,602 (-2.23%); Dow 52,041 (-0.58%). VIX 19.09 (+10.99%).",
+    "headline": "The S&P 500 dropped 2.45%",
+    "standfirst": "At the last close: S&P 500 7,531.21 (-2.45%); Nasdaq 25,195 (-3.78%); Dow 51,590 (-1.44%). VIX 23.54 (+36.86%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "3 of 6 names on the watchlist closed higher.",
-      "SPG led at +0.33%; BXP lagged at -1.01%."
+      "4 of 6 names on the watchlist closed higher.",
+      "SPG led at +1.11%; KRE lagged at -1.43%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "October payrolls, unemployment rate and average hourly earnings."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:07 AM ET, Oct 30"
+    "quote_note": "Quotes ~15-min delayed · as of 2:52 PM ET, Oct 30"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,612.85",
+      "val": "7,531.21",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.39%",
+        "txt": "2.45%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,631.07</span> · <span class=\"up mono\">+11.6%</span> YoY"
+      "note": "Open <span class=\"mono\">7,631.07</span> · <span class=\"up mono\">+10.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,602",
+      "val": "25,195",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.23%",
+        "txt": "3.78%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,592</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,041",
+      "val": "51,590",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.58%",
+        "txt": "1.44%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,384</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "19.09",
+      "val": "23.54",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "10.99%",
+        "txt": "36.86%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">18.43</span>"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Lightstone Capital Provides $29.5M Loan for Orange, N.J., Multifamily Development",
-      "when": "Oct 29",
-      "link": "https://commercialobserver.com/2026/10/lightstone-capital-peek-capital-bridge-loan-orange/"
+      "title": "Grassroots Analytics Doubles D.C. Footprint With 25K-SF Office Lease",
+      "when": "Oct 30",
+      "link": "https://commercialobserver.com/2026/10/grassroots-analytics-doubles-d-c-footprint-with-25k-sf-office-lease/"
     },
     {
       "source": "Commercial Observer",
-      "title": "AJ Capital Partners Lands $52M Refi for Princeton, N.J., Hotel",
-      "when": "Oct 29",
-      "link": "https://commercialobserver.com/2026/10/aj-capital-partners-loan-graduate-hilton-princeton/"
+      "title": "Juda Chetrit Seals $55M Recap for 1384 Broadway",
+      "when": "Oct 30",
+      "link": "https://commercialobserver.com/2026/10/chetrit-1384-broadway/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Financial Tech Platform Intuit Takes 4K SF at the Orchard in LIC",
-      "when": "Oct 29",
-      "link": "https://commercialobserver.com/2026/10/intuit-lease-42-06-orchard-street/"
+      "title": "Colliers Grows NYC Office, Industrial Leasing Teams With Two New Hires",
+      "when": "Oct 30",
+      "link": "https://commercialobserver.com/2026/10/colliers-nyc-office-industrial-leasing-hires/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Miami Gardens Leases Public Land for Proposed Hotel",
-      "when": "Oct 29",
-      "link": "https://commercialobserver.com/2026/10/miami-gardens-lease-hotel-hard-rock/"
+      "title": "Is Prop 45 a Quick Fix to California’s Slow Construction Pace?",
+      "when": "Oct 30",
+      "link": "https://commercialobserver.com/2026/10/calif-prop-45-construction-infrastructure-data-centers/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Hudson Valley Boutique Shop Signs Lease in Manhattan’s Nolita",
-      "when": "Oct 29",
-      "link": "https://commercialobserver.com/2026/10/solstad-house-general-store-lease-167-mott-street/"
+      "title": "Jason Maurer Joins SL Green as Managing Director",
+      "when": "Oct 30",
+      "link": "https://commercialobserver.com/2026/10/sl-green-hires-jason-maurer-brookfield/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Blackstone Mortgage Trust Reports $327.6M Loss as It Cuts Older Office Loans",
-      "when": "Oct 29",
-      "link": "https://commercialobserver.com/2026/10/blackstone-mortgage-trust-q3-earnings-office-loans/"
+      "title": "Greystone Refis Hollywood, Fla., Apartments With $109M Loan",
+      "when": "Oct 30",
+      "link": "https://commercialobserver.com/2026/10/greystone-hollywood-florida-apartments-bread-factory/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.16",
-      "chg": "-0.96%",
+      "price": "71.82",
+      "chg": "-1.43%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.06",
-      "chg": "+0.20%",
+      "price": "93.98",
+      "chg": "+0.12%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.38",
-      "chg": "-1.01%",
+      "price": "62.45",
+      "chg": "-0.90%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.02",
-      "chg": "-0.00%",
-      "dir": -1
+      "price": "128.17",
+      "chg": "+0.12%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.77",
-      "chg": "+0.04%",
+      "price": "62.38",
+      "chg": "+1.03%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "216.43",
-      "chg": "+0.33%",
+      "price": "218.12",
+      "chg": "+1.11%",
       "dir": 1
     }
   ],
