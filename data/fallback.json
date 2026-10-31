@@ -3,7 +3,7 @@
     "date_line": "Friday · Oct 30, 2026",
     "as_of": "Auto-compiled from public sources · Oct 30, 2026",
     "compiled": "Compiled Oct 30, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-10-30T21:37:18Z"
+    "generated_utc": "2026-10-31T02:33:05Z"
   },
   "ticker": [
     {
@@ -132,11 +132,6 @@
         "body": "September openings, hires and quits."
       },
       {
-        "when": "Wed · Nov 4",
-        "title": "VMRK earnings",
-        "body": "Scheduled to report after close."
-      },
-      {
         "when": "Thu · Nov 5",
         "title": "SPG earnings",
         "body": "Scheduled to report after close."
@@ -145,6 +140,11 @@
         "when": "Fri · Nov 6",
         "title": "Employment Situation",
         "body": "October payrolls, unemployment rate and average hourly earnings."
+      },
+      {
+        "when": "Tue · Nov 10",
+        "title": "Consumer Price Index",
+        "body": "October CPI, headline and core."
       }
     ],
     "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Oct 30"
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Gencom-Led JV Buys InterContinental in Downtown Miami for $300M",
+      "when": "Oct 30",
+      "link": "https://commercialobserver.com/2026/10/gencom-intercontinental-downtown-miami-white-bridge-capital-dajia/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Weil, Gotshal’s Collapse Is Perfectly Timed for Manhattan’s Office Market",
       "when": "Oct 30",
       "link": "https://commercialobserver.com/2026/10/weil-gotshal-gm-building-bxp-office/"
@@ -460,12 +466,6 @@
       "title": "Colliers Grows NYC Office, Industrial Leasing Teams With Two New Hires",
       "when": "Oct 30",
       "link": "https://commercialobserver.com/2026/10/colliers-nyc-office-industrial-leasing-hires/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Is Prop 45 a Quick Fix to California’s Slow Construction Pace?",
-      "when": "Oct 30",
-      "link": "https://commercialobserver.com/2026/10/calif-prop-45-construction-infrastructure-data-centers/"
     }
   ],
   "cre_fund_tiles": [
