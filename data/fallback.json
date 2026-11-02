@@ -3,31 +3,31 @@
     "date_line": "Monday · Nov 02, 2026",
     "as_of": "Auto-compiled from public sources · Nov 02, 2026",
     "compiled": "Compiled Nov 02, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-02T18:34:58Z"
+    "generated_utc": "2026-11-02T22:29:10Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,606.09",
-      "ch": "+0.34%",
-      "dir": 1
+      "vl": "7,541.40",
+      "ch": "-0.51%",
+      "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,493",
-      "ch": "+0.22%",
-      "dir": 1
+      "vl": "25,164",
+      "ch": "-1.07%",
+      "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,282",
-      "ch": "+0.99%",
+      "vl": "51,984",
+      "ch": "+0.41%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "19.59",
-      "ch": "+0.88%",
+      "vl": "21.15",
+      "ch": "+8.91%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.34%",
-    "standfirst": "At the last close: S&P 500 7,606.09 (+0.34%); Nasdaq 25,493 (+0.22%); Dow 52,282 (+0.99%). VIX 19.59 (+0.88%).",
+    "headline": "The S&P 500 fell 0.51%",
+    "standfirst": "At the last close: S&P 500 7,541.40 (-0.51%); Nasdaq 25,164 (-1.07%); Dow 51,984 (+0.41%). VIX 21.15 (+8.91%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "6 of 6 names on the watchlist closed higher.",
-      "KRE led at +2.64%; VMRK lagged at +0.44%."
+      "KRE led at +2.39%; VMRK lagged at +0.52%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "October openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:34 PM ET, Nov 2"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 2"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,606.09",
-      "tone": "pos",
+      "val": "7,541.40",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.34%",
+        "dir": -1,
+        "txt": "0.51%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,610.83</span> · <span class=\"up mono\">+11.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,610.83</span> · <span class=\"up mono\">+10.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,493",
-      "tone": "pos",
+      "val": "25,164",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.22%",
+        "dir": -1,
+        "txt": "1.07%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,600</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,282",
+      "val": "51,984",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.99%",
+        "txt": "0.41%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,008</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "19.59",
+      "val": "21.15",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.88%",
+        "txt": "8.91%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">19.05</span>"
@@ -337,6 +337,22 @@
   "headlines": [
     {
       "when": "Nov 02",
+      "title": "Texas governor race tightens in prediction markets, but Abbott remains favored",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html"
+    },
+    {
+      "when": "Nov 02",
+      "title": "Stock market after midterm elections: What S&P 500 history shows",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html"
+    },
+    {
+      "when": "Nov 02",
       "title": "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
       "blurb": "",
       "kind": "",
@@ -344,44 +360,28 @@
       "link": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html"
     },
     {
+      "when": "Oct 31",
+      "title": "Binance’s $6.3 billion hack raises questions about crypto wallet safety",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/31/binance-hack-crypto-wallet-safety.html"
+    },
+    {
       "when": "Oct 30",
-      "title": "Euro zone economy slows to 0.4% growth in Q3 as crisis-hit France contracts",
+      "title": "Fed officials are already saying they’ll need to get back to hiking rates",
       "blurb": "",
       "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/30/euro-zone-gdp-france.html"
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html"
     },
     {
-      "when": "Oct 29",
-      "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+      "when": "Oct 30",
+      "title": "Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch",
       "blurb": "",
       "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
-    },
-    {
-      "when": "Oct 29",
-      "title": "Analysis: Kevin Warsh is keeping Wall Street guessing. It may be his most powerful tool",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"
-    },
-    {
-      "when": "Oct 29",
-      "title": "The politics of President Lagarde's European Central Bank early exit  — and who could replace her",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
-    },
-    {
-      "when": "Oct 29",
-      "title": "European Central Bank keeps key interest rate on hold at 2.5%",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html"
     }
   ],
   "cre": {
@@ -392,7 +392,7 @@
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
       "Bank CRE loan delinquency was 1.53%, -0.03pp against the prior quarter.",
-      "On net 11.3% of banks reported easing standards on CRE loans."
+      "On net 8.8% of banks reported tightening standards on CRE loans."
     ]
   },
   "cre_tiles": [
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Retail, Residential Landlord Hubb NYC Signs 12K-SF Deal at 1501 Broadway",
+      "title": "Prime Finance Provides $57M Refi for East Village Multifamily Complex",
       "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/hubb-nyc-lease-1501-broadway/"
+      "link": "https://commercialobserver.com/2026/11/prime-finance-provides-57m-refi-for-east-village-multifamily-complex/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Terra, Fortune International Land $220M for Waterfront Condo near Miami",
+      "title": "Atla Lands Lands $140M to Build Rental Tower in Fort Lauderdale",
       "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/terra-fortune-international-blackstone-key-biscayne-silver-sands/"
+      "link": "https://commercialobserver.com/2026/11/atla-new-river-florida/"
     },
     {
       "source": "Commercial Observer",
-      "title": "PCCP Refis Long Island Apartments With $154M Loan",
+      "title": "Northwind Provides $231M Construction Loan to Convert 675 Third Avenue",
       "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/pccp-amityville-long-island-apartments/"
+      "link": "https://commercialobserver.com/2026/11/northwind-metroloft-david-wener-675-third-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Finance Firm Webull Takes 42K SF at 140 Broadway",
+      "title": "BridgeCity Lends $28M for Williamsburg Multifamily Development",
       "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/finance-firm-webull-42k-sf-140-broadway/"
+      "link": "https://commercialobserver.com/2026/11/bridgecity-williamsburg-brooklyn-apartments/"
     },
     {
       "source": "Commercial Observer",
-      "title": "New York Life Provides $480M Refi for 10-Property Multifamily Portfolio",
+      "title": "Goldman Sachs Provides $43M Refi for Long Island Office Complex",
       "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/new-york-life-480m-refi-multifamily-portfolio/"
+      "link": "https://commercialobserver.com/2026/11/goldman-sachs-43m-refi-long-island-office-complex/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Madison Realty Capital, Red Cove Lend $132M for Seattle-Area Apartments Build",
+      "title": "Benefit Street Partners Provides $48M Refi for Brooklyn Mixed-Income Multifamily",
       "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/madison-realty-capital-red-cove-capital-seattle-apartments/"
+      "link": "https://commercialobserver.com/2026/11/benefit-street-refi-brooklyn-mixed-income-multifamily/"
     }
   ],
   "cre_fund_tiles": [
@@ -489,11 +489,11 @@
       "note": "<span class=\"mono\">+3.7%</span> outstanding vs. one year ago"
     },
     {
-      "lbl": "Bank Lending Standards · Q3",
-      "val": "-11.3",
+      "lbl": "Bank Lending Standards · Q4",
+      "val": "+8.8",
       "unit": "",
-      "tone": "pos",
-      "note": "Net share of banks <strong>easing</strong> CRE standards"
+      "tone": "neg",
+      "note": "Net share of banks <strong>tightening</strong> CRE standards"
     }
   ],
   "cre_fin_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.91",
-      "chg": "+2.64%",
+      "price": "73.73",
+      "chg": "+2.39%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.78",
-      "chg": "+0.90%",
+      "price": "95.06",
+      "chg": "+1.19%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.80",
-      "chg": "+1.60%",
+      "price": "63.47",
+      "chg": "+1.07%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.51",
-      "chg": "+1.20%",
+      "price": "129.65",
+      "chg": "+1.30%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.17",
-      "chg": "+0.44%",
+      "price": "62.22",
+      "chg": "+0.52%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "222.57",
-      "chg": "+2.21%",
+      "price": "221.73",
+      "chg": "+1.83%",
       "dir": 1
     }
   ],
