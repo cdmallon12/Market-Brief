@@ -3,32 +3,32 @@
     "date_line": "Monday · Nov 02, 2026",
     "as_of": "Auto-compiled from public sources · Nov 02, 2026",
     "compiled": "Compiled Nov 02, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-02T14:51:06Z"
+    "generated_utc": "2026-11-02T18:34:58Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,623.34",
-      "ch": "+0.57%",
+      "vl": "7,606.09",
+      "ch": "+0.34%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,644",
-      "ch": "+0.82%",
+      "vl": "25,493",
+      "ch": "+0.22%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,279",
-      "ch": "+0.98%",
+      "vl": "52,282",
+      "ch": "+0.99%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "19.05",
-      "ch": "-1.91%",
-      "dir": -1
+      "vl": "19.59",
+      "ch": "+0.88%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.10%",
+      "vl": "1.16%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.26%",
+      "vl": "3.44%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.57%",
-    "standfirst": "At the last close: S&P 500 7,623.34 (+0.57%); Nasdaq 25,644 (+0.82%); Dow 52,279 (+0.98%). VIX 19.05 (-1.91%).",
+    "headline": "The S&P 500 edged higher 0.34%",
+    "standfirst": "At the last close: S&P 500 7,606.09 (+0.34%); Nasdaq 25,493 (+0.22%); Dow 52,282 (+0.99%). VIX 19.59 (+0.88%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "6 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.75%; VMRK lagged at +0.13%."
+      "KRE led at +2.64%; VMRK lagged at +0.44%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "October openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 2"
+    "quote_note": "Quotes ~15-min delayed · as of 1:34 PM ET, Nov 2"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,623.34",
+      "val": "7,606.09",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.57%",
+        "txt": "0.34%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,610.83</span> · <span class=\"up mono\">+11.3%</span> YoY"
+      "note": "Open <span class=\"mono\">7,610.83</span> · <span class=\"up mono\">+11.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,644",
+      "val": "25,493",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.82%",
+        "txt": "0.22%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,600</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,279",
+      "val": "52,282",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.98%",
+        "txt": "0.99%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,008</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "19.05",
-      "tone": "neg",
+      "val": "19.59",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "1.91%",
+        "dir": 1,
+        "txt": "0.88%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">19.05</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.10%, high-yield at 3.26%",
-    "standfirst": "The high-yield premium over investment grade is 2.16 percentage points. The 2s10s Treasury spread is +38 bps.",
+    "headline": "Investment-grade OAS at 1.16%, high-yield at 3.44%",
+    "standfirst": "The high-yield premium over investment grade is 2.28 percentage points. The 2s10s Treasury spread is +38 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,39 +296,39 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.10",
+      "val": "1.16",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.03pp",
+        "txt": "+0.06pp",
         "note": "wider"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.26",
+      "val": "3.44",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.12pp",
+        "txt": "+0.18pp",
         "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.16",
+      "val": "2.28",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.1,
-    "hy": 3.26
+    "ig": 1.16,
+    "hy": 3.44
   },
   "news": {
     "headline": "Latest headlines",
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "AI’s Payoff for Real Estate Investors Comes From What the Model Can See",
+      "title": "Retail, Residential Landlord Hubb NYC Signs 12K-SF Deal at 1501 Broadway",
       "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/ais-payoff-dealpath-sroka/"
+      "link": "https://commercialobserver.com/2026/11/hubb-nyc-lease-1501-broadway/"
     },
     {
       "source": "Commercial Observer",
-      "title": "CMBS Distress Shifts Away From New York",
+      "title": "Terra, Fortune International Land $220M for Waterfront Condo near Miami",
       "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/cmbs-distress-2026-2/"
+      "link": "https://commercialobserver.com/2026/11/terra-fortune-international-blackstone-key-biscayne-silver-sands/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Brightshore Capital Buys New Long Island City Multifamily Complex for $150M",
+      "title": "PCCP Refis Long Island Apartments With $154M Loan",
       "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/brightshore-capital-long-island-city-deal-multifamily/"
+      "link": "https://commercialobserver.com/2026/11/pccp-amityville-long-island-apartments/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Where Opportunistic Investment Is Finding Deals in 2026",
+      "title": "Finance Firm Webull Takes 42K SF at 140 Broadway",
       "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/opportunistic-investment-2026/"
+      "link": "https://commercialobserver.com/2026/11/finance-firm-webull-42k-sf-140-broadway/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Cushman & Wakefield Rehires Gene Spiegelman as Retail Services Vice Chairman",
+      "title": "New York Life Provides $480M Refi for 10-Property Multifamily Portfolio",
       "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/cushman-wakefield-hires-gene-spiegelman-retail-vice-chairman/"
+      "link": "https://commercialobserver.com/2026/11/new-york-life-480m-refi-multifamily-portfolio/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Florida’s Property Tax Cut Proposal Could Boomerang on Commercial Owners",
+      "title": "Madison Realty Capital, Red Cove Lend $132M for Seattle-Area Apartments Build",
       "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/florida-property-tax-amendment-3/"
+      "link": "https://commercialobserver.com/2026/11/madison-realty-capital-red-cove-capital-seattle-apartments/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.86",
-      "chg": "+1.18%",
+      "price": "73.91",
+      "chg": "+2.64%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.52",
-      "chg": "+0.61%",
+      "price": "94.78",
+      "chg": "+0.90%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.90",
-      "chg": "+1.75%",
+      "price": "63.80",
+      "chg": "+1.60%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.90",
-      "chg": "+0.72%",
+      "price": "129.51",
+      "chg": "+1.20%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.98",
-      "chg": "+0.13%",
+      "price": "62.17",
+      "chg": "+0.44%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "221.07",
-      "chg": "+1.53%",
+      "price": "222.57",
+      "chg": "+2.21%",
       "dir": 1
     }
   ],
