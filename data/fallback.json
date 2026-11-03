@@ -3,31 +3,31 @@
     "date_line": "Tuesday · Nov 03, 2026",
     "as_of": "Auto-compiled from public sources · Nov 03, 2026",
     "compiled": "Compiled Nov 03, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-03T16:22:29Z"
+    "generated_utc": "2026-11-03T20:17:59Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,578.09",
-      "ch": "+0.49%",
+      "vl": "7,563.16",
+      "ch": "+0.29%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,378",
-      "ch": "+0.85%",
+      "vl": "25,351",
+      "ch": "+0.74%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,857",
-      "ch": "-0.24%",
+      "vl": "51,749",
+      "ch": "-0.45%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "20.36",
-      "ch": "-3.74%",
+      "vl": "20.95",
+      "ch": "-0.95%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.49%",
-    "standfirst": "At the last close: S&P 500 7,578.09 (+0.49%); Nasdaq 25,378 (+0.85%); Dow 51,857 (-0.24%). VIX 20.36 (-3.74%).",
+    "headline": "The S&P 500 edged higher 0.29%",
+    "standfirst": "At the last close: S&P 500 7,563.16 (+0.29%); Nasdaq 25,351 (+0.74%); Dow 51,749 (-0.45%). VIX 20.95 (-0.95%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "VNQ led at -0.08%; BXP lagged at -1.78%."
+      "SPG led at -0.28%; BXP lagged at -1.64%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "October openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:22 AM ET, Nov 3"
+    "quote_note": "Quotes ~15-min delayed · as of 3:17 PM ET, Nov 3"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,578.09",
+      "val": "7,563.16",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.49%",
+        "txt": "0.29%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,552.92</span> · <span class=\"up mono\">+10.6%</span> YoY"
+      "note": "Open <span class=\"mono\">7,552.92</span> · <span class=\"up mono\">+10.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,378",
+      "val": "25,351",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.85%",
+        "txt": "0.74%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,247</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,857",
+      "val": "51,749",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.24%",
+        "txt": "0.45%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,933</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "20.36",
+      "val": "20.95",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "3.74%",
+        "txt": "0.95%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">21.66</span>"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Affinius Capital Provides $226M for Downtown Brooklyn Multifamily Building",
+      "title": "Fintech Firm Octaura Holdings Inks 29K SF at ESRT’s 111 West 33rd Street",
       "when": "Nov 03",
-      "link": "https://commercialobserver.com/2026/11/affinius-capital-brooklyn-multifamily-55-willoughby/"
+      "link": "https://commercialobserver.com/2026/11/octaura-holdings-office-lease-esrt-111-west-33rd-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Outpost Acquires Two IOS Facilities Near Shipping Corridors in New Jersey",
+      "title": "Vornado Reports Strong Q3 Cash Flow, Revenue Behind Brisk Office Leasing",
       "when": "Nov 03",
-      "link": "https://commercialobserver.com/2026/11/outpost-sale-ios-facilities-new-jersey/"
+      "link": "https://commercialobserver.com/2026/11/vornado-q3-2026-earnings/"
     },
     {
       "source": "Commercial Observer",
-      "title": "What Trio of Things Would Our 2026 Lenders Take With Them to a Desert Island?",
+      "title": "Nuveen Sells South Florida Rental for $53M",
       "when": "Nov 03",
-      "link": "https://commercialobserver.com/2026/11/desert-island-musts-lenders-2026/"
+      "link": "https://commercialobserver.com/2026/11/nuveen-legacy-residential-landings-at-coconut-creek/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Commercial Real Estate Lenders Adapt to Higher-Forever Rates",
+      "title": "Catalyst IOS Doubles HQ at SL Green’s 800 Third Avenue to 12K SF",
       "when": "Nov 03",
-      "link": "https://commercialobserver.com/2026/11/commercial-real-estate-lenders-higher-forever-rates/"
+      "link": "https://commercialobserver.com/2026/11/catalyst-ios-office-lease-expansion-sl-green-800-third-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Lenders 2026",
+      "title": "Old Millionaires’ Row Makes Way for Billionaires’ Row as Mansion Trades for $42M",
       "when": "Nov 03",
-      "link": "https://commercialobserver.com/2026/11/lenders-2026/"
+      "link": "https://commercialobserver.com/2026/11/35-west-57th-street-sale-sedesco-soloviev/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Commercial Real Estate Lenders Are Becoming Pros at Handling Market Disruption",
+      "title": "Discipline Is the Bridge Between Ambition and Achievement",
       "when": "Nov 03",
-      "link": "https://commercialobserver.com/2026/11/commercial-real-estate-lenders-market-disruption/"
+      "link": "https://commercialobserver.com/2026/11/discipline-in-business/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.47",
-      "chg": "-0.36%",
+      "price": "73.16",
+      "chg": "-0.78%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.98",
-      "chg": "-0.08%",
+      "price": "94.68",
+      "chg": "-0.40%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.34",
-      "chg": "-1.78%",
+      "price": "62.43",
+      "chg": "-1.64%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.27",
-      "chg": "-1.06%",
+      "price": "128.38",
+      "chg": "-0.98%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "61.98",
-      "chg": "-0.39%",
+      "price": "61.81",
+      "chg": "-0.65%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "220.94",
-      "chg": "-0.36%",
+      "price": "221.10",
+      "chg": "-0.28%",
       "dir": -1
     }
   ],
