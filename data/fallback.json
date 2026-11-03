@@ -3,7 +3,7 @@
     "date_line": "Monday · Nov 02, 2026",
     "as_of": "Auto-compiled from public sources · Nov 02, 2026",
     "compiled": "Compiled Nov 02, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-02T22:29:10Z"
+    "generated_utc": "2026-11-03T02:28:46Z"
   },
   "ticker": [
     {
@@ -147,7 +147,7 @@
         "body": "October openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 2"
+    "quote_note": "Quotes ~15-min delayed · as of 6:18 PM ET, Nov 2"
   },
   "markets_tiles": [
     {
@@ -337,19 +337,19 @@
   "headlines": [
     {
       "when": "Nov 02",
-      "title": "Texas governor race tightens in prediction markets, but Abbott remains favored",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html"
-    },
-    {
-      "when": "Nov 02",
       "title": "Stock market after midterm elections: What S&P 500 history shows",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html"
+    },
+    {
+      "when": "Nov 02",
+      "title": "Texas governor race tightens in prediction markets, but Abbott remains favored",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html"
     },
     {
       "when": "Nov 02",
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Goodman Capital Leads $44M Condo Inventory Loan on Long Island City Project",
+      "when": "Nov 02",
+      "link": "https://commercialobserver.com/2026/11/goodman-capital-condos-long-island-city-queens/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Prime Finance Provides $57M Refi for East Village Multifamily Complex",
       "when": "Nov 02",
       "link": "https://commercialobserver.com/2026/11/prime-finance-provides-57m-refi-for-east-village-multifamily-complex/"
@@ -460,12 +466,6 @@
       "title": "Goldman Sachs Provides $43M Refi for Long Island Office Complex",
       "when": "Nov 02",
       "link": "https://commercialobserver.com/2026/11/goldman-sachs-43m-refi-long-island-office-complex/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Benefit Street Partners Provides $48M Refi for Brooklyn Mixed-Income Multifamily",
-      "when": "Nov 02",
-      "link": "https://commercialobserver.com/2026/11/benefit-street-refi-brooklyn-mixed-income-multifamily/"
     }
   ],
   "cre_fund_tiles": [
