@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Tuesday · Nov 03, 2026",
-    "as_of": "Auto-compiled from public sources · Nov 03, 2026",
-    "compiled": "Compiled Nov 03, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-04T03:03:47Z"
+    "date_line": "Wednesday · Nov 04, 2026",
+    "as_of": "Auto-compiled from public sources · Nov 04, 2026",
+    "compiled": "Compiled Nov 04, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-11-04T14:50:52Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,568.92",
-      "ch": "+0.36%",
+      "vl": "7,694.04",
+      "ch": "+1.65%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,372",
-      "ch": "+0.83%",
+      "vl": "25,899",
+      "ch": "+2.08%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,787",
-      "ch": "-0.38%",
-      "dir": -1
+      "vl": "52,942",
+      "ch": "+2.23%",
+      "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "20.83",
-      "ch": "-1.51%",
+      "vl": "17.79",
+      "ch": "-14.59%",
       "dir": -1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.95%",
+      "vl": "3.97%",
       "ch": "",
       "dir": 0
     },
@@ -98,34 +98,29 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.17%",
+      "vl": "1.16%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.43%",
+      "vl": "3.40%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged higher 0.36%",
-    "standfirst": "At the last close: S&P 500 7,568.92 (+0.36%); Nasdaq 25,372 (+0.83%); Dow 51,787 (-0.38%). VIX 20.83 (-1.51%).",
+    "headline": "The S&P 500 climbed 1.65%",
+    "standfirst": "At the last close: S&P 500 7,694.04 (+1.65%); Nasdaq 25,899 (+2.08%); Dow 52,942 (+2.23%). VIX 17.79 (-14.59%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "SPG led at +0.16%; BXP lagged at -1.32%."
+      "6 of 6 names on the watchlist closed higher.",
+      "BXP led at +2.83%; PLD lagged at +0.67%."
     ],
-    "card2_title": "On the calendar today",
-    "card2_sub": "Scheduled economic releases (ET)",
+    "card2_title": "Coming up",
+    "card2_sub": "Next scheduled economic releases (ET)",
     "catalysts": [
-      {
-        "when": "10:00 ET · Today",
-        "title": "JOLTS job openings",
-        "body": "September openings, hires and quits."
-      },
       {
         "when": "Fri · Nov 6",
         "title": "Employment Situation",
@@ -145,54 +140,59 @@
         "when": "Tue · Dec 1",
         "title": "JOLTS job openings",
         "body": "October openings, hires and quits."
+      },
+      {
+        "when": "Fri · Dec 4",
+        "title": "Employment Situation",
+        "body": "November payrolls. The last jobs report before the December FOMC."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 3"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 4"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,568.92",
+      "val": "7,694.04",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.36%",
+        "txt": "1.65%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,552.92</span> · <span class=\"up mono\">+11.8%</span> YoY"
+      "note": "Open <span class=\"mono\">7,635.81</span> · <span class=\"up mono\">+13.6%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,372",
+      "val": "25,899",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.83%",
+        "txt": "2.08%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">25,247</span>"
+      "note": "Open <span class=\"mono\">25,653</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,787",
-      "tone": "neg",
+      "val": "52,942",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.38%",
+        "dir": 1,
+        "txt": "2.23%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">51,933</span>"
+      "note": "Open <span class=\"mono\">52,410</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "20.83",
+      "val": "17.79",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.51%",
+        "txt": "14.59%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">21.66</span>"
+      "note": "Open <span class=\"mono\">19.20</span>"
     }
   ],
   "economy": {
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.17%, high-yield at 3.43%",
-    "standfirst": "The high-yield premium over investment grade is 2.26 percentage points. The 2s10s Treasury spread is +34 bps.",
+    "headline": "Investment-grade OAS at 1.16%, high-yield at 3.40%",
+    "standfirst": "The high-yield premium over investment grade is 2.24 percentage points. The 2s10s Treasury spread is +34 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,22 +296,10 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.17",
+      "val": "1.16",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
-      "delta": {
-        "dir": 0,
-        "txt": "+0.01pp",
-        "note": "wider"
-      }
-    },
-    {
-      "lbl": "High-Yield OAS",
-      "val": "3.43",
-      "unit": "%",
-      "tone": "",
-      "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
         "txt": "-0.01pp",
@@ -319,22 +307,58 @@
       }
     },
     {
+      "lbl": "High-Yield OAS",
+      "val": "3.40",
+      "unit": "%",
+      "tone": "",
+      "note": "Below-investment-grade spread — the risk-appetite gauge",
+      "delta": {
+        "dir": 0,
+        "txt": "-0.03pp",
+        "note": "tighter"
+      }
+    },
+    {
       "lbl": "HY − IG Premium",
-      "val": "2.26",
+      "val": "2.24",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.17,
-    "hy": 3.43
+    "ig": 1.16,
+    "hy": 3.4
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Nov 04",
+      "title": "Private companies added 86,000 jobs in October, slightly higher than expected, ADP says",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html"
+    },
+    {
+      "when": "Nov 04",
+      "title": "Treasury yields fall after Democrats win House and Senate majorities",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
+    },
+    {
+      "when": "Nov 04",
+      "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+    },
     {
       "when": "Nov 03",
       "title": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
@@ -358,34 +382,10 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html"
-    },
-    {
-      "when": "Nov 03",
-      "title": "Blackstone president calls for more equity to fund AI buildout as debt risks mount",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/03/equity-ai-debt-blackstone-pimco-financing.html"
-    },
-    {
-      "when": "Nov 02",
-      "title": "Australia hikes rates to 18-year high to fight inflation",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html"
-    },
-    {
-      "when": "Nov 02",
-      "title": "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.95%, overnight SOFR at 3.95%",
+    "headline": "The 10-year at 4.95%, overnight SOFR at 3.97%",
     "standfirst": "An illustrative agency coupon prices at 6.30–6.60%. The Freddie Mac 30-year survey rate is 7.24%.",
     "curve_date": "Nov 03, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.95",
+      "val": "3.97",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Cushman & Wakefield’s Mark Weiss Named GSA Public Buildings Commissioner",
+      "when": "Nov 04",
+      "link": "https://commercialobserver.com/2026/11/mark-weiss-jennifer-hill-gsa-cushman-wakefield-frost/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Nate Brzozowski of Savills: 5 Questions",
+      "when": "Nov 04",
+      "link": "https://commercialobserver.com/2026/11/nate-brzozowski-savills-5-questions/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "New York City Apartment Rents Reach Record Highs: Report",
+      "when": "Nov 04",
+      "link": "https://commercialobserver.com/2026/11/new-york-city-apartment-rents-record-highs/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "The Plan: At 175 East 82nd, the Light Shines — and a Penthouse Costs $30M",
+      "when": "Nov 04",
+      "link": "https://commercialobserver.com/2026/11/the-plan-at-175-east-82nd/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Architecture Firm Corgan Expands to 41K SF at Empire State Building",
       "when": "Nov 03",
       "link": "https://commercialobserver.com/2026/11/corgan-expansion-lease-empire-state-building/"
@@ -442,30 +466,6 @@
       "title": "Wells Fargo Supplies $133M Refi for Miami-Dade Industrial Campus",
       "when": "Nov 03",
       "link": "https://commercialobserver.com/2026/11/wells-fargo-dolphin-commerce-center-lba-realty/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Apparel Brand American Giant Leases Brooklyn Store at 83-85 Metropolitan Avenue",
-      "when": "Nov 03",
-      "link": "https://commercialobserver.com/2026/11/american-giant-retail-lease-83-85-metropolitan-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "ESRT Posts Strong Q3 Office Activity, but Empire State Building Visits Remain Low",
-      "when": "Nov 03",
-      "link": "https://commercialobserver.com/2026/11/esrt-q3-earnings-empire-state-building/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Fintech Firm Octaura Holdings Inks 29K SF at ESRT’s 111 West 33rd Street",
-      "when": "Nov 03",
-      "link": "https://commercialobserver.com/2026/11/octaura-holdings-office-lease-esrt-111-west-33rd-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Vornado Reports Strong Q3 Cash Flow, Revenue Behind Brisk Office Leasing",
-      "when": "Nov 03",
-      "link": "https://commercialobserver.com/2026/11/vornado-q3-2026-earnings/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.88",
-      "chg": "-1.15%",
-      "dir": -1
+      "price": "74.72",
+      "chg": "+2.52%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "95.01",
-      "chg": "-0.05%",
-      "dir": -1
+      "price": "96.50",
+      "chg": "+1.56%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.63",
-      "chg": "-1.32%",
-      "dir": -1
+      "price": "64.40",
+      "chg": "+2.83%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.08",
-      "chg": "-0.44%",
-      "dir": -1
+      "price": "129.94",
+      "chg": "+0.67%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "62.04",
-      "chg": "-0.29%",
-      "dir": -1
+      "price": "62.97",
+      "chg": "+1.50%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "222.08",
-      "chg": "+0.16%",
+      "price": "225.31",
+      "chg": "+1.45%",
       "dir": 1
     }
   ],
