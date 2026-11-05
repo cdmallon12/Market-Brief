@@ -3,31 +3,31 @@
     "date_line": "Thursday · Nov 05, 2026",
     "as_of": "Auto-compiled from public sources · Nov 05, 2026",
     "compiled": "Compiled Nov 05, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-05T20:50:28Z"
+    "generated_utc": "2026-11-05T22:43:32Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,371.80",
-      "ch": "-4.12%",
+      "vl": "7,353.73",
+      "ch": "-4.36%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "24,391",
-      "ch": "-5.23%",
+      "vl": "24,315",
+      "ch": "-5.52%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,588",
-      "ch": "-3.31%",
+      "vl": "51,523",
+      "ch": "-3.44%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "26.01",
-      "ch": "+56.59%",
+      "vl": "28.18",
+      "ch": "+69.66%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 dropped 4.12%",
-    "standfirst": "At the last close: S&P 500 7,371.80 (-4.12%); Nasdaq 24,391 (-5.23%); Dow 51,588 (-3.31%). VIX 26.01 (+56.59%).",
+    "headline": "The S&P 500 dropped 4.36%",
+    "standfirst": "At the last close: S&P 500 7,353.73 (-4.36%); Nasdaq 24,315 (-5.52%); Dow 51,523 (-3.44%). VIX 28.18 (+69.66%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "1 of 6 names on the watchlist closed higher.",
-      "VMRK led at +2.12%; KRE lagged at -2.14%."
+      "VMRK led at +2.40%; KRE lagged at -2.46%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "November payrolls. The last jobs report before the December FOMC."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 3:49 PM ET, Nov 5"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 5"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,371.80",
+      "val": "7,353.73",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "4.12%",
+        "txt": "4.36%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,678.72</span> · <span class=\"up mono\">+8.5%</span> YoY"
+      "note": "Open <span class=\"mono\">7,678.72</span> · <span class=\"up mono\">+9.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "24,391",
+      "val": "24,315",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "5.23%",
+        "txt": "5.52%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,558</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,588",
+      "val": "51,523",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "3.31%",
+        "txt": "3.44%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">53,679</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "26.01",
+      "val": "28.18",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "56.59%",
+        "txt": "69.66%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.14</span>"
@@ -337,6 +337,22 @@
   "headlines": [
     {
       "when": "Nov 05",
+      "title": "Nasdaq drops into correction territory — here’s what typically happens next",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html"
+    },
+    {
+      "when": "Nov 05",
+      "title": "The October jobs report is out Friday. Here's everything to expect",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html"
+    },
+    {
+      "when": "Nov 05",
       "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
       "blurb": "",
       "kind": "",
@@ -366,22 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
-    },
-    {
-      "when": "Nov 05",
-      "title": "Here's what the Democratic election rout could mean for the U.S. economy",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html"
-    },
-    {
-      "when": "Nov 05",
-      "title": "What the Democratic midterms sweep changes for U.S.-China relations",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html"
     }
   ],
   "cre": {
@@ -433,6 +433,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "New York Office Market Leaders On Talent Retention, Affordability and AI",
+      "when": "Nov 05",
+      "link": "https://commercialobserver.com/2026/11/new-york-office-market-talent-retention-affordability-ai/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Fortress Buys Assisted Living Center in Delray Beach, Fla.",
+      "when": "Nov 05",
+      "link": "https://commercialobserver.com/2026/11/fortress-investment-group-delray-beach/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "‍Coral Gables, Fla., Spends $24M to Expand City Hall‍",
+      "when": "Nov 05",
+      "link": "https://commercialobserver.com/2026/11/coral-gables-spends-24m-to-expand-city-hall/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "MetLife Expands to 500K SF at 200 Park Avenue",
       "when": "Nov 05",
       "link": "https://commercialobserver.com/2026/11/metlife-lease-expansion-200-park-avenue/"
@@ -448,24 +466,6 @@
       "title": "Artemis Real Estate Buys Newport Beach, Calif., Senior Living Community From Ventas",
       "when": "Nov 05",
       "link": "https://commercialobserver.com/2026/11/artemis-newport-beach-calif-senior-living-ventas/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Welltower Pays at Least $49M for Broward, Fla., Rehab and Nursing Home",
-      "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/welltower-glades-west-rehab-nursing-center/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower",
-      "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/blackstone-bridge-loan-nashville-peabody-union/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Greystone Supplies $47M Freddie Mac Loan on Illinois Multifamily Acquisition",
-      "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/greystone-freddie-mac-chicago-illinois-apartments/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.54",
-      "chg": "-2.14%",
+      "price": "72.31",
+      "chg": "-2.46%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.24",
-      "chg": "-1.83%",
+      "price": "96.23",
+      "chg": "-1.84%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "65.25",
-      "chg": "-1.07%",
+      "price": "65.24",
+      "chg": "-1.09%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.66",
-      "chg": "-2.06%",
+      "price": "128.55",
+      "chg": "-2.14%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.07",
-      "chg": "+2.12%",
+      "price": "65.25",
+      "chg": "+2.40%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "227.29",
-      "chg": "-0.53%",
+      "price": "226.55",
+      "chg": "-0.85%",
       "dir": -1
     }
   ],
