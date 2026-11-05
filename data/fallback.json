@@ -3,48 +3,48 @@
     "date_line": "Thursday · Nov 05, 2026",
     "as_of": "Auto-compiled from public sources · Nov 05, 2026",
     "compiled": "Compiled Nov 05, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-05T16:35:00Z"
+    "generated_utc": "2026-11-05T20:50:28Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,460.79",
-      "ch": "-2.96%",
+      "vl": "7,371.80",
+      "ch": "-4.12%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "24,681",
-      "ch": "-4.10%",
+      "vl": "24,391",
+      "ch": "-5.23%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,151",
-      "ch": "-2.26%",
+      "vl": "51,588",
+      "ch": "-3.31%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "23.14",
-      "ch": "+39.31%",
+      "vl": "26.01",
+      "ch": "+56.59%",
       "dir": 1
     },
     {
       "nm": "10Y UST",
-      "vl": "4.90%",
+      "vl": "4.84%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.58%",
+      "vl": "4.46%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.28%",
+      "vl": "5.25%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 dropped 2.96%",
-    "standfirst": "At the last close: S&P 500 7,460.79 (-2.96%); Nasdaq 24,681 (-4.10%); Dow 52,151 (-2.26%). VIX 23.14 (+39.31%).",
+    "headline": "The S&P 500 dropped 4.12%",
+    "standfirst": "At the last close: S&P 500 7,371.80 (-4.12%); Nasdaq 24,391 (-5.23%); Dow 51,588 (-3.31%). VIX 26.01 (+56.59%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "1 of 6 names on the watchlist closed higher.",
-      "VMRK led at +1.35%; BXP lagged at -1.80%."
+      "VMRK led at +2.12%; KRE lagged at -2.14%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "November payrolls. The last jobs report before the December FOMC."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:34 AM ET, Nov 5"
+    "quote_note": "Quotes ~15-min delayed · as of 3:49 PM ET, Nov 5"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,460.79",
+      "val": "7,371.80",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.96%",
+        "txt": "4.12%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,678.72</span> · <span class=\"up mono\">+9.8%</span> YoY"
+      "note": "Open <span class=\"mono\">7,678.72</span> · <span class=\"up mono\">+8.5%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "24,681",
+      "val": "24,391",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "4.10%",
+        "txt": "5.23%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,558</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,151",
+      "val": "51,588",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.26%",
+        "txt": "3.31%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">53,679</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "23.14",
+      "val": "26.01",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "39.31%",
+        "txt": "56.59%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.14</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.13%, high-yield at 3.32%",
-    "standfirst": "The high-yield premium over investment grade is 2.19 percentage points. The 2s10s Treasury spread is +32 bps.",
+    "standfirst": "The high-yield premium over investment grade is 2.19 percentage points. The 2s10s Treasury spread is +38 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +32 bps; 3m10y +69 bps; 5s30s +59 bps; 10s30s +38 bps."
+      "Across the curve: 2s10s +38 bps; 3m10y +67 bps; 5s30s +66 bps; 10s30s +41 bps."
     ]
   },
   "credit_tiles": [
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Nov 05",
+      "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+    },
+    {
+      "when": "Nov 05",
       "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
       "blurb": "",
       "kind": "",
@@ -374,20 +382,12 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html"
-    },
-    {
-      "when": "Nov 04",
-      "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.90%, overnight SOFR at 3.94%",
-    "standfirst": "An illustrative agency coupon prices at 6.25–6.55%. The Freddie Mac 30-year survey rate is 7.24%.",
-    "curve_date": "Nov 04, 2026",
+    "headline": "The 10-year at 4.84%, overnight SOFR at 3.94%",
+    "standfirst": "An illustrative agency coupon prices at 6.19–6.49%. The Freddie Mac 30-year survey rate is 7.18%.",
+    "curve_date": "Nov 05, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,14 +398,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "4.90",
+      "val": "4.84",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+32 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+38 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.58",
+      "val": "4.46",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Sports Clothing Brand RBX Direct Signs 5K-SF Garment District Lease",
+      "title": "MetLife Expands to 500K SF at 200 Park Avenue",
       "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/rbx-direct-lease-102-west-38th-street/"
+      "link": "https://commercialobserver.com/2026/11/metlife-lease-expansion-200-park-avenue/"
     },
     {
       "source": "Commercial Observer",
-      "title": "For Mall Giant Macerich, More Turnaround in Q3",
+      "title": "Vivmark Touts Integration and Growth in First Quarterly Earnings Call",
       "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/macerich-third-quarter-2026/"
+      "link": "https://commercialobserver.com/2026/11/vivmark-q3-2026/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Get to Know the Broker: Michael Martirena of Compass",
+      "title": "Artemis Real Estate Buys Newport Beach, Calif., Senior Living Community From Ventas",
       "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/get-to-know-the-broker-michael-martirena-compass/"
+      "link": "https://commercialobserver.com/2026/11/artemis-newport-beach-calif-senior-living-ventas/"
     },
     {
       "source": "Commercial Observer",
-      "title": "The Co-op Comeback: New York Buyers Are Reconsidering the Condo Trade-Off",
+      "title": "Welltower Pays at Least $49M for Broward, Fla., Rehab and Nursing Home",
       "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/co-op-new-york-buyers-condo-sales/"
+      "link": "https://commercialobserver.com/2026/11/welltower-glades-west-rehab-nursing-center/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Broward County Splits on CRE Ballot Measures",
+      "title": "Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower",
       "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/broward-county-election-measures-fort-lauderdale-hollywood-deerfield-beach/"
+      "link": "https://commercialobserver.com/2026/11/blackstone-bridge-loan-nashville-peabody-union/"
     },
     {
       "source": "Commercial Observer",
-      "title": "TF Cornerstone Hires Walt Disney’s Michael Gordon to Lead 175 Park Avenue Project",
+      "title": "Greystone Supplies $47M Freddie Mac Loan on Illinois Multifamily Acquisition",
       "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/tf-cornerstone-hire-walt-disney-michael-gordon-175-park-avenue/"
+      "link": "https://commercialobserver.com/2026/11/greystone-freddie-mac-chicago-illinois-apartments/"
     }
   ],
   "cre_fund_tiles": [
@@ -499,29 +499,29 @@
   "cre_fin_tiles": [
     {
       "lbl": "30-Yr Mortgage · PMMS",
-      "val": "7.24",
+      "val": "7.18",
       "unit": "%",
       "tone": "",
       "note": "Freddie Mac Primary Mortgage Market Survey",
       "delta": {
         "dir": 0,
-        "txt": "-0.08pp",
+        "txt": "-0.06pp",
         "note": "wk/wk"
       }
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.25–6.55",
+      "val": "6.19–6.49",
       "unit": "%",
       "tone": "",
-      "note": "10Y (4.90%) + 135–165 bp agency spread"
+      "note": "10Y (4.84%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+32",
-    "3m10y": "+69",
-    "5s30s": "+59",
-    "10s30s": "+38"
+    "2s10s": "+38",
+    "3m10y": "+67",
+    "5s30s": "+66",
+    "10s30s": "+41"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.08",
-      "chg": "-1.42%",
+      "price": "72.54",
+      "chg": "-2.14%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.58",
-      "chg": "-1.48%",
+      "price": "96.24",
+      "chg": "-1.83%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.78",
-      "chg": "-1.80%",
+      "price": "65.25",
+      "chg": "-1.07%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.91",
-      "chg": "-1.10%",
+      "price": "128.66",
+      "chg": "-2.06%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.58",
-      "chg": "+1.35%",
+      "price": "65.07",
+      "chg": "+2.12%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "228.01",
-      "chg": "-0.21%",
+      "price": "227.29",
+      "chg": "-0.53%",
       "dir": -1
     }
   ],
@@ -651,84 +651,84 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 4.01,
+      "y": 4.03,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.21,
+      "y": 4.17,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.25,
+      "y": 4.19,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.39,
+      "y": 4.28,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.58,
+      "y": 4.46,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.64,
+      "y": 4.53,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.69,
+      "y": 4.59,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.77,
+      "y": 4.7,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 4.9,
+      "y": 4.84,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.3,
+      "y": 5.27,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.28,
+      "y": 5.25,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.4
+    "new": 6.34
   },
   "orig": {
     "y2025": 633.7,
