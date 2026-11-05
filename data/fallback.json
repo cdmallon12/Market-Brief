@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Wednesday · Nov 04, 2026",
-    "as_of": "Auto-compiled from public sources · Nov 04, 2026",
-    "compiled": "Compiled Nov 04, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-05T03:34:39Z"
+    "date_line": "Thursday · Nov 05, 2026",
+    "as_of": "Auto-compiled from public sources · Nov 05, 2026",
+    "compiled": "Compiled Nov 05, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-11-05T14:50:49Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,688.62",
-      "ch": "+1.58%",
-      "dir": 1
+      "vl": "7,592.00",
+      "ch": "-1.26%",
+      "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,737",
-      "ch": "+1.44%",
-      "dir": 1
+      "vl": "25,096",
+      "ch": "-2.49%",
+      "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "53,356",
-      "ch": "+3.03%",
-      "dir": 1
+      "vl": "53,175",
+      "ch": "-0.34%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "16.61",
-      "ch": "-20.26%",
-      "dir": -1
+      "vl": "17.76",
+      "ch": "+6.92%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.97%",
+      "vl": "3.94%",
       "ch": "",
       "dir": 0
     },
@@ -110,19 +110,19 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 climbed 1.58%",
-    "standfirst": "At the last close: S&P 500 7,688.62 (+1.58%); Nasdaq 25,737 (+1.44%); Dow 53,356 (+3.03%). VIX 16.61 (-20.26%).",
+    "headline": "The S&P 500 fell 1.26%",
+    "standfirst": "At the last close: S&P 500 7,592.00 (-1.26%); Nasdaq 25,096 (-2.49%); Dow 53,175 (-0.34%). VIX 17.76 (+6.92%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "BXP led at +5.32%; KRE lagged at +1.72%."
+      "5 of 6 names on the watchlist closed higher.",
+      "VMRK led at +3.33%; VNQ lagged at -0.16%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
     "catalysts": [
       {
-        "when": "Fri · Nov 6",
+        "when": "Tomorrow",
         "title": "Employment Situation",
         "body": "October payrolls, unemployment rate and average hourly earnings."
       },
@@ -147,52 +147,52 @@
         "body": "November payrolls. The last jobs report before the December FOMC."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 4"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 5"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,688.62",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "1.58%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">7,635.81</span> · <span class=\"up mono\">+13.1%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "25,737",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "1.44%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">25,653</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "53,356",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "3.03%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">52,410</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "16.61",
+      "val": "7,592.00",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "20.26%",
+        "txt": "1.26%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">19.20</span>"
+      "note": "Open <span class=\"mono\">7,678.72</span> · <span class=\"up mono\">+11.7%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "25,096",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "2.49%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">25,558</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "53,175",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.34%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">53,679</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "17.76",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "6.92%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">17.14</span>"
     }
   ],
   "economy": {
@@ -336,12 +336,44 @@
   },
   "headlines": [
     {
-      "when": "Nov 04",
-      "title": "The economy brought Trump back to power. Now it's his downfall",
+      "when": "Nov 05",
+      "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html"
+    },
+    {
+      "when": "Nov 05",
+      "title": "Here's what the Democratic election rout could mean for the U.S. economy",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html"
+    },
+    {
+      "when": "Nov 05",
+      "title": "Voters say the economy drove them to the polls — and blame Trump for their troubles",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/04/2026-midterms-trump-economy-iran-war.html"
+    },
+    {
+      "when": "Nov 05",
+      "title": "What the Democratic midterms sweep changes for U.S.-China relations",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html"
+    },
+    {
+      "when": "Nov 05",
+      "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
     },
     {
       "when": "Nov 04",
@@ -350,42 +382,10 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html"
-    },
-    {
-      "when": "Nov 04",
-      "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
-    },
-    {
-      "when": "Nov 04",
-      "title": "Private companies added 86,000 jobs in October, slightly higher than expected, ADP says",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html"
-    },
-    {
-      "when": "Nov 04",
-      "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
-    },
-    {
-      "when": "Nov 03",
-      "title": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.90%, overnight SOFR at 3.97%",
+    "headline": "The 10-year at 4.90%, overnight SOFR at 3.94%",
     "standfirst": "An illustrative agency coupon prices at 6.25–6.55%. The Freddie Mac 30-year survey rate is 7.24%.",
     "curve_date": "Nov 04, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.97",
+      "val": "3.94",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "For Mall Giant Macerich, More Turnaround in Q3",
+      "when": "Nov 05",
+      "link": "https://commercialobserver.com/2026/11/macerich-third-quarter-2026/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Get to Know the Broker: Michael Martirena of Compass",
+      "when": "Nov 05",
+      "link": "https://commercialobserver.com/2026/11/get-to-know-the-broker-michael-martirena-compass/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "The Co-op Comeback: New York Buyers Are Reconsidering the Condo Trade-Off",
+      "when": "Nov 05",
+      "link": "https://commercialobserver.com/2026/11/co-op-new-york-buyers-condo-sales/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Broward County Splits on CRE Ballot Measures",
+      "when": "Nov 05",
+      "link": "https://commercialobserver.com/2026/11/broward-county-election-measures-fort-lauderdale-hollywood-deerfield-beach/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "TF Cornerstone Hires Walt Disney’s Michael Gordon to Lead 175 Park Avenue Project",
+      "when": "Nov 05",
+      "link": "https://commercialobserver.com/2026/11/tf-cornerstone-hire-walt-disney-michael-gordon-175-park-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Mamdani Secures Appeals Court Win in Pied-à-Terre Tax Rollout",
       "when": "Nov 04",
       "link": "https://commercialobserver.com/2026/11/mamdani-appeals-court-win-pied-a-terre-tax/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Democrats’ Housing Ideas Take Center Stage After Election Rout",
-      "when": "Nov 04",
-      "link": "https://commercialobserver.com/2026/11/democrats-housing-policy-congress-2027-midterms-blue-wave/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Commercial Real Estate Distress Heading for Moment of Truth",
-      "when": "Nov 04",
-      "link": "https://commercialobserver.com/2026/11/commercial-real-estate-distress-2026/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "NYC Ballot Proposals Passed in Tuesday’s Election to Go Into Effect",
-      "when": "Nov 04",
-      "link": "https://commercialobserver.com/2026/11/ballot-proposals-pass-nyc-mamdani-election/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "GridPoint Co-Founder Adrian De Luca Returns as CEO to Power New Battery Product",
-      "when": "Nov 04",
-      "link": "https://commercialobserver.com/2026/11/gridpoint-adrian-de-luca-batteries/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Florida Voters Approve Property Tax Cuts, Raising Questions for CRE",
-      "when": "Nov 04",
-      "link": "https://commercialobserver.com/2026/11/florida-amendment-3-rivani-gramps-getaway/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "74.13",
-      "chg": "+1.72%",
+      "price": "75.10",
+      "chg": "+1.31%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "98.03",
-      "chg": "+3.18%",
-      "dir": 1
+      "price": "97.87",
+      "chg": "-0.16%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "65.96",
-      "chg": "+5.32%",
+      "price": "66.40",
+      "chg": "+0.67%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "131.36",
-      "chg": "+1.77%",
+      "price": "131.63",
+      "chg": "+0.21%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.72",
-      "chg": "+2.71%",
+      "price": "65.84",
+      "chg": "+3.33%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "228.50",
-      "chg": "+2.89%",
+      "price": "230.41",
+      "chg": "+0.84%",
       "dir": 1
     }
   ],
