@@ -3,7 +3,7 @@
     "date_line": "Wednesday · Nov 04, 2026",
     "as_of": "Auto-compiled from public sources · Nov 04, 2026",
     "compiled": "Compiled Nov 04, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-04T22:42:27Z"
+    "generated_utc": "2026-11-05T03:34:39Z"
   },
   "ticker": [
     {
@@ -345,19 +345,19 @@
     },
     {
       "when": "Nov 04",
-      "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
-    },
-    {
-      "when": "Nov 04",
       "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html"
+    },
+    {
+      "when": "Nov 04",
+      "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
     },
     {
       "when": "Nov 04",
