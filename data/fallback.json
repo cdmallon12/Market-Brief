@@ -3,31 +3,31 @@
     "date_line": "Thursday · Nov 05, 2026",
     "as_of": "Auto-compiled from public sources · Nov 05, 2026",
     "compiled": "Compiled Nov 05, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-05T14:50:49Z"
+    "generated_utc": "2026-11-05T16:35:00Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,592.00",
-      "ch": "-1.26%",
+      "vl": "7,460.79",
+      "ch": "-2.96%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,096",
-      "ch": "-2.49%",
+      "vl": "24,681",
+      "ch": "-4.10%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "53,175",
-      "ch": "-0.34%",
+      "vl": "52,151",
+      "ch": "-2.26%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "17.76",
-      "ch": "+6.92%",
+      "vl": "23.14",
+      "ch": "+39.31%",
       "dir": 1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.16%",
+      "vl": "1.13%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.40%",
+      "vl": "3.32%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 1.26%",
-    "standfirst": "At the last close: S&P 500 7,592.00 (-1.26%); Nasdaq 25,096 (-2.49%); Dow 53,175 (-0.34%). VIX 17.76 (+6.92%).",
+    "headline": "The S&P 500 dropped 2.96%",
+    "standfirst": "At the last close: S&P 500 7,460.79 (-2.96%); Nasdaq 24,681 (-4.10%); Dow 52,151 (-2.26%). VIX 23.14 (+39.31%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "VMRK led at +3.33%; VNQ lagged at -0.16%."
+      "1 of 6 names on the watchlist closed higher.",
+      "VMRK led at +1.35%; BXP lagged at -1.80%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "November payrolls. The last jobs report before the December FOMC."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 5"
+    "quote_note": "Quotes ~15-min delayed · as of 11:34 AM ET, Nov 5"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,592.00",
+      "val": "7,460.79",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.26%",
+        "txt": "2.96%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,678.72</span> · <span class=\"up mono\">+11.7%</span> YoY"
+      "note": "Open <span class=\"mono\">7,678.72</span> · <span class=\"up mono\">+9.8%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,096",
+      "val": "24,681",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.49%",
+        "txt": "4.10%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,558</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "53,175",
+      "val": "52,151",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.34%",
+        "txt": "2.26%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">53,679</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "17.76",
+      "val": "23.14",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "6.92%",
+        "txt": "39.31%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">17.14</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.16%, high-yield at 3.40%",
-    "standfirst": "The high-yield premium over investment grade is 2.24 percentage points. The 2s10s Treasury spread is +32 bps.",
+    "headline": "Investment-grade OAS at 1.13%, high-yield at 3.32%",
+    "standfirst": "The high-yield premium over investment grade is 2.19 percentage points. The 2s10s Treasury spread is +32 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,22 +296,10 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.16",
+      "val": "1.13",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
-      "delta": {
-        "dir": 0,
-        "txt": "-0.01pp",
-        "note": "tighter"
-      }
-    },
-    {
-      "lbl": "High-Yield OAS",
-      "val": "3.40",
-      "unit": "%",
-      "tone": "",
-      "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
         "txt": "-0.03pp",
@@ -319,16 +307,28 @@
       }
     },
     {
+      "lbl": "High-Yield OAS",
+      "val": "3.32",
+      "unit": "%",
+      "tone": "",
+      "note": "Below-investment-grade spread — the risk-appetite gauge",
+      "delta": {
+        "dir": 0,
+        "txt": "-0.08pp",
+        "note": "tighter"
+      }
+    },
+    {
       "lbl": "HY − IG Premium",
-      "val": "2.24",
+      "val": "2.19",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.16,
-    "hy": 3.4
+    "ig": 1.13,
+    "hy": 3.32
   },
   "news": {
     "headline": "Latest headlines",
@@ -345,14 +345,6 @@
     },
     {
       "when": "Nov 05",
-      "title": "Here's what the Democratic election rout could mean for the U.S. economy",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html"
-    },
-    {
-      "when": "Nov 05",
       "title": "Voters say the economy drove them to the polls — and blame Trump for their troubles",
       "blurb": "",
       "kind": "",
@@ -361,19 +353,27 @@
     },
     {
       "when": "Nov 05",
-      "title": "What the Democratic midterms sweep changes for U.S.-China relations",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html"
-    },
-    {
-      "when": "Nov 05",
       "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+    },
+    {
+      "when": "Nov 05",
+      "title": "Here's what the Democratic election rout could mean for the U.S. economy",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html"
+    },
+    {
+      "when": "Nov 05",
+      "title": "What the Democratic midterms sweep changes for U.S.-China relations",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html"
     },
     {
       "when": "Nov 04",
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Sports Clothing Brand RBX Direct Signs 5K-SF Garment District Lease",
+      "when": "Nov 05",
+      "link": "https://commercialobserver.com/2026/11/rbx-direct-lease-102-west-38th-street/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "For Mall Giant Macerich, More Turnaround in Q3",
       "when": "Nov 05",
       "link": "https://commercialobserver.com/2026/11/macerich-third-quarter-2026/"
@@ -460,12 +466,6 @@
       "title": "TF Cornerstone Hires Walt Disney’s Michael Gordon to Lead 175 Park Avenue Project",
       "when": "Nov 05",
       "link": "https://commercialobserver.com/2026/11/tf-cornerstone-hire-walt-disney-michael-gordon-175-park-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Mamdani Secures Appeals Court Win in Pied-à-Terre Tax Rollout",
-      "when": "Nov 04",
-      "link": "https://commercialobserver.com/2026/11/mamdani-appeals-court-win-pied-a-terre-tax/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "75.10",
-      "chg": "+1.31%",
-      "dir": 1
+      "price": "73.08",
+      "chg": "-1.42%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "97.87",
-      "chg": "-0.16%",
+      "price": "96.58",
+      "chg": "-1.48%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "66.40",
-      "chg": "+0.67%",
-      "dir": 1
+      "price": "64.78",
+      "chg": "-1.80%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "131.63",
-      "chg": "+0.21%",
-      "dir": 1
+      "price": "129.91",
+      "chg": "-1.10%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.84",
-      "chg": "+3.33%",
+      "price": "64.58",
+      "chg": "+1.35%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "230.41",
-      "chg": "+0.84%",
-      "dir": 1
+      "price": "228.01",
+      "chg": "-0.21%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
