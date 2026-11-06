@@ -3,31 +3,31 @@
     "date_line": "Friday · Nov 06, 2026",
     "as_of": "Auto-compiled from public sources · Nov 06, 2026",
     "compiled": "Compiled Nov 06, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-06T16:02:10Z"
+    "generated_utc": "2026-11-06T20:06:05Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,416.20",
-      "ch": "+0.85%",
+      "vl": "7,400.47",
+      "ch": "+0.64%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "24,687",
-      "ch": "+1.53%",
+      "vl": "24,650",
+      "ch": "+1.38%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "51,571",
-      "ch": "+0.09%",
-      "dir": 1
+      "vl": "51,431",
+      "ch": "-0.18%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "24.44",
-      "ch": "-13.27%",
+      "vl": "24.56",
+      "ch": "-12.85%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.85%",
-    "standfirst": "At the last close: S&P 500 7,416.20 (+0.85%); Nasdaq 24,687 (+1.53%); Dow 51,571 (+0.09%). VIX 24.44 (-13.27%).",
+    "headline": "The S&P 500 rose 0.64%",
+    "standfirst": "At the last close: S&P 500 7,400.47 (+0.64%); Nasdaq 24,650 (+1.38%); Dow 51,431 (-0.18%). VIX 24.56 (-12.85%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "4 of 6 names on the watchlist closed higher.",
-      "SPG led at +0.37%; VNQ lagged at -0.08%."
+      "3 of 6 names on the watchlist closed higher.",
+      "SPG led at +0.85%; BXP lagged at -0.77%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "November payrolls. The last jobs report before the December FOMC."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:01 AM ET, Nov 6"
+    "quote_note": "Quotes ~15-min delayed · as of 3:05 PM ET, Nov 6"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,416.20",
+      "val": "7,400.47",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.85%",
+        "txt": "0.64%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,377.65</span> · <span class=\"up mono\">+10.4%</span> YoY"
+      "note": "Open <span class=\"mono\">7,377.65</span> · <span class=\"up mono\">+10.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "24,687",
+      "val": "24,650",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.53%",
+        "txt": "1.38%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">24,602</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,571",
-      "tone": "pos",
+      "val": "51,431",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.09%",
+        "dir": -1,
+        "txt": "0.18%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">51,079</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "24.44",
+      "val": "24.56",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "13.27%",
+        "txt": "12.85%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">27.68</span>"
@@ -337,6 +337,30 @@
   "headlines": [
     {
       "when": "Nov 06",
+      "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html"
+    },
+    {
+      "when": "Nov 06",
+      "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+    },
+    {
+      "when": "Nov 06",
+      "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+    },
+    {
+      "when": "Nov 06",
       "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
       "blurb": "",
       "kind": "",
@@ -358,30 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html"
-    },
-    {
-      "when": "Nov 05",
-      "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
-    },
-    {
-      "when": "Nov 05",
-      "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html"
-    },
-    {
-      "when": "Nov 05",
-      "title": "Voters say the economy drove them to the polls — and blame Trump for their troubles",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/04/2026-midterms-trump-economy-iran-war.html"
     }
   ],
   "cre": {
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "AI Firm Modal Labs Takes 157K SF at Rudin’s 32 Avenue of the Americas",
+      "title": "Bushburg in Contract to Buy 60 Wall Street at Jaw-Dropping Discount",
       "when": "Nov 06",
-      "link": "https://commercialobserver.com/2026/11/modal-labs-lease-rudin-32-avenue-of-the-americas/"
+      "link": "https://commercialobserver.com/2026/11/bushburg-sale-60-wall-street-gic/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Starwood, Trinitas Nab $100M From Affinius Capital to Build Pittsburgh Student Housing",
+      "title": "Brookfield Asset Management Raises $25B Thanks to Infrastructure Investment",
       "when": "Nov 06",
-      "link": "https://commercialobserver.com/2026/11/starwood-trinitas-100m-affinius-capital-pittsburgh-student-housing/"
+      "link": "https://commercialobserver.com/2026/11/brookfield-asset-management-q3-2026/"
     },
     {
       "source": "Commercial Observer",
-      "title": "New York Office Market Leaders On Talent Retention, Affordability and AI",
-      "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/new-york-office-market-talent-retention-affordability-ai/"
+      "title": "Trump Administration Designates 210 Qualified Opportunity Zones in NYC",
+      "when": "Nov 06",
+      "link": "https://commercialobserver.com/2026/11/trump-qualified-opportunity-zones-renewal-nyc/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Fortress Buys Assisted Living Center in Delray Beach, Fla.",
-      "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/fortress-investment-group-delray-beach/"
+      "title": "Starwood Property Trust Reports $390M Q3 Loss, but Sternlicht Remains Resolute",
+      "when": "Nov 06",
+      "link": "https://commercialobserver.com/2026/11/starwood-property-trust-reports-390m-q3-loss-sternlicht/"
     },
     {
       "source": "Commercial Observer",
-      "title": "‍Coral Gables, Fla., Spends $24M to Expand City Hall‍",
-      "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/coral-gables-spends-24m-to-expand-city-hall/"
+      "title": "Simon Property Group Reports Record Occupancy in Q3, Raises Full-Year Outlook",
+      "when": "Nov 06",
+      "link": "https://commercialobserver.com/2026/11/simon-property-group-q3-earnings/"
     },
     {
       "source": "Commercial Observer",
-      "title": "MetLife Expands to 500K SF at 200 Park Avenue",
-      "when": "Nov 05",
-      "link": "https://commercialobserver.com/2026/11/metlife-lease-expansion-200-park-avenue/"
+      "title": "Criterion Group Looks to Build 321-Unit Residential Building in Bushwick",
+      "when": "Nov 06",
+      "link": "https://commercialobserver.com/2026/11/criterion-group-rezoning-residential-bushwick-wyckoff-avenue/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.36",
-      "chg": "+0.06%",
+      "price": "72.39",
+      "chg": "+0.10%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.16",
-      "chg": "-0.08%",
+      "price": "95.88",
+      "chg": "-0.36%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "65.19",
-      "chg": "-0.08%",
+      "price": "64.74",
+      "chg": "-0.77%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.59",
-      "chg": "+0.03%",
-      "dir": 1
+      "price": "127.94",
+      "chg": "-0.47%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.40",
-      "chg": "+0.23%",
+      "price": "65.33",
+      "chg": "+0.12%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "227.39",
-      "chg": "+0.37%",
+      "price": "228.49",
+      "chg": "+0.85%",
       "dir": 1
     }
   ],
