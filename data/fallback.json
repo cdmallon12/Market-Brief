@@ -3,7 +3,7 @@
     "date_line": "Friday · Nov 06, 2026",
     "as_of": "Auto-compiled from public sources · Nov 06, 2026",
     "compiled": "Compiled Nov 06, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-06T22:12:14Z"
+    "generated_utc": "2026-11-07T02:57:00Z"
   },
   "ticker": [
     {
@@ -119,7 +119,7 @@
       "SPG led at +0.83%; PLD lagged at -1.24%."
     ],
     "card2_title": "On the calendar today",
-    "card2_sub": "Scheduled economic releases (ET)",
+    "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
         "when": "08:30 ET · Today",
@@ -137,17 +137,17 @@
         "body": "October PPI."
       },
       {
-        "when": "Tue · Dec 1",
-        "title": "JOLTS job openings",
-        "body": "October openings, hires and quits."
+        "when": "Tue · Nov 17",
+        "title": "NVDA earnings",
+        "body": "Scheduled to report after close."
       },
       {
-        "when": "Fri · Dec 4",
-        "title": "Employment Situation",
-        "body": "November payrolls. The last jobs report before the December FOMC."
+        "when": "Tue · Nov 17",
+        "title": "HD earnings",
+        "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:11 PM ET, Nov 6"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 6"
   },
   "markets_tiles": [
     {
