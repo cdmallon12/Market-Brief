@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Monday · Nov 09, 2026",
-    "as_of": "Auto-compiled from public sources · Nov 09, 2026",
-    "compiled": "Compiled Nov 09, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-10T02:49:08Z"
+    "date_line": "Tuesday · Nov 10, 2026",
+    "as_of": "Auto-compiled from public sources · Nov 10, 2026",
+    "compiled": "Compiled Nov 10, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-11-10T14:50:47Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,549.94",
-      "ch": "+2.35%",
-      "dir": 1
+      "vl": "7,507.98",
+      "ch": "-0.56%",
+      "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,253",
-      "ch": "+2.74%",
-      "dir": 1
+      "vl": "25,082",
+      "ch": "-0.68%",
+      "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,390",
-      "ch": "+2.15%",
-      "dir": 1
+      "vl": "52,120",
+      "ch": "-0.51%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "19.92",
-      "ch": "-22.31%",
-      "dir": -1
+      "vl": "20.82",
+      "ch": "+4.52%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.89%",
+      "vl": "3.88%",
       "ch": "",
       "dir": 0
     },
@@ -62,7 +62,7 @@
     },
     {
       "nm": "CPI",
-      "vl": "4.0%",
+      "vl": "4.1%",
       "ch": "",
       "dir": 0
     },
@@ -110,19 +110,19 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 climbed 2.35%",
-    "standfirst": "At the last close: S&P 500 7,549.94 (+2.35%); Nasdaq 25,253 (+2.74%); Dow 52,390 (+2.15%). VIX 19.92 (-22.31%).",
+    "headline": "The S&P 500 fell 0.56%",
+    "standfirst": "At the last close: S&P 500 7,507.98 (-0.56%); Nasdaq 25,082 (-0.68%); Dow 52,120 (-0.51%). VIX 20.82 (+4.52%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "PLD led at +2.83%; VMRK lagged at +0.96%."
+      "0 of 6 names on the watchlist closed higher.",
+      "KRE led at -0.41%; BXP lagged at -1.16%."
     ],
-    "card2_title": "Coming up",
+    "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "Tomorrow",
+        "when": "08:30 ET · Today",
         "title": "Consumer Price Index",
         "body": "October CPI, headline and core."
       },
@@ -147,59 +147,59 @@
         "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 9"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 10"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,549.94",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "2.35%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">7,422.24</span> · <span class=\"up mono\">+10.5%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "25,253",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "2.74%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">24,777</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "52,390",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "2.15%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">51,643</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "19.92",
+      "val": "7,507.98",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "22.31%",
+        "txt": "0.56%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">25.08</span>"
+      "note": "Open <span class=\"mono\">7,513.09</span> · <span class=\"up mono\">+9.9%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "25,082",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.68%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">25,047</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "52,120",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.51%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">52,163</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "20.82",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "4.52%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">19.76</span>"
     }
   ],
   "economy": {
-    "headline": "Policy and prices: the federal funds target at 3.75-4.00%, headline CPI at 4.0% year over year, core PCE at 3.1%",
+    "headline": "Policy and prices: the federal funds target at 3.75-4.00%, headline CPI at 4.1% year over year, core PCE at 3.1%",
     "standfirst": "Real GDP was last reported at 3.4% annualized. The IMF puts world real growth at 3.3%. The next FOMC decision is scheduled for December 9.",
     "body": [
-      "CPI stands at 4.0% and core PCE at 3.1%, against the Federal Reserve's stated 2% objective.",
+      "CPI stands at 4.1% and core PCE at 3.1%, against the Federal Reserve's stated 2% objective.",
       "The target range has been 3.75-4.00% as of the most recent decision."
     ]
   },
@@ -215,11 +215,11 @@
       }
     },
     {
-      "lbl": "CPI Inflation · Sep",
-      "val": "4.0",
+      "lbl": "CPI Inflation · Oct",
+      "val": "4.1",
       "unit": "%",
       "tone": "",
-      "note": "Core CPI: <span class=\"mono\">2.8%</span>"
+      "note": "Core CPI: <span class=\"mono\">2.9%</span>"
     },
     {
       "lbl": "Core PCE · Sep",
@@ -336,12 +336,36 @@
   },
   "headlines": [
     {
-      "when": "Nov 09",
-      "title": "China exports, imports soar past expectations in October — surplus narrows sharply",
+      "when": "Nov 10",
+      "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+    },
+    {
+      "when": "Nov 10",
+      "title": "Polymarket says annualized revenue has topped $1.8 billion",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html"
+    },
+    {
+      "when": "Nov 10",
+      "title": "China's goods surplus tops $1 trillion for a second year amid calls for Beijing to rebalance trade",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html"
+    },
+    {
+      "when": "Nov 10",
+      "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
     },
     {
       "when": "Nov 09",
@@ -358,34 +382,10 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html"
-    },
-    {
-      "when": "Nov 09",
-      "title": "Jensen Huang exit odds are low on prediction markets after Nvidia probe",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/09/jensen-huang-nvidia-exit-prediction-markets.html"
-    },
-    {
-      "when": "Nov 09",
-      "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html"
-    },
-    {
-      "when": "Nov 08",
-      "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.88%, overnight SOFR at 3.89%",
+    "headline": "The 10-year at 4.88%, overnight SOFR at 3.88%",
     "standfirst": "An illustrative agency coupon prices at 6.23–6.53%. The Freddie Mac 30-year survey rate is 7.18%.",
     "curve_date": "Nov 09, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.89",
+      "val": "3.88",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "When Will Rising Interest Rates Impact Pricing? Follow the Contracts.",
-      "when": "Nov 09",
-      "link": "https://commercialobserver.com/2026/11/rising-interest-rates-pricing-commercial-real-estate/"
+      "title": "Multifamily’s Refinancing Crunch Is Raising the Stakes for AI",
+      "when": "Nov 10",
+      "link": "https://commercialobserver.com/2026/11/multifamily-refinancing-crisis-ai/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Related Group Lands $177M to Build Resi Complex at Office Depot HQ",
-      "when": "Nov 09",
-      "link": "https://commercialobserver.com/2026/11/related-group-office-depot-hq-boca-bh-group-pebb-enterprises/"
+      "title": "Raj Singh of JLL Spark Global Ventures: 5 Questions",
+      "when": "Nov 10",
+      "link": "https://commercialobserver.com/2026/11/raj-singh-jll-spark-robots/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Stabilizing Footprints, Demand Shifts Drive U.S. Office Leasing to 62M SF in Q3",
-      "when": "Nov 09",
-      "link": "https://commercialobserver.com/2026/11/footprint-demand-us-office-leasing-q3/"
+      "title": "Commercial Real Estate Owners Are Embracing AI, Risks and All",
+      "when": "Nov 10",
+      "link": "https://commercialobserver.com/2026/11/commercial-real-estate-owners-ai/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Peachtree Recaps Portland-Area Hotels With $41M Loan",
-      "when": "Nov 09",
-      "link": "https://commercialobserver.com/2026/11/peachtree-portland-oregon-hilton-hotels/"
+      "title": "Owners 2026",
+      "when": "Nov 10",
+      "link": "https://commercialobserver.com/2026/11/owners-2026/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Oxford Properties Buys Six-Property Industrial Portfolio in Phoenix",
-      "when": "Nov 09",
-      "link": "https://commercialobserver.com/2026/11/oxford-properties-acquisition-sycamore-phoenix-arizona-industrial/"
+      "title": "Debt vs. Equity in Commercial Real Estate Financing: Both Sides Now",
+      "when": "Nov 10",
+      "link": "https://commercialobserver.com/2026/11/debt-vs-equity-commercial-real-estate-financing-2026/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Truist, Capital One Provide $474M Refi for U.S. Industrial Portfolio",
-      "when": "Nov 09",
-      "link": "https://commercialobserver.com/2026/11/truist-capital-one-faropoint-industrial-portfolio/"
+      "title": "Executive Spotlight: Sam Sidhu of Customers Bank",
+      "when": "Nov 10",
+      "link": "https://commercialobserver.com/2026/11/executive-spotlight-sam-sidhu-of-customers-bank/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.45",
-      "chg": "+1.73%",
-      "dir": 1
+      "price": "73.15",
+      "chg": "-0.41%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "97.30",
-      "chg": "+1.64%",
-      "dir": 1
+      "price": "96.44",
+      "chg": "-0.88%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "66.19",
-      "chg": "+1.82%",
-      "dir": 1
+      "price": "65.42",
+      "chg": "-1.16%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "130.55",
-      "chg": "+2.83%",
-      "dir": 1
+      "price": "129.31",
+      "chg": "-0.95%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "66.14",
-      "chg": "+0.96%",
-      "dir": 1
+      "price": "65.77",
+      "chg": "-0.56%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "233.01",
-      "chg": "+2.01%",
-      "dir": 1
+      "price": "231.63",
+      "chg": "-0.59%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
