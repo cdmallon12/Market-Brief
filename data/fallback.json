@@ -3,48 +3,48 @@
     "date_line": "Tuesday · Nov 10, 2026",
     "as_of": "Auto-compiled from public sources · Nov 10, 2026",
     "compiled": "Compiled Nov 10, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-10T20:37:09Z"
+    "generated_utc": "2026-11-10T22:26:07Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,516.67",
-      "ch": "-0.44%",
+      "vl": "7,520.93",
+      "ch": "-0.38%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,044",
-      "ch": "-0.83%",
+      "vl": "25,066",
+      "ch": "-0.74%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,208",
-      "ch": "-0.35%",
-      "dir": -1
-    },
-    {
-      "nm": "VIX",
-      "vl": "19.86",
+      "vl": "52,232",
       "ch": "-0.30%",
       "dir": -1
     },
     {
+      "nm": "VIX",
+      "vl": "19.46",
+      "ch": "-2.31%",
+      "dir": -1
+    },
+    {
       "nm": "10Y UST",
-      "vl": "4.88%",
+      "vl": "4.98%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.56%",
+      "vl": "4.73%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.26%",
+      "vl": "5.35%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.44%",
-    "standfirst": "At the last close: S&P 500 7,516.67 (-0.44%); Nasdaq 25,044 (-0.83%); Dow 52,208 (-0.35%). VIX 19.86 (-0.30%).",
+    "headline": "The S&P 500 edged lower 0.38%",
+    "standfirst": "At the last close: S&P 500 7,520.93 (-0.38%); Nasdaq 25,066 (-0.74%); Dow 52,232 (-0.30%). VIX 19.46 (-2.31%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "1 of 6 names on the watchlist closed higher.",
-      "SPG led at +0.60%; BXP lagged at -3.79%."
+      "SPG led at +0.63%; BXP lagged at -4.00%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 3:36 PM ET, Nov 10"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 10"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,516.67",
+      "val": "7,520.93",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.44%",
+        "txt": "0.38%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,513.09</span> · <span class=\"up mono\">+10.0%</span> YoY"
+      "note": "Open <span class=\"mono\">7,513.09</span> · <span class=\"up mono\">+9.8%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,044",
+      "val": "25,066",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.83%",
+        "txt": "0.74%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,047</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,208",
+      "val": "52,232",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.35%",
+        "txt": "0.30%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,163</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "19.86",
+      "val": "19.46",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.30%",
+        "txt": "2.31%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">19.76</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.13%, high-yield at 3.34%",
-    "standfirst": "The high-yield premium over investment grade is 2.21 percentage points. The 2s10s Treasury spread is +32 bps.",
+    "standfirst": "The high-yield premium over investment grade is 2.21 percentage points. The 2s10s Treasury spread is +25 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +32 bps; 3m10y +64 bps; 5s30s +59 bps; 10s30s +38 bps."
+      "Across the curve: 2s10s +25 bps; 3m10y +68 bps; 5s30s +54 bps; 10s30s +37 bps."
     ]
   },
   "credit_tiles": [
@@ -385,9 +385,9 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.88%, overnight SOFR at 3.88%",
-    "standfirst": "An illustrative agency coupon prices at 6.23–6.53%. The Freddie Mac 30-year survey rate is 7.18%.",
-    "curve_date": "Nov 09, 2026",
+    "headline": "The 10-year at 4.98%, overnight SOFR at 3.88%",
+    "standfirst": "An illustrative agency coupon prices at 6.33–6.63%. The Freddie Mac 30-year survey rate is 7.18%.",
+    "curve_date": "Nov 10, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,14 +398,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "4.88",
+      "val": "4.98",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+32 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+25 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.56",
+      "val": "4.73",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Simon Nearing $555M CMBS Package to Refi Dadeland Mall in South Florida",
+      "when": "Nov 10",
+      "link": "https://commercialobserver.com/2026/11/dadeland-mall-miami-simon-prime/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "In California’s Orange County, the New Direction Is Vertical",
+      "when": "Nov 10",
+      "link": "https://commercialobserver.com/2026/11/california-orange-county/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Roger Equities Buys Upper East Side Theater for $41M With Plans for Housing",
+      "when": "Nov 10",
+      "link": "https://commercialobserver.com/2026/11/roger-equities-upper-east-side-movie-theater-housing/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "CMBS Loan Backed by New Jersey’s Bridgewater Commons Sent to Special Servicing",
+      "when": "Nov 10",
+      "link": "https://commercialobserver.com/2026/11/cmbs-loan-new-jerseys-bridgewater-commons-special-servicing/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Extell Buys 1190 Avenue of the Americas for Fifth Avenue Development",
+      "when": "Nov 10",
+      "link": "https://commercialobserver.com/2026/11/extell-buys-1190-avenue-of-the-americas/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Arden Logistics Parks Elevates Barbara Rea, Robert Timmons to President and CIO Roles",
       "when": "Nov 10",
       "link": "https://commercialobserver.com/2026/11/arden-logistics-parks-barbara-rea-robert-timmons/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Sui Yoga to Open 13K-SF Studio at 71 Fifth Avenue",
-      "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/sui-yoga-lease-71-fifth-avenue-retail/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Equity Management Firm Forest Avenue Capital Inks 7K-SF Lease at 45 East 53rd Street",
-      "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/forest-avenue-capital-lease-45-east-53rd-street-park-53/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Fortune Secures Equity Partner for Casa Tua Miami Condo",
-      "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/ora-by-casa-tua-brickell-miami-fortune-international-one-united-properties-edgardo-defortuna/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Helaba Lends $82M on Macy’s-to-Residential Conversion Project Near Denver",
-      "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/helaba-macys-residential-conversion-denver/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Townhouse Brokerage Leslie Garfield Inks Office Lease in Brooklyn Heights",
-      "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/leslie-garfield-office-lease-brooklyn-156-montague-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -511,17 +511,17 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.23–6.53",
+      "val": "6.33–6.63",
       "unit": "%",
       "tone": "",
-      "note": "10Y (4.88%) + 135–165 bp agency spread"
+      "note": "10Y (4.98%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+32",
-    "3m10y": "+64",
-    "5s30s": "+59",
-    "10s30s": "+38"
+    "2s10s": "+25",
+    "3m10y": "+68",
+    "5s30s": "+54",
+    "10s30s": "+37"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "73.12",
-      "chg": "-0.44%",
+      "price": "73.09",
+      "chg": "-0.49%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "97.07",
-      "chg": "-0.24%",
+      "price": "97.08",
+      "chg": "-0.23%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.68",
-      "chg": "-3.79%",
+      "price": "63.54",
+      "chg": "-4.00%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "130.07",
-      "chg": "-0.36%",
+      "price": "130.10",
+      "chg": "-0.34%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.72",
-      "chg": "-0.64%",
+      "price": "65.75",
+      "chg": "-0.59%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "234.41",
-      "chg": "+0.60%",
+      "price": "234.48",
+      "chg": "+0.63%",
       "dir": 1
     }
   ],
@@ -651,84 +651,84 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 4.04,
+      "y": 4.05,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.24,
+      "y": 4.3,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.26,
+      "y": 4.38,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.38,
+      "y": 4.56,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.56,
+      "y": 4.73,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.58,
+      "y": 4.74,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.67,
+      "y": 4.81,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.76,
+      "y": 4.89,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 4.88,
+      "y": 4.98,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.29,
+      "y": 5.39,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.26,
+      "y": 5.35,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.38
+    "new": 6.48
   },
   "orig": {
     "y2025": 633.7,
