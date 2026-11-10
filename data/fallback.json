@@ -3,7 +3,7 @@
     "date_line": "Monday · Nov 09, 2026",
     "as_of": "Auto-compiled from public sources · Nov 09, 2026",
     "compiled": "Compiled Nov 09, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-09T23:10:10Z"
+    "generated_utc": "2026-11-10T02:49:08Z"
   },
   "ticker": [
     {
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Nov 09",
+      "title": "China exports, imports soar past expectations in October — surplus narrows sharply",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html"
+    },
+    {
+      "when": "Nov 09",
       "title": "3 unexpected reasons the October jobs report was so strong",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html"
-    },
-    {
-      "when": "Nov 07",
-      "title": "Why the prognosis for healthcare stocks is uncertain ahead of Congress’ new makeup",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html"
     }
   ],
   "cre": {
