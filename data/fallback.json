@@ -3,32 +3,32 @@
     "date_line": "Tuesday · Nov 10, 2026",
     "as_of": "Auto-compiled from public sources · Nov 10, 2026",
     "compiled": "Compiled Nov 10, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-10T16:29:26Z"
+    "generated_utc": "2026-11-10T20:37:09Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,497.14",
-      "ch": "-0.70%",
+      "vl": "7,516.67",
+      "ch": "-0.44%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,016",
-      "ch": "-0.94%",
+      "vl": "25,044",
+      "ch": "-0.83%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,067",
-      "ch": "-0.62%",
+      "vl": "52,208",
+      "ch": "-0.35%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "20.65",
-      "ch": "+3.66%",
-      "dir": 1
+      "vl": "19.86",
+      "ch": "-0.30%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.70%",
-    "standfirst": "At the last close: S&P 500 7,497.14 (-0.70%); Nasdaq 25,016 (-0.94%); Dow 52,067 (-0.62%). VIX 20.65 (+3.66%).",
+    "headline": "The S&P 500 edged lower 0.44%",
+    "standfirst": "At the last close: S&P 500 7,516.67 (-0.44%); Nasdaq 25,044 (-0.83%); Dow 52,208 (-0.35%). VIX 19.86 (-0.30%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "0 of 6 names on the watchlist closed higher.",
-      "SPG led at -0.29%; BXP lagged at -2.02%."
+      "1 of 6 names on the watchlist closed higher.",
+      "SPG led at +0.60%; BXP lagged at -3.79%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "Scheduled to report."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:29 AM ET, Nov 10"
+    "quote_note": "Quotes ~15-min delayed · as of 3:36 PM ET, Nov 10"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,497.14",
+      "val": "7,516.67",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.70%",
+        "txt": "0.44%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,513.09</span> · <span class=\"up mono\">+9.7%</span> YoY"
+      "note": "Open <span class=\"mono\">7,513.09</span> · <span class=\"up mono\">+10.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,016",
+      "val": "25,044",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.94%",
+        "txt": "0.83%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,047</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,067",
+      "val": "52,208",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.62%",
+        "txt": "0.35%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,163</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "20.65",
-      "tone": "pos",
+      "val": "19.86",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "3.66%",
+        "dir": -1,
+        "txt": "0.30%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">19.76</span>"
@@ -337,11 +337,27 @@
   "headlines": [
     {
       "when": "Nov 10",
+      "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
+    },
+    {
+      "when": "Nov 10",
       "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+    },
+    {
+      "when": "Nov 10",
+      "title": "U.S. gas prices fall below $4 for the first time since July",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/10/us-gas-prices-below-four-dollars.html"
     },
     {
       "when": "Nov 10",
@@ -360,28 +376,12 @@
       "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html"
     },
     {
-      "when": "Nov 10",
-      "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
-    },
-    {
       "when": "Nov 09",
       "title": "3 unexpected reasons the October jobs report was so strong",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html"
-    },
-    {
-      "when": "Nov 09",
-      "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html"
     }
   ],
   "cre": {
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Capstone Equities Buys Nonperforming Loan on Garden City, N.Y., Office Complex",
+      "title": "Arden Logistics Parks Elevates Barbara Rea, Robert Timmons to President and CIO Roles",
       "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/capstone-equities-npl-garden-city-maxim/"
+      "link": "https://commercialobserver.com/2026/11/arden-logistics-parks-barbara-rea-robert-timmons/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Curiosity Is the Competitive Advantage That Never Gets Old",
+      "title": "Sui Yoga to Open 13K-SF Studio at 71 Fifth Avenue",
       "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/curiosity-competitive-advantage-business/"
+      "link": "https://commercialobserver.com/2026/11/sui-yoga-lease-71-fifth-avenue-retail/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Multifamily’s Refinancing Crunch Is Raising the Stakes for AI",
+      "title": "Equity Management Firm Forest Avenue Capital Inks 7K-SF Lease at 45 East 53rd Street",
       "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/multifamily-refinancing-crisis-ai/"
+      "link": "https://commercialobserver.com/2026/11/forest-avenue-capital-lease-45-east-53rd-street-park-53/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Raj Singh of JLL Spark Global Ventures: 5 Questions",
+      "title": "Fortune Secures Equity Partner for Casa Tua Miami Condo",
       "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/raj-singh-jll-spark-robots/"
+      "link": "https://commercialobserver.com/2026/11/ora-by-casa-tua-brickell-miami-fortune-international-one-united-properties-edgardo-defortuna/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Commercial Real Estate Owners Are Embracing AI, Risks and All",
+      "title": "Helaba Lends $82M on Macy’s-to-Residential Conversion Project Near Denver",
       "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/commercial-real-estate-owners-ai/"
+      "link": "https://commercialobserver.com/2026/11/helaba-macys-residential-conversion-denver/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Owners 2026",
+      "title": "Townhouse Brokerage Leslie Garfield Inks Office Lease in Brooklyn Heights",
       "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/owners-2026/"
+      "link": "https://commercialobserver.com/2026/11/leslie-garfield-office-lease-brooklyn-156-montague-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.68",
-      "chg": "-1.05%",
+      "price": "73.12",
+      "chg": "-0.44%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.40",
-      "chg": "-0.92%",
+      "price": "97.07",
+      "chg": "-0.24%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.85",
-      "chg": "-2.02%",
+      "price": "63.68",
+      "chg": "-3.79%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.76",
-      "chg": "-1.37%",
+      "price": "130.07",
+      "chg": "-0.36%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.17",
-      "chg": "-1.47%",
+      "price": "65.72",
+      "chg": "-0.64%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "232.34",
-      "chg": "-0.29%",
-      "dir": -1
+      "price": "234.41",
+      "chg": "+0.60%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
