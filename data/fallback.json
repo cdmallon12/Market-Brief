@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Nov 11, 2026",
     "as_of": "Auto-compiled from public sources · Nov 11, 2026",
     "compiled": "Compiled Nov 11, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-11T14:50:43Z"
+    "generated_utc": "2026-11-11T16:22:58Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,575.98",
-      "ch": "+0.73%",
+      "vl": "7,610.16",
+      "ch": "+1.19%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,331",
-      "ch": "+1.06%",
+      "vl": "25,519",
+      "ch": "+1.81%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,175",
-      "ch": "-0.11%",
-      "dir": -1
+      "vl": "52,249",
+      "ch": "+0.03%",
+      "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "18.36",
-      "ch": "-5.65%",
+      "vl": "17.73",
+      "ch": "-8.89%",
       "dir": -1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 0.73%",
-    "standfirst": "At the last close: S&P 500 7,575.98 (+0.73%); Nasdaq 25,331 (+1.06%); Dow 52,175 (-0.11%). VIX 18.36 (-5.65%).",
+    "headline": "The S&P 500 rose 1.19%",
+    "standfirst": "At the last close: S&P 500 7,610.16 (+1.19%); Nasdaq 25,519 (+1.81%); Dow 52,249 (+0.03%). VIX 17.73 (-8.89%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "BXP led at +0.32%; VMRK lagged at -0.87%."
+      "0 of 6 names on the watchlist closed higher.",
+      "SPG led at -0.09%; VMRK lagged at -1.63%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "October openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 11"
+    "quote_note": "Quotes ~15-min delayed · as of 11:22 AM ET, Nov 11"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,575.98",
+      "val": "7,610.16",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.73%",
+        "txt": "1.19%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,586.65</span> · <span class=\"up mono\">+10.7%</span> YoY"
+      "note": "Open <span class=\"mono\">7,586.65</span> · <span class=\"up mono\">+11.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,331",
+      "val": "25,519",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "1.06%",
+        "txt": "1.81%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,449</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,175",
-      "tone": "neg",
+      "val": "52,249",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.11%",
+        "dir": 1,
+        "txt": "0.03%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,196</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "18.36",
+      "val": "17.73",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "5.65%",
+        "txt": "8.89%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">18.81</span>"
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "RFR Seals $101M Refi on Downtown Miami Office Building",
+      "when": "Nov 11",
+      "link": "https://commercialobserver.com/2026/11/rfr-miami-office-refi/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Peak Capital Sells Upper East Side Mixed-Use Building for $23M",
+      "when": "Nov 11",
+      "link": "https://commercialobserver.com/2026/11/peak-capital-sells-308-east-78th-street/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Unresolved NYC Housing Violations Increase 4% in October: Report",
       "when": "Nov 11",
       "link": "https://commercialobserver.com/2026/11/unresolved-nyc-housing-violations-increase-october/"
@@ -454,18 +466,6 @@
       "title": "The Plan: At the Loggia NoMad, There’s No Shortage of … Well … Loggias",
       "when": "Nov 11",
       "link": "https://commercialobserver.com/2026/11/the-plan-loggia-nomad-842-sixth-ave/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Simon Nearing $555M CMBS Package to Refi Dadeland Mall in South Florida",
-      "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/dadeland-mall-miami-simon-prime/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "In California’s Orange County, the New Direction Is Vertical",
-      "when": "Nov 10",
-      "link": "https://commercialobserver.com/2026/11/california-orange-county/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.94",
-      "chg": "-0.21%",
+      "price": "72.70",
+      "chg": "-0.53%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "97.01",
-      "chg": "-0.07%",
+      "price": "96.66",
+      "chg": "-0.44%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.74",
-      "chg": "+0.32%",
-      "dir": 1
+      "price": "63.25",
+      "chg": "-0.46%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.19",
-      "chg": "-0.70%",
+      "price": "129.38",
+      "chg": "-0.56%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.18",
-      "chg": "-0.87%",
+      "price": "64.68",
+      "chg": "-1.63%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "234.37",
-      "chg": "-0.05%",
+      "price": "234.26",
+      "chg": "-0.09%",
       "dir": -1
     }
   ],
