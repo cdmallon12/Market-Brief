@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Wednesday · Nov 11, 2026",
-    "as_of": "Auto-compiled from public sources · Nov 11, 2026",
-    "compiled": "Compiled Nov 11, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-11T23:32:05Z"
+    "date_line": "Thursday · Nov 12, 2026",
+    "as_of": "Auto-compiled from public sources · Nov 12, 2026",
+    "compiled": "Compiled Nov 12, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-11-12T14:50:44Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,619.38",
-      "ch": "+1.31%",
-      "dir": 1
+      "vl": "7,597.42",
+      "ch": "-0.29%",
+      "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,466",
-      "ch": "+1.60%",
-      "dir": 1
+      "vl": "25,293",
+      "ch": "-0.68%",
+      "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,486",
-      "ch": "+0.49%",
+      "vl": "52,559",
+      "ch": "+0.14%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "17.49",
-      "ch": "-10.12%",
-      "dir": -1
+      "vl": "18.70",
+      "ch": "+6.92%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.88%",
+      "vl": "3.89%",
       "ch": "",
       "dir": 0
     },
@@ -98,31 +98,31 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.13%",
+      "vl": "1.12%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.34%",
+      "vl": "3.30%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 rose 1.31%",
-    "standfirst": "At the last close: S&P 500 7,619.38 (+1.31%); Nasdaq 25,466 (+1.60%); Dow 52,486 (+0.49%). VIX 17.49 (-10.12%).",
+    "headline": "The S&P 500 edged lower 0.29%",
+    "standfirst": "At the last close: S&P 500 7,597.42 (-0.29%); Nasdaq 25,293 (-0.68%); Dow 52,559 (+0.14%). VIX 18.70 (+6.92%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "SPG led at +0.12%; VMRK lagged at -1.70%."
+      "4 of 6 names on the watchlist closed higher.",
+      "BXP led at +0.28%; PLD lagged at -0.53%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "Fri · Nov 13",
+        "when": "Tomorrow",
         "title": "Producer Price Index",
         "body": "October PPI."
       },
@@ -147,52 +147,52 @@
         "body": "October openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 11"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 12"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,619.38",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "1.31%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">7,586.65</span> · <span class=\"up mono\">+11.2%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "25,466",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "1.60%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">25,449</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "52,486",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.49%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">52,196</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "17.49",
+      "val": "7,597.42",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "10.12%",
+        "txt": "0.29%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">18.81</span>"
+      "note": "Open <span class=\"mono\">7,550.84</span> · <span class=\"up mono\">+10.9%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "25,293",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.68%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">25,092</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "52,559",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.14%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">52,428</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "18.70",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "6.92%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">18.36</span>"
     }
   ],
   "economy": {
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.13%, high-yield at 3.34%",
-    "standfirst": "The high-yield premium over investment grade is 2.21 percentage points. The 2s10s Treasury spread is +25 bps.",
+    "headline": "Investment-grade OAS at 1.12%, high-yield at 3.30%",
+    "standfirst": "The high-yield premium over investment grade is 2.18 percentage points. The 2s10s Treasury spread is +25 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,45 +296,69 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.13",
+      "val": "1.12",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "-0.03pp",
+        "txt": "-0.01pp",
         "note": "tighter"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.34",
+      "val": "3.30",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "-0.08pp",
+        "txt": "-0.04pp",
         "note": "tighter"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.21",
+      "val": "2.18",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.13,
-    "hy": 3.34
+    "ig": 1.12,
+    "hy": 3.3
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Nov 12",
+      "title": "Oil prices mixed after Trump says no Iran deal needed: 'We've got their Strait'",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+    },
+    {
+      "when": "Nov 12",
+      "title": "UK economy expands 0.7% in third quarter as AI provides 'extra engine of growth'",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/12/uk-gdp-third-quarter-2026.html"
+    },
+    {
+      "when": "Nov 12",
+      "title": "China's Ministry of State Security thrust into the spotlight by Nvidia CEO affair",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/12/china-ministry-state-security-nvidia-ceo.html"
+    },
     {
       "when": "Nov 11",
       "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
@@ -358,34 +382,10 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html"
-    },
-    {
-      "when": "Nov 11",
-      "title": "Consumers are showing signs of strain even as they keep spending, CNBC/NRF Retail Monitor shows",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html"
-    },
-    {
-      "when": "Nov 11",
-      "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html"
-    },
-    {
-      "when": "Nov 10",
-      "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.98%, overnight SOFR at 3.88%",
+    "headline": "The 10-year at 4.98%, overnight SOFR at 3.89%",
     "standfirst": "An illustrative agency coupon prices at 6.33–6.63%. The Freddie Mac 30-year survey rate is 7.18%.",
     "curve_date": "Nov 10, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.88",
+      "val": "3.89",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,6 +433,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Get to Know the Broker: Jennifer Reddington of Compass",
+      "when": "Nov 12",
+      "link": "https://commercialobserver.com/2026/11/get-to-know-the-broker-jennifer-reddington-compass/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "The Call Is Coming From Inside the Townhouse",
+      "when": "Nov 12",
+      "link": "https://commercialobserver.com/2026/11/residential-real-estate-nyc-townhouse/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Hangars-On: Aviation-Related Real Estate Investment Takes Off in 2026",
+      "when": "Nov 12",
+      "link": "https://commercialobserver.com/2026/11/aviation-real-estate-investment-airplane-hangars/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Can Nithya Raman Break L.A.’s Development Gridlock?",
       "when": "Nov 11",
       "link": "https://commercialobserver.com/2026/11/mayor-nithya-raman-los-angeles-housing-development/"
@@ -448,24 +466,6 @@
       "title": "Jacob Fulop Files Plans for Two 99-Unit Buildings in East Harlem",
       "when": "Nov 11",
       "link": "https://commercialobserver.com/2026/11/jacob-fulop-306-east-101st-street-307-east-100th-street-harlem-housing/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "CP Group-Led JV Lands $272M for Mixed-Use Boca Raton Campus",
-      "when": "Nov 11",
-      "link": "https://commercialobserver.com/2026/11/cp-mizner-park-boca-raton-blackstone-florida/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Goodman Capital Leads $31M Condo Inventory Loan on Seattle-Area Resi Tower",
-      "when": "Nov 11",
-      "link": "https://commercialobserver.com/2026/11/goodman-capital-condos-bellevue-seattle/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Extell Buys 1645 First Avenue on the Upper East Side for $28M",
-      "when": "Nov 11",
-      "link": "https://commercialobserver.com/2026/11/extell-buys-1645-first-avenue/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.95",
-      "chg": "-0.19%",
+      "price": "72.66",
+      "chg": "-0.40%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "97.02",
-      "chg": "-0.06%",
-      "dir": -1
+      "price": "97.09",
+      "chg": "+0.07%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.44",
-      "chg": "-0.16%",
-      "dir": -1
+      "price": "63.62",
+      "chg": "+0.28%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "130.03",
-      "chg": "-0.05%",
+      "price": "129.34",
+      "chg": "-0.53%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.63",
-      "chg": "-1.70%",
-      "dir": -1
+      "price": "64.78",
+      "chg": "+0.23%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "234.75",
-      "chg": "+0.12%",
+      "price": "235.19",
+      "chg": "+0.19%",
       "dir": 1
     }
   ],
