@@ -3,31 +3,31 @@
     "date_line": "Thursday · Nov 12, 2026",
     "as_of": "Auto-compiled from public sources · Nov 12, 2026",
     "compiled": "Compiled Nov 12, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-12T14:50:44Z"
+    "generated_utc": "2026-11-12T16:55:25Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,597.42",
-      "ch": "-0.29%",
-      "dir": -1
+      "vl": "7,630.77",
+      "ch": "+0.15%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,293",
-      "ch": "-0.68%",
-      "dir": -1
+      "vl": "25,487",
+      "ch": "+0.08%",
+      "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "52,559",
-      "ch": "+0.14%",
+      "vl": "52,625",
+      "ch": "+0.26%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "18.70",
-      "ch": "+6.92%",
+      "vl": "17.57",
+      "ch": "+0.46%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.29%",
-    "standfirst": "At the last close: S&P 500 7,597.42 (-0.29%); Nasdaq 25,293 (-0.68%); Dow 52,559 (+0.14%). VIX 18.70 (+6.92%).",
+    "headline": "The S&P 500 edged higher 0.15%",
+    "standfirst": "At the last close: S&P 500 7,630.77 (+0.15%); Nasdaq 25,487 (+0.08%); Dow 52,625 (+0.26%). VIX 17.57 (+0.46%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "4 of 6 names on the watchlist closed higher.",
-      "BXP led at +0.28%; PLD lagged at -0.53%."
+      "0 of 6 names on the watchlist closed higher.",
+      "VMRK led at -0.09%; PLD lagged at -0.92%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "October openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 12"
+    "quote_note": "Quotes ~15-min delayed · as of 11:54 AM ET, Nov 12"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,597.42",
-      "tone": "neg",
+      "val": "7,630.77",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.29%",
+        "dir": 1,
+        "txt": "0.15%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,550.84</span> · <span class=\"up mono\">+10.9%</span> YoY"
+      "note": "Open <span class=\"mono\">7,550.84</span> · <span class=\"up mono\">+11.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,293",
-      "tone": "neg",
+      "val": "25,487",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.68%",
+        "dir": 1,
+        "txt": "0.08%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,092</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,559",
+      "val": "52,625",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.14%",
+        "txt": "0.26%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,428</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "18.70",
+      "val": "17.57",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "6.92%",
+        "txt": "0.46%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">18.36</span>"
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Nov 12",
+      "title": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+    },
+    {
+      "when": "Nov 12",
       "title": "Oil prices mixed after Trump says no Iran deal needed: 'We've got their Strait'",
       "blurb": "",
       "kind": "",
@@ -358,14 +366,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/12/china-ministry-state-security-nvidia-ceo.html"
-    },
-    {
-      "when": "Nov 11",
-      "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
     },
     {
       "when": "Nov 11",
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Doron Greenberg Buys Luxury Brooklyn Apartment Building for $52M",
+      "when": "Nov 12",
+      "link": "https://commercialobserver.com/2026/11/doron-greenberg-buys-100-lenox-road-brooklyn/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Enverra Buys Northern Virginia Office Campus for $42M",
+      "when": "Nov 12",
+      "link": "https://commercialobserver.com/2026/11/enverra-buys-northern-virginia-office-campus-for-42m/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Extell Acquires Air Rights to Possibly Expand Scope of 655 Madison Avenue",
+      "when": "Nov 12",
+      "link": "https://commercialobserver.com/2026/11/extell-buys-air-rights-36-east-61st-street-655-madison-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Development Site Next to Fatal Flatbush Building Collapse Faced Safety Issues",
+      "when": "Nov 12",
+      "link": "https://commercialobserver.com/2026/11/fatal-building-collapse-brooklyn-1321-flatbush-avenue-safety/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Get to Know the Broker: Jennifer Reddington of Compass",
       "when": "Nov 12",
       "link": "https://commercialobserver.com/2026/11/get-to-know-the-broker-jennifer-reddington-compass/"
@@ -442,30 +466,6 @@
       "title": "The Call Is Coming From Inside the Townhouse",
       "when": "Nov 12",
       "link": "https://commercialobserver.com/2026/11/residential-real-estate-nyc-townhouse/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Hangars-On: Aviation-Related Real Estate Investment Takes Off in 2026",
-      "when": "Nov 12",
-      "link": "https://commercialobserver.com/2026/11/aviation-real-estate-investment-airplane-hangars/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Can Nithya Raman Break L.A.’s Development Gridlock?",
-      "when": "Nov 11",
-      "link": "https://commercialobserver.com/2026/11/mayor-nithya-raman-los-angeles-housing-development/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "VNS Health Renews 8K-SF Lease at the Bronx’s Hutchinson Metro Center",
-      "when": "Nov 11",
-      "link": "https://commercialobserver.com/2026/11/vns-health-lease-renewal-bronx-hutchinson-metro-center/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Jacob Fulop Files Plans for Two 99-Unit Buildings in East Harlem",
-      "when": "Nov 11",
-      "link": "https://commercialobserver.com/2026/11/jacob-fulop-306-east-101st-street-307-east-100th-street-harlem-housing/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.66",
-      "chg": "-0.40%",
+      "price": "72.61",
+      "chg": "-0.47%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "97.09",
-      "chg": "+0.07%",
-      "dir": 1
+      "price": "96.86",
+      "chg": "-0.16%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.62",
-      "chg": "+0.28%",
-      "dir": 1
+      "price": "63.32",
+      "chg": "-0.19%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.34",
-      "chg": "-0.53%",
+      "price": "128.84",
+      "chg": "-0.92%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.78",
-      "chg": "+0.23%",
-      "dir": 1
+      "price": "64.57",
+      "chg": "-0.09%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "235.19",
-      "chg": "+0.19%",
-      "dir": 1
+      "price": "234.50",
+      "chg": "-0.11%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
