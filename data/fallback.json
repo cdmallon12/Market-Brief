@@ -3,7 +3,7 @@
     "date_line": "Thursday · Nov 12, 2026",
     "as_of": "Auto-compiled from public sources · Nov 12, 2026",
     "compiled": "Compiled Nov 12, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-12T21:07:26Z"
+    "generated_utc": "2026-11-12T22:47:30Z"
   },
   "ticker": [
     {
@@ -26,8 +26,8 @@
     },
     {
       "nm": "VIX",
-      "vl": "18.94",
-      "ch": "+8.29%",
+      "vl": "18.70",
+      "ch": "+6.92%",
       "dir": 1
     },
     {
@@ -111,12 +111,12 @@
   ],
   "markets": {
     "headline": "The S&P 500 edged lower 0.35%",
-    "standfirst": "At the last close: S&P 500 7,592.40 (-0.35%); Nasdaq 25,366 (-0.39%); Dow 52,297 (-0.36%). VIX 18.94 (+8.29%).",
+    "standfirst": "At the last close: S&P 500 7,592.40 (-0.35%); Nasdaq 25,366 (-0.39%); Dow 52,297 (-0.36%). VIX 18.70 (+6.92%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "SPG led at -0.48%; PLD lagged at -1.14%."
+      "SPG led at -0.49%; PLD lagged at -1.14%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,7 +147,7 @@
         "body": "October openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 4:06 PM ET, Nov 12"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 12"
   },
   "markets_tiles": [
     {
@@ -185,11 +185,11 @@
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "18.94",
+      "val": "18.70",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "8.29%",
+        "txt": "6.92%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">18.36</span>"
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "PMG Secures $250M Refi for New Fort Lauderdale Rental",
+      "when": "Nov 12",
+      "link": "https://commercialobserver.com/2026/11/pmg-greybook-fort-lauderdale-society-las-olas/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "New Music Venue Signs Lease at Refinery at Domino",
+      "when": "Nov 12",
+      "link": "https://commercialobserver.com/2026/11/ben-lovett-tvg-hospitality-refinery-at-domino-lease/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "CSC Real Estate In Contract to Buy Episcopal Church’s Manhattan HQ",
+      "when": "Nov 12",
+      "link": "https://commercialobserver.com/2026/11/episcopal-church-in-contract-sale-815-second-avenue-csc/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Advanced Real Estate Buys Inland Empire Apartment Complex for $56M",
+      "when": "Nov 12",
+      "link": "https://commercialobserver.com/2026/11/advanced-real-estate-buys-inland-empire-apartment-complex-for-56m/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "The Importance of a Unified Language for AI Development in CRE",
       "when": "Nov 12",
       "link": "https://commercialobserver.com/2026/11/the-importance-of-a-unified-language-for-ai-development-in-cre/"
@@ -442,30 +466,6 @@
       "title": "Nuveen Green Capital Breaks Texas Record With $228M C-PACE Loan for Austin Office Campus",
       "when": "Nov 12",
       "link": "https://commercialobserver.com/2026/11/nuveen-green-capital-c-pace-record-texas/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "NY Developer MAG Partners Expanding to South Florida",
-      "when": "Nov 12",
-      "link": "https://commercialobserver.com/2026/11/mag-partners-kevin-davenport-maryanne-gilmartin-miami-florida/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Metis Equities Buys Luxury Brooklyn Apartment Building for $52M",
-      "when": "Nov 12",
-      "link": "https://commercialobserver.com/2026/11/doron-greenberg-buys-100-lenox-road-brooklyn/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Enverra Buys Northern Virginia Office Campus for $42M",
-      "when": "Nov 12",
-      "link": "https://commercialobserver.com/2026/11/enverra-buys-northern-virginia-office-campus-for-42m/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Extell Acquires Air Rights to Possibly Expand Scope of 655 Madison Avenue",
-      "when": "Nov 12",
-      "link": "https://commercialobserver.com/2026/11/extell-buys-air-rights-36-east-61st-street-655-madison-avenue/"
     }
   ],
   "cre_fund_tiles": [
@@ -620,8 +620,8 @@
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.90",
-      "chg": "-0.85%",
+      "price": "62.89",
+      "chg": "-0.87%",
       "dir": -1
     },
     {
@@ -634,15 +634,15 @@
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.92",
-      "chg": "-1.09%",
+      "price": "63.93",
+      "chg": "-1.08%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "233.62",
-      "chg": "-0.48%",
+      "price": "233.61",
+      "chg": "-0.49%",
       "dir": -1
     }
   ],
