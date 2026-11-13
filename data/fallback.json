@@ -3,31 +3,31 @@
     "date_line": "Friday · Nov 13, 2026",
     "as_of": "Auto-compiled from public sources · Nov 13, 2026",
     "compiled": "Compiled Nov 13, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-13T16:34:22Z"
+    "generated_utc": "2026-11-13T20:40:20Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,531.20",
-      "ch": "-0.81%",
+      "vl": "7,546.60",
+      "ch": "-0.60%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,013",
-      "ch": "-1.39%",
+      "vl": "25,094",
+      "ch": "-1.07%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,230",
-      "ch": "-0.13%",
+      "vl": "52,276",
+      "ch": "-0.04%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "20.55",
-      "ch": "+9.89%",
+      "vl": "19.02",
+      "ch": "+1.71%",
       "dir": 1
     },
     {
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.81%",
-    "standfirst": "At the last close: S&P 500 7,531.20 (-0.81%); Nasdaq 25,013 (-1.39%); Dow 52,230 (-0.13%). VIX 20.55 (+9.89%).",
+    "headline": "The S&P 500 fell 0.60%",
+    "standfirst": "At the last close: S&P 500 7,546.60 (-0.60%); Nasdaq 25,094 (-1.07%); Dow 52,276 (-0.04%). VIX 19.02 (+1.71%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "4 of 6 names on the watchlist closed higher.",
-      "BXP led at +0.76%; PLD lagged at -0.19%."
+      "3 of 6 names on the watchlist closed higher.",
+      "BXP led at +1.32%; SPG lagged at -0.30%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "October openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:33 AM ET, Nov 13"
+    "quote_note": "Quotes ~15-min delayed · as of 3:39 PM ET, Nov 13"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,531.20",
+      "val": "7,546.60",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.81%",
+        "txt": "0.60%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,616.85</span> · <span class=\"up mono\">+11.8%</span> YoY"
+      "note": "Open <span class=\"mono\">7,616.85</span> · <span class=\"up mono\">+12.0%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,013",
+      "val": "25,094",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.39%",
+        "txt": "1.07%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,408</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,230",
+      "val": "52,276",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.13%",
+        "txt": "0.04%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,491</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "20.55",
+      "val": "19.02",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "9.89%",
+        "txt": "1.71%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">18.78</span>"
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Nov 13",
+      "title": "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
+    },
+    {
+      "when": "Nov 13",
       "title": "Bessent blames Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
-    },
-    {
-      "when": "Nov 12",
-      "title": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
     }
   ],
   "cre": {
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Child Center of NY Signs 16K-SF Lease in New Astoria Office Development",
+      "title": "RXR Acquires Minority Stake in Silverstein’s 55 Broad Street",
       "when": "Nov 13",
-      "link": "https://commercialobserver.com/2026/11/child-center-ny-lease-35-01-36th-avenue/"
+      "link": "https://commercialobserver.com/2026/11/rxr-55-broad-street-wells-macuarie-newmark-metro-loft/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Australian Fashion Brand Mode Mischief Inks Lease at SoHo’s 65 Spring Street",
+      "title": "Miami-Area Multifamily Project Trades for $54M",
       "when": "Nov 13",
-      "link": "https://commercialobserver.com/2026/11/mode-mischief-lease-soho-65-spring-street/"
+      "link": "https://commercialobserver.com/2026/11/miami-multifamily-merco-group-belinda-meruelo-ralgo/"
     },
     {
       "source": "Commercial Observer",
-      "title": "PMG Secures $250M Refi for New Fort Lauderdale Rental",
-      "when": "Nov 12",
-      "link": "https://commercialobserver.com/2026/11/pmg-greybook-fort-lauderdale-society-las-olas/"
+      "title": "Irvine Company Signs Nearly 2.5M SF of Office Leases in Q3",
+      "when": "Nov 13",
+      "link": "https://commercialobserver.com/2026/11/calif-irvine-co-office-leases/"
     },
     {
       "source": "Commercial Observer",
-      "title": "New Music Venue Signs Lease at Refinery at Domino",
-      "when": "Nov 12",
-      "link": "https://commercialobserver.com/2026/11/ben-lovett-tvg-hospitality-refinery-at-domino-lease/"
+      "title": "Dwight Capital Lends $42M on North Carolina Apartments Build",
+      "when": "Nov 13",
+      "link": "https://commercialobserver.com/2026/11/dwight-capital-cheferkon-north-carolina-apartments-wake-forest/"
     },
     {
       "source": "Commercial Observer",
-      "title": "CSC Real Estate In Contract to Buy Episcopal Church’s Manhattan HQ",
-      "when": "Nov 12",
-      "link": "https://commercialobserver.com/2026/11/episcopal-church-in-contract-sale-815-second-avenue-csc/"
+      "title": "Ytech Lands $42M Loan for Second Brickell Condo Tower",
+      "when": "Nov 13",
+      "link": "https://commercialobserver.com/2026/11/ytech-brickell-miami-condo-75-broadway/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Advanced Real Estate Buys Inland Empire Apartment Complex for $56M",
-      "when": "Nov 12",
-      "link": "https://commercialobserver.com/2026/11/advanced-real-estate-buys-inland-empire-apartment-complex-for-56m/"
+      "title": "MD Squared Property Group Takes 16K SF at Feil’s 145 West 30th Street",
+      "when": "Nov 13",
+      "link": "https://commercialobserver.com/2026/11/md-squared-property-group-lease-feil-145-west-30th-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.64",
-      "chg": "+0.17%",
+      "price": "72.57",
+      "chg": "+0.07%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.28",
-      "chg": "-0.16%",
+      "price": "96.36",
+      "chg": "-0.08%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.37",
-      "chg": "+0.76%",
+      "price": "63.72",
+      "chg": "+1.32%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.30",
-      "chg": "-0.19%",
+      "price": "128.42",
+      "chg": "-0.10%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.21",
-      "chg": "+0.44%",
+      "price": "64.19",
+      "chg": "+0.40%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "234.35",
-      "chg": "+0.32%",
-      "dir": 1
+      "price": "232.91",
+      "chg": "-0.30%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
