@@ -3,7 +3,7 @@
     "date_line": "Thursday · Nov 12, 2026",
     "as_of": "Auto-compiled from public sources · Nov 12, 2026",
     "compiled": "Compiled Nov 12, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-12T22:47:30Z"
+    "generated_utc": "2026-11-13T03:27:51Z"
   },
   "ticker": [
     {
@@ -139,7 +139,7 @@
       {
         "when": "Thu · Nov 19",
         "title": "WMT earnings",
-        "body": "Scheduled to report."
+        "body": "Scheduled to report before open."
       },
       {
         "when": "Tue · Dec 1",
@@ -254,25 +254,25 @@
   "energy_tiles": [
     {
       "lbl": "Brent Crude",
-      "val": "$107.03",
+      "val": "$92.14",
       "unit": "",
       "tone": "",
       "note": "Global benchmark — the swing factor in headline inflation",
       "delta": {
-        "dir": -1,
-        "txt": "-0.36",
+        "dir": 1,
+        "txt": "+1.98",
         "note": "d/d"
       }
     },
     {
       "lbl": "WTI Crude",
-      "val": "$99.64",
+      "val": "$89.62",
       "unit": "",
       "tone": "",
       "note": "U.S. benchmark",
       "delta": {
-        "dir": -1,
-        "txt": "-0.42",
+        "dir": 0,
+        "txt": "+0.00",
         "note": "d/d"
       }
     },
@@ -337,11 +337,11 @@
   "headlines": [
     {
       "when": "Nov 12",
-      "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+      "title": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html"
+      "link": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html"
     },
     {
       "when": "Nov 12",
@@ -361,6 +361,14 @@
     },
     {
       "when": "Nov 12",
+      "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html"
+    },
+    {
+      "when": "Nov 12",
       "title": "UK economy expands 0.7% in third quarter as AI provides 'extra engine of growth'",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/12/china-ministry-state-security-nvidia-ceo.html"
-    },
-    {
-      "when": "Nov 11",
-      "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html"
     }
   ],
   "cre": {
