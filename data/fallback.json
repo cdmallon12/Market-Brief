@@ -3,32 +3,32 @@
     "date_line": "Friday · Nov 13, 2026",
     "as_of": "Auto-compiled from public sources · Nov 13, 2026",
     "compiled": "Compiled Nov 13, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-13T14:50:55Z"
+    "generated_utc": "2026-11-13T16:34:22Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,570.78",
-      "ch": "-0.28%",
+      "vl": "7,531.20",
+      "ch": "-0.81%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,232",
-      "ch": "-0.53%",
+      "vl": "25,013",
+      "ch": "-1.39%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,373",
-      "ch": "+0.14%",
-      "dir": 1
+      "vl": "52,230",
+      "ch": "-0.13%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "18.42",
-      "ch": "-1.50%",
-      "dir": -1
+      "vl": "20.55",
+      "ch": "+9.89%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.12%",
+      "vl": "1.11%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.30%",
+      "vl": "3.20%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.28%",
-    "standfirst": "At the last close: S&P 500 7,570.78 (-0.28%); Nasdaq 25,232 (-0.53%); Dow 52,373 (+0.14%). VIX 18.42 (-1.50%).",
+    "headline": "The S&P 500 fell 0.81%",
+    "standfirst": "At the last close: S&P 500 7,531.20 (-0.81%); Nasdaq 25,013 (-1.39%); Dow 52,230 (-0.13%). VIX 20.55 (+9.89%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "VMRK led at +1.05%; KRE lagged at -0.07%."
+      "4 of 6 names on the watchlist closed higher.",
+      "BXP led at +0.76%; PLD lagged at -0.19%."
     ],
     "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "October openings, hires and quits."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 13"
+    "quote_note": "Quotes ~15-min delayed · as of 11:33 AM ET, Nov 13"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,570.78",
+      "val": "7,531.20",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.28%",
+        "txt": "0.81%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,616.85</span> · <span class=\"up mono\">+12.4%</span> YoY"
+      "note": "Open <span class=\"mono\">7,616.85</span> · <span class=\"up mono\">+11.8%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,232",
+      "val": "25,013",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.53%",
+        "txt": "1.39%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">25,408</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,373",
-      "tone": "pos",
+      "val": "52,230",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.14%",
+        "dir": -1,
+        "txt": "0.13%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,491</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "18.42",
-      "tone": "neg",
+      "val": "20.55",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "1.50%",
+        "dir": 1,
+        "txt": "9.89%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">18.78</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.12%, high-yield at 3.30%",
-    "standfirst": "The high-yield premium over investment grade is 2.18 percentage points. The 2s10s Treasury spread is +24 bps.",
+    "headline": "Investment-grade OAS at 1.11%, high-yield at 3.20%",
+    "standfirst": "The high-yield premium over investment grade is 2.09 percentage points. The 2s10s Treasury spread is +24 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,7 +296,7 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.12",
+      "val": "1.11",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
@@ -308,27 +308,27 @@
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.30",
+      "val": "3.20",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "-0.04pp",
+        "txt": "-0.10pp",
         "note": "tighter"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.18",
+      "val": "2.09",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.12,
-    "hy": 3.3
+    "ig": 1.11,
+    "hy": 3.2
   },
   "news": {
     "headline": "Latest headlines",
@@ -337,19 +337,11 @@
   "headlines": [
     {
       "when": "Nov 13",
-      "title": "Bessent points to Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
+      "title": "Bessent blames Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html"
-    },
-    {
-      "when": "Nov 13",
-      "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html"
     },
     {
       "when": "Nov 13",
@@ -358,6 +350,14 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html"
+    },
+    {
+      "when": "Nov 13",
+      "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html"
     },
     {
       "when": "Nov 12",
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Child Center of NY Signs 16K-SF Lease in New Astoria Office Development",
+      "when": "Nov 13",
+      "link": "https://commercialobserver.com/2026/11/child-center-ny-lease-35-01-36th-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Australian Fashion Brand Mode Mischief Inks Lease at SoHo’s 65 Spring Street",
+      "when": "Nov 13",
+      "link": "https://commercialobserver.com/2026/11/mode-mischief-lease-soho-65-spring-street/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "PMG Secures $250M Refi for New Fort Lauderdale Rental",
       "when": "Nov 12",
       "link": "https://commercialobserver.com/2026/11/pmg-greybook-fort-lauderdale-society-las-olas/"
@@ -454,18 +466,6 @@
       "title": "Advanced Real Estate Buys Inland Empire Apartment Complex for $56M",
       "when": "Nov 12",
       "link": "https://commercialobserver.com/2026/11/advanced-real-estate-buys-inland-empire-apartment-complex-for-56m/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "The Importance of a Unified Language for AI Development in CRE",
-      "when": "Nov 12",
-      "link": "https://commercialobserver.com/2026/11/the-importance-of-a-unified-language-for-ai-development-in-cre/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Nuveen Green Capital Breaks Texas Record With $228M C-PACE Loan for Austin Office Campus",
-      "when": "Nov 12",
-      "link": "https://commercialobserver.com/2026/11/nuveen-green-capital-c-pace-record-texas/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.47",
-      "chg": "-0.07%",
-      "dir": -1
+      "price": "72.64",
+      "chg": "+0.17%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.83",
-      "chg": "+0.40%",
-      "dir": 1
+      "price": "96.28",
+      "chg": "-0.16%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.50",
-      "chg": "+0.97%",
+      "price": "63.37",
+      "chg": "+0.76%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "129.19",
-      "chg": "+0.50%",
-      "dir": 1
+      "price": "128.30",
+      "chg": "-0.19%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.60",
-      "chg": "+1.05%",
+      "price": "64.21",
+      "chg": "+0.44%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "235.23",
-      "chg": "+0.69%",
+      "price": "234.35",
+      "chg": "+0.32%",
       "dir": 1
     }
   ],
