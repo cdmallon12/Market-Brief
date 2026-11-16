@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Friday · Nov 13, 2026",
-    "as_of": "Auto-compiled from public sources · Nov 13, 2026",
-    "compiled": "Compiled Nov 13, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-14T03:23:46Z"
+    "date_line": "Monday · Nov 16, 2026",
+    "as_of": "Auto-compiled from public sources · Nov 16, 2026",
+    "compiled": "Compiled Nov 16, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-11-16T14:50:45Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,561.67",
-      "ch": "-0.40%",
+      "vl": "7,505.60",
+      "ch": "-0.74%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "25,136",
-      "ch": "-0.91%",
+      "vl": "24,828",
+      "ch": "-1.23%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,348",
-      "ch": "+0.10%",
-      "dir": 1
+      "vl": "52,212",
+      "ch": "-0.26%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "19.30",
-      "ch": "+3.21%",
+      "vl": "20.93",
+      "ch": "+8.45%",
       "dir": 1
     },
     {
@@ -110,29 +110,24 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.40%",
-    "standfirst": "At the last close: S&P 500 7,561.67 (-0.40%); Nasdaq 25,136 (-0.91%); Dow 52,348 (+0.10%). VIX 19.30 (+3.21%).",
+    "headline": "The S&P 500 fell 0.74%",
+    "standfirst": "At the last close: S&P 500 7,505.60 (-0.74%); Nasdaq 24,828 (-1.23%); Dow 52,212 (-0.26%). VIX 20.93 (+8.45%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.42%; SPG lagged at -0.27%."
+      "3 of 6 names on the watchlist closed higher.",
+      "VMRK led at +0.83%; BXP lagged at -0.30%."
     ],
-    "card2_title": "On the calendar today",
+    "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "08:30 ET · Today",
-        "title": "Producer Price Index",
-        "body": "October PPI."
-      },
-      {
-        "when": "Tue · Nov 17",
+        "when": "Tomorrow",
         "title": "NVDA earnings",
         "body": "Scheduled to report after close."
       },
       {
-        "when": "Tue · Nov 17",
+        "when": "Tomorrow",
         "title": "HD earnings",
         "body": "Scheduled to report before open."
       },
@@ -145,54 +140,59 @@
         "when": "Tue · Dec 1",
         "title": "JOLTS job openings",
         "body": "October openings, hires and quits."
+      },
+      {
+        "when": "Fri · Dec 4",
+        "title": "Employment Situation",
+        "body": "November payrolls. The last jobs report before the December FOMC."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 13"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 16"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,561.67",
+      "val": "7,505.60",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.40%",
+        "txt": "0.74%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,616.85</span> · <span class=\"up mono\">+12.3%</span> YoY"
+      "note": "Open <span class=\"mono\">7,513.98</span> · <span class=\"up mono\">+12.5%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "25,136",
+      "val": "24,828",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.91%",
+        "txt": "1.23%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">25,408</span>"
+      "note": "Open <span class=\"mono\">24,853</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,348",
-      "tone": "pos",
+      "val": "52,212",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "0.10%",
+        "dir": -1,
+        "txt": "0.26%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">52,491</span>"
+      "note": "Open <span class=\"mono\">52,267</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "19.30",
+      "val": "20.93",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "3.21%",
+        "txt": "8.45%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">18.78</span>"
+      "note": "Open <span class=\"mono\">20.00</span>"
     }
   ],
   "economy": {
@@ -336,12 +336,44 @@
   },
   "headlines": [
     {
-      "when": "Nov 13",
-      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+      "when": "Nov 16",
+      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
+    },
+    {
+      "when": "Nov 16",
+      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html"
+    },
+    {
+      "when": "Nov 15",
+      "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
+    },
+    {
+      "when": "Nov 15",
+      "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+    },
+    {
+      "when": "Nov 14",
+      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html"
     },
     {
       "when": "Nov 13",
@@ -350,38 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html"
-    },
-    {
-      "when": "Nov 13",
-      "title": "Bessent blames Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html"
-    },
-    {
-      "when": "Nov 13",
-      "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html"
-    },
-    {
-      "when": "Nov 13",
-      "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html"
-    },
-    {
-      "when": "Nov 12",
-      "title": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html"
     }
   ],
   "cre": {
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "AI Platform Bevado Raises $10M Seed Round",
+      "when": "Nov 16",
+      "link": "https://commercialobserver.com/2026/11/ai-platform-bevado-seed-round/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Apartment Owners Reach for Concessions to Survive Winter",
+      "when": "Nov 16",
+      "link": "https://commercialobserver.com/2026/11/multifamily-distress-cmbs/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Dana Codispoti of Madison Realty Capital: 5 Questions",
+      "when": "Nov 16",
+      "link": "https://commercialobserver.com/2026/11/dana-codispoti-madison-realty-capital-5-questions/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "How the Fannie Mae and Freddie Mac Privatization Fell Apart",
+      "when": "Nov 16",
+      "link": "https://commercialobserver.com/2026/11/how-fannie-mae-freddie-mac-privatization-fell-apart/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Sunday Summary: Can Nithya Raman Save L.A. Real Estate?",
+      "when": "Nov 15",
+      "link": "https://commercialobserver.com/2026/11/sunday-summary-can-nithya-raman-save-l-a-real-estate/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Bank OZK Supplies $86M Construction Loan for Rental in Broward County",
       "when": "Nov 13",
       "link": "https://commercialobserver.com/2026/11/bank-ozk-falcone-broward-county-horizon-of-oakland-park/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Creative Design Firm Collins Relocates NYC HQ to 11K SF at 207 Front Street",
-      "when": "Nov 13",
-      "link": "https://commercialobserver.com/2026/11/collins-lease-207-front-street-seaport/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "RXR Acquires Minority Stake in Silverstein’s 55 Broad Street",
-      "when": "Nov 13",
-      "link": "https://commercialobserver.com/2026/11/rxr-55-broad-street-wells-macuarie-newmark-metro-loft/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Miami-Area Multifamily Project Trades for $54M",
-      "when": "Nov 13",
-      "link": "https://commercialobserver.com/2026/11/miami-multifamily-merco-group-belinda-meruelo-ralgo/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Irvine Company Signs Nearly 2.5M SF of Office Leases in Q3",
-      "when": "Nov 13",
-      "link": "https://commercialobserver.com/2026/11/calif-irvine-co-office-leases/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Dwight Capital Lends $42M on North Carolina Apartments Build",
-      "when": "Nov 13",
-      "link": "https://commercialobserver.com/2026/11/dwight-capital-cheferkon-north-carolina-apartments-wake-forest/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.74",
-      "chg": "+0.30%",
-      "dir": 1
+      "price": "72.64",
+      "chg": "-0.14%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.47",
-      "chg": "+0.03%",
+      "price": "96.83",
+      "chg": "+0.37%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.78",
-      "chg": "+1.42%",
-      "dir": 1
+      "price": "63.59",
+      "chg": "-0.30%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.67",
-      "chg": "+0.09%",
-      "dir": 1
+      "price": "128.60",
+      "chg": "-0.05%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.22",
-      "chg": "+0.45%",
+      "price": "64.75",
+      "chg": "+0.83%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "232.97",
-      "chg": "-0.27%",
-      "dir": -1
+      "price": "233.59",
+      "chg": "+0.26%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
