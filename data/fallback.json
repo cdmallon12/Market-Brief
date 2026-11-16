@@ -3,31 +3,31 @@
     "date_line": "Monday · Nov 16, 2026",
     "as_of": "Auto-compiled from public sources · Nov 16, 2026",
     "compiled": "Compiled Nov 16, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-16T14:50:45Z"
+    "generated_utc": "2026-11-16T18:42:20Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,505.60",
-      "ch": "-0.74%",
+      "vl": "7,412.85",
+      "ch": "-1.97%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "24,828",
-      "ch": "-1.23%",
+      "vl": "24,490",
+      "ch": "-2.57%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "52,212",
-      "ch": "-0.26%",
+      "vl": "51,616",
+      "ch": "-1.40%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "20.93",
-      "ch": "+8.45%",
+      "vl": "22.68",
+      "ch": "+17.51%",
       "dir": 1
     },
     {
@@ -104,19 +104,19 @@
     },
     {
       "nm": "HY OAS",
-      "vl": "3.20%",
+      "vl": "3.23%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.74%",
-    "standfirst": "At the last close: S&P 500 7,505.60 (-0.74%); Nasdaq 24,828 (-1.23%); Dow 52,212 (-0.26%). VIX 20.93 (+8.45%).",
+    "headline": "The S&P 500 dropped 1.97%",
+    "standfirst": "At the last close: S&P 500 7,412.85 (-1.97%); Nasdaq 24,490 (-2.57%); Dow 51,616 (-1.40%). VIX 22.68 (+17.51%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "3 of 6 names on the watchlist closed higher.",
-      "VMRK led at +0.83%; BXP lagged at -0.30%."
+      "2 of 6 names on the watchlist closed higher.",
+      "VMRK led at +0.78%; KRE lagged at -1.38%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "November payrolls. The last jobs report before the December FOMC."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 16"
+    "quote_note": "Quotes ~15-min delayed · as of 1:41 PM ET, Nov 16"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,505.60",
+      "val": "7,412.85",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.74%",
+        "txt": "1.97%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,513.98</span> · <span class=\"up mono\">+12.5%</span> YoY"
+      "note": "Open <span class=\"mono\">7,513.98</span> · <span class=\"up mono\">+11.1%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "24,828",
+      "val": "24,490",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.23%",
+        "txt": "2.57%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">24,853</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "52,212",
+      "val": "51,616",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.26%",
+        "txt": "1.40%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">52,267</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "20.93",
+      "val": "22.68",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "8.45%",
+        "txt": "17.51%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">20.00</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.11%, high-yield at 3.20%",
-    "standfirst": "The high-yield premium over investment grade is 2.09 percentage points. The 2s10s Treasury spread is +27 bps.",
+    "headline": "Investment-grade OAS at 1.11%, high-yield at 3.23%",
+    "standfirst": "The high-yield premium over investment grade is 2.12 percentage points. The 2s10s Treasury spread is +27 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -302,25 +302,25 @@
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "-0.01pp",
-        "note": "tighter"
+        "txt": "+0.00pp",
+        "note": "flat"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.20",
+      "val": "3.23",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "-0.10pp",
-        "note": "tighter"
+        "txt": "+0.03pp",
+        "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.09",
+      "val": "2.12",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
@@ -328,13 +328,37 @@
   ],
   "credit_chart": {
     "ig": 1.11,
-    "hy": 3.2
+    "hy": 3.23
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Nov 16",
+      "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html"
+    },
+    {
+      "when": "Nov 16",
+      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html"
+    },
+    {
+      "when": "Nov 16",
+      "title": "U.S. crude oil declines to $87 a barrel on recovering Middle East exports",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
+    },
     {
       "when": "Nov 16",
       "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
@@ -358,30 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
-    },
-    {
-      "when": "Nov 15",
-      "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
-    },
-    {
-      "when": "Nov 14",
-      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html"
-    },
-    {
-      "when": "Nov 13",
-      "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html"
     }
   ],
   "cre": {
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "AI Platform Bevado Raises $10M Seed Round",
+      "title": "Forman Capital Lends $51M on North Carolina Shopping Center Project",
       "when": "Nov 16",
-      "link": "https://commercialobserver.com/2026/11/ai-platform-bevado-seed-round/"
+      "link": "https://commercialobserver.com/2026/11/forman-capital-north-carolina-shopping-center-bjs-wholesale/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Apartment Owners Reach for Concessions to Survive Winter",
+      "title": "Former NBA Player Carlos Boozer of Impeccable: 5 Questions",
       "when": "Nov 16",
-      "link": "https://commercialobserver.com/2026/11/multifamily-distress-cmbs/"
+      "link": "https://commercialobserver.com/2026/11/nba-carlos-boozer-impeccable-5-questions/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Dana Codispoti of Madison Realty Capital: 5 Questions",
+      "title": "Blackstone Digital Infrastructure Trust, AWS Form $5B Data Center Joint Venture",
       "when": "Nov 16",
-      "link": "https://commercialobserver.com/2026/11/dana-codispoti-madison-realty-capital-5-questions/"
+      "link": "https://commercialobserver.com/2026/11/blackstone-digital-infrastructure-trust-aws-data-center-joint-venture/"
     },
     {
       "source": "Commercial Observer",
-      "title": "How the Fannie Mae and Freddie Mac Privatization Fell Apart",
+      "title": "Lending to the Lender Is the Next Frontier in CRE Debt Investment",
       "when": "Nov 16",
-      "link": "https://commercialobserver.com/2026/11/how-fannie-mae-freddie-mac-privatization-fell-apart/"
+      "link": "https://commercialobserver.com/2026/11/lending-to-lenders-commercial-real-estate/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Sunday Summary: Can Nithya Raman Save L.A. Real Estate?",
-      "when": "Nov 15",
-      "link": "https://commercialobserver.com/2026/11/sunday-summary-can-nithya-raman-save-l-a-real-estate/"
+      "title": "Mesa West Capital Provides $59M Refi for Phoenix-Area Industrial Portfolio",
+      "when": "Nov 16",
+      "link": "https://commercialobserver.com/2026/11/mesa-west-capital-59m-refi-phoenix-industrial-portfolio/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Bank OZK Supplies $86M Construction Loan for Rental in Broward County",
-      "when": "Nov 13",
-      "link": "https://commercialobserver.com/2026/11/bank-ozk-falcone-broward-county-horizon-of-oakland-park/"
+      "title": "Equine Real Estate Demand in Florida and New York Spurs Expertise",
+      "when": "Nov 16",
+      "link": "https://commercialobserver.com/2026/11/equine-real-estate-horses-new-york/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.64",
-      "chg": "-0.14%",
+      "price": "71.73",
+      "chg": "-1.38%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.83",
-      "chg": "+0.37%",
-      "dir": 1
+      "price": "96.11",
+      "chg": "-0.38%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.59",
-      "chg": "-0.30%",
-      "dir": -1
+      "price": "63.80",
+      "chg": "+0.02%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "128.60",
-      "chg": "-0.05%",
+      "price": "127.49",
+      "chg": "-0.92%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.75",
-      "chg": "+0.83%",
+      "price": "64.72",
+      "chg": "+0.78%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "233.59",
-      "chg": "+0.26%",
-      "dir": 1
+      "price": "231.04",
+      "chg": "-0.83%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
