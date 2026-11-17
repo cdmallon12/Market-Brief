@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Monday · Nov 16, 2026",
-    "as_of": "Auto-compiled from public sources · Nov 16, 2026",
-    "compiled": "Compiled Nov 16, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-17T02:59:52Z"
+    "date_line": "Tuesday · Nov 17, 2026",
+    "as_of": "Auto-compiled from public sources · Nov 17, 2026",
+    "compiled": "Compiled Nov 17, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-11-17T14:50:58Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,416.59",
-      "ch": "-1.92%",
+      "vl": "7,400.85",
+      "ch": "-0.21%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "24,510",
-      "ch": "-2.49%",
+      "vl": "24,454",
+      "ch": "-0.23%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "51,608",
-      "ch": "-1.41%",
+      "vl": "51,370",
+      "ch": "-0.46%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "22.91",
-      "ch": "+18.70%",
+      "vl": "23.05",
+      "ch": "+0.61%",
       "dir": 1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.90%",
+      "vl": "3.93%",
       "ch": "",
       "dir": 0
     },
@@ -110,24 +110,24 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 dropped 1.92%",
-    "standfirst": "At the last close: S&P 500 7,416.59 (-1.92%); Nasdaq 24,510 (-2.49%); Dow 51,608 (-1.41%). VIX 22.91 (+18.70%).",
+    "headline": "The S&P 500 edged lower 0.21%",
+    "standfirst": "At the last close: S&P 500 7,400.85 (-0.21%); Nasdaq 24,454 (-0.23%); Dow 51,370 (-0.46%). VIX 23.05 (+0.61%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "2 of 6 names on the watchlist closed higher.",
-      "VMRK led at +0.83%; PLD lagged at -0.83%."
+      "0 of 6 names on the watchlist closed higher.",
+      "SPG led at -0.12%; PLD lagged at -0.45%."
     ],
-    "card2_title": "Coming up",
+    "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "Tomorrow",
+        "when": "Today",
         "title": "NVDA earnings",
         "body": "Scheduled to report after close."
       },
       {
-        "when": "Tomorrow",
+        "when": "Today",
         "title": "HD earnings",
         "body": "Scheduled to report before open."
       },
@@ -147,52 +147,52 @@
         "body": "November payrolls. The last jobs report before the December FOMC."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:28 PM ET, Nov 16"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 17"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,416.59",
+      "val": "7,400.85",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.92%",
+        "txt": "0.21%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,513.98</span> · <span class=\"up mono\">+11.2%</span> YoY"
+      "note": "Open <span class=\"mono\">7,411.02</span> · <span class=\"up mono\">+10.9%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "24,510",
+      "val": "24,454",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "2.49%",
+        "txt": "0.23%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">24,853</span>"
+      "note": "Open <span class=\"mono\">24,528</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "51,608",
+      "val": "51,370",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.41%",
+        "txt": "0.46%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">52,267</span>"
+      "note": "Open <span class=\"mono\">51,387</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "22.91",
+      "val": "23.05",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "18.70%",
+        "txt": "0.61%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">20.00</span>"
+      "note": "Open <span class=\"mono\">23.11</span>"
     }
   ],
   "economy": {
@@ -336,6 +336,22 @@
   },
   "headlines": [
     {
+      "when": "Nov 17",
+      "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
+    },
+    {
+      "when": "Nov 17",
+      "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/17/us-tech-firms-china-ties-political-pressure.html"
+    },
+    {
       "when": "Nov 16",
       "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
       "blurb": "",
@@ -366,26 +382,10 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html"
-    },
-    {
-      "when": "Nov 16",
-      "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html"
-    },
-    {
-      "when": "Nov 16",
-      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.12%, overnight SOFR at 3.90%",
+    "headline": "The 10-year at 5.12%, overnight SOFR at 3.93%",
     "standfirst": "An illustrative agency coupon prices at 6.47–6.77%. The Freddie Mac 30-year survey rate is 7.11%.",
     "curve_date": "Nov 16, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.90",
+      "val": "3.93",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,7 +433,25 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Sherwood Offloads Hudson Yards Condo Tower Site to Joyland Management for $100M",
+      "title": "Paul Goldberger On the ‘Fundamental Messiness’ Behind New York’s Success",
+      "when": "Nov 17",
+      "link": "https://commercialobserver.com/2026/11/paul-goldberger-imperfect-city-book-new-york-architecture/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Luxury Bridge Lenders Are Having a Moment. Flatiron Realty Capital Tells Us Why.",
+      "when": "Nov 17",
+      "link": "https://commercialobserver.com/2026/11/luxury-bridge-lenders-are-having-a-moment-flatiron-realty-capital-tells-us-why/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Executive Spotlight: Shimon Shkury of Ariel Property Advisors",
+      "when": "Nov 17",
+      "link": "https://commercialobserver.com/2026/11/executive-spotlight-shimon-shkury-of-ariel-property-advisors/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Sherwood Offloads Hudson Yards Condo Tower Site to Joyland for $100M",
       "when": "Nov 16",
       "link": "https://commercialobserver.com/2026/11/sherwood-equities-hudson-yards-joyland-management-sale-460-10th-avenue/"
     },
@@ -448,24 +466,6 @@
       "title": "Alfred Equities Buying Starwood’s Former HQ in South Beach for $56M",
       "when": "Nov 16",
       "link": "https://commercialobserver.com/2026/11/alfred-equities-starwood-miami-south-beach-granite-point-mortgage-trust/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Podcast: Fifth Dimension’s Kate Jarvis on How CRE Asset Managers Can Trust AI Agents",
-      "when": "Nov 16",
-      "link": "https://commercialobserver.com/2026/11/podcast-fifth-dimensions-dr-kate-jarvis-on-how-asset-managers-can-trust-ai-agents/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Forman Capital Lends $51M on North Carolina Shopping Center Project",
-      "when": "Nov 16",
-      "link": "https://commercialobserver.com/2026/11/forman-capital-north-carolina-shopping-center-bjs-wholesale/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Former NBA Player Carlos Boozer of Impeccable: 5 Questions",
-      "when": "Nov 16",
-      "link": "https://commercialobserver.com/2026/11/nba-carlos-boozer-impeccable-5-questions/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "72.19",
-      "chg": "-0.76%",
+      "price": "72.06",
+      "chg": "-0.18%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.23",
-      "chg": "-0.25%",
+      "price": "96.05",
+      "chg": "-0.19%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.91",
-      "chg": "+0.20%",
-      "dir": 1
+      "price": "63.80",
+      "chg": "-0.17%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "127.60",
-      "chg": "-0.83%",
+      "price": "127.03",
+      "chg": "-0.45%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.75",
-      "chg": "+0.83%",
-      "dir": 1
+      "price": "64.57",
+      "chg": "-0.28%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "232.78",
-      "chg": "-0.08%",
+      "price": "232.50",
+      "chg": "-0.12%",
       "dir": -1
     }
   ],
