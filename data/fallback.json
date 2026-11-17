@@ -3,7 +3,7 @@
     "date_line": "Monday · Nov 16, 2026",
     "as_of": "Auto-compiled from public sources · Nov 16, 2026",
     "compiled": "Compiled Nov 16, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-16T23:02:19Z"
+    "generated_utc": "2026-11-17T02:59:52Z"
   },
   "ticker": [
     {
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Nov 16",
+      "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
+    },
+    {
+      "when": "Nov 16",
       "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html"
-    },
-    {
-      "when": "Nov 15",
-      "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
     }
   ],
   "cre": {
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Sherwood Offloads Hudson Yards Condo Tower Site to Joyland Management for $100M",
+      "when": "Nov 16",
+      "link": "https://commercialobserver.com/2026/11/sherwood-equities-hudson-yards-joyland-management-sale-460-10th-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "99-Unit Buildings Accounted for a Third of Proposed NYC Multifamily Projects in Q3",
       "when": "Nov 16",
       "link": "https://commercialobserver.com/2026/11/99-units-nyc-multifamily-apartments-rebny/"
@@ -460,12 +466,6 @@
       "title": "Former NBA Player Carlos Boozer of Impeccable: 5 Questions",
       "when": "Nov 16",
       "link": "https://commercialobserver.com/2026/11/nba-carlos-boozer-impeccable-5-questions/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Blackstone Digital Infrastructure Trust, AWS Form $5B Data Center Joint Venture",
-      "when": "Nov 16",
-      "link": "https://commercialobserver.com/2026/11/blackstone-digital-infrastructure-trust-aws-data-center-joint-venture/"
     }
   ],
   "cre_fund_tiles": [
