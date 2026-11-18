@@ -3,36 +3,36 @@
     "date_line": "Wednesday · Nov 18, 2026",
     "as_of": "Auto-compiled from public sources · Nov 18, 2026",
     "compiled": "Compiled Nov 18, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-18T17:23:13Z"
+    "generated_utc": "2026-11-18T21:36:54Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,332.58",
-      "ch": "-0.11%",
+      "vl": "7,323.63",
+      "ch": "-0.23%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "24,417",
-      "ch": "+0.37%",
+      "vl": "24,430",
+      "ch": "+0.42%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "50,328",
-      "ch": "-0.85%",
+      "vl": "50,198",
+      "ch": "-1.11%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "24.52",
-      "ch": "-3.69%",
+      "vl": "24.56",
+      "ch": "-3.53%",
       "dir": -1
     },
     {
       "nm": "10Y UST",
-      "vl": "5.10%",
+      "vl": "5.07%",
       "ch": "",
       "dir": 0
     },
@@ -44,7 +44,7 @@
     },
     {
       "nm": "30Y UST",
-      "vl": "5.46%",
+      "vl": "5.41%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.11%",
-    "standfirst": "At the last close: S&P 500 7,332.58 (-0.11%); Nasdaq 24,417 (+0.37%); Dow 50,328 (-0.85%). VIX 24.52 (-3.69%).",
+    "headline": "The S&P 500 edged lower 0.23%",
+    "standfirst": "At the last close: S&P 500 7,323.63 (-0.23%); Nasdaq 24,430 (+0.42%); Dow 50,198 (-1.11%). VIX 24.56 (-3.53%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "4 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.47%; PLD lagged at -0.15%."
+      "3 of 6 names on the watchlist closed higher.",
+      "BXP led at +1.75%; VMRK lagged at -0.78%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "November CPI, headline and core."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 12:22 PM ET, Nov 18"
+    "quote_note": "Quotes ~15-min delayed · as of 4:36 PM ET, Nov 18"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,332.58",
+      "val": "7,323.63",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.11%",
+        "txt": "0.23%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,355.69</span> · <span class=\"up mono\">+10.8%</span> YoY"
+      "note": "Open <span class=\"mono\">7,355.69</span> · <span class=\"up mono\">+10.3%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "24,417",
+      "val": "24,430",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.37%",
+        "txt": "0.42%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">24,486</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "50,328",
+      "val": "50,198",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.85%",
+        "txt": "1.11%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">50,627</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "24.52",
+      "val": "24.56",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "3.69%",
+        "txt": "3.53%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">24.22</span>"
@@ -254,25 +254,25 @@
   "energy_tiles": [
     {
       "lbl": "Brent Crude",
-      "val": "$92.14",
+      "val": "$92.94",
       "unit": "",
       "tone": "",
       "note": "Global benchmark — the swing factor in headline inflation",
       "delta": {
         "dir": 1,
-        "txt": "+1.98",
+        "txt": "+0.04",
         "note": "d/d"
       }
     },
     {
       "lbl": "WTI Crude",
-      "val": "$89.62",
+      "val": "$89.53",
       "unit": "",
       "tone": "",
       "note": "U.S. benchmark",
       "delta": {
-        "dir": 0,
-        "txt": "+0.00",
+        "dir": 1,
+        "txt": "+0.29",
         "note": "d/d"
       }
     },
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.15%, high-yield at 3.43%",
-    "standfirst": "The high-yield premium over investment grade is 2.28 percentage points. The 2s10s Treasury spread is +30 bps.",
+    "standfirst": "The high-yield premium over investment grade is 2.28 percentage points. The 2s10s Treasury spread is +27 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +30 bps; 3m10y +77 bps; 5s30s +56 bps; 10s30s +36 bps."
+      "Across the curve: 2s10s +27 bps; 3m10y +73 bps; 5s30s +52 bps; 10s30s +34 bps."
     ]
   },
   "credit_tiles": [
@@ -337,19 +337,27 @@
   "headlines": [
     {
       "when": "Nov 18",
-      "title": "Tech outages are causing people to panic-buy. Costco is benefiting, Mizuho says",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html"
-    },
-    {
-      "when": "Nov 18",
       "title": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+    },
+    {
+      "when": "Nov 18",
+      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+    },
+    {
+      "when": "Nov 18",
+      "title": "Tech outages are causing people to panic-buy. Costco is benefiting, Mizuho says",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html"
     },
     {
       "when": "Nov 18",
@@ -374,20 +382,12 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html"
-    },
-    {
-      "when": "Nov 18",
-      "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.10%, overnight SOFR at 3.92%",
-    "standfirst": "An illustrative agency coupon prices at 6.45–6.75%. The Freddie Mac 30-year survey rate is 7.11%.",
-    "curve_date": "Nov 17, 2026",
+    "headline": "The 10-year at 5.07%, overnight SOFR at 3.92%",
+    "standfirst": "An illustrative agency coupon prices at 6.42–6.72%. The Freddie Mac 30-year survey rate is 7.11%.",
+    "curve_date": "Nov 18, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,10 +398,10 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "5.10",
+      "val": "5.07",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+30 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+27 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Aaru Signs 27K-SF Sublease in Union Square With Plans for 650 NYC Employees",
+      "title": "MTA Approves EMP Capital as Developer of 1119 Pacific Street in Brooklyn",
       "when": "Nov 18",
-      "link": "https://commercialobserver.com/2026/11/aaru-sublease-836-838-broadway/"
+      "link": "https://commercialobserver.com/2026/11/mta-emp-capital-1119-pacific-street-brooklyn/"
     },
     {
       "source": "Commercial Observer",
-      "title": "The Plan: The Florian at 350 East 18th Street Is at Your Service",
+      "title": "Three Cherries Hospitality to Open Tavern at 15 First Avenue in East Village",
       "when": "Nov 18",
-      "link": "https://commercialobserver.com/2026/11/the-plan-florian-350-east-18th-street/"
+      "link": "https://commercialobserver.com/2026/11/three-cherries-hospitality-15-first-avenue-lease/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Williamsburg Secures Highest Retail Asking Rent in Brooklyn in 2026: REBNY",
+      "title": "Ascent Developer Solutions Closes $220M Residential Loan Securitization",
       "when": "Nov 18",
-      "link": "https://commercialobserver.com/2026/11/williamsburg-retail-rent-rebny-brooklyn-report/"
+      "link": "https://commercialobserver.com/2026/11/ascent-developer-solutions-closes-220m-residential-loan-securitization/"
     },
     {
       "source": "Commercial Observer",
-      "title": "NYC School Construction Authority Pays $22M for Bronx High School Building",
-      "when": "Nov 17",
-      "link": "https://commercialobserver.com/2026/11/nyc-school-construction-authority-buys-1440-story-avenue-bronx/"
+      "title": "Everglades Foundation Nearly Doubling Footprint in South Florida",
+      "when": "Nov 18",
+      "link": "https://commercialobserver.com/2026/11/everglades-ip-dadeland-two-datran-center/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Danny Meyer Signs Greenwich Village Lease for New Restaurant",
-      "when": "Nov 17",
-      "link": "https://commercialobserver.com/2026/11/danny-meyer-lease-21-west-eighth-street/"
+      "title": "WestCap’s Kevin Marcus Takes Over as CEO of Green Street",
+      "when": "Nov 18",
+      "link": "https://commercialobserver.com/2026/11/westcap-kevin-marcus-ceo-green-street/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Key International Wants to Redevelop Ocean Drive Hotel Into Luxe Condos",
-      "when": "Nov 17",
-      "link": "https://commercialobserver.com/2026/11/key-international-ocean-drive-miami-beach-marriott-stanton-south-beach/"
+      "title": "Law Firm MoloLamken Relocates to 25K SF at RXR’s 590 Madison Avenue",
+      "when": "Nov 18",
+      "link": "https://commercialobserver.com/2026/11/mololamken-590-madison-avenue-lease/"
     }
   ],
   "cre_fund_tiles": [
@@ -511,17 +511,17 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.45–6.75",
+      "val": "6.42–6.72",
       "unit": "%",
       "tone": "",
-      "note": "10Y (5.10%) + 135–165 bp agency spread"
+      "note": "10Y (5.07%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+30",
-    "3m10y": "+77",
-    "5s30s": "+56",
-    "10s30s": "+36"
+    "2s10s": "+27",
+    "3m10y": "+73",
+    "5s30s": "+52",
+    "10s30s": "+34"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.95",
-      "chg": "+0.15%",
-      "dir": 1
+      "price": "70.52",
+      "chg": "-0.47%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "95.33",
-      "chg": "+0.47%",
+      "price": "95.18",
+      "chg": "+0.31%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.70",
-      "chg": "+1.47%",
+      "price": "63.88",
+      "chg": "+1.75%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "125.38",
-      "chg": "-0.15%",
+      "price": "125.22",
+      "chg": "-0.27%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.99",
-      "chg": "-0.05%",
+      "price": "63.52",
+      "chg": "-0.78%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "232.02",
-      "chg": "+0.77%",
+      "price": "231.38",
+      "chg": "+0.50%",
       "dir": 1
     }
   ],
@@ -651,28 +651,28 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 4.09,
+      "y": 4.1,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.33,
+      "y": 4.34,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.41,
+      "y": 4.43,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.6,
+      "y": 4.62,
       "axis": false,
       "mark": false
     },
@@ -693,42 +693,42 @@
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.9,
+      "y": 4.89,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.99,
+      "y": 4.96,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 5.1,
+      "y": 5.07,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.5,
+      "y": 5.44,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.46,
+      "y": 5.41,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.6
+    "new": 6.57
   },
   "orig": {
     "y2025": 633.7,
