@@ -3,7 +3,7 @@
     "date_line": "Wednesday · Nov 18, 2026",
     "as_of": "Auto-compiled from public sources · Nov 18, 2026",
     "compiled": "Compiled Nov 18, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-18T21:36:54Z"
+    "generated_utc": "2026-11-18T23:29:51Z"
   },
   "ticker": [
     {
@@ -147,7 +147,7 @@
         "body": "November CPI, headline and core."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 4:36 PM ET, Nov 18"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 18"
   },
   "markets_tiles": [
     {
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Rockrose Seals $309M Refi for 11 East 26th Street",
+      "when": "Nov 18",
+      "link": "https://commercialobserver.com/2026/11/rockrose-11-east-26th-street-goldman-iron-hound/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "MTA Approves EMP Capital as Developer of 1119 Pacific Street in Brooklyn",
       "when": "Nov 18",
       "link": "https://commercialobserver.com/2026/11/mta-emp-capital-1119-pacific-street-brooklyn/"
@@ -460,12 +466,6 @@
       "title": "WestCap’s Kevin Marcus Takes Over as CEO of Green Street",
       "when": "Nov 18",
       "link": "https://commercialobserver.com/2026/11/westcap-kevin-marcus-ceo-green-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Law Firm MoloLamken Relocates to 25K SF at RXR’s 590 Madison Avenue",
-      "when": "Nov 18",
-      "link": "https://commercialobserver.com/2026/11/mololamken-590-madison-avenue-lease/"
     }
   ],
   "cre_fund_tiles": [
