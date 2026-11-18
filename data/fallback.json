@@ -3,7 +3,7 @@
     "date_line": "Tuesday · Nov 17, 2026",
     "as_of": "Auto-compiled from public sources · Nov 17, 2026",
     "compiled": "Compiled Nov 17, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-17T21:54:40Z"
+    "generated_utc": "2026-11-18T02:28:50Z"
   },
   "ticker": [
     {
@@ -116,21 +116,11 @@
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "0 of 6 names on the watchlist closed higher.",
-      "SPG led at -1.09%; KRE lagged at -1.86%."
+      "VMRK led at -0.31%; KRE lagged at -2.60%."
     ],
-    "card2_title": "On the calendar today",
+    "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
-      {
-        "when": "Today",
-        "title": "NVDA earnings",
-        "body": "Scheduled to report after close."
-      },
-      {
-        "when": "Today",
-        "title": "HD earnings",
-        "body": "Scheduled to report before open."
-      },
       {
         "when": "Thu · Nov 19",
         "title": "WMT earnings",
@@ -145,9 +135,19 @@
         "when": "Fri · Dec 4",
         "title": "Employment Situation",
         "body": "November payrolls. The last jobs report before the December FOMC."
+      },
+      {
+        "when": "Wed · Dec 9",
+        "title": "FOMC decision",
+        "body": "Final meeting of 2026, with the Summary of Economic Projections and dot plot including the first full look at 2027."
+      },
+      {
+        "when": "Thu · Dec 10",
+        "title": "Consumer Price Index",
+        "body": "November CPI, headline and core."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 4:54 PM ET, Nov 17"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 17"
   },
   "markets_tiles": [
     {
@@ -337,6 +337,30 @@
   "headlines": [
     {
       "when": "Nov 17",
+      "title": "Three things to watch as Trump, Xi and Putin meet in China",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+    },
+    {
+      "when": "Nov 17",
+      "title": "Japan exports in October surge 20.5%, beating estimates on robust chip shipments",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html"
+    },
+    {
+      "when": "Nov 17",
+      "title": "JPMorgan is working on AI agent transactions that don’t involve humans",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html"
+    },
+    {
+      "when": "Nov 17",
       "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
       "blurb": "",
       "kind": "",
@@ -358,30 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/17/us-tech-firms-china-ties-political-pressure.html"
-    },
-    {
-      "when": "Nov 16",
-      "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html"
-    },
-    {
-      "when": "Nov 16",
-      "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
-    },
-    {
-      "when": "Nov 16",
-      "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html"
     }
   ],
   "cre": {
@@ -607,42 +607,42 @@
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
       "price": "70.85",
-      "chg": "-1.86%",
+      "chg": "-2.60%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
       "price": "94.89",
-      "chg": "-1.39%",
+      "chg": "-1.64%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
       "price": "62.78",
-      "chg": "-1.77%",
+      "chg": "-1.57%",
       "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
       "price": "125.56",
-      "chg": "-1.60%",
+      "chg": "-2.42%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
       "price": "64.02",
-      "chg": "-1.13%",
+      "chg": "-0.31%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
       "price": "230.24",
-      "chg": "-1.09%",
+      "chg": "-1.17%",
       "dir": -1
     }
   ],
