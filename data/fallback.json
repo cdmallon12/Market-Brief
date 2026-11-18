@@ -3,31 +3,31 @@
     "date_line": "Wednesday · Nov 18, 2026",
     "as_of": "Auto-compiled from public sources · Nov 18, 2026",
     "compiled": "Compiled Nov 18, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-18T14:50:44Z"
+    "generated_utc": "2026-11-18T17:23:13Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,306.64",
-      "ch": "-0.46%",
+      "vl": "7,332.58",
+      "ch": "-0.11%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "24,294",
-      "ch": "-0.14%",
-      "dir": -1
+      "vl": "24,417",
+      "ch": "+0.37%",
+      "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "50,236",
-      "ch": "-1.03%",
+      "vl": "50,328",
+      "ch": "-0.85%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "24.34",
-      "ch": "-4.40%",
+      "vl": "24.52",
+      "ch": "-3.69%",
       "dir": -1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.12%",
+      "vl": "1.15%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.34%",
+      "vl": "3.43%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.46%",
-    "standfirst": "At the last close: S&P 500 7,306.64 (-0.46%); Nasdaq 24,294 (-0.14%); Dow 50,236 (-1.03%). VIX 24.34 (-4.40%).",
+    "headline": "The S&P 500 edged lower 0.11%",
+    "standfirst": "At the last close: S&P 500 7,332.58 (-0.11%); Nasdaq 24,417 (+0.37%); Dow 50,328 (-0.85%). VIX 24.52 (-3.69%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "BXP led at +0.12%; PLD lagged at -0.45%."
+      "4 of 6 names on the watchlist closed higher.",
+      "BXP led at +1.47%; PLD lagged at -0.15%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
@@ -147,49 +147,49 @@
         "body": "November CPI, headline and core."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 18"
+    "quote_note": "Quotes ~15-min delayed · as of 12:22 PM ET, Nov 18"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,306.64",
+      "val": "7,332.58",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.46%",
+        "txt": "0.11%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,355.69</span> · <span class=\"up mono\">+10.4%</span> YoY"
+      "note": "Open <span class=\"mono\">7,355.69</span> · <span class=\"up mono\">+10.8%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "24,294",
-      "tone": "neg",
+      "val": "24,417",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "0.14%",
+        "dir": 1,
+        "txt": "0.37%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">24,486</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "50,236",
+      "val": "50,328",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.03%",
+        "txt": "0.85%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">50,627</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "24.34",
+      "val": "24.52",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "4.40%",
+        "txt": "3.69%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">24.22</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.12%, high-yield at 3.34%",
-    "standfirst": "The high-yield premium over investment grade is 2.22 percentage points. The 2s10s Treasury spread is +30 bps.",
+    "headline": "Investment-grade OAS at 1.15%, high-yield at 3.43%",
+    "standfirst": "The high-yield premium over investment grade is 2.28 percentage points. The 2s10s Treasury spread is +30 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,45 +296,61 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.12",
+      "val": "1.15",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.01pp",
+        "txt": "+0.03pp",
         "note": "wider"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.34",
+      "val": "3.43",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.11pp",
+        "txt": "+0.09pp",
         "note": "wider"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.22",
+      "val": "2.28",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.12,
-    "hy": 3.34
+    "ig": 1.15,
+    "hy": 3.43
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Nov 18",
+      "title": "Tech outages are causing people to panic-buy. Costco is benefiting, Mizuho says",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html"
+    },
+    {
+      "when": "Nov 18",
+      "title": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+    },
     {
       "when": "Nov 18",
       "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
@@ -366,22 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html"
-    },
-    {
-      "when": "Nov 18",
-      "title": "JPMorgan is working on AI agent transactions that don’t involve humans",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html"
-    },
-    {
-      "when": "Nov 18",
-      "title": "Three things to watch as Trump, Xi and Putin meet in China",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
     }
   ],
   "cre": {
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Aaru Signs 27K-SF Sublease in Union Square With Plans for 650 NYC Employees",
+      "when": "Nov 18",
+      "link": "https://commercialobserver.com/2026/11/aaru-sublease-836-838-broadway/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "The Plan: The Florian at 350 East 18th Street Is at Your Service",
       "when": "Nov 18",
       "link": "https://commercialobserver.com/2026/11/the-plan-florian-350-east-18th-street/"
@@ -460,12 +466,6 @@
       "title": "Key International Wants to Redevelop Ocean Drive Hotel Into Luxe Condos",
       "when": "Nov 17",
       "link": "https://commercialobserver.com/2026/11/key-international-ocean-drive-miami-beach-marriott-stanton-south-beach/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Fashion Company Bestseller Renews 7K-SF Office, Showroom at 96 Spring Street",
-      "when": "Nov 17",
-      "link": "https://commercialobserver.com/2026/11/bestseller-lease-renewal-96-spring-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.67",
-      "chg": "-0.26%",
-      "dir": -1
+      "price": "70.95",
+      "chg": "+0.15%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.77",
-      "chg": "-0.13%",
-      "dir": -1
+      "price": "95.33",
+      "chg": "+0.47%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.85",
-      "chg": "+0.12%",
+      "price": "63.70",
+      "chg": "+1.47%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "124.99",
-      "chg": "-0.45%",
+      "price": "125.38",
+      "chg": "-0.15%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.73",
-      "chg": "-0.45%",
+      "price": "63.99",
+      "chg": "-0.05%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "230.20",
-      "chg": "-0.02%",
-      "dir": -1
+      "price": "232.02",
+      "chg": "+0.77%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
