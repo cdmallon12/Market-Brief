@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Tuesday · Nov 17, 2026",
-    "as_of": "Auto-compiled from public sources · Nov 17, 2026",
-    "compiled": "Compiled Nov 17, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-18T02:28:50Z"
+    "date_line": "Wednesday · Nov 18, 2026",
+    "as_of": "Auto-compiled from public sources · Nov 18, 2026",
+    "compiled": "Compiled Nov 18, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-11-18T14:50:44Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,340.53",
-      "ch": "-1.03%",
+      "vl": "7,306.64",
+      "ch": "-0.46%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "24,328",
-      "ch": "-0.74%",
+      "vl": "24,294",
+      "ch": "-0.14%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "50,759",
-      "ch": "-1.64%",
+      "vl": "50,236",
+      "ch": "-1.03%",
       "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "25.46",
-      "ch": "+11.13%",
-      "dir": 1
+      "vl": "24.34",
+      "ch": "-4.40%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.93%",
+      "vl": "3.92%",
       "ch": "",
       "dir": 0
     },
@@ -110,19 +110,19 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 1.03%",
-    "standfirst": "At the last close: S&P 500 7,340.53 (-1.03%); Nasdaq 24,328 (-0.74%); Dow 50,759 (-1.64%). VIX 25.46 (+11.13%).",
+    "headline": "The S&P 500 edged lower 0.46%",
+    "standfirst": "At the last close: S&P 500 7,306.64 (-0.46%); Nasdaq 24,294 (-0.14%); Dow 50,236 (-1.03%). VIX 24.34 (-4.40%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "0 of 6 names on the watchlist closed higher.",
-      "VMRK led at -0.31%; KRE lagged at -2.60%."
+      "1 of 6 names on the watchlist closed higher.",
+      "BXP led at +0.12%; PLD lagged at -0.45%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "Thu · Nov 19",
+        "when": "Tomorrow",
         "title": "WMT earnings",
         "body": "Scheduled to report before open."
       },
@@ -147,52 +147,52 @@
         "body": "November CPI, headline and core."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 17"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 18"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,340.53",
+      "val": "7,306.64",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.46%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">7,355.69</span> · <span class=\"up mono\">+10.4%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "24,294",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "0.14%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">24,486</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "50,236",
       "tone": "neg",
       "delta": {
         "dir": -1,
         "txt": "1.03%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,411.02</span> · <span class=\"up mono\">+10.9%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "24,328",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.74%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">24,528</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "50,759",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "1.64%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">51,387</span>"
+      "note": "Open <span class=\"mono\">50,627</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "25.46",
-      "tone": "pos",
+      "val": "24.34",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "11.13%",
+        "dir": -1,
+        "txt": "4.40%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">23.11</span>"
+      "note": "Open <span class=\"mono\">24.22</span>"
     }
   ],
   "economy": {
@@ -336,23 +336,39 @@
   },
   "headlines": [
     {
-      "when": "Nov 17",
-      "title": "Three things to watch as Trump, Xi and Putin meet in China",
+      "when": "Nov 18",
+      "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+      "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
     },
     {
-      "when": "Nov 17",
-      "title": "Japan exports in October surge 20.5%, beating estimates on robust chip shipments",
+      "when": "Nov 18",
+      "title": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html"
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html"
     },
     {
-      "when": "Nov 17",
+      "when": "Nov 18",
+      "title": "Putin says EU is losing industry, falling behind competition, ahead of meeting with Trump and Xi",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html"
+    },
+    {
+      "when": "Nov 18",
+      "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html"
+    },
+    {
+      "when": "Nov 18",
       "title": "JPMorgan is working on AI agent transactions that don’t involve humans",
       "blurb": "",
       "kind": "",
@@ -360,32 +376,16 @@
       "link": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html"
     },
     {
-      "when": "Nov 17",
-      "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
-    },
-    {
-      "when": "Nov 17",
-      "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
-    },
-    {
-      "when": "Nov 17",
-      "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
+      "when": "Nov 18",
+      "title": "Three things to watch as Trump, Xi and Putin meet in China",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/17/us-tech-firms-china-ties-political-pressure.html"
+      "link": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.10%, overnight SOFR at 3.93%",
+    "headline": "The 10-year at 5.10%, overnight SOFR at 3.92%",
     "standfirst": "An illustrative agency coupon prices at 6.45–6.75%. The Freddie Mac 30-year survey rate is 7.11%.",
     "curve_date": "Nov 17, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.93",
+      "val": "3.92",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,6 +433,18 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "The Plan: The Florian at 350 East 18th Street Is at Your Service",
+      "when": "Nov 18",
+      "link": "https://commercialobserver.com/2026/11/the-plan-florian-350-east-18th-street/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Williamsburg Secures Highest Retail Asking Rent in Brooklyn in 2026: REBNY",
+      "when": "Nov 18",
+      "link": "https://commercialobserver.com/2026/11/williamsburg-retail-rent-rebny-brooklyn-report/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "NYC School Construction Authority Pays $22M for Bronx High School Building",
       "when": "Nov 17",
       "link": "https://commercialobserver.com/2026/11/nyc-school-construction-authority-buys-1440-story-avenue-bronx/"
@@ -445,7 +457,7 @@
     },
     {
       "source": "Commercial Observer",
-      "title": "Key International Wants to Redevelop Ocean Drive Hotel into Luxe Condos",
+      "title": "Key International Wants to Redevelop Ocean Drive Hotel Into Luxe Condos",
       "when": "Nov 17",
       "link": "https://commercialobserver.com/2026/11/key-international-ocean-drive-miami-beach-marriott-stanton-south-beach/"
     },
@@ -454,18 +466,6 @@
       "title": "Fashion Company Bestseller Renews 7K-SF Office, Showroom at 96 Spring Street",
       "when": "Nov 17",
       "link": "https://commercialobserver.com/2026/11/bestseller-lease-renewal-96-spring-street/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Blue Owl Acquires Northern Virginia Data Center for $780M",
-      "when": "Nov 17",
-      "link": "https://commercialobserver.com/2026/11/blue-owl-virginia-data-center-gainesville-crossing/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Chemical Importer and Four Others Sign Leases at 39 West 37th Street",
-      "when": "Nov 17",
-      "link": "https://commercialobserver.com/2026/11/twinsbridge-international-lease-39-west-37th-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.85",
-      "chg": "-2.60%",
+      "price": "70.67",
+      "chg": "-0.26%",
       "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.89",
-      "chg": "-1.64%",
+      "price": "94.77",
+      "chg": "-0.13%",
       "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.78",
-      "chg": "-1.57%",
-      "dir": -1
+      "price": "62.85",
+      "chg": "+0.12%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "125.56",
-      "chg": "-2.42%",
+      "price": "124.99",
+      "chg": "-0.45%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.02",
-      "chg": "-0.31%",
+      "price": "63.73",
+      "chg": "-0.45%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "230.24",
-      "chg": "-1.17%",
+      "price": "230.20",
+      "chg": "-0.02%",
       "dir": -1
     }
   ],
