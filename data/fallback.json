@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Wednesday · Nov 18, 2026",
-    "as_of": "Auto-compiled from public sources · Nov 18, 2026",
-    "compiled": "Compiled Nov 18, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-18T23:29:51Z"
+    "date_line": "Thursday · Nov 19, 2026",
+    "as_of": "Auto-compiled from public sources · Nov 19, 2026",
+    "compiled": "Compiled Nov 19, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-11-19T14:50:41Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,323.63",
-      "ch": "-0.23%",
-      "dir": -1
+      "vl": "7,405.79",
+      "ch": "+1.12%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "24,430",
-      "ch": "+0.42%",
+      "vl": "24,903",
+      "ch": "+1.94%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "50,198",
-      "ch": "-1.11%",
-      "dir": -1
+      "vl": "50,313",
+      "ch": "+0.23%",
+      "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "24.56",
-      "ch": "-3.53%",
+      "vl": "22.14",
+      "ch": "-9.85%",
       "dir": -1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.92%",
+      "vl": "3.90%",
       "ch": "",
       "dir": 0
     },
@@ -110,19 +110,19 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.23%",
-    "standfirst": "At the last close: S&P 500 7,323.63 (-0.23%); Nasdaq 24,430 (+0.42%); Dow 50,198 (-1.11%). VIX 24.56 (-3.53%).",
+    "headline": "The S&P 500 rose 1.12%",
+    "standfirst": "At the last close: S&P 500 7,405.79 (+1.12%); Nasdaq 24,903 (+1.94%); Dow 50,313 (+0.23%). VIX 22.14 (-9.85%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "3 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.75%; VMRK lagged at -0.78%."
+      "1 of 6 names on the watchlist closed higher.",
+      "KRE led at +0.10%; SPG lagged at -1.18%."
     ],
-    "card2_title": "Coming up",
+    "card2_title": "On the calendar today",
     "card2_sub": "Scheduled releases and earnings (ET)",
     "catalysts": [
       {
-        "when": "Tomorrow",
+        "when": "Today",
         "title": "WMT earnings",
         "body": "Scheduled to report before open."
       },
@@ -147,52 +147,52 @@
         "body": "November CPI, headline and core."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 18"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 19"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,323.63",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.23%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">7,355.69</span> · <span class=\"up mono\">+10.3%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "24,430",
+      "val": "7,405.79",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.42%",
+        "txt": "1.12%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">24,486</span>"
+      "note": "Open <span class=\"mono\">7,389.26</span> · <span class=\"up mono\">+11.5%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "24,903",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "1.94%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">24,809</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "50,198",
-      "tone": "neg",
+      "val": "50,313",
+      "tone": "pos",
       "delta": {
-        "dir": -1,
-        "txt": "1.11%",
+        "dir": 1,
+        "txt": "0.23%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">50,627</span>"
+      "note": "Open <span class=\"mono\">50,432</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "24.56",
+      "val": "22.14",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "3.53%",
+        "txt": "9.85%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">24.22</span>"
+      "note": "Open <span class=\"mono\">22.06</span>"
     }
   ],
   "economy": {
@@ -336,6 +336,14 @@
   },
   "headlines": [
     {
+      "when": "Nov 19",
+      "title": "Trump praises ‘great relationship’ with Putin after meeting, as Ukraine war takes center stage",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html"
+    },
+    {
       "when": "Nov 18",
       "title": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
       "blurb": "",
@@ -374,18 +382,10 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html"
-    },
-    {
-      "when": "Nov 18",
-      "title": "Putin says EU is losing industry, falling behind competition, ahead of meeting with Trump and Xi",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 5.07%, overnight SOFR at 3.92%",
+    "headline": "The 10-year at 5.07%, overnight SOFR at 3.90%",
     "standfirst": "An illustrative agency coupon prices at 6.42–6.72%. The Freddie Mac 30-year survey rate is 7.11%.",
     "curve_date": "Nov 18, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.92",
+      "val": "3.90",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Astoria Apartment Complex Trades for $41M",
+      "when": "Nov 19",
+      "link": "https://commercialobserver.com/2026/11/crescent-street-apartments-astoria-multifamily-sale/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Get to Know the Broker: Noble Black of the Corcoran Group",
+      "when": "Nov 19",
+      "link": "https://commercialobserver.com/2026/11/get-to-know-the-broker-noble-black-corcoran-group/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "The Way People Use Manhattan’s Financial District Has Changed Dramatically",
+      "when": "Nov 19",
+      "link": "https://commercialobserver.com/2026/11/manhattan-financial-district-real-estate/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "AI-First Architecture Firm Cove Acquires Architecture Firm GHA",
+      "when": "Nov 19",
+      "link": "https://commercialobserver.com/2026/11/ai-farchitecture-firm-cove-acquires-gha/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Rockrose Seals $309M Refi for 11 East 26th Street",
       "when": "Nov 18",
       "link": "https://commercialobserver.com/2026/11/rockrose-11-east-26th-street-goldman-iron-hound/"
@@ -442,30 +466,6 @@
       "title": "MTA Approves EMP Capital as Developer of 1119 Pacific Street in Brooklyn",
       "when": "Nov 18",
       "link": "https://commercialobserver.com/2026/11/mta-emp-capital-1119-pacific-street-brooklyn/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Three Cherries Hospitality to Open Tavern at 15 First Avenue in East Village",
-      "when": "Nov 18",
-      "link": "https://commercialobserver.com/2026/11/three-cherries-hospitality-15-first-avenue-lease/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Ascent Developer Solutions Closes $220M Residential Loan Securitization",
-      "when": "Nov 18",
-      "link": "https://commercialobserver.com/2026/11/ascent-developer-solutions-closes-220m-residential-loan-securitization/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Everglades Foundation Nearly Doubling Footprint in South Florida",
-      "when": "Nov 18",
-      "link": "https://commercialobserver.com/2026/11/everglades-ip-dadeland-two-datran-center/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "WestCap’s Kevin Marcus Takes Over as CEO of Green Street",
-      "when": "Nov 18",
-      "link": "https://commercialobserver.com/2026/11/westcap-kevin-marcus-ceo-green-street/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.52",
-      "chg": "-0.47%",
-      "dir": -1
+      "price": "70.59",
+      "chg": "+0.10%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "95.18",
-      "chg": "+0.31%",
-      "dir": 1
+      "price": "94.76",
+      "chg": "-0.44%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.88",
-      "chg": "+1.75%",
-      "dir": 1
+      "price": "63.14",
+      "chg": "-1.16%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "125.22",
-      "chg": "-0.27%",
+      "price": "124.75",
+      "chg": "-0.37%",
       "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.52",
-      "chg": "-0.78%",
+      "price": "63.08",
+      "chg": "-0.69%",
       "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "231.38",
-      "chg": "+0.50%",
-      "dir": 1
+      "price": "228.66",
+      "chg": "-1.18%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
