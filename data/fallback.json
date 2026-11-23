@@ -3,31 +3,31 @@
     "date_line": "Monday · Nov 23, 2026",
     "as_of": "Auto-compiled from public sources · Nov 23, 2026",
     "compiled": "Compiled Nov 23, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-23T14:50:42Z"
+    "generated_utc": "2026-11-23T20:23:48Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,205.27",
-      "ch": "+4.27%",
+      "vl": "7,255.61",
+      "ch": "+5.00%",
       "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "23,990",
-      "ch": "+6.07%",
+      "vl": "24,147",
+      "ch": "+6.76%",
       "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "49,343",
-      "ch": "+2.48%",
+      "vl": "49,715",
+      "ch": "+3.26%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "27.13",
-      "ch": "-24.41%",
+      "vl": "27.35",
+      "ch": "-23.79%",
       "dir": -1
     },
     {
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.17%",
+      "vl": "1.22%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.52%",
+      "vl": "3.76%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 climbed 4.27%",
-    "standfirst": "At the last close: S&P 500 7,205.27 (+4.27%); Nasdaq 23,990 (+6.07%); Dow 49,343 (+2.48%). VIX 27.13 (-24.41%).",
+    "headline": "The S&P 500 climbed 5.00%",
+    "standfirst": "At the last close: S&P 500 7,255.61 (+5.00%); Nasdaq 24,147 (+6.76%); Dow 49,715 (+3.26%). VIX 27.35 (-23.79%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "PLD led at +1.93%; VMRK lagged at -0.06%."
+      "6 of 6 names on the watchlist closed higher.",
+      "PLD led at +2.58%; VMRK lagged at +0.85%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "November PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 23"
+    "quote_note": "Quotes ~15-min delayed · as of 3:23 PM ET, Nov 23"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,205.27",
+      "val": "7,255.61",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "4.27%",
+        "txt": "5.00%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,227.41</span> · <span class=\"up mono\">+7.5%</span> YoY"
+      "note": "Open <span class=\"mono\">7,227.41</span> · <span class=\"up mono\">+8.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "23,990",
+      "val": "24,147",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "6.07%",
+        "txt": "6.76%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">24,270</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "49,343",
+      "val": "49,715",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "2.48%",
+        "txt": "3.26%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">49,240</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "27.13",
+      "val": "27.35",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "24.41%",
+        "txt": "23.79%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">31.38</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.17%, high-yield at 3.52%",
-    "standfirst": "The high-yield premium over investment grade is 2.35 percentage points. The 2s10s Treasury spread is +29 bps.",
+    "headline": "Investment-grade OAS at 1.22%, high-yield at 3.76%",
+    "standfirst": "The high-yield premium over investment grade is 2.54 percentage points. The 2s10s Treasury spread is +29 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,22 +296,10 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.17",
+      "val": "1.22",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
-      "delta": {
-        "dir": 0,
-        "txt": "+0.01pp",
-        "note": "wider"
-      }
-    },
-    {
-      "lbl": "High-Yield OAS",
-      "val": "3.52",
-      "unit": "%",
-      "tone": "",
-      "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
         "txt": "+0.05pp",
@@ -319,22 +307,50 @@
       }
     },
     {
+      "lbl": "High-Yield OAS",
+      "val": "3.76",
+      "unit": "%",
+      "tone": "",
+      "note": "Below-investment-grade spread — the risk-appetite gauge",
+      "delta": {
+        "dir": 0,
+        "txt": "+0.24pp",
+        "note": "wider"
+      }
+    },
+    {
       "lbl": "HY − IG Premium",
-      "val": "2.35",
+      "val": "2.54",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.17,
-    "hy": 3.52
+    "ig": 1.22,
+    "hy": 3.76
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Nov 23",
+      "title": "Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-trump-bessent-china.html"
+    },
+    {
+      "when": "Nov 23",
+      "title": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html"
+    },
     {
       "when": "Nov 22",
       "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
@@ -366,22 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html"
-    },
-    {
-      "when": "Nov 20",
-      "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html"
-    },
-    {
-      "when": "Nov 20",
-      "title": "The bull market has a new problem. The 'smart money' is selling",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html"
     }
   ],
   "cre": {
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "REITs & Retail: James Corl of Cohen & Steers Shares His Investment Secrets",
+      "title": "JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower",
       "when": "Nov 23",
-      "link": "https://commercialobserver.com/2026/11/reits-retail-james-corl-cohen-steers-investment/"
+      "link": "https://commercialobserver.com/2026/11/jpmorgan-manhattan-apartments/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Rialto Refis 530 Fifth Avenue Retail Condo With $122M Loan",
+      "title": "Namdar Group Lands $345M to Build West Brickell Rental Tower",
       "when": "Nov 23",
-      "link": "https://commercialobserver.com/2026/11/rialto-530-fifth-avenue-retail/"
+      "link": "https://commercialobserver.com/2026/11/namdar-group-west-brickell-miami-slate-scale/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Rob Kane On Lincoln Property Company’s $6B Southern California Development Pipeline",
+      "title": "PGIM Provides $85M Refi for N.J. Multifamily Buildings",
       "when": "Nov 23",
-      "link": "https://commercialobserver.com/2026/11/rob-kane-lincoln-property-company-southern-california-development-los-angeles/"
+      "link": "https://commercialobserver.com/2026/11/pgim-85m-refi-new-jersey-multifamily/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Arden Living Adds Former Silverstein Development Duo to Grow Residential Portfolio",
+      "title": "Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing",
       "when": "Nov 23",
-      "link": "https://commercialobserver.com/2026/11/arden-living-brian-collins-max-spencer-silverstein/"
+      "link": "https://commercialobserver.com/2026/11/santander-bank-34m-refi-orlando-workforce-housing/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Long Island City Condo Sales Up 8.7% in Q3: Report",
+      "title": "Accounting Firm Mitchell & Titus Relocates HQ to 8K SF at One Battery Park Plaza",
       "when": "Nov 23",
-      "link": "https://commercialobserver.com/2026/11/long-island-city-condo-market-sales-q3-serhant/"
+      "link": "https://commercialobserver.com/2026/11/mitchell-titus-lease-rudin-one-battery-park-plaza/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Sunday Summary: Don’t Fear the Data Center Reaper",
-      "when": "Nov 22",
-      "link": "https://commercialobserver.com/2026/11/sunday-summary-dont-fear-the-data-center-reaper/"
+      "title": "Dwight Capital Refis Detroit-Area Apartments With $52M HUD Loan",
+      "when": "Nov 23",
+      "link": "https://commercialobserver.com/2026/11/dwight-capital-detroit-michigan-apartments-hud/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.42",
-      "chg": "+1.62%",
+      "price": "69.35",
+      "chg": "+1.51%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
       "price": "93.75",
-      "chg": "+1.29%",
+      "chg": "+1.28%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "61.75",
-      "chg": "+0.83%",
+      "price": "61.80",
+      "chg": "+0.91%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "124.86",
-      "chg": "+1.93%",
+      "price": "125.66",
+      "chg": "+2.58%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.00",
-      "chg": "-0.06%",
-      "dir": -1
+      "price": "63.58",
+      "chg": "+0.85%",
+      "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "226.22",
-      "chg": "+0.84%",
+      "price": "227.06",
+      "chg": "+1.21%",
       "dir": 1
     }
   ],
