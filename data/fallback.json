@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Friday · Nov 20, 2026",
-    "as_of": "Auto-compiled from public sources · Nov 20, 2026",
-    "compiled": "Compiled Nov 20, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-21T04:05:12Z"
+    "date_line": "Monday · Nov 23, 2026",
+    "as_of": "Auto-compiled from public sources · Nov 23, 2026",
+    "compiled": "Compiled Nov 23, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-11-23T14:50:42Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "6,910.39",
-      "ch": "-3.70%",
-      "dir": -1
+      "vl": "7,205.27",
+      "ch": "+4.27%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "22,618",
-      "ch": "-5.28%",
-      "dir": -1
+      "vl": "23,990",
+      "ch": "+6.07%",
+      "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "48,147",
-      "ch": "-1.93%",
-      "dir": -1
+      "vl": "49,343",
+      "ch": "+2.48%",
+      "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "35.89",
-      "ch": "+26.20%",
-      "dir": 1
+      "vl": "27.13",
+      "ch": "-24.41%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.91%",
+      "vl": "3.92%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 dropped 3.70%",
-    "standfirst": "At the last close: S&P 500 6,910.39 (-3.70%); Nasdaq 22,618 (-5.28%); Dow 48,147 (-1.93%). VIX 35.89 (+26.20%).",
+    "headline": "The S&P 500 climbed 4.27%",
+    "standfirst": "At the last close: S&P 500 7,205.27 (+4.27%); Nasdaq 23,990 (+6.07%); Dow 49,343 (+2.48%). VIX 27.13 (-24.41%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "1 of 6 names on the watchlist closed higher.",
-      "VMRK led at +0.59%; BXP lagged at -1.65%."
+      "5 of 6 names on the watchlist closed higher.",
+      "PLD led at +1.93%; VMRK lagged at -0.06%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,52 +147,52 @@
         "body": "November PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 20"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 23"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "6,910.39",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "3.70%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">7,150.39</span> · <span class=\"up mono\">+4.7%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "22,618",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "5.28%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">23,593</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "48,147",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "1.93%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">49,072</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "35.89",
+      "val": "7,205.27",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "26.20%",
+        "txt": "4.27%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">28.63</span>"
+      "note": "Open <span class=\"mono\">7,227.41</span> · <span class=\"up mono\">+7.5%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "23,990",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "6.07%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">24,270</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "49,343",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "2.48%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">49,240</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "27.13",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "24.41%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">31.38</span>"
     }
   ],
   "economy": {
@@ -336,20 +336,36 @@
   },
   "headlines": [
     {
+      "when": "Nov 22",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html"
+    },
+    {
+      "when": "Nov 21",
+      "title": "Tech outages are fueling a new doomsday economy",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html"
+    },
+    {
+      "when": "Nov 21",
+      "title": "How China is using summits to expand its global influence",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html"
+    },
+    {
       "when": "Nov 20",
       "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html"
-    },
-    {
-      "when": "Nov 20",
-      "title": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
     },
     {
       "when": "Nov 20",
@@ -366,26 +382,10 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html"
-    },
-    {
-      "when": "Nov 20",
-      "title": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html"
-    },
-    {
-      "when": "Nov 19",
-      "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.92%, overnight SOFR at 3.91%",
+    "headline": "The 10-year at 4.92%, overnight SOFR at 3.92%",
     "standfirst": "An illustrative agency coupon prices at 6.27–6.57%. The Freddie Mac 30-year survey rate is 7.28%.",
     "curve_date": "Nov 20, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.91",
+      "val": "3.92",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
-      "title": "Nithya Raman Inherits a Downtown L.A. Still Searching for Its Comeback",
-      "when": "Nov 20",
-      "link": "https://commercialobserver.com/2026/11/downtown-los-angeles-nithya-raman-housing-development/"
+      "title": "REITs & Retail: James Corl of Cohen & Steers Shares His Investment Secrets",
+      "when": "Nov 23",
+      "link": "https://commercialobserver.com/2026/11/reits-retail-james-corl-cohen-steers-investment/"
     },
     {
       "source": "Commercial Observer",
-      "title": "New West Palm Beach Condo Lands $57M Loan With Nearly Half Its Units Unsold",
-      "when": "Nov 20",
-      "link": "https://commercialobserver.com/2026/11/west-palm-beach-alba-bgi-companies-blue-road-kriss-capital/"
+      "title": "Rialto Refis 530 Fifth Avenue Retail Condo With $122M Loan",
+      "when": "Nov 23",
+      "link": "https://commercialobserver.com/2026/11/rialto-530-fifth-avenue-retail/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Elevating the Successful ‘Housing Is Health Care’ Model in New York",
-      "when": "Nov 20",
-      "link": "https://commercialobserver.com/2026/11/housing-health-care-model-new-york/"
+      "title": "Rob Kane On Lincoln Property Company’s $6B Southern California Development Pipeline",
+      "when": "Nov 23",
+      "link": "https://commercialobserver.com/2026/11/rob-kane-lincoln-property-company-southern-california-development-los-angeles/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Kids Art Studio ColorPop Workshop to Open at Tribeca’s 450 Washington Street",
-      "when": "Nov 20",
-      "link": "https://commercialobserver.com/2026/11/colorpop-workshop-lease-tribeca-450-washington-street/"
+      "title": "Arden Living Adds Former Silverstein Development Duo to Grow Residential Portfolio",
+      "when": "Nov 23",
+      "link": "https://commercialobserver.com/2026/11/arden-living-brian-collins-max-spencer-silverstein/"
     },
     {
       "source": "Commercial Observer",
-      "title": "CRE Positioned to Withstand 2022 Repeat Amid Rising Rates: NYU Schack Panelists",
-      "when": "Nov 20",
-      "link": "https://commercialobserver.com/2026/11/cre-interest-rates-capital-markets-nyu/"
+      "title": "Long Island City Condo Sales Up 8.7% in Q3: Report",
+      "when": "Nov 23",
+      "link": "https://commercialobserver.com/2026/11/long-island-city-condo-market-sales-q3-serhant/"
     },
     {
       "source": "Commercial Observer",
-      "title": "Aerospace and Defense Overtake Tech as L.A.’s Biggest VC Magnet",
-      "when": "Nov 19",
-      "link": "https://commercialobserver.com/2026/11/vc-aerospace-defense-california-manufacturing-industrial/"
+      "title": "Sunday Summary: Don’t Fear the Data Center Reaper",
+      "when": "Nov 22",
+      "link": "https://commercialobserver.com/2026/11/sunday-summary-dont-fear-the-data-center-reaper/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "68.32",
-      "chg": "-1.36%",
-      "dir": -1
+      "price": "69.42",
+      "chg": "+1.62%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "92.56",
-      "chg": "-0.97%",
-      "dir": -1
+      "price": "93.75",
+      "chg": "+1.29%",
+      "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "61.24",
-      "chg": "-1.65%",
-      "dir": -1
+      "price": "61.75",
+      "chg": "+0.83%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "122.50",
-      "chg": "-0.70%",
-      "dir": -1
+      "price": "124.86",
+      "chg": "+1.93%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.04",
-      "chg": "+0.59%",
-      "dir": 1
+      "price": "63.00",
+      "chg": "-0.06%",
+      "dir": -1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "224.35",
-      "chg": "-0.39%",
-      "dir": -1
+      "price": "226.22",
+      "chg": "+0.84%",
+      "dir": 1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
