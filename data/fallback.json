@@ -3,32 +3,32 @@
     "date_line": "Tuesday · Nov 24, 2026",
     "as_of": "Auto-compiled from public sources · Nov 24, 2026",
     "compiled": "Compiled Nov 24, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-24T06:59:17Z"
+    "generated_utc": "2026-11-24T14:50:42Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,237.17",
-      "ch": "+4.73%",
-      "dir": 1
+      "vl": "7,205.41",
+      "ch": "-0.44%",
+      "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "24,090",
-      "ch": "+6.51%",
-      "dir": 1
+      "vl": "23,800",
+      "ch": "-1.20%",
+      "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "49,595",
-      "ch": "+3.01%",
+      "vl": "49,783",
+      "ch": "+0.38%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "26.62",
-      "ch": "-25.83%",
-      "dir": -1
+      "vl": "29.16",
+      "ch": "+9.54%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 climbed 4.73%",
-    "standfirst": "At the last close: S&P 500 7,237.17 (+4.73%); Nasdaq 24,090 (+6.51%); Dow 49,595 (+3.01%). VIX 26.62 (-25.83%).",
+    "headline": "The S&P 500 edged lower 0.44%",
+    "standfirst": "At the last close: S&P 500 7,205.41 (-0.44%); Nasdaq 23,800 (-1.20%); Dow 49,783 (+0.38%). VIX 29.16 (+9.54%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "PLD led at +2.16%; BXP lagged at +0.41%."
+      "5 of 6 names on the watchlist closed higher.",
+      "BXP led at +0.76%; KRE lagged at -0.06%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,52 +147,52 @@
         "body": "November PPI."
       }
     ],
-    "quote_note": "Markets closed — showing the prior session's close (last update 5:15 PM ET, Nov 23)"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 24"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,237.17",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "4.73%",
-        "note": "vs prior close"
-      },
-      "note": "Prior close <span class=\"mono\">6,910.39</span> · <span class=\"up mono\">+7.9%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "24,090",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "6.51%",
-        "note": "vs prior close"
-      },
-      "note": "Prior close <span class=\"mono\">22,618</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "49,595",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "3.01%",
-        "note": "vs prior close"
-      },
-      "note": "Prior close <span class=\"mono\">48,147</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "26.62",
+      "val": "7,205.41",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "25.83%",
+        "txt": "0.44%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">35.89</span>"
+      "note": "Open <span class=\"mono\">7,172.33</span> · <span class=\"up mono\">+7.5%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "23,800",
+      "tone": "neg",
+      "delta": {
+        "dir": -1,
+        "txt": "1.20%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">23,746</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "49,783",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.38%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">49,495</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "29.16",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "9.54%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">26.52</span>"
     }
   ],
   "economy": {
@@ -336,20 +336,28 @@
   },
   "headlines": [
     {
+      "when": "Nov 24",
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+    },
+    {
+      "when": "Nov 24",
+      "title": "Why France is at risk of recession — and what could keep it out of one",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html"
+    },
+    {
       "when": "Nov 23",
       "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html"
-    },
-    {
-      "when": "Nov 23",
-      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
     },
     {
       "when": "Nov 23",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html"
-    },
-    {
-      "when": "Nov 21",
-      "title": "How China is using summits to expand its global influence",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html"
     }
   ],
   "cre": {
@@ -433,6 +433,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Humanoid Robots Are Here. Commercial Real Estate May Not Need Them.",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/humanoid-robots-commercial-real-estate/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Sara Bronin of Land Use Labs: 5 Questions",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/sara-bronin-land-use-labs/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Becoming: The Most Important Thing We Build Is Ourselves",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/becoming-as-person/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M",
       "when": "Nov 23",
       "link": "https://commercialobserver.com/2026/11/blackfin-jsb-capital-northern-virginia-multifamily-udr/"
@@ -448,24 +466,6 @@
       "title": "Moinian Group Modifies 2 Washington Street’s $131M CMBS Loan, Secures New Tenant",
       "when": "Nov 23",
       "link": "https://commercialobserver.com/2026/11/moinian-group-2-washington-mod-prism/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Thor Equities Buys San Francisco Office and Retail Building for $51M",
-      "when": "Nov 23",
-      "link": "https://commercialobserver.com/2026/11/thor-equities-55-stockton-san-francisco-office-retail/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower",
-      "when": "Nov 23",
-      "link": "https://commercialobserver.com/2026/11/jpmorgan-manhattan-apartments/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Namdar Group Lands $345M to Build West Brickell Rental Tower",
-      "when": "Nov 23",
-      "link": "https://commercialobserver.com/2026/11/namdar-group-west-brickell-miami-slate-scale/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.54",
-      "chg": "+1.79%",
-      "dir": 1
+      "price": "69.50",
+      "chg": "-0.06%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.67",
-      "chg": "+1.20%",
+      "price": "93.90",
+      "chg": "+0.25%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "61.49",
-      "chg": "+0.41%",
+      "price": "61.96",
+      "chg": "+0.76%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "125.14",
-      "chg": "+2.16%",
+      "price": "125.37",
+      "chg": "+0.18%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.51",
-      "chg": "+0.75%",
+      "price": "63.68",
+      "chg": "+0.27%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "227.07",
-      "chg": "+1.21%",
+      "price": "227.21",
+      "chg": "+0.06%",
       "dir": 1
     }
   ],
