@@ -3,32 +3,32 @@
     "date_line": "Tuesday · Nov 24, 2026",
     "as_of": "Auto-compiled from public sources · Nov 24, 2026",
     "compiled": "Compiled Nov 24, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-24T14:50:42Z"
+    "generated_utc": "2026-11-24T19:35:28Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,205.41",
-      "ch": "-0.44%",
+      "vl": "7,193.68",
+      "ch": "-0.60%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "23,800",
-      "ch": "-1.20%",
+      "vl": "23,694",
+      "ch": "-1.64%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "49,783",
-      "ch": "+0.38%",
+      "vl": "49,969",
+      "ch": "+0.75%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "29.16",
-      "ch": "+9.54%",
-      "dir": 1
+      "vl": "26.49",
+      "ch": "-0.49%",
+      "dir": -1
     },
     {
       "nm": "10Y UST",
@@ -98,25 +98,25 @@
     },
     {
       "nm": "IG OAS",
-      "vl": "1.22%",
+      "vl": "1.20%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "HY OAS",
-      "vl": "3.76%",
+      "vl": "3.63%",
       "ch": "",
       "dir": 0
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.44%",
-    "standfirst": "At the last close: S&P 500 7,205.41 (-0.44%); Nasdaq 23,800 (-1.20%); Dow 49,783 (+0.38%). VIX 29.16 (+9.54%).",
+    "headline": "The S&P 500 fell 0.60%",
+    "standfirst": "At the last close: S&P 500 7,193.68 (-0.60%); Nasdaq 23,694 (-1.64%); Dow 49,969 (+0.75%). VIX 26.49 (-0.49%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "BXP led at +0.76%; KRE lagged at -0.06%."
+      "6 of 6 names on the watchlist closed higher.",
+      "PLD led at +1.33%; KRE lagged at +0.24%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "November PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 24"
+    "quote_note": "Quotes ~15-min delayed · as of 2:35 PM ET, Nov 24"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,205.41",
+      "val": "7,193.68",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.44%",
+        "txt": "0.60%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,172.33</span> · <span class=\"up mono\">+7.5%</span> YoY"
+      "note": "Open <span class=\"mono\">7,172.33</span> · <span class=\"up mono\">+7.3%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "23,800",
+      "val": "23,694",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.20%",
+        "txt": "1.64%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">23,746</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "49,783",
+      "val": "49,969",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.38%",
+        "txt": "0.75%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">49,495</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "29.16",
-      "tone": "pos",
+      "val": "26.49",
+      "tone": "neg",
       "delta": {
-        "dir": 1,
-        "txt": "9.54%",
+        "dir": -1,
+        "txt": "0.49%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26.52</span>"
@@ -285,8 +285,8 @@
     }
   ],
   "credit": {
-    "headline": "Investment-grade OAS at 1.22%, high-yield at 3.76%",
-    "standfirst": "The high-yield premium over investment grade is 2.54 percentage points. The 2s10s Treasury spread is +29 bps.",
+    "headline": "Investment-grade OAS at 1.20%, high-yield at 3.63%",
+    "standfirst": "The high-yield premium over investment grade is 2.43 percentage points. The 2s10s Treasury spread is +29 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
@@ -296,45 +296,69 @@
   "credit_tiles": [
     {
       "lbl": "Investment-Grade OAS",
-      "val": "1.22",
+      "val": "1.20",
       "unit": "%",
       "tone": "",
       "note": "BBB corporate spread over Treasuries (ICE BofA)",
       "delta": {
         "dir": 0,
-        "txt": "+0.05pp",
-        "note": "wider"
+        "txt": "-0.02pp",
+        "note": "tighter"
       }
     },
     {
       "lbl": "High-Yield OAS",
-      "val": "3.76",
+      "val": "3.63",
       "unit": "%",
       "tone": "",
       "note": "Below-investment-grade spread — the risk-appetite gauge",
       "delta": {
         "dir": 0,
-        "txt": "+0.24pp",
-        "note": "wider"
+        "txt": "-0.13pp",
+        "note": "tighter"
       }
     },
     {
       "lbl": "HY − IG Premium",
-      "val": "2.54",
+      "val": "2.43",
       "unit": "pp",
       "tone": "",
       "note": "Extra spread demanded for junk over BBB credit"
     }
   ],
   "credit_chart": {
-    "ig": 1.22,
-    "hy": 3.76
+    "ig": 1.2,
+    "hy": 3.63
   },
   "news": {
     "headline": "Latest headlines",
     "standfirst": "6 market and 6 commercial real-estate headlines, newest first."
   },
   "headlines": [
+    {
+      "when": "Nov 24",
+      "title": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html"
+    },
+    {
+      "when": "Nov 24",
+      "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
+    },
+    {
+      "when": "Nov 24",
+      "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html"
+    },
     {
       "when": "Nov 24",
       "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
@@ -358,30 +382,6 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html"
-    },
-    {
-      "when": "Nov 23",
-      "title": "Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-trump-bessent-china.html"
-    },
-    {
-      "when": "Nov 23",
-      "title": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html"
-    },
-    {
-      "when": "Nov 21",
-      "title": "Tech outages are fueling a new doomsday economy",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html"
     }
   ],
   "cre": {
@@ -433,39 +433,39 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Miami Investor Buys Fort Lauderdale Retail Center for $35M",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/core-gateway-retail-fort-lauderdale-native-realty/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Nursing Home Operator Offloads Bronx, Queens Care Facilities for $178M",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/nursing-homes-sale-infinite-care-emerald-group/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Affinius Provides $135M Construction Loan for Brooklyn Multifamily",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/affinius-135m-construction-gowanus-172-third-avenue/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Greystone Lends $26M for Chicago-Area Multifamily Acquisition",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/greystone-chicagoillinois-apartments/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Affinius Capital Originates $76M Construction Loan for Wisconsin Student Housing",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/affinius-capital-76m-construction-lwisconsin-student-housing/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Humanoid Robots Are Here. Commercial Real Estate May Not Need Them.",
       "when": "Nov 24",
       "link": "https://commercialobserver.com/2026/11/humanoid-robots-commercial-real-estate/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Sara Bronin of Land Use Labs: 5 Questions",
-      "when": "Nov 24",
-      "link": "https://commercialobserver.com/2026/11/sara-bronin-land-use-labs/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Becoming: The Most Important Thing We Build Is Ourselves",
-      "when": "Nov 24",
-      "link": "https://commercialobserver.com/2026/11/becoming-as-person/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M",
-      "when": "Nov 23",
-      "link": "https://commercialobserver.com/2026/11/blackfin-jsb-capital-northern-virginia-multifamily-udr/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Fort Partners Nabs $99M Loan for West Palm Condo Near Trump’s Mar-a-Lago",
-      "when": "Nov 23",
-      "link": "https://commercialobserver.com/2026/11/fort-partners-west-palm-beach-harbor-towers-marina-florida-madison-realty-trump-mar-a-lago/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Moinian Group Modifies 2 Washington Street’s $131M CMBS Loan, Secures New Tenant",
-      "when": "Nov 23",
-      "link": "https://commercialobserver.com/2026/11/moinian-group-2-washington-mod-prism/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.50",
-      "chg": "-0.06%",
-      "dir": -1
+      "price": "69.71",
+      "chg": "+0.24%",
+      "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "93.90",
-      "chg": "+0.25%",
+      "price": "94.47",
+      "chg": "+0.85%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "61.96",
-      "chg": "+0.76%",
+      "price": "62.26",
+      "chg": "+1.25%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "125.37",
-      "chg": "+0.18%",
+      "price": "126.81",
+      "chg": "+1.33%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "63.68",
-      "chg": "+0.27%",
+      "price": "64.34",
+      "chg": "+1.31%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "227.21",
-      "chg": "+0.06%",
+      "price": "229.24",
+      "chg": "+0.96%",
       "dir": 1
     }
   ],
