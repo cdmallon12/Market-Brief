@@ -3,36 +3,36 @@
     "date_line": "Tuesday · Nov 24, 2026",
     "as_of": "Auto-compiled from public sources · Nov 24, 2026",
     "compiled": "Compiled Nov 24, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-24T19:35:28Z"
+    "generated_utc": "2026-11-24T23:16:50Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,193.68",
-      "ch": "-0.60%",
+      "vl": "7,201.09",
+      "ch": "-0.50%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "23,694",
-      "ch": "-1.64%",
+      "vl": "23,734",
+      "ch": "-1.48%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "49,969",
-      "ch": "+0.75%",
+      "vl": "50,019",
+      "ch": "+0.85%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "26.49",
-      "ch": "-0.49%",
+      "vl": "26.36",
+      "ch": "-0.98%",
       "dir": -1
     },
     {
       "nm": "10Y UST",
-      "vl": "4.92%",
+      "vl": "4.91%",
       "ch": "",
       "dir": 0
     },
@@ -44,7 +44,7 @@
     },
     {
       "nm": "30Y UST",
-      "vl": "5.29%",
+      "vl": "5.30%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.60%",
-    "standfirst": "At the last close: S&P 500 7,193.68 (-0.60%); Nasdaq 23,694 (-1.64%); Dow 49,969 (+0.75%). VIX 26.49 (-0.49%).",
+    "headline": "The S&P 500 fell 0.50%",
+    "standfirst": "At the last close: S&P 500 7,201.09 (-0.50%); Nasdaq 23,734 (-1.48%); Dow 50,019 (+0.85%). VIX 26.36 (-0.98%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "6 of 6 names on the watchlist closed higher.",
-      "PLD led at +1.33%; KRE lagged at +0.24%."
+      "BXP led at +1.94%; KRE lagged at +0.32%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "November PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 2:35 PM ET, Nov 24"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 24"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,193.68",
+      "val": "7,201.09",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.60%",
+        "txt": "0.50%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,172.33</span> · <span class=\"up mono\">+7.3%</span> YoY"
+      "note": "Open <span class=\"mono\">7,172.33</span> · <span class=\"up mono\">+6.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "23,694",
+      "val": "23,734",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.64%",
+        "txt": "1.48%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">23,746</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "49,969",
+      "val": "50,019",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.75%",
+        "txt": "0.85%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">49,495</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "26.49",
+      "val": "26.36",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.49%",
+        "txt": "0.98%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">26.52</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.20%, high-yield at 3.63%",
-    "standfirst": "The high-yield premium over investment grade is 2.43 percentage points. The 2s10s Treasury spread is +29 bps.",
+    "standfirst": "The high-yield premium over investment grade is 2.43 percentage points. The 2s10s Treasury spread is +28 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +29 bps; 3m10y +55 bps; 5s30s +55 bps; 10s30s +37 bps."
+      "Across the curve: 2s10s +28 bps; 3m10y +55 bps; 5s30s +61 bps; 10s30s +39 bps."
     ]
   },
   "credit_tiles": [
@@ -345,19 +345,19 @@
     },
     {
       "when": "Nov 24",
-      "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
-    },
-    {
-      "when": "Nov 24",
       "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html"
+    },
+    {
+      "when": "Nov 24",
+      "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
     },
     {
       "when": "Nov 24",
@@ -385,9 +385,9 @@
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.92%, overnight SOFR at 3.92%",
-    "standfirst": "An illustrative agency coupon prices at 6.27–6.57%. The Freddie Mac 30-year survey rate is 7.28%.",
-    "curve_date": "Nov 23, 2026",
+    "headline": "The 10-year at 4.91%, overnight SOFR at 3.92%",
+    "standfirst": "An illustrative agency coupon prices at 6.26–6.56%. The Freddie Mac 30-year survey rate is 7.28%.",
+    "curve_date": "Nov 24, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,10 +398,10 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "4.92",
+      "val": "4.91",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+29 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+28 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
@@ -433,6 +433,30 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Partnership With Related and BH Group Lands $38M for Waterfront Fort Lauderdale Asset",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/related-bh-group-pebb-enterprises-fort-lauderdale-quay/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Netflix Buys Historic Radford Studio Center in L.A. for $380M",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/netflix-radford-studio-center-la-hackman-hollywood/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Law Firms Expand Office Footprints as Leasing Nears Annual Record",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/law-firms-office-leasing-q3/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Hudson River Trading Expands to 551K SF at 3 World Trade Center",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/hudson-river-trading-lease-expansion-3-world-trade-center/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Miami Investor Buys Fort Lauderdale Retail Center for $35M",
       "when": "Nov 24",
       "link": "https://commercialobserver.com/2026/11/core-gateway-retail-fort-lauderdale-native-realty/"
@@ -442,30 +466,6 @@
       "title": "Nursing Home Operator Offloads Bronx, Queens Care Facilities for $178M",
       "when": "Nov 24",
       "link": "https://commercialobserver.com/2026/11/nursing-homes-sale-infinite-care-emerald-group/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Affinius Provides $135M Construction Loan for Brooklyn Multifamily",
-      "when": "Nov 24",
-      "link": "https://commercialobserver.com/2026/11/affinius-135m-construction-gowanus-172-third-avenue/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Greystone Lends $26M for Chicago-Area Multifamily Acquisition",
-      "when": "Nov 24",
-      "link": "https://commercialobserver.com/2026/11/greystone-chicagoillinois-apartments/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Affinius Capital Originates $76M Construction Loan for Wisconsin Student Housing",
-      "when": "Nov 24",
-      "link": "https://commercialobserver.com/2026/11/affinius-capital-76m-construction-lwisconsin-student-housing/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Humanoid Robots Are Here. Commercial Real Estate May Not Need Them.",
-      "when": "Nov 24",
-      "link": "https://commercialobserver.com/2026/11/humanoid-robots-commercial-real-estate/"
     }
   ],
   "cre_fund_tiles": [
@@ -511,17 +511,17 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.27–6.57",
+      "val": "6.26–6.56",
       "unit": "%",
       "tone": "",
-      "note": "10Y (4.92%) + 135–165 bp agency spread"
+      "note": "10Y (4.91%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+29",
+    "2s10s": "+28",
     "3m10y": "+55",
-    "5s30s": "+55",
-    "10s30s": "+37"
+    "5s30s": "+61",
+    "10s30s": "+39"
   },
   "cre_market": {
     "as_of": "As of Aug 2026 · manually maintained from CBRE, CoStar & Trepp releases"
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.71",
-      "chg": "+0.24%",
+      "price": "69.76",
+      "chg": "+0.32%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.47",
-      "chg": "+0.85%",
+      "price": "94.78",
+      "chg": "+1.19%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.26",
-      "chg": "+1.25%",
+      "price": "62.68",
+      "chg": "+1.94%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "126.81",
-      "chg": "+1.33%",
+      "price": "127.32",
+      "chg": "+1.74%",
       "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.34",
-      "chg": "+1.31%",
+      "price": "64.64",
+      "chg": "+1.78%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "229.24",
-      "chg": "+0.96%",
+      "price": "229.83",
+      "chg": "+1.22%",
       "dir": 1
     }
   ],
@@ -651,28 +651,28 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 4.2,
+      "y": 4.21,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.37,
+      "y": 4.36,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.45,
+      "y": 4.46,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.57,
+      "y": 4.59,
       "axis": false,
       "mark": false
     },
@@ -686,28 +686,28 @@
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.69,
+      "y": 4.67,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.74,
+      "y": 4.69,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.81,
+      "y": 4.79,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 4.92,
+      "y": 4.91,
       "axis": true,
       "mark": true
     },
@@ -721,14 +721,14 @@
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.29,
+      "y": 5.3,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.42
+    "new": 6.41
   },
   "orig": {
     "y2025": 633.7,
