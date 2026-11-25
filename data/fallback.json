@@ -3,7 +3,7 @@
     "date_line": "Tuesday · Nov 24, 2026",
     "as_of": "Auto-compiled from public sources · Nov 24, 2026",
     "compiled": "Compiled Nov 24, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-24T23:16:50Z"
+    "generated_utc": "2026-11-25T03:36:15Z"
   },
   "ticker": [
     {
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Nov 24",
+      "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html"
+    },
+    {
+      "when": "Nov 24",
       "title": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html"
-    },
-    {
-      "when": "Nov 23",
-      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html"
     }
   ],
   "cre": {
@@ -433,6 +433,12 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Vornado Sells 49% Stake in 90 Park Avenue to Sixth Street, DivcoWest",
+      "when": "Nov 24",
+      "link": "https://commercialobserver.com/2026/11/vornado-90-park-avenue-sixth-street-divco/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "Partnership With Related and BH Group Lands $38M for Waterfront Fort Lauderdale Asset",
       "when": "Nov 24",
       "link": "https://commercialobserver.com/2026/11/related-bh-group-pebb-enterprises-fort-lauderdale-quay/"
@@ -460,12 +466,6 @@
       "title": "Miami Investor Buys Fort Lauderdale Retail Center for $35M",
       "when": "Nov 24",
       "link": "https://commercialobserver.com/2026/11/core-gateway-retail-fort-lauderdale-native-realty/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Nursing Home Operator Offloads Bronx, Queens Care Facilities for $178M",
-      "when": "Nov 24",
-      "link": "https://commercialobserver.com/2026/11/nursing-homes-sale-infinite-care-emerald-group/"
     }
   ],
   "cre_fund_tiles": [
