@@ -1,34 +1,34 @@
 {
   "meta": {
-    "date_line": "Tuesday · Nov 24, 2026",
-    "as_of": "Auto-compiled from public sources · Nov 24, 2026",
-    "compiled": "Compiled Nov 24, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-25T03:36:15Z"
+    "date_line": "Wednesday · Nov 25, 2026",
+    "as_of": "Auto-compiled from public sources · Nov 25, 2026",
+    "compiled": "Compiled Nov 25, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-11-25T14:50:55Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,201.09",
-      "ch": "-0.50%",
+      "vl": "6,985.33",
+      "ch": "-3.00%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "23,734",
-      "ch": "-1.48%",
+      "vl": "22,718",
+      "ch": "-4.28%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "50,019",
-      "ch": "+0.85%",
-      "dir": 1
+      "vl": "48,974",
+      "ch": "-2.09%",
+      "dir": -1
     },
     {
       "nm": "VIX",
-      "vl": "26.36",
-      "ch": "-0.98%",
-      "dir": -1
+      "vl": "33.04",
+      "ch": "+25.34%",
+      "dir": 1
     },
     {
       "nm": "10Y UST",
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.92%",
+      "vl": "3.94%",
       "ch": "",
       "dir": 0
     },
@@ -68,19 +68,19 @@
     },
     {
       "nm": "Core PCE",
-      "vl": "3.1%",
+      "vl": "3.3%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "Headline PCE",
-      "vl": "3.6%",
+      "vl": "3.8%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "US GDP Q3",
-      "vl": "3.4%",
+      "vl": "4.3%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.50%",
-    "standfirst": "At the last close: S&P 500 7,201.09 (-0.50%); Nasdaq 23,734 (-1.48%); Dow 50,019 (+0.85%). VIX 26.36 (-0.98%).",
+    "headline": "The S&P 500 dropped 3.00%",
+    "standfirst": "At the last close: S&P 500 6,985.33 (-3.00%); Nasdaq 22,718 (-4.28%); Dow 48,974 (-2.09%). VIX 33.04 (+25.34%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "BXP led at +1.94%; KRE lagged at +0.32%."
+      "1 of 6 names on the watchlist closed higher.",
+      "VMRK led at +0.62%; KRE lagged at -1.10%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,59 +147,59 @@
         "body": "November PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 24"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 25"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,201.09",
+      "val": "6,985.33",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.50%",
+        "txt": "3.00%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,172.33</span> · <span class=\"up mono\">+6.4%</span> YoY"
+      "note": "Open <span class=\"mono\">7,060.33</span> · <span class=\"up mono\">+3.2%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "23,734",
+      "val": "22,718",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.48%",
+        "txt": "4.28%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">23,746</span>"
+      "note": "Open <span class=\"mono\">22,948</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "50,019",
-      "tone": "pos",
-      "delta": {
-        "dir": 1,
-        "txt": "0.85%",
-        "note": "vs prior close"
-      },
-      "note": "Open <span class=\"mono\">49,495</span>"
-    },
-    {
-      "lbl": "VIX · Volatility",
-      "val": "26.36",
+      "val": "48,974",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.98%",
+        "txt": "2.09%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">26.52</span>"
+      "note": "Open <span class=\"mono\">49,470</span>"
+    },
+    {
+      "lbl": "VIX · Volatility",
+      "val": "33.04",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "25.34%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">28.16</span>"
     }
   ],
   "economy": {
-    "headline": "Policy and prices: the federal funds target at 3.75-4.00%, headline CPI at 4.1% year over year, core PCE at 3.1%",
-    "standfirst": "Real GDP was last reported at 3.4% annualized. The IMF puts world real growth at 3.3%. The next FOMC decision is scheduled for December 9.",
+    "headline": "Policy and prices: the federal funds target at 3.75-4.00%, headline CPI at 4.1% year over year, core PCE at 3.3%",
+    "standfirst": "Real GDP was last reported at 4.3% annualized. The IMF puts world real growth at 3.3%. The next FOMC decision is scheduled for December 9.",
     "body": [
-      "CPI stands at 4.1% and core PCE at 3.1%, against the Federal Reserve's stated 2% objective.",
+      "CPI stands at 4.1% and core PCE at 3.3%, against the Federal Reserve's stated 2% objective.",
       "The target range has been 3.75-4.00% as of the most recent decision."
     ]
   },
@@ -222,20 +222,20 @@
       "note": "Core CPI: <span class=\"mono\">2.9%</span>"
     },
     {
-      "lbl": "Core PCE · Sep",
-      "val": "3.1",
+      "lbl": "Core PCE · Oct",
+      "val": "3.3",
       "unit": "%",
       "tone": "",
       "note": "Fed's preferred gauge — above the 2% goal"
     },
     {
       "lbl": "U.S. GDP · Q3 adv.",
-      "val": "3.4",
+      "val": "4.3",
       "unit": "%",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "+1.2pp",
+        "txt": "+2.1pp",
         "note": "vs prior qtr"
       },
       "note": "Annualized real growth (SAAR)"
@@ -277,11 +277,11 @@
       }
     },
     {
-      "lbl": "Headline PCE · Sep",
-      "val": "3.6",
+      "lbl": "Headline PCE · Oct",
+      "val": "3.8",
       "unit": "%",
       "tone": "",
-      "note": "+0.5pp above core PCE — the energy pass-through"
+      "note": "+0.6pp above core PCE — the energy pass-through"
     }
   ],
   "credit": {
@@ -336,12 +336,44 @@
   },
   "headlines": [
     {
-      "when": "Nov 24",
+      "when": "Nov 25",
       "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html"
+    },
+    {
+      "when": "Nov 25",
+      "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+    },
+    {
+      "when": "Nov 25",
+      "title": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
+    },
+    {
+      "when": "Nov 25",
+      "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html"
+    },
+    {
+      "when": "Nov 24",
+      "title": "‘Ready for any storm’: UAE minister optimistic on economy as IMF lifts forecast",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html"
     },
     {
       "when": "Nov 24",
@@ -350,42 +382,10 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html"
-    },
-    {
-      "when": "Nov 24",
-      "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html"
-    },
-    {
-      "when": "Nov 24",
-      "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
-    },
-    {
-      "when": "Nov 24",
-      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
-    },
-    {
-      "when": "Nov 24",
-      "title": "Why France is at risk of recession — and what could keep it out of one",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.91%, overnight SOFR at 3.92%",
+    "headline": "The 10-year at 4.91%, overnight SOFR at 3.94%",
     "standfirst": "An illustrative agency coupon prices at 6.26–6.56%. The Freddie Mac 30-year survey rate is 7.28%.",
     "curve_date": "Nov 24, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.92",
+      "val": "3.94",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -606,44 +606,44 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.76",
-      "chg": "+0.32%",
-      "dir": 1
+      "price": "68.99",
+      "chg": "-1.10%",
+      "dir": -1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "94.78",
-      "chg": "+1.19%",
-      "dir": 1
+      "price": "94.39",
+      "chg": "-0.41%",
+      "dir": -1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "62.68",
-      "chg": "+1.94%",
-      "dir": 1
+      "price": "62.42",
+      "chg": "-0.41%",
+      "dir": -1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "127.32",
-      "chg": "+1.74%",
-      "dir": 1
+      "price": "126.29",
+      "chg": "-0.81%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "64.64",
-      "chg": "+1.78%",
+      "price": "65.04",
+      "chg": "+0.62%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "229.83",
-      "chg": "+1.22%",
-      "dir": 1
+      "price": "229.31",
+      "chg": "-0.22%",
+      "dir": -1
     }
   ],
   "watchlist_note": "Prices ~15-min delayed (Yahoo Finance) · change vs. prior close.",
