@@ -3,48 +3,48 @@
     "date_line": "Wednesday · Nov 25, 2026",
     "as_of": "Auto-compiled from public sources · Nov 25, 2026",
     "compiled": "Compiled Nov 25, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-25T18:43:13Z"
+    "generated_utc": "2026-11-25T22:47:49Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,165.05",
-      "ch": "-0.50%",
+      "vl": "7,182.78",
+      "ch": "-0.25%",
       "dir": -1
     },
     {
       "nm": "Nasdaq",
-      "vl": "23,453",
-      "ch": "-1.18%",
+      "vl": "23,586",
+      "ch": "-0.62%",
       "dir": -1
     },
     {
       "nm": "Dow",
-      "vl": "50,220",
-      "ch": "+0.40%",
+      "vl": "50,183",
+      "ch": "+0.33%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "28.43",
-      "ch": "+7.85%",
+      "vl": "28.29",
+      "ch": "+7.32%",
       "dir": 1
     },
     {
       "nm": "10Y UST",
-      "vl": "4.91%",
+      "vl": "4.85%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.63%",
+      "vl": "4.61%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.30%",
+      "vl": "5.24%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 fell 0.50%",
-    "standfirst": "At the last close: S&P 500 7,165.05 (-0.50%); Nasdaq 23,453 (-1.18%); Dow 50,220 (+0.40%). VIX 28.43 (+7.85%).",
+    "headline": "The S&P 500 edged lower 0.25%",
+    "standfirst": "At the last close: S&P 500 7,182.78 (-0.25%); Nasdaq 23,586 (-0.62%); Dow 50,183 (+0.33%). VIX 28.29 (+7.32%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "6 of 6 names on the watchlist closed higher.",
-      "BXP led at +2.68%; KRE lagged at +0.17%."
+      "5 of 6 names on the watchlist closed higher.",
+      "BXP led at +2.14%; PLD lagged at -0.23%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,49 +147,49 @@
         "body": "November PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:42 PM ET, Nov 25"
+    "quote_note": "Quotes ~15-min delayed · as of 5:15 PM ET, Nov 25"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,165.05",
+      "val": "7,182.78",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "0.50%",
+        "txt": "0.25%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">7,060.33</span> · <span class=\"up mono\">+5.9%</span> YoY"
+      "note": "Open <span class=\"mono\">7,060.33</span> · <span class=\"up mono\">+5.4%</span> YoY"
     },
     {
       "lbl": "Nasdaq Composite",
-      "val": "23,453",
+      "val": "23,586",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "1.18%",
+        "txt": "0.62%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">22,948</span>"
     },
     {
       "lbl": "Dow Jones",
-      "val": "50,220",
+      "val": "50,183",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.40%",
+        "txt": "0.33%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">49,470</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "28.43",
+      "val": "28.29",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "7.85%",
+        "txt": "7.32%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">28.16</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.22%, high-yield at 3.72%",
-    "standfirst": "The high-yield premium over investment grade is 2.50 percentage points. The 2s10s Treasury spread is +28 bps.",
+    "standfirst": "The high-yield premium over investment grade is 2.50 percentage points. The 2s10s Treasury spread is +24 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +28 bps; 3m10y +55 bps; 5s30s +61 bps; 10s30s +39 bps."
+      "Across the curve: 2s10s +24 bps; 3m10y +51 bps; 5s30s +59 bps; 10s30s +39 bps."
     ]
   },
   "credit_tiles": [
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Nov 25",
+      "title": "Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/25/kevin-warsh-greenspan-fed-rates-ai-inflation.html"
+    },
+    {
+      "when": "Nov 25",
       "title": "Prediction markets push OpenAI IPO expectations later into 2027",
       "blurb": "",
       "kind": "",
@@ -374,20 +382,12 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html"
-    },
-    {
-      "when": "Nov 24",
-      "title": "‘Ready for any storm’: UAE minister optimistic on economy as IMF lifts forecast",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.91%, overnight SOFR at 3.94%",
-    "standfirst": "An illustrative agency coupon prices at 6.26–6.56%. The Freddie Mac 30-year survey rate is 7.21%.",
-    "curve_date": "Nov 24, 2026",
+    "headline": "The 10-year at 4.85%, overnight SOFR at 3.94%",
+    "standfirst": "An illustrative agency coupon prices at 6.20–6.50%. The Freddie Mac 30-year survey rate is 7.21%.",
+    "curve_date": "Nov 25, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,14 +398,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "4.91",
+      "val": "4.85",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+28 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+24 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.63",
+      "val": "4.61",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -433,6 +433,24 @@
   "cre_headlines": [
     {
       "source": "Commercial Observer",
+      "title": "Mamdani Scores Critical Court Victory for Rent Freeze",
+      "when": "Nov 25",
+      "link": "https://commercialobserver.com/2026/11/mamdani-rent-freeze-court-decision/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Host Hotels Rounds Out $202M Brooklyn Hotel Buy With $29M Retail, Parking Acquisition",
+      "when": "Nov 25",
+      "link": "https://commercialobserver.com/2026/11/host-hotels-starwood-furman-street-retail-parking-sale/"
+    },
+    {
+      "source": "Commercial Observer",
+      "title": "Flight to Quality Deepens Divide Among Major U.S. Office Markets",
+      "when": "Nov 25",
+      "link": "https://commercialobserver.com/2026/11/us-office-investment-sales-rent/"
+    },
+    {
+      "source": "Commercial Observer",
       "title": "RXR Supplies $140M Construction Loan for Miami Rental Development",
       "when": "Nov 25",
       "link": "https://commercialobserver.com/2026/11/rxr-aventura-mall-spoke-group-p6/"
@@ -448,24 +466,6 @@
       "title": "Partnership With Related and BH Group Lands $38M for Waterfront Fort Lauderdale Asset",
       "when": "Nov 24",
       "link": "https://commercialobserver.com/2026/11/related-bh-group-pebb-enterprises-fort-lauderdale-quay/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Netflix Buys Historic Radford Studio Center in L.A. for $380M",
-      "when": "Nov 24",
-      "link": "https://commercialobserver.com/2026/11/netflix-radford-studio-center-la-hackman-hollywood/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Law Firms Expand Office Footprints as Leasing Nears Annual Record",
-      "when": "Nov 24",
-      "link": "https://commercialobserver.com/2026/11/law-firms-office-leasing-q3/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Hudson River Trading Expands to 551K SF at 3 World Trade Center",
-      "when": "Nov 24",
-      "link": "https://commercialobserver.com/2026/11/hudson-river-trading-lease-expansion-3-world-trade-center/"
     }
   ],
   "cre_fund_tiles": [
@@ -511,16 +511,16 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.26–6.56",
+      "val": "6.20–6.50",
       "unit": "%",
       "tone": "",
-      "note": "10Y (4.91%) + 135–165 bp agency spread"
+      "note": "10Y (4.85%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+28",
-    "3m10y": "+55",
-    "5s30s": "+61",
+    "2s10s": "+24",
+    "3m10y": "+51",
+    "5s30s": "+59",
     "10s30s": "+39"
   },
   "cre_market": {
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.88",
-      "chg": "+0.17%",
+      "price": "69.83",
+      "chg": "+0.10%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.00",
-      "chg": "+1.29%",
+      "price": "95.66",
+      "chg": "+0.93%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.36",
-      "chg": "+2.68%",
+      "price": "64.02",
+      "chg": "+2.14%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "127.71",
-      "chg": "+0.31%",
-      "dir": 1
+      "price": "127.03",
+      "chg": "-0.23%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.75",
-      "chg": "+1.72%",
+      "price": "65.33",
+      "chg": "+1.07%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "232.35",
-      "chg": "+1.10%",
+      "price": "233.98",
+      "chg": "+1.81%",
       "dir": 1
     }
   ],
@@ -651,84 +651,84 @@
     {
       "t": "1M",
       "x": 0.083,
-      "y": 4.21,
+      "y": 4.27,
       "axis": true,
       "mark": true
     },
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.36,
+      "y": 4.34,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.46,
+      "y": 4.44,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.59,
+      "y": 4.56,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.63,
+      "y": 4.61,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.67,
+      "y": 4.64,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.69,
+      "y": 4.65,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.79,
+      "y": 4.74,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 4.91,
+      "y": 4.85,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.33,
+      "y": 5.28,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.3,
+      "y": 5.24,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.41
+    "new": 6.35
   },
   "orig": {
     "y2025": 633.7,
