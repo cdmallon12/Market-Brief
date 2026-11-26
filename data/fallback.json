@@ -3,7 +3,7 @@
     "date_line": "Wednesday · Nov 25, 2026",
     "as_of": "Auto-compiled from public sources · Nov 25, 2026",
     "compiled": "Compiled Nov 25, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-25T22:47:49Z"
+    "generated_utc": "2026-11-26T02:56:14Z"
   },
   "ticker": [
     {
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Nov 25",
+      "title": "Where the market may be mispricing risk most: AI boom, volatility, high-yield bonds",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html"
+    },
+    {
+      "when": "Nov 25",
       "title": "Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike",
       "blurb": "",
       "kind": "",
@@ -374,14 +382,6 @@
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
-    },
-    {
-      "when": "Nov 25",
-      "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html"
     }
   ],
   "cre": {
