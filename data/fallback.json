@@ -3,7 +3,7 @@
     "date_line": "Friday · Nov 27, 2026",
     "as_of": "Auto-compiled from public sources · Nov 27, 2026",
     "compiled": "Compiled Nov 27, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-27T18:18:24Z"
+    "generated_utc": "2026-11-27T22:20:44Z"
   },
   "ticker": [
     {
@@ -26,25 +26,25 @@
     },
     {
       "nm": "VIX",
-      "vl": "24.10",
-      "ch": "-10.07%",
+      "vl": "23.81",
+      "ch": "-11.16%",
       "dir": -1
     },
     {
       "nm": "10Y UST",
-      "vl": "4.85%",
+      "vl": "4.94%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "2Y UST",
-      "vl": "4.61%",
+      "vl": "4.69%",
       "ch": "",
       "dir": 0
     },
     {
       "nm": "30Y UST",
-      "vl": "5.24%",
+      "vl": "5.33%",
       "ch": "",
       "dir": 0
     },
@@ -111,12 +111,12 @@
   ],
   "markets": {
     "headline": "The S&P 500 climbed 1.60%",
-    "standfirst": "At the last close: S&P 500 7,297.49 (+1.60%); Nasdaq 24,130 (+2.31%); Dow 50,775 (+1.18%). VIX 24.10 (-10.07%).",
+    "standfirst": "At the last close: S&P 500 7,297.49 (+1.60%); Nasdaq 24,130 (+2.31%); Dow 50,775 (+1.18%). VIX 23.81 (-11.16%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
       "5 of 6 names on the watchlist closed higher.",
-      "SPG led at +0.56%; BXP lagged at -0.06%."
+      "KRE led at +0.74%; PLD lagged at -0.06%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,7 +147,7 @@
         "body": "November PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 1:17 PM ET, Nov 27"
+    "quote_note": "Quotes ~15-min delayed · as of 2:15 PM ET, Nov 27"
   },
   "markets_tiles": [
     {
@@ -185,11 +185,11 @@
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "24.10",
+      "val": "23.81",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "10.07%",
+        "txt": "11.16%",
         "note": "vs prior close"
       },
       "note": "Open <span class=\"mono\">24.89</span>"
@@ -286,11 +286,11 @@
   ],
   "credit": {
     "headline": "Investment-grade OAS at 1.24%, high-yield at 3.77%",
-    "standfirst": "The high-yield premium over investment grade is 2.53 percentage points. The 2s10s Treasury spread is +24 bps.",
+    "standfirst": "The high-yield premium over investment grade is 2.53 percentage points. The 2s10s Treasury spread is +25 bps.",
     "card_title": "Curve spreads",
     "card_sub": "Current levels, basis points",
     "card_body": [
-      "Across the curve: 2s10s +24 bps; 3m10y +51 bps; 5s30s +59 bps; 10s30s +39 bps."
+      "Across the curve: 2s10s +25 bps; 3m10y +59 bps; 5s30s +59 bps; 10s30s +39 bps."
     ]
   },
   "credit_tiles": [
@@ -337,6 +337,14 @@
   "headlines": [
     {
       "when": "Nov 27",
+      "title": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
+    },
+    {
+      "when": "Nov 27",
       "title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
       "blurb": "",
       "kind": "",
@@ -374,20 +382,12 @@
       "kind": "",
       "tag": "CNBC Finance",
       "link": "https://www.cnbc.com/2026/11/26/nvidias-volatile-swings-expose-risks-of-single-stock-etfs.html"
-    },
-    {
-      "when": "Nov 26",
-      "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.85%, overnight SOFR at 3.95%",
-    "standfirst": "An illustrative agency coupon prices at 6.20–6.50%. The Freddie Mac 30-year survey rate is 7.21%.",
-    "curve_date": "Nov 25, 2026",
+    "headline": "The 10-year at 4.94%, overnight SOFR at 3.95%",
+    "standfirst": "An illustrative agency coupon prices at 6.29–6.59%. The Freddie Mac 30-year survey rate is 7.21%.",
+    "curve_date": "Nov 27, 2026",
     "card_title": "Credit conditions",
     "card_sub": "Bank CRE lending, most recent survey",
     "card_body": [
@@ -398,14 +398,14 @@
   "cre_tiles": [
     {
       "lbl": "10-Yr Treasury",
-      "val": "4.85",
+      "val": "4.94",
       "unit": "%",
       "tone": "",
-      "note": "2s10s curve spread: <span class=\"mono\">+24 bps</span>"
+      "note": "2s10s curve spread: <span class=\"mono\">+25 bps</span>"
     },
     {
       "lbl": "2-Yr Treasury",
-      "val": "4.61",
+      "val": "4.69",
       "unit": "%",
       "tone": "",
       "note": "Policy-sensitive short-end benchmark"
@@ -511,15 +511,15 @@
     },
     {
       "lbl": "Illustrative Agency Coupon",
-      "val": "6.20–6.50",
+      "val": "6.29–6.59",
       "unit": "%",
       "tone": "",
-      "note": "10Y (4.85%) + 135–165 bp agency spread"
+      "note": "10Y (4.94%) + 135–165 bp agency spread"
     }
   ],
   "curve_spreads": {
-    "2s10s": "+24",
-    "3m10y": "+51",
+    "2s10s": "+25",
+    "3m10y": "+59",
     "5s30s": "+59",
     "10s30s": "+39"
   },
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "70.15",
-      "chg": "+0.46%",
+      "price": "70.35",
+      "chg": "+0.74%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "96.14",
-      "chg": "+0.50%",
+      "price": "96.24",
+      "chg": "+0.61%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "63.98",
-      "chg": "-0.06%",
-      "dir": -1
+      "price": "64.24",
+      "chg": "+0.34%",
+      "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "127.06",
-      "chg": "+0.02%",
-      "dir": 1
+      "price": "126.95",
+      "chg": "-0.06%",
+      "dir": -1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.64",
-      "chg": "+0.47%",
+      "price": "65.56",
+      "chg": "+0.35%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "235.28",
-      "chg": "+0.56%",
+      "price": "235.27",
+      "chg": "+0.55%",
       "dir": 1
     }
   ],
@@ -658,77 +658,77 @@
     {
       "t": "3M",
       "x": 0.25,
-      "y": 4.34,
+      "y": 4.35,
       "axis": false,
       "mark": false
     },
     {
       "t": "6M",
       "x": 0.5,
-      "y": 4.44,
+      "y": 4.46,
       "axis": false,
       "mark": false
     },
     {
       "t": "1Y",
       "x": 1,
-      "y": 4.56,
+      "y": 4.61,
       "axis": false,
       "mark": false
     },
     {
       "t": "2Y",
       "x": 2,
-      "y": 4.61,
+      "y": 4.69,
       "axis": true,
       "mark": true
     },
     {
       "t": "3Y",
       "x": 3,
-      "y": 4.64,
+      "y": 4.72,
       "axis": false,
       "mark": false
     },
     {
       "t": "5Y",
       "x": 5,
-      "y": 4.65,
+      "y": 4.74,
       "axis": true,
       "mark": false
     },
     {
       "t": "7Y",
       "x": 7,
-      "y": 4.74,
+      "y": 4.82,
       "axis": false,
       "mark": false
     },
     {
       "t": "10Y",
       "x": 10,
-      "y": 4.85,
+      "y": 4.94,
       "axis": true,
       "mark": true
     },
     {
       "t": "20Y",
       "x": 20,
-      "y": 5.28,
+      "y": 5.36,
       "axis": true,
       "mark": false
     },
     {
       "t": "30Y",
       "x": 30,
-      "y": 5.24,
+      "y": 5.33,
       "axis": true,
       "mark": true
     }
   ],
   "gap": {
     "expiring": 4.76,
-    "new": 6.35
+    "new": 6.44
   },
   "orig": {
     "y2025": 633.7,
