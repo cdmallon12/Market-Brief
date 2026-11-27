@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date_line": "Thursday · Nov 26, 2026",
-    "as_of": "Auto-compiled from public sources · Nov 26, 2026",
-    "compiled": "Compiled Nov 26, 2026 · The Standpoint Brief",
-    "generated_utc": "2026-11-27T02:58:52Z"
+    "date_line": "Friday · Nov 27, 2026",
+    "as_of": "Auto-compiled from public sources · Nov 27, 2026",
+    "compiled": "Compiled Nov 27, 2026 · The Standpoint Brief",
+    "generated_utc": "2026-11-27T14:50:41Z"
   },
   "ticker": [
     {
       "nm": "S&P 500",
-      "vl": "7,182.78",
-      "ch": "-0.25%",
-      "dir": -1
+      "vl": "7,228.36",
+      "ch": "+0.63%",
+      "dir": 1
     },
     {
       "nm": "Nasdaq",
-      "vl": "23,586",
-      "ch": "-0.62%",
-      "dir": -1
+      "vl": "23,755",
+      "ch": "+0.72%",
+      "dir": 1
     },
     {
       "nm": "Dow",
-      "vl": "50,183",
-      "ch": "+0.33%",
+      "vl": "50,510",
+      "ch": "+0.65%",
       "dir": 1
     },
     {
       "nm": "VIX",
-      "vl": "26.80",
-      "ch": "-5.27%",
+      "vl": "26.70",
+      "ch": "-0.37%",
       "dir": -1
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "nm": "SOFR",
-      "vl": "3.94%",
+      "vl": "3.95%",
       "ch": "",
       "dir": 0
     },
@@ -110,13 +110,13 @@
     }
   ],
   "markets": {
-    "headline": "The S&P 500 edged lower 0.25%",
-    "standfirst": "At the last close: S&P 500 7,182.78 (-0.25%); Nasdaq 23,586 (-0.62%); Dow 50,183 (+0.33%). VIX 26.80 (-5.27%).",
+    "headline": "The S&P 500 rose 0.63%",
+    "standfirst": "At the last close: S&P 500 7,228.36 (+0.63%); Nasdaq 23,755 (+0.72%); Dow 50,510 (+0.65%). VIX 26.70 (-0.37%).",
     "card1_title": "Breadth across the watchlist",
     "card1_sub": "Real-estate proxies, latest close",
     "card1_body": [
-      "5 of 6 names on the watchlist closed higher.",
-      "BXP led at +2.14%; PLD lagged at -0.23%."
+      "6 of 6 names on the watchlist closed higher.",
+      "KRE led at +0.60%; PLD lagged at +0.05%."
     ],
     "card2_title": "Coming up",
     "card2_sub": "Next scheduled economic releases (ET)",
@@ -147,52 +147,52 @@
         "body": "November PPI."
       }
     ],
-    "quote_note": "Quotes ~15-min delayed · as of 11:30 AM ET, Nov 26"
+    "quote_note": "Quotes ~15-min delayed · as of 9:50 AM ET, Nov 27"
   },
   "markets_tiles": [
     {
       "lbl": "S&P 500",
-      "val": "7,182.78",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.25%",
-        "note": "vs prior close"
-      },
-      "note": "Prior close <span class=\"mono\">7,201.09</span> · <span class=\"up mono\">+5.4%</span> YoY"
-    },
-    {
-      "lbl": "Nasdaq Composite",
-      "val": "23,586",
-      "tone": "neg",
-      "delta": {
-        "dir": -1,
-        "txt": "0.62%",
-        "note": "vs prior close"
-      },
-      "note": "Prior close <span class=\"mono\">23,734</span>"
-    },
-    {
-      "lbl": "Dow Jones",
-      "val": "50,183",
+      "val": "7,228.36",
       "tone": "pos",
       "delta": {
         "dir": 1,
-        "txt": "0.33%",
+        "txt": "0.63%",
         "note": "vs prior close"
       },
-      "note": "Prior close <span class=\"mono\">50,019</span>"
+      "note": "Open <span class=\"mono\">7,262.61</span> · <span class=\"up mono\">+5.5%</span> YoY"
+    },
+    {
+      "lbl": "Nasdaq Composite",
+      "val": "23,755",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.72%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">23,958</span>"
+    },
+    {
+      "lbl": "Dow Jones",
+      "val": "50,510",
+      "tone": "pos",
+      "delta": {
+        "dir": 1,
+        "txt": "0.65%",
+        "note": "vs prior close"
+      },
+      "note": "Open <span class=\"mono\">50,459</span>"
     },
     {
       "lbl": "VIX · Volatility",
-      "val": "26.80",
+      "val": "26.70",
       "tone": "neg",
       "delta": {
         "dir": -1,
-        "txt": "5.27%",
+        "txt": "0.37%",
         "note": "vs prior close"
       },
-      "note": "Open <span class=\"mono\">27.18</span>"
+      "note": "Open <span class=\"mono\">24.89</span>"
     }
   ],
   "economy": {
@@ -336,8 +336,24 @@
   },
   "headlines": [
     {
-      "when": "Nov 26",
-      "title": "China industrial profits growth surges to a 5-month high of 20.1% in October",
+      "when": "Nov 27",
+      "title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Finance",
+      "link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html"
+    },
+    {
+      "when": "Nov 27",
+      "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+      "blurb": "",
+      "kind": "",
+      "tag": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
+    },
+    {
+      "when": "Nov 27",
+      "title": "China’s factories are growing profits again, but the AI boom is picking the winners",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
@@ -361,31 +377,15 @@
     },
     {
       "when": "Nov 26",
-      "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
-    },
-    {
-      "when": "Nov 26",
       "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
       "blurb": "",
       "kind": "",
       "tag": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
-    },
-    {
-      "when": "Nov 26",
-      "title": "Robots could be doing household chores in just 1-2 years, Chinese EV firm says",
-      "blurb": "",
-      "kind": "",
-      "tag": "CNBC Finance",
-      "link": "https://www.cnbc.com/2026/11/26/china-ev-xpeng-humanoid-robots-household-chores.html"
     }
   ],
   "cre": {
-    "headline": "The 10-year at 4.85%, overnight SOFR at 3.94%",
+    "headline": "The 10-year at 4.85%, overnight SOFR at 3.95%",
     "standfirst": "An illustrative agency coupon prices at 6.20–6.50%. The Freddie Mac 30-year survey rate is 7.21%.",
     "curve_date": "Nov 25, 2026",
     "card_title": "Credit conditions",
@@ -412,7 +412,7 @@
     },
     {
       "lbl": "SOFR · Overnight",
-      "val": "3.94",
+      "val": "3.95",
       "unit": "%",
       "tone": "",
       "note": "The benchmark under most floating CRE debt"
@@ -431,6 +431,12 @@
     }
   ],
   "cre_headlines": [
+    {
+      "source": "Commercial Observer",
+      "title": "This Holiday Season, New York City Retail’s Split Recovery Reaches a Critical Point",
+      "when": "Nov 27",
+      "link": "https://commercialobserver.com/2026/11/new-york-city-retail-split-recovery-vacancies/"
+    },
     {
       "source": "Commercial Observer",
       "title": "In Long Island Real Estate in 2027, Tight Supply Will Be a Key Driver",
@@ -460,12 +466,6 @@
       "title": "RXR Supplies $140M Construction Loan for Miami Rental Development",
       "when": "Nov 25",
       "link": "https://commercialobserver.com/2026/11/rxr-aventura-mall-spoke-group-p6/"
-    },
-    {
-      "source": "Commercial Observer",
-      "title": "Vornado Sells 49% Stake in 90 Park Avenue to Sixth Street, DivcoWest",
-      "when": "Nov 24",
-      "link": "https://commercialobserver.com/2026/11/vornado-90-park-avenue-sixth-street-divco/"
     }
   ],
   "cre_fund_tiles": [
@@ -606,43 +606,43 @@
     {
       "code": "KRE",
       "desc": "Regional banks — hold most CRE debt",
-      "price": "69.83",
-      "chg": "+0.10%",
+      "price": "70.25",
+      "chg": "+0.60%",
       "dir": 1
     },
     {
       "code": "VNQ",
       "desc": "Broad U.S. REITs",
-      "price": "95.66",
-      "chg": "+0.93%",
+      "price": "95.99",
+      "chg": "+0.34%",
       "dir": 1
     },
     {
       "code": "BXP",
       "desc": "Office (Boston Properties)",
-      "price": "64.02",
-      "chg": "+2.14%",
+      "price": "64.08",
+      "chg": "+0.09%",
       "dir": 1
     },
     {
       "code": "PLD",
       "desc": "Industrial / logistics (Prologis)",
-      "price": "127.03",
-      "chg": "-0.23%",
-      "dir": -1
+      "price": "127.09",
+      "chg": "+0.05%",
+      "dir": 1
     },
     {
       "code": "VMRK",
       "desc": "Apartments (Vivmark Residential — ex-AvalonBay/EQR)",
-      "price": "65.33",
-      "chg": "+1.07%",
+      "price": "65.72",
+      "chg": "+0.60%",
       "dir": 1
     },
     {
       "code": "SPG",
       "desc": "Retail malls (Simon)",
-      "price": "233.98",
-      "chg": "+1.81%",
+      "price": "234.99",
+      "chg": "+0.43%",
       "dir": 1
     }
   ],
